@@ -1,18 +1,15 @@
-# Hat 7: Out of Office
+# Out of Office
 
-Status: drafted
+Status: drafted (style v2: minimal)
 
-- **Front:** Orange canoe with cream stripe and paddle, "OUT OF OFFICE" below.
-- **Hat:** Dad hat, forest green
-- **Thread colours:** Orange, Cream. 2 colours.
-- **Size and placement:** Front centre, 3.8 in wide. Artwork size 98 × 36.4 mm.
-- **Files:** design.svg. Text is converted to outlines; flat colours only.
-- **Mockups:** mockup-forest.png
+- **Idea:** Canoe and paddle. The auto-reply is on.
+- **Placement:** Front centre.
+- **Size:** 85 × 34.2 mm
+- **Fabric colourways:** rust, spruce
+- **Thread colours (first colourway):** bone
+- **Files:** `design.svg` (first colourway) plus `design-<fabric>.svg` for the others. Text is outlined; lines are 1.6 mm.
+- **Previews:** `preview-<fabric>.png`, flat on fabric at true scale.
 
 ## Clearance check
 
-Low. "Out of office" is a common phrase on many hats; no one owns it, but that also means it is not unique to us.
-
-## For the owner to decide
-
-—
+No conflict found in a first web search. Owner to confirm before selling.

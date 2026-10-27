@@ -29,20 +29,24 @@ Every design, listing and post comes back to one idea: **you put in the hours, t
 - Plain-spoken, a bit funny, never try-hard
 - Respect for work; celebration of time off
 - Short lines. Hat text has to read from across a parking lot.
-- Good: "Clocked out. Lines in." / "Shift's over. Tee's up." / "Off the clock, on the water."
+- Good: "Punched out." / "Lines in." / "Shift's over. Tee's up." / "Off the clock, on the water."
 - Avoid: corporate words, hustle-culture talk, anything mocking people's jobs, politics, profanity
 
-## Look
+## Look (v2: minimal)
 
-- **Colours:** dark navy, forest green, khaki/stone, charcoal, with one accent: safety orange (nod to work gear and hunter orange). Hats mostly in navy, green, khaki, black and charcoal.
-- **Type:** bold, condensed, slightly industrial (think stencil or work-uniform lettering). Easy to embroider: no thin strokes, no tiny text.
-- **Logo direction:** "OFF SHFT" wordmark, plus a simple badge version (e.g. a punch-clock card or a time-clock dial with the hand pointing to "off"). Must work as 1–3 colour embroidery at ~2 inches wide.
-- **Icons per hobby:** fish, golf flag, cornhole board with bag, canoe/cottage, all in the same line weight.
+Reference brands: Duck Camp, Huk. Quiet, small, well-spaced. One strong symbol instead of big slogans.
+
+- **Symbol:** a clock stopped at 5:00 (quitting time), drawn as a single line. It works alone on the front or side of a hat.
+- **Type:** Archivo Expanded (wide, clean sans), all caps, generously letter-spaced. Small sizes. No condensed block fonts.
+- **Icons:** single-weight line drawings, 1.6 mm line, rounded ends. One icon per design. No clip art, no gradients, no shading.
+- **Layout:** icon on top, one short label underneath, optional tiny "OFF SHFT" sign-off. Lots of empty fabric around it.
+- **Thread colours:** Bone #ECE5D3, Ink #1F2733, Rust #B4552D, Sun #D29B3C, Sage #9AA383. Two or three per design.
+- **Fabric colours:** Bone, Oat, Moss, Spruce, Slate, Rust.
 
 ## Design rules (for embroidery)
 
 - Maximum 6 thread colours per design, 3–4 is better
-- No text smaller than 0.25 in (6 mm) tall
+- No text smaller than 4.5 mm cap height, and only in a bold weight
 - No gradients, no photos, no very thin lines
 - Front panel design area roughly 4 in wide × 1.75 in tall; side and back designs smaller
-- Deliver vector files (SVG or AI) plus a PNG mockup
+- Deliver vector files (SVG or AI) plus a flat PNG preview on the fabric colour

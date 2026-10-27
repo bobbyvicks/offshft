@@ -1,127 +1,281 @@
-[
-  {
-    "slug": "logo-a-wordmark",
-    "size": {
-      "w": 88,
-      "h": 23
-    },
-    "files": [
-      "mockup-navy.png",
-      "mockup-khaki.png",
-      "mockup-black.png"
-    ]
+{
+  "threads": {
+    "bone": "#ECE5D3",
+    "ink": "#1F2733",
+    "rust": "#B4552D",
+    "sun": "#D29B3C",
+    "sage": "#9AA383"
   },
-  {
-    "slug": "logo-b-clock",
-    "size": {
-      "w": 45,
-      "h": 45
-    },
-    "files": [
-      "mockup-navy.png",
-      "mockup-khaki.png",
-      "mockup-black.png"
-    ]
+  "fabrics": {
+    "bone": "#E4DDCB",
+    "oat": "#C7B48E",
+    "moss": "#5A5F40",
+    "spruce": "#2E3D35",
+    "slate": "#27303D",
+    "rust": "#8E4426"
   },
-  {
-    "slug": "logo-c-punchcard",
-    "size": {
-      "w": 76,
-      "h": 44
+  "designs": [
+    {
+      "slug": "01-clock-mark",
+      "name": "The Clock",
+      "group": "Brand",
+      "idea": "The brand symbol: a clock stopped at 5:00. Quitting time. Works alone, like a Huk \"H\".",
+      "placement": "Front centre at 1 in, or on the side of any hat.",
+      "size": {
+        "w": 24,
+        "h": 24
+      },
+      "colorways": [
+        {
+          "fabric": "spruce",
+          "fabricHex": "#2E3D35",
+          "file": "preview-spruce.png",
+          "svg": "design.svg"
+        },
+        {
+          "fabric": "oat",
+          "fabricHex": "#C7B48E",
+          "file": "preview-oat.png",
+          "svg": "design-oat.svg"
+        },
+        {
+          "fabric": "slate",
+          "fabricHex": "#27303D",
+          "file": "preview-slate.png",
+          "svg": "design-slate.svg"
+        }
+      ]
     },
-    "files": [
-      "mockup-navy.png",
-      "mockup-khaki.png",
-      "mockup-black.png"
-    ]
-  },
-  {
-    "slug": "01-wordmark",
-    "size": {
-      "w": 88,
-      "h": 23
+    {
+      "slug": "02-lockup",
+      "name": "Clock + Name",
+      "group": "Brand",
+      "idea": "The main logo. Clock and name side by side, small and quiet.",
+      "placement": "Front centre, about 2.75 in wide.",
+      "size": {
+        "w": 76,
+        "h": 14.9
+      },
+      "colorways": [
+        {
+          "fabric": "bone",
+          "fabricHex": "#E4DDCB",
+          "file": "preview-bone.png",
+          "svg": "design.svg"
+        },
+        {
+          "fabric": "moss",
+          "fabricHex": "#5A5F40",
+          "file": "preview-moss.png",
+          "svg": "design-moss.svg"
+        },
+        {
+          "fabric": "slate",
+          "fabricHex": "#27303D",
+          "file": "preview-slate.png",
+          "svg": "design-slate.svg"
+        }
+      ]
     },
-    "files": [
-      "mockup-navy.png",
-      "mockup-black.png"
-    ]
-  },
-  {
-    "slug": "02-time-clock-badge",
-    "size": {
-      "w": 45,
-      "h": 45
+    {
+      "slug": "03-stacked",
+      "name": "Stacked",
+      "group": "Brand",
+      "idea": "OFF over SHFT, with the clock tucked in after OFF.",
+      "placement": "Front left of centre, or as a small woven label.",
+      "size": {
+        "w": 39.2,
+        "h": 17.4
+      },
+      "colorways": [
+        {
+          "fabric": "oat",
+          "fabricHex": "#C7B48E",
+          "file": "preview-oat.png",
+          "svg": "design.svg"
+        },
+        {
+          "fabric": "spruce",
+          "fabricHex": "#2E3D35",
+          "file": "preview-spruce.png",
+          "svg": "design-spruce.svg"
+        }
+      ]
     },
-    "files": [
-      "mockup-stone.png",
-      "mockup-forest.png",
-      "mockup-back.png"
-    ]
-  },
-  {
-    "slug": "03-lines-in",
-    "size": {
-      "w": 88,
-      "h": 29.5
+    {
+      "slug": "04-after-hours",
+      "name": "After Hours",
+      "group": "Time off",
+      "idea": "Sun going down over the water. The end of the shift, for any hobby.",
+      "placement": "Front centre.",
+      "size": {
+        "w": 78.2,
+        "h": 35.2
+      },
+      "colorways": [
+        {
+          "fabric": "slate",
+          "fabricHex": "#27303D",
+          "file": "preview-slate.png",
+          "svg": "design.svg"
+        },
+        {
+          "fabric": "bone",
+          "fabricHex": "#E4DDCB",
+          "file": "preview-bone.png",
+          "svg": "design-bone.svg"
+        }
+      ]
     },
-    "files": [
-      "mockup-charcoal.png",
-      "side.png"
-    ]
-  },
-  {
-    "slug": "04-walleye-shift",
-    "size": {
-      "w": 100,
-      "h": 44
+    {
+      "slug": "05-lines-in",
+      "name": "Lines In",
+      "group": "Fishing",
+      "idea": "One clean fish outline. Fishing without the clip art.",
+      "placement": "Front centre.",
+      "size": {
+        "w": 47.8,
+        "h": 35.2
+      },
+      "colorways": [
+        {
+          "fabric": "moss",
+          "fabricHex": "#5A5F40",
+          "file": "preview-moss.png",
+          "svg": "design.svg"
+        },
+        {
+          "fabric": "oat",
+          "fabricHex": "#C7B48E",
+          "file": "preview-oat.png",
+          "svg": "design-oat.svg"
+        }
+      ]
     },
-    "files": [
-      "mockup-forest.png",
-      "mockup-back.png"
-    ]
-  },
-  {
-    "slug": "05-tees-up",
-    "size": {
-      "w": 82,
-      "h": 27.5
+    {
+      "slug": "06-back-nine",
+      "name": "Back Nine",
+      "group": "Golf",
+      "idea": "Pin flag on the green. Back nine is where the day ends.",
+      "placement": "Front centre.",
+      "size": {
+        "w": 60.2,
+        "h": 42.2
+      },
+      "colorways": [
+        {
+          "fabric": "bone",
+          "fabricHex": "#E4DDCB",
+          "file": "preview-bone.png",
+          "svg": "design.svg"
+        },
+        {
+          "fabric": "spruce",
+          "fabricHex": "#2E3D35",
+          "file": "preview-spruce.png",
+          "svg": "design-spruce.svg"
+        }
+      ]
     },
-    "files": [
-      "mockup-white.png",
-      "mockup-navy.png",
-      "side.png"
-    ]
-  },
-  {
-    "slug": "06-mulligan-monday",
-    "size": {
-      "w": 98,
-      "h": 30.5
+    {
+      "slug": "07-out-of-office",
+      "name": "Out of Office",
+      "group": "Time off",
+      "idea": "Canoe and paddle. The auto-reply is on.",
+      "placement": "Front centre.",
+      "size": {
+        "w": 85,
+        "h": 34.2
+      },
+      "colorways": [
+        {
+          "fabric": "rust",
+          "fabricHex": "#8E4426",
+          "file": "preview-rust.png",
+          "svg": "design.svg"
+        },
+        {
+          "fabric": "spruce",
+          "fabricHex": "#2E3D35",
+          "file": "preview-spruce.png",
+          "svg": "design-spruce.svg"
+        }
+      ]
     },
-    "files": [
-      "mockup-khaki.png",
-      "mockup-back.png"
-    ]
-  },
-  {
-    "slug": "07-out-of-office",
-    "size": {
-      "w": 98,
-      "h": 36.4
+    {
+      "slug": "08-dock-hours",
+      "name": "Dock Hours",
+      "group": "Time off",
+      "idea": "A Muskoka chair and the sun going down. Cottage time.",
+      "placement": "Front centre.",
+      "size": {
+        "w": 73.1,
+        "h": 42.2
+      },
+      "colorways": [
+        {
+          "fabric": "oat",
+          "fabricHex": "#C7B48E",
+          "file": "preview-oat.png",
+          "svg": "design.svg"
+        },
+        {
+          "fabric": "slate",
+          "fabricHex": "#27303D",
+          "file": "preview-slate.png",
+          "svg": "design-slate.svg"
+        }
+      ]
     },
-    "files": [
-      "mockup-forest.png"
-    ]
-  },
-  {
-    "slug": "08-dock-hours",
-    "size": {
-      "w": 45,
-      "h": 45
+    {
+      "slug": "09-punched-out",
+      "name": "Punched Out.",
+      "group": "Text",
+      "idea": "Just the line, small, with a full stop. Says enough.",
+      "placement": "Front centre, about 2.5 in wide.",
+      "size": {
+        "w": 78.5,
+        "h": 4.8
+      },
+      "colorways": [
+        {
+          "fabric": "slate",
+          "fabricHex": "#27303D",
+          "file": "preview-slate.png",
+          "svg": "design.svg"
+        },
+        {
+          "fabric": "bone",
+          "fabricHex": "#E4DDCB",
+          "file": "preview-bone.png",
+          "svg": "design-bone.svg"
+        }
+      ]
     },
-    "files": [
-      "mockup-stone.png",
-      "mockup-back.png"
-    ]
-  }
-]
+    {
+      "slug": "10-mulligan-monday",
+      "name": "Mulligan Monday",
+      "group": "Text",
+      "idea": "Two lines, left-aligned, small rust underline.",
+      "placement": "Front left of centre. Trademark check needed before selling.",
+      "size": {
+        "w": 64.6,
+        "h": 18.8
+      },
+      "colorways": [
+        {
+          "fabric": "oat",
+          "fabricHex": "#C7B48E",
+          "file": "preview-oat.png",
+          "svg": "design.svg"
+        },
+        {
+          "fabric": "moss",
+          "fabricHex": "#5A5F40",
+          "file": "preview-moss.png",
+          "svg": "design-moss.svg"
+        }
+      ]
+    }
+  ]
+}
