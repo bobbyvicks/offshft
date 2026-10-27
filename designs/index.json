@@ -1,0 +1,127 @@
+[
+  {
+    "slug": "logo-a-wordmark",
+    "size": {
+      "w": 88,
+      "h": 23
+    },
+    "files": [
+      "mockup-navy.png",
+      "mockup-khaki.png",
+      "mockup-black.png"
+    ]
+  },
+  {
+    "slug": "logo-b-clock",
+    "size": {
+      "w": 45,
+      "h": 45
+    },
+    "files": [
+      "mockup-navy.png",
+      "mockup-khaki.png",
+      "mockup-black.png"
+    ]
+  },
+  {
+    "slug": "logo-c-punchcard",
+    "size": {
+      "w": 76,
+      "h": 44
+    },
+    "files": [
+      "mockup-navy.png",
+      "mockup-khaki.png",
+      "mockup-black.png"
+    ]
+  },
+  {
+    "slug": "01-wordmark",
+    "size": {
+      "w": 88,
+      "h": 23
+    },
+    "files": [
+      "mockup-navy.png",
+      "mockup-black.png"
+    ]
+  },
+  {
+    "slug": "02-time-clock-badge",
+    "size": {
+      "w": 45,
+      "h": 45
+    },
+    "files": [
+      "mockup-stone.png",
+      "mockup-forest.png",
+      "mockup-back.png"
+    ]
+  },
+  {
+    "slug": "03-lines-in",
+    "size": {
+      "w": 88,
+      "h": 29.5
+    },
+    "files": [
+      "mockup-charcoal.png",
+      "side.png"
+    ]
+  },
+  {
+    "slug": "04-walleye-shift",
+    "size": {
+      "w": 100,
+      "h": 44
+    },
+    "files": [
+      "mockup-forest.png",
+      "mockup-back.png"
+    ]
+  },
+  {
+    "slug": "05-tees-up",
+    "size": {
+      "w": 82,
+      "h": 27.5
+    },
+    "files": [
+      "mockup-white.png",
+      "mockup-navy.png",
+      "side.png"
+    ]
+  },
+  {
+    "slug": "06-mulligan-monday",
+    "size": {
+      "w": 98,
+      "h": 30.5
+    },
+    "files": [
+      "mockup-khaki.png",
+      "mockup-back.png"
+    ]
+  },
+  {
+    "slug": "07-out-of-office",
+    "size": {
+      "w": 98,
+      "h": 36.4
+    },
+    "files": [
+      "mockup-forest.png"
+    ]
+  },
+  {
+    "slug": "08-dock-hours",
+    "size": {
+      "w": 45,
+      "h": 45
+    },
+    "files": [
+      "mockup-stone.png",
+      "mockup-back.png"
+    ]
+  }
+]
