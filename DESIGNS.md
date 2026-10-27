@@ -1,52 +1,58 @@
-# First 15 designs
+# Designs
 
-Launch line-up: 3 core logo hats plus 12 hobby hats. Every hobby hat carries the OFF SHFT mark somewhere (side, back or under the main text) so the brand builds with every sale.
+## Drop 1: 8 hats
+
+Mix of clean and funny (4 each), covering fishing, golf and cottage/time-off. Cornhole waits for drop 2.
 
 Status key: `idea` → `drafted` → `approved` → `sample ordered` → `live`
 
-## Core (sell to everyone)
+### Order of work
 
-| # | Name | Front | Side/back | Hat | Status |
-|---|---|---|---|---|---|
-| 1 | Wordmark | OFF SHFT wordmark | — | Structured snapback, navy / black / khaki | idea |
-| 2 | Time Clock badge | Punch-clock badge logo | "EARNED IT" on back | Unstructured dad hat, stone / green | idea |
-| 3 | Clocked Out | "CLOCKED OUT" small, with OFF SHFT underneath | — | Trucker, charcoal/white mesh | idea |
+1. **Logos first.** Draft all three logo directions below; the owner picks one. Hats 1 and 2, and every "OFF SHFT on back", depend on it.
+2. **Then hats 3–8**, using the chosen logo.
+3. **Clearance check** on every slogan before it goes live (see bottom of this file).
 
-## Fishing
+### Step 1: Logo directions (draft all three)
 
-| # | Name | Front | Side/back | Hat | Status |
-|---|---|---|---|---|---|
-| 4 | Lines In | "CLOCKED OUT. LINES IN." | Small fish icon on side | Trucker | idea |
-| 5 | Walleye Shift | Walleye illustration | OFF SHFT on back | Dad hat, green | idea |
-| 6 | Bass Hours | "BASS HOURS" | Hours of the bite: "5AM–DARK" on side | Snapback | idea |
-| 7 | Overtime | Fish with "OVERTIME" | — | Trucker, orange accent | idea |
+| Option | Description | Status |
+|---|---|---|
+| A. Bold wordmark | "OFF SHFT" in heavy condensed caps. Must embroider cleanly at 2 in wide. | idea |
+| B. Time-clock badge | Round badge: clock face with the hand pointing to "OFF", OFF SHFT around the top edge, "EARNED IT" around the bottom. | idea |
+| C. Punch card | Rectangular patch shaped like a time card: "IN 07:00 / OUT", with OFF SHFT stamped in the OUT slot. | idea |
 
-## Golf
+Deliver each as `designs/logo-a-wordmark/`, `designs/logo-b-clock/`, `designs/logo-c-punchcard/` with SVG, mockup on navy, khaki and black hats, and notes. Owner picks one; the others go to the backlog (they may still work as secondary badges).
 
-| # | Name | Front | Side/back | Hat | Status |
-|---|---|---|---|---|---|
-| 8 | Tee's Up | "SHIFT'S OVER. TEE'S UP." | Golf flag icon on side | Rope/performance cap, white / navy | idea |
-| 9 | Back Nine Shift | "BACK NINE SHIFT" | — | Dad hat, stone | idea |
-| 10 | Mulligan Monday | "MULLIGAN MONDAY" | OFF SHFT on back | Snapback | idea |
+### Step 2: The 8 hats
 
-## Cornhole
+| # | Hat | Style and colour | Vibe | Front | Side / back | Status |
+|---|---|---|---|---|---|---|
+| 1 | OFF SHFT Wordmark | Structured snapback, navy / black | Clean | Chosen logo | — | idea |
+| 2 | Time Clock Badge | Dad hat, stone / forest green | Clean | Clock badge | "EARNED IT" on back | idea |
+| 3 | Lines In | Trucker, charcoal | Funny | "CLOCKED OUT. LINES IN." | Small fish icon on side | idea |
+| 4 | Walleye Shift | Dad hat, forest green | Clean | Walleye illustration | OFF SHFT on back | idea |
+| 5 | Tee's Up | Performance cap, white / navy | Funny | "SHIFT'S OVER. TEE'S UP." | Golf flag icon on side | idea |
+| 6 | Mulligan Monday | Snapback, khaki | Funny | "MULLIGAN MONDAY" | OFF SHFT on back | idea |
+| 7 | Out of Office | Dad hat, forest green | Funny | Canoe icon + "OUT OF OFFICE" | — | idea |
+| 8 | Dock Hours | Trucker, stone | Clean | Dock-at-sunset badge, "DOCK HOURS" | OFF SHFT on back | idea |
 
-| # | Name | Front | Side/back | Hat | Status |
-|---|---|---|---|---|---|
-| 11 | Bags After Work | "BAGS AFTER WORK" | Cornhole board icon on side | Trucker | idea |
-| 12 | Airmail | Bag flying into a hole, "AIRMAIL" | — | Snapback, black | idea |
+Note: "Long Weekend" was dropped because G/FORE sells a "Long Wknd" golf hat. Dock Hours replaces it.
 
-## Cottage / general time-off
+## Backlog (drop 2 and later)
 
-| # | Name | Front | Side/back | Hat | Status |
-|---|---|---|---|---|---|
-| 13 | Out of Office | Canoe icon + "OUT OF OFFICE" | — | Dad hat, green | idea |
-| 14 | Long Weekend | "LONG WEEKEND" with dock and sunset badge | OFF SHFT on back | Trucker, stone | idea |
-| 15 | Night Shift Fisherman | Moon over water, "NIGHT SHIFT" | — | Black dad hat, glow-in-dark thread if available | idea |
+| Hat | Hobby | Notes |
+|---|---|---|
+| Clocked Out | General | Trucker, "CLOCKED OUT" with OFF SHFT underneath |
+| Bass Hours | Fishing | "BASS HOURS", "5AM–DARK" on side |
+| Overtime | Fishing | Fish with "OVERTIME", orange accent |
+| Night Shift | Fishing | Moon over water, glow-in-dark thread if available |
+| Back Nine Shift | Golf | "BACK NINE SHIFT" dad hat |
+| Bags After Work | Cornhole | "BAGS AFTER WORK", board icon on side |
+| Airmail | Cornhole | Bag flying into hole, "AIRMAIL" |
+| Toques | All | Winter versions of best sellers for Q4 |
 
 ## Before any design goes live
 
 1. Search the exact phrase on Etsy, Amazon and Google Images. If a brand clearly owns it, rework it.
 2. Check the phrase isn't a registered trademark for clothing (CIPO in Canada, USPTO in the US).
-3. No team logos, league names, fish-species art copied from someone else, or golf course names without permission.
+3. No team logos, league names, copied artwork, or golf course names without permission.
 4. Owner approves the mockup.
