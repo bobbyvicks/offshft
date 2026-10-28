@@ -3,7 +3,7 @@
 'use strict';
 const fs = require('fs');
 const G = require('/home/user/offshft/designs/mark/explore/W/lib.cjs');
-const { kit, PathB, poly, handsOutline, closedShape, circle, frame, place, svgPaths, sh, f3 } = G;
+const { kit, PathB, poly, handsOutline, circle, frame, place, svgPaths, sh, f3 } = G;
 
 const ROOT = '/home/user/offshft/designs/mark/explore/W';
 const C = [0, 0];
@@ -79,9 +79,9 @@ V.W3 = {
     const glow = new PathB();
     if (!small) {
       circle(pb, C, Rhole);
-      // channel: from one wall outside the ring to one wall short of where the point starts
+      // channel: starts where the ring ends (one wall from the pin hole), stops just short of the point
       for (const [deg, s, L, slot] of [[MIN, mS, Lm, slotM], [HR, hS, Lh, slotH]]) {
-        const t0 = R + wall * 0.0 + 0.0, t1 = L - tipLen(s, 90) - wall * 0.15;
+        const t0 = R, t1 = L - tipLen(s, 90) - wall * 0.15;
         stadium(pb, frame(C, deg), t0, t1, slot / 2);
         if (lume) stadium(glow, frame(C, deg), t0, t1, slot / 2);
       }
@@ -93,8 +93,8 @@ V.W3 = {
 };
 
 // W4 DAUPHINE. Faceted blades on a solid collet. Light comes from the left, so the minute hand's left facet
-// and the hour hand's lower-left facet are lit. Facets stay 1.2 mm or wider until the point. 40 degree points.
-// One-colour version is the plain silhouette.
+// and the hour hand's lower-left facet are lit. Each facet is 1.3 mm or wider until the 40 degree point begins
+// (inside the point both facets taper together, like any stitched point). One-colour version is the silhouette.
 V.W4 = {
   name: 'Dauphine',
   colours: { light: kit.T.rust, lit: kit.T.rust, shade: kit.T.ink, dark: kit.T.bone, darkLit: kit.T.bone, darkShade: kit.T.sun, word: kit.T.ink },

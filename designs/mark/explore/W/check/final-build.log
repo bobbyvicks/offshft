@@ -1,0 +1,6 @@
+W1 lockup per-colour check at true size: {"#B4552D":{"thin_mm2":0.207,"gap_mm2":0.099},"#1F2733":{"thin_mm2":3.706,"gap_mm2":3.329}}
+W1 Pin mark 8.458x25.033mm check25 {"thin_mm2":0.204,"gap_mm2":0.091} small@13 {"thin_mm2":0.199,"gap_mm2":0.05} lockup 89.327x26.788 k=0.95 markH=23.788 gap=5.706 stem=1.765
+W2 lockup per-colour check at true size: {"#1F2733":{"thin_mm2":4.741,"gap_mm2":2.553}}
+W2 Leaf mark 7.509x25.22mm check25 {"thin_mm2":1.01,"gap_mm2":0.163} small@13 {"thin_mm2":1.032,"gap_mm2":0.087} lockup 93.376x26.922 k=0.949 markH=23.922 gap=6.751 stem=1.551
+W3 per-colour check (dark version, 25 mm): {"#ECE5D3":{"thin_mm2":0.204,"gap_mm2":0.077},"#D29B3C":{"thin_mm2":0.039,"gap_mm2":0}}
+W3 lockup per-colour check at true size: {"#1F2733":{"thin_mm2":3.917,"gap_mm2":3.482},"#D29B3C":{"thin_mm2":0.036,"gap_mm2":0}}

@@ -9,5 +9,38 @@
   "thinnest25": 2.4,
   "thinnest13": 1.25,
   "note": "cut 9.52 below centre, 3.19 below hour tip"
+ },
+ {
+  "id": "C2",
+  "size": "22.55 x 25.00 mm",
+  "minuteLen25": "8.90",
+  "hourLen25": "5.50",
+  "bridge25": 2.37,
+  "knockout25": 2.4,
+  "thinnest25": 2.37,
+  "thinnest13": 1.23,
+  "note": "Rc 13.02 chamfer R 12.5"
+ },
+ {
+  "id": "C3",
+  "size": "25.00 x 21.22 mm",
+  "minuteLen25": "8.90",
+  "hourLen25": "5.50",
+  "bridge25": 2.4,
+  "knockout25": 2.4,
+  "thinnest25": 2.4,
+  "thinnest13": 1.25,
+  "note": "hub at 59% height"
+ },
+ {
+  "id": "C4",
+  "size": "25.00 x 25.00 mm",
+  "minuteLen25": "10.35",
+  "hourLen25": "6.40",
+  "bridge25": 2.95,
+  "knockout25": 2.79,
+  "thinnest25": 2.79,
+  "thinnest13": 1.45,
+  "note": "hub at 59% height"
  }
 ]

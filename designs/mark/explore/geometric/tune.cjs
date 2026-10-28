@@ -105,7 +105,63 @@ const G4skel = (o) => {
   return loops;
 };
 
+const square = (c, a, rotDeg) => {
+  const r = (rotDeg * Math.PI) / 180;
+  return [[-a, -a], [a, -a], [a, a], [-a, a]].map(([x, y]) => [c[0] + x * Math.cos(r) - y * Math.sin(r), c[1] + x * Math.sin(r) + y * Math.cos(r)]);
+};
+const G1v2 = (o) => {
+  const hour = capBar(P, 150, o.Lh, o.wh);
+  const hourGap = capBar(P, 150, o.Lh + o.g, o.wh + 2 * o.g);
+  const minute = difference([bar(P, 0, { len: o.Lm, w: o.wm })], [hourGap]);
+  const rv = o.rv === 'square' ? square(P, o.k, -30) : o.rv === 'round' ? circ(P, o.k, 96) : diamond(P, o.k);
+  return [...minute, ...union([hour]), rv];
+};
+const G1v2m = (o) => {
+  const minute = capBar(P, 0, o.Lm, o.wm);
+  const mGap = capBar(P, 0, o.Lm + o.g, o.wm + 2 * o.g);
+  const hour = difference([bar(P, 150, { len: o.Lh, w: o.wh })], [mGap]);
+  const rv = o.rv === 'round' ? circ(P, o.k, 96) : diamond(P, o.k);
+  return [...union([minute]), ...hour, rv];
+};
+const G2v2 = (o) => {
+  const S = o.S, half = S / 2;
+  const c = [0, o.cy || 0];
+  const m = bar(c, 0, { len: o.slot ? half + 2 + c[1] : half - o.top + c[1], w: o.wm });
+  const h = bar(c, 150, { len: o.Lh, w: o.wh });
+  const loops = difference([rectPoly(-half, -half, S, S)], [m, h, circ(c, o.hub)]);
+  loops.push(circ(c, o.pin, 120));
+  return loops;
+};
+const G3v2 = (o) => {
+  const ring = circ(P, o.rc + o.g);
+  const m = difference([bar(P, 0, { len: o.Lm, w: o.wm, tail: o.mt || 0 })], [ring]);
+  const h = difference([bar(P, 150, { len: o.Lh, w: o.wh, tail: o.ht || 0 })], [ring]);
+  const cap = o.capRing ? difference([circ(P, o.rc)], [circ(P, o.rc - o.capRing)]) : [circ(P, o.rc)];
+  return [...m, ...h, ...cap];
+};
+
 const SETS = {
+  g1v2: [
+    ['a-diamond', G1v2, { wm: 2.5, wh: 3.5, Lm: 14, Lh: 6, g: 1.1, k: 0.78 }],
+    ['b-square30', G1v2, { wm: 2.5, wh: 3.5, Lm: 14, Lh: 6, g: 1.1, k: 0.55, rv: 'square' }],
+    ['c-round', G1v2, { wm: 2.5, wh: 3.5, Lm: 14, Lh: 6, g: 1.1, k: 0.6, rv: 'round' }],
+    ['d-minutetop', G1v2m, { wm: 3.2, wh: 2.8, Lm: 13.5, Lh: 6.8, g: 1.1, k: 0.75 }],
+    ['e-slimmer', G1v2, { wm: 2.2, wh: 3.4, Lm: 14, Lh: 6.2, g: 1.05, k: 0.74 }],
+    ['f-shorter', G1v2, { wm: 2.5, wh: 3.5, Lm: 13, Lh: 6, g: 1.1, k: 0.78 }],
+  ],
+  g2v2: [
+    ['a-current', G2v2, { S: 16, wm: 2, wh: 2.4, top: 2.25, Lh: 4.7, hub: 1.9, pin: 0.8, fill: kit.T.rust }],
+    ['b-bigger', G2v2, { S: 16, wm: 2.2, wh: 2.6, top: 1.6, Lh: 5.4, hub: 2.0, pin: 0.85, fill: kit.T.rust }],
+    ['c-slot', G2v2, { S: 16, wm: 2.2, wh: 2.6, slot: true, Lh: 5.2, hub: 2.0, pin: 0.85, fill: kit.T.rust }],
+    ['d-low', G2v2, { S: 16, wm: 2.2, wh: 2.6, top: 1.8, Lh: 4.4, hub: 2.0, pin: 0.85, cy: 1.3, fill: kit.T.rust }],
+  ],
+  g3v2: [
+    ['a-longer', G3v2, { wm: 2.2, wh: 2.6, Lm: 12.5, Lh: 6.4, rc: 1.7, g: 0.9 }],
+    ['b-mtail', G3v2, { wm: 2.2, wh: 2.6, Lm: 12.5, Lh: 6.4, rc: 1.7, g: 0.9, mt: 4.6 }],
+    ['c-bothtails', G3v2, { wm: 2.2, wh: 2.6, Lm: 12.5, Lh: 6.4, rc: 1.7, g: 0.9, mt: 4.4, ht: 4.4 }],
+    ['d-bigcap', G3v2, { wm: 2.2, wh: 2.6, Lm: 12.5, Lh: 6.6, rc: 2.1, g: 0.85 }],
+    ['e-capring', G3v2, { wm: 2.2, wh: 2.6, Lm: 12.5, Lh: 6.6, rc: 2.2, g: 0.85, capRing: 1.0 }],
+  ],
   g4s: [
     ['a-skel-dot', G4skel, { w: 2.8, R: 2.3, t: 0.85, Lm: 10, Lh: 6.3, dot: 0.6, fill: kit.T.rust }],
     ['b-skel-nodot', G4skel, { w: 2.8, R: 1.9, t: 0.85, Lm: 10, Lh: 6.3, dot: 0, fill: kit.T.rust }],
