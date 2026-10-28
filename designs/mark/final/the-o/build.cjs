@@ -134,7 +134,9 @@ function strokes(fontKey, cap) {
 // ---------------------------------------------------------------- geometry
 // Options: wallFactor = ring side wall as a multiple of the stem (default 1.0, 0.98 one colour);
 //          ticks = 'four' (12, 3, 6, 9) or 'three' (3, 6, 9) inside the ring, in the ring colour.
-function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks, oScale = O_SCALE, dot: wantDot = true } = {}) {
+// Hand options: handW = minute-hand width in mm (hour hand 3% wider; default = the letter stem),
+//               minuteLen / hourLen = visible length past the channel, in cap heights.
+function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks, oScale = O_SCALE, dot: wantDot = true, handW, minuteLen = 0.936, hourLen = 0.667 } = {}) {
   const ref = kit.text('OFF SHFT', { font: font.key, cap, track: font.track, x: 0, y: 0 });
   const O = ref.letters[0];
   const { stem, arm } = strokes(font.key, cap);
@@ -150,8 +152,8 @@ function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks, oS
   if (dot < 1.5 || !wantDot) dot = 0;
   return {
     font, cap, ref, O, stem, arm, R, rx, ry, g, dot, oneColour, fabricMin, ticks, tickLen, tickW,
-    sM: stem * 0.5, sH: stem * 0.51,
-    Lm: R + g + 0.936 * cap, Lh: R + g + 0.667 * cap,
+    sM: handW ? handW / 2 : stem * 0.5, sH: handW ? (handW * 1.03) / 2 : stem * 0.51,
+    Lm: R + g + minuteLen * cap, Lh: R + g + hourLen * cap,
     points: true,
   };
 }
