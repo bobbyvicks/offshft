@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "L01-wordmark",
+    "name": "Wordmark",
+    "idea": "Just the name. Wide, spaced out, nothing else.",
+    "size": {
+      "w": 87,
+      "h": 8
+    }
+  },
+  {
+    "slug": "L02-clock-o",
+    "name": "Clock O",
+    "idea": "The O in OFF becomes the clock, stopped at 5:00.",
+    "size": {
+      "w": 100,
+      "h": 10.2
+    }
+  },
+  {
+    "slug": "L03-clock-name",
+    "name": "Clock + Name",
+    "idea": "Clock symbol beside the name. The one from round 2, tightened.",
+    "size": {
+      "w": 92.3,
+      "h": 13.2
+    }
+  },
+  {
+    "slug": "L04-stacked",
+    "name": "Stacked",
+    "idea": "OFF over SHFT, clock tucked in after OFF. Square, good for a patch.",
+    "size": {
+      "w": 52.1,
+      "h": 23.6
+    }
+  },
+  {
+    "slug": "L05-dash",
+    "name": "Off — Shft",
+    "idea": "A long dash between the words, like a time range on a schedule.",
+    "size": {
+      "w": 88.3,
+      "h": 7.4
+    }
+  },
+  {
+    "slug": "L06-lowercase",
+    "name": "Lowercase",
+    "idea": "off shft in lowercase. Friendlier, more laid back.",
+    "size": {
+      "w": 64.3,
+      "h": 12
+    }
+  },
+  {
+    "slug": "L07-full-stop",
+    "name": "Full Stop",
+    "idea": "Heavy name with a rust full stop. Done for the day. Pairs with the Punched Out. hat.",
+    "size": {
+      "w": 90.9,
+      "h": 9
+    }
+  },
+  {
+    "slug": "L08-round-badge",
+    "name": "Round Badge",
+    "idea": "Clock in the middle, name around the top. A classic round patch.",
+    "size": {
+      "w": 44,
+      "h": 44
+    }
+  },
+  {
+    "slug": "L09-switch",
+    "name": "Switch",
+    "idea": "A toggle switched to off, beside the name. Modern and simple.",
+    "size": {
+      "w": 94,
+      "h": 9
+    }
+  },
+  {
+    "slug": "L10-time-card",
+    "name": "Time Card",
+    "idea": "OFF punched out in a solid block, SHFT in the open. A two-part stamp.",
+    "size": {
+      "w": 76.6,
+      "h": 13.2
+    }
+  },
+  {
+    "slug": "L11-horizon",
+    "name": "Horizon",
+    "idea": "Sun going down on a line, name underneath. End of the day.",
+    "size": {
+      "w": 70.9,
+      "h": 18.4
+    }
+  },
+  {
+    "slug": "L12-hands",
+    "name": "Hands Only",
+    "idea": "No circle, just the two clock hands at 5:00 as an L-shaped mark. The most minimal option.",
+    "size": {
+      "w": 86.7,
+      "h": 16.9
+    }
+  }
+]
