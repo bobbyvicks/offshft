@@ -6,15 +6,17 @@
 // - Wordmark: Unbounded Bold, letter-spacing 0.12 em. Kerning added on top of the font's own:
 //   F-F -0.043 cap, F-space -0.05 cap, F-T -0.025 cap. Each letter is merged into one outline (Unbounded's
 //   F, H and T are overlapping pieces), and the S's terminals are trimmed so both apertures sew open.
-// - The O is a ring 1.15 x the height of the font's own O, centred on it. Side walls 1.0 x the stem
+// - The O is a ring the same height as the font's own O (owner's pick; the symbol alone uses 1.15), centred on
+//   it. Side walls 1.0 x the stem
 //   (0.98 in one colour), top and bottom walls 0.9 x the stem, matching Unbounded's own O.
 // - Hands: minute 1.0 stem wide, hour 1.02 stems, 90 degree points finished with a flat 0.3 x the hand width
 //   (what actually stitches). Minute hand visible 0.936 cap, hour hand 0.667 cap, both measured from the
 //   channel edge. Exactly 12 and 150 degrees.
 // - Default ("outside"): hands stand outside the ring across an even channel (two colours max(1.0, 0.143 cap) mm;
 //   one colour 1.2 mm, 1.5 mm from cap 7) with concave bases. HANDS=centre: hands run from the pivot over the ring.
-// - Pivot dot in the hand colour: up to 0.286 cap, never closer than 1.3 mm to the counter (1.5 mm one colour);
-//   dropped if under 1.5 mm. Floors: two-colour lockup cap 6.6, one-colour cap 7, symbol 19 mm (20.5 one colour).
+// - Pivot dot (symbol and side master only) in the hand colour: up to 0.286 cap, never closer than 1.3 mm to the
+//   counter (1.5 mm one colour); dropped if under 1.5 mm. The lockup has no dot.
+//   Floors: lockup cap 6.6 (the S), symbol 19 mm (20.5 one colour).
 // - Side-of-hat master: its own drawing (7.4 mm ring, 1.6 mm wall, 1.5 mm dot), plus a one-colour version.
 //
 // Run: node /home/user/offshft/designs/mark/final/the-o/build.cjs          (main set, writes notes.md)
@@ -31,7 +33,10 @@ const ClipperLib = require('/home/user/offshft/tools/node_modules/clipper-lib');
 const HANDS = process.env.HANDS === 'centre' ? 'centre' : 'outside';
 const OUT = HANDS === 'centre' ? path.join(__dirname, 'hands-centre') : __dirname;
 const T = kit.T, F = kit.F;
-const O_SCALE = +(process.env.O_SCALE || 1.15);
+// The O in the lockup is the same size as the other letters (owner's pick); the stand-alone symbol keeps a
+// slightly bigger O (1.15) so its pivot dot has room and the clock reads (best in blind tests).
+const O_SCALE = +(process.env.O_SCALE || 1.0);
+const SYMBOL_O_SCALE = 1.15;
 const n = (v) => (Math.round(v * 1000) / 1000).toString();
 
 // ---------------------------------------------------------------- fonts
@@ -129,11 +134,11 @@ function strokes(fontKey, cap) {
 // ---------------------------------------------------------------- geometry
 // Options: wallFactor = ring side wall as a multiple of the stem (default 1.0, 0.98 one colour);
 //          ticks = 'four' (12, 3, 6, 9) or 'three' (3, 6, 9) inside the ring, in the ring colour.
-function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks } = {}) {
+function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks, oScale = O_SCALE, dot: wantDot = true } = {}) {
   const ref = kit.text('OFF SHFT', { font: font.key, cap, track: font.track, x: 0, y: 0 });
   const O = ref.letters[0];
   const { stem, arm } = strokes(font.key, cap);
-  const R = ((O.bottom - O.top) / 2) * O_SCALE;
+  const R = ((O.bottom - O.top) / 2) * oScale;
   const wallSide = stem * (wallFactor !== undefined ? wallFactor : oneColour ? 0.98 : 1.0);
   const wallTop = wallSide * 0.9;
   const g = channel !== undefined ? channel : oneColour ? (cap >= 7 ? 1.5 : 1.2) : Math.max(1.0, 0.143 * cap);
@@ -142,7 +147,7 @@ function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks } =
   // inside ticks: 1.0 mm minimum length and width, and the fabric rule now applies between the tick ends and the dot
   const tickLen = ticks ? Math.max(1.0, 0.15 * cap) : 0, tickW = ticks ? Math.max(1.0, 0.5 * stem) : 0;
   let dot = Math.min(0.286 * cap, 2 * (Math.min(rx, ry) - tickLen - (ticks ? Math.max(1.0, fabricMin - 0.3) : fabricMin)));
-  if (dot < 1.5) dot = 0;
+  if (dot < 1.5 || !wantDot) dot = 0;
   return {
     font, cap, ref, O, stem, arm, R, rx, ry, g, dot, oneColour, fabricMin, ticks, tickLen, tickW,
     sM: stem * 0.5, sH: stem * 0.51,
@@ -213,8 +218,10 @@ function restOfWord(G, x, baseY, fill) {
   return { svg: `<path fill="${fill}" fill-rule="evenodd" d="${d.trim()}"/>`, box: box(pts), ink, sTrims };
 }
 
+// The lockup has no pivot dot: at letter size there is no room to stitch one, and a dot in a small ring read as
+// a rifle scope in blind tests. Pass { dot: true, oScale } to experiment.
 function lockup(font, cap, colours, opts = {}) {
-  const G = geometry(font, cap, opts);
+  const G = geometry(font, cap, { dot: false, ...opts });
   const cx = 0, cy = 0;
   const baseY = cy - (G.O.top + G.O.bottom) / 2;                // ring centred on the font's O
   const L = G.ref.letters;
@@ -230,7 +237,8 @@ function lockup(font, cap, colours, opts = {}) {
 }
 
 // Symbol: the clock O alone, scaled so its total height is `height` mm.
-function symbol(font, height, colours, opts = {}) {
+function symbol(font, height, colours, opts0 = {}) {
+  const opts = { oScale: SYMBOL_O_SCALE, ...opts0 };
   let lo = 2, hi = 40;
   const hOf = (cap) => { const G = geometry(font, cap, opts); const c = clockO(G, 0, 0, colours); return c.box.y1 - c.box.y0; };
   for (let i = 0; i < 40; i++) { const mid = (lo + hi) / 2; if (hOf(mid) < height) lo = mid; else hi = mid; }
@@ -335,7 +343,7 @@ function notes(m) {
 
 The O in OFF is a clock face. Two hands stand out of it showing 5:00, quitting time, so the name and the idea are one mark: the shift is over and the time is yours. The hands and pivot dot are stitched in the accent thread so they read as clock hands laid on a dial.
 
-Owner's picks: hands-only clock, W3 watch hands, "The O" placement, O 15% taller than the letters, Unbounded Bold.
+Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bold, the O the same size as the other letters (the symbol on its own keeps a slightly bigger O and a pivot dot).
 
 **This file is written by \`build.cjs\`.** Every number below is measured from the generated artwork. Do not edit it by hand; change \`build.cjs\` and rebuild.
 
@@ -358,13 +366,13 @@ Owner's picks: hands-only clock, W3 watch hands, "The O" placement, O 15% taller
 |---|---|---|
 | Wordmark | Unbounded Bold, letter-spacing 0.12 em. Extra kerning: F-F -0.043 cap, F-space -0.05 cap, F-T -0.025 cap. Each letter is one merged outline. | ${f(m.lockupW, 1)} x ${f(m.lockupH, 1)} mm overall (one colour ${f(m.lockupOneH, 1)} mm tall) |
 | Letter strokes | Measured from Unbounded | stem ${f(m.stem)} mm, arm ${f(m.arm)} mm |
-| Clock O | Ring 1.15 x the font's own O height, centred on it | ${f(m.ring)} mm across |
+| Clock O | Ring the same height as the font's own O, centred on it (symbol: 1.15 x) | ${f(m.ring)} mm across |
 | Ring walls | Sides 1.0 x stem (0.98 one colour), top and bottom 0.9 x stem | ${f(m.wallSide)} mm sides, ${f(m.wallTop)} mm top/bottom; counter ${f(m.counter[0])} x ${f(m.counter[1])} mm |
 | Channel | Even gap between ring and hands, hand bases concave. Two colours max(1.0, 0.143 cap); one colour 1.2, 1.5 from cap 7 | ${f(m.channel)} mm (one colour ${f(m.channelOne)} mm) |
 | Minute hand | 1.0 stem wide, visible 0.936 cap from the channel, exactly 12 o'clock | ${f(m.minute[0])} x ${f(m.minute[1])} mm |
 | Hour hand | 1.02 stems wide, visible 0.667 cap from the channel, exactly 150 degrees | ${f(m.hour[0])} x ${f(m.hour[1])} mm |
 | Points | 90 degree taper ending in a flat 0.3 x the hand width (this is what stitches) | |
-| Pivot dot | Hand colour, at most 0.286 cap, at least 1.3 mm fabric to the counter (1.5 one colour) | ${f(m.dot)} mm with ${f(m.fabric)} mm fabric; one colour ${f(m.dotOne)} mm with ${f(m.fabricOne)} mm |
+| Pivot dot | Symbol and side master only, hand colour, at most 0.286 cap, at least 1.3 mm fabric to the counter (1.5 one colour). None in the lockup: no room at letter size, and a dot in a small ring read as a rifle scope. | 25 mm symbol: ${f(m.s25[2])} mm |
 | S | Terminals trimmed so both apertures are 1.0 mm (upper / lower trim) | ${f(m.sTrims.upper)} / ${f(m.sTrims.lower)} mm (cap 6.6: ${f(m.sTrims66.upper)} / ${f(m.sTrims66.lower)} mm) |
 | F-T | Gap between the F arm and the T bar | ${f(m.FT)} mm |
 
@@ -381,8 +389,7 @@ The hex values are targets. Match each to the nearest colour on a physical threa
 
 ## Size floors
 
-- Lockup, two colours: cap 6.6 mm minimum (${f(m.l66[0], 1)} x ${f(m.l66[1], 1)} mm, dot ${f(m.l66[2])} mm). Hat fronts: cap 7 (${f(m.lockupW, 1)} mm wide).
-- Lockup, one colour: cap 7 minimum.
+- Lockup: cap 6.6 mm minimum (${f(m.l66[0], 1)} x ${f(m.l66[1], 1)} mm), set by the S apertures. Hat fronts: cap 7 (${f(m.lockupW, 1)} mm wide). One colour: cap 7 minimum (wider channel).
 - Symbol: 19 mm tall minimum in two colours (dot ${f(m.s19[2])} mm), 20.5 mm in one colour (dot ${f(m.s205)} mm). Plain satin up to 45 mm; above that, split satin or tatami. From 35 mm, use a 1.5 mm channel.
 - Under 19 mm: use the side master only (${f(m.side[0], 1)} x ${f(m.side[1], 1)} mm; one colour ${f(m.sideOne[0], 1)} x ${f(m.sideOne[1], 1)} mm). Never scale the main files down.
 - Any embroidered Unbounded Bold text: cap 6.6 mm minimum, letter-spacing 0.12 em, with the S trims. Smaller text needs a separately approved lighter face (owner's decision).
@@ -390,20 +397,20 @@ The hex values are targets. Match each to the nearest colour on a physical threa
 ## Notes for the digitizer
 
 - Digitize each size on its own. Never scale a stitch file.
-- Stitch order: Ink letters from the centre out (S, H, F, T, then F, F), the ring last, then the accent from the bottom up: pivot dot, hour hand, minute hand. One colour change.
+- Stitch order: Ink letters from the centre out (S, H, F, T, then F, F), the ring last, then the accent from the bottom up: hour hand, minute hand (symbols: pivot dot first). One colour change.
 - Pull compensation: 0.15-0.18 mm per edge (0.30-0.35 mm total), plus 0.05 mm per edge where stitches run horizontally (stems, and the ring at 3 and 9 o'clock). Only 0.05-0.10 mm per edge on edges facing the channel, the S necks, the pivot dot, the F slot and the ring's inner edge at 3 and 9 o'clock.
 - Ring: satin with edge-run underlay, short stitches on the inner edge. Digitize it 0.3 mm wider than tall (about ${f(m.ring + 0.3)} x ${f(m.ring)} mm at cap 7), adding the extra on the outer edge only.
 - Hand roots: pull back 0.2 mm, no end compensation, so the channel stays open. Tips: keep the drawn flat; pull back 0.2 mm.
 - S: the artwork already includes the terminal trims. Pull both terminal ends back 0.2 mm with no end compensation and hold spine-edge comp to 0.10 mm at the two necks, so the apertures finish at about 0.9-1.0 mm.
 - F slot (between the arms): 0.05 mm comp on the two slot-facing edges, the rest on the outer edges, so the slot finishes at 1.1 mm or more. If a sew-out still shows less than 1.0 mm, lower the F's middle arm by 0.20 mm in build.cjs.
 - F-T: pull both facing bar ends back 0.15 mm with no end compensation.
-- Pivot dot: satin with 0.10 mm comp, straight after the colour change.
+- Pivot dot (symbol and side master): satin with 0.10 mm comp, straight after the colour change.
 - 6-panel caps (dad hats, structured snapbacks): the centre seam would cross the S. Always shift the lockup **${f(Math.abs(m.seam), 1)} mm ${m.seam < 0 ? 'right' : 'left'}** so the seam falls in the middle of the word space. 5-panel and seamless fronts stay centred.
-- Approve only after a sew-out on the actual blank shows the pivot centred within 0.2 mm, both channels at least 0.8 mm open and both S apertures open.
+- Approve only after a sew-out on the actual blank shows both channels at least 0.8 mm open, the O's counter open and both S apertures open (symbols: pivot centred within 0.2 mm).
 
 ## How it was tested
 
-- Blind reading rounds with fresh readers who were given no context. Final round (after the Unbounded review fixes): the lockup read "OFF SHFT" 3 out of 3 at 9/10 confidence with no "Q" readings; the symbol read as a clock 3 out of 3 at 6/10. Earlier rounds showed that one-colour versions and short hands drift towards "Q" or "magnifying glass", and that tick marks around the O add "compass" readings.
+- Blind reading rounds with fresh readers who were given no context. Final lockup (O the same size as the letters, no dot): read "OFF SHFT" 3 out of 3 at 9/10, two readers noting the letters look uniform in size. The same lockup with a dot in a thinner O dropped to 8.3/10 with "scope" readings. The symbol reads as a clock 3 out of 3 at about 6/10. Earlier rounds showed that one-colour versions and short hands drift towards "Q" or "magnifying glass", and that tick marks around the O add "compass" readings.
 - The symbol is abstract on its own; it gains recognition when used alongside the full logo (for example front logo plus side symbol).
 - Two brand reviews and two embroidery reviews (Archivo, then Unbounded) set every rule above.
 `;
