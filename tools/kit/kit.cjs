@@ -29,6 +29,17 @@ const FONT_FILES = {
   sxbold: 'Archivo-SemiExpandedBold.ttf',
   bold: 'Archivo-Bold.ttf',
   semi: 'Archivo-SemiBold.ttf',
+  // other wide, blocky open-licence faces (licences in ../fonts/OFL-*.txt)
+  anybody: 'Anybody-ExtraWideExtraBold.ttf',
+  unbounded: 'Unbounded-Bold.ttf',
+  lexendexa: 'LexendExa-Bold.ttf',
+  syne: 'Syne-ExtraBold.ttf',
+  saira: 'Saira-ExpandedBold.ttf',
+  krona: 'KronaOne-Regular.ttf',
+  michroma: 'Michroma-Regular.ttf',
+  rubikmono: 'RubikMonoOne-Regular.ttf',
+  encodex: 'EncodeSansExpanded-Bold.ttf',
+  dela: 'DelaGothicOne-Regular.ttf',
 };
 const cache = {};
 function font(name) {

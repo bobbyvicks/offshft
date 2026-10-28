@@ -32,14 +32,16 @@ Every design, listing and post comes back to one idea: **you put in the hours, t
 - Good: "Punched out." / "Lines in." / "Shift's over. Tee's up." / "Off the clock, on the water."
 - Avoid: corporate words, hustle-culture talk, anything mocking people's jobs, politics, profanity
 
-## Look (v2: minimal)
+## Look (v3: The O)
 
 Reference brands: Duck Camp, Huk. Quiet, small, well-spaced. One strong symbol instead of big slogans.
 
-- **Symbol:** a clock stopped at 5:00 (quitting time), drawn as a single line. It works alone on the front or side of a hat.
-- **Type:** Archivo Expanded (wide, clean sans), all caps, generously letter-spaced. Small sizes. No condensed block fonts.
-- **Icons:** single-weight line drawings, 1.6 mm line, rounded ends. One icon per design. No clip art, no gradients, no shading.
-- **Layout:** icon on top, one short label underneath, optional tiny "OFF SHFT" sign-off. Lots of empty fabric around it.
+- **Logo:** "The O". The O in OFF is a clock face, 15% taller than the letters, with two hands at 5:00 (quitting time) standing out of it and a dot at the pivot. Full rules, sizes and digitizer notes: `designs/mark/final/the-o/notes.md`. Never redraw it by hand; regenerate it with `designs/mark/final/the-o/build.cjs`.
+- **Logo colours:** the O and letters in one thread, the hands and pivot dot in the accent. Bone fabric: Ink + Rust. Slate or Spruce fabric: Bone + Sun. Oat: Ink + Rust only after a sew-out passes, otherwise Ink in one colour. Moss or Rust fabric: Bone in one colour. One-colour versions only for tonal or single-thread jobs, never as the default front logo.
+- **Type:** Archivo Expanded Bold, all caps, letter-spacing 0.14 em. Other wide faces are being compared in `designs/mark/final/the-o/fonts/`; until the owner picks one, use Archivo.
+- **Symbol on its own:** the clock O without the letters, for patches, the back or side of a hat and social avatars. The side-of-hat version is its own small drawing (`side-*.svg`), not a scaled-down copy.
+- **Icons (hobby hats):** single-weight line drawings, 1.6 mm line. They are a separate illustration style and never sit right next to the logo; when they do share a hat, the logo goes on the back or side.
+- **Layout:** icon on top, one short label underneath, optional small "OFF SHFT" sign-off. Lots of empty fabric around it.
 - **Thread colours:** Bone #ECE5D3, Ink #1F2733, Rust #B4552D, Sun #D29B3C, Sage #9AA383. Two or three per design.
 - **Fabric colours:** Bone, Oat, Moss, Spruce, Slate, Rust.
 
