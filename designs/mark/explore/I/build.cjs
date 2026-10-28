@@ -26,18 +26,22 @@ const OUT = 12.5;           // outer radius of the face elements (25 mm across)
 
 const V = {};
 
-// I1 - Quarter marks. The minute hand IS the 12 o'clock mark; short marks at 3, 6, 9.
+// I1 - Quarter marks. Square-cut hands and three square markers at 3, 6, 9, like a time clock on a plant wall.
+// The minute hand IS the 12 o'clock marker (reaches the rim). Markers are exact squares of the module w;
+// hands are 1.2w (hero vs hint); hub = 1.7x the hand width; hour hand = 0.68 of the minute hand.
 V.I1 = {
   name: 'Quarter Marks',
-  concept: 'The hands stay the hero; three short marks at 3, 6 and 9 turn them into a clock, and the minute hand itself is the 12 o\'clock mark, reaching all the way to the rim.',
-  prims() {
-    const tick = 1.6 * w; // tick length, cap to cap
-    const Lh = 3.2 * w;   // hour hand length to tip (0.61 of the minute hand)
+  concept: 'Square-cut hands and three small square markers at 3, 6 and 9, like the time clock on the shop wall; the minute hand itself is the 12 o\'clock marker, so the hands are the hero and the face is only hinted.',
+  prims(o = {}) {
+    const hw = o.hw || 1.2;
+    const wm = w * hw, wh = HOUR_W * hw;
+    const m = o.marker || w;       // marker: a w x w square at the rim
+    const Lh = (o.lh || 0.68) * OUT;
     return [
-      ...[90, 180, 270].map((d) => ray(d, OUT - tick + w / 2, OUT - w / 2, w, { role: 'face' })),
-      ray(0, 0, OUT - w / 2, w, { role: 'hand' }),
-      ray(150, 0, Lh - HOUR_W / 2, HOUR_W, { role: 'hand' }),
-      disc([0, 0], w, { role: 'hand' }), // hub: exactly 2w across
+      ...[90, 180, 270].map((d) => ray(d, OUT - m, OUT, w, { role: 'face', cap: 'butt' })),
+      ray(0, 0, OUT, wm, { role: 'hand', cap: 'butt' }),
+      ray(150, 0, Lh, wh, { role: 'hand', cap: 'butt' }),
+      disc([0, 0], (1.7 * wm) / 2, { role: 'hand' }),
     ];
   },
 };
@@ -46,31 +50,36 @@ V.I1 = {
 V.I2 = {
   name: 'Twelve',
   concept: 'Twelve stitched dots make the dial; the minute hand runs out to the ring and takes the place of the 12 o\'clock dot, so the hands and the face are one figure.',
-  prims() {
+  prims(o = {}) {
     const Rd = OUT - DOT_D / 2;
-    const Lh = 0.56 * Rd + HOUR_W / 2;
+    const Lh = (o.lh || 0.64) * Rd;  // to the hour tip extent
+    const hw = o.hw || 1.15;         // hands heavier than the dots: hands are the hero
+    const wm = w * hw, wh = HOUR_W * hw;
     const dots = [...Array(12).keys()].filter((i) => i !== 0).map((i) => disc(P(i * 30, Rd), DOT_D / 2, { role: 'face' }));
-    return [
-      ...dots,
-      ray(0, 0, Rd, w, { role: 'hand' }),
-      ray(150, 0, Lh - HOUR_W / 2, HOUR_W, { role: 'hand' }),
-    ];
+    const hands = o.hub
+      ? [ray(0, 0, Rd, wm, { role: 'hand' }), ray(150, 0, Lh - wh / 2, wh, { role: 'hand' }), disc([0, 0], (o.hub * wm) / 2, { role: 'hand' })]
+      : [G.handsOutline({ Lm: OUT - wm / 2, wm, Lh: Lh - wh / 2, wh, heel: 1.2 })];
+    return [...dots, ...hands];
   },
 };
 
-// I3 - Your Time. One arc from 5 round to 12: the rest of the day. The open part (12 to 5) is the shift.
+// I3 - Your Time. One arc from 5 round to 12: quitting time to midnight. The open part (12 to 5) is the shift.
+// The arc is cut radially at exactly 150 and 360 degrees, so the hands point precisely at its two ends.
 V.I3 = {
   name: 'Your Time',
-  concept: 'A single arc runs from 5 round to 12: the hours after the shift. The open part of the dial, 12 to 5, is the time you put in; the hands point exactly at where the arc begins and ends.',
+  gap: 0.85, // its upper-right quadrant is open, so the optical gap reads wider than the geometric one
+  concept: 'A single arc runs from 5 round to 12, quitting time to midnight; the open part of the dial is the shift you put in. The arc is cut square at exactly 5 and 12, right where the two hands point.',
   prims() {
     const R = OUT - RING_W / 2;
-    const gap = w;
-    const Lm = R - RING_W / 2 - gap; // minute tip stops one module short of the arc end at 12
-    const Lh = 0.66 * Lm;
+    const hw = 1.15;                 // hands a touch heavier than the arc: hands are the hero
+    const wm = w * hw, wh = HOUR_W * hw;
+    const Lm = R - RING_W / 2 - 2.6; // minute tip: 2.6 mm below the arc's inner edge (corner clears it by >= 2.4 mm)
+    const Lh = 0.76 * Lm;
     return [
-      arc(R, 150, 360, RING_W, { role: 'face' }),
-      ray(0, 0, Lm - w / 2, w, { role: 'hand' }),
-      ray(150, 0, Lh - HOUR_W / 2, HOUR_W, { role: 'hand' }),
+      arc(R, 150, 360, RING_W, { role: 'face', cap: 'butt' }),
+      ray(0, 0, Lm, wm, { role: 'hand', cap: 'butt' }),
+      ray(150, 0, Lh, wh, { role: 'hand', cap: 'butt' }),
+      disc([0, 0], (1.5 * wm) / 2, { role: 'hand' }),
     ];
   },
 };
@@ -83,21 +92,22 @@ V.I4 = {
     const R = OUT - RING_W / 2;
     const clear = w; // clearance each side of the minute hand
     const half = asinD((w / 2 + clear + RING_W / 2) / R);
-    const Lh = 0.56 * R + HOUR_W / 2;
+    const Lh = 0.6 * R;
     return [
       arc(R, half, 360 - half, RING_W, { role: 'face' }),
-      ray(0, 0, OUT - w / 2, w, { role: 'hand' }),
-      ray(150, 0, Lh - HOUR_W / 2, HOUR_W, { role: 'hand' }),
+      G.handsOutline({ Lm: OUT - w / 2, wm: w, Lh: Lh - HOUR_W / 2, wh: HOUR_W, heel: 1.2 }),
     ];
   },
 };
 
 // ---------------------------------------------------------------------------
 // Lockup: OFF SHFT in Archivo Expanded Bold.
-// cap 6.5 mm keeps the thinnest letter part (F crossbar) at 1.30 mm. Mark scaled so its stroke = 1.0 x the letter stem.
+// Archivo SemiExpanded Bold at 8.0 mm cap: the smallest bold Archivo setting whose S apertures stay >= 1.2 mm
+// (Expanded Bold needs ~9 mm and the lockup would be ~127 mm). The lockup comes out ~106 mm: roughly the 4 in front panel.
+// Mark scaled so its face elements = the letter stem (hands are a step heavier).
 // Hub sits on the cap-height midline. Gap mark->wordmark = 1 cap height.
 // ---------------------------------------------------------------------------
-const WM = { font: 'xbold', cap: 6.5, track: 0.16 };
+const WM = { font: 'sxbold', cap: 8, track: 0.16 };
 
 function wordmark(x, baseline, fill) {
   return kit.text('OFF SHFT', { font: WM.font, cap: WM.cap, track: WM.track, fill, x, y: baseline });
@@ -120,7 +130,7 @@ function lockupSvg(file, prims, cols, opt = {}) {
   const oy = pad - top; // shift so everything is >= 0
   const textX = markLeft + b.w * k + gap;
   const t = wordmark(textX, oy + cap, cols.word);
-  const body = emit(prims, { k, dx: hubX, dy: oy + capMid, col: cols }) + '\n' + t.svg;
+  const body = G.emitFill(prims, { k, dx: hubX, dy: oy + capMid, col: cols }) + '\n' + t.svg;
   const W = textX + t.width + pad;
   kit.writeSvg(file, { w: W, h: H, body });
   return { W, H, k, markW: b.w * k, markH: b.h * k, gap, stem };
@@ -154,6 +164,18 @@ async function check(svgFile, outPng, { width }) {
   return { thin, gaps };
 }
 
+// Exact-ish minimum gap between separate shapes (40 px/mm raster, see gaps.py).
+async function minGap(svgFile, width) {
+  const d = kit.readSvg(svgFile);
+  const blk = `${WORK}/gap-${path.basename(path.dirname(svgFile))}-${path.basename(svgFile, '.svg')}.svg`;
+  fs.writeFileSync(blk, `<svg xmlns="http://www.w3.org/2000/svg" width="${d.w}mm" height="${d.h}mm" viewBox="${d.viewBox}">${d.inner.replace(/#[0-9A-Fa-f]{6}/g, '#000000')}</svg>`);
+  const hh = (d.h * width) / d.w;
+  const png = blk.replace('.svg', `-${width.toFixed(1)}.png`);
+  await kit.render(blk, png, { bg: '#FFFFFF', width, px: 20, tile: `${Math.ceil(width + 4)}x${Math.ceil(hh + 4)}`, twill: false });
+  return JSON.parse(execSync(`python3 ${ROOT}/gaps.py ${png} 40`).toString()).min_gap_mm;
+}
+const minStroke = (prims) => Math.min(...prims.map((p) => (p.t === 'disc' ? 2 * p.r : p.t === 'path' ? p.minw : p.w)));
+
 // ---------------------------------------------------------------------------
 async function buildVariant(id) {
   const v = V[id];
@@ -162,9 +184,9 @@ async function buildVariant(id) {
   const prims = v.prims();
   const light = v.light || T.ink;
   const dark = v.dark || T.bone;
-  const m = G.markSvg(`${dir}/mark.svg`, prims, light);
-  G.markSvg(`${dir}/mark-dark.svg`, prims, dark);
-  const lk = lockupSvg(`${dir}/lockup.svg`, prims, { hand: v.lockHand || T.rust, face: v.lockFace || T.rust, word: T.ink });
+  const m = G.markSvg(`${dir}/mark.svg`, prims, light, { fill: true });
+  G.markSvg(`${dir}/mark-dark.svg`, prims, dark, { fill: true });
+  const lk = lockupSvg(`${dir}/lockup.svg`, prims, { hand: v.lockHand || T.rust, face: v.lockFace || T.rust, word: T.ink }, { gap: (v.gap || 1) * WM.cap });
   await kit.render(`${dir}/mark.svg`, `${dir}/mark.png`, { bg: F.bone });
   await kit.render(`${dir}/mark-dark.svg`, `${dir}/mark-dark.png`, { bg: F.slate });
   await kit.render(`${dir}/lockup.svg`, `${dir}/lockup.png`, { bg: F.bone });
@@ -177,7 +199,17 @@ async function buildVariant(id) {
   // zoomed previews for critique
   await kit.render(`${dir}/mark.svg`, `${WORK}/${id}-zoom.png`, { bg: F.bone, width: (50 * m.W) / L, tile: '64x64', px: 6 });
   await kit.render(`${dir}/lockup.svg`, `${WORK}/${id}-lockzoom.png`, { bg: F.bone, width: 150, tile: '160x40', px: 6 });
-  const info = { id, mark: [m.W.toFixed(2), m.H.toFixed(2)], lockup: [lk.W.toFixed(1), lk.H.toFixed(1)], lockupScale: lk.k.toFixed(3), markInLockup: [lk.markW.toFixed(2), lk.markH.toFixed(2)], c25, c13, cL };
+  const s25 = 25 / L;
+  const gap25 = await minGap(`${dir}/mark.svg`, (25 * m.W) / L);
+  const gap13 = await minGap(`${dir}/mark.svg`, (13 * m.W) / L);
+  const stroke25 = minStroke(prims) * s25;
+  const info = {
+    id, mark: [m.W.toFixed(2), m.H.toFixed(2)], lockup: [lk.W.toFixed(1), lk.H.toFixed(1)], lockupScale: lk.k.toFixed(3),
+    markInLockup: [lk.markW.toFixed(2), lk.markH.toFixed(2)], c25, c13, cL,
+    minStroke25: +stroke25.toFixed(2), minGap25: gap25, minStroke13: +(stroke25 * 0.52).toFixed(2), minGap13: gap13,
+    thinnest25: +Math.min(stroke25, gap25).toFixed(2),
+  };
+  fs.writeFileSync(`${WORK}/${id}-info.json`, JSON.stringify(info, null, 1));
   console.log(JSON.stringify(info));
   return info;
 }
@@ -197,7 +229,7 @@ async function sheet() {
   execSync(`montage -label '%t' ${files.join(' ')} -tile 4x -geometry 440x256+8+8 -pointsize 18 -background '#888888' ${ROOT}/sheet.png`);
 }
 
-(async () => {
+if (require.main === module) (async () => {
   const want = process.argv.slice(2).filter((a) => V[a]);
   const ids = want.length ? want : Object.keys(V);
   for (const id of ids) await buildVariant(id);
@@ -213,4 +245,4 @@ async function sheet() {
   console.log('done');
 })().catch((e) => { console.error(e); process.exit(1); });
 
-module.exports = { V };
+module.exports = { V, lockupSvg, check, wordmark, WM, w, HOUR_W, RING_W, DOT_D, OUT };

@@ -1,0 +1,33 @@
+{
+ "id": "I2",
+ "mark": [
+  "25.00",
+  "25.00"
+ ],
+ "lockup": [
+  "105.8",
+  "19.6"
+ ],
+ "lockupScale": "0.782",
+ "markInLockup": [
+  "19.56",
+  "19.56"
+ ],
+ "c25": {
+  "thin": 0,
+  "gaps": 0
+ },
+ "c13": {
+  "thin": 0,
+  "gaps": 0
+ },
+ "cL": {
+  "thin": 0,
+  "gaps": 0
+ },
+ "minStroke25": 2.64,
+ "minGap25": 2.685,
+ "minStroke13": 1.37,
+ "minGap13": 1.395,
+ "thinnest25": 2.64
+}

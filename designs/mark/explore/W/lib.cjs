@@ -45,6 +45,24 @@ function cutProfile(prof, R) {
   let p0 = prof.start;
   for (let i = 0; i < prof.segs.length; i++) {
     const seg = prof.segs[i];
+    if (seg[0] === 'A') {
+      const [, c, r, end, inc] = seg;
+      if (rad(end) >= R) {
+        // circle (c, r) meets the hub circle (origin, R): take the first crossing along the arc's direction
+        const d = Math.hypot(c[0], c[1]);
+        const ex = [-c[0] / d, -c[1] / d], ey = [-ex[1], ex[0]];
+        const a = (r * r - R * R + d * d) / (2 * d), h = Math.sqrt(Math.max(0, r * r - a * a));
+        const cands = [[c[0] + a * ex[0] + h * ey[0], c[1] + a * ex[1] + h * ey[1]], [c[0] + a * ex[0] - h * ey[0], c[1] + a * ex[1] - h * ey[1]]];
+        const ang = (p) => Math.atan2(p[1] - c[1], p[0] - c[0]);
+        const trav = (p) => { let x = inc ? ang(p) - ang(p0) : ang(p0) - ang(p); while (x < 0) x += 2 * Math.PI; return x; };
+        const lim = trav(end);
+        const q = cands.filter((p) => trav(p) <= lim + 1e-9).sort((u, v) => trav(u) - trav(v))[0];
+        if (!q) throw new Error('arc does not cross the hub circle');
+        return { start: q, segs: [['A', c, r, end, inc], ...prof.segs.slice(i + 1)] };
+      }
+      p0 = end;
+      continue;
+    }
     const end = seg[seg.length - 1];
     if (seg[0] === 'L') {
       if (rad(end) >= R) {
@@ -100,16 +118,20 @@ function emitProfile(pb, F, prof, { mirror = false, reverse = false, skipStart =
   let prev = prof.start;
   for (const s of prof.segs) {
     if (s[0] === 'L') nodes.push({ type: 'L', from: prev, to: s[1] });
+    else if (s[0] === 'A') nodes.push({ type: 'A', from: prev, c: s[1], r: s[2], to: s[3], inc: s[4] });  // ['A', centre, r, to, increasingAngle]
     else nodes.push({ type: 'C', from: prev, c1: s[1], c2: s[2], to: s[3] });
     prev = s[s.length - 1];
+    if (s[0] === 'A') prev = s[3];
   }
+  // The local frame maps to the page without reflection, so an arc's direction only flips when mirrored or reversed.
+  const arc = (n, to, rev) => pb.A(m(n.c), n.r, m(to), n.inc !== mirror !== rev);
   if (!reverse) {
     if (!skipStart) pb.L(m(prof.start));
-    for (const n of nodes.slice(1)) n.type === 'L' ? pb.L(m(n.to)) : pb.C(m(n.c1), m(n.c2), m(n.to));
+    for (const n of nodes.slice(1)) n.type === 'L' ? pb.L(m(n.to)) : n.type === 'A' ? arc(n, n.to, false) : pb.C(m(n.c1), m(n.c2), m(n.to));
   } else {
     const segs = nodes.slice(1).reverse();
     if (!skipStart) pb.L(m(segs[0].to));
-    for (const n of segs) n.type === 'L' ? pb.L(m(n.from)) : pb.C(m(n.c2), m(n.c1), m(n.from));
+    for (const n of segs) n.type === 'L' ? pb.L(m(n.from)) : n.type === 'A' ? arc(n, n.from, true) : pb.C(m(n.c2), m(n.c1), m(n.from));
   }
 }
 
