@@ -127,20 +127,24 @@ function strokes(fontKey, cap) {
 }
 
 // ---------------------------------------------------------------- geometry
-function geometry(font, cap, { oneColour = false, channel } = {}) {
+// Options: wallFactor = ring side wall as a multiple of the stem (default 1.0, 0.98 one colour);
+//          ticks = 'four' (12, 3, 6, 9) or 'three' (3, 6, 9) inside the ring, in the ring colour.
+function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks } = {}) {
   const ref = kit.text('OFF SHFT', { font: font.key, cap, track: font.track, x: 0, y: 0 });
   const O = ref.letters[0];
   const { stem, arm } = strokes(font.key, cap);
   const R = ((O.bottom - O.top) / 2) * O_SCALE;
-  const wallSide = stem * (oneColour ? 0.98 : 1.0);
-  const wallTop = stem * 0.9;
+  const wallSide = stem * (wallFactor !== undefined ? wallFactor : oneColour ? 0.98 : 1.0);
+  const wallTop = wallSide * 0.9;
   const g = channel !== undefined ? channel : oneColour ? (cap >= 7 ? 1.5 : 1.2) : Math.max(1.0, 0.143 * cap);
   const rx = R - wallSide, ry = R - wallTop;
   const fabricMin = oneColour ? 1.5 : 1.3;
-  let dot = Math.min(0.286 * cap, 2 * (rx - fabricMin));
+  // inside ticks: 1.0 mm minimum length and width, and the fabric rule now applies between the tick ends and the dot
+  const tickLen = ticks ? Math.max(1.0, 0.15 * cap) : 0, tickW = ticks ? Math.max(1.0, 0.5 * stem) : 0;
+  let dot = Math.min(0.286 * cap, 2 * (Math.min(rx, ry) - tickLen - (ticks ? Math.max(1.0, fabricMin - 0.3) : fabricMin)));
   if (dot < 1.5) dot = 0;
   return {
-    font, cap, ref, O, stem, arm, R, rx, ry, g, dot, oneColour, fabricMin,
+    font, cap, ref, O, stem, arm, R, rx, ry, g, dot, oneColour, fabricMin, ticks, tickLen, tickW,
     sM: stem * 0.5, sH: stem * 0.51,
     Lm: R + g + 0.936 * cap, Lh: R + g + 0.667 * cap,
     points: true,
@@ -165,13 +169,24 @@ const ellipse = (cx, cy, rx, ry) => `M${n(cx - rx)} ${n(cy)} a${n(rx)} ${n(ry)} 
 const box = (pts) => ({ x0: Math.min(...pts.map((p) => p[0])), y0: Math.min(...pts.map((p) => p[1])), x1: Math.max(...pts.map((p) => p[0])), y1: Math.max(...pts.map((p) => p[1])) });
 const union = (a, b) => ({ x0: Math.min(a.x0, b.x0), y0: Math.min(a.y0, b.y0), x1: Math.max(a.x1, b.x1), y1: Math.max(a.y1, b.y1) });
 
+// A tick fixed to the ring's inner edge, pointing at the centre (overlaps the ring by 0.3 mm so it joins cleanly).
+function insideTick(cx, cy, G, deg) {
+  const a = (deg * Math.PI) / 180, ux = Math.sin(a), uy = -Math.cos(a), nx = -uy, ny = ux;
+  const r = 1 / Math.sqrt((ux / G.rx) ** 2 + (uy / G.ry) ** 2);
+  const P = (t, k) => [cx + ux * t + nx * k, cy + uy * t + ny * k];
+  const w = G.tickW / 2;
+  const pts = [P(r + 0.3, -w), P(r - G.tickLen, -w), P(r - G.tickLen, w), P(r + 0.3, w)];
+  return `M${pts.map((p) => `${n(p[0])} ${n(p[1])}`).join(' L')} Z`;
+}
+
 function clockO(G, cx, cy, { ring, hands }, mode = HANDS) {
   const fromCentre = mode === 'centre' && !G.oneColour;
   const o = { square: !G.points, fromCentre };
   const hm = hand(cx, cy, 0, G.R + G.g, G.Lm, G.sM, o);
   const hh = hand(cx, cy, 150, G.R + G.g, G.Lh, G.sH, o);
-  let svg = `<path fill="${ring}" fill-rule="evenodd" d="${ellipse(cx, cy, G.R, G.R)} ${ellipse(cx, cy, G.rx, G.ry)}"/>` +
-    `<path fill="${hands}" d="${hm.d} ${hh.d}"/>`;
+  let svg = `<path fill="${ring}" fill-rule="evenodd" d="${ellipse(cx, cy, G.R, G.R)} ${ellipse(cx, cy, G.rx, G.ry)}"/>`;
+  if (G.ticks) svg += `<path fill="${ring}" d="${(G.ticks === 'four' ? [0, 90, 180, 270] : [90, 180, 270]).map((d) => insideTick(cx, cy, G, d)).join(' ')}"/>`;
+  svg += `<path fill="${hands}" d="${hm.d} ${hh.d}"/>`;
   const dot = fromCentre ? Math.max(G.dot, G.sH * 2 * 1.1) : G.dot;    // just covers the hands' roots when they meet at the centre
   if (dot) svg += `<path fill="${hands}" d="${ellipse(cx, cy, dot / 2, dot / 2)}"/>`;
   return { svg, box: box([...hm.pts, ...hh.pts, [cx - G.R, cy - G.R], [cx + G.R, cy + G.R]]), dot };
