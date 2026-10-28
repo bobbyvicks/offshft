@@ -12,7 +12,8 @@
 //   Visible minute hand = 0.936 cap; hour hand reaches 0.75 cap past the ring, at exactly 150 degrees.
 // - Pivot: a solid dot in the hand colour, 0.286 cap across, with at least 1.3 mm (two colours) or
 //   1.5 mm (one colour) of fabric to the counter. Left out below cap 6 (6.5 in one colour).
-// - Small master for the side of a hat (about 14.5 mm tall): its own drawing, not a scale-down.
+// - Small master for the side of a hat (about 15.6 mm tall): its own drawing, not a scale-down;
+//   7.0 mm ring, 1.4 mm wall, 1.5 mm pivot dot (1.35 mm fabric), 1.2 mm channel, pointed hands 1.5 and 1.6 mm wide.
 //
 // Run: node /home/user/offshft/designs/mark/final/the-o/build.cjs
 
@@ -173,9 +174,11 @@ function symbol(font, height, colours, opts = {}) {
 
 // Side-of-hat master, drawn for its size: no pivot, square-ended hands, wider channel.
 function smallMaster(colours) {
-  const G = { R: 3.0, rx: 3.0 - 1.25, ry: 3.0 - 1.25, g: 1.2, dot: 0, sM: 0.625, sH: 0.7, points: false };
-  G.Lm = G.R + G.g + 4.0;
-  G.Lh = G.R + G.g + 2.6;
+  // 7.0 mm ring so a 1.5 mm pivot dot fits with 1.5 mm of fabric around it: the dot is what makes it read as a clock
+  // hands 1.5 / 1.6 mm wide: the narrowest a pointed tip still stitches, and the points are what say "clock hand"
+  const G = { R: 3.5, rx: 3.5 - 1.4, ry: 3.5 - 1.4, g: 1.2, dot: 1.5, sM: 0.75, sH: 0.8, points: true };
+  G.Lm = G.R + G.g + 4.2;
+  G.Lh = G.R + G.g + 3.0;
   const c = clockO(G, 0, 0, { ring: colours.letters, hands: colours.hands });
   return { w: c.box.x1 - c.box.x0, h: c.box.y1 - c.box.y0, body: `<g transform="translate(${n(-c.box.x0)} ${n(-c.box.y0)})">${c.svg}</g>`, G };
 }
