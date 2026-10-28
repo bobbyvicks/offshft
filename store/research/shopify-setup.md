@@ -29,13 +29,13 @@ Card fees on one C$34.99 hat (arithmetic on [1]): about C$1.28 on a Canadian car
 
 ## 2. Theme: Horizon
 
-Horizon is Shopify's flagship free theme, now version 4.3.0 (9 October 2026) [8]. It is built from theme blocks that nest inside each other, up to eight levels [9][15]. Nine other free themes, such as Pitch and Tinker, share the same base [16]. [CONFIRM: the version this store runs, under Online Store → Themes. Anything older than 4.0.0 has colour schemes, not a palette.]
+Horizon is Shopify's flagship free theme, now version 4.3.0 (9 October 2026) [8][9]. It is built from theme blocks that nest inside each other, up to eight levels [9][15]. Nine other free themes, such as Pitch and Tinker, share the same base [16]. [CONFIRM: the version this store runs, under Online Store → Themes. Anything older than 4.0.0 has colour schemes, not a palette.]
 
 **Colours.** From 4.0.0, Horizon uses one colour palette instead of colour schemes [10]. The palette holds Background, Foreground and extra brand colours used across the theme [9][10]. Any section or block with a colour field can override it [10]. Theme settings also colour buttons, inputs, drawers, pop-ups, badges and variant pickers [9].
 
 **Typography** (Theme settings → Typography) [9]:
-- Four font pickers: Body, Subheading, Heading, Accent.
-- Heading 1 to 6 presets each set font, size (10 to 184 px), line height, letter spacing and case (Default or Uppercase). Paragraph sets size and line height.
+- Four font pickers: Body, Subheading, Heading, Accent [9].
+- Heading 1 to 6 presets each set font, size (10 to 184 px), line height, letter spacing and case (Default or Uppercase). Paragraph sets size and line height [9].
 - Letter spacing has three steps: Tight −0.03 em, Normal 0, Loose 0.03 em [9]. The brand's 0.12 em needs a rule in the Custom CSS box in Theme settings (1,500 characters at most) [11][12]. [CONFIRM: the box shows in Horizon.]
 
 **Logo and favicon** (Theme settings → Logo and favicon) [9]: Default logo, Inverse logo (for dark or see-through headers), desktop height 12–100 px (default 36), mobile height 12–100 px (default 28), Favicon, and a link to rename the store. Shopify shrinks a large favicon to 32 × 32 px [13], so the 512 px store/assets/favicon.png works.
@@ -43,8 +43,8 @@ Horizon is Shopify's flagship free theme, now version 4.3.0 (9 October 2026) [8]
 **Sections** (Add section) include Hero, Slideshow, Rich text, Image with text, Multicolumn, FAQ, Email signup, Large logo, Featured collection, Featured product, Product highlight, Collection list, Marquee, Divider and Custom Liquid [9].
 
 **Product page** [9]:
-- Product information section: Product media, then Details. Details holds the title and price, a divider, Variant picker, Buy buttons (Quantity, Add to cart, Accelerated checkout), the description, then Disclosures.
-- Collapsible content is the **Accordion** block, added inside Details. Each Accordion row has a heading, "Open row by default" and an optional icon (Ruler, Truck, Return and more). Rows hold text or other blocks. Good for Fit and Shipping & returns.
+- Product information section: Product media, then Details. Details holds the title and price, a divider, Variant picker, Buy buttons (Quantity, Add to cart, Accelerated checkout), the description, then Disclosures [9].
+- Collapsible content is the **Accordion** block, added inside Details. Each Accordion row has a heading, "Open row by default" and an optional icon (Ruler, Truck, Return and more). Rows hold text or other blocks [9]. Good for Fit and Shipping & returns.
 - **Swatches:** the Variant picker shows Buttons or Dropdowns, with a Swatches switch. Theme settings → Swatches sets size, corner radius and borders [9]. Colour swatches come from linking the Color option to the product category's Color metafield [14]. [CONFIRM: the link survives a Printful sync.]
 - The Featured product section comes with a Review stars block [9]. Delete it until there are real reviews.
 
@@ -54,7 +54,7 @@ Horizon is Shopify's flagship free theme, now version 4.3.0 (9 October 2026) [8]
 
 - **Unbounded is in Shopify's font library**, weights 200–900, no italics [17]. Unbounded Bold is weight 700.
 - **Archivo is too**, weights 100–900 with italics, plus Archivo Black and Archivo Narrow [17]. No expanded width is listed, so the kit's Archivo Expanded isn't available from the library.
-- All free Shopify themes take their fonts from this library [11]. So both should be in Horizon's pickers, which answers the [CONFIRM] in store/pages/home.md. [CONFIRM: search the picker once.]
+- All free Shopify themes take their fonts from this library [11]. So both should be in Horizon's pickers, which answers the open question in store/pages/home.md. [CONFIRM: search the picker once.]
 - Library fonts are free on every store. Shopify doesn't give out the font files [17].
 
 If one ever leaves the library (Shopify has retired fonts before [17]):
@@ -76,7 +76,7 @@ If one ever leaves the library (Shopify has retired fonts before [17]):
 Setup, under Markets in the admin:
 1. Shopify Payments must be on to sell in USD [29].
 2. Add a United States market. A one-country market uses that country's currency, USD [28].
-3. Exchange rate: automatic, with the 2% fee built into the USD price buyers see, or a manual rate, with the fee taken from your payout [28].
+3. Exchange rate: automatic, with the 2% fee built into the USD price buyers see, or a manual rate, with the fee taken from your payout [26][28].
 4. Shopify rounds converted prices to common price points for each currency; the rules can't be changed [30].
 5. Fixed USD prices, or a percentage up or down, can be set in the market's catalog [31]. [CONFIRM: available on Basic.]
 6. Horizon's header has a country/region picker, on by default. Theme settings → Prices shows the currency code next to prices, also on by default [9]. Keep it: both currencies use "$".
@@ -131,7 +131,7 @@ What OFF SHFT needs:
 - Horizon's password page shows the logo, "Opening soon", "Sign up for our newsletter to be the first to know when we launch." and a sign-up form [9]. Those sign-ups wait in Customers for a launch email.
 - Removing it needs a paid plan and a business address [54]. Picking a plan doesn't end the trial; billing starts when the trial ends [3].
 - To launch: Online Store → click Private → Public. The first time, the button reads Launch store [54].
-- That opens the store and checkout to everyone. It's the owner's call, once products, payments, shipping, tax and policies are set (AGENTS.md).
+- That opens the store and checkout to everyone [54]. It's the owner's call, once products, payments, shipping, tax and policies are set (AGENTS.md).
 
 ## 10. Domains
 
@@ -158,7 +158,7 @@ CAD unless marked.
 |---|---|---|
 | Basic plan | $37 a month billed yearly ($444 a year), or $49 a month | [1] |
 | Intro offer | 3-day trial, then $1 a month for 3 months [CONFIRM: in admin] | [1][3] |
-| First 15 months on Basic | $447 with yearly billing after the offer (3 × $1 + $444); $591 staying monthly (3 × $1 + 12 × $49) | [1][3] |
+| First 15 months on Basic | $447 with yearly billing after the offer (3 × $1 + $444); $591 staying monthly (3 × $1 + 12 × $49) [CONFIRM: the offer applies to this store] | [1][3] |
 | Card fee, Canadian card | 2.8% + 30¢ (about $1.28 on a $34.99 hat) | [1] |
 | Card fee, US or Amex card | 3.5% + 30¢ (about $1.52 on a $34.99 hat) | [1] |
 | Buyer pays in USD | 2% conversion | [26] |
@@ -170,7 +170,7 @@ CAD unless marked.
 | USD charges on a CAD bill (domains, apps) | +1.5% | [7] |
 | Shopify Messaging | Free to 10,000 emails a month, then US$1 per 1,000 | [48] |
 | Shopify Forms | Free | [50] |
-| Shopify Tax | Free to $100,000 in sales, then 0.25% per Canadian order (max $0.99) [CONFIRM] | [43] |
+| Shopify Tax | Free to $100,000 in sales, then 0.25% per Canadian order (max $0.99) [CONFIRM: 0.25% or 0.15%] | [43] |
 | Duties at checkout (optional) | 0.5% of the order for now | [32] |
 | Live carrier rates | Not on Basic; included with Grow billed yearly | [6] |
 
@@ -191,7 +191,7 @@ CAD unless marked.
 13. Favicon: https://help.shopify.com/en/manual/online-store/images/add-favicon
 14. Swatches from category metafields: https://help.shopify.com/en/manual/custom-data/metafields/category-metafields/using-category-metafields
 15. Sections and blocks: https://help.shopify.com/en/manual/online-store/themes/theme-structure/sections-and-blocks
-16. Horizon, 10 free themes: https://changelog.shopify.com/posts/horizon-10-new-free-themes-by-shopify
+16. Horizon, 10 free themes: https://changelog.shopify.com/posts/horizon-10-new-free-themes-by-shopify and https://themes.shopify.com/collections/horizon-themes
 17. Shopify font library: https://shopify.dev/docs/storefronts/themes/architecture/settings/fonts
 18. Self-hosting web fonts: https://shopify.dev/docs/storefronts/themes/best-practices/performance/self-host-web-fonts
 19. Unbounded licence: https://github.com/googlefonts/unbounded/blob/main/OFL.txt
