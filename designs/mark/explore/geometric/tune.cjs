@@ -156,7 +156,48 @@ const G1nr = (o) => {
   const minute = difference([bar(P, 0, { len: o.Lm, w: o.wm })], [hourGap]);
   return [...minute, ...union([hour])];
 };
+// G1 with optional horizontal-cut hour tip (all terminals on horizontals)
+function capBarH(C, Lb, w, n = 96) {
+  // hour hand at 150 with round end at C and a horizontal tip cut through the axis point at Lb
+  const d = dir(150), nn = lnorm(d);
+  const e = add(C, mul(d, Lb));
+  const Lp = add(C, mul(nn, w / 2)), Rp = add(C, mul(nn, -w / 2));
+  const pts = [inter(Lp, d, e, [1, 0]), inter(Rp, d, e, [1, 0])];
+  for (let i = 0; i <= n; i++) {
+    const t = -Math.PI / 2 - (i / n) * Math.PI;
+    pts.push(add(C, mul(add(mul(d, Math.cos(t)), mul(nn, Math.sin(t))), w / 2)));
+  }
+  return pts;
+}
+const G1h = (o) => {
+  const hour = o.hcut ? capBarH(P, o.Lh, o.wh) : capBar(P, 150, o.Lh, o.wh);
+  const hourGap = capBar(P, 150, o.Lh + o.g, o.wh + 2 * o.g);
+  const minute = difference([bar(P, 0, { len: o.Lm, w: o.wm })], [hourGap]);
+  const out = [...minute, ...union([hour])];
+  if (o.k) out.push(diamond(P, o.k));
+  return out;
+};
 const SETS = {
+  g1v5: [
+    ['a-current', G1h, { wm: 3.0, wh: 3.2, Lm: 14, Lh: 6.4, g: 1.05, k: 0, fill: kit.T.ink }],
+    ['b-chunky', G1h, { wm: 3.4, wh: 3.6, Lm: 12, Lh: 6.2, g: 1.05, k: 0, fill: kit.T.ink }],
+    ['c-chunkier', G1h, { wm: 3.8, wh: 4.0, Lm: 11.5, Lh: 6.2, g: 1.1, k: 0, fill: kit.T.ink }],
+    ['d-mid', G1h, { wm: 3.2, wh: 3.4, Lm: 13, Lh: 6.3, g: 1.05, k: 0, fill: kit.T.ink }],
+  ],
+  g4v2: [
+    ['a-current', G4skel, { w: 3.3, R: 2.6, t: 1, Lm: 12, Lh: 7.2, dot: 0.6, hk: 1.06, fill: kit.T.rust }],
+    ['b-wide-longhour', G4skel, { w: 3.6, R: 2.7, t: 1, Lm: 12, Lh: 8, dot: 0.6, hk: 1.06, fill: kit.T.rust }],
+    ['c-short-minute', G4skel, { w: 3.6, R: 2.7, t: 1, Lm: 11, Lh: 8, dot: 0.6, hk: 1.06, fill: kit.T.rust }],
+    ['d-wider', G4skel, { w: 4.0, R: 2.8, t: 1, Lm: 11.5, Lh: 7.8, dot: 0.65, hk: 1.0, fill: kit.T.rust }],
+  ],
+  g1v4: [
+    ['a-current', G1h, { wm: 3.0, wh: 3.6, Lm: 14, Lh: 6, g: 1.05, k: 0.74, fill: kit.T.rust }],
+    ['b-hcut', G1h, { wm: 3.0, wh: 3.6, Lm: 14, Lh: 6.6, g: 1.05, k: 0.74, hcut: true, fill: kit.T.rust }],
+    ['c-norivet', G1h, { wm: 3.0, wh: 3.4, Lm: 14, Lh: 6.4, g: 1.05, k: 0, fill: kit.T.rust }],
+    ['d-norivet-hcut', G1h, { wm: 3.0, wh: 3.4, Lm: 14, Lh: 7, g: 1.05, k: 0, hcut: true, fill: kit.T.rust }],
+    ['e-long-hour', G1h, { wm: 3.0, wh: 3.8, Lm: 15, Lh: 7.5, g: 1.12, k: 0.79, fill: kit.T.rust }],
+    ['f-slim-norivet', G1h, { wm: 2.6, wh: 3.0, Lm: 14, Lh: 6.6, g: 1.0, k: 0, fill: kit.T.rust }],
+  ],
   g1v3: [
     ['a-bold-diamond', G1v2, { wm: 3.0, wh: 3.6, Lm: 14, Lh: 6, g: 1.0, k: 0.74, fill: kit.T.rust }],
     ['b-bold-norivet', G1nr, { wm: 3.0, wh: 3.6, Lm: 14, Lh: 6, g: 1.0, fill: kit.T.rust }],

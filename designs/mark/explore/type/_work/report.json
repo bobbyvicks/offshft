@@ -1,0 +1,118 @@
+{
+  "report": {
+    "T1": {
+      "mark": {
+        "w": 25,
+        "h": 19.92715920915713
+      },
+      "lockup": {
+        "w": 73.796,
+        "h": 7.255
+      },
+      "checkMark": {
+        "thinPx": 10,
+        "gapPx": 192,
+        "pxPerMm": 24
+      },
+      "checkLockup": {
+        "thinPx": 1956,
+        "gapPx": 1644,
+        "pxPerMm": 24
+      }
+    },
+    "T2": {
+      "mark": {
+        "w": 25,
+        "h": 16.585004190574434
+      },
+      "lockup": {
+        "w": 78.35768376588034,
+        "h": 10.622
+      },
+      "checkMark": {
+        "thinPx": 657,
+        "gapPx": 95,
+        "pxPerMm": 24
+      },
+      "checkLockup": {
+        "thinPx": 2224,
+        "gapPx": 1537,
+        "pxPerMm": 24
+      }
+    },
+    "T3": {
+      "mark": {
+        "w": 25,
+        "h": 19.92809351688072
+      },
+      "lockup": {
+        "w": 72.4301460526919,
+        "h": 10.4377
+      },
+      "checkMark": {
+        "thinPx": 196,
+        "gapPx": 8,
+        "pxPerMm": 24
+      },
+      "checkLockup": {
+        "thinPx": 2159,
+        "gapPx": 1671,
+        "pxPerMm": 24
+      }
+    },
+    "T4": {
+      "mark": {
+        "w": 10.392772414909713,
+        "h": 25
+      },
+      "lockup": {
+        "w": 41.848374711404844,
+        "h": 15.939
+      },
+      "checkMark": {
+        "thinPx": 250,
+        "gapPx": 99,
+        "pxPerMm": 24
+      },
+      "checkLockup": {
+        "thinPx": 2203,
+        "gapPx": 2024,
+        "pxPerMm": 24
+      }
+    }
+  },
+  "meta": {
+    "T1": {
+      "name": "Dial O",
+      "concept": "The O of OFF becomes a solid dial with the 5:00 hands cut out of it, so the clock is literally inside the name. On its own the dial is the mark.",
+      "threads": [
+        "Rust #B4552D (dial)",
+        "Ink #1F2733 (letters)"
+      ]
+    },
+    "T2": {
+      "name": "Clock Axis",
+      "concept": "OFF and SHFT sit where 9 and 3 would be, so the name itself is the clock face and the hands pivot between the words. The mark is the same clock with the words reduced to two ticks.",
+      "threads": [
+        "Ink #1F2733 (letters)",
+        "Rust #B4552D (hands)"
+      ]
+    },
+    "T3": {
+      "name": "Big O",
+      "concept": "An O-with-hands monogram that also serves as the first letter of OFF, set larger than the caps like a drop initial. The monogram works alone on the side of a hat.",
+      "threads": [
+        "Ink #1F2733 (letters, ring)",
+        "Rust #B4552D (hands)"
+      ]
+    },
+    "T4": {
+      "name": "Grid Lock",
+      "concept": "The hands set the type. The minute hand is exactly one line pitch tall, the hub sits on the cap line of SHFT, and the hour hand ends on its baseline, so OFF and SHFT stack against the hands like a single unit.",
+      "threads": [
+        "Rust #B4552D (hands)",
+        "Ink #1F2733 (letters)"
+      ]
+    }
+  }
+}

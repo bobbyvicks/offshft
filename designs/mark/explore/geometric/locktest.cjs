@@ -22,7 +22,8 @@ const opts = JSON.parse(process.argv[3] || 'null') || [
   { name: 'centre-xblack', markH: 22, cap: 6.0, font: 'xblack', track: 0.14, gap: 'word', baseU: 'centre' },
   { name: 'pivotCap-xbold-big', markH: 22, cap: 7.4, font: 'xbold', track: 0.14, gap: 'word', baseU: 'pivotCap' },
 ];
-const fnMap = { centre, pivotBase, pivotMid, pivotCap, bottomBase };
+const nutBand = (bb, capU, m) => (m.o.Rh || m.o.R || 0) ; // baseline at the bottom vertex of the nut / hub
+const fnMap = { centre, pivotBase, pivotMid, pivotCap, bottomBase, nutBand };
 (async () => {
   const files = [];
   for (const o of opts) {
@@ -32,7 +33,7 @@ const fnMap = { centre, pivotBase, pivotMid, pivotCap, bottomBase };
     const png = f.replace('.svg', '.png');
     await kit.render(f, png, { bg: kit.F.bone });
     files.push(png);
-    console.log(o.name, 'W', r.W.toFixed(1), 'H', r.H.toFixed(1), 'gap', r.gapMM.toFixed(2), 'stem', r.stem.toFixed(2), 'unit', r.k.toFixed(3));
+    console.log(o.name, 'W', r.W.toFixed(1), 'H', r.H.toFixed(1), 'markH', r.markH.toFixed(1), 'gap', r.gapMM.toFixed(2), 'clear', r.clearance.toFixed(2), 'stem', r.stem.toFixed(2), 'unit', r.k.toFixed(3));
   }
   await kit.close();
   execFileSync('montage', ['-label', '%t', ...files, '-tile', '2x', '-geometry', '660x384+6+6', '-pointsize', '16', '-background', '#888', path.join(OUT, '_sheet.png')]);
