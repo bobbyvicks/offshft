@@ -3,7 +3,7 @@
 - **SEO title (16 characters):** Contact OFF SHFT
 - **Meta description (90 characters):** Questions about an order, a hat or a gift? Email OFF SHFT or send a message with the form.
 
-This goes in the Contact page the store already has (Online Store → Pages → Contact). Keep its template, contact: that's what puts the form under the text. Replace the page's content with the text between the markers. The SEO title and meta description go under "Search engine listing".
+This goes in the Contact page the store already has (Online Store → Pages → Contact). Keep its template set to contact: that's the template that puts the form under the text. Replace the page's content with the text between the markers. The SEO title and meta description go under "Search engine listing".
 
 <!-- paste:start -->
 Questions about an order, a hat or a gift? Send us a note.

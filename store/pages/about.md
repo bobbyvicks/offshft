@@ -27,5 +27,5 @@ You put in the hours. This time is yours.
 
 Notes
 
-- 124 words. Every line comes from BRAND.md, PRODUCTS.md or the logo notes. No founder story, history, customer numbers or places.
+- 131 words, built only from BRAND.md, PRODUCTS.md and the logo notes. No founder story, history, customer numbers or places.
 - If printed hats are ever added, the copy still holds. It doesn't say every hat is embroidered.

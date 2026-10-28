@@ -9,7 +9,7 @@ Products → Collections → Create collection. All six are automated: a hat joi
 
 | Handle | Title | Rule | Fills at launch |
 |---|---|---|---|
-| all-hats | All hats | Product type is equal to Hat | Logo hat, then Punched Out. |
+| all-hats | All hats | Product type is equal to Hat | The logo hat; Punched Out. once it's ready |
 | fishing | Fishing | Product tag is equal to fishing | Nothing yet |
 | golf | Golf | Product tag is equal to golf | Nothing yet |
 | cottage | Cottage | Product tag is equal to cottage | Nothing yet |
