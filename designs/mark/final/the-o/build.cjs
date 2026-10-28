@@ -31,7 +31,7 @@ const ClipperLib = require('/home/user/offshft/tools/node_modules/clipper-lib');
 const HANDS = process.env.HANDS === 'centre' ? 'centre' : 'outside';
 const OUT = HANDS === 'centre' ? path.join(__dirname, 'hands-centre') : __dirname;
 const T = kit.T, F = kit.F;
-const O_SCALE = 1.15;
+const O_SCALE = +(process.env.O_SCALE || 1.15);
 const n = (v) => (Math.round(v * 1000) / 1000).toString();
 
 // ---------------------------------------------------------------- fonts
