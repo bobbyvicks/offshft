@@ -2,7 +2,8 @@
 // Chosen by the owner; refined from two blind reading tests and a brand + embroidery review (see notes.md).
 //
 // Construction (everything derives from the cap height and the typeface's own strokes):
-// - Wordmark: Archivo Expanded Bold, letter-spacing 0.14 em; F-F kerned -0.0286 cap, F-T -0.0571 cap.
+// - Wordmark: Unbounded Bold (owner's pick), letter-spacing 0.12 em; F-F kerned -0.043 cap, F-T -0.05 cap
+//   (the F's open side leaves holes in those pairs). Set LOGO_FONT=archivo to rebuild the Archivo version.
 // - The O is a ring 1.15 x the height of the type's own O (owner's pick), centred on the type's O.
 //   Its counter is a slightly upright ellipse so the ring matches the letters' contrast:
 //   side walls 1.03 x the vertical stem, top and bottom walls ~1.15 x the horizontal arm (0.85-1.0 stem).
@@ -70,7 +71,7 @@ function strokes(fontKey, cap) {
 const FONTS = {
   archivo: { key: 'xbold', name: 'Archivo Expanded Bold', track: 0.14, kern: { FF: -0.0286, FT: -0.0571 } },
   anybody: { key: 'anybody', name: 'Anybody Extra Wide ExtraBold', track: 0.06 },
-  unbounded: { key: 'unbounded', name: 'Unbounded Bold', track: 0.1 },
+  unbounded: { key: 'unbounded', name: 'Unbounded Bold', track: 0.12, kern: { FF: -0.043, FT: -0.05 } },
   lexendexa: { key: 'lexendexa', name: 'Lexend Exa Bold', track: 0.02 },
   syne: { key: 'syne', name: 'Syne ExtraBold', track: 0.04 },
   saira: { key: 'saira', name: 'Saira Expanded Bold', track: 0.12 },
@@ -194,7 +195,7 @@ module.exports = { FONTS, geometry, lockup, symbol, smallMaster, strokes, LIGHT,
 if (require.main === module) (async () => {
   const write = (name, d) => { const f = path.join(OUT, name); kit.writeSvg(f, d); return f; };
   const sheet = [];
-  const A = FONTS.archivo;
+  const A = FONTS[process.env.LOGO_FONT || 'unbounded'];
   for (const c of [LIGHT, DARK, ONE_INK, ONE_BONE]) {
     const lk = write(`logo-${c.name}.svg`, lockup(A, 7, c, { oneColour: !!c.one }));
     await kit.render(lk, lk.replace('.svg', '.png'), { bg: c.bg, tile: '100x40', px: 6 });
@@ -244,6 +245,7 @@ if (require.main === module) (async () => {
   m(fontPngs, 'fonts/sheet.png', '720x216+10+10');
 
   const L7 = lockup(A, 7, LIGHT), G = L7.G, S25 = symbol(A, 25, LIGHT, { channel: 1.2 }), SM = smallMaster(LIGHT);
+  console.log(`font: ${A.name}, letter-spacing ${A.track} em`);
   console.log(`lockup cap 7: ${n(L7.w)} x ${n(L7.h)} mm`);
   console.log(`stem ${n(G.stem)} arm ${n(G.arm)} ring R ${n(G.R)} counter ${n(G.rx)} x ${n(G.ry)} walls side ${n(G.R - G.rx)} top ${n(G.R - G.ry)}`);
   console.log(`channel ${n(G.g)} minute ${n(2 * G.sM)} wide, visible ${n(G.Lm - G.R - G.g)}; hour ${n(2 * G.sH)} wide, visible ${n(G.Lh - G.R - G.g)}; dot ${n(G.dot)} (fabric to counter ${n(G.rx - G.dot / 2)})`);
