@@ -2,7 +2,7 @@
 
 The O in OFF is a clock face. Two hands stand out of it showing 5:00, quitting time, so the name and the idea are one mark: the shift is over and the time is yours. The hands and pivot dot are stitched in the accent thread so they read as clock hands laid on a dial.
 
-Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bold, the O the same size as the other letters (the symbol on its own keeps a slightly bigger O and a pivot dot).
+Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bold, the O the same size as the other letters (the symbol on its own keeps a slightly bigger O and a pivot dot), shorter hands ("C": the first ones felt too big for the clock).
 
 **This file is written by `build.cjs`.** Every number below is measured from the generated artwork. Do not edit it by hand; change `build.cjs` and rebuild.
 
@@ -23,15 +23,15 @@ Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bo
 
 | Part | Rule | At cap 7 |
 |---|---|---|
-| Wordmark | Unbounded Bold, letter-spacing 0.12 em. Extra kerning: F-F -0.043 cap, F-space -0.05 cap, F-T -0.025 cap. Each letter is one merged outline. | 62.6 x 19.4 mm overall (one colour 20.4 mm tall) |
+| Wordmark | Unbounded Bold, letter-spacing 0.12 em. Extra kerning: F-F -0.043 cap, F-space -0.05 cap, F-T -0.025 cap. Each letter is one merged outline. | 62.6 x 16.5 mm overall (one colour 17.4 mm tall) |
 | Letter strokes | Measured from Unbounded | stem 1.93 mm, arm 1.63 mm |
 | Clock O | Ring the same height as the font's own O, centred on it (symbol: 1.15 x) | 7.30 mm across |
 | Ring walls | Sides 1.0 x stem (0.98 one colour), top and bottom 0.9 x stem | 1.93 mm sides, 1.74 mm top/bottom; counter 3.43 x 3.82 mm |
 | Channel | Even gap between ring and hands, hand bases concave. Two colours max(1.0, 0.143 cap); one colour 1.2, 1.5 from cap 7 | 1.00 mm (one colour 1.50 mm) |
-| Minute hand | 1.0 stem wide, visible 0.936 cap from the channel, exactly 12 o'clock | 1.93 x 6.55 mm |
-| Hour hand | 1.02 stems wide, visible 0.667 cap from the channel, exactly 150 degrees | 1.97 x 4.67 mm |
+| Minute hand | 1.0 stem wide, visible 0.657 cap from the channel (symbol: x 1.15, with its O), exactly 12 o'clock | 1.93 x 4.60 mm |
+| Hour hand | 1.02 stems wide, visible 0.5 cap from the channel (symbol: x 1.15), exactly 150 degrees | 1.97 x 3.50 mm |
 | Points | 90 degree taper ending in a flat 0.3 x the hand width (this is what stitches) | |
-| Pivot dot | Symbol and side master only, hand colour, at most 0.286 cap, at least 1.3 mm fabric to the counter (1.5 one colour). None in the lockup: no room at letter size, and a dot in a small ring read as a rifle scope. | 25 mm symbol: 2.45 mm |
+| Pivot dot | Symbol and side master only, hand colour, at most 0.286 cap, at least 1.3 mm fabric to the counter (1.5 one colour). None in the lockup: no room at letter size, and a dot in a small ring read as a rifle scope. | 25 mm symbol: 2.72 mm |
 | S | Terminals trimmed so both apertures are 1.0 mm (upper / lower trim) | 0.36 / 0.41 mm (cap 6.6: 0.40 / 0.45 mm) |
 | F-T | Gap between the F arm and the T bar | 1.47 mm |
 
@@ -48,8 +48,8 @@ The hex values are targets. Match each to the nearest colour on a physical threa
 
 ## Size floors
 
-- Lockup: cap 6.6 mm minimum (59.1 x 18.4 mm), set by the S apertures. Hat fronts: cap 7 (62.6 mm wide). One colour: cap 7 minimum (wider channel).
-- Symbol: 19 mm tall minimum in two colours (dot 1.58 mm), 20.5 mm in one colour (dot 1.53 mm). Plain satin up to 45 mm; above that, split satin or tatami. From 35 mm, use a 1.5 mm channel.
+- Lockup: cap 6.6 mm minimum (59.1 x 15.6 mm), set by the S apertures. Hat fronts: cap 7 (62.6 mm wide). One colour: cap 7 minimum (wider channel).
+- Symbol: 19 mm tall minimum in two colours (dot 2.02 mm), 20.5 mm in one colour (dot 1.87 mm). Plain satin up to 45 mm; above that, split satin or tatami. From 35 mm, use a 1.5 mm channel.
 - Under 19 mm: use the side master only (8.4 x 16.6 mm; one colour 8.6 x 16.9 mm). Never scale the main files down.
 - Any embroidered Unbounded Bold text: cap 6.6 mm minimum, letter-spacing 0.12 em, with the S trims. Smaller text needs a separately approved lighter face (owner's decision).
 

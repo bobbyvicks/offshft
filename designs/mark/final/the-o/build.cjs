@@ -10,8 +10,9 @@
 //   it. Side walls 1.0 x the stem
 //   (0.98 in one colour), top and bottom walls 0.9 x the stem, matching Unbounded's own O.
 // - Hands: minute 1.0 stem wide, hour 1.02 stems, 90 degree points finished with a flat 0.3 x the hand width
-//   (what actually stitches). Minute hand visible 0.936 cap, hour hand 0.667 cap, both measured from the
-//   channel edge. Exactly 12 and 150 degrees.
+//   (what actually stitches). Minute hand visible 0.657 cap, hour hand 0.5 cap (owner's pick "C"; the earlier
+//   0.936 / 0.667 felt too big for the clock), both measured from the channel edge. Lengths grow with the O,
+//   so the symbol's hands keep the same proportion to its ring. Exactly 12 and 150 degrees.
 // - Default ("outside"): hands stand outside the ring across an even channel (two colours max(1.0, 0.143 cap) mm;
 //   one colour 1.2 mm, 1.5 mm from cap 7) with concave bases. HANDS=centre: hands run from the pivot over the ring.
 // - Pivot dot (symbol and side master only) in the hand colour: up to 0.286 cap, never closer than 1.3 mm to the
@@ -135,8 +136,8 @@ function strokes(fontKey, cap) {
 // Options: wallFactor = ring side wall as a multiple of the stem (default 1.0, 0.98 one colour);
 //          ticks = 'four' (12, 3, 6, 9) or 'three' (3, 6, 9) inside the ring, in the ring colour.
 // Hand options: handW = minute-hand width in mm (hour hand 3% wider; default = the letter stem),
-//               minuteLen / hourLen = visible length past the channel, in cap heights.
-function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks, oScale = O_SCALE, dot: wantDot = true, handW, minuteLen = 0.936, hourLen = 0.667 } = {}) {
+//               minuteLen / hourLen = visible length past the channel, in cap heights (default grows with oScale).
+function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks, oScale = O_SCALE, dot: wantDot = true, handW, minuteLen = 0.657 * oScale, hourLen = 0.5 * oScale } = {}) {
   const ref = kit.text('OFF SHFT', { font: font.key, cap, track: font.track, x: 0, y: 0 });
   const O = ref.letters[0];
   const { stem, arm } = strokes(font.key, cap);
@@ -345,7 +346,7 @@ function notes(m) {
 
 The O in OFF is a clock face. Two hands stand out of it showing 5:00, quitting time, so the name and the idea are one mark: the shift is over and the time is yours. The hands and pivot dot are stitched in the accent thread so they read as clock hands laid on a dial.
 
-Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bold, the O the same size as the other letters (the symbol on its own keeps a slightly bigger O and a pivot dot).
+Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bold, the O the same size as the other letters (the symbol on its own keeps a slightly bigger O and a pivot dot), shorter hands ("C": the first ones felt too big for the clock).
 
 **This file is written by \`build.cjs\`.** Every number below is measured from the generated artwork. Do not edit it by hand; change \`build.cjs\` and rebuild.
 
@@ -371,8 +372,8 @@ Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bo
 | Clock O | Ring the same height as the font's own O, centred on it (symbol: 1.15 x) | ${f(m.ring)} mm across |
 | Ring walls | Sides 1.0 x stem (0.98 one colour), top and bottom 0.9 x stem | ${f(m.wallSide)} mm sides, ${f(m.wallTop)} mm top/bottom; counter ${f(m.counter[0])} x ${f(m.counter[1])} mm |
 | Channel | Even gap between ring and hands, hand bases concave. Two colours max(1.0, 0.143 cap); one colour 1.2, 1.5 from cap 7 | ${f(m.channel)} mm (one colour ${f(m.channelOne)} mm) |
-| Minute hand | 1.0 stem wide, visible 0.936 cap from the channel, exactly 12 o'clock | ${f(m.minute[0])} x ${f(m.minute[1])} mm |
-| Hour hand | 1.02 stems wide, visible 0.667 cap from the channel, exactly 150 degrees | ${f(m.hour[0])} x ${f(m.hour[1])} mm |
+| Minute hand | 1.0 stem wide, visible 0.657 cap from the channel (symbol: x 1.15, with its O), exactly 12 o'clock | ${f(m.minute[0])} x ${f(m.minute[1])} mm |
+| Hour hand | 1.02 stems wide, visible 0.5 cap from the channel (symbol: x 1.15), exactly 150 degrees | ${f(m.hour[0])} x ${f(m.hour[1])} mm |
 | Points | 90 degree taper ending in a flat 0.3 x the hand width (this is what stitches) | |
 | Pivot dot | Symbol and side master only, hand colour, at most 0.286 cap, at least 1.3 mm fabric to the counter (1.5 one colour). None in the lockup: no room at letter size, and a dot in a small ring read as a rifle scope. | 25 mm symbol: ${f(m.s25[2])} mm |
 | S | Terminals trimmed so both apertures are 1.0 mm (upper / lower trim) | ${f(m.sTrims.upper)} / ${f(m.sTrims.lower)} mm (cap 6.6: ${f(m.sTrims66.upper)} / ${f(m.sTrims66.lower)} mm) |

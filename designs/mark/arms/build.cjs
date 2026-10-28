@@ -9,8 +9,9 @@ const OUT = __dirname, A = B.FONTS.unbounded, L = B.LIGHT;
 // visible lengths in mm at cap 7 -> cap units
 const len = (mm) => mm / 7;
 const V = [
-  ['A-now', 'Now: 1.9 mm wide, 6.6 / 4.7 mm long', {}],
-  ['B-slimmer', 'Slimmer: 1.5 mm wide, same length', { handW: 1.5 }],
+  ['A-now', 'Now: 1.9 mm wide, 6.6 / 4.7 mm long', { minuteLen: 0.936, hourLen: 0.667 }],
+  ['B-slimmer', 'Slimmer: 1.5 mm wide, same length', { handW: 1.5, minuteLen: 0.936, hourLen: 0.667 }],
+  // C is the owner's pick and is now the default in final/the-o/build.cjs
   ['C-shorter', 'Shorter: same width, 4.6 / 3.5 mm long', { minuteLen: len(4.6), hourLen: len(3.5) }],
   ['D-smaller', 'Slimmer + shorter: 1.5 mm, 4.6 / 3.5 mm', { handW: 1.5, minuteLen: len(4.6), hourLen: len(3.5) }],
   ['E-smallest', 'Smallest: 1.5 mm, 3.9 / 3.0 mm', { handW: 1.5, minuteLen: len(3.9), hourLen: len(3.0) }],
