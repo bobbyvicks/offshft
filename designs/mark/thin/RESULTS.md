@@ -1,8 +1,13 @@
 # Thin O and inside ticks: tested, not adopted
 
+**Correction:** these readers were not context-free. The tool that ran them also showed each reader the owner's
+latest chat message ("what if we did inside ticks like how a clock actually works" for the tick rounds, "make the
+o less think to accomidate?" for the thin-O round). Treat the numbers below as informed opinions, not blind reads.
+Truly blind reads of the final logo are in `../clean-reads/RESULTS.md`.
+
 The owner asked whether tick marks inside the O (like a real clock face) would help, and whether a thinner O
 would make room for them. Both were drawn (`build.cjs`, options `wallFactor` and `ticks` in
-`../final/the-o/build.cjs`) and read cold by fresh readers with no context, three per version.
+`../final/the-o/build.cjs`) and read by fresh readers, three per version.
 
 | Version | Read as | Avg. confidence | What readers saw |
 |---|---|---|---|

@@ -2,7 +2,7 @@
 
 The O in OFF is a clock face. Two hands stand out of it showing 5:00, quitting time, so the name and the idea are one mark: the shift is over and the time is yours. The hands and pivot dot are stitched in the accent thread so they read as clock hands laid on a dial.
 
-Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bold, the O the same size as the other letters (the symbol on its own keeps a slightly bigger O and a pivot dot), shorter hands ("C": the first ones felt too big for the clock).
+Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bold, the O the same size as the other letters, shorter hands ("C": the first ones felt too big for the clock). The symbol on its own keeps a slightly bigger O, the longer hands and a pivot dot.
 
 **This file is written by `build.cjs`.** Every number below is measured from the generated artwork. Do not edit it by hand; change `build.cjs` and rebuild.
 
@@ -28,10 +28,10 @@ Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bo
 | Clock O | Ring the same height as the font's own O, centred on it (symbol: 1.15 x) | 7.30 mm across |
 | Ring walls | Sides 1.0 x stem (0.98 one colour), top and bottom 0.9 x stem | 1.93 mm sides, 1.74 mm top/bottom; counter 3.43 x 3.82 mm |
 | Channel | Even gap between ring and hands, hand bases concave. Two colours max(1.0, 0.143 cap); one colour 1.2, 1.5 from cap 7 | 1.00 mm (one colour 1.50 mm) |
-| Minute hand | 1.0 stem wide, visible 0.657 cap from the channel (symbol: x 1.15, with its O), exactly 12 o'clock | 1.93 x 4.60 mm |
-| Hour hand | 1.02 stems wide, visible 0.5 cap from the channel (symbol: x 1.15), exactly 150 degrees | 1.97 x 3.50 mm |
+| Minute hand | 1.0 stem wide, visible 0.657 cap from the channel (symbol: 0.936 cap), exactly 12 o'clock | 1.93 x 4.60 mm |
+| Hour hand | 1.02 stems wide, visible 0.5 cap from the channel (symbol: 0.667 cap), exactly 150 degrees | 1.97 x 3.50 mm |
 | Points | 90 degree taper ending in a flat 0.3 x the hand width (this is what stitches) | |
-| Pivot dot | Symbol and side master only, hand colour, at most 0.286 cap, at least 1.3 mm fabric to the counter (1.5 one colour). None in the lockup: no room at letter size, and a dot in a small ring read as a rifle scope. | 25 mm symbol: 2.72 mm |
+| Pivot dot | Symbol and side master only, hand colour, at most 0.286 cap, at least 1.3 mm fabric to the counter (1.5 one colour). None in the lockup: no room at letter size, and a dot in a small ring read as a rifle scope. | 25 mm symbol: 2.45 mm |
 | S | Terminals trimmed so both apertures are 1.0 mm (upper / lower trim) | 0.36 / 0.41 mm (cap 6.6: 0.40 / 0.45 mm) |
 | F-T | Gap between the F arm and the T bar | 1.47 mm |
 
@@ -49,7 +49,7 @@ The hex values are targets. Match each to the nearest colour on a physical threa
 ## Size floors
 
 - Lockup: cap 6.6 mm minimum (59.1 x 15.6 mm), set by the S apertures. Hat fronts: cap 7 (62.6 mm wide). One colour: cap 7 minimum (wider channel).
-- Symbol: 19 mm tall minimum in two colours (dot 2.02 mm), 20.5 mm in one colour (dot 1.87 mm). Plain satin up to 45 mm; above that, split satin or tatami. From 35 mm, use a 1.5 mm channel.
+- Symbol: 19 mm tall minimum in two colours (dot 1.58 mm), 20.5 mm in one colour (dot 1.53 mm). Plain satin up to 45 mm; above that, split satin or tatami. From 35 mm, use a 1.5 mm channel.
 - Under 19 mm: use the side master only (8.4 x 16.6 mm; one colour 8.6 x 16.9 mm). Never scale the main files down.
 - Any embroidered Unbounded Bold text: cap 6.6 mm minimum, letter-spacing 0.12 em, with the S trims. Smaller text needs a separately approved lighter face (owner's decision).
 
@@ -69,6 +69,7 @@ The hex values are targets. Match each to the nearest colour on a physical threa
 
 ## How it was tested
 
-- Blind reading rounds with fresh readers who were given no context. Final lockup (O the same size as the letters, no dot): read "OFF SHFT" 3 out of 3 at 9/10, two readers noting the letters look uniform in size. The same lockup with a dot in a thinner O dropped to 8.3/10 with "scope" readings. The symbol reads as a clock 3 out of 3 at about 6/10. Earlier rounds showed that one-colour versions and short hands drift towards "Q" or "magnifying glass", and that tick marks around the O add "compass" readings.
+- **Truly blind reads.** Each reader was a fresh agent given one image and four neutral questions, nothing else; their transcripts were checked to confirm they saw no chat messages. Final lockup: "OFF SHFT" 3 out of 3, all at 9/10, and all 3 described the O as a clock showing about 5:00 without being asked about clocks. The earlier, longer hands scored exactly the same. Every reader of both versions said the lower hand can pass for a Q's tail at a glance (it comes from a hand at 5 o'clock outside an O, not from the hand length) and that SHFT reads as SHIFT. The symbol reads as a clock at 5:00 3 out of 3, at 6.3/10 with its longer hands (5/10 with the short ones), with "magnifying glass" and "Q" as the usual second readings. Full answers: `designs/mark/clean-reads/RESULTS.md`.
+- **Earlier rounds were not fully blind.** The tool that ran them also showed every reader the owner's latest chat message (for example "make the o a bit bigger", "it looks like a scope", "the arms feel too big for the clock"), so treat those numbers as informed opinions. The two choices they supported, no dot in the lockup and no tick marks, were also the owner's own calls.
 - The symbol is abstract on its own; it gains recognition when used alongside the full logo (for example front logo plus side symbol).
 - Two brand reviews and two embroidery reviews (Archivo, then Unbounded) set every rule above.

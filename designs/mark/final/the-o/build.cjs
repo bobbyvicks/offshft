@@ -10,9 +10,9 @@
 //   it. Side walls 1.0 x the stem
 //   (0.98 in one colour), top and bottom walls 0.9 x the stem, matching Unbounded's own O.
 // - Hands: minute 1.0 stem wide, hour 1.02 stems, 90 degree points finished with a flat 0.3 x the hand width
-//   (what actually stitches). Minute hand visible 0.657 cap, hour hand 0.5 cap (owner's pick "C"; the earlier
-//   0.936 / 0.667 felt too big for the clock), both measured from the channel edge. Lengths grow with the O,
-//   so the symbol's hands keep the same proportion to its ring. Exactly 12 and 150 degrees.
+//   (what actually stitches). Lockup: minute hand visible 0.657 cap, hour hand 0.5 cap (owner's pick "C"; the
+//   earlier 0.936 / 0.667 felt too big for the clock). The symbol keeps 0.936 / 0.667: on its own the longer
+//   hands read more clearly as a clock. Measured from the channel edge. Exactly 12 and 150 degrees.
 // - Default ("outside"): hands stand outside the ring across an even channel (two colours max(1.0, 0.143 cap) mm;
 //   one colour 1.2 mm, 1.5 mm from cap 7) with concave bases. HANDS=centre: hands run from the pivot over the ring.
 // - Pivot dot (symbol and side master only) in the hand colour: up to 0.286 cap, never closer than 1.3 mm to the
@@ -35,9 +35,14 @@ const HANDS = process.env.HANDS === 'centre' ? 'centre' : 'outside';
 const OUT = HANDS === 'centre' ? path.join(__dirname, 'hands-centre') : __dirname;
 const T = kit.T, F = kit.F;
 // The O in the lockup is the same size as the other letters (owner's pick); the stand-alone symbol keeps a
-// slightly bigger O (1.15) so its pivot dot has room and the clock reads (best in blind tests).
+// slightly bigger O (1.15, the owner's earlier pick) so its pivot dot has room.
 const O_SCALE = +(process.env.O_SCALE || 1.0);
 const SYMBOL_O_SCALE = 1.15;
+// Visible hand lengths past the channel, in cap heights. Lockup: owner's pick "C" (the first hands felt too big for
+// the letter-sized O). Symbol: the longer hands, which read more clearly as a clock on their own in truly blind
+// reads (6.3/10 against 5/10 for the short ones; designs/mark/clean-reads/RESULTS.md).
+const LOCKUP_HANDS = { minuteLen: 0.657, hourLen: 0.5 };
+const SYMBOL_HANDS = { minuteLen: 0.936, hourLen: 0.667 };
 const n = (v) => (Math.round(v * 1000) / 1000).toString();
 
 // ---------------------------------------------------------------- fonts
@@ -136,8 +141,8 @@ function strokes(fontKey, cap) {
 // Options: wallFactor = ring side wall as a multiple of the stem (default 1.0, 0.98 one colour);
 //          ticks = 'four' (12, 3, 6, 9) or 'three' (3, 6, 9) inside the ring, in the ring colour.
 // Hand options: handW = minute-hand width in mm (hour hand 3% wider; default = the letter stem),
-//               minuteLen / hourLen = visible length past the channel, in cap heights (default grows with oScale).
-function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks, oScale = O_SCALE, dot: wantDot = true, handW, minuteLen = 0.657 * oScale, hourLen = 0.5 * oScale } = {}) {
+//               minuteLen / hourLen = visible length past the channel, in cap heights (default: the lockup's).
+function geometry(font, cap, { oneColour = false, channel, wallFactor, ticks, oScale = O_SCALE, dot: wantDot = true, handW, minuteLen = LOCKUP_HANDS.minuteLen, hourLen = LOCKUP_HANDS.hourLen } = {}) {
   const ref = kit.text('OFF SHFT', { font: font.key, cap, track: font.track, x: 0, y: 0 });
   const O = ref.letters[0];
   const { stem, arm } = strokes(font.key, cap);
@@ -241,7 +246,7 @@ function lockup(font, cap, colours, opts = {}) {
 
 // Symbol: the clock O alone, scaled so its total height is `height` mm.
 function symbol(font, height, colours, opts0 = {}) {
-  const opts = { oScale: SYMBOL_O_SCALE, ...opts0 };
+  const opts = { oScale: SYMBOL_O_SCALE, ...SYMBOL_HANDS, ...opts0 };
   let lo = 2, hi = 40;
   const hOf = (cap) => { const G = geometry(font, cap, opts); const c = clockO(G, 0, 0, colours); return c.box.y1 - c.box.y0; };
   for (let i = 0; i < 40; i++) { const mid = (lo + hi) / 2; if (hOf(mid) < height) lo = mid; else hi = mid; }
@@ -346,7 +351,7 @@ function notes(m) {
 
 The O in OFF is a clock face. Two hands stand out of it showing 5:00, quitting time, so the name and the idea are one mark: the shift is over and the time is yours. The hands and pivot dot are stitched in the accent thread so they read as clock hands laid on a dial.
 
-Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bold, the O the same size as the other letters (the symbol on its own keeps a slightly bigger O and a pivot dot), shorter hands ("C": the first ones felt too big for the clock).
+Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bold, the O the same size as the other letters, shorter hands ("C": the first ones felt too big for the clock). The symbol on its own keeps a slightly bigger O, the longer hands and a pivot dot.
 
 **This file is written by \`build.cjs\`.** Every number below is measured from the generated artwork. Do not edit it by hand; change \`build.cjs\` and rebuild.
 
@@ -372,8 +377,8 @@ Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bo
 | Clock O | Ring the same height as the font's own O, centred on it (symbol: 1.15 x) | ${f(m.ring)} mm across |
 | Ring walls | Sides 1.0 x stem (0.98 one colour), top and bottom 0.9 x stem | ${f(m.wallSide)} mm sides, ${f(m.wallTop)} mm top/bottom; counter ${f(m.counter[0])} x ${f(m.counter[1])} mm |
 | Channel | Even gap between ring and hands, hand bases concave. Two colours max(1.0, 0.143 cap); one colour 1.2, 1.5 from cap 7 | ${f(m.channel)} mm (one colour ${f(m.channelOne)} mm) |
-| Minute hand | 1.0 stem wide, visible 0.657 cap from the channel (symbol: x 1.15, with its O), exactly 12 o'clock | ${f(m.minute[0])} x ${f(m.minute[1])} mm |
-| Hour hand | 1.02 stems wide, visible 0.5 cap from the channel (symbol: x 1.15), exactly 150 degrees | ${f(m.hour[0])} x ${f(m.hour[1])} mm |
+| Minute hand | 1.0 stem wide, visible 0.657 cap from the channel (symbol: 0.936 cap), exactly 12 o'clock | ${f(m.minute[0])} x ${f(m.minute[1])} mm |
+| Hour hand | 1.02 stems wide, visible 0.5 cap from the channel (symbol: 0.667 cap), exactly 150 degrees | ${f(m.hour[0])} x ${f(m.hour[1])} mm |
 | Points | 90 degree taper ending in a flat 0.3 x the hand width (this is what stitches) | |
 | Pivot dot | Symbol and side master only, hand colour, at most 0.286 cap, at least 1.3 mm fabric to the counter (1.5 one colour). None in the lockup: no room at letter size, and a dot in a small ring read as a rifle scope. | 25 mm symbol: ${f(m.s25[2])} mm |
 | S | Terminals trimmed so both apertures are 1.0 mm (upper / lower trim) | ${f(m.sTrims.upper)} / ${f(m.sTrims.lower)} mm (cap 6.6: ${f(m.sTrims66.upper)} / ${f(m.sTrims66.lower)} mm) |
@@ -413,7 +418,8 @@ The hex values are targets. Match each to the nearest colour on a physical threa
 
 ## How it was tested
 
-- Blind reading rounds with fresh readers who were given no context. Final lockup (O the same size as the letters, no dot): read "OFF SHFT" 3 out of 3 at 9/10, two readers noting the letters look uniform in size. The same lockup with a dot in a thinner O dropped to 8.3/10 with "scope" readings. The symbol reads as a clock 3 out of 3 at about 6/10. Earlier rounds showed that one-colour versions and short hands drift towards "Q" or "magnifying glass", and that tick marks around the O add "compass" readings.
+- **Truly blind reads.** Each reader was a fresh agent given one image and four neutral questions, nothing else; their transcripts were checked to confirm they saw no chat messages. Final lockup: "OFF SHFT" 3 out of 3, all at 9/10, and all 3 described the O as a clock showing about 5:00 without being asked about clocks. The earlier, longer hands scored exactly the same. Every reader of both versions said the lower hand can pass for a Q's tail at a glance (it comes from a hand at 5 o'clock outside an O, not from the hand length) and that SHFT reads as SHIFT. The symbol reads as a clock at 5:00 3 out of 3, at 6.3/10 with its longer hands (5/10 with the short ones), with "magnifying glass" and "Q" as the usual second readings. Full answers: \`designs/mark/clean-reads/RESULTS.md\`.
+- **Earlier rounds were not fully blind.** The tool that ran them also showed every reader the owner's latest chat message (for example "make the o a bit bigger", "it looks like a scope", "the arms feel too big for the clock"), so treat those numbers as informed opinions. The two choices they supported, no dot in the lockup and no tick marks, were also the owner's own calls.
 - The symbol is abstract on its own; it gains recognition when used alongside the full logo (for example front logo plus side symbol).
 - Two brand reviews and two embroidery reviews (Archivo, then Unbounded) set every rule above.
 `;
