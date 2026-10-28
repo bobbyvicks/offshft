@@ -27,21 +27,22 @@ const diamond = (c, k) => [[c[0], c[1] - k], [c[0] + k, c[1]], [c[0], c[1] + k],
 const scaleLoops = (loops, k, dx = 0, dy = 0) => loops.map((p) => p.map(([x, y]) => [x * k + dx, y * k + dy]));
 
 // ---------- the four marks (unit space) ----------
+const hexPoly = (c, R) => [...Array(6)].map((_, i) => { const a = (i * Math.PI) / 3; return [c[0] + R * Math.sin(a), c[1] - R * Math.cos(a)]; }); // vertex at 12
 const MARKS = {
-  // G1 Rivet: the hour hand is laid over the minute hand on a square rivet.
-  // Grid: minute 2u wide, 10u long; hour 2.8u wide, 6.4u long, round end r 1.4u; gap 0.85u; rivet side 0.85u.
+  // G1 Rivet: the hour hand is laid over the minute hand on a square rivet; a 1.05u gap shows the layering.
+  // Grid (u): minute 3 x 14; hour 3.6 wide, 6 long, round end r 1.8; gap 1.05; rivet side 1.05 (half-diagonal 0.74).
   G1(p = {}) {
-    const o = { wm: 2, wh: 2.8, Lm: 10, Lh: 6.4, g: 0.85, rivet: 0.6, ...p };
+    const o = { wm: 3, wh: 3.6, Lm: 14, Lh: 6, g: 1.05, rivet: 0.74, ...p };
     const hour = capBar(P, HR, o.Lh, o.wh);
     const hourGap = capBar(P, HR, o.Lh + o.g, o.wh + 2 * o.g);
     const minute = difference([bar(P, MIN, { len: o.Lm, w: o.wm })], [hourGap]);
     const loops = [...minute, ...union([hour]), diamond(P, o.rivet)];
     return { layers: [{ loops, role: 'main' }], o };
   },
-  // G2 Checked: a square field; the hands and hub are knocked out, the pin stays as thread.
-  // Grid: field 16u; minute 2u wide reaching 2.25u from the top; hour 2.4u wide, 4.7u long; hub r 1.9u; pin r 0.8u.
+  // G2 Checked: a square field; hands and hub are knocked out, the pin stays as thread.
+  // Grid (u): field 16; minute 2.2 wide reaching 1.6 from the top edge; hour 2.6 wide, 5.4 long; hub r 2; pin r 0.85.
   G2(p = {}) {
-    const o = { S: 16, wm: 2, wh: 2.4, top: 2.25, Lh: 4.7, hub: 1.9, pin: 0.8, ...p };
+    const o = { S: 16, wm: 2.2, wh: 2.6, top: 1.6, Lh: 5.4, hub: 2, pin: 0.85, ...p };
     const half = o.S / 2;
     const m = bar(P, MIN, { len: half - o.top, w: o.wm });
     const h = bar(P, HR, { len: o.Lh, w: o.wh });
@@ -49,19 +50,21 @@ const MARKS = {
     loops.push(circ(P, o.pin, 120));
     return { layers: [{ loops, role: 'main' }], o };
   },
-  // G3 Full stop: a round cap sits over both hands; a 0.85u ring keeps it clear of them.
-  // Grid: minute 2.1u x 10u; hour 2.5u x 6.4u; cap r 1.6u; ring 0.85u.
+  // G3 Nut: a hex nut holds both hands; a 1u gap follows the nut, so the minute hand ends in a 120 deg notch
+  // and the hour hand in a square cut parallel to a flat of the nut.
+  // Grid (u): minute 2.2 x 12; hour 2.6 x 7.4; nut circumradius 2.3 (flat-to-flat 4); bore r 0.85; gap 1.
   G3(p = {}) {
-    const o = { wm: 2.1, wh: 2.5, Lm: 10, Lh: 6.4, rc: 1.6, g: 0.85, ...p };
-    const ring = circ(P, o.rc + o.g);
-    const m = difference([bar(P, MIN, { len: o.Lm, w: o.wm })], [ring]);
-    const h = difference([bar(P, HR, { len: o.Lh, w: o.wh })], [ring]);
-    return { layers: [{ loops: [...m, ...h], role: 'main' }, { loops: [circ(P, o.rc)], role: 'accent' }], o };
+    const o = { wm: 2.2, wh: 2.6, Lm: 12, Lh: 7.4, Rh: 2.3, g: 1, bore: 0.85, ...p };
+    const nut = hexPoly(P, o.Rh);
+    const nutGap = L.grow(nut, o.g);
+    const m = difference([bar(P, MIN, { len: o.Lm, w: o.wm })], [nutGap]);
+    const h = difference([bar(P, HR, { len: o.Lh, w: o.wh })], [nutGap]);
+    return { layers: [{ loops: [...m, ...h], role: 'main' }, { loops: [nut, circ(P, o.bore, 120)], role: 'accent' }], o };
   },
-  // G4 Skeleton: one continuous line of constant weight draws both hands and the hub, pin in the middle.
-  // Grid: hands 3u wide, line 0.85u; hub r 2.4u; pin r 0.6u.
+  // G4 Skeleton: one continuous band of constant weight draws both hands and the hub; the pin floats in the middle.
+  // Grid (u): hands 3.3 wide (hour x1.06), band 1; hub r 2.6; pin r 0.6.
   G4(p = {}) {
-    const o = { w: 3, hk: 1.06, t: 0.85, R: 2.4, pin: 0.6, Lm: 10, Lh: 6.4, ...p };
+    const o = { w: 3.3, hk: 1.06, t: 1, R: 2.6, pin: 0.6, Lm: 12, Lh: 7.2, ...p };
     const wh = o.w * o.hk;
     const outer = union([bar(P, MIN, { len: o.Lm, w: o.w }), bar(P, HR, { len: o.Lh, w: wh }), circ(P, o.R)]);
     const inner = union([bar(P, MIN, { len: o.Lm - o.t, w: o.w - 2 * o.t }), bar(P, HR, { len: o.Lh - o.t, w: wh - 2 * o.t }), circ(P, o.R - o.t)]);

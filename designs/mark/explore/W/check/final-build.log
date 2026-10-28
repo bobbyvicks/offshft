@@ -4,3 +4,8 @@ W2 lockup per-colour check at true size: {"#1F2733":{"thin_mm2":4.741,"gap_mm2":
 W2 Leaf mark 7.509x25.22mm check25 {"thin_mm2":1.01,"gap_mm2":0.163} small@13 {"thin_mm2":1.032,"gap_mm2":0.087} lockup 93.376x26.922 k=0.949 markH=23.922 gap=6.751 stem=1.551
 W3 per-colour check (dark version, 25 mm): {"#ECE5D3":{"thin_mm2":0.204,"gap_mm2":0.077},"#D29B3C":{"thin_mm2":0.039,"gap_mm2":0}}
 W3 lockup per-colour check at true size: {"#1F2733":{"thin_mm2":3.917,"gap_mm2":3.482},"#D29B3C":{"thin_mm2":0.036,"gap_mm2":0}}
+W3 Lume mark 8.742x25.033mm check25 {"thin_mm2":0.201,"gap_mm2":0.085} small@13 {"thin_mm2":0.203,"gap_mm2":0.049} lockup 87.762x26.788 k=0.95 markH=23.788 gap=5.38 stem=1.765
+W4 per-colour check (dark version, 25 mm): {"#D29B3C":{"thin_mm2":1.128,"gap_mm2":0.063},"#ECE5D3":{"thin_mm2":3.131,"gap_mm2":0.159}}
+W4 lockup per-colour check at true size: {"#1F2733":{"thin_mm2":4.816,"gap_mm2":3.426},"#B4552D":{"thin_mm2":3.146,"gap_mm2":0.163}}
+W4 Dauphine mark 8.2x25.407mm check25 {"thin_mm2":1.116,"gap_mm2":0.07} small@13 {"thin_mm2":1.137,"gap_mm2":0.036} lockup 91.632x27.055 k=0.947 markH=24.055 gap=6.033 stem=1.765
+sheet written

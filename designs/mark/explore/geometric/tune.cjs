@@ -140,7 +140,37 @@ const G3v2 = (o) => {
   return [...m, ...h, ...cap];
 };
 
+const hexPoly = (c, R, rot = 0) => [...Array(6)].map((_, i) => { const a = ((i * 60 + rot) * Math.PI) / 180; return [c[0] + R * Math.sin(a), c[1] - R * Math.cos(a)]; });
+const G3hex = (o) => {
+  const hx = hexPoly(P, o.Rh, 0); // vertex at 12 o'clock
+  const hxG = L.grow(hx, o.g);
+  const m = difference([bar(P, 0, { len: o.Lm, w: o.wm })], [hxG]);
+  const h = difference([bar(P, 150, { len: o.Lh, w: o.wh })], [hxG]);
+  const nut = o.hole ? difference([hx], [circ(P, o.hole, 96)]) : [hx];
+  return [...m, ...h, ...nut];
+};
+
+const G1nr = (o) => {
+  const hour = capBar(P, 150, o.Lh, o.wh);
+  const hourGap = capBar(P, 150, o.Lh + o.g, o.wh + 2 * o.g);
+  const minute = difference([bar(P, 0, { len: o.Lm, w: o.wm })], [hourGap]);
+  return [...minute, ...union([hour])];
+};
 const SETS = {
+  g1v3: [
+    ['a-bold-diamond', G1v2, { wm: 3.0, wh: 3.6, Lm: 14, Lh: 6, g: 1.0, k: 0.74, fill: kit.T.rust }],
+    ['b-bold-norivet', G1nr, { wm: 3.0, wh: 3.6, Lm: 14, Lh: 6, g: 1.0, fill: kit.T.rust }],
+    ['c-pin', G1v2, { wm: 2.6, wh: 3.6, Lm: 14, Lh: 6, g: 1.1, k: 0.55, rv: 'round', fill: kit.T.rust }],
+    ['d-minutetop', G1v2m, { wm: 3.6, wh: 3.0, Lm: 14, Lh: 7, g: 1.0, k: 0.74, fill: kit.T.rust }],
+    ['e-current', G1v2, { wm: 2.5, wh: 3.6, Lm: 14, Lh: 6, g: 1.1, k: 0.74, fill: kit.T.rust }],
+    ['f-equal', G1v2, { wm: 3.3, wh: 3.6, Lm: 14, Lh: 6.4, g: 1.0, k: 0.74, fill: kit.T.rust }],
+  ],
+  g3hex: [
+    ['a-hex-hole', G3hex, { wm: 2.2, wh: 2.6, Lm: 12.5, Lh: 6.6, Rh: 2.3, g: 0.9, hole: 0.8 }],
+    ['b-hex-solid', G3hex, { wm: 2.2, wh: 2.6, Lm: 12.5, Lh: 6.6, Rh: 2.0, g: 0.9, hole: 0 }],
+    ['c-hex-big', G3hex, { wm: 2.2, wh: 2.6, Lm: 12.5, Lh: 6.8, Rh: 2.6, g: 0.9, hole: 1.0 }],
+    ['d-round-ref', G3v2, { wm: 2.2, wh: 2.6, Lm: 12.5, Lh: 6.6, rc: 1.8, g: 0.9 }],
+  ],
   g1v2: [
     ['a-diamond', G1v2, { wm: 2.5, wh: 3.5, Lm: 14, Lh: 6, g: 1.1, k: 0.78 }],
     ['b-square30', G1v2, { wm: 2.5, wh: 3.5, Lm: 14, Lh: 6, g: 1.1, k: 0.55, rv: 'square' }],

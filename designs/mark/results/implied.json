@@ -1,0 +1,79 @@
+{
+ "direction": "Implied clock (I): the 5:00 hands stay the hero and the dial is only hinted, never drawn as a plain full circle. Four ideas: I1 three square markers, I2 twelve dots, I3 a single arc from 5 round to 12, I4 a ring broken at 12 that doubles as the power-off symbol. Every mark is drawn at real size (25 mm longest side) on one module (w = 2.4 mm). The hands are a step heavier than the face hints (hero vs hint). Every stroke and every gap is >= 2.4 mm at 25 mm, so all four stay >= 1.25 mm at 13 mm without a simplified small version.",
+ "sheet_png": "/home/user/offshft/designs/mark/explore/I/sheet.png",
+ "variants": [
+  {
+   "id": "I1",
+   "name": "Quarter Marks",
+   "concept": "Square-cut hands on a deliberate hub (1.7x the hand width) plus three small square markers at 3, 6 and 9, like the time clock on the shop wall. The minute hand itself is the 12 o'clock marker. It stays closest to the Hands Only mark the owner liked while fixing the bent-stick and blob reads.",
+   "mark_svg": "/home/user/offshft/designs/mark/explore/I/I1/mark.svg",
+   "mark_png": "/home/user/offshft/designs/mark/explore/I/I1/mark.png",
+   "mark_dark_png": "/home/user/offshft/designs/mark/explore/I/I1/mark-dark.png",
+   "lockup_png": "/home/user/offshft/designs/mark/explore/I/I1/lockup.png",
+   "sizes_png": "/home/user/offshft/designs/mark/explore/I/I1/sizes.png",
+   "self_score": 6,
+   "weaknesses": "The sparsest of the four: the 2.4 mm square markers become 1.25 mm specks at 13 mm, so on the side of a hat it reads as hands plus hub. In the lockup the mark carries less mass than the wordmark. The square terminals are cooler and more technical than the rounded line style in BRAND.md.",
+   "thinnest_feature_mm_at_25mm": 2.4,
+   "thread_colours": [
+    "Ink #1F2733 (mark, light fabric)",
+    "Bone #ECE5D3 (mark, dark fabric)",
+    "Rust #B4552D + Ink #1F2733 (lockup)"
+   ]
+  },
+  {
+   "id": "I2",
+   "name": "Twelve",
+   "concept": "Twelve stitched dots make the dial, and the minute hand runs out to take the place of the 12 o'clock dot, so the hands and the face become one figure. The hands are 1.15x heavier than the dots, so they lead. It is the calmest and most instantly legible option.",
+   "mark_svg": "/home/user/offshft/designs/mark/explore/I/I2/mark.svg",
+   "mark_png": "/home/user/offshft/designs/mark/explore/I/I2/mark.png",
+   "mark_dark_png": "/home/user/offshft/designs/mark/explore/I/I2/mark-dark.png",
+   "lockup_png": "/home/user/offshft/designs/mark/explore/I/I2/lockup.png",
+   "sizes_png": "/home/user/offshft/designs/mark/explore/I/I2/sizes.png",
+   "self_score": 6.5,
+   "weaknesses": "The most conventional: a 12-dot dial with hands is common clock iconography and the least ownable of the four. The dot ring also implies the full circle the owner moved away from. Eleven separate dots is the most stitching work.",
+   "thinnest_feature_mm_at_25mm": 2.64,
+   "thread_colours": [
+    "Ink #1F2733 (mark, light fabric)",
+    "Bone #ECE5D3 (mark, dark fabric)",
+    "Rust #B4552D + Ink #1F2733 (lockup)"
+   ]
+  },
+  {
+   "id": "I3",
+   "name": "Your Time",
+   "concept": "A single arc runs from 5 round to 12, quitting time to midnight, and the open part of the dial is the shift you put in. The arc is cut square at exactly 5 and 12, right where the two hands point.",
+   "mark_svg": "/home/user/offshft/designs/mark/explore/I/I3/mark.svg",
+   "mark_png": "/home/user/offshft/designs/mark/explore/I/I3/mark.png",
+   "mark_dark_png": "/home/user/offshft/designs/mark/explore/I/I3/mark-dark.png",
+   "lockup_png": "/home/user/offshft/designs/mark/explore/I/I3/lockup.png",
+   "sizes_png": "/home/user/offshft/designs/mark/explore/I/I3/sizes.png",
+   "self_score": 5.5,
+   "weaknesses": "The open C silhouette with a hub resembles generic timer and history UI icons and can read as a C before OFF. The arc dominates: the minute hand must stop 2.6 mm short of the arc end, so it only reaches 59% of the radius and the hands are not fully the hero.",
+   "thinnest_feature_mm_at_25mm": 2.46,
+   "thread_colours": [
+    "Ink #1F2733 (mark, light fabric)",
+    "Bone #ECE5D3 (mark, dark fabric)",
+    "Rust #B4552D + Ink #1F2733 (lockup)"
+   ]
+  },
+  {
+   "id": "I4",
+   "name": "Power Off",
+   "concept": "The ring breaks at 12 and the minute hand passes through the gap, flush with the rim, so the clock at 5:00 is also the power-off (standby) symbol: quitting time and OFF in one shape. Next to the wordmark it reads as power symbol + OFF SHFT.",
+   "mark_svg": "/home/user/offshft/designs/mark/explore/I/I4/mark.svg",
+   "mark_png": "/home/user/offshft/designs/mark/explore/I/I4/mark.png",
+   "mark_dark_png": "/home/user/offshft/designs/mark/explore/I/I4/mark-dark.png",
+   "lockup_png": "/home/user/offshft/designs/mark/explore/I/I4/lockup.png",
+   "sizes_png": "/home/user/offshft/designs/mark/explore/I/I4/sizes.png",
+   "self_score": 7.5,
+   "weaknesses": "Power-symbol-plus-clock combinations exist as generic UI icons (sleep or auto-off timers), so it needs a clearance and trademark search before use. It is also nearly a full ring, a step back toward the circle clock the owner passed over, and the power-symbol reading may feel techy for a fishing and cottage audience.",
+   "thinnest_feature_mm_at_25mm": 2.4,
+   "thread_colours": [
+    "Ink #1F2733 (mark, light fabric)",
+    "Bone #ECE5D3 (mark, dark fabric)",
+    "Rust #B4552D + Ink #1F2733 (lockup)"
+   ]
+  }
+ ],
+ "notes": "Build: node /home/user/offshft/designs/mark/explore/I/build.cjs regenerates every file. Helpers are geom.cjs and gaps.py (exact minimum gap between separate shapes from a 40 px/mm raster). Exploration rounds 1-8 are in /home/user/offshft/designs/mark/explore/I/_work/ (sheets in r1..r8, scripts in _work/explore).\n\nDepartures from the brief's example ideas, all tested and rejected:\n(1) Arc 12 to 5: next to the vertical minute hand it always reads as a D or b (rounds 1-3). I3 uses 5 round to 12 instead.\n(2) Broken ring with the hour hand poking out: the long hand then points to 5, so it reads as 12:25 and looks like a Q or magnifying glass. I4 breaks the ring at 12 for the minute hand instead.\n(3) Filled wedge: every version read as a b, a half-moon or a sail. Dropped.\n\n5:00 accuracy: in all four, the minute hand is exactly 0 deg and the hour hand exactly 150 deg (kit.polar). The hour hand is clearly shorter and heavier than the minute hand: tip/minute = 0.68, 0.57, 0.76, 0.54.\n\nJoints and optics: no blobs. I1 and I3 have a hub sized 1.7x and 1.5x the hand width. I2 and I4 use a single clean hands outline with a small filleted heel, replacing the overlapping round caps that left a 0.1 mm lump. Optical corrections: hour hand 1.08x (diagonal), curves 1.04x, dots 1.1x.\n\nEmbroidery checks, measured, not estimated. Every mark passes a morphological 1.2 mm open/close check at 25 and 13 mm. Minimum gaps: I1 2.60 mm at 25 / 1.36 at 13; I2 2.69 / 1.40; I3 2.46 / 1.27; I4 2.40 / 1.25. Minimum strokes: 2.40 / 2.64 / 2.50 / 2.40 at 25 mm. The exact gap meter caught a case the morphology check missed: I1's original baton markers came within 0.84 mm of the hour hand at 13 mm, so the markers became w x w squares. No enclosed holes in any mark. SVGs are filled outlines only (no strokes, mm units), and the fill render is verified identical to the stroked geometry.\n\nWordmark: OFF SHFT in Archivo SemiExpanded Bold, 8.0 mm cap, tracking 0.16 em. BRAND.md asks for bold text, and the narrowest S aperture is the limit: Expanded Bold needs about 9 mm cap (lockup about 127 mm) and fails at every smaller size. SemiExpanded Bold at 8 mm is the smallest bold setting that passes, with the thinnest bar 1.5 mm.\n\nLockup: about 106 mm wide (I3 100 mm), which is roughly the 4 in front panel and is its minimum embroidery size. On the hat front the symbol alone at 25 mm is the practical choice. Mark scaled so its face elements equal the letter stem (1.88 mm) and the hands are a step heavier. Hub on the cap-height midline. Gap = 1 cap height (8 mm); I3 uses 0.85 cap because its open upper-right quadrant makes the gap look wider. Lockup colours: mark Rust #B4552D, wordmark Ink #1F2733 (two threads).\n\nNothing was written outside /home/user/offshft/designs/mark/explore/I; tools/ was only read; git was not run."
+}

@@ -149,7 +149,11 @@ function handsOutline(pb, c, R, hands) {
     else if (R > 0) pb.A(c, R, h.inL, true);
     else pb.L(h.inL);
     emitProfile(pb, h.F, h.left, { mirror: true, skipStart: true });
-    emitProfile(pb, h.F, h.right, { reverse: true });
+    // pointed hands end on the axis: the right edge starts where the left edge ended, so no duplicate node
+    const tipL = h.left.segs[h.left.segs.length - 1], tipR = h.right.segs[h.right.segs.length - 1];
+    const endL = tipL[0] === 'A' ? tipL[3] : tipL[tipL.length - 1], endR = tipR[0] === 'A' ? tipR[3] : tipR[tipR.length - 1];
+    const pointed = Math.abs(endL[1]) < 1e-9 && Math.abs(endR[1]) < 1e-9 && Math.abs(endL[0] - endR[0]) < 1e-9;
+    emitProfile(pb, h.F, h.right, { reverse: true, skipStart: pointed });
   });
   if (R > 0) pb.A(c, R, H[0].inL, true);
   pb.Z();
