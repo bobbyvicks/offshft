@@ -3,7 +3,7 @@
 //
 // Rules of construction (cap height = 7 mm reference; everything scales from it):
 // - Wordmark: Archivo Expanded Bold, letter-spacing 0.14 em.
-// - The O is a perfect ring 1.35 x the height of the type's own O, centred on the cap band,
+// - The O is a perfect ring 1.2 x the height of the type's own O (owner's pick), centred on the cap band,
 //   ring stroke = 1.05 x the letter stem.
 // - Hands are drawn with the same pen as the letters: minute hand = 1.0 stem wide, hour hand = 1.16 stems,
 //   square (90 degree) points. They start just outside the ring, so in two colours they read as hands laid
@@ -29,7 +29,7 @@ function geometry(cap) {
   const O = ref.letters[0];
   const stem = kit.stem(FONT, cap);
   const oh = O.bottom - O.top;
-  const R = (oh / 2) * 1.35;
+  const R = (oh / 2) * 1.2;
   const wall = stem * 1.05;
   return {
     cap, ref, O, stem, R, wall,
