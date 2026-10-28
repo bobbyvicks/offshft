@@ -52,8 +52,10 @@ V.W2 = {
   colours: { light: kit.T.ink, dark: kit.T.bone, word: kit.T.ink },
   word: { font: 'xsemi', track: 0.22 },
   mark({ fill, small = false }) {
-    const R = 2.25, pin = 0.75, k = small ? 1.2 : 1, opt = 0.18;
-    const hm = 1.45 * k, hh = 1.9 * k;
+    // both leaves are the same construction (rear point 1 mm behind the pivot); the hour leaf gets a light 8%
+    // optical correction (upper flank fuller than the lower one) so it does not read as drooping
+    const R = 2.25, pin = 0.75, k = small ? 1.2 : 1, opt = 0.08;
+    const hm = 1.45 * k, hh = 1.85 * k;
     const pb = handsOutline(new PathB(), C, R, [
       { deg: MIN, profile: vesica(-1.0, 16.3, hm) },
       { deg: HR, profile: vesica(-1.0, 10.3, hh * (1 - opt)), left: vesica(-1.0, 10.3, hh * (1 + opt)) },
@@ -115,6 +117,9 @@ V.W4 = {
       pb.Z();
       parts.push({ d: pb.str(), pts: pb.pts, fill: lit });
     }
+    // the collet is a polished boss: lit thread, so the lit facets and collet read as one form with a shadow side
+    const hub = circle(new PathB(), C, R);
+    parts.push({ d: hub.str(), pts: hub.pts, fill: lit });
     return { parts, R };
   },
 };
@@ -192,7 +197,7 @@ async function buildVariant(id) {
   const lk = lockup(`${dir}/lockup.svg`, v, { markFill: c.light, wordFill: c.word, lume: c.lume || null, lit: c.lit || null, shade: c.shade || null });
   lockup(`${dir}/lockup-dark.svg`, v, { markFill: c.dark, wordFill: kit.T.bone, ...two });
   if (darkParts.length > 1) console.log(id, 'per-colour check (dark version, 25 mm):', JSON.stringify(await checkColours(id, darkParts, 'dark')));
-  console.log(id, 'lockup per-colour check at true size:', JSON.stringify(await checkFileColours(`${dir}/lockup.svg`, `${id}-lockup`)));
+  if (process.env.CHECK_LOCKUP) console.log(id, 'lockup per-colour check at true size:', JSON.stringify(await checkFileColours(`${dir}/lockup.svg`, `${id}-lockup`)));
   await kit.render(`${dir}/mark.svg`, `${dir}/mark.png`, { bg: kit.F.bone });
   await kit.render(`${dir}/mark-dark.svg`, `${dir}/mark-dark.png`, { bg: kit.F.slate });
   await kit.render(`${dir}/lockup.svg`, `${dir}/lockup.png`, { bg: kit.F.bone });
