@@ -17,7 +17,7 @@ Owner's picks: hands-only clock, W3 watch hands, "The O" placement, O 15% taller
 | `side-*.svg` | Side-of-hat master, its own drawing (two colour and one colour) |
 | `logo-light-cap6.6/7/7.5.svg`, `symbol-light-19/25/40mm.svg` | True-size proofs |
 | `fonts/` | The same logo in other wide faces (comparison only) |
-| `hands-centre/` | Alternative under consideration: hands running from the pivot over the O |
+| `hands-centre/` | Tested and not adopted: hands running from the pivot over the O (cold reads: logo 8/10 with "QFF" mentions, against 9/10 with none for the main version) |
 
 ## Construction (at cap height 7 mm)
 
@@ -70,5 +70,6 @@ The hex values are targets. Match each to the nearest colour on a physical threa
 
 ## How it was tested
 
-- Blind reading rounds with fresh readers who were given no context: the two-colour version with long, slim hands reads first as a clock face at about 5 o'clock, and the full lockup reads "OFF SHFT" (9/10 confidence). One-colour and short hands drift towards "Q" or "magnifying glass".
+- Blind reading rounds with fresh readers who were given no context. Final round (after the Unbounded review fixes): the lockup read "OFF SHFT" 3 out of 3 at 9/10 confidence with no "Q" readings; the symbol read as a clock 3 out of 3 at 6/10. Earlier rounds showed that one-colour versions and short hands drift towards "Q" or "magnifying glass", and that tick marks around the O add "compass" readings.
+- The symbol is abstract on its own; it gains recognition when used alongside the full logo (for example front logo plus side symbol).
 - Two brand reviews and two embroidery reviews (Archivo, then Unbounded) set every rule above.
