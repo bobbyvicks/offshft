@@ -158,7 +158,7 @@ What fixes the flags:
 - **The Ontario 4XL** stays under C$15 even with shipping paid. A GST/HST number (decision 10) or a higher price for 2XL and up fixes it. It needs about C$92 to keep C$15 (arithmetic).
 - Or price the 2XL–4XL hoodie higher. A 4XL with free US shipping needs C$96.75 to keep C$15 (arithmetic).
 
-Free shipping would also hurt the other two. A 3XL pair of sweatpants shipped free to the US makes C$5.86, under PRODUCTS.md's C$10 floor (arithmetic). A 4XL crewneck made in Ontario makes C$9.90 with the HST, even with shipping paid (arithmetic).
+Free shipping would also hurt the other two. A 3XL pair of sweatpants shipped free to the US makes C$5.86, under PRODUCTS.md's C$10 floor (arithmetic). And a 4XL crewneck made in Ontario makes C$9.90 after the HST, even with shipping paid (arithmetic).
 
 ### One-time costs (the owner approves each)
 
