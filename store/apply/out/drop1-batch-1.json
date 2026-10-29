@@ -1,0 +1,1606 @@
+{
+ "query": "mutation Drop1Batch1($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!, $p5: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p5: productSet(synchronous: true, input: $p5) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n}",
+ "variables": {
+  "p0": {
+   "title": "OFF SHFT Logo Hat",
+   "handle": "off-shft-logo-hat",
+   "descriptionHtml": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The shift is done and the rest of the day is yours.</p><p>That's the whole idea, on the front of a hat. Wear it on the water, on the course, at the cottage or out by the boards.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: the OFF SHFT logo, embroidered, 62.6 mm (2.5 in) wide</li><li>Styles: Retro Trucker, 5-Panel, Dad Hat or Rope Cap</li><li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li><li>5-Panel: structured mid-profile cap. One-piece front with no centre seam, 65% polyester and 35% cotton twill, adjustable plastic snap closure</li><li>Ships: made to order, usually ships in 2–5 business days</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "off-shft-logo",
+    "hat",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "OFF SHFT Logo Embroidered Hat",
+    "description": "The O in OFF is a clock set to 5:00. Quitting time. The OFF SHFT logo, embroidered on a hat made to order."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Retro Trucker"
+      },
+      {
+       "name": "5-Panel"
+      },
+      {
+       "name": "Dad Hat"
+      },
+      {
+       "name": "Rope Cap"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Retro Trucker"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/85a50348-21f6-4ac1-96d7-b583343d0f68/offshft-trucker-6606-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "5-Panel"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/3d400a43-11b6-43aa-9baf-b7f0fccdb53b/offshft-five-panel-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Dad Hat"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/d1421be8-d551-47cf-923e-27b273b4d3ff/offshft-dad-hat-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Rope Cap"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/82bf5204-d6f0-4521-a829-fe6bae2913c1/offshft-rope-cap-logo.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/85a50348-21f6-4ac1-96d7-b583343d0f68/offshft-trucker-6606-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo Hat, Retro Trucker: the OFF SHFT logo embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/3d400a43-11b6-43aa-9baf-b7f0fccdb53b/offshft-five-panel-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo Hat, 5-Panel: the OFF SHFT logo embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/d1421be8-d551-47cf-923e-27b273b4d3ff/offshft-dad-hat-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo Hat, Dad Hat: the OFF SHFT logo embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/82bf5204-d6f0-4521-a829-fe6bae2913c1/offshft-rope-cap-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo Hat, Rope Cap: the OFF SHFT logo embroidered, at its real size"
+    }
+   ]
+  },
+  "p1": {
+   "title": "The Clock Hat",
+   "handle": "the-clock-hat",
+   "descriptionHtml": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. No words needed.</p><p>Wear it on the water, on the course, at the cottage or out by the boards.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: the clock, embroidered, 25 mm (1 in) tall</li><li>Styles: Retro Trucker, 5-Panel, Dad Hat or Rope Cap</li><li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li><li>5-Panel: structured mid-profile cap. One-piece front with no centre seam, 65% polyester and 35% cotton twill, adjustable plastic snap closure</li><li>Ships: made to order, usually ships in 2–5 business days</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "the-clock",
+    "hat",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "The Clock Embroidered Hat | OFF SHFT",
+    "description": "A clock with its hands at 5:00. Quitting time. The Clock, embroidered on a hat made to order. For the water, the course and the cottage."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Retro Trucker"
+      },
+      {
+       "name": "5-Panel"
+      },
+      {
+       "name": "Dad Hat"
+      },
+      {
+       "name": "Rope Cap"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Retro Trucker"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/0b543a69-7689-467d-9f10-97eec7c611bf/offshft-trucker-6606-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "5-Panel"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/1f9b27dc-4bde-4357-8e83-99a944a23f4b/offshft-five-panel-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Dad Hat"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/f77e4e82-da2a-43e3-abcb-2c4f48dd483d/offshft-dad-hat-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Rope Cap"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/f2d8d674-97a0-4420-bf98-62bfde05e1c3/offshft-rope-cap-clock.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/0b543a69-7689-467d-9f10-97eec7c611bf/offshft-trucker-6606-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock Hat, Retro Trucker: the clock embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/1f9b27dc-4bde-4357-8e83-99a944a23f4b/offshft-five-panel-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock Hat, 5-Panel: the clock embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/f77e4e82-da2a-43e3-abcb-2c4f48dd483d/offshft-dad-hat-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock Hat, Dad Hat: the clock embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/f2d8d674-97a0-4420-bf98-62bfde05e1c3/offshft-rope-cap-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock Hat, Rope Cap: the clock embroidered, at its real size"
+    }
+   ]
+  },
+  "p2": {
+   "title": "Punched Out. Hat",
+   "handle": "punched-out-hat",
+   "descriptionHtml": "<p>Punched out.</p><p>Two words and a full stop. Nothing else to say.</p><p>The shift is done. This hat says so without making a big deal of it.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: PUNCHED OUT., embroidered</li><li>Styles: Retro Trucker, 5-Panel, Dad Hat or Rope Cap</li><li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li><li>5-Panel: structured mid-profile cap. One-piece front with no centre seam, 65% polyester and 35% cotton twill, adjustable plastic snap closure</li><li>Ships: made to order, usually ships in 2–5 business days</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "text-hat",
+    "punched-out",
+    "hat",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "Punched Out. Embroidered Hat | OFF SHFT",
+    "description": "Two words and a full stop. Punched Out., embroidered on a hat made to order. For when the shift is done."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Retro Trucker"
+      },
+      {
+       "name": "5-Panel"
+      },
+      {
+       "name": "Dad Hat"
+      },
+      {
+       "name": "Rope Cap"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Retro Trucker"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/d327e76e-56bc-4742-bf5d-81203fe5a931/offshft-trucker-6606-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "5-Panel"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/dc5808b2-e72f-4a18-a6fe-d361464735f6/offshft-five-panel-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Dad Hat"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/017ca18f-fa0c-4d57-9044-0df9a81ffcd5/offshft-dad-hat-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Rope Cap"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/57f61fc9-06b6-4bd3-bf81-1bc1cc90908d/offshft-rope-cap-punched-out.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/d327e76e-56bc-4742-bf5d-81203fe5a931/offshft-trucker-6606-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of Punched Out. Hat, Retro Trucker: Punched Out. embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/dc5808b2-e72f-4a18-a6fe-d361464735f6/offshft-five-panel-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of Punched Out. Hat, 5-Panel: Punched Out. embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/017ca18f-fa0c-4d57-9044-0df9a81ffcd5/offshft-dad-hat-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of Punched Out. Hat, Dad Hat: Punched Out. embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/57f61fc9-06b6-4bd3-bf81-1bc1cc90908d/offshft-rope-cap-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of Punched Out. Hat, Rope Cap: Punched Out. embroidered, at its real size"
+    }
+   ]
+  },
+  "p3": {
+   "title": "OFF SHFT Logo Hoodie",
+   "handle": "off-shft-logo-hoodie",
+   "descriptionHtml": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. Shift's over. Hood up.</p><p>For the couch, the dock and the drive home.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: the OFF SHFT logo, embroidered, 62.6 mm (2.5 in) wide</li><li>Styles: Oversized, Garment-Dyed or Lightweight</li><li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li><li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing</li><li>Lightweight: relaxed fit. Lightweight fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²), garment-dyed. Jersey-lined hood</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hoodie",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "off-shft-logo",
+    "hoodie",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "OFF SHFT Logo Embroidered Hoodie",
+    "description": "The O in OFF is a clock set to 5:00. Quitting time. The OFF SHFT logo, embroidered on a hoodie made to order. Shift's over. Hood up."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Oversized"
+      },
+      {
+       "name": "Garment-Dyed"
+      },
+      {
+       "name": "Lightweight"
+      }
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo Hoodie, Oversized: the OFF SHFT logo embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo Hoodie, Garment-Dyed: the OFF SHFT logo embroidered, at its real size"
+    }
+   ]
+  },
+  "p4": {
+   "title": "The Clock Hoodie",
+   "handle": "the-clock-hoodie",
+   "descriptionHtml": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. Shift's over. Hood up.</p><p>For the couch, the dock and the drive home.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: the clock, embroidered, 25 mm (1 in) tall</li><li>Styles: Oversized, Garment-Dyed or Lightweight</li><li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li><li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing</li><li>Lightweight: relaxed fit. Lightweight fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²), garment-dyed. Jersey-lined hood</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hoodie",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "the-clock",
+    "hoodie",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "The Clock Embroidered Hoodie | OFF SHFT",
+    "description": "A clock with its hands at 5:00. Quitting time. The Clock, embroidered on a hoodie made to order. Shift's over. Hood up."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Oversized"
+      },
+      {
+       "name": "Garment-Dyed"
+      },
+      {
+       "name": "Lightweight"
+      }
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock Hoodie, Oversized: the clock embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock Hoodie, Garment-Dyed: the clock embroidered, at its real size"
+    }
+   ]
+  },
+  "p5": {
+   "title": "Punched Out. Hoodie",
+   "handle": "punched-out-hoodie",
+   "descriptionHtml": "<p>Punched out.</p><p>Two words and a full stop, big on the front. Nothing else to say.</p><p>The shift is done, and this hoodie says so from across the parking lot.</p><p>For the couch, the dock and the drive home.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: PUNCHED OUT., embroidered big on the centre front</li><li>Styles: Oversized, Garment-Dyed or Lightweight</li><li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li><li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing</li><li>Lightweight: relaxed fit. Lightweight fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²), garment-dyed. Jersey-lined hood</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hoodie",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "punched-out",
+    "hoodie",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "Punched Out. Embroidered Hoodie | OFF SHFT",
+    "description": "Two words and a full stop. Punched Out., embroidered big on the front of a hoodie made to order. For when the shift is done."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Oversized"
+      },
+      {
+       "name": "Garment-Dyed"
+      },
+      {
+       "name": "Lightweight"
+      }
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Lightweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of Punched Out. Hoodie, Oversized: Punched Out. embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of Punched Out. Hoodie, Garment-Dyed: Punched Out. embroidered, at its real size"
+    }
+   ]
+  }
+ }
+}

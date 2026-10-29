@@ -27,7 +27,7 @@ const PRODUCTS = [
   { id: 'trucker-6606', item: 'trucker', mark: 'lockup', at: 'front', shift: SIX_PANEL, art: HAT_ART },
   { id: 'five-panel', item: 'five-panel', mark: 'lockup', at: 'front', art: HAT_ART },
   { id: 'dad-hat', item: 'dad-hat', mark: 'lockup', at: 'front', shift: SIX_PANEL, art: HAT_ART },
-  { id: 'rope-cap', item: 'rope-cap', mark: 'lockup', at: 'front', shift: SIX_PANEL, art: HAT_ART },
+  { id: 'rope-cap', item: 'rope-cap', mark: 'lockup', at: 'front', art: HAT_ART },   // 5-panel: seamless front, centred
   { id: 'hoodie-5161', item: 'hoodie-oversized', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
   { id: 'hoodie-1567', item: 'hoodie', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
   { id: 'hoodie-1467', item: 'hoodie', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },

@@ -1,0 +1,855 @@
+{
+ "query": "mutation Drop1Batch2($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!, $p5: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p5: productSet(synchronous: true, input: $p5) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n}",
+ "variables": {
+  "p0": {
+   "title": "OFF SHFT Logo Crewneck",
+   "handle": "off-shft-logo-crewneck",
+   "descriptionHtml": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The shift is done and the rest of the day is yours.</p><p>For the back deck, the boards and the drive up to the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: the OFF SHFT logo, embroidered, 62.6 mm (2.5 in) wide</li><li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Fit: relaxed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Crewneck",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "off-shft-logo",
+    "crewneck",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "OFF SHFT Logo Embroidered Crewneck",
+    "description": "The O in OFF is a clock set to 5:00. Quitting time. The OFF SHFT logo, embroidered on a crewneck made to order. For after the shift."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo Crewneck: the OFF SHFT logo embroidered, at its real size"
+    }
+   ]
+  },
+  "p1": {
+   "title": "The Clock Crewneck",
+   "handle": "the-clock-crewneck",
+   "descriptionHtml": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. No words needed.</p><p>For the back deck, the boards and the drive up to the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: the clock, embroidered, 25 mm (1 in) tall</li><li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Fit: relaxed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Crewneck",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "the-clock",
+    "crewneck",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "The Clock Embroidered Crewneck | OFF SHFT",
+    "description": "A clock with its hands at 5:00. Quitting time. The Clock, embroidered on a crewneck made to order. For after the shift."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock Crewneck: the clock embroidered, at its real size"
+    }
+   ]
+  },
+  "p2": {
+   "title": "Punched Out. Crewneck",
+   "handle": "punched-out-crewneck",
+   "descriptionHtml": "<p>Punched out.</p><p>Two words and a full stop, big on the front. Nothing else to say.</p><p>The shift is done, and this crewneck says so from across the parking lot.</p><p>For the back deck, the boards and the drive up to the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: PUNCHED OUT., embroidered big on the centre front</li><li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Fit: relaxed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Crewneck",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "punched-out",
+    "crewneck",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "Punched Out. Embroidered Crewneck | OFF SHFT",
+    "description": "Two words and a full stop. Punched Out., embroidered big on the front of a crewneck made to order. For when the shift is done."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of Punched Out. Crewneck: Punched Out. embroidered, at its real size"
+    }
+   ]
+  },
+  "p3": {
+   "title": "OFF SHFT Logo Sweatpants",
+   "handle": "off-shft-logo-sweatpants",
+   "descriptionHtml": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. Off the clock, on the couch.</p><p>Nowhere to be and all day to get there.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Leg: the OFF SHFT logo, on the front of the left leg</li><li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Flat cord at the waist</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Sweatpants",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "off-shft-logo",
+    "sweatpants",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "OFF SHFT Logo Sweatpants",
+    "description": "The O in OFF is a clock set to 5:00. Quitting time. The OFF SHFT logo on the leg of sweatpants made to order. For your days off."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo Sweatpants: the OFF SHFT logo embroidered, at its real size"
+    }
+   ]
+  },
+  "p4": {
+   "title": "The Clock Sweatpants",
+   "handle": "the-clock-sweatpants",
+   "descriptionHtml": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. Off the clock, on the couch.</p><p>Nowhere to be and all day to get there.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Leg: the clock, on the front of the left leg, 25 mm (1 in) tall</li><li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Flat cord at the waist</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Sweatpants",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "the-clock",
+    "sweatpants",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "The Clock Sweatpants | OFF SHFT",
+    "description": "A clock with its hands at 5:00. Quitting time. The Clock on the leg of sweatpants made to order. For your days off."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock Sweatpants: the clock embroidered, at its real size"
+    }
+   ]
+  },
+  "p5": {
+   "title": "Punched Out. Sweatpants",
+   "handle": "punched-out-sweatpants",
+   "descriptionHtml": "<p>Punched out.</p><p>Two words and a full stop, on the leg. Nothing else to say.</p><p>Nowhere to be and all day to get there.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Leg: PUNCHED OUT., on the front of the left leg</li><li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Flat cord at the waist</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Sweatpants",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "punched-out",
+    "sweatpants",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "Punched Out. Sweatpants | OFF SHFT",
+    "description": "Two words and a full stop. Punched Out. on the leg of sweatpants made to order. Nowhere to be and all day to get there."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of Punched Out. Sweatpants: Punched Out. embroidered, at its real size"
+    }
+   ]
+  }
+ }
+}

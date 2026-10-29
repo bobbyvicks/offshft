@@ -1,14 +1,15 @@
-// Big Accessories BA671 golf rope cap: structured (89 mm crown), drawn as 6 panels with a centre seam. Its signature
-// is a contrast twisted rope laid across the top of the visor where it meets the crown, its ends tucked in towards
-// the visor's sides. The visor is flatter than the other caps: only slightly curved.
+// Big Accessories BA671 golf rope cap (89 mm crown). A 5-panel cap: one seamless, lined front panel with seams only at
+// its two sides, so there is no centre seam and the logo stays centred (build.cjs gives it no seam shift). Its
+// signature is a contrast twisted rope laid across the top of the visor where it meets the crown, its ends tucked in
+// towards the visor's sides. The visor is flatter than the other caps: sellers call it semi-curved.
 //
-// Panel count unconfirmed: Printful's and Blankstyle's listings call the BA671 a 5-panel cap with a lined front
-// panel. If that holds, set PANELS = 5 (one seamless front, no centre seam) and drop the 5.2 mm shift for rope-cap
-// in build.cjs, so the lockup sits centred.
+// Panel count: Printful files the BA671 under its 5-panel hats ("Unstructured, 5-panel, front panel lined"), and
+// Blankstyle and Walmart sell it as the "5-Panel Golf Cap". Printful says unstructured and Blankstyle
+// semi-structured; the crown is drawn with the same profile as the trucker's.
 'use strict';
 const cap = require('./_cap.cjs');
 
-const PANELS = 6;
+const PANELS = 5;
 
 module.exports = (kit) => cap(kit, {
   name: 'rope-cap',

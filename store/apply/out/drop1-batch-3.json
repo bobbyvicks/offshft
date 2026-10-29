@@ -1,0 +1,984 @@
+{
+ "query": "mutation Drop1Batch3($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n}",
+ "variables": {
+  "p0": {
+   "title": "OFF SHFT Logo T-Shirt",
+   "handle": "off-shft-logo-t-shirt",
+   "descriptionHtml": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. Shift's over. Tee's up.</p><p>For the dock, the deck and the first warm day off.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Styles: Heavyweight or Pocket</li><li>Heavyweight: the OFF SHFT logo, embroidered on the left chest, 62.6 mm (2.5 in) wide</li><li>Pocket: the OFF SHFT logo, embroidered small on the centre front. The left-chest pocket stays plain.</li><li>Both styles: relaxed fit. 100% ring-spun cotton, 6.1 oz/yd² (206.8 g/m²), garment-dyed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "T-Shirt",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "off-shft-logo",
+    "t-shirt",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "OFF SHFT Logo Embroidered T-Shirt",
+    "description": "The O in OFF is a clock set to 5:00. Quitting time. The OFF SHFT logo, embroidered on a T-shirt made to order. Shift's over. Tee's up."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Heavyweight"
+      },
+      {
+       "name": "Pocket"
+      }
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Pocket"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Pocket"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Pocket"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Pocket"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Pocket"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo T-Shirt, Heavyweight: the OFF SHFT logo embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo T-Shirt, Pocket: the OFF SHFT logo embroidered, at its real size"
+    }
+   ]
+  },
+  "p1": {
+   "title": "The Clock T-Shirt",
+   "handle": "the-clock-t-shirt",
+   "descriptionHtml": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. Shift's over. Tee's up.</p><p>For the dock, the deck and the first warm day off.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Styles: Heavyweight or Pocket</li><li>Heavyweight: the clock, embroidered on the left chest, 25 mm (1 in) tall</li><li>Pocket: the clock, embroidered on the left sleeve, 25 mm (1 in) tall. The left-chest pocket stays plain.</li><li>Both styles: relaxed fit. 100% ring-spun cotton, 6.1 oz/yd² (206.8 g/m²), garment-dyed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "T-Shirt",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "the-clock",
+    "t-shirt",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "The Clock Embroidered T-Shirt | OFF SHFT",
+    "description": "A clock with its hands at 5:00. Quitting time. The Clock, embroidered on a T-shirt made to order. Shift's over. Tee's up."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Heavyweight"
+      },
+      {
+       "name": "Pocket"
+      }
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Heavyweight"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Pocket"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Pocket"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Pocket"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Pocket"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Pocket"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock T-Shirt, Heavyweight: the clock embroidered, at its real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock T-Shirt, Pocket: the clock embroidered, at its real size"
+    }
+   ]
+  },
+  "p2": {
+   "title": "OFF SHFT Logo Jacket",
+   "handle": "off-shft-logo-jacket",
+   "descriptionHtml": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The shift is done and the rest of the day is yours.</p><p>For the dock when the wind picks up.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: the OFF SHFT logo, embroidered, 62.6 mm (2.5 in) wide</li><li>Packable anorak: a half-zip pullover with an adjustable bungee hood</li><li>Fabric: 2.8 oz polyester micro poplin, wind and rain resistant</li><li>Packs into its front pouch pocket</li><li>Left sleeve: the jacket maker's own logo</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Jacket",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "off-shft-logo",
+    "jacket",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "OFF SHFT Logo Embroidered Jacket",
+    "description": "The O in OFF is a clock set to 5:00. Quitting time. The OFF SHFT logo, embroidered on a packable anorak made to order. For the dock when the wind picks up."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of OFF SHFT Logo Jacket: the OFF SHFT logo embroidered, at its real size"
+    }
+   ]
+  },
+  "p3": {
+   "title": "The Clock Jacket",
+   "handle": "the-clock-jacket",
+   "descriptionHtml": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. No words needed.</p><p>For the dock when the wind picks up.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: the clock, embroidered, 25 mm (1 in) tall</li><li>Packable anorak: a half-zip pullover with an adjustable bungee hood</li><li>Fabric: 2.8 oz polyester micro poplin, wind and rain resistant</li><li>Packs into its front pouch pocket</li><li>Left sleeve: the jacket maker's own logo</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Jacket",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "the-clock",
+    "jacket",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "The Clock Embroidered Jacket | OFF SHFT",
+    "description": "A clock with its hands at 5:00. Quitting time. The Clock, embroidered on a packable anorak made to order. For the dock when the wind picks up."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of The Clock Jacket: the clock embroidered, at its real size"
+    }
+   ]
+  },
+  "p4": {
+   "title": "Punched Out. Jacket",
+   "handle": "punched-out-jacket",
+   "descriptionHtml": "<p>Punched out.</p><p>Two words and a full stop, small on the chest. Nothing else to say.</p><p>The shift is done. This one says so without making a big deal of it.</p><p>For the dock when the wind picks up.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: PUNCHED OUT., embroidered small</li><li>Packable anorak: a half-zip pullover with an adjustable bungee hood</li><li>Fabric: 2.8 oz polyester micro poplin, wind and rain resistant</li><li>Packs into its front pouch pocket</li><li>Left sleeve: the jacket maker's own logo</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Jacket",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "punched-out",
+    "jacket",
+    "drop-1"
+   ],
+   "status": "DRAFT",
+   "seo": {
+    "title": "Punched Out. Embroidered Jacket | OFF SHFT",
+    "description": "Two words and a full stop. Punched Out., embroidered on a packable anorak made to order. For when the shift is done."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "99.99",
+     "inventoryItem": {
+      "tracked": false
+     },
+     "file": {
+      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Drawing of Punched Out. Jacket: Punched Out. embroidered, at its real size"
+    }
+   ]
+  }
+ }
+}

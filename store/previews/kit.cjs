@@ -62,12 +62,18 @@ function compose(item, marks) {
   const scale = hat ? HAT_PX : WEAR_PX;
   const w = item.w * scale, h = item.h * scale;
   if (w > CANVAS - 40 || h > CANVAS - 40) throw new Error(`${item.name}: ${Math.round(w)} x ${Math.round(h)} px does not fit the ${CANVAS} px canvas`);
-  const tx = CANVAS / 2, ty = hat ? (CANVAS - h) / 2 : CANVAS - h - 20;
+  const ty = hat ? (CANVAS - h) / 2 : CANVAS - h - 20;
+  const r = 118, cx = CANVAS - r - 14, cy = r + 14;   // the close-up on clothes
+  // A garment tall enough to reach up beside the close-up would be partly hidden by it. When it is narrow enough to
+  // (the sweatpants), it moves left until it clears the circle by 12 px. The wide garments that reach that high are
+  // the hooded tops, and only their hood does, which is narrow and stays clear of the circle where it is.
+  const clear = cx - r - 12;
+  let tx = CANVAS / 2;
+  if (!hat && marks.length && ty < cy + r + 12 && tx + w / 2 > clear && clear - w >= 20) tx = clear - w / 2;
   const drawing = item.body + marks.map((m) => place(m.kind, m.x, m.y, m.rotate || 0)).join('');
   let zoom = '';
   if (!hat && marks.length) {
     const m = marks[0];
-    const r = 118, cx = CANVAS - r - 14, cy = r + 14;
     const mx = tx + m.x * scale, my = ty + m.y * scale;
     const ring = m.kind === 'symbol' ? 16 : 30; // px around the mark on the drawing
     const d = Math.hypot(cx - mx, cy - my), ux = (cx - mx) / d, uy = (cy - my) / d;
