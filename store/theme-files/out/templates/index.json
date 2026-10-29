@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_jVaWmY": {
+      "type": "hero",
+      "blocks": {
+        "text_hero_title": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Hats for the hours you earned.</h1>",
+            "type_preset": "h1",
+            "max_width": "narrow",
+            "text_color": "#ECE5D3"
+          },
+          "blocks": {}
+        },
+        "text_hero_line": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You put in the hours. This time is yours.</p>",
+            "type_preset": "paragraph",
+            "max_width": "normal",
+            "text_color": "#ECE5D3",
+            "padding-block-end": 16
+          },
+          "blocks": {}
+        },
+        "button_hero": {
+          "type": "button",
+          "settings": {
+            "label": "Shop hats",
+            "link": "/collections/all-hats",
+            "style_class": "button-custom",
+            "custom_button_background": "#27303D",
+            "custom_button_text": "#ECE5D3",
+            "custom_button_border": "#ECE5D3"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_hero_title",
+        "text_hero_line",
+        "button_hero"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "flex-end",
+        "align_baseline": true,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "medium",
+        "section_height_custom": 50,
+        "background_color": "#27303D",
+        "toggle_overlay": false,
+        "overlay_color": "#12121266",
+        "overlay_style": "solid",
+        "gradient_direction": "to bottom",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "section_idea": {
+      "type": "section",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "",
+        "background_media": "none",
+        "background_color": "#E4DDCB",
+        "padding-block-start": 80,
+        "padding-block-end": 80
+      },
+      "blocks": {
+        "icon_clock": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "image_upload": "shopify://shop_images/offshft-favicon.png",
+            "width": 64
+          },
+          "blocks": {}
+        },
+        "text_idea_title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Everybody has a shift.</h2>",
+            "type_preset": "h2",
+            "width": "100%",
+            "alignment": "center"
+          },
+          "blocks": {}
+        },
+        "text_idea_line": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The good part is what happens after it.</p>",
+            "type_preset": "paragraph",
+            "width": "100%",
+            "alignment": "center"
+          },
+          "blocks": {}
+        },
+        "button_about": {
+          "type": "button",
+          "settings": {
+            "label": "About OFF SHFT",
+            "link": "/pages/about",
+            "style_class": "button-secondary"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "icon_clock",
+        "text_idea_title",
+        "text_idea_line",
+        "button_about"
+      ]
+    }
+  },
+  "order": [
+    "hero_jVaWmY",
+    "section_idea"
+  ]
+}
