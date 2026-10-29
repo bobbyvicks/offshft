@@ -1,0 +1,78 @@
+{
+  "status": "Unapproved screen-colour candidates only; no thread selection or artwork recolouring applied.",
+  "checkedDate": "2026-10-29",
+  "source": "https://help.printful.com/hc/en-us/articles/50263985175953-How-should-I-prepare-my-design-for-embroidery",
+  "scope": "Printful standard embroidery palette. Confirm actual account/product options in Design Maker.",
+  "maximumStandardColoursPerDesign": 6,
+  "physicalMatchEstablished": false,
+  "artworkColourRemappingApplied": false,
+  "method": {
+    "name": "CIELAB D65 Delta E 1976",
+    "description": "Published sRGB hexes linearized with standard sRGB companding, transformed to XYZ D65 and CIELAB, then ranked by Euclidean Lab distance. This compares screen swatches, not measured physical threads.",
+    "referenceWhiteXYZ": [0.95047, 1.0, 1.08883],
+    "rankingCoverage": "All 15 published standard-palette swatches; top two retained for each target.",
+    "limitations": "No measured thread spectra, substrate, sheen, lighting or sew-out data. These distances are not colour tolerances or approval evidence. No exact standard-palette hex match exists."
+  },
+  "standardPalette": [
+    {"name": "White", "code": "1801", "hex": "#FFFFFF"},
+    {"name": "Black", "code": "1800", "hex": "#000000"},
+    {"name": "Grey", "code": "1718", "hex": "#96A1A8"},
+    {"name": "Navy", "code": "1966", "hex": "#333366"},
+    {"name": "Aqua/Teal", "code": "1695", "hex": "#3399FF"},
+    {"name": "Purple", "code": "1832", "hex": "#6B5294"},
+    {"name": "Maroon", "code": "1784", "hex": "#660000"},
+    {"name": "Red", "code": "1839", "hex": "#CC3333"},
+    {"name": "Flamingo", "code": "1910", "hex": "#CC3366"},
+    {"name": "Orange", "code": "1987", "hex": "#E25C27"},
+    {"name": "Gold", "code": "1951", "hex": "#FFCC00"},
+    {"name": "Old Gold", "code": "1672", "hex": "#A67843"},
+    {"name": "Kiwi Green", "code": "1848", "hex": "#7BA35A"},
+    {"name": "Kelly Green", "code": "1751", "hex": "#01784E"},
+    {"name": "Royal", "code": "1842", "hex": "#005397"}
+  ],
+  "brandTargets": [
+    {
+      "name": "Bone",
+      "hex": "#ECE5D3",
+      "selectedThread": null,
+      "rankedCandidates": [
+        {"name": "White", "code": "1801", "hex": "#FFFFFF", "deltaE76": 13.1597},
+        {"name": "Grey", "code": "1718", "hex": "#96A1A8", "deltaE76": 29.3875}
+      ]
+    },
+    {
+      "name": "Ink",
+      "hex": "#1F2733",
+      "selectedThread": null,
+      "rankedCandidates": [
+        {"name": "Black", "code": "1800", "hex": "#000000", "deltaE76": 17.8023},
+        {"name": "Navy", "code": "1966", "hex": "#333366", "deltaE76": 27.3424}
+      ]
+    },
+    {
+      "name": "Rust",
+      "hex": "#B4552D",
+      "selectedThread": null,
+      "rankedCandidates": [
+        {"name": "Orange", "code": "1987", "hex": "#E25C27", "deltaE76": 21.2515},
+        {"name": "Red", "code": "1839", "hex": "#CC3333", "deltaE76": 23.5287}
+      ]
+    },
+    {
+      "name": "Sun",
+      "hex": "#D29B3C",
+      "selectedThread": null,
+      "rankedCandidates": [
+        {"name": "Old Gold", "code": "1672", "hex": "#A67843", "deltaE76": 24.1006},
+        {"name": "Gold", "code": "1951", "hex": "#FFCC00", "deltaE76": 34.7700}
+      ]
+    }
+  ],
+  "applicationRules": [
+    "Keep original brand hexes in uploaded PNGs; review Printful's automatic mapping explicitly.",
+    "Light artwork has Ink main forms and Rust punctuation or clock accent; dark artwork has Bone main forms and Sun accent.",
+    "The Caramel cap and Espresso crewneck are Bone-only, including their punctuation.",
+    "Back DTG uses the artwork colours and has no embroidery thread mapping.",
+    "Do not infer exact physical matching or account availability from a public Unlimited-colour option."
+  ]
+}

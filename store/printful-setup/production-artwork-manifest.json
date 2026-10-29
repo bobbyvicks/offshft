@@ -1,0 +1,759 @@
+{
+  "version": 1,
+  "purpose": "Exact-art production upload handoff; no supplier upload or digitization performed.",
+  "sourceColourways": "designs/next-round-colourways/colourways.json",
+  "sourceColourwaysSha256": "2e910c2176aaa172f15f38e6c140a2aa1701ac38a8f51287478606b3d04b13b6",
+  "renderer": {
+    "sharp": "0.35.5",
+    "vips": "8.18.7",
+    "dpi": 600
+  },
+  "pathBase": "Repository root",
+  "uniqueArtworkFiles": 12,
+  "colourwayCount": 16,
+  "decoratedColourwayPlacements": 20,
+  "artworkColourRemappingApplied": false,
+  "files": [
+    {
+      "id": "11-time-well-earned-ink-rust-95mm",
+      "conceptId": "11-time-well-earned",
+      "paletteKey": "light",
+      "sourceSvg": "designs/11-time-well-earned/design-light.svg",
+      "sourceSvgSha256": "e7cb2c7085bde6c7c484a9a5f66d057acc1d6579f121a12a66de77e467f98b10",
+      "sourceReferencePng": "designs/11-time-well-earned/design-light.png",
+      "sourceReferencePngSha256": "e8cfc524a923fea4b09b78fa952008e60a32a8e0cadac196457dddced303e87f",
+      "sourceReferencePixels": [
+        1800,
+        917
+      ],
+      "sourceReferenceDpiMetadata": 72,
+      "svg": "store/printful-setup/production-uploads/svg/11-time-well-earned-ink-rust-95mm.svg",
+      "svgSha256": "e7cb2c7085bde6c7c484a9a5f66d057acc1d6579f121a12a66de77e467f98b10",
+      "png": "store/printful-setup/production-uploads/png/11-time-well-earned-ink-rust-95mm.png",
+      "pngSha256": "0a055f2c32112c630305bcdb2e0f4bbffa6c2af626f9aa0d8afd284411dab999",
+      "pixels": [
+        2244,
+        1073
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 95,
+      "physicalHeightMm": 45.434,
+      "physicalWidthInches": 3.7401574803149606,
+      "physicalHeightInches": 1.788740157480315,
+      "effectiveDpiAtIntendedWidth": 599.9747368421052,
+      "colourHexes": [
+        "#1F2733",
+        "#B4552D"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 67242,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "11-time-well-earned-bone-sun-95mm",
+      "conceptId": "11-time-well-earned",
+      "paletteKey": "dark",
+      "sourceSvg": "designs/11-time-well-earned/design.svg",
+      "sourceSvgSha256": "3c406d19c82ffcd0c7132dfcaa0e52060f1a15b76447f55865bf60f7eedbca8e",
+      "sourceReferencePng": "designs/11-time-well-earned/design-dark.png",
+      "sourceReferencePngSha256": "f5f79d8e00a2c2cce9aff57ab1280f341e4bbc961a70423cebddd136db099dde",
+      "sourceReferencePixels": [
+        1800,
+        917
+      ],
+      "sourceReferenceDpiMetadata": 72,
+      "svg": "store/printful-setup/production-uploads/svg/11-time-well-earned-bone-sun-95mm.svg",
+      "svgSha256": "3c406d19c82ffcd0c7132dfcaa0e52060f1a15b76447f55865bf60f7eedbca8e",
+      "png": "store/printful-setup/production-uploads/png/11-time-well-earned-bone-sun-95mm.png",
+      "pngSha256": "e587b4af923bc79bc2061003038cd6865bdbf0ba4f824b20f1938ba3ea115aa4",
+      "pixels": [
+        2244,
+        1073
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 95,
+      "physicalHeightMm": 45.434,
+      "physicalWidthInches": 3.7401574803149606,
+      "physicalHeightInches": 1.788740157480315,
+      "effectiveDpiAtIntendedWidth": 599.9747368421052,
+      "colourHexes": [
+        "#ECE5D3",
+        "#D29B3C"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 68078,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "12-the-rest-is-ours-ink-rust-240mm",
+      "conceptId": "12-the-rest-is-ours",
+      "paletteKey": "light",
+      "sourceSvg": "designs/12-the-rest-is-ours/design-light.svg",
+      "sourceSvgSha256": "55a55d43278f5cfd70c9f72dc6d9cbda74bfdef33c43961e7094d6cc3bf956a3",
+      "sourceReferencePng": "designs/12-the-rest-is-ours/design-light.png",
+      "sourceReferencePngSha256": "a694234bc82fe9f07a4238144f0e6f60330c7b3e3b2ae163e07a5069cc27702d",
+      "sourceReferencePixels": [
+        1800,
+        525
+      ],
+      "sourceReferenceDpiMetadata": 72,
+      "svg": "store/printful-setup/production-uploads/svg/12-the-rest-is-ours-ink-rust-240mm.svg",
+      "svgSha256": "55a55d43278f5cfd70c9f72dc6d9cbda74bfdef33c43961e7094d6cc3bf956a3",
+      "png": "store/printful-setup/production-uploads/png/12-the-rest-is-ours-ink-rust-240mm.png",
+      "pngSha256": "1101e95c53958baaa25c5f7c98ea54db31030cf0c7b6c9b4ae4a1541eb7eec8c",
+      "pixels": [
+        5669,
+        1553
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 240,
+      "physicalHeightMm": 65.761,
+      "physicalWidthInches": 9.448818897637796,
+      "physicalHeightInches": 2.589015748031496,
+      "effectiveDpiAtIntendedWidth": 599.9691666666666,
+      "colourHexes": [
+        "#1F2733",
+        "#B4552D"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 176376,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "12-the-rest-is-ours-bone-sun-240mm",
+      "conceptId": "12-the-rest-is-ours",
+      "paletteKey": "dark",
+      "sourceSvg": "designs/12-the-rest-is-ours/design.svg",
+      "sourceSvgSha256": "0d9e08c8d9df9fa4eae2af05b6d049eae490aa45b68a4639be57d658f1e2d2a9",
+      "sourceReferencePng": "designs/12-the-rest-is-ours/design-dark.png",
+      "sourceReferencePngSha256": "7f1a7ebee17e640fb6b19640046e9679ce792a804a961086687c6515f8ae324b",
+      "sourceReferencePixels": [
+        1800,
+        525
+      ],
+      "sourceReferenceDpiMetadata": 72,
+      "svg": "store/printful-setup/production-uploads/svg/12-the-rest-is-ours-bone-sun-240mm.svg",
+      "svgSha256": "0d9e08c8d9df9fa4eae2af05b6d049eae490aa45b68a4639be57d658f1e2d2a9",
+      "png": "store/printful-setup/production-uploads/png/12-the-rest-is-ours-bone-sun-240mm.png",
+      "pngSha256": "adc29237f5d60851a2939354d086df2bc840b214a866c5a675b78d3b319d5624",
+      "pixels": [
+        5669,
+        1553
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 240,
+      "physicalHeightMm": 65.761,
+      "physicalWidthInches": 9.448818897637796,
+      "physicalHeightInches": 2.589015748031496,
+      "effectiveDpiAtIntendedWidth": 599.9691666666666,
+      "colourHexes": [
+        "#ECE5D3",
+        "#D29B3C"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 179768,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "13-ours-to-spend-ink-rust-85mm",
+      "conceptId": "13-ours-to-spend",
+      "paletteKey": "light",
+      "sourceSvg": "designs/13-ours-to-spend/design-light.svg",
+      "sourceSvgSha256": "f019c4ce7845e163064f21dccc218f0f947723101cba8805d77caa1019ae5d0f",
+      "sourceReferencePng": "designs/13-ours-to-spend/design-light.png",
+      "sourceReferencePngSha256": "f0bcf6ee89ed6c45a1a4e4b107935160d8dc9707eacfc4c16d0d916184813cc3",
+      "sourceReferencePixels": [
+        1800,
+        631
+      ],
+      "sourceReferenceDpiMetadata": 72,
+      "svg": "store/printful-setup/production-uploads/svg/13-ours-to-spend-ink-rust-85mm.svg",
+      "svgSha256": "f019c4ce7845e163064f21dccc218f0f947723101cba8805d77caa1019ae5d0f",
+      "png": "store/printful-setup/production-uploads/png/13-ours-to-spend-ink-rust-85mm.png",
+      "pngSha256": "8d38ce16e5731f32bee024c8152ba8a5668bcff1939f9fe53ff700f454f712f7",
+      "pixels": [
+        2008,
+        611
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 85,
+      "physicalHeightMm": 25.884,
+      "physicalWidthInches": 3.346456692913386,
+      "physicalHeightInches": 1.0190551181102363,
+      "effectiveDpiAtIntendedWidth": 600.0376470588235,
+      "colourHexes": [
+        "#1F2733",
+        "#B4552D"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 56391,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "13-ours-to-spend-bone-sun-85mm",
+      "conceptId": "13-ours-to-spend",
+      "paletteKey": "dark",
+      "sourceSvg": "designs/13-ours-to-spend/design.svg",
+      "sourceSvgSha256": "f13c558063f67d9ef0e278dc2f894c6d093c28d4d0ad61137b518157c9ed638f",
+      "sourceReferencePng": "designs/13-ours-to-spend/design-dark.png",
+      "sourceReferencePngSha256": "872584c457f366b9c621a9ec6434a037fa1aaf476ab2b4192e5f50cf9f602c53",
+      "sourceReferencePixels": [
+        1800,
+        631
+      ],
+      "sourceReferenceDpiMetadata": 72,
+      "svg": "store/printful-setup/production-uploads/svg/13-ours-to-spend-bone-sun-85mm.svg",
+      "svgSha256": "f13c558063f67d9ef0e278dc2f894c6d093c28d4d0ad61137b518157c9ed638f",
+      "png": "store/printful-setup/production-uploads/png/13-ours-to-spend-bone-sun-85mm.png",
+      "pngSha256": "1404e6b44cb8b1188401b2115bdff5260643b809671f6c41e898eb0803bf3481",
+      "pixels": [
+        2008,
+        611
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 85,
+      "physicalHeightMm": 25.884,
+      "physicalWidthInches": 3.346456692913386,
+      "physicalHeightInches": 1.0190551181102363,
+      "effectiveDpiAtIntendedWidth": 600.0376470588235,
+      "colourHexes": [
+        "#ECE5D3",
+        "#D29B3C"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 57023,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "13-ours-to-spend-bone-85mm",
+      "conceptId": "13-ours-to-spend",
+      "paletteKey": "bone",
+      "sourceSvg": "designs/next-round-colourways/artwork/13-ours-to-spend-bone.svg",
+      "sourceSvgSha256": "dc170010e86ef101f62198e7a0a7298f235eca643939f6d8adae0b6fda324fa9",
+      "sourceReferencePng": "designs/next-round-colourways/artwork/13-ours-to-spend-bone.png",
+      "sourceReferencePngSha256": "4a964f90fd989a037009a67dcc22c35f0413b6574ddb3d66f4af6f469f1d147b",
+      "sourceReferencePixels": [
+        1800,
+        548
+      ],
+      "sourceReferenceDpiMetadata": 300,
+      "svg": "store/printful-setup/production-uploads/svg/13-ours-to-spend-bone-85mm.svg",
+      "svgSha256": "dc170010e86ef101f62198e7a0a7298f235eca643939f6d8adae0b6fda324fa9",
+      "png": "store/printful-setup/production-uploads/png/13-ours-to-spend-bone-85mm.png",
+      "pngSha256": "982a6d3a49a491ea15354b27b9142d4e0865c391240c761b8652010287cde4c5",
+      "pixels": [
+        2008,
+        611
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 85,
+      "physicalHeightMm": 25.884,
+      "physicalWidthInches": 3.346456692913386,
+      "physicalHeightInches": 1.0190551181102363,
+      "effectiveDpiAtIntendedWidth": 600.0376470588235,
+      "colourHexes": [
+        "#ECE5D3"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 56713,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "14-five-oclock-ink-rust-115mm",
+      "conceptId": "14-five-oclock",
+      "paletteKey": "light",
+      "sourceSvg": "designs/14-five-oclock/design-light.svg",
+      "sourceSvgSha256": "dc2f208c178cd0a7dadbff7cbc54494d84a8cd2d583114cf3dabb488b9d510f4",
+      "sourceReferencePng": "designs/14-five-oclock/design-light.png",
+      "sourceReferencePngSha256": "9d5b5665fce38bdb8f038c6fa417c10b174eb958ddd0e6e9d7adc4f71d8276bd",
+      "sourceReferencePixels": [
+        1800,
+        498
+      ],
+      "sourceReferenceDpiMetadata": 72,
+      "svg": "store/printful-setup/production-uploads/svg/14-five-oclock-ink-rust-115mm.svg",
+      "svgSha256": "dc2f208c178cd0a7dadbff7cbc54494d84a8cd2d583114cf3dabb488b9d510f4",
+      "png": "store/printful-setup/production-uploads/png/14-five-oclock-ink-rust-115mm.png",
+      "pngSha256": "56d406dbe4686aa61221660c73d6d6c3b346623c1ded53d1148ca1c3ad86a3ba",
+      "pixels": [
+        2717,
+        649
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 115,
+      "physicalHeightMm": 27.468,
+      "physicalWidthInches": 4.52755905511811,
+      "physicalHeightInches": 1.0814173228346458,
+      "effectiveDpiAtIntendedWidth": 600.1026086956522,
+      "colourHexes": [
+        "#1F2733",
+        "#B4552D"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 68178,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "14-five-oclock-bone-sun-115mm",
+      "conceptId": "14-five-oclock",
+      "paletteKey": "dark",
+      "sourceSvg": "designs/14-five-oclock/design.svg",
+      "sourceSvgSha256": "b58f749649d0e1ac90f3060754c37b9ffbad173e220ec2085044b0894ed9b6a5",
+      "sourceReferencePng": "designs/14-five-oclock/design-dark.png",
+      "sourceReferencePngSha256": "392be1cd7e95f694d24f1b98c35ba0b4aa19c4f044dba4e25f1e1b46f0e316bd",
+      "sourceReferencePixels": [
+        1800,
+        498
+      ],
+      "sourceReferenceDpiMetadata": 72,
+      "svg": "store/printful-setup/production-uploads/svg/14-five-oclock-bone-sun-115mm.svg",
+      "svgSha256": "b58f749649d0e1ac90f3060754c37b9ffbad173e220ec2085044b0894ed9b6a5",
+      "png": "store/printful-setup/production-uploads/png/14-five-oclock-bone-sun-115mm.png",
+      "pngSha256": "33f129a54f5aa0af9b8a17e8135cea07b5ea444745b01a43fbb98ba39d8211a4",
+      "pixels": [
+        2717,
+        649
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 115,
+      "physicalHeightMm": 27.468,
+      "physicalWidthInches": 4.52755905511811,
+      "physicalHeightInches": 1.0814173228346458,
+      "effectiveDpiAtIntendedWidth": 600.1026086956522,
+      "colourHexes": [
+        "#ECE5D3",
+        "#D29B3C"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 69224,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "14-five-oclock-bone-115mm",
+      "conceptId": "14-five-oclock",
+      "paletteKey": "bone",
+      "sourceSvg": "designs/next-round-colourways/artwork/14-five-oclock-bone.svg",
+      "sourceSvgSha256": "b777d36d064e4a32b48d651076fa8935edb59772efc7f1928c41919d74c069b8",
+      "sourceReferencePng": "designs/next-round-colourways/artwork/14-five-oclock-bone.png",
+      "sourceReferencePngSha256": "52b6d9cd24f071d440d6c2266219a2d40039b661820f4b62e5b870f806ef86ba",
+      "sourceReferencePixels": [
+        1800,
+        430
+      ],
+      "sourceReferenceDpiMetadata": 300,
+      "svg": "store/printful-setup/production-uploads/svg/14-five-oclock-bone-115mm.svg",
+      "svgSha256": "b777d36d064e4a32b48d651076fa8935edb59772efc7f1928c41919d74c069b8",
+      "png": "store/printful-setup/production-uploads/png/14-five-oclock-bone-115mm.png",
+      "pngSha256": "f479131bbbb6ff0754f276f8bdf7989d5e8a61ed5388b574bb99e4e18a63ef10",
+      "pixels": [
+        2717,
+        649
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 115,
+      "physicalHeightMm": 27.468,
+      "physicalWidthInches": 4.52755905511811,
+      "physicalHeightInches": 1.0814173228346458,
+      "effectiveDpiAtIntendedWidth": 600.1026086956522,
+      "colourHexes": [
+        "#ECE5D3"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 67572,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "off-shft-front-logo-ink-rust-62.64mm",
+      "conceptId": "12-the-rest-is-ours-front",
+      "paletteKey": "light",
+      "sourceSvg": "designs/mark/final/the-o/logo-light.svg",
+      "sourceSvgSha256": "c9271f97d4c831536889cfc15b7747969df9798647c11f99433b827f18afcbc9",
+      "sourceReferencePng": "designs/brand-system/assets/logo-light.png",
+      "sourceReferencePngSha256": "bd77f70bb6c9fd627ece5862a16a404fa2e6ef9a2165f640d79f0c2856ea29d7",
+      "sourceReferencePixels": [
+        2400,
+        691
+      ],
+      "sourceReferenceDpiMetadata": 300,
+      "svg": "store/printful-setup/production-uploads/svg/off-shft-front-logo-ink-rust-62.64mm.svg",
+      "svgSha256": "c9271f97d4c831536889cfc15b7747969df9798647c11f99433b827f18afcbc9",
+      "png": "store/printful-setup/production-uploads/png/off-shft-front-logo-ink-rust-62.64mm.png",
+      "pngSha256": "c8e7a872f755edaa1c45d8dc395f469eaeb933d0e654f22f139285f80ab76324",
+      "pixels": [
+        1480,
+        426
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 62.64,
+      "physicalHeightMm": 18.04,
+      "physicalWidthInches": 2.466141732283465,
+      "physicalHeightInches": 0.710236220472441,
+      "effectiveDpiAtIntendedWidth": 600.1277139208173,
+      "colourHexes": [
+        "#1F2733",
+        "#B4552D"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 18462,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    },
+    {
+      "id": "off-shft-front-logo-bone-sun-62.64mm",
+      "conceptId": "12-the-rest-is-ours-front",
+      "paletteKey": "dark",
+      "sourceSvg": "designs/mark/final/the-o/logo-dark.svg",
+      "sourceSvgSha256": "97dfcd2f15841beda2de3c0b4ddaa23497ca2302426f18186d3fbb94d6af27f4",
+      "sourceReferencePng": "designs/brand-system/assets/logo-dark.png",
+      "sourceReferencePngSha256": "42793a84bf53ac30739ed5f3c77bb9d1fe06352c2c1ff4470b4478a9be3a90a2",
+      "sourceReferencePixels": [
+        2400,
+        691
+      ],
+      "sourceReferenceDpiMetadata": 300,
+      "svg": "store/printful-setup/production-uploads/svg/off-shft-front-logo-bone-sun-62.64mm.svg",
+      "svgSha256": "97dfcd2f15841beda2de3c0b4ddaa23497ca2302426f18186d3fbb94d6af27f4",
+      "png": "store/printful-setup/production-uploads/png/off-shft-front-logo-bone-sun-62.64mm.png",
+      "pngSha256": "fee7670805503309de80b52ffa87c368113b875b313039852dc2913d76fa9534",
+      "pixels": [
+        1480,
+        426
+      ],
+      "dpiMetadata": 600,
+      "colourSpace": "srgb",
+      "hasAlpha": true,
+      "physicalWidthMm": 62.64,
+      "physicalHeightMm": 18.04,
+      "physicalWidthInches": 2.466141732283465,
+      "physicalHeightInches": 0.710236220472441,
+      "effectiveDpiAtIntendedWidth": 600.1277139208173,
+      "colourHexes": [
+        "#ECE5D3",
+        "#D29B3C"
+      ],
+      "conversion": "Native SVG viewport rasterized at 600 DPI; no padding, crop, path edit or colour remap.",
+      "bytes": 18608,
+      "status": "Upload-format ready; embroidery still requires supplier digitization and thread confirmation."
+    }
+  ],
+  "mappings": [
+    {
+      "conceptId": "11-time-well-earned",
+      "title": "TIME WELL EARNED.",
+      "garment": "Comfort Colors 1717 tee",
+      "sizeRange": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "placement": "Centre-chest embroidery",
+      "colourways": [
+        {
+          "colour": "Blue Spruce",
+          "artworkId": "11-time-well-earned-bone-sun-95mm",
+          "png": "store/printful-setup/production-uploads/png/11-time-well-earned-bone-sun-95mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/11-time-well-earned-bone-sun-95mm.svg",
+          "physicalWidthMm": 95,
+          "physicalHeightMm": 45.434,
+          "palette": [
+            "#ECE5D3",
+            "#D29B3C"
+          ]
+        },
+        {
+          "colour": "Ivory",
+          "artworkId": "11-time-well-earned-ink-rust-95mm",
+          "png": "store/printful-setup/production-uploads/png/11-time-well-earned-ink-rust-95mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/11-time-well-earned-ink-rust-95mm.svg",
+          "physicalWidthMm": 95,
+          "physicalHeightMm": 45.434,
+          "palette": [
+            "#1F2733",
+            "#B4552D"
+          ]
+        },
+        {
+          "colour": "Pepper",
+          "artworkId": "11-time-well-earned-bone-sun-95mm",
+          "png": "store/printful-setup/production-uploads/png/11-time-well-earned-bone-sun-95mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/11-time-well-earned-bone-sun-95mm.svg",
+          "physicalWidthMm": 95,
+          "physicalHeightMm": 45.434,
+          "palette": [
+            "#ECE5D3",
+            "#D29B3C"
+          ]
+        },
+        {
+          "colour": "Blue Jean",
+          "artworkId": "11-time-well-earned-bone-sun-95mm",
+          "png": "store/printful-setup/production-uploads/png/11-time-well-earned-bone-sun-95mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/11-time-well-earned-bone-sun-95mm.svg",
+          "physicalWidthMm": 95,
+          "physicalHeightMm": 45.434,
+          "palette": [
+            "#ECE5D3",
+            "#D29B3C"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "12-the-rest-is-ours",
+      "title": "THE REST IS OURS.",
+      "garment": "Comfort Colors 1467 hoodie",
+      "sizeRange": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "placement": "Upper-back print; rear view",
+      "colourways": [
+        {
+          "colour": "Blue Jean",
+          "artworkId": "12-the-rest-is-ours-ink-rust-240mm",
+          "png": "store/printful-setup/production-uploads/png/12-the-rest-is-ours-ink-rust-240mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/12-the-rest-is-ours-ink-rust-240mm.svg",
+          "physicalWidthMm": 240,
+          "physicalHeightMm": 65.761,
+          "palette": [
+            "#1F2733",
+            "#B4552D"
+          ],
+          "frontLogo": {
+            "artworkId": "off-shft-front-logo-ink-rust-62.64mm",
+            "png": "store/printful-setup/production-uploads/png/off-shft-front-logo-ink-rust-62.64mm.png",
+            "svg": "store/printful-setup/production-uploads/svg/off-shft-front-logo-ink-rust-62.64mm.svg",
+            "physicalWidthMm": 62.64,
+            "physicalHeightMm": 18.04,
+            "placement": "Wearer's left chest",
+            "palette": [
+              "#1F2733",
+              "#B4552D"
+            ]
+          }
+        },
+        {
+          "colour": "Ivory",
+          "artworkId": "12-the-rest-is-ours-ink-rust-240mm",
+          "png": "store/printful-setup/production-uploads/png/12-the-rest-is-ours-ink-rust-240mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/12-the-rest-is-ours-ink-rust-240mm.svg",
+          "physicalWidthMm": 240,
+          "physicalHeightMm": 65.761,
+          "palette": [
+            "#1F2733",
+            "#B4552D"
+          ],
+          "frontLogo": {
+            "artworkId": "off-shft-front-logo-ink-rust-62.64mm",
+            "png": "store/printful-setup/production-uploads/png/off-shft-front-logo-ink-rust-62.64mm.png",
+            "svg": "store/printful-setup/production-uploads/svg/off-shft-front-logo-ink-rust-62.64mm.svg",
+            "physicalWidthMm": 62.64,
+            "physicalHeightMm": 18.04,
+            "placement": "Wearer's left chest",
+            "palette": [
+              "#1F2733",
+              "#B4552D"
+            ]
+          }
+        },
+        {
+          "colour": "Pepper",
+          "artworkId": "12-the-rest-is-ours-bone-sun-240mm",
+          "png": "store/printful-setup/production-uploads/png/12-the-rest-is-ours-bone-sun-240mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/12-the-rest-is-ours-bone-sun-240mm.svg",
+          "physicalWidthMm": 240,
+          "physicalHeightMm": 65.761,
+          "palette": [
+            "#ECE5D3",
+            "#D29B3C"
+          ],
+          "frontLogo": {
+            "artworkId": "off-shft-front-logo-bone-sun-62.64mm",
+            "png": "store/printful-setup/production-uploads/png/off-shft-front-logo-bone-sun-62.64mm.png",
+            "svg": "store/printful-setup/production-uploads/svg/off-shft-front-logo-bone-sun-62.64mm.svg",
+            "physicalWidthMm": 62.64,
+            "physicalHeightMm": 18.04,
+            "placement": "Wearer's left chest",
+            "palette": [
+              "#ECE5D3",
+              "#D29B3C"
+            ]
+          }
+        },
+        {
+          "colour": "Butter",
+          "artworkId": "12-the-rest-is-ours-ink-rust-240mm",
+          "png": "store/printful-setup/production-uploads/png/12-the-rest-is-ours-ink-rust-240mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/12-the-rest-is-ours-ink-rust-240mm.svg",
+          "physicalWidthMm": 240,
+          "physicalHeightMm": 65.761,
+          "palette": [
+            "#1F2733",
+            "#B4552D"
+          ],
+          "frontLogo": {
+            "artworkId": "off-shft-front-logo-ink-rust-62.64mm",
+            "png": "store/printful-setup/production-uploads/png/off-shft-front-logo-ink-rust-62.64mm.png",
+            "svg": "store/printful-setup/production-uploads/svg/off-shft-front-logo-ink-rust-62.64mm.svg",
+            "physicalWidthMm": 62.64,
+            "physicalHeightMm": 18.04,
+            "placement": "Wearer's left chest",
+            "palette": [
+              "#1F2733",
+              "#B4552D"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "conceptId": "13-ours-to-spend",
+      "title": "OURS TO SPEND.",
+      "garment": "Yupoong 6606 trucker",
+      "sizeRange": [
+        "One size"
+      ],
+      "placement": "Front-panel embroidery",
+      "colourways": [
+        {
+          "colour": "Evergreen",
+          "artworkId": "13-ours-to-spend-bone-sun-85mm",
+          "png": "store/printful-setup/production-uploads/png/13-ours-to-spend-bone-sun-85mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/13-ours-to-spend-bone-sun-85mm.svg",
+          "physicalWidthMm": 85,
+          "physicalHeightMm": 25.884,
+          "palette": [
+            "#ECE5D3",
+            "#D29B3C"
+          ]
+        },
+        {
+          "colour": "Navy",
+          "artworkId": "13-ours-to-spend-bone-sun-85mm",
+          "png": "store/printful-setup/production-uploads/png/13-ours-to-spend-bone-sun-85mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/13-ours-to-spend-bone-sun-85mm.svg",
+          "physicalWidthMm": 85,
+          "physicalHeightMm": 25.884,
+          "palette": [
+            "#ECE5D3",
+            "#D29B3C"
+          ]
+        },
+        {
+          "colour": "Khaki",
+          "artworkId": "13-ours-to-spend-ink-rust-85mm",
+          "png": "store/printful-setup/production-uploads/png/13-ours-to-spend-ink-rust-85mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/13-ours-to-spend-ink-rust-85mm.svg",
+          "physicalWidthMm": 85,
+          "physicalHeightMm": 25.884,
+          "palette": [
+            "#1F2733",
+            "#B4552D"
+          ]
+        },
+        {
+          "colour": "Caramel",
+          "artworkId": "13-ours-to-spend-bone-85mm",
+          "png": "store/printful-setup/production-uploads/png/13-ours-to-spend-bone-85mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/13-ours-to-spend-bone-85mm.svg",
+          "physicalWidthMm": 85,
+          "physicalHeightMm": 25.884,
+          "palette": [
+            "#ECE5D3"
+          ]
+        }
+      ]
+    },
+    {
+      "conceptId": "14-five-oclock",
+      "title": "5:00",
+      "garment": "Comfort Colors 1466 crewneck",
+      "sizeRange": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "placement": "Centre-chest embroidery",
+      "colourways": [
+        {
+          "colour": "Ivory",
+          "artworkId": "14-five-oclock-ink-rust-115mm",
+          "png": "store/printful-setup/production-uploads/png/14-five-oclock-ink-rust-115mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/14-five-oclock-ink-rust-115mm.svg",
+          "physicalWidthMm": 115,
+          "physicalHeightMm": 27.468,
+          "palette": [
+            "#1F2733",
+            "#B4552D"
+          ]
+        },
+        {
+          "colour": "Blue Jean",
+          "artworkId": "14-five-oclock-ink-rust-115mm",
+          "png": "store/printful-setup/production-uploads/png/14-five-oclock-ink-rust-115mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/14-five-oclock-ink-rust-115mm.svg",
+          "physicalWidthMm": 115,
+          "physicalHeightMm": 27.468,
+          "palette": [
+            "#1F2733",
+            "#B4552D"
+          ]
+        },
+        {
+          "colour": "Pepper",
+          "artworkId": "14-five-oclock-bone-sun-115mm",
+          "png": "store/printful-setup/production-uploads/png/14-five-oclock-bone-sun-115mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/14-five-oclock-bone-sun-115mm.svg",
+          "physicalWidthMm": 115,
+          "physicalHeightMm": 27.468,
+          "palette": [
+            "#ECE5D3",
+            "#D29B3C"
+          ]
+        },
+        {
+          "colour": "Espresso",
+          "artworkId": "14-five-oclock-bone-115mm",
+          "png": "store/printful-setup/production-uploads/png/14-five-oclock-bone-115mm.png",
+          "svg": "store/printful-setup/production-uploads/svg/14-five-oclock-bone-115mm.svg",
+          "physicalWidthMm": 115,
+          "physicalHeightMm": 27.468,
+          "palette": [
+            "#ECE5D3"
+          ]
+        }
+      ]
+    }
+  ]
+}
