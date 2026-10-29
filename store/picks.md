@@ -15,6 +15,11 @@ The owner chose these 11 on the picker page (its database, picks/owner, version 
 | Sweatpants | Comfort Colors 1469 |
 | Tees | Comfort Colors 1717, Comfort Colors 6030 (pocket tee) |
 
+Designs on each piece, chosen on the picker's Designs tab (database: designs/owner, version 20). Each design on each piece becomes its own product:
+- The OFF SHFT logo, the clock and Punched Out. go on all four hats, all three hoodies, the 1466 crewneck and the 1469 sweatpants.
+- The logo and the clock go on the 1717 tee and the 6030 pocket tee.
+- The 6030 has no chest or pocket embroidery, so its clock goes on the left sleeve. The logo is too wide for the sleeve, so it goes on Printful's large-centre front spot instead.
+
 Not selected: Bella + Canvas 4711 and Comfort Colors 1566 crewnecks; Bella + Canvas 4737, Cotton Heritage M7580 and Jerzees 975MPR bottoms; Independent Trading IND20SRT shorts.
 
 Still to confirm for the 11, before samples:
