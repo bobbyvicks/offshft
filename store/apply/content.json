@@ -1,0 +1,282 @@
+{
+ "pages": [
+  {
+   "title": "About",
+   "handle": "about",
+   "body": "<p>Everybody has a shift.</p>\n<p>Early starts. Night shifts. Twelve hours on your feet. Forty at a desk, counting down to Friday. However yours goes, you put in the hours.</p>\n<p>The good part is what happens after.</p>\n<p>A line in the water. The back nine on a Tuesday. Cornhole boards in the driveway. The cottage, finally.</p>\n<p>OFF SHFT makes the hat you wear when you get there.</p>\n<p>Days off don’t always fall on a weekend. Plenty of people get a Tuesday and a Wednesday. These hats don’t mind which.</p>\n<p>The logo is an O with clock hands at 5:00. Quitting time.</p>\n<p>We keep the designs small and quiet, with plenty of empty fabric. Every hat is made to order and shipped to you.</p>\n<p>You put in the hours. This time is yours.</p>",
+   "isPublished": true,
+   "metafields": [
+    {
+     "namespace": "global",
+     "key": "title_tag",
+     "type": "single_line_text_field",
+     "value": "About OFF SHFT | Hats for the Hours You Earned"
+    },
+    {
+     "namespace": "global",
+     "key": "description_tag",
+     "type": "single_line_text_field",
+     "value": "Everybody has a shift. The good part is what happens after it. OFF SHFT makes the hat you wear when you get there."
+    }
+   ],
+   "blanks": 0
+  },
+  {
+   "title": "FAQ",
+   "handle": "faq",
+   "body": "<h3 id=\"how-do-the-hats-fit\">How do the hats fit?</h3>\n<p>It depends on the style.</p>\n<ul>\n<li><strong>Dad hat:</strong> soft and unstructured, with a curved brim.</li>\n<li><strong>Structured snapback:</strong> a firm front that holds its shape, with a snap at the back.</li>\n<li><strong>Trucker:</strong> mesh at the back.</li>\n</ul>\n<p>[CONFIRM: the profile (low, mid or high) and brim of each style we sell, from the partner’s spec sheet; list only the styles on sale, and add the golf cap if it launches] The <a href=\"/pages/size-fit\">Size &amp; fit</a> page has the numbers.</p>\n<h3 id=\"what-size-do-i-need\">What size do I need?</h3>\n<p>[CONFIRM: every style we sell is one size with an adjustable back] Measure around your head where a hat sits, then check the range on the <a href=\"/pages/size-fit\">Size &amp; fit</a> page.</p>\n<h3 id=\"what-are-the-hats-made-of\">What are the hats made of?</h3>\n<p>The designs are embroidered, not printed. The hats themselves: [CONFIRM: material of each style, from the partner’s spec sheet].</p>\n<h3 id=\"how-do-i-clean-my-hat\">How do I clean my hat?</h3>\n<p>Follow the care label inside it. [CONFIRM: each style has a care label inside; care instructions for each style, from the partner’s spec sheet]</p>\n<h3 id=\"are-the-hats-made-to-order\">Are the hats made to order?</h3>\n<p>Yes. There’s no warehouse full of OFF SHFT hats waiting around. Yours is made after you order it, then shipped straight to you. Making it usually takes 2–5 business days. [CONFIRM: Printful’s time; Printify’s is 2–7]</p>\n<h3 id=\"how-long-does-shipping-take\">How long does shipping take?</h3>\n<p>Once your hat is made, delivery usually takes:</p>\n<ul>\n<li>Canada: 3–4 business days [CONFIRM: true if Printful makes your hats in Ontario; see store/pages/shipping-returns.md]</li>\n<li>US: 3–4 business days [CONFIRM: Printful’s time; at Printify it depends on the shop]</li>\n</ul>\n<p>All in, that’s about 1 to 2 weeks. Shipping costs [CONFIRM: shipping rates, or the free-shipping threshold]. You’ll see the exact cost at checkout before you pay. The <a href=\"/pages/shipping-returns\">Shipping &amp; returns</a> page has the details.</p>\n<h3 id=\"will-i-get-a-tracking-number\">Will I get a tracking number?</h3>\n<p>Yes. When your hat ships, you’ll get an email with the tracking link. [CONFIRM: every shipping method you offer has tracking]</p>\n<h3 id=\"do-you-ship-outside-canada-and-the-us\">Do you ship outside Canada and the US?</h3>\n<p>Not right now. [CONFIRM: shipping zones are Canada and the US only] Prices are in Canadian dollars. [CONFIRM: whether US shoppers see US dollars at checkout]</p>\n<h3 id=\"will-i-pay-duties-or-import-fees\">Will I pay duties or import fees?</h3>\n<ul>\n<li>Canada: [CONFIRM: the Canada duties line from store/pages/shipping-returns.md, once you know where Printful makes your hats]</li>\n<li>US: no. Orders to the US ship from inside the US. [CONFIRM: each of your hats is made at Printful’s US shops, and a US order can’t be sent from Canada when they’re out of it. Printful sends each order to the closest shop that has the item]</li>\n</ul>\n<h3 id=\"can-i-return-or-exchange-a-hat\">Can I return or exchange a hat?</h3>\n<p>Each hat is made for your order, so we can’t take returns or exchanges if you change your mind or it doesn’t fit. Not sure about fit? Check <a href=\"/pages/size-fit\">Size &amp; fit</a> or email us before you order. [CONFIRM: the owner approves the draft policy in store/pages/shipping-returns.md]</p>\n<h3 id=\"what-if-it-arrives-damaged-or-wrong-or-doesnt-arrive\">What if it arrives damaged or wrong, or doesn’t arrive?</h3>\n<p>If your hat arrives stitched wrong, damaged or not what you ordered, email us within [CONFIRM: number of days, under 30] days of delivery. Send your order number and a photo. We’ll send a new one or refund you, at no cost to you. You don’t need to send it back.</p>\n<p>If it hasn’t arrived [CONFIRM: number] business days after it shipped, email us your order number. If it’s lost, we’ll send a new one or refund you.</p>\n<h3 id=\"can-i-send-a-hat-as-a-gift\">Can I send a hat as a gift?</h3>\n<p>Yes. At checkout, put their name and address in as the shipping address. [CONFIRM: whether the packing slip shows prices] [CONFIRM: whether gift cards are offered]</p>\n<h3 id=\"how-do-i-reach-you\">How do I reach you?</h3>\n<p>Email [CONFIRM: support email] or use the form on the <a href=\"/pages/contact\">Contact</a> page. If it’s about an order, include your order number. We reply within [CONFIRM: a reply time you can keep].</p>",
+   "isPublished": false,
+   "metafields": [
+    {
+     "namespace": "global",
+     "key": "title_tag",
+     "type": "single_line_text_field",
+     "value": "FAQ: Fit, Shipping and Returns | OFF SHFT"
+    },
+    {
+     "namespace": "global",
+     "key": "description_tag",
+     "type": "single_line_text_field",
+     "value": "Answers on fit, sizing, care, shipping, tracking, returns and gifts for OFF SHFT hats. Every hat is made to order."
+    }
+   ],
+   "blanks": 20
+  },
+  {
+   "title": "Shipping & returns",
+   "handle": "shipping-returns",
+   "body": "<p>[CONFIRM: the owner approves this policy. Delete this line once approved]</p>\n<p>Every hat is made to order, then shipped to you. Here’s how long that takes and what we do if something goes wrong.</p>\n<h3 id=\"made-to-order\">Made to order</h3>\n<p>Your hat is made after you order it. That usually takes 2–5 business days. [CONFIRM: Printful’s time; Printify’s is 2–7]</p>\n<h3 id=\"shipping\">Shipping</h3>\n<p>We ship to Canada and the US. [CONFIRM: the store’s shipping zones are Canada and the US only]</p>\n<p>Once your hat is made, delivery usually takes:</p>\n<ul>\n<li>Canada: 3–4 business days [CONFIRM: true if Printful makes your hats in Ontario; see “Where Canadian orders ship from” below]</li>\n<li>US: 3–4 business days [CONFIRM: Printful’s time; at Printify it depends on the shop]</li>\n</ul>\n<p>All in, that’s about 1 to 2 weeks.</p>\n<p>Shipping costs [CONFIRM: your rates in CAD for Canada and the US, and any free-shipping threshold; or “are worked out at checkout” if you use live rates. See “Shipping costs” below]. You’ll see the exact cost at checkout before you pay.</p>\n<h3 id=\"tracking\">Tracking</h3>\n<p>When your order ships, you’ll get an email with the tracking link. [CONFIRM: every shipping method you offer has tracking]</p>\n<h3 id=\"duties-and-import-fees\">Duties and import fees</h3>\n<ul>\n<li>Canada: [CONFIRM: the Canada line from “Where Canadian orders ship from” below]</li>\n<li>US: orders to the US ship from inside the US, so there are no duties or import fees. [CONFIRM: each of your hats is made at Printful’s US shops, and a US order can’t be sent from Canada when they’re out of it. Printful sends each order to the closest shop that has the item]</li>\n</ul>\n<h3 id=\"changes-and-cancellations\">Changes and cancellations</h3>\n<p>Need to fix your address or cancel? Email us within [CONFIRM: a time limit that ends before production starts; see “Order timing” below] of ordering. After that your hat may already be in production, and we can’t change or cancel it.</p>\n<h3 id=\"returns\">Returns</h3>\n<p>Each hat is made for your order, so we can’t take returns or exchanges if you change your mind or it doesn’t fit. Not sure about fit? Check <a href=\"/pages/size-fit\">Size &amp; fit</a> or email us before you order.</p>\n<h3 id=\"if-somethings-wrong\">If something’s wrong</h3>\n<p>If your hat arrives stitched wrong, damaged or not what you ordered, email us within [CONFIRM: number of days, under 30] days of delivery. Send your order number and a photo. We’ll send a new one or refund you, at no cost to you. You don’t need to send it back.</p>\n<p>If your order hasn’t arrived [CONFIRM: number] business days after it shipped, email us your order number and we’ll look into it. If it’s lost, we’ll send a new one or refund you.</p>\n<h3 id=\"questions\">Questions</h3>\n<p>Email [CONFIRM: support email] or use the <a href=\"/pages/contact\">Contact</a> page. If it’s about an order, include your order number.</p>",
+   "isPublished": false,
+   "metafields": [
+    {
+     "namespace": "global",
+     "key": "title_tag",
+     "type": "single_line_text_field",
+     "value": "Shipping and Returns | OFF SHFT"
+    },
+    {
+     "namespace": "global",
+     "key": "description_tag",
+     "type": "single_line_text_field",
+     "value": "How long OFF SHFT hats take to make and ship to Canada and the US, what shipping costs, and what we do if something's wrong."
+    }
+   ],
+   "blanks": 13
+  },
+  {
+   "title": "Size & fit",
+   "handle": "size-fit",
+   "body": "<p>[CONFIRM: every style we sell is one size with an adjustable back; if a fitted style is ever added, give it its own size chart here] So picking a hat is mostly about the style you like, plus a minute with a tape measure.</p>\n<h3 id=\"how-to-measure-your-head\">How to measure your head</h3>\n<ol type=\"1\">\n<li>Use a soft tape measure. No tape? Use a piece of string, then hold it against a ruler.</li>\n<li>Wrap it around your head where a hat sits: just above your eyebrows and the tops of your ears, and around the back.</li>\n<li>Keep it snug, not tight. Read the number where the ends meet.</li>\n<li>Check it against the range for your style below.</li>\n</ol>\n<h3 id=\"sizes-and-closures\">Sizes and closures</h3>\n<table>\n<colgroup>\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n<col style=\"width: 33%\" />\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th>Style</th>\n<th>Fits heads</th>\n<th>Closure</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td>Dad hat</td>\n<td>[CONFIRM: dad hat head-size range, cm and inches]</td>\n<td>[CONFIRM: dad hat closure]</td>\n</tr>\n<tr class=\"even\">\n<td>Structured snapback</td>\n<td>[CONFIRM: snapback head-size range, cm and inches]</td>\n<td>Snap</td>\n</tr>\n<tr class=\"odd\">\n<td>Trucker</td>\n<td>[CONFIRM: trucker head-size range, cm and inches]</td>\n<td>[CONFIRM: trucker closure]</td>\n</tr>\n<tr class=\"even\">\n<td>Golf cap</td>\n<td>[CONFIRM: rope or performance cap, only if it launches; head-size range, cm and inches]</td>\n<td>[CONFIRM: golf cap closure]</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"how-each-style-sits\">How each style sits</h3>\n<ul>\n<li><strong>Dad hat:</strong> soft and unstructured, with a curved brim. [CONFIRM: dad hat profile]</li>\n<li><strong>Structured snapback:</strong> a firm front that holds its shape. [CONFIRM: snapback profile; flat or curved brim]</li>\n<li><strong>Trucker:</strong> mesh at the back. [CONFIRM: trucker profile, front panel and brim]</li>\n<li><strong>Golf cap:</strong> [CONFIRM: only if it launches: golf cap profile, fabric and brim]</li>\n</ul>\n<h3 id=\"adjusting-the-fit\">Adjusting the fit</h3>\n<ul>\n<li><strong>Snap:</strong> line up the pegs with the holes at the setting that feels snug, then press them together.</li>\n<li>[CONFIRM: how the dad hat and trucker closures adjust]</li>\n</ul>\n<h3 id=\"still-not-sure\">Still not sure?</h3>\n<p>Email your measurement to [CONFIRM: support email] and we’ll tell you which style should fit best.</p>",
+   "isPublished": false,
+   "metafields": [
+    {
+     "namespace": "global",
+     "key": "title_tag",
+     "type": "single_line_text_field",
+     "value": "Hat Size and Fit Guide | OFF SHFT"
+    },
+    {
+     "namespace": "global",
+     "key": "description_tag",
+     "type": "single_line_text_field",
+     "value": "How to measure your head and find the right fit in each OFF SHFT hat style."
+    }
+   ],
+   "blanks": 14
+  }
+ ],
+ "collections": [
+  {
+   "title": "All hats",
+   "handle": "all-hats",
+   "descriptionHtml": "<p>Every OFF SHFT hat in one place. Each one is made to order and shipped to you.</p>",
+   "seo": {
+    "title": "All Hats | OFF SHFT",
+    "description": "Every OFF SHFT hat in one place. Embroidered hats for fishing, golf, cornhole and the cottage, made to order."
+   },
+   "sortOrder": "BEST_SELLING",
+   "sources": [
+    {
+     "source": {
+      "title": "Product type is equal to Hat",
+      "targetType": "PRODUCTS",
+      "inclusion": {
+       "matchType": "ALL",
+       "conditions": [
+        {
+         "productType": {
+          "matchType": "ANY",
+          "relation": "EQUALS",
+          "values": [
+           "Hat"
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "title": "Fishing",
+   "handle": "fishing",
+   "descriptionHtml": "<p>Off the clock, on the water. Hats for early starts and last casts.</p>",
+   "seo": {
+    "title": "Fishing Hats | OFF SHFT",
+    "description": "Off the clock, on the water. Fishing hats from OFF SHFT, embroidered and made to order."
+   },
+   "sortOrder": "BEST_SELLING",
+   "sources": [
+    {
+     "source": {
+      "title": "Product tag is equal to fishing",
+      "targetType": "PRODUCTS",
+      "inclusion": {
+       "matchType": "ALL",
+       "conditions": [
+        {
+         "productTag": {
+          "matchType": "ANY",
+          "relation": "TAGGED_WITH",
+          "values": [
+           "fishing"
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "title": "Golf",
+   "handle": "golf",
+   "descriptionHtml": "<p>Shift's over. Tee's up. Hats for nine holes after work, or eighteen on your day off.</p>",
+   "seo": {
+    "title": "Golf Hats | OFF SHFT",
+    "description": "Shift's over. Tee's up. Golf hats from OFF SHFT, embroidered and made to order."
+   },
+   "sortOrder": "BEST_SELLING",
+   "sources": [
+    {
+     "source": {
+      "title": "Product tag is equal to golf",
+      "targetType": "PRODUCTS",
+      "inclusion": {
+       "matchType": "ALL",
+       "conditions": [
+        {
+         "productTag": {
+          "matchType": "ANY",
+          "relation": "TAGGED_WITH",
+          "values": [
+           "golf"
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "title": "Cottage",
+   "handle": "cottage",
+   "descriptionHtml": "<p>Cottage, cabin or camp. Whatever you call it, you earned it. Hats for the dock, the deck and the drive up.</p>",
+   "seo": {
+    "title": "Cottage Hats | OFF SHFT",
+    "description": "Cottage, cabin or camp. Whatever you call it, you earned it. Cottage hats from OFF SHFT, embroidered and made to order."
+   },
+   "sortOrder": "BEST_SELLING",
+   "sources": [
+    {
+     "source": {
+      "title": "Product tag is equal to cottage",
+      "targetType": "PRODUCTS",
+      "inclusion": {
+       "matchType": "ALL",
+       "conditions": [
+        {
+         "productTag": {
+          "matchType": "ANY",
+          "relation": "TAGGED_WITH",
+          "values": [
+           "cottage"
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "title": "Cornhole",
+   "handle": "cornhole",
+   "descriptionHtml": "<p>Boards out, bags flying. Hats for backyard games and league nights.</p>",
+   "seo": {
+    "title": "Cornhole Hats | OFF SHFT",
+    "description": "Boards out, bags flying. Cornhole hats from OFF SHFT, embroidered and made to order."
+   },
+   "sortOrder": "BEST_SELLING",
+   "sources": [
+    {
+     "source": {
+      "title": "Product tag is equal to cornhole",
+      "targetType": "PRODUCTS",
+      "inclusion": {
+       "matchType": "ALL",
+       "conditions": [
+        {
+         "productTag": {
+          "matchType": "ANY",
+          "relation": "TAGGED_WITH",
+          "values": [
+           "cornhole"
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "title": "Text hats",
+   "handle": "text-hats",
+   "descriptionHtml": "<p>A few words, stitched plain. Nothing more to say.</p>",
+   "seo": {
+    "title": "Text Hats | OFF SHFT",
+    "description": "A few words, stitched plain. Text hats from OFF SHFT, embroidered and made to order."
+   },
+   "sortOrder": "BEST_SELLING",
+   "sources": [
+    {
+     "source": {
+      "title": "Product tag is equal to text-hat",
+      "targetType": "PRODUCTS",
+      "inclusion": {
+       "matchType": "ALL",
+       "conditions": [
+        {
+         "productTag": {
+          "matchType": "ANY",
+          "relation": "TAGGED_WITH",
+          "values": [
+           "text-hat"
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

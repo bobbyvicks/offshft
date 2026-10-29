@@ -1,0 +1,8 @@
+{
+  "theme_draft": "gid://shopify/OnlineStoreTheme/195077472578",
+  "theme_live": "gid://shopify/OnlineStoreTheme/195010888002",
+  "pages": { "about": "gid://shopify/Page/169848013122", "faq": "gid://shopify/Page/169848045890", "shipping-returns": "gid://shopify/Page/169848078658", "size-fit": "gid://shopify/Page/169848111426", "contact": "gid://shopify/Page/169766158658" },
+  "collections": { "all-hats": "gid://shopify/Collection/527680078146", "fishing": "gid://shopify/Collection/527680110914", "golf": "gid://shopify/Collection/527680143682", "cottage": "gid://shopify/Collection/527680176450", "cornhole": "gid://shopify/Collection/527680209218", "text-hats": "gid://shopify/Collection/527680241986", "frontpage": "gid://shopify/Collection/527434613058" },
+  "menus": { "main-menu": "gid://shopify/Menu/329299198274", "footer": "gid://shopify/Menu/329299231042" },
+  "files": { "logo-ink": "gid://shopify/MediaImage/46661955551554", "logo-bone": "gid://shopify/MediaImage/46661955584322", "favicon": "gid://shopify/MediaImage/46661955617090", "social-share": "gid://shopify/MediaImage/46661955649858" }
+}
