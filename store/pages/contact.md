@@ -23,4 +23,5 @@ Notes
 
 - No support address yet: offshft.com isn't bought. Once it is, use one address everywhere (this page, the FAQ, Size & fit and the store's customer email).
 - [CONFIRM: which inbox the contact form sends to (a store setting), and that someone checks it]
+- [CONFIRM: a phone number and a business address to publish (owner's call which). For online orders of $50 or more, Ontario's Consumer Protection Act asks the seller to show both, with an email, before the customer orders (O. Reg. 17/05, s. 32, as summarised by Mann Lawyers; check the current text or ask a lawyer). Settings → Policies → Contact information can hold them.]
 - The reply time has to be one the owner can keep. The weekly routine in LAUNCH_PLAN.md has the owner sending replies, so pick a time that fits it.

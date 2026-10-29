@@ -6,8 +6,10 @@
 // - This store's palette has two extra colours, not three: color1 (#333333 as installed) becomes Slate and color2
 //   (#DFDFDF as installed) becomes Oat, matching theme.md's "find each extra colour by the hex it starts as". The
 //   Bone fabric colour (#E4DDCB) is used as a plain hex where theme.md uses it.
-// - Letter-spacing and muted-text opacity are set in snippets/theme-styles-variables.liquid (theme.md section 8),
-//   because the editor's Custom CSS box can't be written through the API.
+// - Letter-spacing (0.12 em) and muted-text opacity (70%) go in Theme settings -> Custom CSS, pasted by the owner
+//   (theme.md section 3). Apps shouldn't write that box, and editing theme code instead would end Horizon's automatic
+//   updates, so out/snippets/theme-styles-variables.liquid is Horizon's original file, written back to undo the
+//   edit an earlier run made.
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -52,6 +54,7 @@ const changes = {
   primary_button_border_width: 0, button_border_radius_primary: 0, type_font_button_primary: 'body', button_text_case_primary: 'default',
   secondary_button_border_width: 1, button_border_radius_secondary: 0, type_font_button_secondary: 'body', button_text_case_secondary: 'default',
   pills_border_radius: 0,
+  palette_secondary_button_background: P('background'),     // ships transparent here: fabric-coloured on the fabric band
   // Cart
   cart_type: 'drawer', auto_open_cart_drawer: true, show_cart_note: false, show_add_discount_code: false, show_installments: false,
   show_accelerated_checkout_buttons: true, empty_cart_button_link: '/collections/all-hats',
@@ -76,16 +79,8 @@ fs.mkdirSync(path.join(OUT, 'config'), { recursive: true });
 fs.mkdirSync(path.join(OUT, 'snippets'), { recursive: true });
 fs.writeFileSync(path.join(OUT, 'config/settings_data.json'), base.render({ current: { ...base.current, ...changes }, presets: base.presets }));
 
-// theme.md section 8: two CSS variables
-let css = fs.readFileSync(path.join(SRC, 'snippets/theme-styles-variables.liquid'), 'utf8');
-const swap = (from, to) => {
-  const n = css.split(from).length - 1;
-  if (n !== 1) throw new Error(`expected one "${from}", found ${n}`);
-  css = css.replace(from, to);
-};
-swap('--letter-spacing--heading-loose: 0.03em;', '--letter-spacing--heading-loose: 0.12em;');
-swap('--opacity-muted-text: 0.6;', '--opacity-muted-text: 0.7;');
-fs.writeFileSync(path.join(OUT, 'snippets/theme-styles-variables.liquid'), css);
+// Horizon's original styles file (see the note at the top): no code edits, so the theme keeps updating itself
+fs.copyFileSync(path.join(SRC, 'snippets/theme-styles-variables.liquid'), path.join(OUT, 'snippets/theme-styles-variables.liquid'));
 
 // ---------------------------------------------------------------- page files (theme.md sections 5-9)
 // Edits the files as this store installed them (store/theme-files/installed/, checksums verified against Shopify),
@@ -130,6 +125,7 @@ const text = (html, settings = {}) => ({ type: 'text', settings: { text: html, .
   const grp = ft.blocks.group_H6VpwJ;
   grp.settings.gap = 12;
   grp.blocks.text_LWt8Pz.settings.text = '<h2>New hats, now and then.</h2>';
+  grp.blocks.text_LWt8Pz.settings.type_preset = 'h3';
   grp.blocks.text_f9CFLH.settings.text = "<p>We'll email you when there's a new hat. That's about it. Unsubscribe any time.</p>";
   const signup = ft.blocks.email_signup_crihX7;
   Object.assign(signup.settings, {
@@ -153,7 +149,8 @@ const text = (html, settings = {}) => ({ type: 'text', settings: { text: html, .
   };
   ft.block_order = ['group_H6VpwJ', 'menu_footer', 'group_brand'];
   const fu = fg.sections.footer_utilities_jLGE8U;
-  Object.assign(fu.settings, { section_width: 'page-width', gap: 24, background_color: P('color1'), divider_thickness: 1, divider_color: '#ECE5D333', 'padding-block-start': 16, 'padding-block-end': 24 });
+  // divider: Bone at 20% on Slate as a solid colour (the field takes no transparency)
+  Object.assign(fu.settings, { section_width: 'page-width', gap: 24, background_color: P('color1'), divider_thickness: 1, divider_color: '#4E545B', 'padding-block-start': 16, 'padding-block-end': 24 });
   Object.assign(fu.blocks.footer_copyright_jweRK8.settings, { show_powered_by: false, font_size: '0.75rem', case: 'none' });
   Object.assign(fu.blocks.footer_policy_list_VCdnpa.settings, { font_size: '0.75rem', case: 'none' });
   delete fu.blocks.social_links_Ew63Kq;                        // sample links to facebook.com etc.; add back with real handles
@@ -161,22 +158,26 @@ const text = (html, settings = {}) => ({ type: 'text', settings: { text: html, .
   save('sections/footer-group.json', fg);
 }
 
-// Home page: Slate hero, then the idea on Bone fabric with the clock. Collection tiles and the featured hat
+// Home page: a Slate top band, then the idea on Bone fabric with the clock. The top band is a plain section, not
+// Horizon's Hero: with no photo the Hero draws Shopify's placeholder clothes. Collection tiles and the featured hat
 // are added once there are published hats to show (theme.md section 6).
 {
   const idx = load('templates/index.json');
-  const hero = idx.sections.hero_jVaWmY;
-  Object.assign(hero.settings, {
-    content_direction: 'column', horizontal_alignment_flex_direction_column: 'flex-start', vertical_alignment_flex_direction_column: 'center',
-    gap: 16, section_width: 'page-width', section_height: 'medium', background_color: SLATE, toggle_overlay: false,
-    'padding-block-start': 40, 'padding-block-end': 40,
-  });
-  hero.blocks = {
-    text_hero_title: text('<h1>Hats for the hours you earned.</h1>', { type_preset: 'h1', max_width: 'narrow', text_color: BONE }),
-    text_hero_line: text('<p>You put in the hours. This time is yours.</p>', { type_preset: 'paragraph', max_width: 'normal', text_color: BONE, 'padding-block-end': 16 }),
-    button_hero: { type: 'button', settings: { label: 'Shop hats', link: '/collections/all-hats', style_class: 'button-custom', custom_button_background: SLATE, custom_button_text: BONE, custom_button_border: BONE }, blocks: {} },
+  idx.sections.section_top = {
+    type: 'section',
+    settings: {
+      content_direction: 'column', horizontal_alignment_flex_direction_column: 'flex-start', vertical_alignment_flex_direction_column: 'center',
+      gap: 16, section_width: 'page-width', section_height: 'medium', background_media: 'none', background_color: P('color1'),
+      'padding-block-start': 40, 'padding-block-end': 40,
+    },
+    blocks: {
+      text_hero_title: text('<h1>Hats for the hours you earned.</h1>', { type_preset: 'h1', max_width: 'narrow', text_color: BONE }),
+      text_hero_line: text('<p>You put in the hours. This time is yours.</p>', { type_preset: 'paragraph', max_width: 'normal', text_color: BONE, 'padding-block-end': 16 }),
+      button_hero: { type: 'button', settings: { label: 'Shop hats', link: '/collections/all-hats', style_class: 'button-custom', custom_button_background: SLATE, custom_button_text: BONE, custom_button_border: BONE }, blocks: {} },
+    },
+    block_order: ['text_hero_title', 'text_hero_line', 'button_hero'],
   };
-  hero.block_order = ['text_hero_title', 'text_hero_line', 'button_hero'];
+  delete idx.sections.hero_jVaWmY;
   idx.sections.section_idea = {
     type: 'section',
     settings: {
@@ -193,7 +194,7 @@ const text = (html, settings = {}) => ({ type: 'text', settings: { text: html, .
     block_order: ['icon_clock', 'text_idea_title', 'text_idea_line', 'button_about'],
   };
   delete idx.sections.product_list_fa6P9H;                     // sample "latest products" grid; nothing to show yet
-  idx.order = ['hero_jVaWmY', 'section_idea'];
+  idx.order = ['section_top', 'section_idea'];
   save('templates/index.json', idx);
 }
 

@@ -2,7 +2,7 @@
 
 The exact theme setup for OFF SHFT. Follow it top to bottom and you won't need to make a design call.
 
-- **Written for:** Horizon 4.3.0. Every setting, section and block name below was read from Horizon's own code (github.com/Shopify/horizon, cloned 29 October 2026).
+- **Written for:** Horizon 4.3.0. Every setting, section and block name below was read from Horizon's own code (github.com/Shopify/horizon, cloned 29 October 2026), then checked against this store's installed files (store/theme-files/installed/). Where the two differ, this file follows the store.
 - **Names:** setting names in **bold** are the labels the theme editor shows. Names in `code` are the same settings in the theme files, for applying them by API.
 - **Anything not listed** stays as Horizon ships it.
 - **Status:** nothing here is applied yet. The orchestrator applies it to an unpublished copy of the theme. The owner previews it and publishes it (AGENTS.md).
@@ -12,13 +12,13 @@ The exact theme setup for OFF SHFT. Follow it top to bottom and you won't need t
 ### The plan
 
 1. Online Store → Themes. On the live theme (Horizon), open **⋯** → **Duplicate**. Rename the copy **OFF SHFT**.
-2. Check the copy's version. [CONFIRM: the copy is Horizon 4.0.0 or later] A quick tell: version 4 has **Theme settings → Color palette**. Older versions use colour schemes instead, and this file doesn't fit them. If it's older, add the latest Horizon from the Theme Store (free) and use that instead of the copy.
-3. Apply everything below to the copy only. Theme files can only be changed through the API on an unpublished theme. The theme editor works on the copy too: open it with **Customize**.
+2. Check the copy's version. [CONFIRM: the copy is Horizon 4.0.0 or later; store/theme-files/base-settings.cjs records 4.3.0] A quick tell: version 4 has **Theme settings → Color palette**. Older versions use colour schemes instead, and this file doesn't fit them. If it's older, add the latest Horizon from the Theme Store (free) and use that instead of the copy.
+3. Apply everything below to the copy only, never to the live theme. Writing theme files through Shopify's API needs the write_themes permission, and apps also need an exemption from Shopify (shopify.dev, themeFilesUpsert). [CONFIRM: the orchestrator's store connection can write files on the copy] The theme editor works on the copy too: open it with **Customize**. One step can only be done there, by a person: the Custom CSS (section 3).
 4. The owner previews the copy (**⋯** → **Preview**) on a phone and a computer, runs the checks in section 10, and publishes it. Publishing the theme doesn't open the store. The password page stays until the owner launches (store/research/shopify-setup.md, section 9).
 
 ### What must exist first
 
-- **Images:** upload these from store/assets/ to Content → Files: logo-ink.png, logo-bone.png, favicon.png, social-share.png. The theme doesn't use logo.svg.
+- **Images:** upload these from store/assets/ to Content → Files: logo-ink.png, logo-bone.png, favicon.png, social-share.png. The theme doesn't use logo.svg. In this store the first three are already there as offshft-logo-ink.png, offshft-logo-bone.png and offshft-favicon.png (store/theme-files/build.cjs), and the appendix uses those names. [CONFIRM: the names Content → Files shows, including social-share.png's]
 - **Pages** the menus link to: About, FAQ, Size & fit, Shipping & returns (store/pages/), plus the Contact page the store already has. [CONFIRM: the existing Contact page's handle is contact]
 - **Collections** from store/collections.md: all-hats, fishing, golf, cottage, cornhole, text-hats.
 - **Store name:** OFF SHFT (owner's call, Settings → General). The footer copyright prints it.
@@ -47,23 +47,24 @@ New Horizon sections come with sample words, and some make claims OFF SHFT can't
 
 Horizon 4.x has no colour schemes. Colour comes from three places:
 
-1. **Theme settings → Color palette:** Background, Foreground and three extra colours. Many colour settings point at a palette colour, so changing the palette changes them too.
+1. **Theme settings → Color palette:** Background, Foreground and extra colours (2 to 20 colours in all). This store's copy has two extra colours. Many colour settings point at a palette colour, so changing the palette changes them too.
 2. **Theme settings** groups: Page, Typography, Buttons, Input fields, Variant pickers, Drawers, Popovers and modals, Badges and Swatches.
-3. **Each section's own Background color.** When text fails 4.5:1 on that background, Horizon switches it to the palette's lightest colour (Bone). **The Hero section doesn't do this.** Its text colour is set by hand in section 6.
+3. **Each section's own Background color.** When text fails 4.5:1 on that background, Horizon switches it to the palette's lightest colour (Bone). **It doesn't in the Hero section, or in any section with a background image or video.** That's why the top band's text colour is set by hand in section 6.
 
 Horizon has no separate link colour. A link takes the text colour, is underlined in body text, and drops to 70% on hover.
 
 ### Palette (Theme settings → Color palette, `color_palette`)
 
-| Swatch | Starts as | Change to | Name | Used for |
+| Swatch | Starts as in this store | Change to | Name | Used for |
 |---|---|---|---|---|
 | Background (`background`) | #FFFFFF | **#ECE5D3** | Bone | Page, button text on Ink, drawers, pop-ups |
 | Foreground (`foreground`) | #000000 | **#1F2733** | Ink | Text, primary buttons, input and variant borders |
-| Extra colour (`color1`) | #333333 | **#27303D** | Slate | Dark bands: announcement bar, hero, footer |
-| Extra colour (`color2`) | #EEF1EA | **#E4DDCB** | Bone fabric | The fabric band on the home page, sold-out badge |
-| Extra colour (`color3`) | #DFDFDF | **#C7B48E** | Oat | Thin lines and dividers only |
+| Extra colour (`color1`) | #333333 | **#27303D** | Slate | Dark bands: announcement bar, top band, footer |
+| Extra colour (`color2`) | #DFDFDF | **#C7B48E** | Oat | Thin lines and dividers only. Drawer and pop-up borders and the product page divider already point at it. |
 
-Find each extra colour by the hex it starts as. Leave **Theme settings → Page → Background** and **Typography → Text** pointing at Background and Foreground, as they ship.
+- Find each extra colour by the hex it starts as. Horizon's public code ships a third extra colour (#EEF1EA); this store's copy doesn't have it, and none is added.
+- The Bone fabric colour, #E4DDCB, stays out of the palette. Type it as a hex in the two places that use it: the fabric band on the home page (section 6) and the sold-out badge (below).
+- Leave **Theme settings → Page → Background** and **Typography → Text** pointing at Background and Foreground, as they ship.
 
 Rust #B4552D and Sun #D29B3C stay out of the palette. They appear only inside the logo files: Rust hands on the light logo, Sun hands on the dark one. Rust can't carry small text on Bone (3.91:1). Sun could on Slate (5.39:1), but the quiet look keeps it in the logo.
 
@@ -76,14 +77,14 @@ Rust #B4552D and Sun #D29B3C stay out of the palette. They appear only inside th
 
 ### The three looks (Horizon's stand-in for colour schemes)
 
-| | Light: most of the site | Dark: announcement bar, hero, footer | Fabric band: home section 2 only |
+| | Light: most of the site | Dark: announcement bar, top band, footer | Fabric band: home section 2 only |
 |---|---|---|---|
 | Background | Bone #ECE5D3 (Page → **Background**) | Slate #27303D (each section's **Background color**) | Bone fabric #E4DDCB (that section's **Background color**) |
-| Text | Ink #1F2733 (Typography → **Text**) | Bone #ECE5D3. Automatic, except in the Hero, where each Text block's **Text color** is set to #ECE5D3 | Ink #1F2733 (automatic) |
-| Buttons | Primary: Ink #1F2733. Secondary: Bone #ECE5D3 with a 1 px Ink border | Hero button: Slate #27303D with a 1 px Bone border. Footer sign-up button: Bone #ECE5D3 | Secondary: Bone #ECE5D3 with a 1 px Ink border |
-| Button text | Primary: Bone #ECE5D3. Secondary: Ink #1F2733 | Hero: Bone #ECE5D3. Sign-up: Ink #1F2733 | Ink #1F2733 |
+| Text | Ink #1F2733 (Typography → **Text**) | Bone #ECE5D3. Automatic, but the top band's Text blocks also get **Text color** #ECE5D3, so they stay Bone once it has a photo | Ink #1F2733 (automatic) |
+| Buttons | Primary: Ink #1F2733. Secondary: Bone #ECE5D3 with a 1 px Ink border | Top band button: Slate #27303D with a 1 px Bone border. Footer sign-up button: Bone #ECE5D3 | Secondary: Bone #ECE5D3 with a 1 px Ink border |
+| Button text | Primary: Bone #ECE5D3. Secondary: Ink #1F2733 | Top band: Bone #ECE5D3. Sign-up: Ink #1F2733 | Ink #1F2733 |
 | Links | Ink, underlined in body text, 70% on hover | Bone, underlined in body text, 70% on hover | Ink, 70% on hover |
-| Borders | Inputs, variant buttons: Ink #1F2733. Dividers and lines: Oat #C7B48E | Footer divider: Bone at 20%, #ECE5D333 | None |
+| Borders | Inputs, variant buttons: Ink #1F2733. Dividers and lines: Oat #C7B48E | Footer divider: #4E545B (Bone at 20% on Slate, as a solid colour) | None |
 | Accent | Deep rust #8E4426 for one label (below). Rust #B4552D in the header logo only | Sun #D29B3C in the footer logo only | None |
 
 ### Accent rules
@@ -96,16 +97,18 @@ Rust #B4552D and Sun #D29B3C stay out of the palette. They appear only inside th
 
 | Group | Setting | Value | ID |
 |---|---|---|---|
-| Buttons → Primary button | **Background** / **Text** / **Borders** | Leave as they ship: Foreground (Ink) / Background (Bone) / Background (Bone) | `palette_primary_button_*` |
+| Buttons → Primary button | **Background** / **Text** / **Borders** | Leave as they ship: Foreground (Ink) / Background (Bone) / Foreground. The border is 0 px, so its colour doesn't show. | `palette_primary_button_*` |
 | | **Border thickness** | 0 px (as it ships) | `primary_button_border_width` |
 | | **Corner radius** | 0 px | `button_border_radius_primary` |
 | | **Font** / **Text case** | Body / Default (as they ship) | `type_font_button_primary`, `button_text_case_primary` |
-| Buttons → Secondary button | **Background** / **Text** / **Borders** | Leave as they ship: Background (Bone) / Foreground (Ink) / Foreground (Ink) | `palette_secondary_button_*` |
+| Buttons → Secondary button | **Background** | Background (Bone). It ships transparent in this store, which would turn it the fabric colour on the fabric band and grey on hover. | `palette_secondary_button_background` |
+| | **Text** / **Borders** | Leave as they ship: Foreground (Ink) / Foreground (Ink) | `palette_secondary_button_text`, `palette_secondary_button_border` |
 | | **Border thickness** | 1 px (as it ships) | `secondary_button_border_width` |
 | | **Corner radius** | 0 px | `button_border_radius_secondary` |
 | | **Font** / **Text case** | Body / Default (as they ship) | `type_font_button_secondary`, `button_text_case_secondary` |
 | Buttons → Pills | **Corner radius** | 0 px | `pills_border_radius` |
-| Input fields | **Background** / **Text** | Leave: Background (Bone) / Foreground (Ink) | `palette_input_background`, `palette_input_text` |
+| Input fields | **Background** | Leave: Background (Bone) | `palette_input_background` |
+| | **Text** | Foreground (Ink #1F2733). It ships pointing at `color1`, which becomes Slate. | `palette_input_text` |
 | | **Borders** | Foreground (Ink #1F2733). It ships pointing at the palette's #DFDFDF slot. | `palette_input_border` |
 | | **Border thickness** / **Corner radius** | 1 px / 0 px | `input_border_width`, `inputs_border_radius` |
 | Variant pickers → Variant settings | **Background** / **Text** | Leave: Background / Foreground | `palette_variant_background`, `palette_variant_text` |
@@ -113,11 +116,12 @@ Rust #B4552D and Sun #D29B3C stay out of the palette. They appear only inside th
 | Variant pickers → Selected variants | **Background** / **Text** / **Borders** | Leave: Foreground / Background / Foreground | `palette_selected_variant_*` |
 | Variant pickers → Buttons | **Border thickness** / **Corner radius** / **Width** | 1 px / 0 px / Fill | `variant_button_border_width`, `variant_button_radius`, `variant_button_width` |
 | Drawers | **Background color** / **Text color** | Leave: Background / Foreground | `drawer_background_color`, `drawer_text_color` |
-| | **Border color** | Oat (`color3`) | `drawer_border_color` |
+| | **Border color** | Oat (`color2`), as it ships in this store | `drawer_border_color` |
 | Popovers and modals | **Background color** / **Text color** | Leave: Background / Foreground | `popover_background_color`, `popover_text_color` |
-| | **Corner radius** / **Border color** / **Border thickness** | 0 px / Oat (`color3`) / 1 px | `popover_border_radius`, `popover_border_color`, `popover_border_width` |
+| | **Corner radius** / **Border color** / **Border thickness** | 0 px / Oat (`color2`) / 1 px. The colour and thickness already ship that way here. | `popover_border_radius`, `popover_border_color`, `popover_border_width` |
 | | **Drop shadow** | Off | `popover_drop_shadow` |
-| Badges | **Corner radius** | 0 px, to match the square corners. Leave the rest. Badges only show on sale or sold-out items. | `badge_corner_radius` |
+| Badges | **Corner radius** | 0 px, to match the square corners. Badges only show on sale or sold-out items. | `badge_corner_radius` |
+| | **Sold out badge background** | #E4DDCB (Bone fabric). It ships as a fixed #EEF1EA here, so the palette doesn't reach it. Leave the other badge colours. | `badge_sold_out_background_color` |
 | Swatches | **Variant images** | Off (as it ships) | `show_variant_image` |
 | | **Width** / **Height** / **Corner radius** | 32 px / 32 px / 0 px (square chips, like fabric samples) | `variant_swatch_width`, `variant_swatch_height`, `variant_swatch_radius` |
 | | **Borders** / **Border thickness** / **Border opacity** | Solid / 1 px / 60% (an Ink edge at 3.80:1, so a Bone swatch still shows on the Bone page) | `variant_swatch_border_style`, `variant_swatch_border_width`, `variant_swatch_border_opacity` |
@@ -144,12 +148,12 @@ Worked out with the WCAG 2.x formula. Hover colours use Horizon's own hover rule
 | Dark band: Bone on Slate #27303D | 10.60:1 | Pass |
 | Dark band: grey text, Horizon's default (Bone at 60%) | 4.89:1 | Pass |
 | Dark band: grey text after the Custom CSS, and the sign-up placeholder (Bone at 70%) | 6.06:1 | Pass |
-| Hero button hover: Bone on #313C4D | 8.87:1 | Pass |
+| Top band button hover: Bone on #313C4D | 8.87:1 | Pass |
 | Sun #D29B3C on Slate (footer logo) | 5.39:1 | Pass |
 | Rust #B4552D on Bone (header logo) | 3.91:1 | Logo only. Too low for text |
 | Rust #B4552D on Slate | 2.71:1 | Never use |
 | Sun #D29B3C on Bone | 1.97:1 | Never use |
-| Ink on Slate | 1.13:1 | Why the Hero's text colour must be set by hand |
+| Ink on Slate | 1.13:1 | Why the top band's text colour is set by hand |
 | Oat #C7B48E on Bone | 1.62:1 | Lines only |
 
 ## 3. Typography
@@ -175,7 +179,7 @@ Both fonts are in Shopify's font library. Shopify's font list (shopify.dev) has 
 
 | Preset | **Font** | **Size** | **Line height** | **Letter spacing** | **Case** | Where it shows |
 |---|---|---|---|---|---|---|
-| Heading 1 | Heading | 48px (28px on phones) | Normal (1.1) | Loose (0.12 em, see Custom CSS) | Uppercase | The home page hero line only |
+| Heading 1 | Heading | 48px (28px on phones) | Normal (1.1) | Loose (0.12 em, see Custom CSS) | Uppercase | The home page's top band line only |
 | Heading 2 | Heading | 24px | Normal (1.1) | Loose (0.12 em) | Uppercase | Section headings; page, collection and product titles |
 | Heading 3 | Heading | 18px | Loose (1.2) | Loose (0.12 em) | Uppercase | Sub-headings in page text (the FAQ questions), footer sign-up heading, password page |
 | Heading 4 | Heading | 14px | Normal (1.1) | Loose (0.12 em) | Uppercase | Small headings: collection tile names, "More hats", the cart title |
@@ -203,10 +207,15 @@ html:root{--letter-spacing--heading-loose:.12em;--opacity-muted-text:.7}
 - The second part raises Horizon's grey text from 60% to 70% of the text colour. At 60% it fails AA on Bone (3.80:1). At 70% it passes (5.04:1). That grey is used for the copyright line, input placeholders, the search box and the sort label.
 - `html:root` outranks Horizon's own `:root` rules wherever Shopify places this CSS.
 - 72 characters. The box takes 1,500 (store/research/shopify-setup.md, section 2). It isn't a theme code edit.
+- **A person pastes it, in the editor.** Shopify stores theme-wide Custom CSS with the theme settings, and its developer docs say themes and apps shouldn't write that value (shopify.dev, settings_data.json, "Platform-controlled settings"). So the orchestrator can't apply it. The owner pastes it while previewing the copy; section 10 checks that it took. Don't move it into the theme's code instead: that ends automatic Horizon updates (section 8).
 
 ### If a font ever leaves the library
 
-The custom route (store/research/shopify-setup.md, section 3): upload WOFF2 files to the theme's assets, declare them with `@font-face` in `assets/fonts.css.liquid`, load that file from `layout/theme.liquid`, and use `font-display: swap`. Both fonts are under the SIL Open Font License 1.1. Keep its text with the files (tools/fonts/OFL-unbounded.txt, tools/fonts/OFL-Archivo.txt). While the custom files aren't set up, use the closest library fonts: Krona One for Unbounded (one weight) and Work Sans for Archivo.
+Both fonts are in the library today, so this is only a fallback.
+
+- **First choice, no code:** pick the closest library font in the same picker: Krona One for Unbounded (one weight, `krona_one_n4`) and Work Sans for Archivo (`work_sans_n4`, `work_sans_n6`).
+- **Self-hosting the real files is a code edit** (store/research/shopify-setup.md, section 3): WOFF2 files in the theme's assets, `@font-face` rules in `assets/fonts.css.liquid` loaded from `layout/theme.liquid`, and `font-display: swap`. Declaring the fonts alone changes nothing on the page. Horizon's text follows its font pickers, so the CSS also has to point `--font-heading--family` and `--font-accent--family` (Unbounded) and `--font-body--family` and `--font-subheading--family` (Archivo) at the new fonts. Like any code edit, it ends automatic Horizon updates (section 8), so it's the owner's call.
+- Both fonts are under the SIL Open Font License 1.1. Keep its text with the files (tools/fonts/OFL-unbounded.txt, tools/fonts/OFL-Archivo.txt).
 
 ## 4. Logo, favicon and sharing image
 
@@ -324,7 +333,7 @@ Menus are store content, not theme files. Delete every item already in each menu
 | About | /pages/about |
 | Contact | /pages/contact |
 
-Don't add the store policies to this menu. The Policy links block lists them.
+Don't add the store policies to this menu. The Policy links block in Policies and links lists them, behind its "Terms and Policies" link (below).
 
 ### Footer (footer group → Footer, `footer`)
 
@@ -332,17 +341,17 @@ Don't add the store policies to this menu. The Policy links block lists them.
 |---|---|---|
 | **Width** | Page | `section_width` |
 | **Gap** | 40 px | `gap` |
-| **Background color** | Slate (`color1`). It already points there. | `background_color` |
+| **Background color** | Slate (`color1`). It ships pointing at Background in this store. | `background_color` |
 | **Padding → Top / Bottom** | 48 px / 48 px | `padding-block-start`, `padding-block-end` |
 
-The footer arranges its top-level blocks in equal columns: three across on a computer, stacked on a phone. Leave exactly three, in this order.
+The footer arranges its top-level blocks in equal columns: three across on a computer, stacked on a phone. Leave exactly three, in this order. This store's footer starts with two: a group (a heading and a line) and an Email signup block beside it. It has no Menu block.
 
-**1. Sign-up group.** Use Horizon's own group (the one that starts with "Join our email list"). Don't add a second sign-up anywhere.
+**1. Sign-up group.** Use the group that starts with "Join our email list". Its Email signup block sits outside it, as a column of its own. Inside the group, add an Email signup block under the two Text blocks and set it as below, then delete the old one. Don't add a second sign-up anywhere. Group **Gap** 12 px (`gap`; it ships at 6 px).
 
 | Block | Setting | Value |
 |---|---|---|
 | Text, the heading (`text`) | **Text** (`text`) | New hats, now and then. (keep it formatted as Heading 2) |
-| | **Preset** (`type_preset`) | Heading 3 (as it ships) |
+| | **Preset** (`type_preset`) | Heading 3. It ships as Heading 4 here. |
 | Text (`text`) | **Text** (`text`) | We'll email you when there's a new hat. That's about it. Unsubscribe any time. |
 | Email signup (`email-signup`) | **Border** (`border_style`) | All |
 | | Input **Style** (`input_style`) | Custom |
@@ -357,7 +366,7 @@ The footer arranges its top-level blocks in equal columns: three across on a com
 - The same section says it must also name the sender, with contact details. [CONFIRM: the contact details to show beside the sign-up, a mailing address plus an email or the site address. Owner's call which address to publish. They go in the brand group's text below.]
 - [CONFIRM: who sends these emails (for example Shopify Messaging), and that new-hat emails are all the owner plans to send]
 
-**2. Menu** (`menu`): **Menu** Footer menu (`menu`), **Heading** empty (`heading`), **Vertical gap** 12 px (`menu_spacing`), **Show as accordion on mobile** off (`show_as_accordion`), **Heading preset** and **Link preset** Paragraph (`heading_preset`, `link_preset`). Delete Horizon's second Menu block, the one showing the main menu.
+**2. Menu** (`menu`). This store's footer has none, so add one (Add block → Menu). **Menu** Footer menu (`menu`), **Heading** empty (`heading`), **Vertical gap** 12 px (`menu_spacing`), **Show as accordion on mobile** off (`show_as_accordion`), **Heading preset** and **Link preset** Paragraph (`heading_preset`, `link_preset`). A new Menu block starts with Heading preset at Heading 3, so change it.
 
 **3. Brand group.** Add block → Group (`group`): **Direction** Vertical (`content_direction`), **Alignment** Left (`horizontal_alignment_flex_direction_column`), **Gap** 16 px (`gap`). Inside it:
 
@@ -376,33 +385,33 @@ The logo closes the page like the small OFF SHFT sign-off in BRAND.md's layout r
 | Setting | Value | ID |
 |---|---|---|
 | **Width** / **Gap** | Page / 24 px | `section_width`, `gap` |
-| **Background color** | Slate (`color1`). It already points there. | `background_color` |
-| **Divider thickness** / **Divider color** | 1 px / #ECE5D333 (Bone at 20%) | `divider_thickness`, `divider_color` |
+| **Background color** | Slate (`color1`). It ships pointing at Background in this store. | `background_color` |
+| **Divider thickness** / **Divider color** | 1 px / #4E545B. That's Bone at 20% on Slate, typed as a solid colour: this colour field takes no transparency. | `divider_thickness`, `divider_color` |
 | **Padding → Top / Bottom** | 16 px / 24 px | `padding-block-start`, `padding-block-end` |
 
 | Block | Settings |
 |---|---|
 | Copyright (`footer-copyright`) | **Show "Powered by Shopify"** off (`show_powered_by`). **Size** 12px (`font_size`). **Case** Default (`case`). It prints the year and the store name. |
-| Policy links (`footer-policy-list`) | **Size** 12px (`font_size`). **Case** Default (`case`). The links come from Settings → Policies. The refund and shipping text is drafted in store/pages/shipping-returns.md. [CONFIRM: the owner approves that draft, and the privacy and terms policies are written] |
+| Policy links (`footer-policy-list`) | **Size** 12px (`font_size`). **Case** Default (`case`). It shows one link, "Terms and Policies", which opens a pop-up list of the policies in Settings → Policies. It shows nothing until at least one policy exists. The refund and shipping text is drafted in store/pages/shipping-returns.md. [CONFIRM: the owner approves that draft, and the privacy and terms policies are written] |
 | Social media links (`social-links`) | Delete the block now. Horizon fills it with links to facebook.com, instagram.com and others, not to OFF SHFT. Add it back with only the real accounts and **Color** left empty. [CONFIRM: Instagram, TikTok and Facebook handles, once claimed] |
 
 ## 6. Home page (Default home page template)
 
 Sections in order, top to bottom. The page starts with two sections, Hero and Featured collection. Delete both, then add these. Leave text colours empty unless a row says otherwise.
 
-### 1. Hero (Add section → Hero, `hero`)
+### 1. Top band (Add section → Rich text, `section`)
+
+Not the Hero section. With no image, Horizon's Hero fills itself with Shopify's colour placeholder drawing of clothes (`hero-apparel-1`), on the live store too. This store's home page shows it now. A plain section shows only its colour.
 
 | Setting | Value | ID |
 |---|---|---|
-| Media 1, Media 2 | No image or video at launch | `image_1`, `image_2` |
 | Layout → **Direction** / **Alignment** / **Position** | Vertical / Left / Center | `content_direction`, `horizontal_alignment_flex_direction_column`, `vertical_alignment_flex_direction_column` |
 | **Gap** | 16 px | `gap` |
 | **Width** / **Height** | Page / Medium | `section_width`, `section_height` |
-| Appearance → **Background color** | Slate #27303D | `background_color` |
-| **Media overlay** | Off | `toggle_overlay` |
+| **Background media** / **Background color** | None / Slate #27303D (`color1`) | `background_media`, `background_color` |
 | **Padding → Top / Bottom** | 40 px / 40 px | `padding-block-start`, `padding-block-end` |
 
-It comes with two Text blocks and a Button. **Set both text colours by hand.** This section doesn't switch text to Bone on its own (Ink on Slate is 1.13:1).
+It comes with a heading, a text and a button. **Set both text colours to Bone by hand.** The section switches them by itself today, but stops once it has a photo (Ink on Slate is 1.13:1).
 
 | Block | Setting | Value |
 |---|---|---|
@@ -418,7 +427,8 @@ It comes with two Text blocks and a Button. **Set both text colours by hand.** T
 | | Button colors **Background** / **Text** / **Borders** (`custom_button_background`, `custom_button_text`, `custom_button_border`) | Slate #27303D / Bone #ECE5D3 / Bone #ECE5D3 |
 
 - On a computer the heading breaks into two balanced lines. On a phone it's 28 px over three lines.
-- Once samples arrive: [CONFIRM: a real photo of a sample hat worn outdoors, landscape, at least 2400 px wide]. Put it in **Media 1** with **Media overlay** on, **Overlay color** #27303D at 50% (#27303D80), so the text stays readable. No stock photos, no AI images.
+- Once samples arrive: [CONFIRM: a real photo of a sample hat worn outdoors, landscape]. In this section, set **Background media** to Image and pick the photo. Turn on **Background overlay** with **Overlay color** #27303D at 50% (#27303D80), so the text stays readable. No stock photos, no AI images.
+- Photo size: Horizon stretches it edge to edge and asks for versions up to 3840 px wide. Use one at least 2880 px wide, so it stays sharp on a 1440 px laptop screen at double density. On phones the band is at least 400 px tall and the photo is cropped to fill it, so keep the hat in the middle third.
 
 ### 2. The idea (Add section → Rich text, `section`)
 
@@ -427,7 +437,7 @@ It comes with two Text blocks and a Button. **Set both text colours by hand.** T
 | **Direction** / **Alignment** / **Position** | Vertical / Center / Center | `content_direction`, `horizontal_alignment_flex_direction_column`, `vertical_alignment_flex_direction_column` |
 | **Gap** | 24 px | `gap` |
 | **Width** / **Height** | Page / Auto | `section_width`, `section_height` |
-| **Background media** / **Background color** | None / Bone fabric #E4DDCB (`color2`) | `background_media`, `background_color` |
+| **Background media** / **Background color** | None / #E4DDCB (Bone fabric, typed as a hex) | `background_media`, `background_color` |
 | **Padding → Top / Bottom** | 80 px / 80 px | `padding-block-start`, `padding-block-end` |
 
 Blocks, in this order. The section comes with a heading, a text and a button. Add the Icon block and drag it to the top.
@@ -462,12 +472,13 @@ Blocks, in this order. The section comes with a heading, a text and a button. Ad
 | Collection card → Image (`_collection-card-image`) | **Aspect ratio** (`image_ratio`) | Square |
 | Collection card → Collection title (`collection-title`) | **Preset** / **Background** (`type_preset`, `background`) | Heading 4 / Off |
 
-- Tile images are each collection's own image. [CONFIRM: one image per collection once it has an approved hat]
+- Tile images are each collection's own image. A collection with no image shows its first hat's main image instead. [CONFIRM: one image per collection once it has an approved hat]
+- Image size: square, at least 1200 × 1200 px. The tiles crop to a square, and phones ask for tile images up to 1200 px wide. The 880 × 640 previews in designs/ would lose their sides and look soft.
 - **Hide this section** (the eye icon, `"disabled": true`) until all four collections have at least one published hat. At launch none does, and there's no cornhole design yet.
 
 ### 4. Featured hat (Add section → Featured product, `featured-product-information`)
 
-Add it after the owner publishes the logo hat. A draft product shows nothing here.
+Add it after the owner publishes the logo hat. Until then the section shows Shopify's placeholder drawing and the words "Product title", on the live store too.
 
 | Setting | Value | ID |
 |---|---|---|
@@ -513,14 +524,15 @@ These come from the footer group (section 5). Don't add a separate Email signup 
 
 | # | Block | Settings |
 |---|---|---|
-| 1 | Header group → Text "Title" (`text`) | **Preset** Heading 2 (`type_preset`). Leave its text, the product title. |
+| 1 | Header group → the title Text block (`text`; this store names it "Product title") | **Preset** Heading 2 (`type_preset`). Leave its text, the product title. |
 | | Header group → Price (`price`) | **Installments** off (`show_installments`), **Tax information** on (`show_tax_info`), **Preset** Paragraph (`type_preset`) |
 | 2 | Divider (`_divider`) | As it comes. It uses Oat. |
 | 3 | Variant picker (`variant-picker`) | **Style** Buttons (`variant_style`), **Swatches** on (`show_swatches`), **Alignment** Left (`alignment`). Style shows as two equal buttons, Colour as square swatches. |
 | 4 | Buy buttons (`buy-buttons`) | **Always stack buttons** on (`stacking`), **Show pickup availability** off (`show_pickup_availability`), **Gift card form** as it comes. Inside: Quantity, then Add to cart (**Style** Primary, `style_class`), then Accelerated checkout. The payment buttons keep their own brand colours. |
 | 5 | Accordion (Add block → Accordion, `accordion`) | **Icon** Plus (`icon`), **Dividers** on (`dividers`), **Divider color** Oat #C7B48E (`divider_color`), **Heading preset** Heading 5 (`type_preset`) |
 | — | Text "Product description" | Delete it. The description moves into the Details row below. |
-| — | Disclosures | Leave it. It shows only when a product has safety or regulatory disclosures. |
+
+**Disclosures** isn't inside Details. It's a block of the Product information section and sits below the product. Leave it: it shows only when a product has safety or regulatory disclosures.
 
 **Swatches** need product setup, not theme setup. The Colour option has to be linked to the category's Color metafield, with a colour for each value. Until it is, colours show as plain buttons (store/products/_template.md, Variants). [CONFIRM: the link survives a sync from the partner app]
 
@@ -532,7 +544,7 @@ The Accordion block arrives with three sample rows. One of them, "Manufacturing"
 |---|---|---|---|
 | 1 | Details | On | Add block → Description (`product-description`). It shows the product's own description, which holds the details list (store/products/_template.md). |
 | 2 | Shipping | Off | Text: Made to order, then shipped to you in Canada or the US. You'll see the shipping cost at checkout before you pay. Times and costs: [Shipping & returns](/pages/shipping-returns). [CONFIRM: shipping zones are Canada and the US only] |
-| 3 | Returns | Off | Text: Each hat is made for your order, so we can't take returns or exchanges if you change your mind or it doesn't fit. If it arrives misprinted, damaged or wrong, email us within [CONFIRM: number of days, under 30] days of delivery with your order number and a photo. We'll send a new one or refund you. Full policy: [Shipping & returns](/pages/shipping-returns). [CONFIRM: the owner approves the draft policy in store/pages/shipping-returns.md] |
+| 3 | Returns | Off | Text: Each hat is made for your order, so we can't take returns or exchanges if you change your mind or it doesn't fit. If it arrives stitched wrong, damaged or not what you ordered, email us within [CONFIRM: number of days, under 30] days of delivery with your order number and a photo. We'll send a new one or refund you. Full policy: [Shipping & returns](/pages/shipping-returns). [CONFIRM: the owner approves the draft policy in store/pages/shipping-returns.md] |
 | 4 | Size & fit | Off | Text: [CONFIRM: every style we sell is one size with an adjustable back] Measure around your head where a hat sits, then check the range for your style on the [Size & fit](/pages/size-fit) page. |
 
 These rows are the same on every hat. Keep them in step with store/pages/shipping-returns.md, store/pages/faq.md and store/pages/size-fit.md. Row texts use **Preset** Default.
@@ -547,9 +559,11 @@ The product descriptions start their list with a bold "Details" line, so the wor
 
 ## 8. Theme code edits
 
-**None are needed.** The fonts come from the library, and everything else is a theme setting. The two CSS values in section 3 go in **Theme settings → Custom CSS**, which lives in the theme settings, not in the theme's files.
+**None are needed, and none should be made.** The fonts come from the library, and everything else is a theme setting. The two CSS values in section 3 go in **Theme settings → Custom CSS**. Shopify keeps that with the theme settings (`settings_data.json`), not in the code files.
 
-If the Custom CSS box can't be used, the same two values can be set as a code edit on the unpublished copy. In `snippets/theme-styles-variables.liquid` (Horizon 4.3.0, inside the `:root` block), change two lines:
+Why it matters: Shopify updates a theme automatically only while "all theme files, except settings_data.json and any JSON files in the /templates directory, are in their original state" (shopify.dev, Updating your theme). After one code edit, each new Horizon version arrives instead as an unpublished copy to check and publish by hand, and the edit may not carry over. Changes made in the theme editor do carry over.
+
+If the Custom CSS box won't save the CSS, ask the owner before editing code. The code route, on the copy: in `snippets/theme-styles-variables.liquid` (Horizon 4.3.0, inside the `:root` block), change two lines:
 
 ```diff
 -    --letter-spacing--heading-loose: 0.03em;
@@ -561,7 +575,7 @@ If the Custom CSS box can't be used, the same two values can be set as a code ed
 +    --opacity-muted-text: 0.7;
 ```
 
-A code edit lives in the theme's files, so check it again after any Horizon update. Use the Custom CSS box when you can.
+From then on Horizon updates come by hand, as above. Check both lines in every update. Use the Custom CSS box when you can.
 
 ## 9. Other theme settings
 
@@ -590,6 +604,19 @@ A code edit lives in the theme's files, so check it again after any Horizon upda
 
 The Filtering and sorting block (`filters`): **Filters** off (`enable_filtering`), **Sorting** off (`enable_sorting`), **Grid layout control** off (`enable_grid_density`). With a handful of hats they're clutter. The title already uses Heading 2.
 
+### 404 page (404 template)
+
+Horizon ships this page sending shoppers to /collections/all, Shopify's built-in list of every product. store/collections.md says to link to All hats instead.
+
+- Button "Continue shopping": **Link** /collections/all-hats (`link`).
+- Featured collection section ("Discover something new"), if the page has one: **Collection** All hats (`collection`).
+
+### Cart page (Cart template)
+
+The cart opens as a drawer, but the cart page still exists at /cart.
+
+- Featured collection section ("You may also like"), if the page has one: **Collection** All hats (`collection`). **Hide this section** while one hat is live, like Recommended products: it would only show the hat that's already in the cart.
+
 ### Password page (Password template)
 
 The store sits behind this page until launch.
@@ -600,6 +627,7 @@ The store sits behind this page until launch.
 | Text (`text`) | **Text** (`text`) | Opening soon (as it ships, Heading 3) |
 | Text (`text`) | **Text** (`text`) | Hats for the hours you earned. Leave your email and we'll let you know when we open. Unsubscribe any time. |
 | Email signup (`email-signup`) | **Label** / Submit button **Style** (`label`, `style_class`) | Sign up / Primary |
+| | Input **Text** / **Borders** / **Corner radius** (`input_text_color`, `input_border_color`, `border_radius`) | Foreground (Ink) / Foreground (Ink) / 0 px. In this store they ship pointing at `color1` and `color2`, which become Slate and Oat, and Oat is too faint for an input border (1.62:1). The corners ship at 14 px. |
 
 - [CONFIRM: the owner will send one email when the store opens. The text promises it.]
 - [CONFIRM: sender contact details, the same as in the footer, for Canada's anti-spam law]
@@ -616,15 +644,17 @@ The store sits behind this page until launch.
 On a phone (about 375 px wide) and on a computer, in the preview of the copy:
 
 - [ ] Headings are all caps with wide spacing. If they look tight, the Custom CSS didn't take.
-- [ ] Hero heading: three lines on the phone, about 28 px. Two lines on the computer.
-- [ ] Hero text is Bone, not dark.
+- [ ] Top band heading: three lines on the phone, about 28 px. Two lines on the computer.
+- [ ] Top band text is Bone, not dark.
+- [ ] No drawing of clothes anywhere. That's Horizon's placeholder: the top band must be a Rich text section, and the Featured hat waits for a published hat.
 - [ ] The announcement is one line on the phone.
 - [ ] The clock in home section 2 shows no square around it.
 - [ ] None of the sample text listed under "Before you start" appears anywhere, including inside the Accordion.
 - [ ] No review stars. No "Powered by Shopify". No social links that point to Facebook's or Instagram's home page.
 - [ ] Prices show "CAD".
 - [ ] Footer copyright says OFF SHFT, not My Store 2.
-- [ ] Every menu and footer link opens a real page.
+- [ ] Every menu and footer link opens a real page. The footer's "Terms and Policies" link opens the list of policies.
+- [ ] A made-up address such as /pages/nothing shows the 404 page, and its button goes to All hats.
 - [ ] Tab through the header and the product page with the keyboard: every link and button shows a focus outline.
 - [ ] Collection tiles and Recommended products stay hidden until they have hats to show.
 - [ ] The favicon shows in the browser tab (browsers can take a while to refresh it).
@@ -634,31 +664,33 @@ On a phone (about 375 px wide) and on a computer, in the preview of the copy:
 What this file changes or settles from store/research/shopify-setup.md:
 
 - **Currency codes:** Horizon's shipped settings (`config/settings_data.json`) turn them off on product pages, product cards and cart items. Only the cart total has one. All four go on (section 9).
-- **Custom CSS box:** settled. Shopify's developer docs say the theme editor shows a Custom CSS setting for every theme, at theme and section level. The theme-level one is stored in `settings_data.json` under `platform_customizations` (`custom_css`). [CONFIRM: the exact JSON shape before writing it by API; pasting it in the editor avoids the question]
+- **Custom CSS box:** settled. Shopify's developer docs say the theme editor shows a Custom CSS setting for every theme, at theme and section level. The theme-level one is stored in `settings_data.json` under `platform_customizations` (`custom_css`), and the same docs say theme developers shouldn't add or edit that value. So a person pastes it in the editor; it isn't written by API, and it doesn't go into theme code (sections 3 and 8).
 - **Fonts:** settled by handle in Shopify's font list: `unbounded_n7`, `archivo_n4`, `archivo_n6`.
-- **Hero text:** this section applies its background with Horizon's contrast switch turned off (`skip_contrast: true` in `sections/hero.liquid`), so its text colours must be set by hand.
+- **Top band:** a Rich text section, not the Hero. `sections/hero.liquid` prints `{{ 'hero-apparel-1' | placeholder_svg_tag }}` whenever the Hero has no media, with no editor-only check. The generic section shows a placeholder only when Background media is Image or Video with nothing picked. Both turn Horizon's contrast switch off once they have media (`skip_contrast`), so the top band's text colours are set by hand.
+- **This store's installed copy differs from Horizon's public code** (store/theme-files/installed/): two extra palette colours (`color1` #333333, `color2` #DFDFDF), a transparent secondary button, input text on `color1`, the sold-out badge typed as #EEF1EA, the footer and Policies and links on Background instead of Slate, a footer with its Email signup outside the group and no Menu block, and a password sign-up whose input points at `color1` and `color2`. Sections 2, 5 and 9 follow the store.
+- **Automatic updates:** [CONFIRM: whether Shopify also counts theme-editor changes to sections/header-group.json and sections/footer-group.json against automatic updates. shopify.dev only names settings_data.json and the JSON templates as exempt.]
+- **Policies and links → Divider color** has no transparency option, so the 20% Bone is the solid #4E545B (section 5).
 - **Grey text:** Horizon's 60% grey fails AA on light backgrounds. The Custom CSS fixes it.
 - **Section names:** "Rich text" and "Email signup" are presets of the generic Section (`section`). "Featured product" is `featured-product-information`. "Product highlight" is a different section (`featured-product`).
 - **Image settings:** in `settings_data.json`, images are written as `shopify://shop_images/<file name>` once the file is in Content → Files.
-- **store/pages/home.md is now out of date on colour.** Its Colours list puts the page on #E4DDCB and gives Rust on Bone as 3.6:1. This file puts the page on #ECE5D3 (reason in section 2), where Rust is 3.91:1. Its section 4 note still holds: that band is #E4DDCB here, so the favicon's square doesn't show. The announcement bar is no longer all caps (section 5). The page copy in home.md is unchanged and used as written, apart from "Unsubscribe any time." in the footer.
+- **store/pages/home.md is now out of date on colour.** Its Colours list puts the page on #E4DDCB and gives Rust on Bone as 3.6:1. This file puts the page on #ECE5D3 (reason in section 2), where Rust is 3.91:1. Its section 4 note still holds: that band is #E4DDCB here, so the favicon's square doesn't show. The announcement bar is no longer all caps (section 5). Its section 3 still says Hero with no image, which shows Shopify's placeholder drawing, so this file uses a Rich text section that takes the photo later as its background image (section 6). Its [CONFIRM] on Unbounded is answered: the font is in Shopify's library (section 3). The page copy in home.md is unchanged and used as written, apart from "Unsubscribe any time." in the footer.
 
 ## Appendix: theme settings as settings_data.json values
 
-These go in `config/settings_data.json` → `current` on the copy, on top of what's there. Section and block settings are in the tables above, with their IDs.
+These go in `config/settings_data.json` → `current` on the copy, on top of what's there. Section and block settings are in the tables above, with their IDs. The image values use this store's file names in Content → Files ("What must exist first").
 
 ```json
 {
-  "logo": "shopify://shop_images/logo-ink.png",
-  "logo_inverse": "shopify://shop_images/logo-bone.png",
+  "logo": "shopify://shop_images/offshft-logo-ink.png",
+  "logo_inverse": "shopify://shop_images/offshft-logo-bone.png",
   "logo_height": 32,
   "logo_height_mobile": 24,
-  "favicon": "shopify://shop_images/favicon.png",
+  "favicon": "shopify://shop_images/offshft-favicon.png",
   "color_palette": {
     "background": "#ECE5D3",
     "foreground": "#1F2733",
     "color1": "#27303D",
-    "color2": "#E4DDCB",
-    "color3": "#C7B48E"
+    "color2": "#C7B48E"
   },
   "type_body_font": "archivo_n4",
   "type_subheading_font": "archivo_n6",
@@ -702,10 +734,12 @@ These go in `config/settings_data.json` → `current` on the copy, on top of wha
   "add_to_cart_animation": false,
   "card_hover_effect": "none",
   "badge_corner_radius": 0,
+  "badge_sold_out_background_color": "#E4DDCB",
   "primary_button_border_width": 0,
   "button_border_radius_primary": 0,
   "type_font_button_primary": "body",
   "button_text_case_primary": "default",
+  "palette_secondary_button_background": "{{ settings.color_palette.background }}",
   "secondary_button_border_width": 1,
   "button_border_radius_secondary": 0,
   "type_font_button_secondary": "body",
@@ -718,13 +752,14 @@ These go in `config/settings_data.json` → `current` on the copy, on top of wha
   "show_installments": false,
   "show_accelerated_checkout_buttons": true,
   "empty_cart_button_link": "/collections/all-hats",
-  "drawer_border_color": "{{ settings.color_palette.color3 }}",
+  "drawer_border_color": "{{ settings.color_palette.color2 }}",
   "icon_stroke": "thin",
+  "palette_input_text": "{{ settings.color_palette.foreground }}",
   "palette_input_border": "{{ settings.color_palette.foreground }}",
   "input_border_width": 1,
   "inputs_border_radius": 0,
   "popover_border_radius": 0,
-  "popover_border_color": "{{ settings.color_palette.color3 }}",
+  "popover_border_color": "{{ settings.color_palette.color2 }}",
   "popover_border_width": 1,
   "popover_drop_shadow": false,
   "currency_code_enabled_product_pages": true,

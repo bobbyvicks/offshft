@@ -16,7 +16,7 @@ It depends on the style.
 - **Structured snapback:** a firm front that holds its shape, with a snap at the back.
 - **Trucker:** mesh at the back.
 
-[CONFIRM: the profile (low, mid or high) and brim of each style we sell, from the partner's spec sheet; add the golf cap if it launches] The [Size & fit](/pages/size-fit) page has the numbers.
+[CONFIRM: the profile (low, mid or high) and brim of each style we sell, from the partner's spec sheet; list only the styles on sale, and add the golf cap if it launches] The [Size & fit](/pages/size-fit) page has the numbers.
 
 ### What size do I need?
 
@@ -28,7 +28,7 @@ The designs are embroidered, not printed. The hats themselves: [CONFIRM: materia
 
 ### How do I clean my hat?
 
-Follow the care label inside it. [CONFIRM: care instructions for each style, from the partner's spec sheet]
+Follow the care label inside it. [CONFIRM: each style has a care label inside; care instructions for each style, from the partner's spec sheet]
 
 ### Are the hats made to order?
 
@@ -54,7 +54,7 @@ Not right now. [CONFIRM: shipping zones are Canada and the US only] Prices are i
 ### Will I pay duties or import fees?
 
 - Canada: [CONFIRM: the Canada duties line from store/pages/shipping-returns.md, once you know where Printful makes your hats]
-- US: no. Orders to the US ship from inside the US. [CONFIRM: each of your hats is made at Printful's US shops]
+- US: no. Orders to the US ship from inside the US. [CONFIRM: each of your hats is made at Printful's US shops, and a US order can't be sent from Canada when they're out of it. Printful sends each order to the closest shop that has the item]
 
 ### Can I return or exchange a hat?
 
@@ -62,7 +62,7 @@ Each hat is made for your order, so we can't take returns or exchanges if you ch
 
 ### What if it arrives damaged or wrong, or doesn't arrive?
 
-If your hat arrives misprinted, damaged or not what you ordered, email us within [CONFIRM: number of days, under 30] days of delivery. Send your order number and a photo. We'll send a new one or refund you, at no cost to you. You don't need to send it back.
+If your hat arrives stitched wrong, damaged or not what you ordered, email us within [CONFIRM: number of days, under 30] days of delivery. Send your order number and a photo. We'll send a new one or refund you, at no cost to you. You don't need to send it back.
 
 If it hasn't arrived [CONFIRM: number] business days after it shipped, email us your order number. If it's lost, we'll send a new one or refund you.
 
@@ -80,5 +80,5 @@ Notes
 - 13 questions: fit, sizing, materials, care, made to order, shipping times, tracking, international orders, duties, returns and exchanges, damaged, wrong or lost orders, gifts, contact.
 - Production and delivery times are Printful's, from store/research/pod-partner.md, written as estimates. "About 1 to 2 weeks" adds them up (2–5 plus 3–4 business days). If the Canada time changes, change that line too.
 - Fit, size, material and care still wait for the blanks the owner picks. The blanks the research names are listed in store/pages/size-fit.md, Notes.
-- "Embroidered, not printed" is true for every design so far. If a printed hat is ever added, change that answer.
+- "Embroidered, not printed" is true for every design so far. If a printed hat is ever added, change that answer, and "stitched wrong" here and in store/pages/shipping-returns.md.
 - "You'll see the exact cost at checkout before you pay" is how Shopify's checkout works: the shipping rate shows before payment.

@@ -32,7 +32,7 @@ Punched out.
 
 Two words and a full stop. Nothing else to say.
 
-The shift is done and the rest of the day is yours. This hat says so without making a big deal of it.
+The shift is done. This hat says so without making a big deal of it.
 
 Made to order and shipped to you.
 

@@ -76,6 +76,7 @@ Fit questions? See [Size & fit](/pages/size-fit).
   - Slate structured snapback with the OFF SHFT logo embroidered on the front, front view
   - Spruce structured snapback with the OFF SHFT logo embroidered on the front, front view
   - Side and back views: the same, ending in "side view" or "back view".
+  - If a colour is renamed after the swatch check (Navy, say), use the new name in its alt text too.
 
 ## Setting it up at the partner
 

@@ -9,8 +9,20 @@
  */
 {
   "sections": {
-    "hero_jVaWmY": {
-      "type": "hero",
+    "section_top": {
+      "type": "section",
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "medium",
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.color1 }}",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      },
       "blocks": {
         "text_hero_title": {
           "type": "text",
@@ -50,37 +62,7 @@
         "text_hero_title",
         "text_hero_line",
         "button_hero"
-      ],
-      "name": "t:names.hero",
-      "settings": {
-        "media_type_1": "image",
-        "media_type_2": "image",
-        "stack_media_on_mobile": false,
-        "custom_mobile_media": false,
-        "media_type_1_mobile": "image",
-        "media_type_2_mobile": "image",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "space-between",
-        "vertical_alignment": "flex-end",
-        "align_baseline": true,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "section_height": "medium",
-        "section_height_custom": 50,
-        "background_color": "#27303D",
-        "toggle_overlay": false,
-        "overlay_color": "#12121266",
-        "overlay_style": "solid",
-        "gradient_direction": "to bottom",
-        "blurred_reflection": false,
-        "reflection_opacity": 75,
-        "padding-block-start": 40,
-        "padding-block-end": 40
-      }
+      ]
     },
     "section_idea": {
       "type": "section",
@@ -145,7 +127,7 @@
     }
   },
   "order": [
-    "hero_jVaWmY",
+    "section_top",
     "section_idea"
   ]
 }

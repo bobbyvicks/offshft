@@ -29,7 +29,7 @@ We ship to Canada and the US. [CONFIRM: the store's shipping zones are Canada an
 Once your hat is made, delivery usually takes:
 
 - Canada: 3–4 business days [CONFIRM: true if Printful makes your hats in Ontario; see "Where Canadian orders ship from" below]
-- US: 3–4 business days
+- US: 3–4 business days [CONFIRM: Printful's time; at Printify it depends on the shop]
 
 All in, that's about 1 to 2 weeks.
 
@@ -42,7 +42,7 @@ When your order ships, you'll get an email with the tracking link. [CONFIRM: eve
 ### Duties and import fees
 
 - Canada: [CONFIRM: the Canada line from "Where Canadian orders ship from" below]
-- US: orders to the US ship from inside the US, so there are no duties or import fees. [CONFIRM: each of your hats is made at Printful's US shops]
+- US: orders to the US ship from inside the US, so there are no duties or import fees. [CONFIRM: each of your hats is made at Printful's US shops, and a US order can't be sent from Canada when they're out of it. Printful sends each order to the closest shop that has the item]
 
 ### Changes and cancellations
 
@@ -54,7 +54,7 @@ Each hat is made for your order, so we can't take returns or exchanges if you ch
 
 ### If something's wrong
 
-If your hat arrives misprinted, damaged or not what you ordered, email us within [CONFIRM: number of days, under 30] days of delivery. Send your order number and a photo. We'll send a new one or refund you, at no cost to you. You don't need to send it back.
+If your hat arrives stitched wrong, damaged or not what you ordered, email us within [CONFIRM: number of days, under 30] days of delivery. Send your order number and a photo. We'll send a new one or refund you, at no cost to you. You don't need to send it back.
 
 If your order hasn't arrived [CONFIRM: number] business days after it shipped, email us your order number and we'll look into it. If it's lost, we'll send a new one or refund you.
 
@@ -128,6 +128,7 @@ Change these on the page:
   - A US shop: Canadian orders are imports. Printify adds no Canadian tax, the buyer may pay duties or taxes, and no DDP option was found [48]. Use the "no DDP" Canada line.
   - Duplium, in Canada: US orders are imports, and the US has given no duty-free entry to low-value parcels from any country since 29 August 2025 [63][64]. The US line becomes: "Orders to the US ship from Canada. You may have to pay duties or import fees when it arrives."
 - **Delivery times and costs:** set by each shop. [CONFIRM: times and rates for the shop you pick] The research's only example comes from a page that may be dated: Fulfill Engine, a US shop, charges US$4.89 plus US$2.19 per extra hat to the US, and US$9.39 plus US$4.39 to Canada, where delivery takes 10–30 business days [47].
+- **All in:** redo "All in, that's about 1 to 2 weeks" from the new times, here and in the FAQ.
 - **Shipping at checkout:** Printify's rates reach Shopify in USD with no conversion [53][76]. On this CAD store, use flat CAD rates.
 - **Claims:** the same 30 days from delivery with a photo, and no return needed [51]. But Printify doesn't count a design shifted up to 0.5 in (12.7 mm) as a defect [51]. [CONFIRM: owner's call: replace a shifted logo at the store's cost, or don't treat it as a misprint]
 - **Order timing:** orders go to production by hand, after 1 hour, after 24 hours (the default) or at a set time [52]. Close the cancellation window before that.

@@ -110,10 +110,10 @@ Footer group → Footer. Horizon's default footer starts with a sign-up group: a
 | Block | Words |
 |---|---|
 | Text, heading | New hats, now and then. |
-| Text, paragraph | We'll email you when there's a new hat. That's about it. |
+| Text, paragraph | We'll email you when there's a new hat. That's about it. Unsubscribe any time. |
 | Email signup, button label | Sign up |
 
-[CONFIRM: who sends these emails (for example Shopify Email), and that new-hat emails are all you plan to send]
+[CONFIRM: who sends these emails (for example Shopify Email), that new-hat emails are all you plan to send, and the sender's contact details to show beside the sign-up (a mailing address plus an email or the site address), which Canada's anti-spam law asks for (store/research/shopify-setup.md, section 8)]
 
 ### 8. Footer
 
@@ -136,3 +136,5 @@ The new pages need a way in.
 |---|---|
 | Main menu | Hats → /collections/all-hats, with a dropdown: All hats, Fishing, Golf, Cottage, Cornhole, Text hats. About → /pages/about. FAQ → /pages/faq |
 | Footer menu | Size & fit → /pages/size-fit. Shipping & returns → /pages/shipping-returns. FAQ → /pages/faq. About → /pages/about. Contact → /pages/contact |
+
+Add a collection to the Hats dropdown only once it has a published hat, so no menu link opens an empty page (store/collections.md, Empty collections). If only All hats has one, Hats gets no dropdown.
