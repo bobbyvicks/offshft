@@ -3,17 +3,26 @@
 The blank products OFF SHFT is made on, as the owner chose them. Details (price, colours, logo areas) are checked
 against Printful and added as each check finishes; the picker page is https://claude.ai/artifact/FMZhNQB1ZEiHrvY2ebMkCa
 
-## How the line-up gets chosen
+## The owner's selection (29 Oct 2026)
 
-The owner chooses the first drop themselves from everything they sent (29 Oct 2026). Nothing is pre-selected.
-- The picker page shows all nine pieces with their facts and colours.
-- The owner taps the ones they want and their colours. Their choices save in the page's database (picks/owner).
-- Claude doesn't drop or swap pieces on the owner's behalf. It reports facts, such as where Printful embroiders a piece and where it's made.
+The owner chose these 11 on the picker page (its database, picks/owner, version 14). Colours are chosen later.
 
-Facts and sources:
-- store/research/comfort-colors.md: the Comfort Colors pieces
-- the cap and AS Colour hoodie checks: this session's workflow results, to be written up
-- store/research/fulfilment.md, still being written: where each piece is made, US or Canada
+| Kind | Selected |
+|---|---|
+| Hats | Retro trucker (Yupoong 6606), 5-panel (Otto 31-069), dad hat (Yupoong 6245CM), rope cap (Big Accessories BA671) |
+| Hoodies | AS Colour 5161, Comfort Colors 1567, Comfort Colors 1467 |
+| Crewneck | Comfort Colors 1466 |
+| Sweatpants | Comfort Colors 1469 |
+| Tees | Comfort Colors 1717, Comfort Colors 6030 (pocket tee) |
+
+Not selected: Bella + Canvas 4711 and Comfort Colors 1566 crewnecks; Bella + Canvas 4737, Cotton Heritage M7580 and Jerzees 975MPR bottoms; Independent Trading IND20SRT shorts.
+
+Still to confirm for the 11, before samples:
+- Where Printful makes each one with embroidery: US, Canada (Ontario) or both. Search hasn't turned this up for any of them. It shows in each product's Availability tab on Printful.
+- Whether Printful embroiders the 1467 hoodie and the 1469 sweatpants.
+- Each price with embroidery, in US$ and C$.
+
+Facts so far: store/research/comfort-colors.md, the cap and AS Colour hoodie checks, and store/research/fulfilment.md (being written).
 
 ## Everything the owner sent
 
