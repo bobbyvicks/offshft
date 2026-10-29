@@ -19,7 +19,9 @@ const SELECTION = JSON.parse(fs.readFileSync(path.join(__dirname, 'selection.jso
 
 function svgFor(p, chosen) {
   const d = DESIGNS.get((p.art && p.art[chosen.id]) || chosen.id);
-  const it = A.items[p.item], C = A.canvas;
+  const it = A.items[p.item];
+  if (!it) throw new Error(`no drawing for ${p.item}`);
+  const C = A.canvas;
   const hat = it.category === 'hat', scale = hat ? A.hatPx : A.wearPx;
   const tx = C / 2, ty = hat ? (C - it.h * scale) / 2 : C - it.h * scale - 20;
   const at = (p.designAt && p.designAt[chosen.id]) || p.at;
@@ -53,6 +55,8 @@ async function main() {
     const p = A.products.find((x) => x.id === pid);
     if (!p) { missing.push(pid); continue; }
     for (const did of designIds) jobs.push({ out: path.join(OUT, `${pid}--${did}.png`), svg: svgFor(p, DESIGNS.get(did)) });
+    // The back view, once per piece: its mark is the same whatever design is on the front.
+    if (p.back && A.items[p.back.item]) jobs.push({ out: path.join(OUT, `${pid}--back.png`), svg: svgFor({ item: p.back.item, at: p.back.at }, DESIGNS.get(p.back.design)) });
   }
   await kit.render(jobs);
   console.log(`wrote ${jobs.length} images to ${OUT}${missing.length ? `; no drawing yet for ${missing.join(', ')}` : ''}`);

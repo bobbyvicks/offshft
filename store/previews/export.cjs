@@ -41,7 +41,8 @@ const DESIGNS = [
 ];
 
 fs.mkdirSync(OUT, { recursive: true });
-const names = [...new Set(PRODUCTS.map((p) => p.item))];
+// A piece with something on its back (a golf shirt's back-neck clock) has a second drawing, the back view.
+const names = [...new Set(PRODUCTS.flatMap((p) => [p.item, p.back && p.back.item]).filter(Boolean))];
 const items = {};
 for (const n of names) {
   if (!fs.existsSync(path.join(__dirname, 'items', `${n}.cjs`))) { console.warn(`no drawing yet: ${n}`); continue; }   // the page skips its preview
