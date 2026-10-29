@@ -1,0 +1,144 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "mode": "reference-based product mockups and targeted edits",
+  "scope": "Six hoodie and crewneck concepts only",
+  "productSources": [
+    "store/products/drop1.json",
+    "store/previews/out/shop/hoodie-5161--logo.png",
+    "store/previews/out/shop/hoodie-5161--clock.png",
+    "store/previews/out/shop/hoodie-5161--punched-out.png",
+    "store/previews/out/shop/crew-1466--logo.png",
+    "store/previews/out/shop/crew-1466--clock.png",
+    "store/previews/out/shop/crew-1466--punched-out.png"
+  ],
+  "artSources": [
+    "designs/brand-system/assets/logo-light.png",
+    "designs/brand-system/assets/symbol-light.png",
+    "designs/09-punched-out/preview-bone.png",
+    "designs/09-punched-out/design-bone.svg"
+  ],
+  "status": "Draft concept visuals; not photographs of manufactured samples. Supplier colour, physical fabric, final embroidery fidelity and placement remain to be approved. Generation approximates source artwork and nominal dimensions; canonical source vectors govern production.",
+  "conceptFabric": "#E4DDCB",
+  "conceptThread": {
+    "Ink": "#1F2733",
+    "Rust": "#B4552D"
+  },
+  "nominalDecoration": {
+    "logoWidthMm": 63,
+    "clockHeightMm": 25,
+    "punchedOutWidthMm": 230
+  },
+  "construction": {
+    "hoodie": "AS Colour5161-inspired oversized relaxed fit with dropped shoulders, lined hood without drawcord, kangaroo pocket and ribbed cuffs/hem",
+    "crewneck": "Comfort Colors1466-inspired relaxed crewneck with ribbed neck/cuffs/hem; no hood or pocket"
+  },
+  "images": [
+    {
+      "key": "hoodie-logo",
+      "prompt": "Use case: product-mockup. Create ONE photorealistic square ecommerce hero photograph, a single Bone ivory oversized pullover hoodie, entire garment visible with clear margin on every side, overhead flat lay on a warm ivory matte studio surface. Reference image 1 is mood and texture ONLY: warm upper-left daylight, believable cotton, soft shadows. Reference image 2 is the exact garment silhouette and branding placement guide, NOT a drawing style to copy. Reference image 3 is the authoritative OFF SHFT logo artwork to embroider faithfully. Garment: AS Colour 5161-inspired oversized relaxed fit, dropped shoulders, lined hood with absolutely NO drawcord or eyelets, front kangaroo pocket, ribbed cuffs and hem. Bone fabric concept colour #E4DDCB. Lay the hoodie front-up, hood open naturally, sleeves gently angled outward and down, cuffs and hem completely inside frame, mild natural fabric folds, very believable cotton surface and seams. One very small OFF SHFT embroidered logo 63 mm wide on the wearer's LEFT chest, which is viewer RIGHT; approximately one tenth of torso width, not large. Ink letters/ring #1F2733, Rust #B4552D hands and central dot. Preserve the exact logo design and the space between OFF and SHFT; no I in SHFT. Clock hand one points straight up to 12, the other diagonally DOWN-RIGHT at 5 o'clock, never straight down at 6. Both hands outside the ring with visible gaps and a rust pivot dot inside it. Subtle thread texture, restrained real-scale embroidery. No props, no packaging, no hangtags, no external captions, no arrows, no circle inset, no watermark, no labels, no mannequin, no body. This is a draft design concept, but do not print that text in the image. Premium believable product photography, no stylized illustration or CGI sheen.",
+      "references": [
+        "C:\\Users\\vicke\\AppData\\Local\\Temp\\codex-clipboard-ceba54fb-f98f-4b6a-b61c-759adea39c26.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\previews\\out\\shop\\hoodie-5161--logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\logo-light.png"
+      ],
+      "selectedOutput": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-bc6cee31-45ee-4a64-98bc-c91f6f0ee14b.png",
+      "revisionPrompt": "Use case: precise-object-edit. Edit this exact product photograph with ONLY one change: make the OFF SHFT embroidered chest logo 60 percent of its present width and height, keeping its centre in exactly the same position on the wearer's left chest (viewer right). It must look tiny and restrained, a real 63 mm / 2.5 inch-wide logo on a full oversized adult hoodie, about one tenth of torso width. Preserve all letterforms, spacing, Ink and Rust colours, the clock hands at 12 and 5, and pivot dot. Keep everything else absolutely unchanged: Bone hooded garment, lined hood with no drawcord, complete garment, kangaroo pocket, ribs, natural folds, square framing, ivory studio background and upper-left daylight. Do not add anything.",
+      "initialOutput": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-acba454e-7dbb-4368-bea8-dc57a1f00537.png",
+      "file": "images/hoodie-logo.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "status": "draft AI product concept; visually inspected",
+      "inspection": "OFF SHFT wording and two-colour clock detail present on wearer-left chest; complete garment; logo is restrained in scale."
+    },
+    {
+      "key": "hoodie-clock",
+      "prompt": "Use case: precise-object-edit. Image 1 is the finished product-photo base; change ONLY its chest branding. Remove the OFF SHFT wordmark completely and replace it with the standalone clock symbol from image 2, embroidered on exactly the same wearer's LEFT chest position (viewer RIGHT). Image 3 is only the technical placement guide, not an image style to copy. The clock is tiny: total top-to-bottom height represents 25 mm (one inch), and must be only 40 percent of the WIDTH of the existing wordmark in image 1. Preserve source geometry: Ink #1F2733 thick O ring; Rust #B4552D central pivot dot; one detached Rust minute hand straight up at 12 o'clock and one detached Rust hour hand diagonally down-right at 5 o'clock, NOT straight down at 6; narrow open gaps between ring and hands. No letters anywhere on garment. Keep absolutely everything else from image 1: full Bone ivory AS Colour 5161-style oversized hoodie, dropped shoulder seams, lined hood with no drawcord or eyelets, kangaroo pocket, ribbed cuffs and hem, cotton texture, same folds and orientation, warm ivory studio surface, square whole-garment overhead framing, soft upper-left light and shadows. No added props, labels, packaging, diagrams, inset circles, captions or watermark.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\hoodie-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\symbol-light.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\previews\\out\\shop\\hoodie-5161--clock.png"
+      ],
+      "selectedOutput": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-a02e225e-9d42-4af3-b3fd-99d2f292c749.png",
+      "initialOutput": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-d2a4abbd-dc79-4d94-9c19-83572ba49081.png",
+      "revisionPrompt": "Use case: precise-object-edit. Make ONLY the embroidered clock symbol HALF of its current width and HALF of its current height, keeping the centre fixed. It must be exactly 50 percent of its current size: a tiny discreet 25 mm-high chest emblem, not a large badge. Keep the clock ring, pivot dot, detached upper hand and down-right diagonal lower hand unchanged in design and colours. Preserve the entire rest of this photograph exactly: hoodie, cotton, hood, pocket, cuffs, folds, background, square crop, shadows and light. Do not change anything else.",
+      "file": "images/hoodie-clock.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "status": "draft AI product concept; visually inspected",
+      "inspection": "Standalone clock present on wearer-left chest; upper hand at12 and lower hand diagonally toward5; complete garment and restrained emblem size."
+    },
+    {
+      "key": "hoodie-punched-out",
+      "prompt": "Use case: precise-object-edit. Image 1 is the finished hoodie product photograph. Change ONLY the chest decoration: completely REMOVE the small OFF SHFT chest wordmark, leaving clean cotton there, and add the existing PUNCHED OUT. artwork from images 2 and 3 centered across the upper front. Image 2 is authoritative placement and lettering; image 3 is a closer artwork reference. One single horizontal line reading exactly PUNCHED OUT. with the final period, all uppercase, spaced wide sans-serif medium-bold letters identical in character to the references, Rust thread #B4552D. No clock symbol and no additional OFF SHFT logo. Total lettering approximately 230 mm wide, roughly 38 percent of the flat torso width; letter height only about 14 mm, so preserve the wide, low horizontal proportion of the provided existing artwork. This is the current v2 design, not a stacked or new redesign. Realistically embroidered with subtle stitch texture. Keep all other details absolutely unchanged from image 1: full Bone ivory #E4DDCB AS Colour5161-style oversized hoodie, dropped shoulders, lined hood with NO drawcord or eyelets, kangaroo pocket, ribbed cuffs/hem, cotton texture and mild folds, whole garment with margins, square overhead composition, warm ivory studio background and soft upper-left daylight. No props, captions, circle insets, annotations, packaging, hangtags, people or watermark.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\hoodie-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\previews\\out\\shop\\hoodie-5161--punched-out.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\09-punched-out\\preview-bone.png"
+      ],
+      "selectedOutput": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-2b9639d6-ed1d-40b5-9679-ec11b6f6277d.png",
+      "file": "images/hoodie-punched-out.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "status": "draft AI product concept; visually inspected",
+      "inspection": "Existing v2 single-line PUNCHED OUT. lettering, final period, Rust thread and center-front placement preserved approximately; full garment visible."
+    },
+    {
+      "key": "crewneck-logo",
+      "prompt": "Use case: product-mockup. Create ONE photorealistic square ecommerce product hero of a SINGLE Bone ivory crewneck sweatshirt, full garment visible with margin all around, front-up overhead flat lay on a warm ivory matte studio surface. Image1 is the matching collection's hoodie photograph: use its photography, background, lighting, Bone palette and tiny restrained chest-logo scale, but the subject must be a CREWNECK SWEATSHIRT. Image2 is the authoritative crewneck silhouette and placement guide. Image3 is the authoritative OFF SHFT logo artwork. Crewneck is Comfort Colors1466-inspired relaxed lightweight cotton-fleece sweatshirt: round ribbed crew neckline, ribbed cuffs and lower hem, relaxed dropped-shoulder-like fit, soft naturally draped long sleeves, believable smooth cotton face with fine knit grain, slight garment-dyed variation and subtle stitching. Absolutely NO hood, NO drawstrings, NO kangaroo pocket, NO front pocket. Bone concept fabric #E4DDCB. Sleeves angle naturally down/out, with both cuffs and entire hem inside frame. Warm soft directional daylight upper left and restrained real shadows. A tiny OFF SHFT embroidered logo on the wearer's LEFT chest (viewer RIGHT), 63mm wide or only about 10 percent of torso width; use exactly the small proportional scale visible in image1, not a larger logo. Ink letters/ring #1F2733 with Rust #B4552D clock hands and pivot dot. Text OFF SHFT exactly, no I in SHFT. Clock hand at12 straight up and at5 diagonally down-right, not straight down at6. Tiny open gaps between ring and hands. Subtle embroidery texture. No props, no tags, no packaging, no labels, no circles, no diagrams, no external text, no watermark, no person. Full single garment, square image, quiet believable premium product photograph.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\hoodie-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\previews\\out\\shop\\crew-1466--logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\logo-light.png"
+      ],
+      "selectedOutput": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-33aa2e91-e421-407b-915e-15d18028f30b.png",
+      "file": "images/crewneck-logo.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "status": "draft AI product concept; visually inspected",
+      "inspection": "OFF SHFT wording and two-colour clock detail present on wearer-left chest; complete garment; logo is restrained in scale."
+    },
+    {
+      "key": "crewneck-clock",
+      "prompt": "Use case: precise-object-edit. Edit ONLY the chest decoration of image1, the crewneck sweatshirt photo. Remove its OFF SHFT wordmark and replace it with the same TINY embroidered standalone clock emblem and the SAME TINY SCALE shown on the hoodie in image2. Image3 is the exact emblem artwork. The resulting image must remain the crewneck in image1, not a hoodie. The emblem's entire height from upper hand tip to lower hand tip should be around 25mm physically, only about one twentieth of torso width (around 35px high in this image). Do not enlarge it for readability. Position its centre where the old wordmark was, on wearer-left chest/viewer-right. Ink #1F2733 O ring, Rust #B4552D central pivot and detached hands pointing straight up at12 and diagonally down-right at5; never straight down at6. No text remains on the garment. Preserve everything else from image1 exactly: round ribbed crew neck, relaxed Comfort Colors1466-inspired silhouette, no hood or pocket, Bone ivory cotton, all seams and folds, entire garment visible with margins, same square composition, ivory studio surface, warm soft upper-left light. No added objects, labels, captions, insets or watermarks.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\crewneck-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\hoodie-clock.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\symbol-light.png"
+      ],
+      "selectedOutput": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-1e1dc5d0-7cfa-4002-9406-9ef428eb6e3e.png",
+      "file": "images/crewneck-clock.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "status": "draft AI product concept; visually inspected",
+      "inspection": "Standalone clock present on wearer-left chest; upper hand at12 and lower hand diagonally toward5; complete garment and restrained emblem size."
+    },
+    {
+      "key": "crewneck-punched-out",
+      "prompt": "Use case: precise-object-edit. Image1 is the finished crewneck sweatshirt photograph. Change ONLY its chest decoration. Completely REMOVE the small OFF SHFT wordmark at wearer-left chest, and instead embroider PUNCHED OUT. in one horizontal line across the centre upper front. Image2 is the authoritative existing v2 placement design; image3 is the close lettering reference; image4 shows the same correct lettering on the matching hoodie, but do NOT turn the crewneck into a hoodie. Use exact text PUNCHED OUT. including final period, all uppercase, wide spaced medium-bold sans-serif as in the references, Rust thread #B4552D. Keep the low horizontal proportion: approx230mm total wordmark width and14mm letter height, about38 percent of torso width. Do not stack it, change font style, add a clock, or add another logo. Subtle believable embroidery stitches. Preserve the rest of image1 precisely: Comfort Colors1466-inspired relaxed Bone ivory crewneck, ribbed round neck, cuffs and hem, no hood, no pockets, natural cotton drape and folds, full garment visible with clear margins, square overhead composition, ivory studio backdrop, soft directional upper-left daylight and subtle shadows. No props, tags, packaging, captions, diagrams, inset circles or watermark.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\crewneck-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\previews\\out\\shop\\crew-1466--punched-out.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\09-punched-out\\preview-bone.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\hoodie-punched-out.png"
+      ],
+      "selectedOutput": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-1f00b37d-870d-4618-a064-664355afd0af.png",
+      "file": "images/crewneck-punched-out.png",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "status": "draft AI product concept; visually inspected",
+      "inspection": "Existing v2 single-line PUNCHED OUT. lettering, final period, Rust thread and center-front placement preserved approximately; full garment visible."
+    }
+  ]
+}
