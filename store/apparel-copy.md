@@ -7,6 +7,7 @@ This file lists every change to the store copy and structure, with the new words
 ## Read first
 
 - **Garment facts wait for the garment research.** Blanks, fabric, weight, sizes, fit, care, shrinkage, print or embroidery, and production and shipping times are all [CONFIRM].
+- **Since this was written.** store/apparel-plan.md fills in those facts for a Bella + Canvas set, and store/research/comfort-colors.md has the first facts on the Comfort Colors bases the owner picked (store/picks.md). The owner wants everything embroidered where Printful allows it, so read "embroidered or printed" below as embroidered unless a blank can't take it. The picks also include two tees. No product type, collection rule or line here covers tees yet (owner decision 3).
 - **Name only what's on sale.** A line that says hoodies, crewnecks or sweats goes live with the first of them, not before. If crewnecks or sweats aren't in the launch, cut them from every line here. The "When" column in part 2 says which lines can change now.
 - **Check the name in clothing first** (owner decision 1). FIGS, Inc. has a US filing for OFF-SHIFT. LAUNCH_PLAN.md records the go-ahead on it as a scrubs filing. Search results, not yet confirmed, say it covers clothing too, loungewear included, and show FIGS selling "Off-Shift" hoodies. The go-ahead was given for hats. Hoodies and sweats may sit much closer to what FIGS sells under that name.
 - **The About page is live.** Changing it, the draft theme, the menus or the collections is a store change, so the owner approves it.
@@ -519,7 +520,7 @@ New:
 
 > ## Design rules for garments
 >
-> - **One mark on the front, small, on the left chest.** The lockup at hat-front size: cap 7 mm and 62.6 mm wide, the smallest size that keeps the pivot dot. Or the symbol, at least 19 mm tall in two colours. Both from `designs/mark/final/the-o/notes.md`. [CONFIRM: the left-chest area the partner offers on each blank]
+> - **One mark on the front, small, on the left chest.** The lockup at hat-front size: cap 7 mm and 62.6 mm wide, the smallest size that keeps the pivot dot. Or the symbol, at least 19 mm tall in two colours (20.5 mm in one). Both from `designs/mark/final/the-o/notes.md`. [CONFIRM: the left-chest area the partner offers on each blank]
 > - **At most one second mark:** the symbol, on the sleeve near the cuff, the back of the neck or the upper left leg of the sweats. Under 19 mm, use the side master (8.4 × 16.6 mm), never a scaled-down symbol (notes.md).
 > - **No big prints.** Nothing across the chest or the back. Nothing on the hood, the pocket or the seat.
 > - **Hobby designs:** icon and label at about hat-front size, on the left chest. The logo moves to the sleeve or the back of the neck.
@@ -569,7 +570,7 @@ New:
 > | Oversized crewneck | The same as the hoodie | [CONFIRM] |
 > | Sweatpants or joggers | The symbol on the leg | [CONFIRM] |
 >
-> [CONFIRM: which of these launch (owner)] Call each style what the blank really is: joggers if the legs are cuffed, sweatpants if not. [CONFIRM: cuffed or open hem]
+> [CONFIRM: which of these launch (owner)] Call each style what its maker calls it, sweatpants or joggers, so the name matches the partner's page. [CONFIRM: the maker's name for the chosen blank]
 
 **Lines 27–32 (Margin math)**
 
@@ -586,7 +587,7 @@ New:
 > |---|---|---|
 > | Retail price | $34.99 CAD | [CONFIRM] |
 > | Partner base cost (item + decoration) | ~$18–24 CAD (check current catalog) | [CONFIRM: from the garment research] |
-> | Payment fees (~3%) | ~$1.05 | ~3% of the price |
+> | Payment fees (~3%) | ~$1.05 | 2.8% + 30¢, or 3.5% + 30¢ on US and Amex cards (store/research/shopify-setup.md) |
 > | **Gross profit per item, before ads** | **~$10–16 CAD** | [CONFIRM] |
 
 **Line 34**
@@ -635,11 +636,12 @@ New:
 1. **The name, in clothing.** LAUNCH_PLAN.md records the go-ahead after hearing about FIGS, Inc.'s US filing for OFF-SHIFT (serial 97169167) as surgical scrubs, class 10. Search results give more:
    - Two search summaries of the Justia record list class 25 clothing as well. Both name t-shirts and pajamas; one also names hats and loungewear. A third lists only the scrubs (https://trademarks.justia.com/971/69/off-97169167.html).
    - One listing gives a registration number, 7057032 (https://trea.com/organization/figs-inc/4de6942e-c988-41c5-9721-14c5d6a96c1c). An older snapshot shows a new application.
-   - Search results show FIGS products named "Off-Shift Hoodie Sweatshirt" and "Off-Shift Logo Crewneck Sweatshirt" (https://thingtesting.com/brands/figs/products/6901861), and a finance site that describes FIGS's lounge wear as made for off-shift time (https://www.hl.co.uk/shares/shares-search-results/f/figs-inc-usd0.0001-bmxxbd9/company-information). Some of the product listings come from an unofficial copy of FIGS's store, and FIGS's own site wasn't checked.
+   - Search results show FIGS products named "Off-Shift Hoodie Sweatshirt" and "Off-Shift Logo Crewneck Sweatshirt" (https://thingtesting.com/brands/figs/products/6901861), and a finance site that describes FIGS's lounge wear as made for off-shift time (https://www.hl.co.uk/shares/shares-search-results/f/figs-inc-usd0.0001-bmxxbd9/company-information). Some of the product listings come from an unofficial copy of FIGS's store, and FIGS's own site wasn't checked. store/apparel-plan.md's "OFF SHFT Logo Crewneck" would sit very close to that second name.
+   - Searched again in review: the results may tie the class 25 goods above to FIGS's ON-SHIFT filing of the same day (serial 97169159), not to OFF-SHIFT. They also show a FIGS ON-SHIFT INSIDE filing (serial 97169181) in class 25 (https://trademarks.justia.com/971/69/on-97169159.html, https://trademarks.justia.com/971/69/on-shift-97169181.html). So the OFF-SHIFT goods list is still open, and FIGS has filed other SHIFT names for clothing.
 
-   None of these pages could be opened from here. [CONFIRM: classes, goods and status on the USPTO record (https://tsdr.uspto.gov/#caseNumber=97169167&caseType=SERIAL_NO&searchType=statusSearch), and a CIPO search for Canada] Hoodies and sweats for shift workers may sit much closer to that than hats did. Ask a trademark lawyer before any OFF SHFT garment goes on sale. This isn't legal advice.
+   None of these pages could be opened from here. [CONFIRM: classes, goods and status on the USPTO record (https://tsdr.uspto.gov/#caseNumber=97169167&caseType=SERIAL_NO&searchType=statusSearch), and a CIPO search for Canada] Hoodies and sweats for shift workers may sit much closer to that than hats did. If the record lists hats in class 25, the hat go-ahead needs the same check. Ask a trademark lawyer before any OFF SHFT garment goes on sale. This isn't legal advice.
 2. **The headline:** "For the hours you earned." (the pick), or one of the other two. Then a trademark search on the line.
-3. **The launch lineup:** hoodie, crewneck and sweats. Which ones launch? The copy names only what's on sale.
+3. **The launch lineup:** hoodie, crewneck and sweats, and the two tees in store/picks.md. Which ones launch? The copy names only what's on sale. Tees would need a product type, a collection and their own lines.
 4. **The name of the garment section:** Lounge (the pick), or Sweats.
 5. **Size swaps for clothing:** keep "no returns or exchanges", or swap sizes at the store's cost, and on what terms.
 6. **Hobby collections:** take garments too (the pick; the copy is ready), or stay hats only.

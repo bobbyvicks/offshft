@@ -10,10 +10,10 @@ How it was checked: most facts come from store/research/apparel.md and its sourc
 
 ## Read first
 
-- **The owner has since picked other bases.** This plan was asked for on the research's recommendation: Bella + Canvas 4719, 4737 and 4711. While it was being written, the owner picked the AS Colour 5161 hoodie ("for sure"), the Comfort Colors 1567 and 1467 hoodies, the Comfort Colors 1469 sweatpants and the Comfort Colors 1466 crewneck, and asked for everything to be embroidered. The 4711 was shown and not picked (store/picks.md).
-  - Carries over to the owner's picks: the decoration (logo sizes, placements, thread colourways, the floor checks), the pricing method, the free-shipping flag, the listing structure and the render script.
-  - Has to be redone for them: blank facts, colours, prices, placements and size charts. The research has none of these for the 1467, 1469 and 1466 yet. Whether Printful embroiders each Comfort Colors item, and where, is being checked (store/picks.md).
-  - Known now: the Comfort Colors 1567 lists embroidery on the large front, centre chest and left chest, with no wrist [37]. On that hoodie the wrist symbol needs another spot. [CONFIRM: the 1567's placements] The AS Colour 5161 lists at US$38.97 [36] [CONFIRM: currency] and the 1567 at US$40.75 [37]. At C$89.99 they'd make about C$31.83 and C$29.30 on a Canadian card, before any second placement (arithmetic). So the hoodie price still works.
+- **The owner has since picked other bases.** This plan was asked for on the research's recommendation: Bella + Canvas 4719, 4737 and 4711. While it was being written, the owner picked the AS Colour 5161 hoodie ("for sure"), the Comfort Colors 1567 and 1467 hoodies, the Comfort Colors 1469 sweatpants, the Comfort Colors 1466 crewneck and two Comfort Colors tees (the 1717 and the 6030 pocket tee), and asked for everything to be embroidered. The 4711 was shown and not picked (store/picks.md). Tees aren't in this plan.
+  - Carries over to the owner's picks: the decoration (logo sizes, the left-chest logo, thread colourways, the floor checks), the pricing method, the free-shipping flag, the listing structure and the render script.
+  - Has to be redone for them: blank facts, colours, prices, Printful's placements, size charts, and the listing words "heavy" and "oversized". store/research/comfort-colors.md has the first Comfort Colors facts. No wrist, hood or leg placement was found on any of them, so the wrist and leg symbols may not carry over. The 1466, 1467 and 1469 are 6.4 oz lightweight fleece by the maker's sheets, and the Comfort Colors tops are listed as relaxed fits, not oversized.
+  - Known now: the Comfort Colors 1567 lists embroidery on the large front, centre chest and left chest, with no wrist [37]. On that hoodie the wrist symbol needs another spot. [CONFIRM: the 1567's placements] The AS Colour 5161 lists at US$38.97 [36] [CONFIRM: currency] and the 1567 at US$39.95–40.75, depending on the snapshot [37] (store/research/comfort-colors.md). At C$89.99 they'd make about C$31.83 and C$29.30–30.44 on a Canadian card, before any second placement (arithmetic). So the hoodie price still works.
 - **The name, in clothing, comes first.** FIGS, Inc.'s OFF-SHIFT filing may cover clothing, loungewear included. The go-ahead in LAUNCH_PLAN.md was given for hats. store/apparel-copy.md (owner decision 1) has the details and says to ask a trademark lawyer before any OFF SHFT garment goes on sale.
 - **Copy and store structure for clothes** (collections, menus, FAQ, Size & fit text, the brand line) are proposed in store/apparel-copy.md. This plan follows its patterns and doesn't repeat them.
 
@@ -23,7 +23,7 @@ How it was checked: most facts come from store/research/apparel.md and its sourc
 - **Quiet, like the hats.** The logo embroidered small on the left chest: 62.6 mm wide, the same size as the hat front. The clock symbol, 25 mm tall, on the left wrist (where a watch would sit) and on the left leg. No back prints.
 - **Colours:** Bone, Spruce and Navy. The sweatpants come in Bone and Navy only.
 - **Prices:** hoodie C$89.99, sweatpants C$79.99, crewneck C$79.99. Profit per item before shipping: C$24.02 to C$30.11 (arithmetic).
-- **Flag:** a 4XL hoodie with free shipping to the US makes C$11.32, under the C$15 hoodie line. With free shipping in Canada it can't be checked yet: there's no Canada rate. Charging shipping on clothes fixes both.
+- **Flags:** a 4XL hoodie with free shipping to the US makes C$8.48, under the C$15 hoodie line this plan proposes (PRODUCTS.md only sets C$10, for hats). With free shipping in Canada it can't be checked yet: there's no Canada rate. Charging shipping on clothes fixes both. A 4XL made in Ontario makes C$13.06 even with shipping paid, while the store isn't registered for GST/HST (section 2).
 - **To start (owner approves the spending):** digitizing, about US$21.85. One sample order of three pieces, about US$90.81 plus shipping.
 - **Renders:** `store/apparel/sheet.png` shows every decoration at true size on its colour.
 
@@ -96,7 +96,7 @@ Each piece carries one small embroidered mark. The chest gets the full logo, the
 - Gaps: the channel between ring and hands is 1.0 mm in the lockup and 1.2 mm in the symbol. The S openings are 1.0 mm (notes.md). Printful may join shapes closer than 3 mm with connecting stitches [9]. The sample decides. This is fleece, not hat twill, so check those gaps closely.
 - The side-of-hat master isn't used. It's only for spaces under 19 mm (notes.md), and every placement here has room for the full symbol.
 - The 5.2 mm shift in notes.md is for the centre seam on 6-panel caps. It doesn't apply here.
-- If the 62.6 mm chest logo looks too small on the oversized cut, cap 7.5 is 67.1 × 19.3 mm (measured) and has a proof in the-o/ (logo-light-cap7.5.svg). It would be digitized as its own size.
+- If the 62.6 mm chest logo looks too small on the oversized cut, cap 7.5 is 67.1 × 19.3 mm (measured) and has a light proof in the-o/ (logo-light-cap7.5.svg). The dark one would be built first. It would be digitized as its own size.
 
 ### Not in this drop
 
@@ -121,7 +121,7 @@ All in Canadian dollars unless marked. US$ to C$ at 1.42 [35]. [CONFIRM: the Ban
 | Card fee, US or Amex card: 3.5% + 30¢ [23] | 3.45 | 3.10 | 3.10 |
 | **Profit, US or Amex card** | **29.48** | **24.02** | **25.63** |
 
-- Printful's listed prices say "one print included" [1][2][3]. [CONFIRM: each price with Embroidery selected, for each size.] The sweatpants list at US$36.50–37.23 [3]; the table uses the higher figure. Their EU page includes one embroidery placement [3].
+- Printful's listed prices say "one print included" [1][2][3]. [CONFIRM: each price with Embroidery selected, for each size.] Search results show the sweatpants' US$37.23 on the DTFlex (printed) version [3], so the embroidered price may differ. The sweatpants list at US$36.50–37.23 [3]; the table uses the higher figure. Their EU page includes one embroidery placement [3].
 - The lowest price that keeps C$10 profit (PRODUCTS.md's floor) on a US card: hoodie C$69.80, sweatpants C$65.46, crewneck C$63.79 (arithmetic).
 - One price for all sizes. The owner may prefer to charge more for 2XL and up (see below).
 - If Printful bills in CAD, its prices run about 4% above this exchange rate (apparel.md). That takes C$2.05–2.28 off each profit (arithmetic).
@@ -131,33 +131,34 @@ All in Canadian dollars unless marked. US$ to C$ at 1.42 [35]. [CONFIRM: the Ban
 
 | Take off | Hoodie | Sweatpants | Crewneck |
 |---|---|---|---|
-| Biggest size. Printful adds US$2.00 per size step from 2XL up on its free plan, and says a 4XL carries it twice [12]: up to US$4.00 | 5.68 | 5.68 | 5.68 |
-| 13% HST on Printful's bill, for an order made in Ontario and sent to Ontario, while the store isn't registered for GST/HST [19][27][28] | 7.42 (8.16 at 4XL) | 6.87 (7.61 at 3XL) | 6.66 (7.40 at 4XL) |
-| Free shipping to the US. Printful charges from US$8.79 for the hoodie [1] and US$8.49–8.79 for the sweatpants, depending on the page [3]. The table uses US$8.79. | 12.48 | 12.48 | [CONFIRM: rate] |
+| Biggest size. On its free plan Printful adds US$2.00 at 2XL and the same again at each size up [12] (search results quoting it): US$4.00 on a 3XL, US$6.00 on a 4XL | 8.52 (4XL) | 5.68 (3XL) | 8.52 (4XL) |
+| 13% HST on Printful's bill, for an order made in Ontario and sent to Ontario, while the store isn't registered for GST/HST [19][27][28] | 7.42 (8.53 at 4XL) | 6.87 (7.61 at 3XL) | 6.66 (7.77 at 4XL) |
+| Free shipping to the US. Printful charges from US$8.79 for the hoodie [1] and US$8.49–8.79 for the sweatpants, depending on the page [3] [CONFIRM: the research's US$8.79 jogger rate is the Jerzees 975MPR's, not the 4737's]. The table uses US$8.79. | 12.48 | 12.48 | [CONFIRM: rate] |
 | Free shipping in Canada | [CONFIRM: no rate found] | [CONFIRM] | [CONFIRM] |
 | US buyer paying in USD, with a manual exchange rate: 2% [24][25]. With the automatic rate the 2% is built into the USD price instead. | 1.80 | 1.60 | 1.60 |
 | Unlimited colour thread, if chosen: US$3.50 [5] | 4.97 | 4.97 | 4.97 |
 
-[CONFIRM: how the 2XL+ markup stacks for each size, in Printful's product editor. If each size adds a step, a 4XL costs US$6.00 more, another C$2.84.] HST rates run from 5% to 15% depending on the province the order goes to [27]. Printful only charges it on orders made and shipped in Canada [19].
+[CONFIRM: the 2XL+ price of each size, in Printful's product editor. An earlier search read the 4XL as carrying the markup twice, US$4.00. If that's right, add C$2.84 back to each 4XL profit below.] GST/HST runs from 5% to 15% depending on the province the order goes to [27]. Printful only charges it on orders made and shipped in Canada [19].
 
 ### Hoodies under C$15
 
 | Hoodie | Profit | Under C$15? |
 |---|---|---|
 | XS–XL, buyer pays shipping | 29.48–30.11 | No |
-| 4XL, buyer pays shipping | 23.80–24.43 | No |
+| 4XL, buyer pays shipping | 20.96–21.59 | No |
 | XS–XL, made in Ontario, 13% HST, Canadian card | 22.69 | No |
-| 4XL, made in Ontario, 13% HST, Canadian card | 16.27 | No, but close |
+| **4XL, made in Ontario, 13% HST, Canadian card** | **13.06** | **Yes. FLAG** |
 | XS–XL, free shipping to the US | 17.00 | No, but close |
-| **4XL, free shipping to the US** | **11.32** | **Yes. FLAG** |
+| **4XL, free shipping to the US** | **8.48** | **Yes. FLAG** |
 | **Any size, free shipping in Canada** | **Unknown** | **FLAG: can't be checked without a Canada rate.** On an Ontario-made order, each C$1.00 of shipping costs C$1.13 with HST (arithmetic). |
 
-What fixes both flags:
+What fixes the flags:
 
 - **Charge shipping on clothes**, at about Printful's cost. Or set any free-shipping line high enough that one hoodie doesn't reach it. PRODUCTS.md floats free shipping over $75. Every hoodie, crewneck and pair of sweatpants clears $75 on its own, so each would ship free.
-- Or price the 2XL–4XL hoodie at C$94.99. A 4XL with free US shipping needs C$93.80 to keep C$15 (arithmetic).
+- **The Ontario 4XL** stays under C$15 even with shipping paid. A GST/HST number (decision 10) or a higher price for 2XL and up fixes it. It needs about C$92 to keep C$15 (arithmetic).
+- Or price the 2XL–4XL hoodie higher. A 4XL with free US shipping needs C$96.75 to keep C$15 (arithmetic).
 
-Free shipping would also hurt the other two. A 3XL pair of sweatpants shipped free to the US makes C$5.86, under PRODUCTS.md's C$10 floor (arithmetic).
+Free shipping would also hurt the other two. A 3XL pair of sweatpants shipped free to the US makes C$5.86, under PRODUCTS.md's C$10 floor (arithmetic). A 4XL crewneck made in Ontario makes C$9.90 with the HST, even with shipping paid (arithmetic).
 
 ### One-time costs (the owner approves each)
 
@@ -395,7 +396,7 @@ Which size? See [Size & fit](/pages/size-fit).
 - [ ] The wrist and leg areas checked in each product's File guidelines tab.
 - [ ] The sample passed: stitching (notes.md sew-out rules), shade match and fit.
 - [ ] Every CONFIRM placeholder in the listing filled.
-- [ ] The price clears C$15 profit (hoodie) or C$10 (the others) after fees, with the shipping setting the owner picked.
+- [ ] The price clears the owner's profit floor in every size (proposed: C$15 for the hoodie, C$10 for the others) after fees, with the shipping setting the owner picked.
 - [ ] The owner publishes it.
 
 ## 4. Size & fit
@@ -435,7 +436,7 @@ Notes
 - Printful's own size guide may differ. [CONFIRM: open the Size guide tab on each Printful product page [1][2][3] and use its numbers if they differ]
 - Measuring points: the 4711 sheet measures length from the high point of the shoulder to the hem [30], as store/apparel-copy.md's steps do. [CONFIRM: the same on the 4719 sheet, and that chest is measured straight across]
 - The sweatpants waist is listed as "waist, relaxed" [32]. These numbers are the waist laid flat, not all the way round: a 15 in waist couldn't fit an adult. [CONFIRM on the spec sheet]
-- For the fit lines in store/apparel-copy.md: the 4719 and 4711 are cut oversized by name [1][2], and reviewers say the 4711 runs very large and women size down [2]. Fill its "size down" placeholder only after trying the samples.
+- For the fit lines in store/apparel-copy.md: the 4719 and 4711 are cut oversized by name [1][2], and reviewers say the 4711 runs very large and women size down [2]. Fill its "size down" placeholder only after trying the samples. The 4737 sweatpants are relaxed, not oversized [3]. So the lines there that call the clothes oversized or cut big name only the hoodie and crewneck, and Lounge drops "Oversized" (its Check line).
 - The charts are for these blanks only. The owner's picks (Read first) need their own.
 - Spec sheets, for checking: [29] 4719, [30] 4711, [31] 4737, [32] 4737 measurements, [33] Printify's 4737 size guide.
 
@@ -469,15 +470,15 @@ store/apparel-copy.md lists every copy and structure change clothes need, with t
 ## Owner decisions
 
 1. The name in clothing, with a trademark lawyer, before any garment goes on sale (store/apparel-copy.md, owner decision 1).
-2. Which blanks: this plan's Bella + Canvas set, or the owner's picks in store/picks.md. If the picks, this plan's blank facts, prices, colours, charts and renders are redone for them once the Comfort Colors check finishes.
-3. The look: the logo on the left chest at hat-front size, and the clock symbol on the left wrist and leg (proposed).
+2. Which blanks: this plan's Bella + Canvas set, or the owner's picks in store/picks.md. If the picks, this plan's blank facts, prices, colours, charts and renders are redone for them from store/research/comfort-colors.md, once its open gaps are checked.
+3. The look: the logo on the left chest at hat-front size, and the clock symbol on the left wrist and leg (proposed). No wrist or leg spot was found on the Comfort Colors picks.
 4. Leg symbol: 25 mm (proposed) or 40 mm.
 5. Colours: Bone, Spruce and Navy (sweatpants: Bone and Navy), after a swatch check.
-6. Prices: C$89.99, C$79.99, C$79.99. One price for every size, or more for 2XL and up.
-7. Shipping on clothes: charge it (proposed), or a free-shipping line one piece can't reach. This settles the hoodie flags.
+6. Prices: C$89.99, C$79.99, C$79.99. One price for every size, or more for 2XL and up. And the profit floor for clothes: this plan uses C$15 for the hoodie and C$10 for the rest. PRODUCTS.md only sets C$10, for hats.
+7. Shipping on clothes: charge it (proposed), or a free-shipping line one piece can't reach. This settles the free-shipping flags.
 8. Threads: Printful's standard threads, or unlimited colour at +US$3.50 a piece.
 9. Spending: digitizing (about US$21.85) and one sample order (about US$90.81 plus shipping).
-10. GST/HST: register or not, with an accountant. It decides whether HST on Ontario-made orders is a cost.
+10. GST/HST: register or not, with an accountant. It decides whether HST on Ontario-made orders is a cost, and with it the Ontario 4XL flag.
 
 Size swaps, the brand line, the collections and the menus are decisions in store/apparel-copy.md.
 

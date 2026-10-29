@@ -1,6 +1,6 @@
 # Apparel: oversized hoodies and sweats
 
-Research for OFF SHFT, 29 October 2026. This is a recommendation; the owner decides. Nothing here spends money or changes the store.
+Research for OFF SHFT, 29 October 2026. This is a recommendation; the owner decides. Nothing here spends money or changes the store. Since then the owner has picked other bases (store/picks.md). store/research/comfort-colors.md covers the Comfort Colors ones, and store/apparel-plan.md (Read first) says what carries over.
 
 How this was checked: printful.com and printify.com could not be opened from this session (network block). Every partner figure below comes from search results that quote the pages under Sources, and some of those snapshots may be old. Prices are in US dollars as listed, unless marked € or C$. CAD estimates use C$1.42 per US$1 (exchange-rates.org, 1 October 2026 [62]); a converter showed about 1.40 on 25 October 2026 [63]. [CONFIRM: the Bank of Canada rate on the day you price.] Printful's own CAD prices run about 4% above this rate: its digitizing fee is US$6.50 or C$9.60 (pod-partner.md).
 
@@ -26,15 +26,15 @@ Why these:
 
 Other costs:
 
-- **Digitizing:** US$6.50 (C$9.60) per new design [19]. Three designs (chest lockup, wrist symbol, leg symbol) = US$19.50 (C$28.80 at Printful's CAD price). notes.md says to digitize each size on its own. [CONFIRM: whether the hoodie and crewneck share one file, and whether a hat file can move over for the US$2.95 adjustment fee [19].]
+- **Digitizing:** US$6.50 (C$9.60) per new design [19]. Three designs (chest lockup, wrist symbol, leg symbol) = US$19.50 (C$28.80 at Printful's CAD price). notes.md says to digitize each size on its own. [CONFIRM: whether the hoodie and crewneck share one file, and whether a hat file can move over for the US$2.95 adjustment fee [19].] store/apparel-plan.md counts two designs plus three re-use fees instead: US$21.85.
 - **Shipping:** US from US$8.79 a hoodie [1]. [CONFIRM: extra items, and the Canada rate; no official hoodie rate was found.]
-- **HST:** Printful adds GST/HST to orders made and shipped in Canada [33]. Without a GST/HST number that is a cost: Ontario's 13% is C$6.87 on a hoodie (arithmetic).
+- **HST:** Printful adds GST/HST to orders made and shipped in Canada [33]. Without a GST/HST number that is a cost: Ontario's 13% is C$6.87 on a hoodie, or C$7.42 with the wrist symbol (arithmetic).
 - **Price floor** (PRODUCTS.md: C$10 profit after card fees): about C$70 for the hoodie and C$64 for the crewneck (each with the wrist symbol), and C$66 for the sweatpants. That is before shipping and HST (arithmetic at 3.5% + 30¢, shopify-setup.md).
 
-Before launch (spending needs the owner's approval):
+Before launch (spending needs the owner's approval; the name in clothing comes first, store/apparel-copy.md, owner decision 1):
 
 1. In Printful's catalog, set the region to Canada and open each blank's Availability tab [27]. Note whether it is made in Ontario, and Printful's own colour and size lists. [CONFIRM]
-2. One sample order: Dust hoodie, Dust sweatpants, Forest crewneck. At 20% off that is US$86.09 (C$122.25), before digitizing and shipping [31] (arithmetic).
+2. One sample order: Dust hoodie, Dust sweatpants, Forest crewneck. At 20% off that is US$90.81 (C$128.95) with the wrist symbols, or US$86.09 (C$122.25) without, before digitizing and shipping [31] (arithmetic).
 3. On the samples, check the stitching (the sew-out checks in notes.md), the shade match and the fit. Reviewers say the 4711 runs very large [2].
 4. Listings: copy the fabric line from Printful on the day. The maker is moving the 4719 from 60/40 to 65/35 cotton/poly [54]. Never say "made in Canada": the 4719 blank comes from Nicaragua [1].
 
@@ -43,7 +43,7 @@ Later, not first: fleece shorts for spring (Independent Trading IND20SRT [15]). 
 **Why Printful, not Printify, for apparel:**
 
 - Printful has this matched oversized set with embroidery. On Printify the 4737 shows print only [40], and no 4719 or 4711 listing was found.
-- Printful's Ontario shop was set up for embroidered apparel [25], and its Canadian pages say embroidered apparel is made in Canada [29]. No Canadian Printify shop was found that embroiders hoodies. SinaLite, in Canada, lists hoodies, but its embroidery isn't confirmed [43].
+- Printful's 2020 announcement said its Ontario shop would embroider apparel [25], and its Canadian pages say embroidered apparel is made in Canada [29]. No Canadian Printify shop was found that embroiders hoodies. SinaLite, in Canada, lists hoodies, but its embroidery isn't confirmed [43].
 - Printify can be cheaper with Premium (Lane Seven LS19001 from US$23.42 [35]) and digitizes free [45]. But the oversized hoodie found there lists print [34], and its cheapest embroidered hoodie is the Gildan 18500 [37], a regular hoodie, not an oversized one.
 
 ## Colours (fabric)
@@ -102,7 +102,7 @@ Maker colour lists: 4719 and 4711 come in Asphalt, Athletic Heather, Black, Dust
 
 | Blank | Fit and fabric | Listed price | Embroidery | Colours, sizes | Notes |
 |---|---|---|---|---|---|
-| **Printful** Independent Trading IND20SRT Men's Fleece Shorts [15] | Relaxed. 80/20, 8.5 oz (280 g/m²). Back pocket, angled side pockets | US$26.47; US shipping from US$8.29 | Yes [15] | XS–2XL [58]. Maker: black, grey heather, white, red, camo [59] | Men's cut. Suits spring and summer lounging, not this winter |
+| **Printful** Independent Trading IND20SRT Men's Fleece Shorts [15] | Relaxed. 80/20, 8.5 oz (280 g/m²) [CONFIRM: 8.5 oz/yd² works out to about 288 g/m²]. Back pocket, angled side pockets | US$26.47; US shipping from US$8.29 | Yes [15] | XS–2XL [58]. Maker: black, grey heather, white, red, camo [59] | Men's cut. Suits spring and summer lounging, not this winter |
 
 Printify shorts were not checked.
 
