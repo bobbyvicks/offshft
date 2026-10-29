@@ -633,7 +633,7 @@ New:
 
 ## Owner decisions
 
-1. **The name, in clothing.** LAUNCH_PLAN.md records the go-ahead after hearing about FIGS, Inc.'s US filing for OFF-SHIFT (serial 97169167) as surgical scrubs, class 10. Search results give more:
+1. **The name, in clothing.** Decided 29 Oct 2026: the owner checked the USPTO record and chose to go ahead (LAUNCH_PLAN.md). The research behind the question: LAUNCH_PLAN.md records the go-ahead after hearing about FIGS, Inc.'s US filing for OFF-SHIFT (serial 97169167) as surgical scrubs, class 10. Search results give more:
    - Two search summaries of the Justia record list class 25 clothing as well. Both name t-shirts and pajamas; one also names hats and loungewear. A third lists only the scrubs (https://trademarks.justia.com/971/69/off-97169167.html).
    - One listing gives a registration number, 7057032 (https://trea.com/organization/figs-inc/4de6942e-c988-41c5-9721-14c5d6a96c1c). An older snapshot shows a new application.
    - Search results show FIGS products named "Off-Shift Hoodie Sweatshirt" and "Off-Shift Logo Crewneck Sweatshirt" (https://thingtesting.com/brands/figs/products/6901861), and a finance site that describes FIGS's lounge wear as made for off-shift time (https://www.hl.co.uk/shares/shares-search-results/f/figs-inc-usd0.0001-bmxxbd9/company-information). Some of the product listings come from an unofficial copy of FIGS's store, and FIGS's own site wasn't checked. store/apparel-plan.md's "OFF SHFT Logo Crewneck" would sit very close to that second name.
