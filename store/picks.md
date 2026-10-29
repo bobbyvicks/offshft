@@ -3,29 +3,16 @@
 The blank products OFF SHFT is made on, as the owner chose them. Details (price, colours, logo areas) are checked
 against Printful and added as each check finishes; the picker page is https://claude.ai/artifact/FMZhNQB1ZEiHrvY2ebMkCa
 
-## The line-up (decided 29 Oct 2026)
+## How the line-up gets chosen
 
-The owner asked for few options. Decisions so far:
-- Hoodie: one matching garment-dyed Comfort Colors hoodie, not the AS Colour 5161.
-- Tees: keep both.
-
-| Piece | Base | Logo | Status |
-|---|---|---|---|
-| Retro trucker | Yupoong 6606, US$13.56 with the front logo | Front, moved 5.2 mm right for the centre seam | Where Printful makes it: being checked |
-| 5-panel cap | Otto Cap 31-069, US$12.56 with the front logo | Front, centred (seamless front) | An unconfirmed note says Printful makes Otto hats only in Europe. If that holds, it comes off the list |
-| Set hoodie | Comfort Colors 1467, garment-dyed lightweight fleece, US$29.95–30.55 listed | Left chest | Printful's embroidery on it isn't confirmed. If it can't be embroidered, the CC 1567 (US$39.95, embroidery confirmed, heavier 9.5 oz) takes its place |
-| Set crewneck | Comfort Colors 1466, same fabric, US$28.51 listed | Left chest (embroidery confirmed) | Reviews mixed: sample first |
-| Set sweatpants | Comfort Colors 1469, same fabric | To confirm | Embroidery likely (the owner's link had it selected) |
-| Heavyweight tee | Comfort Colors 1717, US$15.60 listed | Left chest | Embroidery confirmed |
-| Pocket tee | Comfort Colors 6030, US$19.94 listed | Clock symbol on the left sleeve | Printful can't embroider its chest or pocket |
-
-- **Dropped:** the AS Colour 5161, because the owner chose the matching Comfort Colors hoodie.
-- **Backup only:** the CC 1567.
-- **Set colours:** the 1466, 1467 and 1469 share six colours in Comfort Colors' lists: Blue Jean, Hydrangea, Ivory, Neon Violet, Peachy and Pepper. Ivory is the one near the brand's Bone. Printful's lists are to confirm.
+The owner chooses the first drop themselves from everything they sent (29 Oct 2026). Nothing is pre-selected.
+- The picker page shows all nine pieces with their facts and colours.
+- The owner taps the ones they want and their colours. Their choices save in the page's database (picks/owner).
+- Claude doesn't drop or swap pieces on the owner's behalf. It reports facts, such as where Printful embroiders a piece and where it's made.
 
 Facts and sources:
-- store/research/comfort-colors.md
-- the cap and hoodie checks (this session's workflow results)
+- store/research/comfort-colors.md: the Comfort Colors pieces
+- the cap and AS Colour hoodie checks: this session's workflow results, to be written up
 - store/research/fulfilment.md, still being written: where each piece is made, US or Canada
 
 ## Everything the owner sent
