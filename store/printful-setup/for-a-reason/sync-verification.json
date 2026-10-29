@@ -1,0 +1,164 @@
+{
+  "stage": "New hat addition complete: Online Store publication, three colour images, API puff mappings, native physical placement and Shopify routing verified. Store-wide launch gates remain.",
+  "shopifyProductId": "15478784098626",
+  "printfulProductId": 487261276,
+  "variants": [
+    {
+      "syncVariantId": 5605789837,
+      "shopifyVariantId": "67958236119362",
+      "colour": "Charcoal",
+      "supplierVariantId": 20390,
+      "synced": true,
+      "ignored": false,
+      "embroideryType": "3d",
+      "productionFileId": 1098275040,
+      "savedFileRole": "embroidery_front_large",
+      "threadOptions": {
+        "id": "thread_colors_3d_front_large",
+        "value": [
+          "#FFFFFF",
+          "#A67843"
+        ]
+      },
+      "retailCAD": "34.99",
+      "availability": "active"
+    },
+    {
+      "syncVariantId": 5605789838,
+      "shopifyVariantId": "67958236152130",
+      "colour": "Ivory",
+      "supplierVariantId": 52941,
+      "synced": true,
+      "ignored": false,
+      "embroideryType": "3d",
+      "productionFileId": 1098275128,
+      "savedFileRole": "default",
+      "threadOptions": {
+        "id": "thread_colors_3d",
+        "value": [
+          "#000000",
+          "#E25C27"
+        ]
+      },
+      "retailCAD": "34.99",
+      "availability": "active"
+    },
+    {
+      "syncVariantId": 5605789839,
+      "shopifyVariantId": "67958236184898",
+      "colour": "Evergreen",
+      "supplierVariantId": 20393,
+      "synced": true,
+      "ignored": false,
+      "embroideryType": "3d",
+      "productionFileId": 1098275040,
+      "savedFileRole": "embroidery_front_large",
+      "threadOptions": {
+        "id": "thread_colors_3d_front_large",
+        "value": [
+          "#FFFFFF",
+          "#A67843"
+        ]
+      },
+      "retailCAD": "34.99",
+      "availability": "active"
+    }
+  ],
+  "allIdentitiesAndPricesPreserved": true,
+  "note": "CCST0 front is stored as default, matching catalogue files id=default/type=embroidery_front.",
+  "shopifyUiRouting": {
+    "verifiedDate": "2026-10-29",
+    "allThreeVariantsInspected": true,
+    "locationLabel": "Printful App / Printful",
+    "supplierManagedAvailablePerVariant": 9999,
+    "shopLocationAvailable": 0,
+    "overselling": "Off",
+    "positiveQuantityEnteredManually": false,
+    "variantPhotosMatchedColours": true,
+    "notes": "Read native Shopify variant Inventory cards for each exact external variant ID. Printful supplied the displayed app stock after API sync."
+  },
+  "designerUiChecks": [
+    {
+      "colour": "Charcoal",
+      "widthInchesDisplayed": 4.61,
+      "heightInchesDisplayed": 1.88,
+      "intendedMm": [
+        117.0501,
+        47.6944
+      ],
+      "centredNativePreviewChecked": true,
+      "puffRadioSelected": true,
+      "threadNames": [
+        "1801 White",
+        "1672 Old Gold"
+      ],
+      "displayedProductionCAD": "21.20",
+      "puffSurchargeCAD": "1.95",
+      "method": "Opened each saved exact variant through Change print file; inspected Transform and Color & details without editing or republishing mockups."
+    },
+    {
+      "colour": "Ivory",
+      "widthInchesDisplayed": 4.61,
+      "heightInchesDisplayed": 1.88,
+      "intendedMm": [
+        117.0501,
+        47.6944
+      ],
+      "centredNativePreviewChecked": true,
+      "puffRadioSelected": true,
+      "threadNames": [
+        "1800 Black",
+        "1987 Orange"
+      ],
+      "displayedProductionCAD": "25.00",
+      "puffSurchargeCAD": "2.25",
+      "method": "Opened each saved exact variant through Change print file; inspected Transform and Color & details without editing or republishing mockups."
+    },
+    {
+      "colour": "Evergreen",
+      "widthInchesDisplayed": 4.61,
+      "heightInchesDisplayed": 1.88,
+      "intendedMm": [
+        117.0501,
+        47.6944
+      ],
+      "centredNativePreviewChecked": true,
+      "puffRadioSelected": true,
+      "threadNames": [
+        "1801 White",
+        "1672 Old Gold"
+      ],
+      "displayedProductionCAD": "21.20",
+      "puffSurchargeCAD": "1.95",
+      "method": "Opened each saved exact variant through Change print file; inspected Transform and Color & details without editing or republishing mockups."
+    }
+  ],
+  "productionCostsNote": "Designer quote, not a paid order: shipping, tax and first-order digitization separate. CCST0 UI puff surcharge2.25 differs from catalogue API1.95; observed designer quote governs this record.",
+  "shopifyPublication": {
+    "status": "Active",
+    "channels": [
+      "Online Store"
+    ],
+    "photos": 3,
+    "selectableColours": [
+      "Charcoal",
+      "Ivory",
+      "Evergreen"
+    ],
+    "priceEachCAD": "34.99",
+    "savedDescriptionIncludes3dPuff": true,
+    "ivoryConstructionDifferenceDisclosed": true,
+    "productId": "15478784098626",
+    "handle": "for-a-reason-hat"
+  },
+  "storeReadiness": {
+    "printfulBilling": "Set up billing still required; owner entry screen opened",
+    "billingSetupUrl": "https://admin.shopify.com/store/offshft/apps/printful/billingSetup",
+    "publicAccess": "Password protected; Opening soon",
+    "anonymousRequestedUrl": "https://k6gvbe-02.myshopify.com/products/for-a-reason-hat",
+    "observedRedirect": "https://offshft.myshopify.com/password",
+    "publicProductViewVerified": false,
+    "paidOrderPlaced": false,
+    "automaticOrderConfirmationEnabled": false
+  }
+}
