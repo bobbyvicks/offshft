@@ -43,7 +43,7 @@ Facts so far: store/research/comfort-colors.md, the cap and AS Colour hoodie che
 ## In Shopify (29 Oct 2026)
 
 All 17 listings are drafts: not on the Online Store and not for sale. Each design on each kind of piece is one listing,
-with the styles as an option, so the 34 pairings fit in 17 listings. Admin: https://admin.shopify.com/store/k6gvbe-02/products
+with the styles as an option, so the 34 pairings fit in 17 listings. Admin: https://admin.shopify.com/store/offshft/products
 
 | Listings | Styles and sizes | Price set |
 |---|---|---|
