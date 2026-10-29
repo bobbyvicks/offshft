@@ -27,7 +27,7 @@ You might. Prices and shipping don\'t include duties or import fees. Your order 
 
 ### What size should I get?
 
-Hats are one size and adjust at the back. For everything else, check the charts on [Size & fit](/pages/size-fit) or [ask us](/pages/contact).
+Hats are one size, and caps adjust at the back. For everything else, check the charts on [Size & fit](/pages/size-fit) or [ask us](/pages/contact).
 
 ### Can I return or exchange it?
 
@@ -47,7 +47,7 @@ Only before we start making it, and we can\'t always catch it in time. [Message 
 
 ### How do I wash it?
 
-Hats: hand wash or spot clean with lukewarm water and mild soap. A washing machine can bend them out of shape.
+Hats: hand wash or spot clean in cold water with mild soap. A washing machine can bend them out of shape.
 
 Clothes: wash cold and inside out with like colours, then hang to dry. Wash sweatpants on their own before you first wear them. A little dye can rub off.
 

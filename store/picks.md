@@ -83,8 +83,23 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
   owner can change: damaged/wrong/not what you ordered, message within 14 days of delivery for a replacement or
   refund, no need to send it back; lost: 15 business days after it ships; no returns for a change of mind or fit;
   duties and import fees not included; changes only before it's made.
-- New pieces on the picker page (29 Oct, not in Shopify): golf shirts (store/research/golf-shirts.md) and beanies,
-  bucket hats and quarter-zips (store/research/more-pieces.md). The owner selects there.
+- 10 more listings, added 29 Oct on the owner's "I like them add them" (ACTIVE and on the Online Store, behind the
+  password, no colours yet). Ids: store/apply/out/drop1b-ids.json. Copy: store/products/drop1b.json (claims-checked).
+  Spec and price arithmetic: store/products/drop1b-spec.json. Builder: store/apply/products-drop1b.cjs.
+  | Listings | Styles and sizes | Price set |
+  |---|---|---|
+  | Beanie: logo, clock, Punched Out. | Cuffed (Yupoong 1501KC) / Ribbed (Atlantis RIO); one size | C$34.99 / 39.99 |
+  | Bucket hat: all three | Organic (Capstone) / Classic (Big Accessories BX003); one size | C$44.99 / 39.99 |
+  | Quarter-zip: all three | Cotton Heritage M2475 fleece only; S to 3XL | C$79.99 |
+  | Golf shirt: Punched Out. | Cotton Pique (SOL'S 11362) / Classic (K500) / Performance (adidas A430); S to 3XL | C$59.99 / 59.99 / 89.99 |
+  - Golf shirt: the clock is on the left sleeve of all three for now. It moves to the Cotton Pique's upper back (what
+    the owner asked for) once Printful shows 'Large back' embroidery for Canada and the US and how close to the collar.
+  - Quarter-zip: the Lane Seven LS14014 comes back (as "Mock Neck") once Printful confirms it embroiders it.
+  - The Cotton Pique may be made only in Latvia; the Performance polo's margin is thin on a 3XL that ships free.
+  - Size & fit and the FAQ now say caps adjust and beanies and bucket hats don't; no quarter-zip or polo chart yet.
+  - Every open question per listing is in its toConfirm notes in store/products/drop1b.json.
+- Codex also added four listings on 29 Oct (5:00 Crewneck, Ours to Spend. Trucker Hat, The Rest Is Ours. Hoodie,
+  Time Well Earned. T-Shirt). Their phrases haven't had a trademark knock-out search here (AGENTS.md).
 
 ## Everything the owner sent
 

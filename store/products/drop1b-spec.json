@@ -1,0 +1,872 @@
+{
+ "spec": "drop1b: 10 new listings (3 beanies, 3 bucket hats, 3 quarter-zips, 1 golf shirt). Each design on each kind is its own listing, with the blanks as a Style option, like store/products/drop1.json.",
+ "date": "2026-10-29",
+ "file": "/tmp/claude-0/-home-user/baaa626f-827d-5693-ad14-ed0dd81cc068/scratchpad/drop1b/spec.json",
+ "generator": "/tmp/claude-0/-home-user/baaa626f-827d-5693-ad14-ed0dd81cc068/scratchpad/drop1b/build_spec.py",
+ "status": "Draft for the owner. Read-only: nothing changed in Shopify or Printful, nothing committed. Prices are placeholders the owner can change.",
+ "howToRead": "listings[key].styles[] gives each Style's blank, sizes, price and this listing's design line (designFacts, which the copy may state). styles[details] holds that Style's price arithmetic, the facts the copy may state (mayState) and must not state (mustNotState), and what to check in Printful. A Style is the same blank in every listing of its kind. src ids are in sources.",
+ "summaryPricesCAD": {
+  "beanie-logo": {"Cuffed": 34.99, "Ribbed": 39.99},
+  "beanie-clock": {"Cuffed": 34.99, "Ribbed": 39.99},
+  "beanie-punched-out": {"Cuffed": 34.99, "Ribbed": 39.99},
+  "bucket-logo": {"Organic": 44.99, "Classic": 39.99},
+  "bucket-clock": {"Organic": 44.99, "Classic": 39.99},
+  "bucket-punched-out": {"Organic": 44.99, "Classic": 39.99},
+  "quarterzip-logo": {"Premium": 79.99, "Fleece": 79.99},
+  "quarterzip-clock": {"Premium": 79.99, "Fleece": 79.99},
+  "quarterzip-punched-out": {"Premium": 79.99, "Fleece": 79.99},
+  "golf-punched-out": {"Cotton Pique": 59.99, "Classic": 59.99, "Performance": 89.99}
+ },
+ "method": {
+  "currency": "All prices in C$. US$ to C$ at 1.42, the rate store/apparel-plan.md uses (1 Oct 2026). Where Printful's own C$ price was seen, the higher of the two is used. Printful's C$ prices here run at 1.41 to 1.43 times its US$ prices, so 1.42 holds.",
+  "profit": "Per item, as in store/apparel-plan.md: price, minus Printful's cost with embroidery, minus Shopify's card fee (Basic: 2.8% + 30c on a Canadian card, 3.5% + 30c on a US or Amex card). Before ads and one-time costs (digitizing US$6.50 per design file, samples). Each amount is rounded to the cent before subtracting, as the plan does.",
+  "floor": "C$10 on a US card (the worse card) at the biggest size offered. None of the ten is a hoodie, so the C$15 hoodie floor doesn't apply; the quarter-zips clear C$15 anyway.",
+  "extraPlacement": "+US$2.95 for each placement after the first (Printful). Only the golf shirt has two marks.",
+  "sizeMarkup": "Printful adds about US$2.00 at 2XL and US$4.00 at 3XL (store/apparel-plan.md [12], marked CONFIRM there). The check uses the 3XL cost.",
+  "shipping": "Store shipping today: Standard C$12, free from C$75 (store/picks.md). Under C$75 the buyer's C$12 covers Printful's US rate (hats from US$4.69, polos from US$4.95). From C$75 one item ships free, so the check also takes off Printful's US rate (polos US$4.95; quarter-zips the hoodie's US$8.79, their own rate not found). Printful's Canadian rates weren't found; the US rate stands in for them.",
+  "headroom": "Where Printful's price with embroidery isn't confirmed, the price keeps at least US$2.95 (one placement fee) spare over the floor before shipping, so a listed price that turns out to leave out the embroidery still clears.",
+  "priceSteps": "Prices use the store's endings: the lowest that passes these checks and sits sensibly on the live ladder (caps 34.99, tees 44.99, crewneck and sweatpants 79.99, hoodies 89.99, jacket 99.99). lowestPriceThatClears shows how low the cost alone would allow.",
+  "notInFloor": "13% HST on Printful's bill for an order made in Ontario and sent to Ontario while the store isn't registered (shown per Style as ifMadeInOntario); a 2% conversion fee if the US market is later priced in USD (it's in CAD today); duties; carts of several items that ship free.",
+  "sizes": "Hats are one size (no Size option, like the caps). Clothes are capped at 3XL with no XS. No clothing size range was read on a Printful page (printful.com is blocked here), so each is marked likely, from copies of Printful's catalogue or several sources that agree. Check each in Printful's size picker, region Canada then US.",
+  "src": ["plan", "fx", "shopify-ca", "pf-pricing", "pf-2xl", "picks", "fulfil", "pf-emb-prep"],
+  "statusKey": {
+   "confirmed": "Printful's own page, as quoted in search results (rated so by the verified research)",
+   "likely": "Printful's text via a copy or one search read not re-checked, the maker's own spec, or several sources that agree"
+  }
+ },
+ "voice": "Short, plain, sounds like a person wrote it, not too wordy. The owner likes 'your time'. Follow drop1.json: a hook, a time-off line, 'Made to order and shipped to you.', a short Details list.",
+ "research": ["golf-md", "more-md", "golf-verified", "more-verified"],
+ "neverWriteSrc": ["template", "apparel-copy", "drop1"],
+ "neverWrite": [
+  "'Made in Canada', or where anything is made or embroidered (unknown for all nine blanks; AGENTS.md)",
+  "Blank brand names: adidas, Port Authority, SOL'S, Lane Seven, Cotton Heritage, Yupoong, Atlantis, Capstone, Big Accessories (AGENTS.md). A maker's logo on the garment is 'the shirt maker's own logo', as the jacket's listing does it",
+  "'premium', 'quality', 'perfect gift', 'must-have', stock counts, countdowns, reviews or ratings, made-up discounts or compare-at prices, exclamation marks, 'Off Shift', 'Offshift' (store/products/_template.md)",
+  "'heavyweight', 'organic', 'pre-shrunk', 'true to size' or any fabric or fit claim Printful's spec doesn't make. 'Organic' only for the Organic bucket hat, where Printful says it (store/apparel-copy.md)",
+  "'Embroidered' for the Premium quarter-zip until Printful confirms it",
+  "Thread colours (set after the sew-out) and colour names (chosen later)",
+  "Feel or performance words no source states: soft, warm, breathable, moisture-wicking, quick-dry, water-resistant, UPF, stretch, packable",
+  "Head sizes or garment measurements (no Printful size guide was read)"
+ ],
+ "flags": [
+  "Performance polo (A430): about twice the other polos' cost. C$89.99, the hoodie's price, is the lowest that clears C$10 in every size once one ships free: C$11.63 at 3XL, only US$1.14 to spare, so a higher price with embroidery would sink it. If Printful makes it in Ontario while the store isn't GST/HST-registered, an Ontario order makes C$8.94 (S to XL) to C$2.52 (3XL), under the floor. Owner: keep it, sell it S to 2XL only (C$14.47 at 2XL after shipping), register for GST/HST or charge shipping, or drop the style.",
+  "Premium quarter-zip (LS14014): Printful's embroidery on it isn't confirmed. If Printful's editor offers no left-chest embroidery, drop the style from all three quarter-zip listings; the Fleece stays. Its name 'Premium' is also on the template's never-write list ('Mock Neck' would be accurate).",
+  "Cotton Pique polo (SOL'S 11362): Large back isn't confirmed for Canada and the US, its size and gap to the collar are unknown, and it may be made only in Latvia (longer shipping, duties at the door). No Printful polo has a spot right below the collar. Fallbacks: the clock on its left sleeve; if it's EU-only, the research's stand-in is the Gildan 64800.",
+  "Ribbed beanie and Classic bucket hat sit at C$39.99 because their prices with embroidery aren't confirmed. Once confirmed, the Classic bucket hat can drop to C$34.99 (C$10.95 on a US card); the Ribbed beanie can't (C$9.68).",
+  "Organic bucket hat: Printful's own cost is C$29.50, so it needs C$44.99, the tee price. In Ontario without a GST/HST number it makes C$10.09, just over the floor.",
+  "The logo's clock-hand tips (0.58-0.59 mm) and 1.0 mm channel are under Printful's 1.27 mm line minimum: approve a sew-out on each new blank before selling. Samples cost money, so that's the owner's call.",
+  "Where Printful makes each of the nine blanks isn't known (Availability tab, region Canada then US). The copy never says where anything is made."
+ ],
+ "kinds": {
+  "beanie": {
+   "name": "beanie",
+   "productType": "Hat",
+   "options": "Style (Cuffed, Ribbed); Colour later. No Size option.",
+   "why": "store/collections.md: toques are hats, so type Hat and All hats picks them up.",
+   "src": ["collections", "apparel-copy"]
+  },
+  "bucket": {"name": "bucket hat", "productType": "Hat", "options": "Style (Organic, Classic); Colour later. No Size option.", "why": "Type Hat joins All hats.", "src": ["collections", "apparel-copy"]},
+  "quarterzip": {
+   "name": "quarter-zip",
+   "productType": "Quarter-Zip",
+   "options": "Style (Premium, Fleece), then Size S to 3XL; Colour later.",
+   "why": "New type: add it to the Lounge and Everything rules or they won't show there. Check the live rules first; the owner has been editing the store.",
+   "src": ["collections", "apparel-copy"]
+  },
+  "golf": {
+   "name": "golf shirt (polo)",
+   "productType": "Polo",
+   "options": "Style (Cotton Pique, Classic, Performance), then Size S to 3XL; Colour later.",
+   "why": "New type: add it to the Everything rule. The Golf collection goes by the golf tag, which the template gives only to designs about golf (owner's call).",
+   "src": ["collections", "apparel-copy"]
+  }
+ },
+ "listings": {
+  "beanie-logo": {
+   "kind": "beanie",
+   "design": "logo",
+   "productType": "Hat",
+   "styles": [
+    {
+     "style": "Cuffed",
+     "blank": "Cuffed Beanie | Yupoong 1501KC (Printful catalog product 266)",
+     "sizes": ["One size"],
+     "sizeStatus": "confirmed",
+     "priceCAD": 34.99,
+     "details": "beanie/Cuffed",
+     "designFacts": [{"copyLine": "Cuff: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide", "status": "confirmed", "src": ["pf-1501kc", "pf-knit-guide", "art"]}]
+    },
+    {
+     "style": "Ribbed",
+     "blank": "Ribbed Knit Beanie | Atlantis Headwear RIO (Printful catalog product 519; API type name 'Recycled Cuffed Beanie')",
+     "sizes": ["One size"],
+     "sizeStatus": "likely",
+     "priceCAD": 39.99,
+     "details": "beanie/Ribbed",
+     "designFacts": [{"copyLine": "Cuff: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide", "status": "likely", "src": ["aipod-hats", "printify-1922", "art"]}]
+    }
+   ]
+  },
+  "beanie-clock": {
+   "kind": "beanie",
+   "design": "clock",
+   "productType": "Hat",
+   "styles": [
+    {
+     "style": "Cuffed",
+     "blank": "Cuffed Beanie | Yupoong 1501KC (Printful catalog product 266)",
+     "sizes": ["One size"],
+     "sizeStatus": "confirmed",
+     "priceCAD": 34.99,
+     "details": "beanie/Cuffed",
+     "designFacts": [{"copyLine": "Cuff: the clock, embroidered, about 25 mm (1 in) tall", "status": "confirmed", "src": ["pf-1501kc", "pf-knit-guide", "art"]}]
+    },
+    {
+     "style": "Ribbed",
+     "blank": "Ribbed Knit Beanie | Atlantis Headwear RIO (Printful catalog product 519; API type name 'Recycled Cuffed Beanie')",
+     "sizes": ["One size"],
+     "sizeStatus": "likely",
+     "priceCAD": 39.99,
+     "details": "beanie/Ribbed",
+     "designFacts": [{"copyLine": "Cuff: the clock, embroidered, about 25 mm (1 in) tall", "status": "likely", "src": ["aipod-hats", "printify-1922", "art"]}]
+    }
+   ]
+  },
+  "beanie-punched-out": {
+   "kind": "beanie",
+   "design": "punched-out",
+   "productType": "Hat",
+   "styles": [
+    {
+     "style": "Cuffed",
+     "blank": "Cuffed Beanie | Yupoong 1501KC (Printful catalog product 266)",
+     "sizes": ["One size"],
+     "sizeStatus": "confirmed",
+     "priceCAD": 34.99,
+     "details": "beanie/Cuffed",
+     "designFacts": [{"copyLine": "Cuff: PUNCHED OUT., embroidered on two lines, about 64 mm (2.5 in) wide", "status": "confirmed", "src": ["pf-1501kc", "pf-knit-guide", "art"]}]
+    },
+    {
+     "style": "Ribbed",
+     "blank": "Ribbed Knit Beanie | Atlantis Headwear RIO (Printful catalog product 519; API type name 'Recycled Cuffed Beanie')",
+     "sizes": ["One size"],
+     "sizeStatus": "likely",
+     "priceCAD": 39.99,
+     "details": "beanie/Ribbed",
+     "designFacts": [{"copyLine": "Cuff: PUNCHED OUT., embroidered on two lines, about 64 mm (2.5 in) wide", "status": "likely", "src": ["aipod-hats", "printify-1922", "art"]}]
+    }
+   ]
+  },
+  "bucket-logo": {
+   "kind": "bucket",
+   "design": "logo",
+   "productType": "Hat",
+   "styles": [
+    {
+     "style": "Organic",
+     "blank": "Organic Bucket Hat (Capstone Headwear; Printful catalog product 547; no model number found)",
+     "sizes": ["One size"],
+     "sizeStatus": "confirmed",
+     "priceCAD": 44.99,
+     "details": "bucket/Organic",
+     "designFacts": [{"copyLine": "Front: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide", "status": "confirmed", "src": ["pf-organic", "art"]}]
+    },
+    {
+     "style": "Classic",
+     "blank": "Bucket Hat | Big Accessories BX003 (Printful catalog product 379)",
+     "sizes": ["One size"],
+     "sizeStatus": "confirmed",
+     "priceCAD": 39.99,
+     "details": "bucket/Classic",
+     "designFacts": [{"copyLine": "Front: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide", "status": "confirmed", "src": ["pf-bx003", "printify-1910", "art"]}]
+    }
+   ]
+  },
+  "bucket-clock": {
+   "kind": "bucket",
+   "design": "clock",
+   "productType": "Hat",
+   "styles": [
+    {
+     "style": "Organic",
+     "blank": "Organic Bucket Hat (Capstone Headwear; Printful catalog product 547; no model number found)",
+     "sizes": ["One size"],
+     "sizeStatus": "confirmed",
+     "priceCAD": 44.99,
+     "details": "bucket/Organic",
+     "designFacts": [{"copyLine": "Front: the clock, embroidered, about 25 mm (1 in) tall", "status": "confirmed", "src": ["pf-organic", "art"]}]
+    },
+    {
+     "style": "Classic",
+     "blank": "Bucket Hat | Big Accessories BX003 (Printful catalog product 379)",
+     "sizes": ["One size"],
+     "sizeStatus": "confirmed",
+     "priceCAD": 39.99,
+     "details": "bucket/Classic",
+     "designFacts": [{"copyLine": "Front: the clock, embroidered, about 25 mm (1 in) tall", "status": "confirmed", "src": ["pf-bx003", "printify-1910", "art"]}]
+    }
+   ]
+  },
+  "bucket-punched-out": {
+   "kind": "bucket",
+   "design": "punched-out",
+   "productType": "Hat",
+   "styles": [
+    {
+     "style": "Organic",
+     "blank": "Organic Bucket Hat (Capstone Headwear; Printful catalog product 547; no model number found)",
+     "sizes": ["One size"],
+     "sizeStatus": "confirmed",
+     "priceCAD": 44.99,
+     "details": "bucket/Organic",
+     "designFacts": [
+      {
+       "copyLine": "Front: PUNCHED OUT., embroidered on one line, about 97 mm (3.8 in) wide",
+       "status": "likely",
+       "src": ["pf-organic", "art"],
+       "note": "Needs a front area about 100 mm wide (127 mm expected; 139.7 mm on the BX003 in Printify's copy). If File guidelines show less, use the stack and say 'on two lines, about 64 mm (2.5 in) wide'."
+      }
+     ]
+    },
+    {
+     "style": "Classic",
+     "blank": "Bucket Hat | Big Accessories BX003 (Printful catalog product 379)",
+     "sizes": ["One size"],
+     "sizeStatus": "confirmed",
+     "priceCAD": 39.99,
+     "details": "bucket/Classic",
+     "designFacts": [
+      {
+       "copyLine": "Front: PUNCHED OUT., embroidered on one line, about 97 mm (3.8 in) wide",
+       "status": "likely",
+       "src": ["pf-bx003", "printify-1910", "art"],
+       "note": "Needs a front area about 100 mm wide (127 mm expected; 139.7 mm on the BX003 in Printify's copy). If File guidelines show less, use the stack and say 'on two lines, about 64 mm (2.5 in) wide'."
+      }
+     ]
+    }
+   ]
+  },
+  "quarterzip-logo": {
+   "kind": "quarterzip",
+   "design": "logo",
+   "productType": "Quarter-Zip",
+   "styles": [
+    {
+     "style": "Premium",
+     "blank": "Unisex Premium Quarter Zip Sweatshirt | Lane Seven LS14014 (Printful catalog product 1473, per a mirror)",
+     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+     "sizeStatus": "likely",
+     "priceCAD": 79.99,
+     "details": "quarterzip/Premium",
+     "designFacts": [
+      {
+       "copyLine": "Left chest: the OFF SHFT logo, about 63 mm (2.5 in) wide",
+       "status": "likely",
+       "src": ["more-verified", "art"],
+       "note": "Placement planned; Printful's embroidery on this blank isn't confirmed, so no 'embroidered' yet."
+      }
+     ]
+    },
+    {
+     "style": "Fleece",
+     "blank": "Unisex Fleece Pullover | Cotton Heritage M2475 (Printful catalog product 674)",
+     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+     "sizeStatus": "likely",
+     "priceCAD": 79.99,
+     "details": "quarterzip/Fleece",
+     "designFacts": [{"copyLine": "Left chest: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide", "status": "confirmed", "src": ["pf-m2475", "printify-1754", "art"]}]
+    }
+   ],
+   "notes": [
+    "'Premium' is on the template's never-write list. It's Printful's product name, kept as the task gives it; 'Mock Neck' (the maker's term) is an accurate swap if the rule should cover option names too.",
+    "Until Printful confirms embroidery on the Premium, the Details line says the design is embroidered on the Fleece style, as the hoodie listing does for the 1467."
+   ]
+  },
+  "quarterzip-clock": {
+   "kind": "quarterzip",
+   "design": "clock",
+   "productType": "Quarter-Zip",
+   "styles": [
+    {
+     "style": "Premium",
+     "blank": "Unisex Premium Quarter Zip Sweatshirt | Lane Seven LS14014 (Printful catalog product 1473, per a mirror)",
+     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+     "sizeStatus": "likely",
+     "priceCAD": 79.99,
+     "details": "quarterzip/Premium",
+     "designFacts": [
+      {
+       "copyLine": "Left chest: the clock, about 25 mm (1 in) tall",
+       "status": "likely",
+       "src": ["more-verified", "art"],
+       "note": "Placement planned; Printful's embroidery on this blank isn't confirmed, so no 'embroidered' yet."
+      }
+     ]
+    },
+    {
+     "style": "Fleece",
+     "blank": "Unisex Fleece Pullover | Cotton Heritage M2475 (Printful catalog product 674)",
+     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+     "sizeStatus": "likely",
+     "priceCAD": 79.99,
+     "details": "quarterzip/Fleece",
+     "designFacts": [{"copyLine": "Left chest: the clock, embroidered, about 25 mm (1 in) tall", "status": "confirmed", "src": ["pf-m2475", "printify-1754", "art"]}]
+    }
+   ],
+   "notes": [
+    "'Premium' is on the template's never-write list. It's Printful's product name, kept as the task gives it; 'Mock Neck' (the maker's term) is an accurate swap if the rule should cover option names too.",
+    "Until Printful confirms embroidery on the Premium, the Details line says the design is embroidered on the Fleece style, as the hoodie listing does for the 1467."
+   ]
+  },
+  "quarterzip-punched-out": {
+   "kind": "quarterzip",
+   "design": "punched-out",
+   "productType": "Quarter-Zip",
+   "styles": [
+    {
+     "style": "Premium",
+     "blank": "Unisex Premium Quarter Zip Sweatshirt | Lane Seven LS14014 (Printful catalog product 1473, per a mirror)",
+     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+     "sizeStatus": "likely",
+     "priceCAD": 79.99,
+     "details": "quarterzip/Premium",
+     "designFacts": [
+      {
+       "copyLine": "Left chest: PUNCHED OUT., on two lines, about 64 mm (2.5 in) wide",
+       "status": "likely",
+       "src": ["more-verified", "art"],
+       "note": "Placement planned; Printful's embroidery on this blank isn't confirmed, so no 'embroidered' yet."
+      }
+     ]
+    },
+    {
+     "style": "Fleece",
+     "blank": "Unisex Fleece Pullover | Cotton Heritage M2475 (Printful catalog product 674)",
+     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+     "sizeStatus": "likely",
+     "priceCAD": 79.99,
+     "details": "quarterzip/Fleece",
+     "designFacts": [{"copyLine": "Left chest: PUNCHED OUT., embroidered, on two lines, about 64 mm (2.5 in) wide", "status": "confirmed", "src": ["pf-m2475", "printify-1754", "art"]}]
+    }
+   ],
+   "notes": [
+    "'Premium' is on the template's never-write list. It's Printful's product name, kept as the task gives it; 'Mock Neck' (the maker's term) is an accurate swap if the rule should cover option names too.",
+    "Until Printful confirms embroidery on the Premium, the Details line says the design is embroidered on the Fleece style, as the hoodie listing does for the 1467."
+   ]
+  },
+  "golf-punched-out": {
+   "kind": "golf",
+   "design": "punched-out",
+   "productType": "Polo",
+   "styles": [
+    {
+     "style": "Cotton Pique",
+     "blank": "Unisex Premium Pique Polo Shirt | SOL'S 11362 (Printful catalog product 810)",
+     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+     "sizeStatus": "likely",
+     "priceCAD": 59.99,
+     "details": "golf/Cotton Pique",
+     "designFacts": [
+      {"copyLine": "Front: PUNCHED OUT., embroidered on the left chest, on two lines, about 64 mm (2.5 in) wide", "status": "likely", "src": ["pf-sols", "aaron-polo", "art"]},
+      {
+       "copyLine": "Back: the clock, embroidered and centred on the upper back, about 25 mm (1 in) tall",
+       "status": "likely",
+       "src": ["pf-sols", "fw-sols", "apparelhub"],
+       "note": "Large back is seen in one search read of Printful's page, Fourthwall and ApparelHub, not confirmed for Canada and the US. If it isn't offered, the clock goes on the left sleeve and this line becomes the Classic's."
+      }
+     ]
+    },
+    {
+     "style": "Classic",
+     "blank": "Men's Premium Polo Shirt | Port Authority K500 (Printful catalog product 340)",
+     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+     "sizeStatus": "likely",
+     "priceCAD": 59.99,
+     "details": "golf/Classic",
+     "designFacts": [
+      {"copyLine": "Front: PUNCHED OUT., embroidered on the left chest, on two lines, about 64 mm (2.5 in) wide", "status": "likely", "src": ["pf-k500", "art"]},
+      {"copyLine": "Left sleeve: the clock, embroidered, about 25 mm (1 in) tall", "status": "likely", "src": ["pf-k500", "apparelhub"]}
+     ]
+    },
+    {
+     "style": "Performance",
+     "blank": "Unisex Adidas Sport Polo Shirt | adidas A430 (Printful)",
+     "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+     "sizeStatus": "likely",
+     "priceCAD": 89.99,
+     "details": "golf/Performance",
+     "designFacts": [
+      {"copyLine": "Front: PUNCHED OUT., embroidered on the left chest, on two lines, about 64 mm (2.5 in) wide", "status": "likely", "src": ["pf-a430", "art"]},
+      {
+       "copyLine": "Left sleeve: the clock, embroidered, about 25 mm (1 in) tall",
+       "status": "likely",
+       "src": ["pf-a430"],
+       "note": "Left only: other sellers' photos show the maker's logo on the right sleeve."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The owner asked for the logo 'on the back near the neck (not the word logo)': the clock. Only the Cotton Pique can carry it on the back, in Printful's Large back area, whose distance from the collar is unknown. The copy can't promise 'near the neck'.",
+    "One listing, three prices by style."
+   ]
+  }
+ },
+ "styles": {
+  "beanie/Cuffed": {
+   "style": "Cuffed",
+   "blank": "Cuffed Beanie | Yupoong 1501KC (Printful catalog product 266)",
+   "usedIn": ["beanie-logo", "beanie-clock", "beanie-punched-out"],
+   "sizes": {
+    "offer": ["One size"],
+    "status": "confirmed",
+    "evidence": "Printful: 'One size fits all'; Printful's public catalogue has one size per colour ('OS', checked 28 Oct 2026). One size, so no Size option (like the caps).",
+    "src": ["pf-1501kc", "rentcoat"],
+    "leftOut": "Head size: Printful gives none (Printify's 17.25-18.5 in is for its own stock), so don't state one."
+   },
+   "price": {
+    "cad": 34.99,
+    "math": "Cost: US$13.05 x 1.42 = C$18.53. Card fee on C$34.99: US or Amex card 3.5% + 0.30 = C$1.52; Canadian card 2.8% + 0.30 = C$1.28. Profit 34.99 - 18.53 - 1.52 = C$14.94 (US card); 34.99 - 18.53 - 1.28 = C$15.18 (Canadian card). Under C$75, so the buyer pays the store's C$12 shipping (Printful's US rate from about US$4.69 = C$6.66). Clears the C$10 floor, with US$3.47 to spare at the worst case.",
+    "costBasis": "US$13.05 with one embroidery placement included: confirmed (Printful's page, search read; the same 1305 cents in a 17 Oct 2026 copy of Printful's API). No C$ price found.",
+    "src": ["pf-1501kc", "api-1501kc"],
+    "profits": {"usCard": 14.94, "canadianCard": 15.18, "usCardBiggestSize": 14.94, "usCardBiggestSizeAfterFreeShipping": null, "biggestSize": "One size"},
+    "floorCAD": 10,
+    "clearsFloor": true,
+    "spareUSD": 3.47,
+    "lowestPriceThatClears": 29.99,
+    "why": "Same as the caps. The cost would allow C$29.99, but the caps set the hat price.",
+    "ifMadeInOntario": "If Printful makes it in Ontario for an Ontario buyer while the store isn't GST/HST-registered, 13% HST on Printful's bill (C$2.41) leaves C$12.77 on a Canadian card. Clears."
+   },
+   "mayState": [
+    {"fact": "Cuffed knit beanie, 12 in (30 cm) long", "status": "confirmed", "src": ["pf-1501kc"]},
+    {"fact": "100% acrylic (Printful says 'Turbo acrylic'; just say acrylic)", "status": "confirmed", "src": ["pf-1501kc"]},
+    {"fact": "Unisex, one size", "status": "confirmed", "src": ["pf-1501kc"]},
+    {"fact": "Care: hand wash (Printful: 'hand washable')", "status": "confirmed", "src": ["pf-1501kc"]},
+    {"fact": "The design is embroidered on the turned-up cuff, front and centre (its only spot)", "status": "confirmed", "src": ["pf-1501kc", "pf-knit-guide"]},
+    {"fact": "Made to order and shipped to you", "status": "confirmed", "src": ["drop1"]}
+   ],
+   "mustNotState": [
+    {"claim": "Double-layered, or any knit pattern (rib, smooth)", "why": "One vendor only; knit pattern not found."},
+    {"claim": "A head size or cuffed height", "why": "Only Printify's chart, not Printful's."},
+    {
+     "claim": "Soft, warm, itch-free, hypoallergenic",
+     "why": "Feel and health claims; reviewers call it scratchy at first. 'Hypoallergenic' is on Printful's page but is a health claim the copy doesn't need."
+    }
+   ],
+   "toConfirm": [
+    "Availability tab (region Canada, then US): where Printful makes it.",
+    "C$ price; colours in the picker (12 in an Oct 2026 API copy).",
+    "File guidelines template for the cuff (5 x 1.75 in expected)."
+   ]
+  },
+  "beanie/Ribbed": {
+   "style": "Ribbed",
+   "blank": "Ribbed Knit Beanie | Atlantis Headwear RIO (Printful catalog product 519; API type name 'Recycled Cuffed Beanie')",
+   "usedIn": ["beanie-logo", "beanie-clock", "beanie-punched-out"],
+   "sizes": {
+    "offer": ["One size"],
+    "status": "likely",
+    "evidence": "One size in an EU store's copy of Printful's API (Mar 2026); Printful's page not read for size. One size, so no Size option (like the caps).",
+    "src": ["aipod-hats"],
+    "leftOut": "Atlantis's 21 x 19 cm flat size is the maker's, copied by a third party; don't state it."
+   },
+   "price": {
+    "cad": 39.99,
+    "math": "Cost: US$16.75 x 1.42 = C$23.79. Card fee on C$39.99: US or Amex card 3.5% + 0.30 = C$1.70; Canadian card 2.8% + 0.30 = C$1.42. Profit 39.99 - 23.79 - 1.70 = C$14.50 (US card); 39.99 - 23.79 - 1.42 = C$14.78 (Canadian card). Under C$75, so the buyer pays the store's C$12 shipping (Printful's US rate from about US$4.69 = C$6.66). Clears the C$10 floor, with US$3.16 to spare at the worst case.",
+    "costBasis": "US$16.75 (all colours), from an EU store's notes built from Printful's API in Mar 2026: NOT confirmed. Probably includes the cuff embroidery (the same API field equals the 1501KC's page price with one placement), but the same notes show EUR 2.95 extra for the front in Europe. No C$ price found.",
+    "src": ["aipod-hats"],
+    "profits": {"usCard": 14.5, "canadianCard": 14.78, "usCardBiggestSize": 14.5, "usCardBiggestSizeAfterFreeShipping": null, "biggestSize": "One size"},
+    "floorCAD": 10,
+    "clearsFloor": true,
+    "spareUSD": 3.16,
+    "lowestPriceThatClears": 39.99,
+    "why": "C$34.99 makes only C$9.68 on a US card even at the listed cost, under the floor. C$39.99 clears with more than one US$2.95 placement fee to spare, in case the listed price doesn't include the embroidery.",
+    "ifMadeInOntario": "If Printful makes it in Ontario for an Ontario buyer while the store isn't GST/HST-registered, 13% HST on Printful's bill (C$3.09) leaves C$11.69 on a Canadian card. Clears."
+   },
+   "mayState": [
+    {"fact": "Ribbed knit beanie", "status": "confirmed", "src": ["pf-rio"]},
+    {"fact": "Cuffed", "status": "likely", "src": ["aipod-hats"]},
+    {"fact": "One size", "status": "likely", "src": ["aipod-hats"]},
+    {"fact": "The design is embroidered on the cuff, front and centre (its only spot)", "status": "likely", "src": ["aipod-hats", "printify-1922"]},
+    {"fact": "Made to order and shipped to you", "status": "confirmed", "src": ["drop1"]}
+   ],
+   "mustNotState": [
+    {
+     "claim": "Material: 50% recycled polyester / 50% acrylic, 'recycled', double layer, GRS or OEKO-TEX",
+     "why": "Only in an EU store's notes, not read on Printful's page (AGENTS.md: no unconfirmed materials)."
+    },
+    {"claim": "Measurements (8.27 in long, 7.5 in wide)", "why": "Maker's spec copied by a third party."},
+    {"claim": "Snug fit, sharp detail", "why": "Reviews only; the rib can soften fine detail, so sample first."}
+   ],
+   "toConfirm": [
+    "Price with Embroidery selected, in US$ and C$ (if it's US$16.75 with the embroidery, C$39.99 stays; C$34.99 never clears).",
+    "Material, recycled content and double layer on Printful's page.",
+    "Availability tab (a Mar 2026 copy listed Canadian stock for 5 colours) and the colour picker."
+   ]
+  },
+  "bucket/Organic": {
+   "style": "Organic",
+   "blank": "Organic Bucket Hat (Capstone Headwear; Printful catalog product 547; no model number found)",
+   "usedIn": ["bucket-logo", "bucket-clock", "bucket-punched-out"],
+   "sizes": {
+    "offer": ["One size"],
+    "status": "confirmed",
+    "evidence": "Printful: 'One size fits most'. One size, so no Size option (like the caps).",
+    "src": ["pf-organic"],
+    "leftOut": "No head-size range found; don't state one."
+   },
+   "price": {
+    "cad": 44.99,
+    "math": "Cost: US$20.70 x 1.42 = C$29.39. Printful's own C$ price is C$29.50 (higher, so it's used). Card fee on C$44.99: US or Amex card 3.5% + 0.30 = C$1.87; Canadian card 2.8% + 0.30 = C$1.56. Profit 44.99 - 29.50 - 1.87 = C$13.62 (US card); 44.99 - 29.50 - 1.56 = C$13.93 (Canadian card). Under C$75, so the buyer pays the store's C$12 shipping (Printful's US rate from about US$4.69 = C$6.66). Clears the C$10 floor, with US$2.54 to spare at the worst case.",
+    "costBasis": "US$20.70 with one embroidery placement included: confirmed (Printful's page, search reads). Printful Canada: C$29.50 (page data, search snippet).",
+    "src": ["pf-organic", "pf-organic-ca"],
+    "profits": {"usCard": 13.62, "canadianCard": 13.93, "usCardBiggestSize": 13.62, "usCardBiggestSizeAfterFreeShipping": null, "biggestSize": "One size"},
+    "floorCAD": 10,
+    "clearsFloor": true,
+    "spareUSD": 2.54,
+    "lowestPriceThatClears": 44.99,
+    "why": "Printful's own cost is C$29.50, close to the caps' C$34.99 price. C$39.99 makes C$8.79, under the floor; C$44.99 is the next step and matches the tees.",
+    "ifMadeInOntario": "If Printful makes it in Ontario for an Ontario buyer while the store isn't GST/HST-registered, 13% HST on Printful's bill (C$3.84) leaves C$10.09 on a Canadian card. Clears."
+   },
+   "mayState": [
+    {"fact": "100% organic cotton twill", "status": "confirmed", "src": ["pf-organic"]},
+    {"fact": "Fabric certified by GOTS; OEKO-TEX Standard 100 certified (word it as Printful does; check on the day)", "status": "confirmed", "src": ["pf-organic"]},
+    {"fact": "Classic brim, high crown (Printful: 'High profile')", "status": "confirmed", "src": ["pf-organic"]},
+    {"fact": "One size fits most", "status": "confirmed", "src": ["pf-organic"]},
+    {"fact": "The design is embroidered on the front of the crown", "status": "confirmed", "src": ["pf-organic"]},
+    {"fact": "Care: spot clean or hand wash cold; no machine wash or tumble dry", "status": "likely", "src": ["more-verified"]},
+    {"fact": "Made to order and shipped to you", "status": "confirmed", "src": ["drop1"]}
+   ],
+   "mustNotState": [
+    {"claim": "Structured or unstructured, '2-panel', number of eyelets", "why": "Sources conflict, or one search snippet only."},
+    {"claim": "Crown height, brim width, head size", "why": "Not found."},
+    {"claim": "Colour names (Stone, Dill, Slate Blue)", "why": "Seen only on other shops; colours are chosen later."},
+    {"claim": "Water-resistant, UPF, packable", "why": "No source says so."}
+   ],
+   "toConfirm": [
+    "File guidelines: the front area's size (the plan assumes about 5 x 1.75 in).",
+    "Photos: is there a centre-front seam? If yes, apply the seam rules (logo 5.2 mm right, one line 2.4 mm right, clock 7.4 mm onto the wearer's left panel).",
+    "Availability tab; colour picker."
+   ]
+  },
+  "bucket/Classic": {
+   "style": "Classic",
+   "blank": "Bucket Hat | Big Accessories BX003 (Printful catalog product 379)",
+   "usedIn": ["bucket-logo", "bucket-clock", "bucket-punched-out"],
+   "sizes": {
+    "offer": ["One size"],
+    "status": "confirmed",
+    "evidence": "Printful: 'One size fits most'. One size, so no Size option (like the caps).",
+    "src": ["pf-bx003"],
+    "leftOut": "The 58 cm head size is the distributor's, not Printful's; don't state it."
+   },
+   "price": {
+    "cad": 39.99,
+    "math": "Cost: US$15.86 x 1.42 = C$22.52. Card fee on C$39.99: US or Amex card 3.5% + 0.30 = C$1.70; Canadian card 2.8% + 0.30 = C$1.42. Profit 39.99 - 22.52 - 1.70 = C$15.77 (US card); 39.99 - 22.52 - 1.42 = C$16.05 (Canadian card). Under C$75, so the buyer pays the store's C$12 shipping (Printful's US rate from about US$4.69 = C$6.66). Clears the C$10 floor, with US$4.06 to spare at the worst case.",
+    "costBasis": "US$15.86 on Printful's embroidered listing (search read); whether one embroidery placement is included isn't shown, though an older Printful blog lists US$15.95 for standard embroidery, so it likely is. No C$ price found.",
+    "src": ["pf-bx003", "pf-bucket-blog"],
+    "profits": {"usCard": 15.77, "canadianCard": 16.05, "usCardBiggestSize": 15.77, "usCardBiggestSizeAfterFreeShipping": null, "biggestSize": "One size"},
+    "floorCAD": 10,
+    "clearsFloor": true,
+    "spareUSD": 4.06,
+    "lowestPriceThatClears": 39.99,
+    "why": "C$34.99 clears only if US$15.86 includes the embroidery (C$10.95 on a US card, US$0.66 to spare). C$39.99 clears either way. If Printful confirms the embroidery is included, C$34.99 works and matches the caps.",
+    "ifMadeInOntario": "If Printful makes it in Ontario for an Ontario buyer while the store isn't GST/HST-registered, 13% HST on Printful's bill (C$2.93) leaves C$13.12 on a Canadian card. Clears."
+   },
+   "mayState": [
+    {"fact": "100% cotton twill", "status": "confirmed", "src": ["pf-demo-bx003"]},
+    {"fact": "Sewn eyelets", "status": "confirmed", "src": ["pf-demo-bx003"]},
+    {"fact": "One size fits most", "status": "confirmed", "src": ["pf-bx003"]},
+    {"fact": "The design is embroidered on the front of the crown", "status": "confirmed", "src": ["pf-bx003", "printify-1910"]},
+    {"fact": "Soft and unstructured", "status": "likely", "src": ["ssa-bx003"]},
+    {"fact": "Made to order and shipped to you", "status": "confirmed", "src": ["drop1"]}
+   ],
+   "mustNotState": [
+    {"claim": "Crown height or brim width", "why": "Printful's own figures don't agree (3 3/4 in given as 7.6 cm)."},
+    {"claim": "Head size (58 cm)", "why": "Distributor's sheet, not Printful's."},
+    {"claim": "Sweatband", "why": "That text belongs to Printful's denim bucket hat."},
+    {"claim": "Packable, crushable", "why": "Not on Printful's page."}
+   ],
+   "toConfirm": [
+    "Does US$15.86 include the front embroidery? Also the C$ price.",
+    "File guidelines: front area (5.5 x 2 in in Printify's copy; the one-line Punched Out. needs about 100 mm).",
+    "Availability tab (hints say US only); colours (Black, Navy, White in copies)."
+   ]
+  },
+  "quarterzip/Premium": {
+   "style": "Premium",
+   "blank": "Unisex Premium Quarter Zip Sweatshirt | Lane Seven LS14014 (Printful catalog product 1473, per a mirror)",
+   "usedIn": ["quarterzip-logo", "quarterzip-clock", "quarterzip-punched-out"],
+   "embroideryConfirmed": false,
+   "sizes": {
+    "offer": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "status": "likely",
+    "evidence": "Not read on Printful's page. A mirror of Printful's catalogue lists S-3XL, a third party that read Printful's page says Sandshell is 'listed in S-3XL', and a store using Printful's mockups sells S-3XL.",
+    "src": ["mfa-1473", "more-verified"],
+    "leftOut": "XS (the maker makes it; not seen at Printful)."
+   },
+   "price": {
+    "cad": 79.99,
+    "math": "Cost: US$25.24 x 1.42 = C$35.84. Printful's own C$ price is C$35.95 (higher, so it's used). Card fee on C$79.99: US or Amex card 3.5% + 0.30 = C$3.10; Canadian card 2.8% + 0.30 = C$2.54. Profit S to XL: 79.99 - 35.95 - 3.10 = C$40.94 (US card); 79.99 - 35.95 - 2.54 = C$41.50 (Canadian card). 3XL: Printful adds about US$4.00 (2XL+ markup) = C$5.68, so cost C$41.63: 79.99 - 41.63 - 3.10 = C$35.26 (US card). It ships free (C$75 or more), so take off Printful's US shipping, about US$8.79 = C$12.48: C$22.78 at 3XL (US card). Clears the C$10 floor in every size offered, with US$9.00 to spare at the worst case.",
+    "costBasis": "US$25.24 on Printful's US page and C$35.95 on its Canadian page (search reads). The technique behind it isn't shown, so it may be the printed (DTFlex) price; embroidery on this blank isn't confirmed at all.",
+    "src": ["pf-ls14014", "pf-ls14014-ca"],
+    "profits": {"usCard": 40.94, "canadianCard": 41.5, "usCardBiggestSize": 35.26, "usCardBiggestSizeAfterFreeShipping": 22.78, "biggestSize": "3XL"},
+    "floorCAD": 10,
+    "clearsFloor": true,
+    "spareUSD": 9.0,
+    "lowestPriceThatClears": 59.99,
+    "why": "Same as the crewneck, the other fleece top. The cost alone would allow C$59.99, but this blank's price with embroidery isn't known yet.",
+    "ifMadeInOntario": "If Printful makes it in Ontario for an Ontario buyer while the store isn't GST/HST-registered, 13% HST on Printful's bill (C$7.03) leaves C$16.31 at 3XL on a Canadian card after free shipping. Clears."
+   },
+   "mayState": [
+    {"fact": "Quarter-zip fleece pullover, unisex", "status": "likely", "src": ["pf-ls14014"]},
+    {"fact": "Relaxed fit (Printful: 'Soft fleece, relaxed fit')", "status": "likely", "src": ["pf-ls14014"]},
+    {"fact": "Mock neck", "status": "likely", "src": ["l7-ls14014"]},
+    {"fact": "Made to order and shipped to you", "status": "confirmed", "src": ["drop1"]}
+   ],
+   "mustNotState": [
+    {
+     "claim": "'Embroidered' for this style",
+     "why": "Printful's embroidery on the LS14014 isn't confirmed (a third party says embroidery or DTFlex). Until it is, the Details line says embroidered on the Fleece style only, as the hoodie listing does for the 1467."
+    },
+    {
+     "claim": "Fabric: cotton face, 80% cotton / 20% recycled polyester, 8.25 oz (280 g/m2), 3-end fleece, YKK zip",
+     "why": "The maker's spec, not on Printful's page yet (apparel-plan: materials only as Printful states them on the day)."
+    },
+    {"claim": "'Premium' in the copy", "why": "Template's never-write list; it's only in Printful's product name. The Style value itself is flagged."},
+    {"claim": "Pockets", "why": "No source mentions any."},
+    {"claim": "True to size, warm", "why": "Fit and feel claims Printful doesn't make."}
+   ],
+   "toConfirm": [
+    "Printful's editor with Embroidery selected: is the left chest offered? If not, take this style out of all three quarter-zip listings.",
+    "Price with embroidery, US$ and C$; sizes in the size picker; fabric on Printful's page.",
+    "Availability tab; colours (Sandshell, Heather Grey, Black seen at Printful)."
+   ]
+  },
+  "quarterzip/Fleece": {
+   "style": "Fleece",
+   "blank": "Unisex Fleece Pullover | Cotton Heritage M2475 (Printful catalog product 674)",
+   "usedIn": ["quarterzip-logo", "quarterzip-clock", "quarterzip-punched-out"],
+   "embroideryConfirmed": true,
+   "sizes": {
+    "offer": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "status": "likely",
+    "evidence": "Printify's listing with Printful as the provider (May 2026), a mirror of Printful's catalogue and Fourthwall all show S-3XL. Printful's public catalogue had Black S-2XL on 28 Oct 2026 (a store that uses S-2XL for every product by its own choice, so not a limit).",
+    "src": ["printify-1754", "mfa-674", "rentcoat"],
+    "leftOut": "Nothing above 3XL is listed anyway."
+   },
+   "price": {
+    "cad": 79.99,
+    "math": "Cost: US$22.85 x 1.42 = C$32.45. Printful's own C$ price is C$32.50 (higher, so it's used). Card fee on C$79.99: US or Amex card 3.5% + 0.30 = C$3.10; Canadian card 2.8% + 0.30 = C$2.54. Profit S to XL: 79.99 - 32.50 - 3.10 = C$44.39 (US card); 79.99 - 32.50 - 2.54 = C$44.95 (Canadian card). 3XL: Printful adds about US$4.00 (2XL+ markup) = C$5.68, so cost C$38.18: 79.99 - 38.18 - 3.10 = C$38.71 (US card). It ships free (C$75 or more), so take off Printful's US shipping, about US$8.79 = C$12.48: C$26.23 at 3XL (US card). Clears the C$10 floor in every size offered, with US$11.42 to spare at the worst case.",
+    "costBasis": "US$22.85 on Printful's US page and C$32.50 (in stock) on its Canadian page (search reads). Printful's copy offers it with embroidery; whether the price includes one embroidery placement isn't shown (Printful's general rule: the base price covers one standard-size design).",
+    "src": ["pf-m2475", "pf-m2475-ca"],
+    "profits": {"usCard": 44.39, "canadianCard": 44.95, "usCardBiggestSize": 38.71, "usCardBiggestSizeAfterFreeShipping": 26.23, "biggestSize": "3XL"},
+    "floorCAD": 10,
+    "clearsFloor": true,
+    "spareUSD": 11.42,
+    "lowestPriceThatClears": 54.99,
+    "why": "One price for both quarter-zips, the same as the crewneck, the other fleece top. The cost alone would allow C$54.99.",
+    "ifMadeInOntario": "If Printful makes it in Ontario for an Ontario buyer while the store isn't GST/HST-registered, 13% HST on Printful's bill (C$6.59) leaves C$20.20 at 3XL on a Canadian card after free shipping. Clears."
+   },
+   "mayState": [
+    {"fact": "Embroidered on the left chest", "status": "confirmed", "src": ["pf-m2475", "rentcoat", "printify-1754"]},
+    {"fact": "Quarter-zip fleece pullover, unisex", "status": "confirmed", "src": ["pf-m2475", "ch-m2475"]},
+    {"fact": "Relaxed fit (Printful: 'has a relaxed fit')", "status": "confirmed", "src": ["pf-m2475"]},
+    {"fact": "Cotton and polyester fleece (65/35; Carbon Grey 55/45): give the blend only after colours are picked", "status": "likely", "src": ["more-verified"]},
+    {"fact": "Stand collar, rib cuffs and waistband", "status": "likely", "src": ["ch-m2475"]},
+    {"fact": "Made to order and shipped to you", "status": "confirmed", "src": ["drop1"]}
+   ],
+   "mustNotState": [
+    {"claim": "Fabric weight", "why": "Printful's copied text says 5.3 oz/yd2 and 237 g/m2, which don't match."},
+    {"claim": "Plush, extra soft", "why": "Feel claim; a reviewer says 'not plush as described'."},
+    {"claim": "Pockets", "why": "None mentioned."},
+    {"claim": "Navy as a colour", "why": "Not confirmed at Printful (Black and Carbon Grey are)."}
+   ],
+   "toConfirm": ["Price with embroidery, US$ and C$; 3XL in the size picker.", "Fabric and weight on Printful's page; Availability tab; colours."]
+  },
+  "golf/Cotton Pique": {
+   "style": "Cotton Pique",
+   "blank": "Unisex Premium Pique Polo Shirt | SOL'S 11362 (Printful catalog product 810)",
+   "usedIn": ["golf-punched-out"],
+   "sizes": {
+    "offer": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "status": "likely",
+    "evidence": "Printful's catalogue lists S-5XL, all active (an EU store's record, 16 Oct 2026; EU API notes), capped here at 3XL. Stock for Canada and the US not seen; if it's made only in Latvia, these sizes still ship from there.",
+    "src": ["aaron-polo", "aipod-sols"],
+    "leftOut": "4XL and 5XL (over the 3XL cap)."
+   },
+   "price": {
+    "cad": 59.99,
+    "math": "Cost: US$18.31 + US$2.95 for the second placement = US$21.26, x 1.42 = C$30.19. Card fee on C$59.99: US or Amex card 3.5% + 0.30 = C$2.40; Canadian card 2.8% + 0.30 = C$1.98. Profit S to XL: 59.99 - 30.19 - 2.40 = C$27.40 (US card); 59.99 - 30.19 - 1.98 = C$27.82 (Canadian card). 3XL: Printful adds about US$4.00 (2XL+ markup) = C$5.68, so cost C$35.87: 59.99 - 35.87 - 2.40 = C$21.72 (US card). Under C$75, so the buyer pays the store's C$12 shipping (Printful's US rate from about US$4.95 = C$7.03). Clears the C$10 floor in every size offered, with US$8.25 to spare at the worst case.",
+    "costBasis": "Chest: US$18.31 'print included' (Printful's US page, one search read; ApparelHub gives US$18.31 with embroidery; an EU record shows left-chest embroidery at EUR 18.35). Back clock: assumed US$2.95, Printful's extra-placement fee; whether Large back charges that, a stitch-count fee instead (none under 15,000 stitches; a 25 mm clock should be far under) or both isn't confirmed. No C$ price found.",
+    "src": ["pf-sols", "apparelhub", "aaron-polo", "pf-pricing", "pf-large-emb"],
+    "profits": {"usCard": 27.4, "canadianCard": 27.82, "usCardBiggestSize": 21.72, "usCardBiggestSizeAfterFreeShipping": null, "biggestSize": "3XL"},
+    "floorCAD": 10,
+    "clearsFloor": true,
+    "spareUSD": 8.25,
+    "lowestPriceThatClears": 54.99,
+    "why": "A step above the C$44.99 tees for a shirt with two marks. C$54.99 would also clear (C$16.90 at 3XL); C$59.99 keeps both polos at one price and covers the unknown back cost.",
+    "ifMadeInOntario": "If Printful makes it in Ontario for an Ontario buyer while the store isn't GST/HST-registered, 13% HST on Printful's bill (C$4.66) leaves C$17.48 at 3XL on a Canadian card. Clears."
+   },
+   "mayState": [
+    {"fact": "Cotton pique polo (say 'cotton pique', not '100% cotton': Grey Melange is 85% cotton / 15% viscose)", "status": "likely", "src": ["mop-copy", "fw-sols"]},
+    {"fact": "6.2 oz/yd2 (210 g/m2); check Printful's page on the day", "status": "likely", "src": ["mop-copy"]},
+    {"fact": "Ribbed collar, three-button placket, straight hem with side slits", "status": "likely", "src": ["mop-copy"]},
+    {"fact": "Classic fit, unisex", "status": "likely", "src": ["mop-copy", "pf-sols"]},
+    {"fact": "Made to order and shipped to you", "status": "confirmed", "src": ["drop1"]}
+   ],
+   "mustNotState": [
+    {
+     "claim": "Near the neck, just below the collar, back of the neck",
+     "why": "Not confirmed: Printful's Large back area's size and how close to the collar it starts are unknown, and no Printful polo has a spot right below the collar."
+    },
+    {"claim": "Where it's made (Latvia, Europe, US, Canada)", "why": "Unsettled: EU data says Latvia; one search read says EU and US."},
+    {"claim": "100% cotton for every colour", "why": "Grey Melange is a blend."},
+    {"claim": "Runs small, size up", "why": "Reviews only; fit lines wait for the sample."},
+    {"claim": "Moisture-wicking, breathable, stretch, UV protection", "why": "No source says so."}
+   ],
+   "toConfirm": [
+    "Printful's editor, region Canada then US: is 'Large back' offered under Embroidery? If not, the clock goes on the left sleeve (same line as the Classic).",
+    "Drag the 25 mm clock to the top of Large back and note the gap to the collar (target: clock centre 45 mm below the back neck seam; if its top lands more than about 50 mm below the seam, the owner decides).",
+    "What the back adds to the price; the Availability tab (Latvia only? then North American orders cross an ocean, and the research's stand-in is the Gildan 64800 with the clock on the sleeve).",
+    "Sizes and colours for North America (the lists seen are EU)."
+   ]
+  },
+  "golf/Classic": {
+   "style": "Classic",
+   "blank": "Men's Premium Polo Shirt | Port Authority K500 (Printful catalog product 340)",
+   "usedIn": ["golf-punched-out"],
+   "sizes": {
+    "offer": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "status": "likely",
+    "evidence": "Not read on a Printful page. A mirror of Printful's catalogue (product 340) and Fourthwall list S-5XL; capped here at 3XL.",
+    "src": ["mfa-340", "fw-k500"],
+    "leftOut": "4XL and 5XL (over the 3XL cap)."
+   },
+   "price": {
+    "cad": 59.99,
+    "math": "Cost: US$20.76 + US$2.95 for the second placement = US$23.71, x 1.42 = C$33.67. Printful's own C$ price: C$28.50 + C$4.19 for the second placement = C$32.69 (lower, so C$33.67 is used). Card fee on C$59.99: US or Amex card 3.5% + 0.30 = C$2.40; Canadian card 2.8% + 0.30 = C$1.98. Profit S to XL: 59.99 - 33.67 - 2.40 = C$23.92 (US card); 59.99 - 33.67 - 1.98 = C$24.34 (Canadian card). 3XL: Printful adds about US$4.00 (2XL+ markup) = C$5.68, so cost C$39.35: 59.99 - 39.35 - 2.40 = C$18.24 (US card). Under C$75, so the buyer pays the store's C$12 shipping (Printful's US rate from about US$4.95 = C$7.03). Clears the C$10 floor in every size offered, with US$5.80 to spare at the worst case.",
+    "costBasis": "Chest: US$20.76, ApparelHub's S-XL price with embroidery, the highest figure seen (Printful's US page shows US$19.99 'print included' and its Canadian page C$28.50, technique not stated; its EU listing says one embroidery placement included). Sleeve clock: US$2.95, Printful's extra-placement fee.",
+    "src": ["pf-k500", "pf-k500-ca", "apparelhub", "pf-pricing"],
+    "profits": {"usCard": 23.92, "canadianCard": 24.34, "usCardBiggestSize": 18.24, "usCardBiggestSizeAfterFreeShipping": null, "biggestSize": "3XL"},
+    "floorCAD": 10,
+    "clearsFloor": true,
+    "spareUSD": 5.8,
+    "lowestPriceThatClears": 59.99,
+    "why": "Same as the Cotton Pique. C$54.99 would leave US$2.40 to spare at 3XL, less than one placement fee, while the embroidered price rests on a third party.",
+    "ifMadeInOntario": "If Printful makes it in Ontario for an Ontario buyer while the store isn't GST/HST-registered, 13% HST on Printful's bill (C$5.12) leaves C$13.54 at 3XL on a Canadian card. Clears."
+   },
+   "mayState": [
+    {"fact": "Poly-cotton pique, 65% polyester / 35% cotton", "status": "likely", "src": ["pf-polo-blog"]},
+    {"fact": "Flat knit collar and cuffs, metal buttons, side vents", "status": "likely", "src": ["pf-polo-blog"]},
+    {"fact": "Men's cut, relaxed fit that runs large (Printful's listing)", "status": "likely", "src": ["pf-k500"]},
+    {"fact": "Made to order and shipped to you", "status": "confirmed", "src": ["drop1"]}
+   ],
+   "mustNotState": [
+    {"claim": "Any mark on the back", "why": "This style has none; the clock is on the left sleeve."},
+    {"claim": "Fabric weight (5.0 oz)", "why": "Fourthwall only."},
+    {"claim": "'Silk Touch'", "why": "The maker's brand name for the fabric (AGENTS.md)."},
+    {"claim": "Moisture-wicking, wrinkle- or snag-resistant", "why": "Not in Printful's text."}
+   ],
+   "toConfirm": [
+    "Price with embroidery in US$ and C$ (US$19.99 vs US$20.76).",
+    "Left sleeve top offered under Embroidery; sizes; Availability tab (looks North American only).",
+    "'Men's' in Printful's name: the other two styles are unisex, so the Size & fit page needs its chart."
+   ]
+  },
+  "golf/Performance": {
+   "style": "Performance",
+   "blank": "Unisex Adidas Sport Polo Shirt | adidas A430 (Printful)",
+   "usedIn": ["golf-punched-out"],
+   "sizes": {
+    "offer": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "status": "likely",
+    "evidence": "Printful's blog lists S-4XL (search read); third-party lists say S-3XL or S-4XL. Capped here at 3XL.",
+    "src": ["pf-shirts-blog"],
+    "leftOut": "4XL (over the 3XL cap)."
+   },
+   "price": {
+    "cad": 89.99,
+    "math": "Cost: US$40.85 + US$2.95 for the second placement = US$43.80, x 1.42 = C$62.20. Printful's own C$ price: C$57.50 + C$4.19 for the second placement = C$61.69 (lower, so C$62.20 is used). Card fee on C$89.99: US or Amex card 3.5% + 0.30 = C$3.45; Canadian card 2.8% + 0.30 = C$2.82. Profit S to XL: 89.99 - 62.20 - 3.45 = C$24.34 (US card); 89.99 - 62.20 - 2.82 = C$24.97 (Canadian card). 3XL: Printful adds about US$4.00 (2XL+ markup) = C$5.68, so cost C$67.88: 89.99 - 67.88 - 3.45 = C$18.66 (US card). It ships free (C$75 or more), so take off Printful's US shipping, about US$4.95 = C$7.03: C$11.63 at 3XL (US card). Clears the C$10 floor in every size offered, with US$1.14 to spare at the worst case.",
+    "costBasis": "Chest: US$40.85 on Printful's US page (search reads; 'starting price US$40.05' in Printful's brand guide; C$57.50 on its Canadian page); technique behind it not stated. Sleeve clock: US$2.95, Printful's extra-placement fee.",
+    "src": ["pf-a430", "pf-a430-ca", "pf-pricing"],
+    "profits": {"usCard": 24.34, "canadianCard": 24.97, "usCardBiggestSize": 18.66, "usCardBiggestSizeAfterFreeShipping": 11.63, "biggestSize": "3XL"},
+    "floorCAD": 10,
+    "clearsFloor": true,
+    "spareUSD": 1.14,
+    "lowestPriceThatClears": 89.99,
+    "why": "This blank costs about twice the other two. At C$84.99 a 3XL that ships free makes C$6.81, under the floor. C$89.99 is the lowest price that clears every size, and it equals the hoodie. If that's too much for a polo, drop this style; the Classic covers the golf look.",
+    "ifMadeInOntario": "If Printful makes it in Ontario for an Ontario buyer while the store isn't GST/HST-registered, 13% HST on Printful's bill (C$9.74) leaves C$2.52 at 3XL on a Canadian card after free shipping. UNDER the floor: see flags."
+   },
+   "mayState": [
+    {"fact": "100% recycled polyester with a hydrophilic finish (Printful's words; don't turn it into 'moisture-wicking'; check on the day)", "status": "likely", "src": ["pf-a430"]},
+    {"fact": "4.3 oz/yd2", "status": "likely", "src": ["pf-a430"]},
+    {"fact": "Relaxed fit, unisex", "status": "likely", "src": ["pf-a430"]},
+    {"fact": "Right sleeve: the shirt maker's own logo (never by name, like the jacket's line)", "status": "likely", "src": ["golf-verified"]},
+    {"fact": "Made to order and shipped to you", "status": "confirmed", "src": ["drop1"]}
+   ],
+   "mustNotState": [
+    {"claim": "The maker's name, on the sleeve or anywhere", "why": "AGENTS.md: no brand names or logos."},
+    {"claim": "Moisture-wicking, quick-dry, UPF, stretch", "why": "Not in Printful's text."},
+    {"claim": "Anything about how the embroidery looks or lasts", "why": "A Printful review says this fabric 'does not get embroidered well'; sample first."}
+   ],
+   "toConfirm": ["Price with embroidery, US$ and C$; Left sleeve top offered under Embroidery.", "Photos: the maker's logo on the right sleeve.", "A sample before selling (thin fabric); Availability tab; sizes."]
+  }
+ },
+ "sources": {
+  "pf-1501kc": "https://www.printful.com/custom/embroidered/beanies/cuffed-beanie-yupoong-1501kc (search reads: US$13.05 with one embroidery placement, 100% acrylic, 12 in, unisex, one size, hand washable, front only, US shipping from US$4.69)",
+  "api-1501kc": "https://github.com/mblyman89/GREENWAY-WEBSITE/blob/17eb01462652f27dce445ed1488dc8aec3bcf33f/src/lib/merch-studio/garment-colors-data.ts (copy of Printful's API, 17 Oct 2026: US$13.05)",
+  "rentcoat": "https://github.com/eliglancy-ui/rentcoat.co/blob/98a498f979e2dcba05a6d49a5396bc5dc04b5ad6/scripts/printful/catalog.mjs (Printful catalogue variants checked 28 Oct 2026: 1501KC one size; M2475 Black S-2XL, the store's own size choice)",
+  "pf-knit-guide": "https://www.printful.com/ca/blog/custom-embroidered-hats-guide-to-creating-a-design-and-embroidery-file (knit hats: 5 x 1.75 in area)",
+  "pf-rio": "https://www.printful.com/custom/embroidered/beanies/ribbed-knit-beanie-atlantis (product name)",
+  "aipod-hats": "https://github.com/lroy-stack/ai-pod-store/blob/bd56e0b5cb8158502421de273f8f0453b559f9d1/project/frontend/docs/printful-research/embroidered-hats-2.md (EU store's notes from Printful's API, Mar 2026: RIO US$16.75, one size, cuffed, one front placement)",
+  "printify-1922": "https://github.com/RandomlyFuzzy/Printify_product_generator/blob/c540fc19b69553336efb83a4f4e121d714e2cf8e/src/data/Cached/blueprint_details/1922.json (RIO via Printful, May 2026: embroidered front 1500 x 525 px)",
+  "pf-organic": "https://www.printful.com/custom/embroidered/bucket-hats/organic-bucket-hat (search reads: US$20.70 with one embroidery placement, 100% organic cotton twill, GOTS, OEKO-TEX, one size fits most, classic brim, high profile, front)",
+  "pf-organic-ca": "https://www.printful.com/ca/custom/embroidered/bucket-hats/organic-bucket-hat (C$29.50)",
+  "pf-bx003": "https://www.printful.com/custom/embroidered/bucket-hats/bucket-hat-big-accessories-bx003 (search read: US$15.86, one size fits most)",
+  "pf-demo-bx003": "https://woocommerce-demo.printful.com/product/bucket-hat-i-big-accessories-bx003/ (Printful's text: 100% cotton twill, sewn eyelets)",
+  "printify-1910": "https://github.com/RandomlyFuzzy/Printify_product_generator/blob/c540fc19b69553336efb83a4f4e121d714e2cf8e/src/data/Cached/blueprint_details/1910.json (BX003 via Printful, May 2026: embroidered front 5.5 x 2 in)",
+  "pf-bucket-blog": "https://www.printful.com/blog/what-is-a-bucket-hat (older: BX003 US$15.95 standard embroidery)",
+  "ssa-bx003": "https://www.ssactivewear.com/p/big_accessories/bx003 (maker's distributor: soft, unstructured crusher)",
+  "pf-ls14014": "https://www.printful.com/custom/mens/hoodies-sweatshirts/unisex-premium-quarter-zip-sweatshirt-lane-seven-ls14014 (search read: US$25.24, 'Soft fleece, relaxed fit'; technique not shown)",
+  "pf-ls14014-ca": "https://www.printful.com/ca/custom/mens/hoodies-sweatshirts/unisex-premium-quarter-zip-sweatshirt-lane-seven-ls14014 (C$35.95)",
+  "mfa-1473": "https://merchforall.com/products/1473 (mirror of Printful's catalogue: S-3XL)",
+  "l7-ls14014": "https://www.lanesevenapparel.com/product/LS14014/Premium-Quarter-Zip.html (maker: mock neck, fabric)",
+  "pf-m2475": "https://www.printful.com/custom/mens/sweatshirts/unisex-fleece-pullover-cotton-heritage-m2475 (search read: US$22.85, relaxed fit, embroidery offered)",
+  "pf-m2475-ca": "https://www.printful.com/ca/custom/mens/sweatshirts/unisex-fleece-pullover-cotton-heritage-m2475 (C$32.50, in stock)",
+  "printify-1754": "https://github.com/RandomlyFuzzy/Printify_product_generator/blob/c540fc19b69553336efb83a4f4e121d714e2cf8e/src/data/Cached/blueprint_details/1754.json (M2475 via Printful, May 2026: S-3XL, left chest 4 x 4 in embroidery)",
+  "mfa-674": "https://merchforall.com/products/674 (mirror of Printful's catalogue: S-3XL)",
+  "ch-m2475": "https://www.cottonheritage.com/product/M2475/Quarter-Zip-Fleece.html (maker: stand collar, rib cuffs and waistband)",
+  "pf-sols": "https://www.printful.com/custom/mens/polo-shirts/unisex-premium-pique-polo-shirt-sols-11362 (one search read: US$18.31 print included; embroidery left chest, Large back, sleeve tops; US shipping from US$4.95)",
+  "aaron-polo": "https://github.com/AaronJCunningham/portfolio/blob/0dfdbc0b32873809f83310ea04e95d57e7fef07f/docs/printful-polo.json (EU Printful record, 16 Oct 2026: S-5XL, left-chest embroidery)",
+  "aipod-sols": "https://github.com/lroy-stack/ai-pod-store/blob/bd56e0b5cb8158502421de273f8f0453b559f9d1/project/.claude/skills/printful-sols11362-embroidery/SKILL.md (EU notes: made in Latvia)",
+  "mop-copy": "https://github.com/chiefsmurph/modern-orange-pineapple/blob/0fe48417c5a72dbb9325904c1de9542cc75e132a/lib/catalog/copy.ts (store's copy of Printful's SOL'S text: cotton pique, 6.2 oz, collar, placket, side slits, classic fit)",
+  "fw-sols": "https://fourthwall.com/products/sols-unisex-premium-pique-polo-shirt-embroidery (Large back; Grey Melange 85/15 cotton/viscose)",
+  "apparelhub": "https://apparelhub.ai/blog/best-print-on-demand-supplier-for-polo-shirts (third party, Oct 2026: SOL'S US$18.31, K500 US$20.76 with embroidery; placements)",
+  "pf-large-emb": "https://help.printful.com/hc/en-us/articles/4909652626204-What-s-the-large-embroidery-pricing (nothing extra under 15,000 stitches)",
+  "pf-k500": "https://www.printful.com/custom/mens/embroidered-shirts/premium-polo-shirt-port-authority-k500 (search reads: US$19.99 print included; left chest, sleeve tops; 'relaxed fit that runs large')",
+  "pf-k500-ca": "https://www.printful.com/ca/custom/mens/embroidered-shirts/premium-polo-shirt-port-authority-k500 (C$28.50, technique not stated)",
+  "pf-polo-blog": "https://www.printful.com/blog/best-polo-shirts-for-embroidery (K500: 65/35 poly-cotton pique, flat knit collar and cuffs, metal buttons, side vents)",
+  "mfa-340": "https://merchforall.com/products/340 (mirror of Printful's catalogue: S-5XL)",
+  "fw-k500": "https://fourthwall.com/products/port-authority-polo-shirt- (S-5XL)",
+  "pf-a430": "https://www.printful.com/custom/mens/polo-shirts/adidas-sport-polo-shirt (search reads: US$40.85, 100% recycled polyester with a hydrophilic finish, 4.3 oz, relaxed fit, left chest and left sleeve top)",
+  "pf-a430-ca": "https://www.printful.com/ca/custom/mens/polo-shirts/adidas-sport-polo-shirt (C$57.50)",
+  "pf-shirts-blog": "https://www.printful.com/blog/best-t-shirts-for-embroidery (A430: S-4XL)",
+  "pf-pricing": "https://www.printful.com/pricing (extra embroidery placement US$2.95)",
+  "pf-2xl": "https://help.printful.com/hc/en-us/articles/14931863413148-What-is-the-2XL-size-markup (2XL+ markup)",
+  "pf-emb-prep": "https://help.printful.com/hc/en-us/articles/28727397325340-How-should-I-prepare-my-design-for-embroidery (1.27 mm line minimum)",
+  "shopify-ca": "https://www.shopify.com/ca/pricing (Basic card rates)",
+  "fx": "https://www.exchange-rates.org/exchange-rate-history/cad-usd-2026-10-01 (1.42)",
+  "plan": "/home/user/offshft/store/apparel-plan.md (pricing method, floors, fees, markup, HST)",
+  "golf-md": "/home/user/offshft/store/research/golf-shirts.md",
+  "more-md": "/home/user/offshft/store/research/more-pieces.md",
+  "golf-verified": "/tmp/claude-0/-home-user/baaa626f-827d-5693-ad14-ed0dd81cc068/scratchpad/golf-result.json (verified)",
+  "more-verified": "/tmp/claude-0/-home-user/baaa626f-827d-5693-ad14-ed0dd81cc068/scratchpad/more-result.json (verified)",
+  "fulfil": "/home/user/offshft/store/research/fulfilment.md (hoodie US shipping from US$8.79)",
+  "picks": "/home/user/offshft/store/picks.md (live prices; shipping C$12, free from C$75)",
+  "template": "/home/user/offshft/store/products/_template.md",
+  "apparel-copy": "/home/user/offshft/store/apparel-copy.md",
+  "collections": "/home/user/offshft/store/collections.md",
+  "drop1": "/home/user/offshft/store/products/drop1.json",
+  "art": "/home/user/offshft/designs/mark/final/the-o/ and /home/user/offshft/designs/09-punched-out/v3/"
+ }
+}

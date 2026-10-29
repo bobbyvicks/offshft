@@ -1,0 +1,1118 @@
+{
+ "query": "mutation Drop1b($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!, $p5: ProductSetInput!, $p6: ProductSetInput!, $p7: ProductSetInput!, $p8: ProductSetInput!, $p9: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p5: productSet(synchronous: true, input: $p5) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p6: productSet(synchronous: true, input: $p6) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p7: productSet(synchronous: true, input: $p7) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p8: productSet(synchronous: true, input: $p8) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p9: productSet(synchronous: true, input: $p9) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n}",
+ "variables": {
+  "p0": {
+   "title": "OFF SHFT Logo Beanie",
+   "handle": "off-shft-logo-beanie",
+   "descriptionHtml": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The rest of the day is your time.</p><p>Toque weather. For cold mornings on the water and the walk back to the truck.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Cuff: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide</li><li>Styles: Cuffed or Ribbed</li><li>Cuffed: 100% acrylic knit, 12 in (30 cm) long. Hand wash</li><li>Ribbed: ribbed knit, with a turned-up cuff</li><li>One size</li></ul>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "off-shft-logo",
+    "beanie",
+    "drop-1b"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "OFF SHFT Logo Embroidered Beanie",
+    "description": "The O in OFF is a clock set to 5:00. Quitting time. The OFF SHFT logo, embroidered on a beanie made to order. Toque weather."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Cuffed"
+      },
+      {
+       "name": "Ribbed"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Cuffed"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Ribbed"
+      }
+     ],
+     "price": "39.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/83646266-0fa7-4205-9740-27201b1fbe39/offshft-beanie-logo.png",
+     "contentType": "IMAGE",
+     "alt": "OFF SHFT Logo Beanie: drawing with the OFF SHFT logo at real size"
+    }
+   ]
+  },
+  "p1": {
+   "title": "The Clock Beanie",
+   "handle": "the-clock-beanie",
+   "descriptionHtml": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own.</p><p>Toque weather. For cold mornings on the water and the walk back to the truck.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Cuff: the clock, embroidered, about 25 mm (1 in) tall</li><li>Styles: Cuffed or Ribbed</li><li>Cuffed: 100% acrylic knit, 12 in (30 cm) long. Hand wash</li><li>Ribbed: ribbed knit, with a turned-up cuff</li><li>One size</li></ul>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "the-clock",
+    "beanie",
+    "drop-1b"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "The Clock Embroidered Beanie | OFF SHFT",
+    "description": "A clock with its hands at 5:00. Quitting time. The Clock, embroidered on a beanie made to order. Toque weather."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Cuffed"
+      },
+      {
+       "name": "Ribbed"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Cuffed"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Ribbed"
+      }
+     ],
+     "price": "39.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/33ff9537-4dd3-4f94-b529-4bc6da5c13a6/offshft-beanie-clock.png",
+     "contentType": "IMAGE",
+     "alt": "The Clock Beanie: drawing with the clock at real size"
+    }
+   ]
+  },
+  "p2": {
+   "title": "Punched Out. Beanie",
+   "handle": "punched-out-beanie",
+   "descriptionHtml": "<p>Punched out.</p><p>Two words and a full stop. Nothing else to say.</p><p>Toque weather. For cold mornings on the water and the walk back to the truck.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Cuff: PUNCHED OUT., embroidered on two lines, about 64 mm (2.5 in) wide</li><li>Styles: Cuffed or Ribbed</li><li>Cuffed: 100% acrylic knit, 12 in (30 cm) long. Hand wash</li><li>Ribbed: ribbed knit, with a turned-up cuff</li><li>One size</li></ul>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "text-hat",
+    "punched-out",
+    "beanie",
+    "drop-1b"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "Punched Out. Embroidered Beanie | OFF SHFT",
+    "description": "Two words and a full stop. Punched Out., embroidered on a beanie made to order. Toque weather."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Cuffed"
+      },
+      {
+       "name": "Ribbed"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Cuffed"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Ribbed"
+      }
+     ],
+     "price": "39.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e6c59e4b-1e5a-4c64-8b1d-1a3a9d4a828b/offshft-beanie-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Punched Out. Beanie: drawing with Punched Out. at real size"
+    }
+   ]
+  },
+  "p3": {
+   "title": "OFF SHFT Logo Bucket Hat",
+   "handle": "off-shft-logo-bucket-hat",
+   "descriptionHtml": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The rest of the day is your time.</p><p>For the dock, the boat and a long afternoon at the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide</li><li>Styles: Organic or Classic</li><li>Organic: 100% organic cotton twill, with a high crown. Spot clean or hand wash</li><li>Classic: 100% cotton twill, with sewn eyelets</li><li>One size fits most</li></ul>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "off-shft-logo",
+    "bucket-hat",
+    "drop-1b"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "OFF SHFT Logo Embroidered Bucket Hat",
+    "description": "The O in OFF is a clock set to 5:00. Quitting time. The OFF SHFT logo, embroidered on a bucket hat made to order. For the dock and the boat."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Organic"
+      },
+      {
+       "name": "Classic"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Organic"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Classic"
+      }
+     ],
+     "price": "39.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/c1827ede-ca6c-40c8-8e37-6d88fd6afbc0/offshft-bucket-hat-logo.png",
+     "contentType": "IMAGE",
+     "alt": "OFF SHFT Logo Bucket Hat: drawing with the OFF SHFT logo at real size"
+    }
+   ]
+  },
+  "p4": {
+   "title": "The Clock Bucket Hat",
+   "handle": "the-clock-bucket-hat",
+   "descriptionHtml": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own.</p><p>For the dock, the boat and a long afternoon at the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: the clock, embroidered, about 25 mm (1 in) tall</li><li>Styles: Organic or Classic</li><li>Organic: 100% organic cotton twill, with a high crown. Spot clean or hand wash</li><li>Classic: 100% cotton twill, with sewn eyelets</li><li>One size fits most</li></ul>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "the-clock",
+    "bucket-hat",
+    "drop-1b"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "The Clock Embroidered Bucket Hat | OFF SHFT",
+    "description": "A clock with its hands at 5:00. Quitting time. The Clock, embroidered on a bucket hat made to order. For the dock and the boat."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Organic"
+      },
+      {
+       "name": "Classic"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Organic"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Classic"
+      }
+     ],
+     "price": "39.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/f63aa21c-6590-43fd-a4f3-7a27a4773c96/offshft-bucket-hat-clock.png",
+     "contentType": "IMAGE",
+     "alt": "The Clock Bucket Hat: drawing with the clock at real size"
+    }
+   ]
+  },
+  "p5": {
+   "title": "Punched Out. Bucket Hat",
+   "handle": "punched-out-bucket-hat",
+   "descriptionHtml": "<p>Punched out.</p><p>Two words and a full stop. Nothing else to say.</p><p>For the dock, the boat and a long afternoon at the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: PUNCHED OUT., embroidered on one line, about 97 mm (3.8 in) wide</li><li>Styles: Organic or Classic</li><li>Organic: 100% organic cotton twill, with a high crown. Spot clean or hand wash</li><li>Classic: 100% cotton twill, with sewn eyelets</li><li>One size fits most</li></ul>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "text-hat",
+    "punched-out",
+    "bucket-hat",
+    "drop-1b"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "Punched Out. Embroidered Bucket Hat | OFF SHFT",
+    "description": "Two words and a full stop. Punched Out., embroidered on a bucket hat made to order. For the dock and the boat."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Organic"
+      },
+      {
+       "name": "Classic"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Organic"
+      }
+     ],
+     "price": "44.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Classic"
+      }
+     ],
+     "price": "39.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/1cb32983-36a0-4b7c-b45c-c0b1db4da13b/offshft-bucket-hat-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Punched Out. Bucket Hat: drawing with Punched Out. at real size"
+    }
+   ]
+  },
+  "p6": {
+   "title": "OFF SHFT Logo Quarter-Zip",
+   "handle": "off-shft-logo-quarter-zip",
+   "descriptionHtml": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The rest of the day is your time.</p><p>For an early round and the couch after.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide</li><li>Unisex fleece, with a stand collar, rib cuffs and waistband</li><li>Fit: relaxed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Quarter-Zip",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "off-shft-logo",
+    "quarter-zip",
+    "drop-1b"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "OFF SHFT Logo Embroidered Quarter-Zip",
+    "description": "The O in OFF is a clock set to 5:00. Quitting time. The OFF SHFT logo, embroidered on a quarter-zip made to order. For the course, then the couch."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/0192d963-632a-4ffa-bf3c-cef164893365/offshft-quarter-zip-logo.png",
+     "contentType": "IMAGE",
+     "alt": "OFF SHFT Logo Quarter-Zip: drawing with the OFF SHFT logo at real size"
+    }
+   ]
+  },
+  "p7": {
+   "title": "The Clock Quarter-Zip",
+   "handle": "the-clock-quarter-zip",
+   "descriptionHtml": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own.</p><p>For an early round and the couch after.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: the clock, embroidered, about 25 mm (1 in) tall</li><li>Unisex fleece, with a stand collar, rib cuffs and waistband</li><li>Fit: relaxed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Quarter-Zip",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "logo",
+    "the-clock",
+    "quarter-zip",
+    "drop-1b"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "The Clock Embroidered Quarter-Zip | OFF SHFT",
+    "description": "A clock with its hands at 5:00. Quitting time. The Clock, embroidered on a quarter-zip made to order. For the course, then the couch."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ab357c10-fa48-4c8a-8176-68e282223086/offshft-quarter-zip-clock.png",
+     "contentType": "IMAGE",
+     "alt": "The Clock Quarter-Zip: drawing with the clock at real size"
+    }
+   ]
+  },
+  "p8": {
+   "title": "Punched Out. Quarter-Zip",
+   "handle": "punched-out-quarter-zip",
+   "descriptionHtml": "<p>Punched out.</p><p>Two words and a full stop. Nothing else to say.</p><p>For an early round and the couch after.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: PUNCHED OUT., embroidered on two lines, about 64 mm (2.5 in) wide</li><li>Unisex fleece, with a stand collar, rib cuffs and waistband</li><li>Fit: relaxed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Quarter-Zip",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "punched-out",
+    "quarter-zip",
+    "drop-1b"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "Punched Out. Embroidered Quarter-Zip | OFF SHFT",
+    "description": "Two words and a full stop. Punched Out., embroidered on a quarter-zip made to order. For the course, then the couch."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/977ed010-b5d8-4cbb-867d-566685592640/offshft-quarter-zip-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Punched Out. Quarter-Zip: drawing with Punched Out. at real size"
+    }
+   ]
+  },
+  "p9": {
+   "title": "Punched Out. Golf Shirt",
+   "handle": "punched-out-golf-shirt",
+   "descriptionHtml": "<p>Punched out.</p><p>Shift's over. Tee's up.</p><p>For nine holes after work, or eighteen on your day off.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Styles: Cotton Pique, Classic or Performance</li><li>Left chest: PUNCHED OUT., embroidered on two lines, about 64 mm (2.5 in) wide</li><li>Left sleeve: the clock, embroidered, about 25 mm (1 in) tall</li><li>Cotton Pique: 6.2 oz/yd² (210 g/m²). Ribbed collar, three buttons, side slits</li><li>Classic: 65% polyester, 35% cotton pique. Flat knit collar, side vents. Men's cut, relaxed fit that runs large</li><li>Performance: 100% recycled polyester, 4.3 oz/yd² (146 g/m²). Relaxed fit. Right sleeve: the shirt maker's own logo</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Polo",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "punched-out",
+    "golf-shirt",
+    "drop-1b"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "Punched Out. Embroidered Golf Shirt | OFF SHFT",
+    "description": "Shift's over. Tee's up. Punched Out., embroidered on a golf shirt made to order. For nine holes after work, or eighteen on your day off."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Cotton Pique"
+      },
+      {
+       "name": "Classic"
+      },
+      {
+       "name": "Performance"
+      }
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Cotton Pique"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Cotton Pique"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Cotton Pique"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Cotton Pique"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Cotton Pique"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Cotton Pique"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Classic"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Classic"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Classic"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Classic"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Classic"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Classic"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "59.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Performance"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Performance"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Performance"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Performance"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Performance"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Performance"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7a9cf3dc-ce68-4d2c-a4e4-91d0d88ce0fc/offshft-golf-shirt-punched-out.png",
+     "contentType": "IMAGE",
+     "alt": "Punched Out. Golf Shirt: drawing with Punched Out. on the left chest at real size"
+    },
+    {
+     "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/be7895e3-7d76-49c3-acc5-540d9f3ec019/offshft-golf-shirt-sleeve.png",
+     "contentType": "IMAGE",
+     "alt": "Punched Out. Golf Shirt: drawing with the clock on the left sleeve at real size"
+    }
+   ]
+  }
+ }
+}

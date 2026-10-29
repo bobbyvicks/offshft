@@ -1,7 +1,7 @@
 # Size & fit
 
 - **SEO title (23 characters):** Size and Fit | OFF SHFT
-- **Meta description (109 characters):** Hats are one size and adjust at the back. Size charts for the hoodies, crewneck, tees, sweatpants and jacket.
+- **Meta description (90 characters):** Every hat is one size. Size charts for the hoodies, crewneck, tees, sweatpants and jacket.
 
 Online Store → Pages → Add page. Title: Size & fit. Handle: size-fit. Template: default page. Paste the text between the markers into the content box. The SEO title and meta description go under "Search engine listing".
 
@@ -11,7 +11,7 @@ Every number on this page depends on the blanks the partner makes the hats on. F
 
 ### Hats
 
-Every hat is one size and adjusts at the back. The Retro Trucker and 5-Panel are firm up front, and the Rope Cap is softer. All three have a snap. The Dad Hat is soft and sits low, with a strap and buckle.
+Every hat is one size. Caps adjust at the back: the Retro Trucker and 5-Panel are firm up front, and the Rope Cap is softer. All three have a snap. The Dad Hat is soft and sits low, with a strap and buckle. Beanies and bucket hats don\'t adjust.
 
 ### Clothes
 
@@ -26,6 +26,8 @@ Sizes are unisex. Measure something you own that fits the way you like. Take you
 Find the closest match in the charts below. They\'re measured the same way, but any piece can be up to 5 cm (2 in) off.
 
 Stuck between two sizes? [Send us your measurements](/pages/contact) and we\'ll help you pick.
+
+No chart yet for the quarter-zips and golf shirts. [Ask us](/pages/contact) and we\'ll check the measurements for you.
 
   Oversized hoodie   Chest, cm (in)   Length, cm (in)
   ------------------ ---------------- -----------------
