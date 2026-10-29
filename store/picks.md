@@ -14,6 +14,7 @@ The owner chose these 11 on the picker page (its database, picks/owner, version 
 | Crewneck | Comfort Colors 1466 |
 | Sweatpants | Comfort Colors 1469 |
 | Tees | Comfort Colors 1717, Comfort Colors 6030 (pocket tee) |
+| Jacket | Champion CO200 packable anorak, added from the owner's link: https://www.printful.com/custom/collections/embroidery/embroidered-champion-packable-jacket |
 
 Designs on each piece, chosen on the picker's Designs tab (database: designs/owner, version 20). Each design on each piece becomes its own product:
 - The OFF SHFT logo, the clock and Punched Out. go on all four hats, all three hoodies, the 1466 crewneck and the 1469 sweatpants.
@@ -22,7 +23,14 @@ Designs on each piece, chosen on the picker's Designs tab (database: designs/own
 
 Not selected: Bella + Canvas 4711 and Comfort Colors 1566 crewnecks; Bella + Canvas 4737, Cotton Heritage M7580 and Jerzees 975MPR bottoms; Independent Trading IND20SRT shorts.
 
-Still to confirm for the 11, before samples:
+The anorak (added 29 Oct 2026), as Printful lists it: "Unisex Champion Packable Anorak | CO200", catalog product 399.
+- A half-zip pullover with an adjustable bungee hood, 2.8 oz polyester micro poplin, wind and rain resistant. It packs into its front pouch pocket.
+- US$43.42 listed. Left-chest embroidery, with small, simple designs suggested on this light fabric.
+- Champion's own C logo is on the left sleeve.
+- One Printful page said it's unavailable in some regions [CONFIRM: Canada and the US]. Colours on the maker's sheet: Black and Dark Green [CONFIRM: Printful's list].
+- Sources: https://www.printful.com/custom/product/399, https://sellfy.com/pod-catalogue/mens-clothing/embroidered-champion-packable-jacket-6b870/, https://www.blankstyle.com/files/specs/16115/SpecSheetMeasurements_CO200.pdf
+
+Still to confirm for the 12, before samples:
 - Where Printful makes each one with embroidery: US, Canada (Ontario) or both. Search hasn't turned this up for any of them. It shows in each product's Availability tab on Printful.
 - Whether Printful embroiders the 1467 hoodie and the 1469 sweatpants.
 - Each price with embroidery, in US$ and C$.
