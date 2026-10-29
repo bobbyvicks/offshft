@@ -91,6 +91,14 @@ const load = (f) => { const s = fs.readFileSync(path.join(INSTALLED, f), 'utf8')
 const save = (f, data) => { fs.mkdirSync(path.dirname(path.join(OUT, f)), { recursive: true }); fs.writeFileSync(path.join(OUT, f), SHOP_HEADER + JSON.stringify(data, null, 2) + '\n'); };
 const BONE = '#ECE5D3', INK = '#1F2733', SLATE = '#27303D', FABRIC = '#E4DDCB', OAT = '#C7B48E';
 const text = (html, settings = {}) => ({ type: 'text', settings: { text: html, ...settings }, blocks: {} });
+// Brand letter-spacing (0.12 em) and readable muted text (70%), theme.md section 3. Shopify says apps shouldn't write
+// the editor's Custom CSS box, and a code edit would stop Horizon's automatic updates, so the two values go in an
+// empty Custom Liquid section in the header group (and the password page, which has no header). Section groups and
+// JSON templates are merchant files, so updates keep working. html:root outranks Horizon's own :root values.
+const BRAND_CSS_SECTION = {
+  type: 'custom-liquid',
+  settings: { custom_liquid: '<style>html:root{--letter-spacing--heading-loose:.12em;--opacity-muted-text:.7}</style>', section_width: 'page-width', 'padding-block-start': 0, 'padding-block-end': 0 },
+};
 
 // Header group: Slate announcement bar, centred logo, plain-text menu
 {
@@ -114,6 +122,8 @@ const text = (html, settings = {}) => ({ type: 'text', settings: { text: html, .
     menu: 'main-menu', type_font_primary_size: '0.875rem', type_font_primary_link: 'subheading', type_case_primary_link: 'none',
     menu_style: 'text', navigation_bar: false, drawer_accordion: true, drawer_accordion_expand_first: true, drawer_dividers: false,
   });
+  hg.sections.custom_liquid_brand_css = BRAND_CSS_SECTION;
+  hg.order = [...hg.order, 'custom_liquid_brand_css'];
   save('sections/header-group.json', hg);
 }
 
@@ -250,6 +260,8 @@ const text = (html, settings = {}) => ({ type: 'text', settings: { text: html, .
   Object.assign(b.logo.settings, { unit: 'pixel', pixel_height: 40 });
   b['text-2'].settings.text = "<p>Hats for the hours you earned. Leave your email and we'll let you know when we open. Unsubscribe any time.</p>";
   Object.assign(b['email-signup'].settings, { label: 'Sign up', style_class: 'button', border_radius: 0, input_text_color: P('foreground'), input_border_color: P('foreground') });
+  pw.sections.custom_liquid_brand_css = BRAND_CSS_SECTION;
+  pw.order = [...pw.order, 'custom_liquid_brand_css'];
   save('templates/password.json', pw);
 }
 

@@ -3,6 +3,7 @@
 ## Phase 1: Set up (week 1). Owner tasks, about 1–2 hours total
 
 - [ ] Search "OFF SHFT" on Instagram, TikTok, Etsy and the Canadian trademark database (CIPO). Stop and rethink if a clothing brand already uses it.
+  - Owner decision, 29 Oct 2026: told about FIGS, Inc.'s US filing for OFF-SHIFT (serial 97169167, surgical scrubs including scrub hats, class 10) and chose to go ahead with OFF SHFT.
 - [ ] Buy offshft.com (and offshifthats.com as a backup that forwards to it)
 - [ ] Decide on the Shopify store: use the existing connected store or start a new one
 - [ ] Rename the store to OFF SHFT and connect the domain

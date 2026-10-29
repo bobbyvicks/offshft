@@ -11,9 +11,10 @@ Differences from theme.md, made to fit this store:
 
 - Image settings use the names the files have in Content -> Files (`offshft-logo-ink.png` and so on).
 - The palette has two extra colours here: color1 is Slate, color2 is Oat. Bone fabric (#E4DDCB) is written as a plain hex.
-- The heading letter-spacing (0.12 em) and the muted-text opacity (70%) are set in `snippets/theme-styles-variables.liquid`
-  (theme.md section 8). Shopify's docs say apps shouldn't write the editor's Custom CSS box. Re-apply these two lines
-  after any Horizon update.
+- The heading letter-spacing (0.12 em) and the muted-text opacity (70%) sit in an empty Custom Liquid section at the end
+  of the header group (and on the password page): `<style>html:root{...}</style>`. Shopify's docs say apps shouldn't
+  write the editor's Custom CSS box, and a code edit would stop Horizon's automatic updates; section groups and JSON
+  templates are merchant files, so updates keep working. Don't delete the "Custom liquid" section in the header.
 - Setting values use Horizon's stored values, not the editor labels (for example `button-custom`, `icon`, `text`).
 - The footer was light as installed; it is set to Slate here, and the sign-up form sits inside the sign-up group so the
   footer has three columns.

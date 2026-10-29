@@ -105,10 +105,20 @@
         "text_color_top": "{{ settings.color_palette.foreground }}",
         "bubble_style": "default"
       }
+    },
+    "custom_liquid_brand_css": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>html:root{--letter-spacing--heading-loose:.12em;--opacity-muted-text:.7}</style>",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
     "header_announcements_9jGBFp",
-    "header_section"
+    "header_section",
+    "custom_liquid_brand_css"
   ]
 }
