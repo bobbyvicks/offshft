@@ -97,10 +97,17 @@ const rect = (x0, y0, x1, y1) => [{ X: x0 * SC, Y: y0 * SC }, { X: x1 * SC, Y: y
 const sTrimMM = (cap) => ({ upper: Math.max(0, 0.36 - 0.1 * (cap - 7)), lower: Math.max(0, 0.41 - 0.1 * (cap - 7)) });
 
 // One glyph as a single merged outline in mm, left side bearing at x, baseline at baseY.
-function glyphMM(font, ch, x, baseY, cap) {
+// edits: an optional per-letter table for other designs set in this type (the logo passes none, so its output is
+// unchanged), in font units with y up: { E: { draw: [[x0, y0, x1, y1], ...] }, C: { cut: [[x0, y0, x1, y1], ...] } }.
+// draw replaces the font's outline with the union of those rectangles (a redrawn letter); cut removes rectangles from
+// the outline, the way the S trim below does.
+function glyphMM(font, ch, x, baseY, cap, edits) {
   const f = kit.font(font.key), upm = f.unitsPerEm;
   const k = cap / f.tables.os2.sCapHeight;                      // mm per font unit
-  let paths = clip(ClipperLib.ClipType.ctUnion, toClip(contoursOf(f.charToGlyph(ch), upm)));
+  const ed = edits && edits[ch];
+  const flip = ([x0, y0, x1, y1]) => rect(x0, -y1, x1, -y0);     // font units, y up -> getPath's y down
+  let paths = clip(ClipperLib.ClipType.ctUnion, ed && ed.draw ? ed.draw.map(flip) : toClip(contoursOf(f.charToGlyph(ch), upm)));
+  if (ed && ed.cut && ed.cut.length) paths = clip(ClipperLib.ClipType.ctDifference, paths, ed.cut.map(flip));
   let trims = null;
   if (ch === 'S' && font.sTrim) {
     const t = sTrimMM(cap), s = font.sTrim;

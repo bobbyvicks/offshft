@@ -1,0 +1,20 @@
+[
+  {
+    "id": "one-line",
+    "name": "One line",
+    "description": "PUNCHED OUT. on one line in the logo's type at the logo's letter height: Ink letters with a Rust full stop, or Bone with a Sun stop on dark fabric. For hat fronts, and drawn big for the centre front of the hoodies and crewneck.",
+    "light": "designs/09-punched-out/v3/one-line-light.svg",
+    "dark": "designs/09-punched-out/v3/one-line-dark.svg",
+    "w": 97.47,
+    "h": 7.3
+  },
+  {
+    "id": "stacked-centred",
+    "name": "Stacked, centred",
+    "description": "PUNCHED over OUT., centred, with the full stop hanging past OUT. The logo's height and almost its width, for the left chest and the sweatpants leg, or a hat front as a block.",
+    "light": "designs/09-punched-out/v3/stacked-centred-light.svg",
+    "dark": "designs/09-punched-out/v3/stacked-centred-dark.svg",
+    "w": 63.59,
+    "h": 18
+  }
+]
