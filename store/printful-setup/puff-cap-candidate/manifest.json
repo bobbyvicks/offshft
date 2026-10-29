@@ -1,0 +1,58 @@
+{
+  "status": "OWNER APPROVED FOR SETUP \u2014 supplier digitization acceptance pending",
+  "source": "designs/13-ours-to-spend/design.svg",
+  "sourceSha256": "f13c558063f67d9ef0e278dc2f894c6d093c28d4d0ad61137b518157c9ed638f",
+  "dimensionsMm": [
+    148.1189,
+    48.186
+  ],
+  "pngDpi": 600,
+  "files": [
+    {
+      "palette": "bone-sun",
+      "svg": "candidate-bone-sun.svg",
+      "png": "candidate-bone-sun.png",
+      "pixels": [
+        3499,
+        1138
+      ],
+      "dpi": 600,
+      "transparent": true,
+      "colourSpace": "sRGB",
+      "svgSha256": "0e2146fd28aeb5b6fb9e28a7306d286e4e3ec3b48607b19f249618301d19d50b",
+      "pngSha256": "41be3a92a9bc8243a0fafcddecf589f124c0c8752b93335ade5d053bb4f5ef58"
+    },
+    {
+      "palette": "ink-rust",
+      "svg": "candidate-ink-rust.svg",
+      "png": "candidate-ink-rust.png",
+      "pixels": [
+        3499,
+        1138
+      ],
+      "dpi": 600,
+      "transparent": true,
+      "colourSpace": "sRGB",
+      "svgSha256": "557370cfb894a3fd29383b9a71d92b77444f46ef39ace95725b2ad5752b5752c",
+      "pngSha256": "9330bac4913ff015a7a92d663736f9d12b40f49b306ab7fb215b40a01344c1d2"
+    },
+    {
+      "palette": "bone",
+      "svg": "candidate-bone.svg",
+      "png": "candidate-bone.png",
+      "pixels": [
+        3499,
+        1138
+      ],
+      "dpi": 600,
+      "transparent": true,
+      "colourSpace": "sRGB",
+      "svgSha256": "e562d7ba99a01ca3424fa7ed34cf1c70a22ecb5c400f6e151839249419bf1e94",
+      "pngSha256": "c84ea0b8c80e22742756f534272cbe93513d8d35e74017b84ea09cb21e5a7bd2"
+    }
+  ],
+  "comparisonProof": "comparison-proof.png",
+  "builder": "build.cjs",
+  "geometry": "measurements.json",
+  "ownerApproval": "owner-approval.json"
+}

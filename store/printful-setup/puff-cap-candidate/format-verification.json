@@ -1,0 +1,46 @@
+{
+  "status": "UNAPPROVED CANDIDATE",
+  "formatChecksPassed": true,
+  "approvedSourceAndExistingUploadEntriesUnchanged": 12,
+  "protectedHashComparisons": 48,
+  "allPalettesSameAlphaGeometry": true,
+  "allPngsTransparentSrgb600Dpi": true,
+  "files": [
+    {
+      "palette": "bone-sun",
+      "pixels": [
+        3499,
+        1138
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "bytes": 136100
+    },
+    {
+      "palette": "ink-rust",
+      "pixels": [
+        3499,
+        1138
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "bytes": 134173
+    },
+    {
+      "palette": "bone",
+      "pixels": [
+        3499,
+        1138
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "bytes": 135663
+    }
+  ]
+}

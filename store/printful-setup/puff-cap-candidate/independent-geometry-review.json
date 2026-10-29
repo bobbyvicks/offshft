@@ -1,0 +1,306 @@
+{
+  "status": "Independent geometric review; no supplier acceptance",
+  "measuredSvgSource": "measurements.json final contours from candidate SVG build",
+  "fieldFits": true,
+  "artworkMm": [
+    148.1189,
+    48.186
+  ],
+  "constructiveMinimumNote": "5.3 mm rolling-disc envelope constructed from a connected eroded core for each glyph; this certifies a connected clearance route, not every arbitrary chord near a rounded tip.",
+  "svgChecks": [
+    {
+      "path": "candidate-ink-rust.svg",
+      "sha256": "557370cfb894a3fd29383b9a71d92b77444f46ef39ace95725b2ad5752b5752c",
+      "contoursMatchMeasurements": true
+    },
+    {
+      "path": "candidate-bone-sun.svg",
+      "sha256": "0e2146fd28aeb5b6fb9e28a7306d286e4e3ec3b48607b19f249618301d19d50b",
+      "contoursMatchMeasurements": true
+    },
+    {
+      "path": "candidate-bone.svg",
+      "sha256": "e562d7ba99a01ca3424fa7ed34cf1c70a22ecb5c400f6e151839249419bf1e94",
+      "contoursMatchMeasurements": true
+    }
+  ],
+  "approvedSourceHashUnchanged": true,
+  "glyphs": [
+    {
+      "id": "glyph-1",
+      "character": "O",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.1305,
+        "upperBoundDiameterMm": 7.1505,
+        "centreMm": [
+          21.4941,
+          11.362
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        9.2491
+      ]
+    },
+    {
+      "id": "glyph-2",
+      "character": "U",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.1065,
+        "upperBoundDiameterMm": 7.1265,
+        "centreMm": [
+          44.7485,
+          13.8016
+        ]
+      },
+      "counterMinimumCalipersMm": []
+    },
+    {
+      "id": "glyph-3",
+      "character": "R",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 8.1556,
+        "upperBoundDiameterMm": 8.1756,
+        "centreMm": [
+          54.3048,
+          11.8539
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        2.9828
+      ]
+    },
+    {
+      "id": "glyph-4",
+      "character": "S",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.2642,
+        "upperBoundDiameterMm": 7.2842,
+        "centreMm": [
+          90.8253,
+          13.5157
+        ]
+      },
+      "counterMinimumCalipersMm": []
+    },
+    {
+      "id": "glyph-5",
+      "character": "T",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 8.3815,
+        "upperBoundDiameterMm": 8.4015,
+        "centreMm": [
+          110.1867,
+          4.6123
+        ]
+      },
+      "counterMinimumCalipersMm": []
+    },
+    {
+      "id": "glyph-6",
+      "character": "O",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.1293,
+        "upperBoundDiameterMm": 7.1493,
+        "centreMm": [
+          144.5453,
+          10.6956
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        9.2491
+      ]
+    },
+    {
+      "id": "glyph-7",
+      "character": "S",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.2643,
+        "upperBoundDiameterMm": 7.2843,
+        "centreMm": [
+          17.9536,
+          39.5087
+        ]
+      },
+      "counterMinimumCalipersMm": []
+    },
+    {
+      "id": "glyph-8",
+      "character": "P",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 8.3145,
+        "upperBoundDiameterMm": 8.3345,
+        "centreMm": [
+          27.7014,
+          38.6448
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        3.2716
+      ]
+    },
+    {
+      "id": "glyph-9",
+      "character": "E",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.743,
+        "upperBoundDiameterMm": 7.763,
+        "centreMm": [
+          50.0832,
+          30.286
+        ]
+      },
+      "counterMinimumCalipersMm": []
+    },
+    {
+      "id": "glyph-10",
+      "character": "N",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 9.914,
+        "upperBoundDiameterMm": 9.934,
+        "centreMm": [
+          86.0008,
+          42.8075
+        ]
+      },
+      "counterMinimumCalipersMm": []
+    },
+    {
+      "id": "glyph-11",
+      "character": "D",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.9049,
+        "upperBoundDiameterMm": 7.9249,
+        "centreMm": [
+          96.726,
+          30.3707
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        8.4588
+      ]
+    },
+    {
+      "id": "glyph-12",
+      "character": ".",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 5.7997,
+        "upperBoundDiameterMm": 5.8197,
+        "centreMm": [
+          120.6348,
+          45.286
+        ]
+      },
+      "counterMinimumCalipersMm": []
+    }
+  ],
+  "adjacentGlyphGaps": [
+    {
+      "from": "glyph-1",
+      "to": "glyph-2",
+      "mm": 1.8
+    },
+    {
+      "from": "glyph-2",
+      "to": "glyph-3",
+      "mm": 1.8
+    },
+    {
+      "from": "glyph-3",
+      "to": "glyph-4",
+      "mm": 1.8055
+    },
+    {
+      "from": "glyph-4",
+      "to": "glyph-5",
+      "mm": 6.3212
+    },
+    {
+      "from": "glyph-5",
+      "to": "glyph-6",
+      "mm": 3.1915
+    },
+    {
+      "from": "glyph-7",
+      "to": "glyph-8",
+      "mm": 1.8
+    },
+    {
+      "from": "glyph-8",
+      "to": "glyph-9",
+      "mm": 2.3938
+    },
+    {
+      "from": "glyph-9",
+      "to": "glyph-10",
+      "mm": 1.8
+    },
+    {
+      "from": "glyph-10",
+      "to": "glyph-11",
+      "mm": 1.8
+    },
+    {
+      "from": "glyph-11",
+      "to": "glyph-12",
+      "mm": 3.8163
+    }
+  ],
+  "minimumAdjacentGlyphGapMm": 1.8,
+  "maximumInscribedDiscUpperBoundMm": 9.934,
+  "allCoresConnected": true,
+  "maximumDiscBelow12_5mm": true,
+  "sOpeningMethod": "The builder subtracts 1.64 mm high horizontal channels before opening; final opening is a subset of prepared positive geometry. This preserves those clear channels, subject to inspecting where they join each S counter.",
+  "limitations": [
+    "No stitch, foam, thread-tension or substrate simulation.",
+    "Round tips have chords below5.08 mm; they are not treated as structural stroke failures.",
+    "Closed-counter calipers measure the whole opening, not infinitesimal chords at its rounded end."
+  ]
+}
