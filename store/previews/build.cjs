@@ -53,4 +53,5 @@ async function main() {
   }
   console.log(`wrote ${jobs.length} previews to ${OUT}`);
 }
-main().catch((e) => { console.error(e); process.exit(1); });
+module.exports = { PRODUCTS, SEAM_SHIFT };
+if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
