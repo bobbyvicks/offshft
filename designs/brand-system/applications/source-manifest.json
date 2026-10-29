@@ -1,0 +1,36 @@
+{
+  "generatedBy": "build-packaging.cjs",
+  "note": "Logo SVG inner markup is embedded verbatim; wrappers only position and uniformly scale it.",
+  "sources": {
+    "logo-light": {
+      "file": "designs/mark/final/the-o/logo-light.svg",
+      "sha256": "c9271f97d4c831536889cfc15b7747969df9798647c11f99433b827f18afcbc9"
+    },
+    "logo-dark": {
+      "file": "designs/mark/final/the-o/logo-dark.svg",
+      "sha256": "97dfcd2f15841beda2de3c0b4ddaa23497ca2302426f18186d3fbb94d6af27f4"
+    },
+    "symbol-light": {
+      "file": "designs/mark/final/the-o/symbol-light.svg",
+      "sha256": "938ccb2ce5fa6ba345c28e995aa0f9143c4cee5a0a45cd3430f7307adcb07e05"
+    },
+    "symbol-dark": {
+      "file": "designs/mark/final/the-o/symbol-dark.svg",
+      "sha256": "39105f94fe2198a355fd26336a4e3b8a63f8280bba2d0e93be88321c86a7fa32"
+    }
+  },
+  "productionArtwork": [
+    "hangtag-front.svg",
+    "hangtag-back.svg",
+    "woven-neck-label.svg",
+    "box-top-panel.svg",
+    "package-insert.svg",
+    "seal-sticker.svg"
+  ],
+  "technicalGuides": [
+    "hangtag-cut-guide.svg",
+    "woven-neck-label-fold-guide.svg",
+    "insert-cut-guide.svg",
+    "seal-cut-guide.svg"
+  ]
+}
