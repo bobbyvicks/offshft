@@ -10,7 +10,7 @@ module.exports = (kit) => top(kit, {
   neck: { kind: 'hood', halfW: 98, drop: 97 },
   hood: {
     top: -298, wide: { x: 168, y: -120 }, base: { x: 128, y: 45 }, rim: { x: 110, y: -150 }, rimW: 26, meet: 40,
-    backNeck: 18, cords: { y: 50, length: 300, width: 9, drift: 5 },
+    backNeck: 18, cords: { y: 50, length: 275, width: 10, drift: 4 },
   },
   shoulder: { x: 247, y: 46 },
   armhole: { kind: 'set-in', underarm: { x: 288, y: 262 }, pit: { x: 250, y: 236 } },

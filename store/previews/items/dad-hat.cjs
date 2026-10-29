@@ -11,9 +11,9 @@ module.exports = (kit) => cap(kit, {
   panels: 6,
   frontAz: 55,
   eyelets: [{ az: 28, h: 0.7 }, { az: 66, h: 0.58 }],
-  creases: [
-    { ridge: [[71, 3], [68, 11], [62, 19], [53, 27]], depth: 1.6 },
-    { ridge: [[58, 2], [56, 7], [52, 11], [46, 15]], depth: 1.1 },
+  creases: [   // soft buckles rising out of the visor seam at the front panels' outer corners (roots hidden by the visor)
+    { ridge: [[72, -3], [69, 8], [62, 18], [53, 27]], depth: 1.6 },
+    { ridge: [[59, -2.5], [57, 5], [52, 10.5], [46, 15]], depth: 1.1 },
   ],
   visor: { centre: 15, drop: 21, rows: 4, first: 0.08, gap: 0.11 },
 });

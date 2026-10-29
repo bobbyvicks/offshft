@@ -14,7 +14,10 @@ const ROOT = path.resolve(__dirname, '../..');
 const OUT = path.join(__dirname, 'out');
 
 // Where artwork can go on each kind of spot, in mm (Printful's general limits; hat fronts vary by hat).
-const AREAS = { front: { w: 140, h: 50 }, chest: { w: 101.6, h: 101.6 }, centre: { w: 101.6, h: 101.6 }, leftLeg: { w: 101.6, h: 101.6 }, leftSleeve: { w: 50.8, h: 76.2 } };
+const AREAS = { front: { w: 140, h: 50 }, chest: { w: 101.6, h: 101.6 }, centre: { w: 101.6, h: 101.6 }, largeFront: { w: 254, h: 152.4 }, leftLeg: { w: 101.6, h: 101.6 }, leftSleeve: { w: 50.8, h: 76.2 } };
+// Spots where the artwork is drawn bigger than its master size: it's scaled to fit this box (mm). The digitizer works
+// from the artwork at that size; a stitch file is never scaled.
+const BIG = { largeFront: { w: 230, h: 90 } };
 
 // Thread colours that read on dark fabric, mapped to their light-fabric partners (BRAND.md colourways).
 const ON_BONE = { '#ECE5D3': '#1F2733', '#D29B3C': '#B4552D', '#9AA383': '#B4552D' };
@@ -39,10 +42,13 @@ const items = {};
 for (const n of names) {
   if (!fs.existsSync(path.join(__dirname, 'items', `${n}.cjs`))) { console.warn(`no drawing yet: ${n}`); continue; }   // the page skips its preview
   const it = require(`./items/${n}.cjs`)(kit);
-  items[n] = { category: it.category, w: it.w, h: it.h, body: it.body, anchors: it.anchors };
+  const anchors = { ...it.anchors };
+  // Large front: centred, at the height of the left-chest logo.
+  if (anchors.chest && !anchors.largeFront) anchors.largeFront = { x: 0, y: anchors.chest.y };
+  items[n] = { category: it.category, w: it.w, h: it.h, body: it.body, anchors };
 }
 fs.writeFileSync(path.join(OUT, 'items.json'), JSON.stringify({
-  canvas: kit.CANVAS, hatPx: kit.HAT_PX, wearPx: kit.WEAR_PX, fabric: kit.STYLE.fabric, line: kit.STYLE.line, seamShift: SEAM_SHIFT, areas: AREAS,
+  canvas: kit.CANVAS, hatPx: kit.HAT_PX, wearPx: kit.WEAR_PX, fabric: kit.STYLE.fabric, line: kit.STYLE.line, seamShift: SEAM_SHIFT, areas: AREAS, big: BIG,
   products: PRODUCTS.filter((p) => items[p.item]), items,
 }));
 fs.writeFileSync(path.join(OUT, 'designs.json'), JSON.stringify(DESIGNS.map(({ file, recolour, ...d }) => ({ ...d, ...svgParts(file, recolour) }))));

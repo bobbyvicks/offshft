@@ -30,12 +30,6 @@ const slope = (c, t) => {
   return pt(3 * s * s * (c[1].x - c[0].x) + 6 * s * t * (c[2].x - c[1].x) + 3 * t * t * (c[3].x - c[2].x),
     3 * s * s * (c[1].y - c[0].y) + 6 * s * t * (c[2].y - c[1].y) + 3 * t * t * (c[3].y - c[2].y));
 };
-function split(c, t) {
-  const a = mix(c[0], c[1], t), b = mix(c[1], c[2], t), d = mix(c[2], c[3], t);
-  const e = mix(a, b, t), f = mix(b, d, t), g = mix(e, f, t);
-  return [[c[0], a, e, g], [g, f, d, c[3]]];
-}
-const part = (c, t0, t1) => split(split(c, t1)[0], t0 / t1)[1];   // the piece of c between t0 and t1 (t1 > 0)
 const rev = (c) => [c[3], c[2], c[1], c[0]];
 const flip = (c) => c.map((p) => pt(-p.x, p.y));                  // mirror to the other side of the centre front
 const lerpSeg = (a, b, f) => a.map((p, i) => mix(p, b[i], f));
@@ -67,6 +61,11 @@ function solve(f, target, lo = 0, hi = 1) {
   return (lo + hi) / 2;
 }
 const rad = (deg) => (deg * Math.PI) / 180;
+function split(c, t) {   // de Casteljau: c cut in two at t
+  const a = mix(c[0], c[1], t), b = mix(c[1], c[2], t), d = mix(c[2], c[3], t);
+  const e = mix(a, b, t), f = mix(b, d, t), g = mix(e, f, t);
+  return [[c[0], a, e, g], [g, f, d, c[3]]];
+}
 
 function cap(kit, o) {
   const S = kit.strokes(kit.HAT_PX);
@@ -81,9 +80,13 @@ function cap(kit, o) {
   const baseY = seamY + SD;                  // crown base at the sides
   const sh = o.shape;                        // profile handles: top (flatness), side (fullness), lean (taper)
   const prof = [pt(0, top), pt(sh.top * W, top), pt(W - sh.lean, baseY - sh.side * (baseY - top)), pt(W, baseY)];
-  // The same profile at azimuth az: x scaled by sin(az); seen from below, points nearer the front ride up.
-  const atAz = (p, az) => pt(p.x * Math.sin(az), p.y - SD * (p.x / W) * Math.cos(az));
-  const seam = (az) => prof.map((p) => atAz(p, az));
+  // A point of the profile carried round to azimuth az: x scaled by sin(az). Seen from below, points nearer the front
+  // ride up, by SD cos(az) at the base, fading with height to nothing at the button. The map is affine, so a seam is
+  // exactly the profile's cubic with its points moved; it meets the base arc, stays inside the outline (for any az
+  // under 85 degrees) and reaches the button.
+  const H = baseY - top;
+  const onCrown = (p, az) => pt(p.x * Math.sin(az), p.y - SD * Math.cos(az) * ((p.y - top) / H));
+  const seam = (az) => prof.map((p) => onCrown(p, az));
   const baseArc = [pt(0, seamY), pt(KAPPA * W, seamY), pt(W, baseY - KAPPA * SD), pt(W, baseY)];   // centre -> right
   const crownOutline = [flip(rev(prof)), prof];
   const crownShape = path([...crownOutline, rev(baseArc), flip(baseArc)], true);
@@ -92,7 +95,7 @@ function cap(kit, o) {
   const tStitch = solve((t) => at(prof, t).x, BUTTON_W / 2 + 5);
   const stitchBeside = (az, off) => {   // off: mm beside the seam, measured at the base
     const d = off / (W * Math.cos(az));
-    return [az - d, az + d].map((a) => `<path d="${path([part(seam(a), tStitch, 1)])}" ${S.stitch}/>`).join('');
+    return [az - d, az + d].map((a) => `<path d="${path([split(seam(a), tStitch)[1]])}" ${S.stitch}/>`).join('');
   };
   const seamAt = (az) => `<path d="${path([seam(az)])}" ${S.outline}/>`;
 
@@ -146,9 +149,9 @@ function cap(kit, o) {
     const p = at(prof, t), dp = slope(prof, t), dl = Math.hypot(dp.x, dp.y);
     for (const sgn of [1, -1]) {
       const az = sgn * rad(e.az);
-      const c = atAz(p, az);
-      const U = pt(Math.cos(az), (SD / W) * Math.sin(az));                                     // round the hoop
-      const V = pt((dp.x * Math.sin(az)) / dl, (dp.y - SD * (dp.x / W) * Math.cos(az)) / dl);   // down the profile
+      const c = onCrown(p, az);
+      const U = pt(Math.cos(az), (SD * Math.sin(az) * ((p.y - top) / H)) / p.x);                // round the hoop
+      const V = pt((dp.x * Math.sin(az)) / dl, (dp.y * (1 - (SD * Math.cos(az)) / H)) / dl);   // down the profile
       const a = U.x * U.x + V.x * V.x, b = U.x * U.y + V.x * V.y, d = U.y * U.y + V.y * V.y;
       const m = (a + d) / 2, q = Math.sqrt(((a - d) / 2) ** 2 + b * b);
       const ang = (Math.atan2(2 * b, a - d) / 2) * (180 / Math.PI);
@@ -238,9 +241,9 @@ function cap(kit, o) {
       const q = posAt(Math.min(Math.max(u, 0), total));
       const off = u - Math.min(Math.max(u, 0), total);
       const c0 = pt(q.p.x + q.t.x * off, q.p.y + q.t.y * off);
-      const W2 = q.w * 1.3, s = r.slant, len = r.pitch - r.gap;
+      const across = q.w * 1.3, s = r.slant, len = r.pitch - r.gap;   // bars overhang the cord; the clip trims them
       const corner = (du, dv) => pt(c0.x + q.t.x * (du + s * dv) + q.n.x * dv, c0.y + q.t.y * (du + s * dv) + q.n.y * dv);
-      const a = corner(0, -W2), b = corner(len, -W2), c = corner(len, W2), d = corner(0, W2);
+      const a = corner(0, -across), b = corner(len, -across), c = corner(len, across), d = corner(0, across);
       strands.push(`M${xy(a)} L${xy(b)} L${xy(c)} L${xy(d)} Z`);
     }
     return `<clipPath id="${id('rope')}"><path d="${outline}"/></clipPath>`

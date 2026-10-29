@@ -14,7 +14,7 @@ module.exports = (kit) => top(kit, {
     backNeck: 18, lined: 9,
   },
   shoulder: { x: 322, y: 64 },
-  armhole: { kind: 'dropped', underarm: { x: 302, y: 312 }, pit: { x: 302, y: 312 } },
+  armhole: { kind: 'dropped', underarm: { x: 300, y: 312 }, pit: { x: 300, y: 312 } },
   sleeve: { angle: 15, topW: 136, round: 1, length: 565, cuffW: 108, cuffH: 80, blouse: 7, blouseH: 20 },
   hem: { h: 80, halfW: 294, blouse: 25 },
   pocket: { top: 440, topHalf: 140, sideX: 218, sideY: 600 },

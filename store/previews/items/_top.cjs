@@ -67,14 +67,25 @@ function xAtY(ch, y) {
   }
   throw new Error(`chain never reaches y = ${y}`);
 }
-// A parallel curve, dist mm to the right of the direction of travel. Each segment is cut in parts first, so moving
-// the handles with the end normals stays accurate.
-function offset(ch, dist, parts = 4) {
+// Derivative of a segment.
+function deriv(s, t) {
+  const u = 1 - t;
+  const k0 = 3 * u * u, k1 = 6 * u * t, k2 = 3 * t * t;
+  return V(k0 * (s.b.x - s.a.x) + k1 * (s.c.x - s.b.x) + k2 * (s.d.x - s.c.x), k0 * (s.b.y - s.a.y) + k1 * (s.c.y - s.b.y) + k2 * (s.d.y - s.c.y));
+}
+// A parallel curve, dist mm to the right of the direction of travel. Each segment is cut in parts, and each part is
+// replaced by the cubic that matches the true parallel curve's end points and end derivatives (a Hermite fit).
+function offset(ch, dist, parts = 6) {
+  const at = (s, t) => {
+    let d = deriv(s, t);
+    if (len(d) < 1e-9) d = sub(s.d, s.a);
+    return add(pt(s, t), mul(turn(unit(d)), dist));
+  };
   const off = (s) => {
-    const t0 = unit(len(sub(s.b, s.a)) > 1e-6 ? sub(s.b, s.a) : sub(s.d, s.a));
-    const t1 = unit(len(sub(s.d, s.c)) > 1e-6 ? sub(s.d, s.c) : sub(s.d, s.a));
-    const n0 = mul(turn(t0), dist), n1 = mul(turn(t1), dist);
-    return C(add(s.a, n0), add(s.b, n0), add(s.c, n1), add(s.d, n1));
+    const h = 1e-4;
+    const a = at(s, 0), d = at(s, 1);
+    const da = mul(sub(at(s, h), a), 1 / h), dd = mul(sub(d, at(s, 1 - h)), 1 / h);
+    return C(a, add(a, mul(da, 1 / 3)), sub(d, mul(dd, 1 / 3)), d);
   };
   const out = [];
   for (const s of ch) {
@@ -164,20 +175,23 @@ module.exports = function top(kit, spec) {
   const { fabric, shade, rib } = kit.STYLE;
   const svg = [];
   const bounds = [];
-  const fill = (ch, colour, extra = '') => {
+  const fill = (ch, colour) => {
     bounds.push(ch);
-    svg.push(`<path d="${pathD(ch, true)}" ${s.fill(colour)}${extra}/>`);
+    svg.push(`<path d="${pathD(ch, true)}" ${s.fill(colour)}/>`);
   };
   const edge = (ch) => svg.push(`<path d="${pathD(ch)}" ${s.outline}/>`);
   const stitch = (ch) => svg.push(`<path d="${pathD(ch)}" ${s.stitch}/>`);
   const both = (fn, ch) => { fn(ch); fn(mirror(ch)); };
   const ribLines = (pairs) => svg.push(`<path d="${pairs.map(([a, b]) => `M${xy(a)}L${xy(b)}`).join('')}" ${s.outline} stroke-opacity="${RIB_OPACITY}"/>`);
   const mirrorPairs = (pairs) => pairs.concat(pairs.map(([a, b]) => [V(-a.x, a.y), V(-b.x, b.y)]));
-  // Rib lines between two rails, evenly spaced along them.
-  const between = (railA, railB, pitch = RIB_PITCH, skipEnds = 0) => {
+  // Rib lines between two rails, evenly spaced along them. Whole bands put a line every pitch between their ends;
+  // half bands that start on the centre line ('half') start half a pitch from it, so that once mirrored the spacing
+  // runs on evenly across the centre. skipEnd drops lines at the far end, where a band tapers to nothing.
+  const between = (railA, railB, pitch = RIB_PITCH, { half = false, skipEnd = 0 } = {}) => {
     const n = Math.max(2, Math.round(Math.max(arc(railA), arc(railB)) / pitch));
     const fr = [];
-    for (let i = 1 + skipEnds; i < n - skipEnds; i++) fr.push(i / n);
+    if (half) for (let i = 0; i < n - skipEnd; i++) fr.push((i + 0.5) / n);
+    else for (let i = 1; i < n; i++) fr.push(i / n);
     const A = along(railA, fr), B = along(railB, fr);
     return A.map((p, i) => [p, B[i]]);
   };
@@ -208,11 +222,11 @@ module.exports = function top(kit, spec) {
     back.push(() => {
       fill(sym(backEdge.concat(reverse(frontEdge))), shade);           // the neck opening: inside of the back
       fill(sym(backEdge.concat(reverse(backLow))), rib);               // back collar band, seen through the opening
-      ribLines(mirrorPairs(between(backEdge, backLow, RIB_PITCH, 1)));
+      ribLines(mirrorPairs(between(backEdge, backLow, RIB_PITCH, { half: true, skipEnd: 2 })));
     });
     front.push(() => {
       fill(sym(frontEdge.concat([L(H, Hs)], reverse(neckSeam))), rib);   // front collar band
-      ribLines(mirrorPairs(between(frontEdge, neckSeam, RIB_PITCH * 0.85)));
+      ribLines(mirrorPairs(between(frontEdge, neckSeam, RIB_PITCH * 0.85, { half: true })));
       const st = [C(V(0, D + rw + 6), V((Hs.x + 6 * ush.x) * k, D + rw + 6), V(Hs.x + 6 * ush.x, Hs.y + 6 * ush.y + (D + rw - Hs.y) * (1 - k)), add(Hs, mul(ush, 6)))];
       both(stitch, st);
     });
@@ -251,7 +265,8 @@ module.exports = function top(kit, spec) {
       // The rim (the hood's front edge), one shape for both sides; they meet at the centre front.
       bounds.push(rimOuter);
       svg.push(`<path d="${pathD(sym(rimOuter), true)}${pathD(sym(rimInner), true)}" fill-rule="evenodd" ${s.fill(fabric)}/>`);
-      edge([L(O, N)]);
+      edge([L(O, N)]);                              // the two front edges meet at the centre front
+      edge([L(V(0, top), V(0, top + h.rimW))]);     // the hood's centre seam, across the rim at the crown
       if (h.lined) {
         // Lined hood: the lining shows as a second layer along the opening.
         const lining = cutAtX(offset(rimOuter, h.rimW - h.lined), 0);
@@ -370,7 +385,7 @@ module.exports = function top(kit, spec) {
     const f = m ? mirror : (ch) => ch;
     fill(f(sleeve), fabric);
     fill(f(cuff), rib);
-    ribLines(between(f([L(Ki, Ko)]), f([L(Bi, Bo)]), RIB_PITCH, 0));
+    ribLines(between(f([L(Ki, Ko)]), f([L(Bi, Bo)]), RIB_PITCH));
     stitch(f([L(add(Ki, add(mul(ax, -6), mul(nx, 3))), add(Ko, add(mul(ax, -6), mul(nx, -3))))]));
     stitch(f(trim(offset([seamSP], dropped ? 5 : 6), 0.02, 0.9)));
   };
@@ -403,15 +418,6 @@ module.exports = function top(kit, spec) {
     minY = Math.min(minY, p.y); maxY = Math.max(maxY, p.y);
   }
   const w = 2 * Math.max(maxX, -minX), h = maxY - minY;
-  if (process.env.TOP_DEBUG) {
-    const deg = (v) => Math.round((Math.atan2(v.x, v.y) * 1800) / Math.PI) / 10;
-    console.error(spec.name, JSON.stringify({
-      w: Math.round(w), h: Math.round(h), px: [Math.round(w * kit.WEAR_PX), Math.round(h * kit.WEAR_PX)],
-      sleeveLen: Math.round(arc([roundSeg]) + len(sub(Kbo, J)) + len(sub(Ko, Kbo)) + sl.cuffH),
-      shoulderRun: Math.round(len(sub(J, S))), J: [Math.round(J.x), Math.round(J.y)],
-      cuffBottomY: Math.round(Math.max(Bo.y, Bi.y)), innerDeg: deg(dIn), outerDeg: deg(uOut),
-    }));
-  }
   return {
     name: spec.name,
     category: 'wear',

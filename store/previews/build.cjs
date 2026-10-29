@@ -15,17 +15,19 @@ const item = (name) => require(`./items/${name}.cjs`)(kit);
 
 // Which drawing each product uses, and its one embroidered mark. 'Left' is the wearer's left.
 const SEAM_SHIFT = 5.2; // 6-panel fronts: move the lockup right so the centre seam falls in the word space (notes.md)
+// The owner wants Punched Out. bigger and in the middle on the tops: Printful's large-front spot, centred (29 Oct 2026).
+const BIG_PUNCHED_OUT = { 'punched-out': 'largeFront' };
 const PRODUCTS = [
   { id: 'trucker-6606', item: 'trucker', mark: 'lockup', at: 'front', shift: SEAM_SHIFT },
   { id: 'five-panel', item: 'five-panel', mark: 'lockup', at: 'front' },
   { id: 'dad-hat', item: 'dad-hat', mark: 'lockup', at: 'front', shift: SEAM_SHIFT },
   { id: 'rope-cap', item: 'rope-cap', mark: 'lockup', at: 'front', shift: SEAM_SHIFT },
-  { id: 'hoodie-5161', item: 'hoodie-oversized', mark: 'lockup', at: 'chest' },
-  { id: 'hoodie-1567', item: 'hoodie', mark: 'lockup', at: 'chest' },
-  { id: 'hoodie-1467', item: 'hoodie', mark: 'lockup', at: 'chest' },
-  { id: 'crew-1466', item: 'crewneck', mark: 'lockup', at: 'chest' },
-  { id: 'crew-1566', item: 'crewneck', mark: 'lockup', at: 'chest' },
-  { id: 'crew-4711', item: 'crewneck-oversized', mark: 'lockup', at: 'chest' },
+  { id: 'hoodie-5161', item: 'hoodie-oversized', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
+  { id: 'hoodie-1567', item: 'hoodie', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
+  { id: 'hoodie-1467', item: 'hoodie', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
+  { id: 'crew-1466', item: 'crewneck', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
+  { id: 'crew-1566', item: 'crewneck', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
+  { id: 'crew-4711', item: 'crewneck-oversized', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
   { id: 'pants-1469', item: 'sweatpants', mark: 'symbol', at: 'leftLeg' },
   { id: 'pants-4737', item: 'sweatpants', mark: 'symbol', at: 'leftLeg' },
   { id: 'pants-m7580', item: 'sweatpants', mark: 'symbol', at: 'leftLeg' },
