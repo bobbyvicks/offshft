@@ -1,0 +1,1196 @@
+{
+  "checkedAt": "2026-10-29T20:29:40.927Z",
+  "method": "Unauthenticated public catalogue POST; no cookies, credentials, storeId, browser profile or authenticated endpoint",
+  "headers": {
+    "Content-Type": "application/json",
+    "X-PF-Language": "en_CA"
+  },
+  "query": "query getProductPickerData($productId: Int!, $storeId: Int) { singleProducts { productPickerData(productId: $productId, storeId: $storeId) { productId variantAvailability colors { value title extra { codes tooltip } } sizes { value title } techniques { value title values { value title } } } } }",
+  "products": [
+    {
+      "conceptId": "11-time-well-earned",
+      "title": "Time Well Earned. T-Shirt",
+      "blank": {
+        "manufacturer": "Comfort Colors",
+        "model": "1717",
+        "supplierProductId": 586,
+        "supplierUrl": "https://www.printful.com/custom/collections/embroidery/unisex-garment-dyed-heavyweight-shirt-comfort-colors-1717"
+      },
+      "endpoint": "https://www.printful.com/graphql?getProductPickerData",
+      "operationName": "getProductPickerData",
+      "variables": {
+        "productId": 586
+      },
+      "httpStatus": 200,
+      "startedAt": "2026-10-29T20:29:40.929Z",
+      "completedAt": "2026-10-29T20:29:41.190Z",
+      "response": {
+        "data": {
+          "singleProducts": {
+            "productPickerData": {
+              "productId": 586,
+              "variantAvailability": "[{\"color\":\"Black\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"True Navy\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Red\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Graphite\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Navy\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sage\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Midnight\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Hemp\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Pepper\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grape\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Brick\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Denim\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Spruce\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Emerald\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Berry\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crimson\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mystic Blue\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Espresso\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Moss\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Paprika\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Wine\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Watermelon\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Light Green\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Yam\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Jean\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Neon Pink\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Flo Blue\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sandstone\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ice Blue\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Burnt orange\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Grey\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Violet\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crunchberry\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Seafoam\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Terracotta\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Granite\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Khaki\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Washed Denim\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Bay\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mustard\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Lagoon Blue\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Orchid\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chalky Mint\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blossom\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Butter\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Island Reef\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chambray\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Neon Lemon\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ivory\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"True Navy\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Red\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Graphite\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Navy\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sage\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Midnight\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Hemp\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Pepper\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grape\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Brick\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Denim\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Spruce\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Emerald\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Berry\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crimson\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mystic Blue\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Espresso\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Moss\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Paprika\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Wine\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Watermelon\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Light Green\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Yam\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Jean\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Neon Pink\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Flo Blue\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sandstone\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ice Blue\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Burnt orange\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Grey\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Violet\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crunchberry\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Seafoam\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Terracotta\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Granite\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Khaki\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Washed Denim\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Bay\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mustard\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Lagoon Blue\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Orchid\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chalky Mint\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blossom\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Butter\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Island Reef\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chambray\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Neon Lemon\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ivory\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"True Navy\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Red\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Graphite\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Navy\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sage\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Midnight\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Hemp\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Pepper\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grape\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Brick\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Denim\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Spruce\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Emerald\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Berry\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crimson\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mystic Blue\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Espresso\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Moss\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Paprika\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Wine\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Watermelon\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Light Green\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Yam\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Jean\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Neon Pink\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Flo Blue\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sandstone\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ice Blue\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Burnt orange\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Grey\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Violet\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crunchberry\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Seafoam\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Terracotta\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Granite\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Khaki\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Washed Denim\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Bay\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mustard\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Lagoon Blue\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Orchid\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chalky Mint\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blossom\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Butter\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Island Reef\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chambray\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Neon Lemon\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ivory\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"True Navy\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Red\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Graphite\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Navy\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sage\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Midnight\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Hemp\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Pepper\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grape\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Brick\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Denim\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Spruce\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Emerald\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Berry\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crimson\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mystic Blue\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Espresso\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Moss\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Paprika\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Wine\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Watermelon\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Light Green\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Yam\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Jean\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Neon Pink\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Flo Blue\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sandstone\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ice Blue\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Burnt orange\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Grey\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Violet\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crunchberry\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Seafoam\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Terracotta\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Granite\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Khaki\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Washed Denim\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Bay\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mustard\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Lagoon Blue\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Orchid\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chalky Mint\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blossom\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Butter\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Island Reef\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chambray\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Neon Lemon\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ivory\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"True Navy\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Red\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Graphite\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Navy\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sage\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Midnight\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Hemp\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Pepper\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grape\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Brick\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Denim\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Spruce\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Emerald\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Berry\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crimson\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mystic Blue\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Espresso\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Moss\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Paprika\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Wine\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Watermelon\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Light Green\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Yam\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Jean\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Neon Pink\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Flo Blue\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sandstone\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ice Blue\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Burnt orange\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Grey\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Violet\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crunchberry\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Seafoam\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Terracotta\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Granite\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Khaki\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Washed Denim\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Bay\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mustard\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Lagoon Blue\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Orchid\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chalky Mint\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blossom\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Butter\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Island Reef\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chambray\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Neon Lemon\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ivory\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"True Navy\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Red\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Graphite\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Navy\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sage\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Midnight\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Hemp\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Pepper\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Grape\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Brick\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Denim\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Spruce\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Emerald\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Berry\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crimson\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mystic Blue\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Espresso\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Moss\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Paprika\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Wine\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Watermelon\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Light Green\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Yam\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Jean\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Neon Pink\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Flo Blue\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sandstone\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ice Blue\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Burnt orange\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Grey\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Violet\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crunchberry\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Seafoam\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Terracotta\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Granite\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Khaki\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Washed Denim\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Bay\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mustard\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Lagoon Blue\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Orchid\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chalky Mint\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blossom\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Butter\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Island Reef\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chambray\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Neon Lemon\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ivory\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"White\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Black\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"True Navy\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Red\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Graphite\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Navy\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sage\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Midnight\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Hemp\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Pepper\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Grape\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Brick\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Denim\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Spruce\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Emerald\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Berry\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Crimson\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mystic Blue\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Espresso\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Moss\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Paprika\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Wine\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Watermelon\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Light Green\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Yam\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blue Jean\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Neon Pink\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Flo Blue\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Sandstone\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ice Blue\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Burnt orange\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Grey\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Violet\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Crunchberry\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Seafoam\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Terracotta\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Granite\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Khaki\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Washed Denim\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Bay\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Mustard\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Lagoon Blue\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Orchid\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chalky Mint\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Blossom\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Butter\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Island Reef\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Chambray\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"Neon Lemon\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":false,\"T-SHIRT\":\"notFulfilled\",\"EMBROIDERY\":\"notFulfilled\"},{\"color\":\"Ivory\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"},{\"color\":\"White\",\"size\":\"4XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true,\"T-SHIRT\":\"notFulfilled\"}]",
+              "colors": [
+                {
+                  "value": "Black",
+                  "title": "Black",
+                  "extra": {
+                    "codes": [
+                      "#1b1b1c"
+                    ],
+                    "tooltip": "Black #1b1b1c"
+                  }
+                },
+                {
+                  "value": "True Navy",
+                  "title": "True Navy",
+                  "extra": {
+                    "codes": [
+                      "#1e2c4a"
+                    ],
+                    "tooltip": "True Navy #1e2c4a"
+                  }
+                },
+                {
+                  "value": "Red",
+                  "title": "Red",
+                  "extra": {
+                    "codes": [
+                      "#bb1035"
+                    ],
+                    "tooltip": "Red #bb1035"
+                  }
+                },
+                {
+                  "value": "Graphite",
+                  "title": "Graphite",
+                  "extra": {
+                    "codes": [
+                      "#3e3737"
+                    ],
+                    "tooltip": "Graphite #3e3737"
+                  }
+                },
+                {
+                  "value": "Navy",
+                  "title": "Navy",
+                  "extra": {
+                    "codes": [
+                      "#424150"
+                    ],
+                    "tooltip": "Navy #424150"
+                  }
+                },
+                {
+                  "value": "Sage",
+                  "title": "Sage",
+                  "extra": {
+                    "codes": [
+                      "#49482e"
+                    ],
+                    "tooltip": "Sage #49482e"
+                  }
+                },
+                {
+                  "value": "Midnight",
+                  "title": "Midnight",
+                  "extra": {
+                    "codes": [
+                      "#3a4e63"
+                    ],
+                    "tooltip": "Midnight #3a4e63"
+                  }
+                },
+                {
+                  "value": "Hemp",
+                  "title": "Hemp",
+                  "extra": {
+                    "codes": [
+                      "#4F5232"
+                    ],
+                    "tooltip": "Hemp #4F5232"
+                  }
+                },
+                {
+                  "value": "Pepper",
+                  "title": "Pepper",
+                  "extra": {
+                    "codes": [
+                      "#514f4c"
+                    ],
+                    "tooltip": "Pepper #514f4c"
+                  }
+                },
+                {
+                  "value": "Grape",
+                  "title": "Grape",
+                  "extra": {
+                    "codes": [
+                      "#644E6D"
+                    ],
+                    "tooltip": "Grape #644E6D"
+                  }
+                },
+                {
+                  "value": "Brick",
+                  "title": "Brick",
+                  "extra": {
+                    "codes": [
+                      "#8d4b54"
+                    ],
+                    "tooltip": "Brick #8d4b54"
+                  }
+                },
+                {
+                  "value": "Denim",
+                  "title": "Denim",
+                  "extra": {
+                    "codes": [
+                      "#565a67"
+                    ],
+                    "tooltip": "Denim #565a67"
+                  }
+                },
+                {
+                  "value": "Blue Spruce",
+                  "title": "Blue Spruce",
+                  "extra": {
+                    "codes": [
+                      "#4c6151"
+                    ],
+                    "tooltip": "Blue Spruce #4c6151"
+                  }
+                },
+                {
+                  "value": "Emerald",
+                  "title": "Emerald",
+                  "extra": {
+                    "codes": [
+                      "#306d6e"
+                    ],
+                    "tooltip": "Emerald #306d6e"
+                  }
+                },
+                {
+                  "value": "Berry",
+                  "title": "Berry",
+                  "extra": {
+                    "codes": [
+                      "#8e5a7b"
+                    ],
+                    "tooltip": "Berry #8e5a7b"
+                  }
+                },
+                {
+                  "value": "Crimson",
+                  "title": "Crimson",
+                  "extra": {
+                    "codes": [
+                      "#bb5151"
+                    ],
+                    "tooltip": "Crimson #bb5151"
+                  }
+                },
+                {
+                  "value": "Mystic Blue",
+                  "title": "Mystic Blue",
+                  "extra": {
+                    "codes": [
+                      "#5068AB"
+                    ],
+                    "tooltip": "Mystic Blue #5068AB"
+                  }
+                },
+                {
+                  "value": "Espresso",
+                  "title": "Espresso",
+                  "extra": {
+                    "codes": [
+                      "#87634a"
+                    ],
+                    "tooltip": "Espresso #87634a"
+                  }
+                },
+                {
+                  "value": "Moss",
+                  "title": "Moss",
+                  "extra": {
+                    "codes": [
+                      "#6b7053"
+                    ],
+                    "tooltip": "Moss #6b7053"
+                  }
+                },
+                {
+                  "value": "Paprika",
+                  "title": "Paprika",
+                  "extra": {
+                    "codes": [
+                      "#fe4747"
+                    ],
+                    "tooltip": "Paprika #fe4747"
+                  }
+                },
+                {
+                  "value": "Wine",
+                  "title": "Wine",
+                  "extra": {
+                    "codes": [
+                      "#816977"
+                    ],
+                    "tooltip": "Wine #816977"
+                  }
+                },
+                {
+                  "value": "Watermelon",
+                  "title": "Watermelon",
+                  "extra": {
+                    "codes": [
+                      "#d15c68"
+                    ],
+                    "tooltip": "Watermelon #d15c68"
+                  }
+                },
+                {
+                  "value": "Light Green",
+                  "title": "Light Green",
+                  "extra": {
+                    "codes": [
+                      "#608267"
+                    ],
+                    "tooltip": "Light Green #608267"
+                  }
+                },
+                {
+                  "value": "Yam",
+                  "title": "Yam",
+                  "extra": {
+                    "codes": [
+                      "#db642f"
+                    ],
+                    "tooltip": "Yam #db642f"
+                  }
+                },
+                {
+                  "value": "Blue Jean",
+                  "title": "Blue Jean",
+                  "extra": {
+                    "codes": [
+                      "#707e8d"
+                    ],
+                    "tooltip": "Blue Jean #707e8d"
+                  }
+                },
+                {
+                  "value": "Neon Pink",
+                  "title": "Neon Pink",
+                  "extra": {
+                    "codes": [
+                      "#ff5ea1"
+                    ],
+                    "tooltip": "Neon Pink #ff5ea1"
+                  }
+                },
+                {
+                  "value": "Flo Blue",
+                  "title": "Flo Blue",
+                  "extra": {
+                    "codes": [
+                      "#7888d2"
+                    ],
+                    "tooltip": "Flo Blue #7888d2"
+                  }
+                },
+                {
+                  "value": "Sandstone",
+                  "title": "Sandstone",
+                  "extra": {
+                    "codes": [
+                      "#938a6f"
+                    ],
+                    "tooltip": "Sandstone #938a6f"
+                  }
+                },
+                {
+                  "value": "Ice Blue",
+                  "title": "Ice Blue",
+                  "extra": {
+                    "codes": [
+                      "#7a9096"
+                    ],
+                    "tooltip": "Ice Blue #7a9096"
+                  }
+                },
+                {
+                  "value": "Burnt orange",
+                  "title": "Burnt orange",
+                  "extra": {
+                    "codes": [
+                      "#FF7842"
+                    ],
+                    "tooltip": "Burnt orange #FF7842"
+                  }
+                },
+                {
+                  "value": "Grey",
+                  "title": "Grey",
+                  "extra": {
+                    "codes": [
+                      "#92928f"
+                    ],
+                    "tooltip": "Grey #92928f"
+                  }
+                },
+                {
+                  "value": "Violet",
+                  "title": "Violet",
+                  "extra": {
+                    "codes": [
+                      "#9a8ad2"
+                    ],
+                    "tooltip": "Violet #9a8ad2"
+                  }
+                },
+                {
+                  "value": "Crunchberry",
+                  "title": "Crunchberry",
+                  "extra": {
+                    "codes": [
+                      "#ff748e"
+                    ],
+                    "tooltip": "Crunchberry #ff748e"
+                  }
+                },
+                {
+                  "value": "Seafoam",
+                  "title": "Seafoam",
+                  "extra": {
+                    "codes": [
+                      "#69a999"
+                    ],
+                    "tooltip": "Seafoam #69a999"
+                  }
+                },
+                {
+                  "value": "Terracotta",
+                  "title": "Terracotta",
+                  "extra": {
+                    "codes": [
+                      "#ff9364"
+                    ],
+                    "tooltip": "Terracotta #ff9364"
+                  }
+                },
+                {
+                  "value": "Granite",
+                  "title": "Granite",
+                  "extra": {
+                    "codes": [
+                      "#a6abaa"
+                    ],
+                    "tooltip": "Granite #a6abaa"
+                  }
+                },
+                {
+                  "value": "Khaki",
+                  "title": "Khaki",
+                  "extra": {
+                    "codes": [
+                      "#b3ab8b"
+                    ],
+                    "tooltip": "Khaki #b3ab8b"
+                  }
+                },
+                {
+                  "value": "Washed Denim",
+                  "title": "Washed Denim",
+                  "extra": {
+                    "codes": [
+                      "#98aed1"
+                    ],
+                    "tooltip": "Washed Denim #98aed1"
+                  }
+                },
+                {
+                  "value": "Bay",
+                  "title": "Bay",
+                  "extra": {
+                    "codes": [
+                      "#b8bfab"
+                    ],
+                    "tooltip": "Bay #b8bfab"
+                  }
+                },
+                {
+                  "value": "Mustard",
+                  "title": "Mustard",
+                  "extra": {
+                    "codes": [
+                      "#ffbc5a"
+                    ],
+                    "tooltip": "Mustard #ffbc5a"
+                  }
+                },
+                {
+                  "value": "Lagoon Blue",
+                  "title": "Lagoon Blue",
+                  "extra": {
+                    "codes": [
+                      "#92dedb"
+                    ],
+                    "tooltip": "Lagoon Blue #92dedb"
+                  }
+                },
+                {
+                  "value": "Orchid",
+                  "title": "Orchid",
+                  "extra": {
+                    "codes": [
+                      "#ead3f2"
+                    ],
+                    "tooltip": "Orchid #ead3f2"
+                  }
+                },
+                {
+                  "value": "Chalky Mint",
+                  "title": "Chalky Mint",
+                  "extra": {
+                    "codes": [
+                      "#a1f2dc"
+                    ],
+                    "tooltip": "Chalky Mint #a1f2dc"
+                  }
+                },
+                {
+                  "value": "Blossom",
+                  "title": "Blossom",
+                  "extra": {
+                    "codes": [
+                      "#ffd6e1"
+                    ],
+                    "tooltip": "Blossom #ffd6e1"
+                  }
+                },
+                {
+                  "value": "Butter",
+                  "title": "Butter",
+                  "extra": {
+                    "codes": [
+                      "#ffe09e"
+                    ],
+                    "tooltip": "Butter #ffe09e"
+                  }
+                },
+                {
+                  "value": "Island Reef",
+                  "title": "Island Reef",
+                  "extra": {
+                    "codes": [
+                      "#b8ffca"
+                    ],
+                    "tooltip": "Island Reef #b8ffca"
+                  }
+                },
+                {
+                  "value": "Chambray",
+                  "title": "Chambray",
+                  "extra": {
+                    "codes": [
+                      "#d9f3ff"
+                    ],
+                    "tooltip": "Chambray #d9f3ff"
+                  }
+                },
+                {
+                  "value": "Neon Lemon",
+                  "title": "Neon Lemon",
+                  "extra": {
+                    "codes": [
+                      "#efff99"
+                    ],
+                    "tooltip": "Neon Lemon #efff99"
+                  }
+                },
+                {
+                  "value": "Ivory",
+                  "title": "Ivory",
+                  "extra": {
+                    "codes": [
+                      "#fff4d9"
+                    ],
+                    "tooltip": "Ivory #fff4d9"
+                  }
+                },
+                {
+                  "value": "White",
+                  "title": "White",
+                  "extra": {
+                    "codes": [
+                      "#ffffff"
+                    ],
+                    "tooltip": "White #ffffff"
+                  }
+                }
+              ],
+              "sizes": [
+                {
+                  "value": "S",
+                  "title": "S"
+                },
+                {
+                  "value": "M",
+                  "title": "M"
+                },
+                {
+                  "value": "L",
+                  "title": "L"
+                },
+                {
+                  "value": "XL",
+                  "title": "XL"
+                },
+                {
+                  "value": "2XL",
+                  "title": "2XL"
+                },
+                {
+                  "value": "3XL",
+                  "title": "3XL"
+                },
+                {
+                  "value": "4XL",
+                  "title": "4XL"
+                }
+              ],
+              "techniques": [
+                {
+                  "value": "printingTechniques",
+                  "title": "Printing",
+                  "values": [
+                    {
+                      "value": "T-SHIRT",
+                      "title": "DTG printing"
+                    },
+                    {
+                      "value": "DTFILM",
+                      "title": "DTF printing"
+                    }
+                  ]
+                },
+                {
+                  "value": "EMBROIDERY",
+                  "title": "Embroidery",
+                  "values": [
+                    {
+                      "value": "standard",
+                      "title": "Standard"
+                    },
+                    {
+                      "value": "plus",
+                      "title": "Unlimited color"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "conceptId": "12-the-rest-is-ours",
+      "title": "The Rest Is Ours. Hoodie",
+      "blank": {
+        "manufacturer": "Comfort Colors",
+        "model": "1467",
+        "supplierProductId": 969,
+        "supplierUrl": "https://www.printful.com/custom/mens/hoodies/garment-dyed-hooded-sweatshirt-comfort-colors-1467"
+      },
+      "endpoint": "https://www.printful.com/graphql?getProductPickerData",
+      "operationName": "getProductPickerData",
+      "variables": {
+        "productId": 969
+      },
+      "httpStatus": 200,
+      "startedAt": "2026-10-29T20:29:40.944Z",
+      "completedAt": "2026-10-29T20:29:41.200Z",
+      "response": {
+        "data": {
+          "singleProducts": {
+            "productPickerData": {
+              "productId": 969,
+              "variantAvailability": "[{\"color\":\"Black\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Pepper\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grey\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Blue Jean\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Peachy\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Butter\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Hydrangea\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Ivory\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Pepper\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grey\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Blue Jean\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Peachy\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Butter\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Hydrangea\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Ivory\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Pepper\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grey\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Blue Jean\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Peachy\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Butter\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Hydrangea\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Ivory\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Pepper\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grey\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Blue Jean\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Peachy\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Butter\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Hydrangea\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Ivory\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Pepper\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grey\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Blue Jean\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Peachy\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Butter\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Hydrangea\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Ivory\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Pepper\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Grey\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Blue Jean\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Peachy\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Butter\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Hydrangea\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Ivory\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true}]",
+              "colors": [
+                {
+                  "value": "Black",
+                  "title": "Black",
+                  "extra": {
+                    "codes": [
+                      "#272727"
+                    ],
+                    "tooltip": "Black #272727"
+                  }
+                },
+                {
+                  "value": "Pepper",
+                  "title": "Pepper",
+                  "extra": {
+                    "codes": [
+                      "#69635a"
+                    ],
+                    "tooltip": "Pepper #69635a"
+                  }
+                },
+                {
+                  "value": "Grey",
+                  "title": "Grey",
+                  "extra": {
+                    "codes": [
+                      "#9e9a96"
+                    ],
+                    "tooltip": "Grey #9e9a96"
+                  }
+                },
+                {
+                  "value": "Blue Jean",
+                  "title": "Blue Jean",
+                  "extra": {
+                    "codes": [
+                      "#9aa5b3"
+                    ],
+                    "tooltip": "Blue Jean #9aa5b3"
+                  }
+                },
+                {
+                  "value": "Peachy",
+                  "title": "Peachy",
+                  "extra": {
+                    "codes": [
+                      "#ffc7ad"
+                    ],
+                    "tooltip": "Peachy #ffc7ad"
+                  }
+                },
+                {
+                  "value": "Butter",
+                  "title": "Butter",
+                  "extra": {
+                    "codes": [
+                      "#ffdc8f"
+                    ],
+                    "tooltip": "Butter #ffdc8f"
+                  }
+                },
+                {
+                  "value": "Hydrangea",
+                  "title": "Hydrangea",
+                  "extra": {
+                    "codes": [
+                      "#ebf6fd"
+                    ],
+                    "tooltip": "Hydrangea #ebf6fd"
+                  }
+                },
+                {
+                  "value": "Ivory",
+                  "title": "Ivory",
+                  "extra": {
+                    "codes": [
+                      "#fef5df"
+                    ],
+                    "tooltip": "Ivory #fef5df"
+                  }
+                },
+                {
+                  "value": "White",
+                  "title": "White",
+                  "extra": {
+                    "codes": [
+                      "#ffffff"
+                    ],
+                    "tooltip": "White #ffffff"
+                  }
+                }
+              ],
+              "sizes": [
+                {
+                  "value": "S",
+                  "title": "S"
+                },
+                {
+                  "value": "M",
+                  "title": "M"
+                },
+                {
+                  "value": "L",
+                  "title": "L"
+                },
+                {
+                  "value": "XL",
+                  "title": "XL"
+                },
+                {
+                  "value": "2XL",
+                  "title": "2XL"
+                },
+                {
+                  "value": "3XL",
+                  "title": "3XL"
+                }
+              ],
+              "techniques": [
+                {
+                  "value": "T-SHIRT",
+                  "title": "DTG printing",
+                  "values": null
+                },
+                {
+                  "value": "EMBROIDERY",
+                  "title": "Embroidery",
+                  "values": [
+                    {
+                      "value": "standard",
+                      "title": "Standard"
+                    },
+                    {
+                      "value": "plus",
+                      "title": "Unlimited color"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "conceptId": "13-ours-to-spend",
+      "title": "Ours to Spend. Trucker Hat",
+      "blank": {
+        "manufacturer": "Yupoong",
+        "model": "6606",
+        "supplierProductId": 252,
+        "supplierUrl": "https://www.printful.com/custom/hats/trucker-hats/retro-trucker-cap-yupoong-6606"
+      },
+      "endpoint": "https://www.printful.com/graphql?getProductPickerData",
+      "operationName": "getProductPickerData",
+      "variables": {
+        "productId": 252
+      },
+      "httpStatus": 200,
+      "startedAt": "2026-10-29T20:29:40.945Z",
+      "completedAt": "2026-10-29T20:29:41.211Z",
+      "response": {
+        "data": {
+          "singleProducts": {
+            "productPickerData": {
+              "productId": 252,
+              "variantAvailability": "[{\"color\":\"Black\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Black\\/ White\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Navy\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Navy\\/ White\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Charcoal\\/ Black\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Charcoal\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Cranberry\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Red\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Brown\\/ Khaki\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Dark Heather Gray\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Evergreen\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Caramel\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Rustic Orange\\/ Khaki\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Pink\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Heather\\/ Black\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Heather Grey\\/White\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Silver\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Khaki\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"Moss\\/ Khaki\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true},{\"color\":\"White\",\"size\":\"One size\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true,\"isUnlimitedEmbroideryAvailable\":true}]",
+              "colors": [
+                {
+                  "value": "Black",
+                  "title": "Black",
+                  "extra": {
+                    "codes": [
+                      "#181818"
+                    ],
+                    "tooltip": "Black #181818"
+                  }
+                },
+                {
+                  "value": "Black/ White",
+                  "title": "Black/ White",
+                  "extra": {
+                    "codes": [
+                      "#181818",
+                      "#FFFFFF"
+                    ],
+                    "tooltip": "Black/ White #181818 / #FFFFFF"
+                  }
+                },
+                {
+                  "value": "Navy",
+                  "title": "Navy",
+                  "extra": {
+                    "codes": [
+                      "#24303b"
+                    ],
+                    "tooltip": "Navy #24303b"
+                  }
+                },
+                {
+                  "value": "Navy/ White",
+                  "title": "Navy/ White",
+                  "extra": {
+                    "codes": [
+                      "#24303b",
+                      "#FFFFFF"
+                    ],
+                    "tooltip": "Navy/ White #24303b / #FFFFFF"
+                  }
+                },
+                {
+                  "value": "Charcoal/ Black",
+                  "title": "Charcoal/ Black",
+                  "extra": {
+                    "codes": [
+                      "#3f3c38",
+                      "#101010"
+                    ],
+                    "tooltip": "Charcoal/ Black #3f3c38 / #101010"
+                  }
+                },
+                {
+                  "value": "Charcoal",
+                  "title": "Charcoal",
+                  "extra": {
+                    "codes": [
+                      "#3f3c38"
+                    ],
+                    "tooltip": "Charcoal #3f3c38"
+                  }
+                },
+                {
+                  "value": "Cranberry",
+                  "title": "Cranberry",
+                  "extra": {
+                    "codes": [
+                      "#7e293b"
+                    ],
+                    "tooltip": "Cranberry #7e293b"
+                  }
+                },
+                {
+                  "value": "Red",
+                  "title": "Red",
+                  "extra": {
+                    "codes": [
+                      "#c6172f"
+                    ],
+                    "tooltip": "Red #c6172f"
+                  }
+                },
+                {
+                  "value": "Brown/ Khaki",
+                  "title": "Brown/ Khaki",
+                  "extra": {
+                    "codes": [
+                      "#4e3c32",
+                      "#b3a58e"
+                    ],
+                    "tooltip": "Brown/ Khaki #4e3c32 / #b3a58e"
+                  }
+                },
+                {
+                  "value": "Dark Heather Gray",
+                  "title": "Dark Heather Gray",
+                  "extra": {
+                    "codes": [
+                      "#434344"
+                    ],
+                    "tooltip": "Dark Heather Gray #434344"
+                  }
+                },
+                {
+                  "value": "Evergreen",
+                  "title": "Evergreen",
+                  "extra": {
+                    "codes": [
+                      "#385e3d"
+                    ],
+                    "tooltip": "Evergreen #385e3d"
+                  }
+                },
+                {
+                  "value": "Caramel",
+                  "title": "Caramel",
+                  "extra": {
+                    "codes": [
+                      "#97622e"
+                    ],
+                    "tooltip": "Caramel #97622e"
+                  }
+                },
+                {
+                  "value": "Rustic Orange/ Khaki",
+                  "title": "Rustic Orange/ Khaki",
+                  "extra": {
+                    "codes": [
+                      "#e55a31",
+                      "#b3a58e"
+                    ],
+                    "tooltip": "Rustic Orange/ Khaki #e55a31 / #b3a58e"
+                  }
+                },
+                {
+                  "value": "Pink",
+                  "title": "Pink",
+                  "extra": {
+                    "codes": [
+                      "#dd7d9a"
+                    ],
+                    "tooltip": "Pink #dd7d9a"
+                  }
+                },
+                {
+                  "value": "Heather/ Black",
+                  "title": "Heather/ Black",
+                  "extra": {
+                    "codes": [
+                      "#a4a3a3",
+                      "#101010"
+                    ],
+                    "tooltip": "Heather/ Black #a4a3a3 / #101010"
+                  }
+                },
+                {
+                  "value": "Heather Grey/White",
+                  "title": "Heather Grey/White",
+                  "extra": {
+                    "codes": [
+                      "#a4a3a3",
+                      "#FFFFFF"
+                    ],
+                    "tooltip": "Heather Grey/White #a4a3a3 / #FFFFFF"
+                  }
+                },
+                {
+                  "value": "Silver",
+                  "title": "Silver",
+                  "extra": {
+                    "codes": [
+                      "#a4a4a3"
+                    ],
+                    "tooltip": "Silver #a4a4a3"
+                  }
+                },
+                {
+                  "value": "Khaki",
+                  "title": "Khaki",
+                  "extra": {
+                    "codes": [
+                      "#b3a58e"
+                    ],
+                    "tooltip": "Khaki #b3a58e"
+                  }
+                },
+                {
+                  "value": "Moss/ Khaki",
+                  "title": "Moss/ Khaki",
+                  "extra": {
+                    "codes": [
+                      "#fcd18a",
+                      "#554d18"
+                    ],
+                    "tooltip": "Moss/ Khaki #fcd18a / #554d18"
+                  }
+                },
+                {
+                  "value": "White",
+                  "title": "White",
+                  "extra": {
+                    "codes": [
+                      "#FFFFFF"
+                    ],
+                    "tooltip": "White #FFFFFF"
+                  }
+                }
+              ],
+              "sizes": [
+                {
+                  "value": "One size",
+                  "title": "One size fits all"
+                }
+              ],
+              "techniques": [
+                {
+                  "value": "EMBROIDERY",
+                  "title": "Embroidery",
+                  "values": [
+                    {
+                      "value": "standard",
+                      "title": "Standard"
+                    },
+                    {
+                      "value": "plus",
+                      "title": "Unlimited color"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "conceptId": "14-five-oclock",
+      "title": "5:00 Crewneck",
+      "blank": {
+        "manufacturer": "Comfort Colors",
+        "model": "1466",
+        "supplierProductId": 971,
+        "supplierUrl": "https://www.printful.com/custom/mens/hoodies-sweatshirts/unisex-garment-dyed-lightweight-fleece-crewneck-sweatshirt-comfort-colors-1466"
+      },
+      "endpoint": "https://www.printful.com/graphql?getProductPickerData",
+      "operationName": "getProductPickerData",
+      "variables": {
+        "productId": 971
+      },
+      "httpStatus": 200,
+      "startedAt": "2026-10-29T20:29:40.945Z",
+      "completedAt": "2026-10-29T20:29:41.202Z",
+      "response": {
+        "data": {
+          "singleProducts": {
+            "productPickerData": {
+              "productId": 971,
+              "variantAvailability": "[{\"color\":\"Black\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Pepper\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Crimson\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Espresso\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Yam\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Blue Jean\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Peachy\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Butter\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Ivory\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"White\",\"size\":\"S\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Black\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Pepper\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Crimson\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Espresso\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Yam\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Blue Jean\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Peachy\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Butter\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Ivory\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"White\",\"size\":\"M\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Black\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Pepper\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Crimson\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Espresso\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Yam\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Blue Jean\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Peachy\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Butter\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Ivory\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"White\",\"size\":\"L\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Black\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Pepper\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Crimson\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Espresso\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Yam\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Blue Jean\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Peachy\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Butter\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Ivory\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"White\",\"size\":\"XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Black\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Pepper\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Crimson\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Espresso\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Yam\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Blue Jean\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Peachy\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Butter\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Ivory\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"White\",\"size\":\"2XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Black\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Pepper\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Crimson\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Espresso\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Yam\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Blue Jean\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Peachy\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Butter\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"Ivory\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true},{\"color\":\"White\",\"size\":\"3XL\",\"isDiscontinued\":false,\"isDisabledInPush\":false,\"isFulfillable\":true,\"hasStock\":true}]",
+              "colors": [
+                {
+                  "value": "Black",
+                  "title": "Black",
+                  "extra": {
+                    "codes": [
+                      "#272727"
+                    ],
+                    "tooltip": "Black #272727"
+                  }
+                },
+                {
+                  "value": "Pepper",
+                  "title": "Pepper",
+                  "extra": {
+                    "codes": [
+                      "#69655e"
+                    ],
+                    "tooltip": "Pepper #69655e"
+                  }
+                },
+                {
+                  "value": "Crimson",
+                  "title": "Crimson",
+                  "extra": {
+                    "codes": [
+                      "#c25d57"
+                    ],
+                    "tooltip": "Crimson #c25d57"
+                  }
+                },
+                {
+                  "value": "Espresso",
+                  "title": "Espresso",
+                  "extra": {
+                    "codes": [
+                      "#966f56"
+                    ],
+                    "tooltip": "Espresso #966f56"
+                  }
+                },
+                {
+                  "value": "Yam",
+                  "title": "Yam",
+                  "extra": {
+                    "codes": [
+                      "#d2804e"
+                    ],
+                    "tooltip": "Yam #d2804e"
+                  }
+                },
+                {
+                  "value": "Blue Jean",
+                  "title": "Blue Jean",
+                  "extra": {
+                    "codes": [
+                      "#9aa5b3"
+                    ],
+                    "tooltip": "Blue Jean #9aa5b3"
+                  }
+                },
+                {
+                  "value": "Peachy",
+                  "title": "Peachy",
+                  "extra": {
+                    "codes": [
+                      "#ffc7ad"
+                    ],
+                    "tooltip": "Peachy #ffc7ad"
+                  }
+                },
+                {
+                  "value": "Butter",
+                  "title": "Butter",
+                  "extra": {
+                    "codes": [
+                      "#ffdc8f"
+                    ],
+                    "tooltip": "Butter #ffdc8f"
+                  }
+                },
+                {
+                  "value": "Ivory",
+                  "title": "Ivory",
+                  "extra": {
+                    "codes": [
+                      "#fff4d9"
+                    ],
+                    "tooltip": "Ivory #fff4d9"
+                  }
+                },
+                {
+                  "value": "White",
+                  "title": "White",
+                  "extra": {
+                    "codes": [
+                      "#ffffff"
+                    ],
+                    "tooltip": "White #ffffff"
+                  }
+                }
+              ],
+              "sizes": [
+                {
+                  "value": "S",
+                  "title": "S"
+                },
+                {
+                  "value": "M",
+                  "title": "M"
+                },
+                {
+                  "value": "L",
+                  "title": "L"
+                },
+                {
+                  "value": "XL",
+                  "title": "XL"
+                },
+                {
+                  "value": "2XL",
+                  "title": "2XL"
+                },
+                {
+                  "value": "3XL",
+                  "title": "3XL"
+                }
+              ],
+              "techniques": [
+                {
+                  "value": "EMBROIDERY",
+                  "title": "Embroidery",
+                  "values": null
+                },
+                {
+                  "value": "T-SHIRT",
+                  "title": "DTG printing",
+                  "values": null
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}
