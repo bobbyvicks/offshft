@@ -92,3 +92,18 @@ Symbol prompt, word for word:
 | offshft-arms-read | 9 of 10 | "the arms feel too big for the clock" |
 
 Future reading tests should start each reader separately, as in this round, so they see nothing but the prompt.
+
+## Round 2: the symbol's clock in the wordmark (owner's pick "1"), 29 October
+
+Same method and lockup prompt as above, three new readers, image `../final/the-o/logo-light-cap7.png` after the change
+(letter-sized O with the pivot dot, ring walls 0.82 x the stem, hands at the symbol's proportion).
+
+| Reader | Read as | Sure | Saw a clock? (unprompted) | Anything odd (their words, shortened) |
+|---|---|---|---|---|
+| 1 | OFF SHFT | 9 | "an O drawn as a clock face", dot in the middle, about 5 o'clock | missing I reads as SHIFT or a misprint; lower hand "where a Q's tail would be" |
+| 2 | OFF SHFT | 9 | "a thick dark-navy ring", orange dot, hands at 12 and about 5, "reads as a clock face" | SHFT looks like a typo of SHIFT; the O looks "a little like a Q" |
+| 3 | OFF SHFT | 8 | "looks like a clock face showing about 5 o'clock" | lower hand where a Q's tail goes ("QFF"); SHFT a misspelling of SHIFT |
+
+The dot costs nothing: 3 out of 3 read OFF SHFT (average 8.7, against 9 without the dot), all three saw the clock at
+5:00, and nobody read it as a scope or target. The Q-tail and SHIFT remarks are the same as every earlier version.
+

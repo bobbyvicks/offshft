@@ -9,12 +9,12 @@ const OUT = __dirname, A = B.FONTS.unbounded, L = B.LIGHT;
 // visible lengths in mm at cap 7 -> cap units
 const len = (mm) => mm / 7;
 const V = [
-  ['A-now', 'Now: 1.9 mm wide, 6.6 / 4.7 mm long', { minuteLen: 0.936, hourLen: 0.667 }],
-  ['B-slimmer', 'Slimmer: 1.5 mm wide, same length', { handW: 1.5, minuteLen: 0.936, hourLen: 0.667 }],
-  // C is the owner's pick and is now the default in final/the-o/build.cjs
-  ['C-shorter', 'Shorter: same width, 4.6 / 3.5 mm long', { minuteLen: len(4.6), hourLen: len(3.5) }],
-  ['D-smaller', 'Slimmer + shorter: 1.5 mm, 4.6 / 3.5 mm', { handW: 1.5, minuteLen: len(4.6), hourLen: len(3.5) }],
-  ['E-smallest', 'Smallest: 1.5 mm, 3.9 / 3.0 mm', { handW: 1.5, minuteLen: len(3.9), hourLen: len(3.0) }],
+  ['A-now', 'Now: 1.9 mm wide, 6.6 / 4.7 mm long', { dot: false, wallFactor: 1.0, minuteLen: 0.936, hourLen: 0.667 }],
+  ['B-slimmer', 'Slimmer: 1.5 mm wide, same length', { dot: false, wallFactor: 1.0, handW: 1.5, minuteLen: 0.936, hourLen: 0.667 }],
+  // C was the owner's pick, later replaced by the symbol's clock (symbol-clock/, option 1)
+  ['C-shorter', 'Shorter: same width, 4.6 / 3.5 mm long', { dot: false, wallFactor: 1.0, minuteLen: len(4.6), hourLen: len(3.5) }],
+  ['D-smaller', 'Slimmer + shorter: 1.5 mm, 4.6 / 3.5 mm', { dot: false, wallFactor: 1.0, handW: 1.5, minuteLen: len(4.6), hourLen: len(3.5) }],
+  ['E-smallest', 'Smallest: 1.5 mm, 3.9 / 3.0 mm', { dot: false, wallFactor: 1.0, handW: 1.5, minuteLen: len(3.9), hourLen: len(3.0) }],
 ];
 (async () => {
   const items = [];
