@@ -1,0 +1,436 @@
+{
+  "created": "2026-10-29",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "product mockup / precise object edits",
+  "finalAssetCount": 15,
+  "notes": [
+    "Generated ecommerce concept photos, not supplier photography or an exact embroidery/digitization proof.",
+    "Supplier colour labels and construction verified from current official Printful sources; fabric screen hex targets are not certified physical colour matches.",
+    "Canonical logo/symbol renders and current Punched Out v2 were references. Original vector master paths were not edited; generated embroidery approximates source geometry and intended 62.6/63mm logo,25mm clock dimensions.",
+    "Generated PNG files copied byte-for-byte into the workspace. All originals and intermediate attempts retained in Codex generated_images.",
+    "Only the BA671 has a decorative white rope. Otto and dad hat seam corrections were made after cross-review.",
+    "No Shopify UI changes or git commits made by this agent."
+  ],
+  "finalAssets": [
+    {
+      "key": "hat-6606-evergreen-logo",
+      "file": "images/hat-6606-evergreen-logo.png",
+      "style": "Yupoong 6606 Retro Trucker",
+      "supplierColour": "Evergreen",
+      "supplierScreenHex": "#385E3D",
+      "supplierPage": "https://www.printful.com/custom/hats/trucker-hats/retro-trucker-cap-yupoong-6606",
+      "design": "logo",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-2b4e996b-542c-4296-869a-3601e5e34f9f.png",
+      "acceptedGeneration": "hat-6606-evergreen-logo",
+      "review": "Structured six-panel mesh-backed trucker silhouette; matching green crown/visor/mesh. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-6606-evergreen-clock",
+      "file": "images/hat-6606-evergreen-clock.png",
+      "style": "Yupoong 6606 Retro Trucker",
+      "supplierColour": "Evergreen",
+      "supplierScreenHex": "#385E3D",
+      "supplierPage": "https://www.printful.com/custom/hats/trucker-hats/retro-trucker-cap-yupoong-6606",
+      "design": "clock",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-8db2830f-82a9-4740-8732-9b4375d91919.png",
+      "acceptedGeneration": "hat-6606-evergreen-clock",
+      "review": "Structured six-panel mesh-backed trucker silhouette; matching green crown/visor/mesh. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-6606-evergreen-punched-out",
+      "file": "images/hat-6606-evergreen-punched-out.png",
+      "style": "Yupoong 6606 Retro Trucker",
+      "supplierColour": "Evergreen",
+      "supplierScreenHex": "#385E3D",
+      "supplierPage": "https://www.printful.com/custom/hats/trucker-hats/retro-trucker-cap-yupoong-6606",
+      "design": "punched-out",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-b82a5933-8ce3-411d-9177-29fb394ea07f.png",
+      "acceptedGeneration": "hat-6606-evergreen-punched-out",
+      "review": "Structured six-panel mesh-backed trucker silhouette; matching green crown/visor/mesh. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-31-069-black-logo",
+      "file": "images/hat-31-069-black-logo.png",
+      "style": "Otto 31-069",
+      "supplierColour": "Black",
+      "supplierScreenHex": "#222222",
+      "supplierPage": "https://www.printful.com/custom/hats/dad-hats/5-panel-mid-profile-baseball-cap-otto-cap-31-069",
+      "design": "logo",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-dd750126-8e64-4914-b346-988cf3b36966.png",
+      "acceptedGeneration": "hat-31-069-black-logo-seam-fix",
+      "review": "Closed back, structured midprofile five-panel construction; uninterrupted front; raised cord-like crown-to-bill trim removed after QA. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-31-069-black-clock",
+      "file": "images/hat-31-069-black-clock.png",
+      "style": "Otto 31-069",
+      "supplierColour": "Black",
+      "supplierScreenHex": "#222222",
+      "supplierPage": "https://www.printful.com/custom/hats/dad-hats/5-panel-mid-profile-baseball-cap-otto-cap-31-069",
+      "design": "clock",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-30995179-225d-4943-915b-0a02793c770d.png",
+      "acceptedGeneration": "hat-31-069-black-clock-seam-fix",
+      "review": "Closed back, structured midprofile five-panel construction; uninterrupted front; raised cord-like crown-to-bill trim removed after QA. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-31-069-black-punched-out",
+      "file": "images/hat-31-069-black-punched-out.png",
+      "style": "Otto 31-069",
+      "supplierColour": "Black",
+      "supplierScreenHex": "#222222",
+      "supplierPage": "https://www.printful.com/custom/hats/dad-hats/5-panel-mid-profile-baseball-cap-otto-cap-31-069",
+      "design": "punched-out",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-2217f196-aea7-475e-8fab-ca4a03bfeae5.png",
+      "acceptedGeneration": "hat-31-069-black-punched-out-seam-fix",
+      "review": "Closed back, structured midprofile five-panel construction; uninterrupted front; raised cord-like crown-to-bill trim removed after QA. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-6245cm-black-logo",
+      "file": "images/hat-6245cm-black-logo.png",
+      "style": "Yupoong 6245CM Dad Hat",
+      "supplierColour": "Black",
+      "supplierScreenHex": "#181717",
+      "supplierPage": "https://www.printful.com/custom/hats/dad-hats/classic-dad-cap-yupoong-6245cm",
+      "design": "logo",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-e2866113-9459-42ad-a5e6-c85d3262566b.png",
+      "acceptedGeneration": "hat-6245cm-black-logo-seam-fix",
+      "review": "Soft lower six-panel crown, closed cotton back, curved visor, antique-brass buckle visible; piping flattened after QA. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-6245cm-black-clock",
+      "file": "images/hat-6245cm-black-clock.png",
+      "style": "Yupoong 6245CM Dad Hat",
+      "supplierColour": "Black",
+      "supplierScreenHex": "#181717",
+      "supplierPage": "https://www.printful.com/custom/hats/dad-hats/classic-dad-cap-yupoong-6245cm",
+      "design": "clock",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-7be5d403-b685-4ffc-aa0f-de716a10f1ea.png",
+      "acceptedGeneration": "hat-6245cm-black-clock-seam-fix",
+      "review": "Soft lower six-panel crown, closed cotton back, curved visor, antique-brass buckle visible; piping flattened after QA. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-6245cm-black-punched-out",
+      "file": "images/hat-6245cm-black-punched-out.png",
+      "style": "Yupoong 6245CM Dad Hat",
+      "supplierColour": "Black",
+      "supplierScreenHex": "#181717",
+      "supplierPage": "https://www.printful.com/custom/hats/dad-hats/classic-dad-cap-yupoong-6245cm",
+      "design": "punched-out",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-28c7bfa0-e254-4f17-a84f-e5e16f76c9fe.png",
+      "acceptedGeneration": "hat-6245cm-black-punched-out-seam-fix",
+      "review": "Soft lower six-panel crown, closed cotton back, curved visor, antique-brass buckle visible; piping flattened after QA. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-ba671-black-white-logo",
+      "file": "images/hat-ba671-black-white-logo.png",
+      "style": "Big Accessories BA671 Golf Rope Cap",
+      "supplierColour": "Black/White",
+      "supplierScreenHex": null,
+      "supplierPage": "https://www.printful.com/custom/hats/snapbacks/golf-rope-cap-big-accessories-ba671",
+      "design": "logo",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-a52f4fb2-b920-4cd3-b1ec-5d1e5432bebb.png",
+      "acceptedGeneration": "hat-ba671-black-white-logo-front-cleanup",
+      "review": "Black fabric crown/bill, thin white rope, closed back, semi-curved bill; generated central front seam removed. Back snap is not visible in this view. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-ba671-black-white-clock",
+      "file": "images/hat-ba671-black-white-clock.png",
+      "style": "Big Accessories BA671 Golf Rope Cap",
+      "supplierColour": "Black/White",
+      "supplierScreenHex": null,
+      "supplierPage": "https://www.printful.com/custom/hats/snapbacks/golf-rope-cap-big-accessories-ba671",
+      "design": "clock",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-0a02b753-e67e-47cb-ab67-e57ddd667301.png",
+      "acceptedGeneration": "hat-ba671-black-white-clock-front-cleanup",
+      "review": "Black fabric crown/bill, thin white rope, closed back, semi-curved bill; generated central front seam removed. Back snap is not visible in this view. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "hat-ba671-black-white-punched-out",
+      "file": "images/hat-ba671-black-white-punched-out.png",
+      "style": "Big Accessories BA671 Golf Rope Cap",
+      "supplierColour": "Black/White",
+      "supplierScreenHex": null,
+      "supplierPage": "https://www.printful.com/custom/hats/snapbacks/golf-rope-cap-big-accessories-ba671",
+      "design": "punched-out",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-70b9cbdc-8973-4c22-94b8-5d84c1a2aaba.png",
+      "acceptedGeneration": "hat-ba671-black-white-punched-out",
+      "review": "Black fabric crown/bill, thin white rope, closed back, semi-curved bill; generated central front seam removed. Back snap is not visible in this view. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "jacket-co200-light-blue-logo",
+      "file": "images/jacket-co200-light-blue-logo.png",
+      "style": "Champion CO200 Packable Jacket",
+      "supplierColour": "Light Blue",
+      "supplierScreenHex": "#7EB1E0",
+      "supplierPage": "https://www.printful.com/custom/collections/embroidery/embroidered-champion-packable-jacket",
+      "design": "logo",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-85f6fb5e-35df-4b6c-91a4-5fbf55757702.png",
+      "acceptedGeneration": "jacket-co200-light-blue-logo",
+      "review": "Thin crinkly polyester half-zip anorak, hood/hem bungees, pouch pocket, elastic wrists, supplier-verified Champion C wrist patch. Small left-chest artwork. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "jacket-co200-light-blue-clock",
+      "file": "images/jacket-co200-light-blue-clock.png",
+      "style": "Champion CO200 Packable Jacket",
+      "supplierColour": "Light Blue",
+      "supplierScreenHex": "#7EB1E0",
+      "supplierPage": "https://www.printful.com/custom/collections/embroidery/embroidered-champion-packable-jacket",
+      "design": "clock",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-0d653500-e9f7-414d-851c-4befcab46bd1.png",
+      "acceptedGeneration": "jacket-co200-light-blue-clock",
+      "review": "Thin crinkly polyester half-zip anorak, hood/hem bungees, pouch pocket, elastic wrists, supplier-verified Champion C wrist patch. Small left-chest artwork. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    },
+    {
+      "key": "jacket-co200-light-blue-punched-out",
+      "file": "images/jacket-co200-light-blue-punched-out.png",
+      "style": "Champion CO200 Packable Jacket",
+      "supplierColour": "Light Blue",
+      "supplierScreenHex": "#7EB1E0",
+      "supplierPage": "https://www.printful.com/custom/collections/embroidery/embroidered-champion-packable-jacket",
+      "design": "punched-out",
+      "finalGeneratedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-f0338057-6ae8-406d-ac8a-d742fbadbfeb.png",
+      "acceptedGeneration": "jacket-co200-light-blue-punched-out",
+      "review": "Thin crinkly polyester half-zip anorak, hood/hem bungees, pouch pocket, elastic wrists, supplier-verified Champion C wrist patch. Small left-chest artwork. Text/clock orientation and complete-product framing visually checked.",
+      "dimensionsApproximate": true
+    }
+  ],
+  "generations": [
+    {
+      "key": "hat-6606-evergreen-logo",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-logo.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Recolour ONLY the fabric and mesh of this Yupoong6606 Retro Trucker cap from black to Printful's EVERGREEN, a deep muted forest green with screen target #385E3D. Preserve the exact cap shape, structured six panels, mesh rear, curved visor, stitching, camera, full-product square framing, warm ivory studio ground and light/shadow. Recolour crown, visor, button, seam thread and rear mesh consistently green; retain dark holes in mesh. Preserve the small OFF SHFT embroidery exactly, including Bone letters/O ring and Sun hands/pivot, total width approximately62.6mm and correct diagonal5o'clock lower hand. Do not resize, respell, reflow or move artwork; no added marks, captions, props or watermark. Photorealistic tactile cloth, not flat fill or illustration.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-2b4e996b-542c-4296-869a-3601e5e34f9f.png"
+    },
+    {
+      "key": "jacket-co200-light-blue-logo",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/jacket-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/brand-system/assets/logo-light.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Change this full ChampionCO200 anorak photo to its verified Printful LIGHT BLUE colour, screen target #7EB1E0, softly shaded natural light blue. Change fabric only from slate to Light Blue, including hood, panels, sleeves, elastic cuffs and hem; use matching light-blue zipper tape and drawcords, keep dark functional toggles plausible. Preserve the thin crinkly polyester micro-poplin material, halfzip, bungee hood/hem, kangaroo and hidden pouch pocket, entire garment, pose/framing, warm ivory ground, light and shadows. Preserve the maker's original red/blue/white C wrist patch. Recolour only the SMALL left-chest OFF SHFT embroidery to match reference2: Ink #1F2733 letters/O ring and Rust #B4552D hands/pivot. Keep exact existing small width approximately63mm and placement; no enlarging for legibility. Exact text OFF SHFT, no I. Upper hand12, lower hand down-right5. No changes to structure, no extra objects, captions or watermark.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-85f6fb5e-35df-4b6c-91a4-5fbf55757702.png"
+    },
+    {
+      "key": "hat-31-069-black-logo",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/references/otto31069-supplier.jpg",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/brand-system/assets/logo-dark.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-logo.png"
+      ],
+      "prompt": "Use case: product-mockup. One square ecommerce photograph on warm ivory matte seamless ground, soft natural sidelight from upper left and gentle shadows, single full product with at least8%margin around outer edges. Front three-quarter view, brim pointing toward lower left. No person/model, no background objects, text panels, tags or watermark. Photoreal tactile fabric and stitching. Embroider exact supplied OFF SHFT artwork at small realistic62.6mm total front width, about30%of crown width, not oversized. Bone #ECE5D3 letters/O ring; Sun #D29B3C hands/pivot. Exact broad bold wordmark \"OFF SHFT\", with clock replacing first O, no I, no extra symbol before O. Upper hand12; lower hand noticeably diagonal down-right5:00, never6. Clear fabric channels separate hands/ring. Modest satin embroidery relief. Subject is the exact OTTO31-069 structured MID-PROFILE FIVE-PANEL cap in BLACK#222222. Closed black polycotton twill panels all around, NOT mesh. CRUCIAL: one broad uninterrupted front panel, NO CENTER VERTICAL SEAM on front, because it is the actual five-panel31-069. Firm clean structured front, slightly curved visor, snapback closure, sewn eyelets, matching black underside and sweatband. Use image1 for supplier shape/construction only (make black, omit model); image2 for exact artwork; image3 only for camera/light/backdrop style, DO NOT copy its mesh or six-panel front seam. Position logo centered on uninterrupted front.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-f3d2de31-c7d0-494a-bfcc-409abafd5ddb.png"
+    },
+    {
+      "key": "hat-6245cm-black-logo",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/references/dad6245cm-supplier.jpg",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/brand-system/assets/logo-dark.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-logo.png"
+      ],
+      "prompt": "Use case: product-mockup. One square ecommerce photograph on warm ivory matte seamless ground, soft natural sidelight from upper left and gentle shadows, single full product with at least8%margin around outer edges. Front three-quarter view, brim pointing toward lower left. No person/model, no background objects, text panels, tags or watermark. Photoreal tactile fabric and stitching. Embroider exact supplied OFF SHFT artwork at small realistic62.6mm total front width, about30%of crown width, not oversized. Bone #ECE5D3 letters/O ring; Sun #D29B3C hands/pivot. Exact broad bold wordmark \"OFF SHFT\", with clock replacing first O, no I, no extra symbol before O. Upper hand12; lower hand noticeably diagonal down-right5:00, never6. Clear fabric channels separate hands/ring. Modest satin embroidery relief. Subject is exact Yupoong6245CM CLASSIC DAD HAT in BLACK#181717. It has an UNSTRUCTURED soft LOW-PROFILE six-panel crown, CLOSED cotton-twill rear panels, curved visor and adjustable fabric strap with antique brass buckle. Six eyelets, gentle lived-in crown wrinkles and low relaxed silhouette. It must NOT look like a stiff high-crown trucker and MUST NOT have mesh. Use image1 for exact low soft dad-hat shape only (black, remove model and tomato artwork); image2 for OFF SHFT embroidery; image3 ONLY for camera/light/backdrop (do not copy stiff crown or mesh). Offset wordmark slightly right so center seam passes through space between OFF and SHFT.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-aed36921-1636-4c9f-a423-65d7ca1e3dc3.png"
+    },
+    {
+      "key": "hat-ba671-black-white-logo",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/references/ba671-black-white-supplier.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/references/ba671-detail-0.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/brand-system/assets/logo-dark.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-logo.png"
+      ],
+      "prompt": "Use case: product-mockup. One square ecommerce photograph on warm ivory matte seamless ground, soft natural sidelight from upper left and gentle shadows, single full product with at least8%margin around outer edges. Front three-quarter view, brim pointing toward lower left. No person/model, no background objects, text panels, tags or watermark. Photoreal tactile fabric and stitching. Embroider exact supplied OFF SHFT artwork at small realistic62.6mm total front width, about30%of crown width, not oversized. Bone #ECE5D3 letters/O ring; Sun #D29B3C hands/pivot. Exact broad bold wordmark \"OFF SHFT\", with clock replacing first O, no I, no extra symbol before O. Upper hand12; lower hand noticeably diagonal down-right5:00, never6. Clear fabric channels separate hands/ring. Modest satin embroidery relief. Subject is actual BigAccessories BA671 GOLF ROPE CAP in BLACK/WHITE. Supplier reference1 verifies ALL crown/visor fabric BLACK with a thin WHITE braided horizontal ROPE across front at base of crown; white contrasting snapback at rear. Closed cotton/nylon back, no mesh. Unstructured five-panel crown with lined front, distinctive tall golf shape and SEMI-CURVED bill less curved than dad hat. White in colour name means rope/closure, NOT a white front panel. Use image1for exactcolourarrangement and shape, image2for fullcap construction (butchange yellow/navy to black/white), image3for exact OFFSHFTmark. Image4onlylight/camera/backdrop. Omit people, anchor art, allprops. Small OFFSHFTlogo sits comfortably above white rope and does not touch it.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-b027caf4-ce36-4c12-a053-81f64c429b1b.png"
+    },
+    {
+      "key": "hat-ba671-black-white-logo-correction",
+      "refs": [
+        "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-b027caf4-ce36-4c12-a053-81f64c429b1b.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Correct ONLY the front construction of this black Big Accessories BA671 five-panel golf rope cap. Remove the vertical center seam running down its front crown. The front of this five-panel cap is one broad uninterrupted fabric panel, with no center vertical stitching or seam. Preserve its tall soft golf shape, every other seam, black closed fabric rear, white braided rope across base of crown, bill curve, exact small Bone/Sun OFF SHFT embroidery and correct 12-and-5 clock hands. Keep logo placement/size, same camera, warm ivory background, lighting, shadows, full-cap square composition. Do not add, change or erase anything else.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-769ec446-2ad8-4cd2-b552-d7f345a82be6.png"
+    },
+    {
+      "key": "hat-6606-evergreen-clock",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-clock.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Recolour ONLY the fabric and mesh of this Yupoong 6606 Retro Trucker cap from black to Printful's EVERGREEN, a deep muted forest green with screen target #385E3D. Preserve the exact cap shape, structured six panels, mesh rear, curved visor, stitching, camera, full-product square framing, warm ivory studio ground and lighting/shadow. Recolour crown, visor, button, seam thread and rear mesh consistently green; retain dark holes in mesh. Preserve the exact existing small embroidered standalone 25mm clock symbol in Bone ring and Sun hands/pivot, with upper hand12 and lower hand diagonal down-right5. Do not resize or move the embroidery. No added marks, captions, props, tags or watermark. Photorealistic tactile cloth, not flat fill or illustration.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-8db2830f-82a9-4740-8732-9b4375d91919.png"
+    },
+    {
+      "key": "hat-6606-evergreen-punched-out",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-punched-out.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Recolour ONLY the fabric and mesh of this Yupoong 6606 Retro Trucker cap from black to Printful's EVERGREEN, a deep muted forest green with screen target #385E3D. Preserve the exact cap shape, structured six panels, mesh rear, curved visor, stitching, camera, full-product square framing, warm ivory studio ground and lighting/shadow. Recolour crown, visor, button, seam thread and rear mesh consistently green; retain dark holes in mesh. Preserve the exact existing small embroidered one-line Bone text PUNCHED OUT. with its full stop, exact letters, font, size and placement. Do not resize or move the embroidery. No added marks, captions, props, tags or watermark. Photorealistic tactile cloth, not flat fill or illustration.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-b82a5933-8ce3-411d-9177-29fb394ea07f.png"
+    },
+    {
+      "key": "jacket-co200-light-blue-clock",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/jacket-clock.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/jacket-co200-light-blue-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/brand-system/assets/symbol-light.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is target: change ONLY garment colour and embroidery thread colour. Match Light Blue #7EB1E0 of image2, while preserving exact silhouette, thin crinkly polyester micro-poplin, hood bungees, half zip, elastic wrists, kangaroo and hidden pouch pocket, hem drawcord, flat lay, square full-garment composition, warm ivory background, soft upper-left light and shadows from image1. Preserve verified red/blue/white Champion C wrist patch. Recolour its existing very small 25mm left-chest clock to Ink #1F2733 ring and Rust #B4552D hands/pivot, as canonical image3. Preserve correct upward12 and diagonallydown-right5 hands and cloth channels. Keep the exact SMALL existing embroidery size and location from image1. Do not enlarge the embroidery. No construction or proportion changes. No extra logos, captions, labels, props or watermark.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-0d653500-e9f7-414d-851c-4befcab46bd1.png"
+    },
+    {
+      "key": "jacket-co200-light-blue-punched-out",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/jacket-punched-out.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/jacket-co200-light-blue-logo.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is target: change ONLY garment colour and embroidery thread colour. Match Light Blue #7EB1E0 of image2, while preserving exact silhouette, thin crinkly polyester micro-poplin, hood bungees, half zip, elastic wrists, kangaroo and hidden pouch pocket, hem drawcord, flat lay, square full-garment composition, warm ivory background, soft upper-left light and shadows from image1. Preserve verified red/blue/white Champion C wrist patch. Recolour its existing small one-line left-chest PUNCHED OUT. embroidery to Ink #1F2733; retain exact words, full stop and font. Keep the exact SMALL existing embroidery size and location from image1. Do not enlarge the embroidery. No construction or proportion changes. No extra logos, captions, labels, props or watermark.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-f0338057-6ae8-406d-ac8a-d742fbadbfeb.png"
+    },
+    {
+      "key": "hat-31-069-black-clock",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-31-069-black-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/brand-system/assets/symbol-dark.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-clock.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is exact target. Replace ONLY its OFF SHFT wordmark embroidery with the standalone clock symbol in image2, embroidered small, total height25mm, centered on front. Image3 shows reference clock scale only, do not transfer its mesh or seams. Correct shape: Bone #ECE5D3 O ring, Sun #D29B3C central pivot and two disconnected hands with black fabric channels between ring/hands; upper hand upward12, lower hand diagonal down-right5, not6. Small modest satin stitches. Preserve entire target Otto31-069 BLACK five-panel cap, especially broad uninterrupted front panel with NO CENTER VERTICAL SEAM, closed rear no mesh, firm midprofile front, curved visor, pose, light, ivory background, shadows and framing. No lettering remains. No extra objects or marks.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-3f5cd3d1-b1d6-44c6-80a7-9639eb964391.png"
+    },
+    {
+      "key": "hat-6245cm-black-clock",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-6245cm-black-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/brand-system/assets/symbol-dark.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-clock.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is target photograph. Replace ONLY its OFF SHFT wordmark embroidery with standalone clock symbol of image2, embroidered small, total height25mm, centered on front . Image3 shows clock scale only, DO NOT copy its trucker shape or mesh. Exact clock: Bone #ECE5D3 O ring, Sun #D29B3C central pivot and two disconnected hands with black fabric channels between ring/hands. Upper hand upward12, lower hand diagonal down-right5, not6. Modest satin stitches. Preserve exact target Yupoong6245CM BLACK dad hat, soft unstructured low-profile six-panel crown, closed cotton rear no mesh, antique brass buckle/fabric strap, curved bill and gentle wrinkles. Preserve pose, lighting, ivory background, shadows, entire-cap square framing and colour. No lettering remains. No extra objects or marks.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-b28ae413-2632-4dcd-b4ae-475b88d9cf02.png"
+    },
+    {
+      "key": "hat-ba671-black-white-clock",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-ba671-black-white-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/brand-system/assets/symbol-dark.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-clock.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is target photograph. Replace ONLY its OFF SHFT wordmark embroidery with standalone clock symbol of image2, embroidered small, total height25mm, centered on front comfortably above the white rope. Image3 shows clock scale only, DO NOT copy its trucker shape or mesh. Exact clock: Bone #ECE5D3 O ring, Sun #D29B3C central pivot and two disconnected hands with black fabric channels between ring/hands. Upper hand upward12, lower hand diagonal down-right5, not6. Modest satin stitches. Preserve exact target BA671 black five-panel golf rope cap, broad uninterrupted front panel with NO CENTER VERTICAL SEAM, WHITE braided rope along frontbase, closed back no mesh, semi-curved bill and tall soft golf silhouette. Preserve pose, lighting, ivory background, shadows, entire-cap square framing and colour. No lettering remains. No extra objects or marks.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-991a34e0-4d91-4737-b74e-a8c933d6815b.png"
+    },
+    {
+      "key": "hat-31-069-black-punched-out",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-31-069-black-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/09-punched-out/preview-slate.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-punched-out.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is exact target photo. Replace ONLY its OFF SHFT wordmark embroidery with the supplied current design in image2: PUNCHED OUT. as ONE straight horizontal line, complete with final period, exact broad extended bold capital letter shapes and generous spacing. Bone #ECE5D3 thread. Approximate total embroidery width78mm and capitalheight4.8mm; restrained front placement, not oversized. Image3 gives size/embroidery reference only; do NOT transfer its trucker cap or mesh. Preserve Otto31-069 black structured midprofile FIVE-PANEL shape, one continuous front panel WITHOUT center vertical seam, closed fabric rear WITHOUT mesh, curved brim, all material/eyelets/seams, pose, camera, warm ivory backdrop, lighting/shadows. No clock icon or OFF SHFT text remains. No extra graphics, tags, captions or props.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-1317fd1b-a501-4ab1-ae3b-2c10d4d5e505.png"
+    },
+    {
+      "key": "hat-ba671-black-white-logo-front-cleanup",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-ba671-black-white-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-31-069-black-logo.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is the target rope cap. Image2 is a front-panel construction reference ONLY. In image1, erase the fine double lines of vertical stitching and the narrow crease running down the middle of the front face, from the top button through the middle of the logo area to the rope. Replace that narrow center strip with continuous ordinary black twill matching adjacent front fabric. The resulting central front face is ONE BROAD SMOOTH UNINTERRUPTED PANEL like image2. Keep outer side-panel seams only. Do not leave any central stitched line, split or seam below or above the embroidery. Preserve the exact OFF SHFT Bone/Sun wordmark embroidery, its exact position and scale, all eyelets, BLACK fabric colour, thin WHITE rope, cap silhouette, brim stitching, full square view, shadows and warm ivory background. This is a localized seam-removal edit. Do not transfer image2's wordmark, stiff shape or lack of rope.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-a52f4fb2-b920-4cd3-b1ec-5d1e5432bebb.png"
+    },
+    {
+      "key": "hat-ba671-black-white-clock-front-cleanup",
+      "refs": [
+        "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-991a34e0-4d91-4737-b74e-a8c933d6815b.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-31-069-black-logo.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is the target rope cap. Image2 is a front-panel construction reference ONLY. In image1, erase the fine double lines of vertical stitching and the narrow crease running down the middle of the front face, from the top button through the middle of the logo area to the rope. Replace that narrow center strip with continuous ordinary black twill matching adjacent front fabric. The resulting central front face is ONE BROAD SMOOTH UNINTERRUPTED PANEL like image2. Keep outer side-panel seams only. Do not leave any central stitched line, split or seam below or above the embroidery. Preserve the exact small Bone/Sun standalone clock embroidery, its exact position and scale, all eyelets, BLACK fabric colour, thin WHITE rope, cap silhouette, brim stitching, full square view, shadows and warm ivory background. This is a localized seam-removal edit. Do not transfer image2's wordmark, stiff shape or lack of rope.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-0a02b753-e67e-47cb-ab67-e57ddd667301.png"
+    },
+    {
+      "key": "hat-6245cm-black-punched-out",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-6245cm-black-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/09-punched-out/preview-slate.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-punched-out.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is exact target photo. Replace ONLY its OFF SHFT wordmark embroidery with the supplied current v2 design in image2: PUNCHED OUT. as ONE straight horizontal line, complete final period, exact broad extended bold capital letter shapes and generous spacing. Bone #ECE5D3 thread, modest satin stitches. Approximate total embroidery width78mm and capitalheight4.8mm. Image3 shows only size/embroidery reference; do NOT transfer its trucker shape or mesh. Preserve exact Yupoong6245CM BLACK dad-hat shape, soft unstructured low-profile SIX-panel crown, closed cotton rear no mesh, antique brass buckle/fabric strap, curved bill, gentle wrinkles, all seams/eyelets, pose, camera, warm ivory background and soft upper-left lighting/shadows. No clock icon or OFF SHFT text remains. No extra graphics, tags, captions or props.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-a064d218-a91e-4ca4-9665-f812e69771cd.png"
+    },
+    {
+      "key": "hat-31-069-black-logo-seam-fix",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-31-069-black-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/references/otto31069-supplier.jpg"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is target; image2 is official Otto31-069 construction reference ONLY. Remove ONLY the raised black cord-like piping that runs horizontally around the base of the crown where it meets the bill. The Otto31-069 has NO rope or piping. Replace the entire rolled cord with a plain flat sewn fabric junction and very subtle black stitching like image2. It must have no cylindrical raised ridge or braided trim. Preserve all black fabric, exact OFF SHFT wordmark embroidery unchanged, its size, colours and placement, broad uninterrupted five-panel front with NO center vertical seam, firm midprofile closed crown, eyelets, curved brim, all other seams, camera pose, full-cap framing, warm ivory background, lighting and shadows. Localized seam/cord removal only. Do not copy white fabric or person.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-dd750126-8e64-4914-b346-988cf3b36966.png"
+    },
+    {
+      "key": "hat-31-069-black-clock-seam-fix",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-31-069-black-clock.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/references/otto31069-supplier.jpg"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is target; image2 is official Otto31-069 construction reference ONLY. Remove ONLY the raised black cord-like piping that runs horizontally around the base of the crown where it meets the bill. The Otto31-069 has NO rope or piping. Replace the entire rolled cord with a plain flat sewn fabric junction and very subtle black stitching like image2. It must have no cylindrical raised ridge or braided trim. Preserve all black fabric, exact standalone clock embroidery unchanged, its size, colours and placement, broad uninterrupted five-panel front with NO center vertical seam, firm midprofile closed crown, eyelets, curved brim, all other seams, camera pose, full-cap framing, warm ivory background, lighting and shadows. Localized seam/cord removal only. Do not copy white fabric or person.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-30995179-225d-4943-915b-0a02793c770d.png"
+    },
+    {
+      "key": "hat-31-069-black-punched-out-seam-fix",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-31-069-black-punched-out.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/references/otto31069-supplier.jpg"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is target; image2 is official Otto31-069 construction reference ONLY. Remove ONLY the raised black cord-like piping that runs horizontally around the base of the crown where it meets the bill. The Otto31-069 has NO rope or piping. Replace the entire rolled cord with a plain flat sewn fabric junction and very subtle black stitching like image2. It must have no cylindrical raised ridge or braided trim. Preserve all black fabric, exact PUNCHED OUT. embroidery unchanged, its size, colours and placement, broad uninterrupted five-panel front with NO center vertical seam, firm midprofile closed crown, eyelets, curved brim, all other seams, camera pose, full-cap framing, warm ivory background, lighting and shadows. Localized seam/cord removal only. Do not copy white fabric or person.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-2217f196-aea7-475e-8fab-ca4a03bfeae5.png"
+    },
+    {
+      "key": "hat-ba671-black-white-punched-out",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-ba671-black-white-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/designs/09-punched-out/preview-slate.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hat-punched-out.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is exact target rope-cap photograph. Replace ONLY its OFF SHFT wordmark embroidery with supplied current v2 design in image2: PUNCHED OUT. as ONE straight horizontal line, including final period, exact broad extended bold capital letter shapes and generous spacing. Bone #ECE5D3 thread. Approximate total width78mm and capitalheight4.8mm, modest satin stitches, placed comfortably above WHITE rope. Image3 is size/embroidery reference only; do NOT transfer its trucker shape or mesh. Preserve exact black BA671 golf five-panel shape, ONE BROAD uninterrupted front face WITHOUT any center vertical seam or center stitching, closed fabric rear no mesh, tall soft crown, semi-curved bill, WHITE braided rope, all perimeter seams and eyelets, pose, camera, warm ivory background and soft upper-left lighting/shadows. No clock icon or OFF SHFT text remains. No added captions, tags or props.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-70b9cbdc-8973-4c22-94b8-5d84c1a2aaba.png"
+    },
+    {
+      "key": "hat-6245cm-black-logo-seam-fix",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-6245cm-black-logo.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/references/dad6245cm-supplier.jpg"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is target; image2 is official Yupoong6245CM construction reference ONLY. Flatten ONLY the exaggerated raised black piping around the crown-to-bill junction. This dad hat has no rope, no cylindrical piping and no decorative band. Replace that rolled ridge with a plain flat black sewn fabric junction and subtle stitching as image2. Preserve exact OFF SHFT wordmark embroidery unchanged, exact size/colour/location, black cotton-twill, soft unstructured low-profile six-panel crown, center vertical front seam, all eyelets, buckle, curved brim, wrinkles, full cap square framing, ivory background, lighting and shadows. Change no other feature. Do not copy image2's navy fabric, tomato artwork or person.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-e2866113-9459-42ad-a5e6-c85d3262566b.png"
+    },
+    {
+      "key": "hat-6245cm-black-clock-seam-fix",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-6245cm-black-clock.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/references/dad6245cm-supplier.jpg"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is target; image2 is official Yupoong6245CM construction reference ONLY. Flatten ONLY the exaggerated raised black piping around the crown-to-bill junction. This dad hat has no rope, no cylindrical piping and no decorative band. Replace that rolled ridge with a plain flat black sewn fabric junction and subtle stitching as image2. Preserve exact standalone 12-and-5 clock embroidery unchanged, exact size/colour/location, black cotton-twill, soft unstructured low-profile six-panel crown, center vertical front seam, all eyelets, buckle, curved brim, wrinkles, full cap square framing, ivory background, lighting and shadows. Change no other feature. Do not copy image2's navy fabric, tomato artwork or person.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-7be5d403-b685-4ffc-aa0f-de716a10f1ea.png"
+    },
+    {
+      "key": "hat-6245cm-black-punched-out-seam-fix",
+      "refs": [
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/images/hat-6245cm-black-punched-out.png",
+        "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/colour-expansion/references/dad6245cm-supplier.jpg"
+      ],
+      "prompt": "Use case: precise-object-edit. Image1 is target; image2 is official Yupoong6245CM construction reference ONLY. Flatten ONLY the exaggerated raised black piping around the crown-to-bill junction. This dad hat has no rope, no cylindrical piping and no decorative band. Replace that rolled ridge with a plain flat black sewn fabric junction and subtle stitching as image2. Preserve exact one-line PUNCHED OUT. embroidery unchanged, exact size/colour/location, black cotton-twill, soft unstructured low-profile six-panel crown, center vertical front seam, all eyelets, buckle, curved brim, wrinkles, full cap square framing, ivory background, lighting and shadows. Change no other feature. Do not copy image2's navy fabric, tomato artwork or person.",
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b1-e605-7f82-8787-dccc30ce28bb\\exec-28c7bfa0-e254-4f17-a84f-e5e16f76c9fe.png"
+    }
+  ]
+}

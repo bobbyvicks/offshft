@@ -1,0 +1,25 @@
+Prepare a reviewable batch for ONLY the following OFF SHFT products. Their existing variants have already been mapped to their correct base Colour. Retain every existing variant ID and all existing option selections and configuration. Add ONLY the listed new Style/Colour/Size combinations. Never create a Cartesian product. Preserve existing prices, SKUs, inventory tracking, fulfilment/location settings, product status and publication channels. New variants copy the configuration and price of their same Style/Size original, with blank SKU and inventory tracking off. Do not invent a Printful SKU or integration. All named PNGs are uploaded in the Shopify Files library. Attach the matching images to each product, retain ALL existing media, assign each image to every size in its exact style-colour pair, and put the listed primary image first. Show changes for review before applying.
+
+PRODUCT The Clock Hat / ID 15476770046274; expected final count 5; preserve original 4 IDs.
+KEEP existing: Style=Retro Trucker; Colour=Black; Sizes=one-size; Price CAD34.99; image=hat-clock.png.
+ADD new: Style=Retro Trucker; Colour=Evergreen; Sizes=one-size; Price CAD34.99; image=hat-6606-evergreen-clock.png.
+KEEP existing: Style=5-Panel; Colour=Black; Sizes=one-size; Price CAD34.99; image=hat-31-069-black-clock.png.
+KEEP existing: Style=Dad Hat; Colour=Black; Sizes=one-size; Price CAD34.99; image=hat-6245cm-black-clock.png.
+KEEP existing: Style=Rope Cap; Colour=Black/White; Sizes=one-size; Price CAD34.99; image=hat-ba671-black-white-clock.png.
+Primary image: hat-clock.png. All generated photo combinations should precede old schematic media, but retain old media.
+
+PRODUCT OFF SHFT Logo Hat / ID 15476769980738; expected final count 5; preserve original 4 IDs.
+KEEP existing: Style=Retro Trucker; Colour=Black; Sizes=one-size; Price CAD34.99; image=hat-logo.png.
+ADD new: Style=Retro Trucker; Colour=Evergreen; Sizes=one-size; Price CAD34.99; image=hat-6606-evergreen-logo.png.
+KEEP existing: Style=5-Panel; Colour=Black; Sizes=one-size; Price CAD34.99; image=hat-31-069-black-logo.png.
+KEEP existing: Style=Dad Hat; Colour=Black; Sizes=one-size; Price CAD34.99; image=hat-6245cm-black-logo.png.
+KEEP existing: Style=Rope Cap; Colour=Black/White; Sizes=one-size; Price CAD34.99; image=hat-ba671-black-white-logo.png.
+Primary image: hat-logo.png. All generated photo combinations should precede old schematic media, but retain old media.
+
+PRODUCT Punched Out. Hat / ID 15476770111810; expected final count 5; preserve original 4 IDs.
+KEEP existing: Style=Retro Trucker; Colour=Black; Sizes=one-size; Price CAD34.99; image=hat-punched-out.png.
+ADD new: Style=Retro Trucker; Colour=Evergreen; Sizes=one-size; Price CAD34.99; image=hat-6606-evergreen-punched-out.png.
+KEEP existing: Style=5-Panel; Colour=Black; Sizes=one-size; Price CAD34.99; image=hat-31-069-black-punched-out.png.
+KEEP existing: Style=Dad Hat; Colour=Black; Sizes=one-size; Price CAD34.99; image=hat-6245cm-black-punched-out.png.
+KEEP existing: Style=Rope Cap; Colour=Black/White; Sizes=one-size; Price CAD34.99; image=hat-ba671-black-white-punched-out.png.
+Primary image: hat-punched-out.png. All generated photo combinations should precede old schematic media, but retain old media.
