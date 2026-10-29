@@ -19,6 +19,9 @@ The owner chose these 11 on the picker page (its database, picks/owner, version 
 Designs on each piece, chosen on the picker's Designs tab (database: designs/owner, version 20). Each design on each piece becomes its own product:
 - The OFF SHFT logo, the clock and Punched Out. go on all four hats, all three hoodies, the 1466 crewneck and the 1469 sweatpants.
 - The logo and the clock go on the 1717 tee and the 6030 pocket tee.
+- The Champion anorak gets all three: the logo, the clock and Punched Out., each on the left chest at normal size, since the fabric is thin (designs/owner, version 30).
+- On the hoodies and crewnecks, Punched Out. goes big on the centre front, Printful's large-front spot, about 230 mm wide. The owner asked for it bigger and in the middle.
+- In all, 34 products: 12 pieces, each with its chosen designs.
 - The 6030 has no chest or pocket embroidery, so its clock goes on the left sleeve. The logo is too wide for the sleeve, so it goes on Printful's large-centre front spot instead.
 
 Not selected: Bella + Canvas 4711 and Comfort Colors 1566 crewnecks; Bella + Canvas 4737, Cotton Heritage M7580 and Jerzees 975MPR bottoms; Independent Trading IND20SRT shorts.
