@@ -1,0 +1,25 @@
+{
+  "draft": true,
+  "title": "THE REST IS OURS.",
+  "font": "tools/fonts/Unbounded-Bold.ttf",
+  "trackingEm": 0.12,
+  "artworkWidthMm": 240,
+  "artworkHeightMm": 65.761,
+  "capHeightMm": 26.068,
+  "baselineStepMm": 38.581,
+  "sTerminalTrimMm": {
+    "upper": 0,
+    "lower": 0
+  },
+  "glyphCount": 14,
+  "lines": [
+    {
+      "text": "THE REST",
+      "inkWidthMm": 240
+    },
+    {
+      "text": "IS OURS.",
+      "inkWidthMm": 208.857
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "draft": true,
+  "title": "TIME WELL EARNED.",
+  "font": "tools/fonts/Unbounded-Bold.ttf",
+  "trackingEm": 0.12,
+  "artworkWidthMm": 95,
+  "artworkHeightMm": 45.434,
+  "capHeightMm": 11.435,
+  "baselineStepMm": 16.923,
+  "sTerminalTrimMm": {
+    "upper": 0,
+    "lower": 0
+  },
+  "glyphCount": 15,
+  "lines": [
+    {
+      "text": "TIME",
+      "inkWidthMm": 53.149
+    },
+    {
+      "text": "WELL",
+      "inkWidthMm": 61.184
+    },
+    {
+      "text": "EARNED.",
+      "inkWidthMm": 95
+    }
+  ]
+}

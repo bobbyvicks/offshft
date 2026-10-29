@@ -1,0 +1,27 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "created": "2026-10-29",
+  "role": "Draft AI garment mockup; vector artwork governs exact typography and nominal size",
+  "prompt": "Use case: product-mockup. Edit reference image 1 into a photorealistic premium OFF SHFT concept cap photograph. Reference 1 is the Evergreen Yupoong 6606 Retro Trucker cap, preserve its exact six-panel shape, green mesh rear, curved brim, front seam, real stitching, camera angle, warm sand setting and soft natural shadow. Reference 2 is the exact transparent new artwork. Remove the existing OFF SHFT logo and substitute reference 2 as clean flat embroidery on the front, exact text in two flush-left lines OURS TO / SPEND. with the final full stop. Preserve the supplied wide Unbounded letterforms, spacing and open shapes. Bone cream thread letters and a small Sun ochre period. Artwork overall 85mm wide and about26mm tall, centred as a block on the front panel; the first line is longer than the second exactly as supplied. Maintain ample empty front-panel fabric around it. Embroidery must wrap naturally around the cap, with tiny individual stitches and sensible low relief, no giant puff lettering, no badge border, no rectangular patch or backing visible. Make the cotton twill plain and natural without ornamental swirling texture. Keep full cap uncropped. No extra logo, illustration, tagline, props, people, text overlays or watermark. Square clean ecommerce photograph.",
+  "references": [
+    "store/realistic-products/colour-expansion/images/hat-6606-evergreen-logo.png",
+    "designs/13-ours-to-spend/design-dark.png"
+  ],
+  "output": "mockup.png",
+  "originalGeneratedFile": "exec-3f1521bb-5e0a-447f-8f71-4959ebf7da93.png",
+  "selectedOutput": "mockup-v2.png",
+  "selectedGeneration": {
+    "generator": "built-in image_gen.imagegen",
+    "prompt": "Use case: product-mockup. Make a NEW photorealistic premium apparel studio photograph, using the input strictly as the graphic artwork to apply, not as a clothing photograph. Warm ivory seamless background, gentle side daylight, soft natural shadow, complete garment with generous margin. Real ordinary smooth cotton surface that reads nearly solid from this distance. Subtle small-scale weave only. Flat colour cloth, no all-over pattern, no swirls, no embossed decorative texture, no contour-map or woodgrain texture, no distressed graphics, no labels or watermarks. Copy the supplied artwork's exact lettering and line breaks; transparent background is not printed. An Evergreen deep green classic six-panel mid-profile trucker cap with curved visor and matching green mesh back, front three-quarter view. Plain solid green cotton twill front panels with diagonal weave. Fine low-profile flat embroidery, NOT 3D foam/puff, applies the supplied artwork exactly OURS TO / SPEND. in two flush-left lines, centered on front, nominal 85mm wide. Bone cream letters and one ochre yellow final period. Real stitched eyelets and seam construction, subtle diagonal twill, believable soft threads.",
+    "references": [
+      "designs/13-ours-to-spend/design-dark.png"
+    ],
+    "originalGeneratedFile": "exec-cc5712bf-5852-4b56-bbf4-a45e338b2afa.png",
+    "reason": "Fresh artwork-only generation removes unnatural all-over cloth texture; exact SVGs and measurements govern typography, colour and placement."
+  },
+  "rejectedRefinement": {
+    "prompt": "Use case: precise-object-edit. One change only: correct the garment fabric surface in this provided concept photograph. It currently has artificial embossed winding squiggles, tiny labyrinth lines, swirls and ornamental noise covering the fabric. REMOVE all of that repeated relief/pattern entirely. Replace it with realistic plain fine diagonal cotton twill cap front and brim; keep the green open mesh rear mesh—a clean matte knitted/woven fabric that looks almost smooth at this camera distance, with only extremely fine genuine textile grain. No decorative surface pattern. Preserve the garment colour exactly, all natural large folds, lighting, shadows, body shape, seam stitching, ribbed sections, composition, scale and background. Preserve ALL lettering/graphics pixel-faithfully as far as possible: OURS TO / SPEND. in the exact current two-line layout. Do not alter letterforms, text spelling, punctuation, placement, size, embroidery or print colour. Do not add or remove any object, label, border or watermark. This is a material-surface correction only. Aim for a real professional apparel photograph: plain cotton, no embossed or jacquard ornamentation.",
+    "originalGeneratedFile": "exec-965b1327-6487-4d15-b5f1-9c84f32fe1de.png",
+    "reason": "Texture-only edit of the initial garment image retained artificial swirl texture; not selected or bundled."
+  }
+}

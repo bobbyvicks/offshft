@@ -1,0 +1,27 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "created": "2026-10-29",
+  "role": "Draft AI garment mockup; vector artwork governs exact typography and nominal size",
+  "prompt": "Use case: product-mockup. Create a photorealistic two-view OFF SHFT design presentation using the referenced garment and exact artwork. Reference1 is the Blue Jean Comfort Colors1467 lightweight hoodie: preserve its powdery muted washed blue, relaxed lightweight cotton drape, rib cuffs/hem, kangaroo pocket, natural cream flat drawstrings, jersey-lined hood and small existing Ink/Rust OFF SHFT left-chest logo. Reference2 is the exact new back artwork: two flush-left lines THE REST / IS OURS. with the final period, very wide geometric Unbounded bold type, Ink navy letters and Rust period. Show two full hoodies on the same warm cream studio surface in an elegant square photo: a larger BACK view on the left with the hood arranged upward so it does not cover the print, and a slightly smaller FRONT view on the right, clearly separated with breathing room. Both complete garments fully visible. The new back graphic sits centred as a whole block across the upper back below the hood, approximately240mm wide on an adult hoodie (about43percent of torso width), true letterforms and line breaks as reference2; second line shorter, both lines align left. Matte realistic screenprint ink, not raised embroidery, subtle cotton weave visible through it, gentle deformation over natural folds. Front remains precisely the reference1 design with small correct OFF SHFT logo and two cream flat drawstrings. Quiet premium workwear brand, soft warm daylight and credible shadows; natural plain cotton texture, no embossed swirls or decorative fabric patterns. No badge, illustration, additional slogan, frame, decorative elements, labels, paper card, person or watermark. Do not change logo spelling or redraw clock mark. Readable text exactly THE REST IS OURS. The reference2 black-looking surround is transparent and must not become a rectangular print.",
+  "references": [
+    "store/realistic-products/colour-expansion/images/hoodie-1467-blue-jean-logo.png",
+    "designs/12-the-rest-is-ours/design-light.png"
+  ],
+  "output": "mockup.png",
+  "originalGeneratedFile": "exec-906d2b01-55f9-4693-89ef-d68ddf3a3e20.png",
+  "selectedOutput": "mockup-v2.png",
+  "selectedGeneration": {
+    "generator": "built-in image_gen.imagegen",
+    "prompt": "Use case: product-mockup. Make a NEW photorealistic premium apparel studio photograph, using the input strictly as the graphic artwork to apply, not as a clothing photograph. Warm ivory seamless background, gentle side daylight, soft natural shadow, complete garment with generous margin. Real ordinary smooth cotton surface that reads nearly solid from this distance. Subtle small-scale weave only. Flat colour cloth, no all-over pattern, no swirls, no embossed decorative texture, no contour-map or woodgrain texture, no distressed graphics, no labels or watermarks. Copy the supplied artwork's exact lettering and line breaks; transparent background is not printed. One Blue Jean muted dusty light-blue relaxed pullover cotton hoodie, REAR VIEW ONLY, laid neatly flat. Entire hood, sleeves, rib cuffs and waistband visible. On the upper back, below the folded hood, print the supplied artwork exactly THE REST / IS OURS. across two lines, Ink dark navy letters with a Rust orange final full stop. Graphic 240mm wide, about 44% of torso width. Matte screenprint. Hood is at top; this is clearly the back, no pocket, no drawstrings visible from behind. Natural fine plain fleece cotton face, smooth at normal viewing distance.",
+    "references": [
+      "designs/12-the-rest-is-ours/design-light.png"
+    ],
+    "originalGeneratedFile": "exec-97ef8be7-27a5-4921-83fa-5452e9792c9f.png",
+    "reason": "Fresh artwork-only generation removes unnatural all-over cloth texture; exact SVGs and measurements govern typography, colour and placement."
+  },
+  "rejectedRefinement": {
+    "prompt": "Use case: precise-object-edit. One change only: correct the garment fabric surface in this provided concept photograph. It currently has artificial embossed winding squiggles, tiny labyrinth lines, swirls and ornamental noise covering the fabric. REMOVE all of that repeated relief/pattern entirely. Replace it with realistic smooth lightweight cotton fleece hoodie surface—a clean matte knitted/woven fabric that looks almost smooth at this camera distance, with only extremely fine genuine textile grain. No decorative surface pattern. Preserve the garment colour exactly, all natural large folds, lighting, shadows, body shape, seam stitching, ribbed sections, composition, scale and background. Preserve ALL lettering/graphics pixel-faithfully as far as possible: THE REST / IS OURS. on back and the exact tiny OFF SHFT logo on front; both hoodies and cream drawstrings. Do not alter letterforms, text spelling, punctuation, placement, size, embroidery or print colour. Do not add or remove any object, label, border or watermark. This is a material-surface correction only. Aim for a real professional apparel photograph: plain cotton, no embossed or jacquard ornamentation.",
+    "originalGeneratedFile": "exec-9cfb387a-85bc-4f6d-860f-81c90ec438e8.png",
+    "reason": "Texture-only edit of the initial garment image retained artificial swirl texture; not selected or bundled."
+  }
+}

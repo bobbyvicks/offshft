@@ -1,0 +1,21 @@
+{
+  "draft": true,
+  "title": "5:00",
+  "font": "tools/fonts/Unbounded-Bold.ttf",
+  "trackingEm": 0.12,
+  "artworkWidthMm": 115,
+  "artworkHeightMm": 27.468,
+  "capHeightMm": 26.344,
+  "baselineStepMm": 26.344,
+  "sTerminalTrimMm": {
+    "upper": 0,
+    "lower": 0
+  },
+  "glyphCount": 4,
+  "lines": [
+    {
+      "text": "5:00",
+      "inkWidthMm": 115
+    }
+  ]
+}
