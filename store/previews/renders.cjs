@@ -28,7 +28,7 @@ function svgFor(p, chosen) {
   const k = big ? Math.min(big.w / d.w, big.h / d.h) : 1;
   const x = a.x + ((p.shift && p.shift[chosen.id]) || 0);
   const art = `<g transform="translate(${x} ${a.y}) rotate(${a.rotate || 0})"><svg x="${(-d.w * k) / 2}" y="${(-d.h * k) / 2}" width="${d.w * k}" height="${d.h * k}" viewBox="${d.vb}" overflow="visible">${d.inner}</svg></g>`;
-  const drawing = it.body + art;
+  const drawing = it.body + art + (it.over || '');   // drawcords hang over the embroidery
   let zoom = '';
   if (!hat && Math.max(d.w, d.h) * k <= 120) {
     const r = 118, cx = C - r - 14, cy = r + 14, Z = 165 / (Math.max(d.w, d.h) * scale);

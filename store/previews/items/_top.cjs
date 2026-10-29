@@ -392,7 +392,8 @@ module.exports = function top(kit, spec) {
   drawSleeve(false);
   drawSleeve(true);
 
-  // Drawcords, last: they hang over everything.
+  // Drawcords, last: they hang over everything, the embroidery included, so they're returned as their own layer.
+  const overFrom = svg.length;
   if (cords) {
     const { eyelet: E, length: lc, width: cw, drift } = cords;
     const centre = [C(E, add(E, V(0, lc * 0.35)), add(E, V(drift, lc * 0.6)), add(E, V(drift, lc)))];
@@ -411,6 +412,8 @@ module.exports = function top(kit, spec) {
     }
   }
 
+  const over = svg.splice(overFrom);
+
   // ---------- extent and placement ----------
   let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
   for (const ch of bounds) for (const p of samples(ch, 32)) {
@@ -424,6 +427,7 @@ module.exports = function top(kit, spec) {
     w,
     h,
     body: `<g transform="translate(0 ${num(-minY)})">${svg.join('')}</g>`,
+    over: over.length ? `<g transform="translate(0 ${num(-minY)})">${over.join('')}</g>` : '',
     anchors: { chest: { x: spec.chest.x, y: spec.chest.y - minY } },
   };
 };

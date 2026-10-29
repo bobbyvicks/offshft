@@ -34,7 +34,10 @@ const DESIGNS = [
   { id: 'logo', name: 'OFF SHFT logo', idea: 'The final logo: the clock O at 5:00.', file: FINAL('logo-light.svg') },
   { id: 'clock', name: 'The clock', idea: 'The clock on its own, 25 mm tall.', file: FINAL('symbol-light-25mm.svg') },
   { id: 'clock-40', name: 'The clock', idea: 'The clock at 40 mm, for hat fronts.', file: FINAL('symbol-light-40mm.svg'), artOnly: true },
-  { id: 'punched-out', name: 'Punched Out.', idea: 'Just the line, with a full stop. Being redrawn in the logo font.', file: D('09-punched-out', 'design-bone.svg'), draft: true },
+  { id: 'punched-out', name: 'Punched Out.', idea: 'PUNCHED OUT. in the logo\'s letters, with a Rust full stop. One line on hats, big on the front of the hoodies and crewneck, stacked on the anorak and sweatpants.', file: D('09-punched-out', 'v3/one-line-light.svg') },
+  // The same words drawn for other spots (designs/09-punched-out/v3/notes.md): big for the tops' centre front, stacked for square spots.
+  { id: 'punched-out-large', name: 'Punched Out.', idea: 'The one line drawn at cap 16.5 for the big centre front.', file: D('09-punched-out', 'v3/one-line-large-light.svg'), artOnly: true },
+  { id: 'punched-out-stack', name: 'Punched Out.', idea: 'PUNCHED over OUT., centred, for the anorak chest and the sweatpants leg.', file: D('09-punched-out', 'v3/stacked-centred-light.svg'), artOnly: true },
 ];
 
 fs.mkdirSync(OUT, { recursive: true });
@@ -46,7 +49,7 @@ for (const n of names) {
   const anchors = { ...it.anchors };
   // Large front: centred, at the height of the left-chest logo.
   if (anchors.chest && !anchors.largeFront) anchors.largeFront = { x: 0, y: anchors.chest.y };
-  items[n] = { category: it.category, w: it.w, h: it.h, body: it.body, anchors };
+  items[n] = { category: it.category, w: it.w, h: it.h, body: it.body, over: it.over || '', anchors };   // over: drawn on top of the artwork (drawcords)
 }
 fs.writeFileSync(path.join(OUT, 'items.json'), JSON.stringify({
   canvas: kit.CANVAS, hatPx: kit.HAT_PX, wearPx: kit.WEAR_PX, fabric: kit.STYLE.fabric, line: kit.STYLE.line, seamShift: SEAM_SHIFT, areas: AREAS, big: BIG,

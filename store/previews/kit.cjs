@@ -70,7 +70,7 @@ function compose(item, marks) {
   const clear = cx - r - 12;
   let tx = CANVAS / 2;
   if (!hat && marks.length && ty < cy + r + 12 && tx + w / 2 > clear && clear - w >= 20) tx = clear - w / 2;
-  const drawing = item.body + marks.map((m) => place(m.kind, m.x, m.y, m.rotate || 0)).join('');
+  const drawing = item.body + marks.map((m) => place(m.kind, m.x, m.y, m.rotate || 0)).join('') + (item.over || '');
   let zoom = '';
   if (!hat && marks.length) {
     const m = marks[0];

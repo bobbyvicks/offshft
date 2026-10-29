@@ -18,31 +18,36 @@ const SEAM_SHIFT = 5.2; // 6-panel fronts: move the lockup right so the centre s
 // The clock on a 6-panel front would have its 12 o'clock hand on the centre seam, so it moves onto the wearer's left
 // panel: half the 40 mm clock's width (19.1 mm) plus 1.5 mm of fabric to the seam.
 const CLOCK_SEAM_SHIFT = 11.1;
-const SIX_PANEL = { logo: SEAM_SHIFT, clock: CLOCK_SEAM_SHIFT };
+// Punched Out.'s one line moves 2.4 mm right, so the seam runs between the H and the E (designs/09-punched-out/v3/notes.md).
+const SIX_PANEL = { logo: SEAM_SHIFT, clock: CLOCK_SEAM_SHIFT, 'punched-out': 2.4 };
 // On hat fronts the clock is the 40 mm version (notes.md: the 40 mm symbol); 25 mm is lost on a 190 mm front.
 const HAT_ART = { clock: 'clock-40' };
 // The owner wants Punched Out. bigger and in the middle on the tops: Printful's large-front spot, centred (29 Oct 2026).
 const BIG_PUNCHED_OUT = { 'punched-out': 'largeFront' };
+// Which drawing of Punched Out. each spot takes: the one line drawn big for the big front, the centred stack for the
+// square spots (the one line is too long for them).
+const BIG_ART = { 'punched-out': 'punched-out-large' };
+const STACK_ART = { 'punched-out': 'punched-out-stack' };
 const PRODUCTS = [
   { id: 'trucker-6606', item: 'trucker', mark: 'lockup', at: 'front', shift: SIX_PANEL, art: HAT_ART },
   { id: 'five-panel', item: 'five-panel', mark: 'lockup', at: 'front', art: HAT_ART },
   { id: 'dad-hat', item: 'dad-hat', mark: 'lockup', at: 'front', shift: SIX_PANEL, art: HAT_ART },
   { id: 'rope-cap', item: 'rope-cap', mark: 'lockup', at: 'front', art: HAT_ART },   // 5-panel: seamless front, centred
-  { id: 'hoodie-5161', item: 'hoodie-oversized', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
-  { id: 'hoodie-1567', item: 'hoodie', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
-  { id: 'hoodie-1467', item: 'hoodie', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
-  { id: 'crew-1466', item: 'crewneck', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
-  { id: 'crew-1566', item: 'crewneck', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
-  { id: 'crew-4711', item: 'crewneck-oversized', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
-  { id: 'pants-1469', item: 'sweatpants', mark: 'symbol', at: 'leftLeg' },
-  { id: 'pants-4737', item: 'sweatpants', mark: 'symbol', at: 'leftLeg' },
-  { id: 'pants-m7580', item: 'sweatpants', mark: 'symbol', at: 'leftLeg' },
-  { id: 'joggers-975', item: 'sweatpants', mark: 'symbol', at: 'leftLeg' },
-  { id: 'shorts-ind20', item: 'shorts', mark: 'symbol', at: 'leftLeg' },
+  { id: 'hoodie-5161', item: 'hoodie-oversized', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT, art: BIG_ART },
+  { id: 'hoodie-1567', item: 'hoodie', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT, art: BIG_ART },
+  { id: 'hoodie-1467', item: 'hoodie', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT, art: BIG_ART },
+  { id: 'crew-1466', item: 'crewneck', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT, art: BIG_ART },
+  { id: 'crew-1566', item: 'crewneck', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT, art: BIG_ART },
+  { id: 'crew-4711', item: 'crewneck-oversized', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT, art: BIG_ART },
+  { id: 'pants-1469', item: 'sweatpants', mark: 'symbol', at: 'leftLeg', art: STACK_ART },
+  { id: 'pants-4737', item: 'sweatpants', mark: 'symbol', at: 'leftLeg', art: STACK_ART },
+  { id: 'pants-m7580', item: 'sweatpants', mark: 'symbol', at: 'leftLeg', art: STACK_ART },
+  { id: 'joggers-975', item: 'sweatpants', mark: 'symbol', at: 'leftLeg', art: STACK_ART },
+  { id: 'shorts-ind20', item: 'shorts', mark: 'symbol', at: 'leftLeg', art: STACK_ART },
   { id: 'tee-1717', item: 'tee', mark: 'lockup', at: 'chest' },
   // The 6030 takes no chest embroidery; the logo is too wide for its sleeve, so it goes on the large-centre front spot.
   { id: 'tee-6030', item: 'pocket-tee', mark: 'symbol', at: 'leftSleeve', designAt: { logo: 'centre' } },
-  { id: 'jacket-co200', item: 'anorak', mark: 'lockup', at: 'chest' },
+  { id: 'jacket-co200', item: 'anorak', mark: 'lockup', at: 'chest', art: STACK_ART },
 ];
 
 async function main() {
