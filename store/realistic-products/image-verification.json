@@ -1,0 +1,138 @@
+[
+  {
+    "key": "hat-logo",
+    "image": "images/hat-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2463442,
+    "sha256": "2530046452f12df687b381506fe9f7a72cd1ff8699ff8203f257f2e0843811ea"
+  },
+  {
+    "key": "hat-clock",
+    "image": "images/hat-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2374304,
+    "sha256": "66273c2a1143b9a2f234ae9d0eae80c966afd515d3e64ccdaa1a3d30fdd24262"
+  },
+  {
+    "key": "hat-punched-out",
+    "image": "images/hat-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2403022,
+    "sha256": "cc64d920a47446af29d9aa882670e097dbdfb293addc551f894b17bc61a19fba"
+  },
+  {
+    "key": "hoodie-logo",
+    "image": "images/hoodie-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2472975,
+    "sha256": "a1b858665426f02dacaeef7b34fde707864a9057244af2dae039838cd7feba81"
+  },
+  {
+    "key": "hoodie-clock",
+    "image": "images/hoodie-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2237008,
+    "sha256": "229e74958e89859832cee268d708534cc02d0540daef4354dcc230010c2e53d0"
+  },
+  {
+    "key": "hoodie-punched-out",
+    "image": "images/hoodie-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2369764,
+    "sha256": "40129b96784dcb9f4bb1aa053e4a733971b8bfffc366a47d73da8dad2d827dad"
+  },
+  {
+    "key": "crewneck-logo",
+    "image": "images/crewneck-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2506886,
+    "sha256": "0f1b5496ac5089111745f0b581dae87b7ce07db09bdffaaa710120002de2969c"
+  },
+  {
+    "key": "crewneck-clock",
+    "image": "images/crewneck-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2338592,
+    "sha256": "7ac6c5c722944b7c781d547a449c24290fcb3fd70c6cbd3f59db9ac91b731864"
+  },
+  {
+    "key": "crewneck-punched-out",
+    "image": "images/crewneck-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2307112,
+    "sha256": "8b6122d26e1af1589b195170648163d6f752cb78310d33ba9c0173022cc1bb87"
+  },
+  {
+    "key": "sweatpants-logo",
+    "image": "images/sweatpants-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2019585,
+    "sha256": "890207cbb777c345443bd4f8666f028ef5a05ca9133624d5642bddde974bce87"
+  },
+  {
+    "key": "sweatpants-clock",
+    "image": "images/sweatpants-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1724968,
+    "sha256": "c400af66b69e727ed8ee09fd9c3117cf8dff5aaf7324b09e4d3282fa88bd4d5b"
+  },
+  {
+    "key": "sweatpants-punched-out",
+    "image": "images/sweatpants-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1851865,
+    "sha256": "eecc57fd45610b3da48a2590f731fd41b686c4dc800249f92d496fca65c6d42f"
+  },
+  {
+    "key": "tee-logo",
+    "image": "images/tee-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2189227,
+    "sha256": "e490375b6c52d3efb931c4698b4d54e7ac18e0ca6c0f74aea4db1e989ddfb543"
+  },
+  {
+    "key": "tee-clock",
+    "image": "images/tee-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1969059,
+    "sha256": "2fb416d7b9cfb0d263da8da8766c70c74cdcbfcf245f0b7e0b729456d5616ecf"
+  },
+  {
+    "key": "jacket-logo",
+    "image": "images/jacket-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1846646,
+    "sha256": "c96356e6a6814dc605e3805b7a68f3c094fc62fa7b4a5b27ca0b8b9aa3a976ca"
+  },
+  {
+    "key": "jacket-clock",
+    "image": "images/jacket-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1804519,
+    "sha256": "40a7b0b1868ec4cffd31cf22eb14d6f0e75c741f3edabe26207168847dbd3d91"
+  },
+  {
+    "key": "jacket-punched-out",
+    "image": "images/jacket-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1913099,
+    "sha256": "aecff9f43dfcec94065b202f184caccdaea20ba4c9a497c7f7c4a0b79f7ab021"
+  }
+]
