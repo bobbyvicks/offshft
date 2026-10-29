@@ -99,7 +99,10 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
   - Size & fit and the FAQ now say caps adjust and beanies and bucket hats don't; no quarter-zip or polo chart yet.
   - Every open question per listing is in its toConfirm notes in store/products/drop1b.json.
 - Codex also added four listings on 29 Oct (5:00 Crewneck, Ours to Spend. Trucker Hat, The Rest Is Ours. Hoodie,
-  Time Well Earned. T-Shirt). Their phrases haven't had a trademark knock-out search here (AGENTS.md).
+  Time Well Earned. T-Shirt). Trademark knock-out search, 29 Oct (search results only):
+  store/research/trademarks-new-phrases.md. Time Well Earned., The Rest Is Ours. and Ours to Spend. look clear;
+  5:00 is a small risk (Margaritaville's "It's Five O'Clock Somewhere" and Jaya's "5 a 7" in Canada): keep it "5:00",
+  no "somewhere" or beach imagery. [CONFIRM: the official searches listed in the report]
 
 ## Everything the owner sent
 
