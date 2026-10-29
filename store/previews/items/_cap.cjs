@@ -109,31 +109,18 @@ function cap(kit, o) {
   };
 
   if (o.mesh) {
-    // Mesh side panels: rib ground and a fine diamond net. The net is laid on the panel's surface (u around the
-    // hoop, v down the profile) and projected, so it closes up towards the outline like the real thing.
-    const N = 240, ts = [...Array(N + 1).keys()].map((i) => i / N);
-    const len = [0];
-    for (let i = 1; i <= N; i++) { const a = at(prof, ts[i - 1]), b = at(prof, ts[i]); len.push(len[i - 1] + Math.hypot(b.x - a.x, b.y - a.y)); }
-    const az1 = rad(o.mesh.until || 87), cell = o.mesh.cell;
+    // Mesh side panels: rib ground and a fine, regular diamond net (two sets of diagonals), clipped to the panel.
+    const { cw, ch } = o.mesh;   // diamond width and height, mm
     const net = [];
-    for (const dir of [1, -1]) {
-      for (let k = -60; k <= 60; k++) {
-        let run = [];
-        const flush = () => { if (run.length > 2) net.push(path(through(run))); run = []; };
-        for (let i = 6; i <= N; i += 2) {
-          const p = at(prof, ts[i]);
-          const az = azF + (k * cell + dir * len[i]) / p.x;   // u = k*cell + dir*v
-          if (az < azF - 0.08 || az > az1) { flush(); continue; }
-          run.push(atAz(p, az));
-        }
-        flush();
-      }
+    const x0 = W * Math.sin(azF) - 6, x1 = W + 2, y0 = top - 2, y1 = baseY + 2;
+    for (let x = x0 - (y1 - y0) * (cw / ch); x <= x1; x += cw) {
+      const dx = (y1 - y0) * (cw / ch) / 2;   // run of a diagonal over the panel's height (slope ch/cw, halved)
+      net.push(`M${num(x)} ${num(y0)} L${num(x + 2 * dx)} ${num(y1)}`, `M${num(x + 2 * dx)} ${num(y0)} L${num(x)} ${num(y1)}`);
     }
-    const netD = net.join(' ');
     for (const sgn of [1, -1]) {
       parts.push(`<clipPath id="${id(`mesh${sgn}`)}"><path d="${sidePanel(sgn)}"/></clipPath>`);
       parts.push(`<path d="${sidePanel(sgn)}" fill="${C.rib}"/>`);
-      parts.push(`<g clip-path="url(#${id(`mesh${sgn}`)})"><path d="${netD}" ${solid}${sgn < 0 ? ' transform="scale(-1 1)"' : ''}/></g>`);
+      parts.push(`<g clip-path="url(#${id(`mesh${sgn}`)})"><path d="${net.join(' ')}" ${solid}${sgn < 0 ? ' transform="scale(-1 1)"' : ''}/></g>`);
     }
   }
 
