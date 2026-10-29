@@ -1,7 +1,7 @@
 # Shipping & returns
 
 - **SEO title (31 characters):** Shipping and Returns | OFF SHFT
-- **Meta description (124 characters):** How long OFF SHFT hats take to make and ship to Canada and the US, what shipping costs, and what we do if something's wrong.
+- **Meta description (126 characters):** How long OFF SHFT orders take to make and ship to Canada and the US, what shipping costs, and what we do if something's wrong.
 
 > **Draft policy. The owner approves it before it goes on the store.**
 > It's written for Printful, the partner store/research/pod-partner.md recommends. The owner hasn't picked a partner yet. If it's Printify, "If you pick Printify" below lists what changes. Every time and cost here comes from that research. It read the partners' pages through search results because their sites were blocked, so check each figure in the partner's dashboard before publishing.
@@ -14,53 +14,33 @@
 - If Settings → Policies has return rules, make them match this page: no returns for a change of mind.
 
 <!-- paste:start -->
-[CONFIRM: the owner approves this policy. Delete this line once approved]
-
-Every hat is made to order, then shipped to you. Here's how long that takes and what we do if something goes wrong.
-
-### Made to order
-
-Your hat is made after you order it. That usually takes 2–5 business days. [CONFIRM: Printful's time; Printify's is 2–7]
 
 ### Shipping
 
-We ship to Canada and the US. [CONFIRM: the store's shipping zones are Canada and the US only]
+Everything\'s made to order, which usually takes 2--5 business days, and shipping is about 3--5 more. All in, that\'s about 1--2 weeks, sometimes longer.
 
-Once your hat is made, delivery usually takes:
-
-- Canada: 3–4 business days [CONFIRM: true if Printful makes your hats in Ontario; see "Where Canadian orders ship from" below]
-- US: 3–4 business days [CONFIRM: Printful's time; at Printify it depends on the shop]
-
-All in, that's about 1 to 2 weeks.
-
-Shipping costs [CONFIRM: your rates in CAD for Canada and the US, and any free-shipping threshold; or "are worked out at checkout" if you use live rates. See "Shipping costs" below]. You'll see the exact cost at checkout before you pay.
-
-### Tracking
-
-When your order ships, you'll get an email with the tracking link. [CONFIRM: every shipping method you offer has tracking]
+We ship to Canada and the US. Standard shipping is C\$12 an order and free on orders of C\$75 or more. Prices are in Canadian dollars, even for US orders.
 
 ### Duties and import fees
 
-- Canada: [CONFIRM: the Canada line from "Where Canadian orders ship from" below]
-- US: orders to the US ship from inside the US, so there are no duties or import fees. [CONFIRM: each of your hats is made at Printful's US shops, and a US order can't be sent from Canada when they're out of it. Printful sends each order to the closest shop that has the item]
+Prices and shipping don\'t include duties or import fees. Your order might ship from another country, and we can\'t tell ahead of time. If it does, the carrier may charge them when it arrives.
 
 ### Changes and cancellations
 
-Need to fix your address or cancel? Email us within [CONFIRM: a time limit that ends before production starts; see "Order timing" below] of ordering. After that your hat may already be in production, and we can't change or cancel it.
+To change or cancel, [message us](/pages/contact) your order number as soon as you can. Once we\'ve started making it, it\'s too late, and we can\'t always catch it in time.
 
 ### Returns
 
-Each hat is made for your order, so we can't take returns or exchanges if you change your mind or it doesn't fit. Not sure about fit? Check [Size & fit](/pages/size-fit) or email us before you order.
+We can\'t do returns or exchanges if you change your mind or it doesn\'t fit. It\'s made for your order, so there\'s no shelf to put it back on. Check [Size & fit](/pages/size-fit) before you order.
 
-### If something's wrong
+Garment-dyed colours can be a shade off the photo.
 
-If your hat arrives stitched wrong, damaged or not what you ordered, email us within [CONFIRM: number of days, under 30] days of delivery. Send your order number and a photo. We'll send a new one or refund you, at no cost to you. You don't need to send it back.
+### If something\'s wrong
 
-If your order hasn't arrived [CONFIRM: number] business days after it shipped, email us your order number and we'll look into it. If it's lost, we'll send a new one or refund you.
+If anything shows up damaged, made wrong or not what you ordered, that\'s on us. [Message us](/pages/contact) your order number within 14 days of delivery. We\'ll ask for a photo, then replace it or refund you. No need to send it back. You\'ve got better things to do with your time.
 
-### Questions
+If your order hasn\'t arrived 15 business days after it ships, [let us know](/pages/contact). If it\'s lost, we\'ll replace it or refund you.
 
-Email [CONFIRM: support email] or use the [Contact](/pages/contact) page. If it's about an order, include your order number.
 <!-- paste:end -->
 
 ## The policy, and what backs it

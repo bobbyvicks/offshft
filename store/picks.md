@@ -70,13 +70,18 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
   - Each listing has to be linked to its Printful product and embroidery file in Printful, or orders won't reach
     Printful. That needs the colours, which come later.
   - The prices were set before Printful's embroidered prices were confirmed; check them.
-- Photos to redo in one upload (19, rendered in store/previews/out/shop, waiting for the owner's OK on the new art):
-  - Punched Out.: the old draft art for now; the redraw (v3) is rendered.
-  - Rope cap: it has 5 panels, but the uploaded photos show a centre seam and the designs moved off-centre for it.
-  - 5-panel: the front eyelets were added to the drawing after the upload.
-  - Sweatpants and tees: their drawings changed after the upload.
-- Not ours: 15 "studio mockup" images were added to the store between 03:54 and 04:06 UTC on 29 Oct, three of them as
-  the first photo of each hoodie listing. Left alone; the owner was asked where they came from.
+- Photos refreshed 29 Oct, on the owner's yes: 19 drawings swapped in place (fileUpdate, same media ids, so every link to
+  them holds): Punched Out. in its v3 art on every piece, the rope cap without the seam it doesn't have, the 5-panel's
+  front eyelets, and the sweatpants and tees as redrawn. Rendered from store/previews/out/shop.
+- The owner is also working on the store with Codex (29 Oct): the "studio mockup" photos (now the first photo on most
+  listings) and the Colour options are theirs. Since then sweatpants and jackets come in S to 2XL (Printful's range),
+  and every listing has colours. store/apply/products-drop1.cjs and drop1-variant-images.json are behind the live
+  store: don't re-run them as they are.
+- Pages published 29 Oct, on the owner's yes ("not too wordy, sound like a person wrote it, I like 'your time'"):
+  Size & fit, FAQ, Shipping & returns. Their paste sections in store/pages/*.md are the live text. Defaults in them the
+  owner can change: damaged/wrong/not what you ordered, message within 14 days of delivery for a replacement or
+  refund, no need to send it back; lost: 15 business days after it ships; no returns for a change of mind or fit;
+  duties and import fees not included; changes only before it's made.
 - New pieces on the picker page (29 Oct, not in Shopify): golf shirts (store/research/golf-shirts.md) and beanies,
   bucket hats and quarter-zips (store/research/more-pieces.md). The owner selects there.
 

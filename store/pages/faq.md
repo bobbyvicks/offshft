@@ -1,78 +1,58 @@
 # FAQ
 
 - **SEO title (41 characters):** FAQ: Fit, Shipping and Returns | OFF SHFT
-- **Meta description (114 characters):** Answers on fit, sizing, care, shipping, tracking, returns and gifts for OFF SHFT hats. Every hat is made to order.
+- **Meta description (118 characters):** Shipping times and costs, duties, sizing, returns and care for OFF SHFT hats and clothes. Everything is made to order.
 
 Online Store → Pages → Add page. Title: FAQ. Handle: faq. Template: default page. Paste the text between the markers into the content box, with each question as Heading 3. The SEO title and meta description go under "Search engine listing".
 
 Keep these answers in step with store/pages/shipping-returns.md, the draft shipping and refund policy that also goes into Settings → Policies. Like that page, the shipping answers are written for Printful, the partner the research recommends; their CONFIRM tags say what changes for Printify. If you'd rather show the questions as an accordion, Horizon's FAQ section does that, but delete its five sample questions first. One of them says the products are "manufactured both locally and globally".
 
 <!-- paste:start -->
-### How do the hats fit?
 
-It depends on the style.
+### Is OFF SHFT a typo?
 
-- **Dad hat:** soft and unstructured, with a curved brim.
-- **Structured snapback:** a firm front that holds its shape, with a snap at the back.
-- **Trucker:** mesh at the back.
+No. It\'s spelled that way on purpose. You put in the hours. This time is yours.
 
-[CONFIRM: the profile (low, mid or high) and brim of each style we sell, from the partner's spec sheet; list only the styles on sale, and add the golf cap if it launches] The [Size & fit](/pages/size-fit) page has the numbers.
+### How long until I get it?
 
-### What size do I need?
+About 1--2 weeks, sometimes longer. Everything\'s made to order, which usually takes 2--5 business days, and shipping is about 3--5 more. If you order a few things, they can come in separate boxes.
 
-[CONFIRM: every style we sell is one size with an adjustable back] Measure around your head where a hat sits, then check the range on the [Size & fit](/pages/size-fit) page.
+### How much is shipping?
 
-### What are the hats made of?
+Standard shipping is C\$12 an order and free on orders of C\$75 or more. We ship to Canada and the US. Prices are in Canadian dollars, even for US orders.
 
-The designs are embroidered, not printed. The hats themselves: [CONFIRM: material of each style, from the partner's spec sheet].
+### Will I have to pay duties?
 
-### How do I clean my hat?
+You might. Prices and shipping don\'t include duties or import fees. Your order could ship from another country, and we can\'t tell ahead of time. If it does, the carrier may charge them when it arrives.
 
-Follow the care label inside it. [CONFIRM: each style has a care label inside; care instructions for each style, from the partner's spec sheet]
+### What size should I get?
 
-### Are the hats made to order?
+Hats are one size and adjust at the back. For everything else, check the charts on [Size & fit](/pages/size-fit) or [ask us](/pages/contact).
 
-Yes. There's no warehouse full of OFF SHFT hats waiting around. Yours is made after you order it, then shipped straight to you. Making it usually takes 2–5 business days. [CONFIRM: Printful's time; Printify's is 2–7]
+### Can I return or exchange it?
 
-### How long does shipping take?
+Not if you change your mind or it doesn\'t fit. It\'s made for your order, so there\'s no shelf to put it back on.
 
-Once your hat is made, delivery usually takes:
+### What if it\'s damaged, made wrong or not what I ordered?
 
-- Canada: 3–4 business days [CONFIRM: true if Printful makes your hats in Ontario; see store/pages/shipping-returns.md]
-- US: 3–4 business days [CONFIRM: Printful's time; at Printify it depends on the shop]
+[Message us](/pages/contact) your order number within 14 days of delivery. We\'ll ask for a photo, then replace it or refund you. No need to send it back.
 
-All in, that's about 1 to 2 weeks. Shipping costs [CONFIRM: shipping rates, or the free-shipping threshold]. You'll see the exact cost at checkout before you pay. The [Shipping & returns](/pages/shipping-returns) page has the details.
+### What if it never shows up?
 
-### Will I get a tracking number?
+If it hasn\'t arrived 15 business days after it ships, [let us know](/pages/contact). If it\'s lost, we\'ll replace it or refund you.
 
-Yes. When your hat ships, you'll get an email with the tracking link. [CONFIRM: every shipping method you offer has tracking]
+### Can I change or cancel my order?
 
-### Do you ship outside Canada and the US?
+Only before we start making it, and we can\'t always catch it in time. [Message us](/pages/contact) your order number as soon as you can.
 
-Not right now. [CONFIRM: shipping zones are Canada and the US only] Prices are in Canadian dollars. [CONFIRM: whether US shoppers see US dollars at checkout]
+### How do I wash it?
 
-### Will I pay duties or import fees?
+Hats: hand wash or spot clean with lukewarm water and mild soap. A washing machine can bend them out of shape.
 
-- Canada: [CONFIRM: the Canada duties line from store/pages/shipping-returns.md, once you know where Printful makes your hats]
-- US: no. Orders to the US ship from inside the US. [CONFIRM: each of your hats is made at Printful's US shops, and a US order can't be sent from Canada when they're out of it. Printful sends each order to the closest shop that has the item]
+Clothes: wash cold and inside out with like colours, then hang to dry. Wash sweatpants on their own before you first wear them. A little dye can rub off.
 
-### Can I return or exchange a hat?
+No bleach on any of it.
 
-Each hat is made for your order, so we can't take returns or exchanges if you change your mind or it doesn't fit. Not sure about fit? Check [Size & fit](/pages/size-fit) or email us before you order. [CONFIRM: the owner approves the draft policy in store/pages/shipping-returns.md]
-
-### What if it arrives damaged or wrong, or doesn't arrive?
-
-If your hat arrives stitched wrong, damaged or not what you ordered, email us within [CONFIRM: number of days, under 30] days of delivery. Send your order number and a photo. We'll send a new one or refund you, at no cost to you. You don't need to send it back.
-
-If it hasn't arrived [CONFIRM: number] business days after it shipped, email us your order number. If it's lost, we'll send a new one or refund you.
-
-### Can I send a hat as a gift?
-
-Yes. At checkout, put their name and address in as the shipping address. [CONFIRM: whether the packing slip shows prices] [CONFIRM: whether gift cards are offered]
-
-### How do I reach you?
-
-Email [CONFIRM: support email] or use the form on the [Contact](/pages/contact) page. If it's about an order, include your order number. We reply within [CONFIRM: a reply time you can keep].
 <!-- paste:end -->
 
 Notes

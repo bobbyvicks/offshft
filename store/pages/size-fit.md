@@ -1,46 +1,92 @@
 # Size & fit
 
-- **SEO title (33 characters):** Hat Size and Fit Guide | OFF SHFT
-- **Meta description (75 characters):** How to measure your head and find the right fit in each OFF SHFT hat style.
+- **SEO title (23 characters):** Size and Fit | OFF SHFT
+- **Meta description (109 characters):** Hats are one size and adjust at the back. Size charts for the hoodies, crewneck, tees, sweatpants and jacket.
 
 Online Store → Pages → Add page. Title: Size & fit. Handle: size-fit. Template: default page. Paste the text between the markers into the content box. The SEO title and meta description go under "Search engine listing".
 
 Every number on this page depends on the blanks the partner makes the hats on. Fill each CONFIRM placeholder from the partner's spec sheet, and only list the styles that are on sale.
 
 <!-- paste:start -->
-[CONFIRM: every style we sell is one size with an adjustable back; if a fitted style is ever added, give it its own size chart here] So picking a hat is mostly about the style you like, plus a minute with a tape measure.
 
-### How to measure your head
+### Hats
 
-1. Use a soft tape measure. No tape? Use a piece of string, then hold it against a ruler.
-2. Wrap it around your head where a hat sits: just above your eyebrows and the tops of your ears, and around the back.
-3. Keep it snug, not tight. Read the number where the ends meet.
-4. Check it against the range for your style below.
+Every hat is one size and adjusts at the back. The Retro Trucker and 5-Panel are firm up front, and the Rope Cap is softer. All three have a snap. The Dad Hat is soft and sits low, with a strap and buckle.
 
-### Sizes and closures
+### Clothes
 
-| Style | Fits heads | Closure |
-|---|---|---|
-| Dad hat | [CONFIRM: dad hat head-size range, cm and inches] | [CONFIRM: dad hat closure] |
-| Structured snapback | [CONFIRM: snapback head-size range, cm and inches] | Snap |
-| Trucker | [CONFIRM: trucker head-size range, cm and inches] | [CONFIRM: trucker closure] |
-| Golf cap | [CONFIRM: rope or performance cap, only if it launches; head-size range, cm and inches] | [CONFIRM: golf cap closure] |
+Sizes are unisex. Measure something you own that fits the way you like. Take your time with the tape.
 
-### How each style sits
+-   Lay it flat and smooth it out.
+-   Chest: straight across, armpit to armpit.
+-   Length: from where the shoulder meets the collar down to the hem.
+-   Sweatpants waist: straight across the waistband, without stretching it.
+-   Inseam: from the crotch seam down to the hem.
 
-- **Dad hat:** soft and unstructured, with a curved brim. [CONFIRM: dad hat profile]
-- **Structured snapback:** a firm front that holds its shape. [CONFIRM: snapback profile; flat or curved brim]
-- **Trucker:** mesh at the back. [CONFIRM: trucker profile, front panel and brim]
-- **Golf cap:** [CONFIRM: only if it launches: golf cap profile, fabric and brim]
+Find the closest match in the charts below. They\'re measured the same way, but any piece can be up to 5 cm (2 in) off.
 
-### Adjusting the fit
+Stuck between two sizes? [Send us your measurements](/pages/contact) and we\'ll help you pick.
 
-- **Snap:** line up the pegs with the holes at the setting that feels snug, then press them together.
-- [CONFIRM: how the dad hat and trucker closures adjust]
+  Oversized hoodie   Chest, cm (in)   Length, cm (in)
+  ------------------ ---------------- -----------------
+  S                  57 (22½)         70.5 (27¾)
+  M                  60 (23½)         73 (28¾)
+  L                  63 (24¾)         75.5 (29¾)
+  XL                 66 (26)          78 (30¾)
+  2XL                69 (27¼)         80.5 (31¾)
+  3XL                72 (28¼)         83 (32¾)
 
-### Still not sure?
+  Garment-Dyed hoodie   Chest, cm (in)   Length, cm (in)
+  --------------------- ---------------- -----------------
+  S                     53.5 (21)        70 (27½)
+  M                     58.5 (23)        72.5 (28½)
+  L                     63.5 (25)        75 (29½)
+  XL                    67.5 (26½)       77.5 (30½)
+  2XL                   71 (28)          80 (31½)
+  3XL                   75 (29½)         82.5 (32½)
 
-Email your measurement to [CONFIRM: support email] and we'll tell you which style should fit best.
+  Lightweight hoodie and crewneck   Chest, cm (in)   Length, cm (in)
+  --------------------------------- ---------------- -----------------
+  S                                 51 (20)          68.5 (27)
+  M                                 56 (22)          71 (28)
+  L                                 61 (24)          73.5 (29)
+  XL                                66 (26)          76 (30)
+  2XL                               71 (28)          78.5 (31)
+  3XL                               76 (30)          81.5 (32)
+
+  Heavyweight tee   Chest, cm (in)   Length, cm (in)
+  ----------------- ---------------- -----------------
+  S                 46.5 (18¼)       67.5 (26⅝)
+  M                 51.5 (20¼)       71 (28)
+  L                 56 (22)          74.5 (29⅜)
+  XL                61 (24)          78 (30¾)
+  2XL               66 (26)          80.5 (31⅝)
+  3XL               70.5 (27¾)       82.5 (32½)
+
+  Pocket tee   Chest, cm (in)   Length, cm (in)
+  ------------ ---------------- -----------------
+  S            44.5 (17½)       67.5 (26⅝)
+  M            49.5 (19½)       71 (28)
+  L            54 (21¼)         74.5 (29⅜)
+  XL           58.5 (23)        78 (30¾)
+  2XL          63.5 (25)        80.5 (31⅝)
+
+  Sweatpants   Waist, cm (in)   Inseam, cm (in)
+  ------------ ---------------- -----------------
+  S            38 (15)          70.5 (27¾)
+  M            40.5 (16)        72 (28¼)
+  L            43 (17)          73 (28¾)
+  XL           45.5 (18)        74.5 (29¼)
+  2XL          48.5 (19)        75.5 (29¾)
+
+  Jacket   Chest, cm (in)   Length, cm (in)
+  -------- ---------------- -----------------
+  S        54 (21¼)         69 (27¼)
+  M        58 (22¾)         71 (28)
+  L        61.5 (24¼)       73 (28¾)
+  XL       65.5 (25¾)       75 (29½)
+  2XL      69 (27¼)         77 (30¼)
+
 <!-- paste:end -->
 
 Notes
