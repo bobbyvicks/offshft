@@ -1,0 +1,11 @@
+{
+ "_note": "Which photo each style shows, linked 29 Oct 2026 (productVariantsBulkUpdate, every size of a style gets the same photo). The Lightweight hoodie uses the Garment-Dyed photo. Listings with one style (crewnecks, sweatpants, jackets) just show their product photo.",
+ "off-shft-logo-hat": { "Retro Trucker": "gid://shopify/MediaImage/46664459845954", "5-Panel": "gid://shopify/MediaImage/46664459878722", "Dad Hat": "gid://shopify/MediaImage/46664459911490", "Rope Cap": "gid://shopify/MediaImage/46664459944258" },
+ "the-clock-hat": { "Retro Trucker": "gid://shopify/MediaImage/46664460173634", "5-Panel": "gid://shopify/MediaImage/46664460206402", "Dad Hat": "gid://shopify/MediaImage/46664460239170", "Rope Cap": "gid://shopify/MediaImage/46664460271938" },
+ "punched-out-hat": { "Retro Trucker": "gid://shopify/MediaImage/46664460304706", "5-Panel": "gid://shopify/MediaImage/46664460337474", "Dad Hat": "gid://shopify/MediaImage/46664460370242", "Rope Cap": "gid://shopify/MediaImage/46664460403010" },
+ "off-shft-logo-hoodie": { "Oversized": "gid://shopify/MediaImage/46664460435778", "Garment-Dyed": "gid://shopify/MediaImage/46664460468546", "Lightweight": "gid://shopify/MediaImage/46664460468546" },
+ "the-clock-hoodie": { "Oversized": "gid://shopify/MediaImage/46664460501314", "Garment-Dyed": "gid://shopify/MediaImage/46664460534082", "Lightweight": "gid://shopify/MediaImage/46664460534082" },
+ "punched-out-hoodie": { "Oversized": "gid://shopify/MediaImage/46664460927298", "Garment-Dyed": "gid://shopify/MediaImage/46664460960066", "Lightweight": "gid://shopify/MediaImage/46664460960066" },
+ "off-shft-logo-t-shirt": { "Heavyweight": "gid://shopify/MediaImage/46664541765954", "Pocket": "gid://shopify/MediaImage/46664541798722" },
+ "the-clock-t-shirt": { "Heavyweight": "gid://shopify/MediaImage/46664542159170", "Pocket": "gid://shopify/MediaImage/46664542191938" }
+}

@@ -40,6 +40,32 @@ Still to confirm for the 12, before samples:
 
 Facts so far: store/research/comfort-colors.md, the cap and AS Colour hoodie checks, and store/research/fulfilment.md (being written).
 
+## In Shopify (29 Oct 2026)
+
+All 17 listings are drafts: not on the Online Store and not for sale. Each design on each kind of piece is one listing,
+with the styles as an option, so the 34 pairings fit in 17 listings. Admin: https://admin.shopify.com/store/k6gvbe-02/products
+
+| Listings | Styles and sizes | Price set |
+|---|---|---|
+| Hat: logo, clock, Punched Out. | Retro Trucker, 5-Panel, Dad Hat, Rope Cap | C$34.99 |
+| Hoodie: all three designs | Oversized (5161), Garment-Dyed (1567), Lightweight (1467); S to 3XL | C$89.99 |
+| Crewneck: all three | 1466; S to 3XL | C$79.99 |
+| Sweatpants: all three | 1469; S to 3XL | C$79.99 |
+| T-shirt: logo, clock | Heavyweight (1717) S to 3XL, Pocket (6030) S to 2XL | C$44.99 |
+| Jacket: all three | CO200; S to 3XL | C$99.99 |
+
+- Ids: store/apply/out/drop1-ids.json. Each style's photo: store/apply/out/drop1-variant-images.json. Text:
+  store/products/drop1.json, claims-checked and applied.
+- Before anything sells:
+  - The owner decides on publishing to the Online Store, and on adding the US: the store ships to Canada only for now.
+  - Each listing has to be linked to its Printful product and embroidery file in Printful, or orders won't reach
+    Printful. That needs the colours, which come later.
+  - The prices were set before Printful's embroidered prices were confirmed; check them.
+- Photos to redo in one upload, with the final Punched Out. art:
+  - Punched Out.: the old draft art for now.
+  - Rope cap: it has 5 panels, but its drawing has a centre seam and the designs are moved off-centre for it.
+  - Sweatpants and tees: their drawings changed after the upload.
+
 ## Everything the owner sent
 
 | Kind | Base | Printful page | Notes |
