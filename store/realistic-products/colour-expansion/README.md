@@ -31,9 +31,19 @@ Keep the approved logo artwork, the current Punched Out. design, and the establi
 | Pocket T-shirt / Comfort Colors 6030 | White |
 | Jacket / Champion CO200 | Black, Light Blue |
 
-Hoodies, crewnecks and the Heavyweight T-shirt use S–3XL. The Pocket T-shirt, sweatpants and Champion jacket are offered by Printful in S–2XL. The existing Shopify sweatpants and jackets have six 3XL records outside that supplier range; those IDs are retained, with their inventory treatment awaiting the owner's choice. New colours on those garments stop at 2XL. The matrix deliberately avoids unsupported new combinations, such as a Blue Spruce Pocket T-shirt or a Bone 1567 hoodie. All 142 existing variant IDs must be retained. The target matrix has 259 records: 117 additions across 17 products, including the six preserved unsupported 3XL records.
+Hoodies, crewnecks and the Heavyweight T-shirt use S–3XL. The Pocket T-shirt, sweatpants and Champion jacket use S–2XL. The owner explicitly approved removing the six original 3XL sweatpant and jacket variants outside that supplier range. `colour-plan.json` lists their exact IDs under `approvedVariantRemovals`; the final store audit confirms all six are absent and every other original ID is preserved. Both colours of each sweatpant and jacket product therefore have five sizes, for ten variants per product.
+
+The untouched baseline remains 142 original records. The target is **253 variants across 17 products: 136 retained originals + 117 additions**, after six approved removals. Per product, hats have 5 variants, hoodies 36, crewnecks 12, sweatpants 10, T-shirts 17, and jackets 10. All 253 target combinations match the saved supplier colour/size data. The matrix avoids unsupported combinations such as a Blue Spruce Pocket T-shirt or a Bone 1567 hoodie. The before-media read prompt still expects the 142-record state captured before removal; it is not the final-state target.
 
 `colour-plan.json` maps each of the 57 garment/colour/design images to its product and variant options, including original IDs and the source variant for copying configuration. Fourteen first-colour images are reused from `../images`; 43 new images are in `images/`. The three older Slate sweatpants concepts remain preserved outside this active colour matrix; Pepper replaces them as the accurate supplier colour.
+
+The completed rollout retains all 48 original Shopify media attachments and adds the 43 new photos, for 91 attachments. Removing the six variants did not remove product media.
+
+## Completed Shopify rollout
+
+The final saved Shopify export passes with **17 products, 253 variants, 136 retained original IDs, 117 new IDs, and all six approved removals absent**. All 253 variant images, all 17 option-value sets, and all 17 publication/channel sets match the plan. All 48 original media IDs are retained among 91 attachments. Prices and retained inventory/fulfilment configuration are unchanged; the hoodie drawcord/embroidery wording and sweatpant 220 gsm correction are verified without unrelated changes to those six descriptions.
+
+See the [independent final review](verification/independent-final-review.md) and [machine verification](verification/shopify-verification.json). The [storefront check](verification/storefront-check.json) confirms Garment-Dyed / S / Blue Spruce displays the matching drawcord hoodie photo, updates valid Colour choices with Style, and enables Add to cart. No cart or checkout action was performed.
 
 ## Review and provenance
 

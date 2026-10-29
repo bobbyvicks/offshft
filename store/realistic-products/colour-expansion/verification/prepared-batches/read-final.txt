@@ -1,0 +1,17 @@
+Perform a fresh read-only audit of all 17 OFF SHFT products from their current saved records, not the processing labels of old store-change jobs. Query in small batches to avoid throttling, then export one combined JSON containing each product's id, title, status, selected publication channels, options, complete variants and complete media, with pageInfo to show completeness.
+
+For variants include id, selectedOptions, price, sku, inventoryPolicy, inventoryQuantity, image { url }, inventoryItem { tracked, inventoryLevels { nodes { location { id, name, fulfillmentService { id } } } } }. For product media include id and image { url, altText }, in saved order. Include descriptionHtml for hoodies and sweatpants.
+
+The expected total is 253 variants: 136 original IDs retained and 117 additions. The original baseline remains 142 records, with six explicitly approved removals. Per product: hats 5, hoodies 36, crewnecks 12, sweatpants 10, T-shirts 17, jackets 10. Both colours of every sweatpant and jacket product must have only S, M, L, XL, and 2XL.
+
+Require these six owner-approved 3XL removal IDs to be absent from the saved records:
+- Sweatpants Logo: gid://shopify/ProductVariant/67946090889538
+- Sweatpants Clock: gid://shopify/ProductVariant/67946091086146
+- Sweatpants Punched Out: gid://shopify/ProductVariant/67946091348290
+- Jacket Logo: gid://shopify/ProductVariant/67946097115458
+- Jacket Clock: gid://shopify/ProductVariant/67946097312066
+- Jacket Punched Out: gid://shopify/ProductVariant/67946097508674
+
+Every other original ID must remain on its original product with its original option selections and configuration. Every size should display its matching style-colour-design PNG. Preserve all 48 media IDs from the before-media export; 43 new photos are expected, making 91 media attachments if there were no user additions. Original CAD prices are 34.99 hats, 89.99 hoodies, 79.99 crewnecks/sweatpants, 44.99 tees, and 99.99 jackets. SKU remains blank. Inventory tracking/location/fulfilment of retained originals, product status, and channels should remain unchanged. Do not make changes. Provide a downloadable JSON of actual records for independent comparison, and briefly report any discrepancies.
+
+Exact product IDs: 15476774830402, 15476774764866, 15476774895938, 15476770046274, 15476769980738, 15476770111810, 15476770210114, 15476770144578, 15476770275650, 15476778860866, 15476778795330, 15476778926402, 15476774994242, 15476774961474, 15476775059778, 15476778729794, 15476778631490.

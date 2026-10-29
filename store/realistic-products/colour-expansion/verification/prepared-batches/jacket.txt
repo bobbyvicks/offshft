@@ -1,16 +1,19 @@
-Prepare a reviewable batch for ONLY the following OFF SHFT products. Their existing variants have already been mapped to their correct base Colour. Retain every existing variant ID and all existing option selections and configuration. Add ONLY the listed new Style/Colour/Size combinations. Never create a Cartesian product. Preserve existing prices, SKUs, inventory tracking, fulfilment/location settings, product status and publication channels. New variants copy the configuration and price of their same Style/Size original, with blank SKU and inventory tracking off. Do not invent a Printful SKU or integration. All named PNGs are uploaded in the Shopify Files library. Attach the matching images to each product, retain ALL existing media, assign each image to every size in its exact style-colour pair, and put the listed primary image first. Show changes for review before applying.
+Prepare a reviewable batch for ONLY the following OFF SHFT products. Their existing variants have already been mapped to their correct base Colour. Retain every original variant ID except the exact owner-approved removal IDs listed below. If an approved removal is already absent, leave it absent. Do not remove any other variant. Preserve option selections and configuration for every retained original. Add ONLY the listed new Style / Colour / Size combinations. Never create a Cartesian product. Preserve existing prices, SKUs, inventory tracking, fulfilment/location settings, product status and publication channels. New variants copy the configuration and price of their same Style / Size original, with blank SKU and inventory tracking off. Before variant creation, inspect the creation tool schema for fulfillmentService. Omit this optional field when unset; never submit null, the string "null", an invalid service value, or a location ID as fulfillmentService. Do not copy the read-only location.fulfillmentService value directly into a creation request. If the schema requires a service value, use its documented manual/default value. Preserve Shop location and the existing manual/default fulfilment setup; do not change retained originals. Do not invent a Printful SKU or integration. All named PNGs are uploaded in the Shopify Files library. Attach the matching images to each product, retain ALL existing media, assign each image to every size in its exact style-colour pair, and put the listed primary image first. Show changes for review before applying.
 
-PRODUCT The Clock Jacket / ID 15476778860866; expected final count 11; preserve original 6 IDs.
-KEEP existing: Style=(no Style option); Colour=Black; Sizes=S,M,L,XL,2XL,3XL; Price CAD99.99; image=jacket-clock.png.
-ADD new: Style=(no Style option); Colour=Light Blue; Sizes=S,M,L,XL,2XL; Price CAD99.99; image=jacket-co200-light-blue-clock.png.
+PRODUCT The Clock Jacket / ID 15476778860866; expected final count 10; baseline 6 original IDs; preserve 5 original IDs.
+REMOVE if still present (owner approved): variant ID gid://shopify/ProductVariant/67946097312066; Colour=Black; Size=3XL. This ID must be absent in the final saved product; do not recreate it or retain it as sold out.
+KEEP existing: Style=(no Style option); Colour=Black; Sizes=S, M, L, XL, 2XL; Price CAD 99.99; image=jacket-clock.png.
+ADD new: Style=(no Style option); Colour=Light Blue; Sizes=S, M, L, XL, 2XL; Price CAD 99.99; image=jacket-co200-light-blue-clock.png.
 Primary image: jacket-clock.png. All generated photo combinations should precede old schematic media, but retain old media.
 
-PRODUCT OFF SHFT Logo Jacket / ID 15476778795330; expected final count 11; preserve original 6 IDs.
-KEEP existing: Style=(no Style option); Colour=Black; Sizes=S,M,L,XL,2XL,3XL; Price CAD99.99; image=jacket-logo.png.
-ADD new: Style=(no Style option); Colour=Light Blue; Sizes=S,M,L,XL,2XL; Price CAD99.99; image=jacket-co200-light-blue-logo.png.
+PRODUCT OFF SHFT Logo Jacket / ID 15476778795330; expected final count 10; baseline 6 original IDs; preserve 5 original IDs.
+REMOVE if still present (owner approved): variant ID gid://shopify/ProductVariant/67946097115458; Colour=Black; Size=3XL. This ID must be absent in the final saved product; do not recreate it or retain it as sold out.
+KEEP existing: Style=(no Style option); Colour=Black; Sizes=S, M, L, XL, 2XL; Price CAD 99.99; image=jacket-logo.png.
+ADD new: Style=(no Style option); Colour=Light Blue; Sizes=S, M, L, XL, 2XL; Price CAD 99.99; image=jacket-co200-light-blue-logo.png.
 Primary image: jacket-logo.png. All generated photo combinations should precede old schematic media, but retain old media.
 
-PRODUCT Punched Out. Jacket / ID 15476778926402; expected final count 11; preserve original 6 IDs.
-KEEP existing: Style=(no Style option); Colour=Black; Sizes=S,M,L,XL,2XL,3XL; Price CAD99.99; image=jacket-punched-out.png.
-ADD new: Style=(no Style option); Colour=Light Blue; Sizes=S,M,L,XL,2XL; Price CAD99.99; image=jacket-co200-light-blue-punched-out.png.
+PRODUCT Punched Out. Jacket / ID 15476778926402; expected final count 10; baseline 6 original IDs; preserve 5 original IDs.
+REMOVE if still present (owner approved): variant ID gid://shopify/ProductVariant/67946097508674; Colour=Black; Size=3XL. This ID must be absent in the final saved product; do not recreate it or retain it as sold out.
+KEEP existing: Style=(no Style option); Colour=Black; Sizes=S, M, L, XL, 2XL; Price CAD 99.99; image=jacket-punched-out.png.
+ADD new: Style=(no Style option); Colour=Light Blue; Sizes=S, M, L, XL, 2XL; Price CAD 99.99; image=jacket-co200-light-blue-punched-out.png.
 Primary image: jacket-punched-out.png. All generated photo combinations should precede old schematic media, but retain old media.

@@ -83,7 +83,9 @@ with zipfile.ZipFile(ROOT/ZIP,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
     for r in rows:
         path=(ROOT/r['image']).resolve()
         z.write(path,'OFF-SHFT-Colours/'+str(path.relative_to(ROOT.parent)).replace('\\','/'))
-    for name in ['index.html',PDF,'colour-plan.json','image-verification.json','README.md','hoodie-research.md','collection-colour-research.md']:
+    for name in ['index.html',PDF,'colour-plan.json','image-verification.json','README.md','hoodie-research.md','collection-colour-research.md',
+                 'verification/independent-final-review.md','verification/shopify-verification.json',
+                 'verification/storefront-check.json','verification/shopify-blue-spruce-proof.png']:
         z.write(ROOT/name,'OFF-SHFT-Colours/colour-expansion/'+name)
     z.writestr('OFF-SHFT-Colours/START-HERE.txt','Open colour-expansion/index.html to browse the full collection. The PDF is in the same folder. Keep the images and colour-expansion folders together.\n')
 print(json.dumps({'images':len(rows),'pdfPages':page_no,'pdfBytes':(ROOT/PDF).stat().st_size,'zipBytes':(ROOT/ZIP).stat().st_size}))

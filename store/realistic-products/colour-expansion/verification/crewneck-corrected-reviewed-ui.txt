@@ -1,0 +1,95 @@
+ontainer
+												68629 group
+												72212 complementary Sidekick ID: sidekick
+													77264 group
+														77265 group
+															77266 dialog Changes Secondary Actions: Raise
+																77267 group
+																	77268 button Close review
+																		77269 group
+																77270 status
+																	77271 group
+																		77272 text Review the full set of changes and publish when ready.
+																77273 group
+																	77274 button Publish all changes
+																77275 group Change types
+																	77276 group
+																		77277 toggle button Products, reviewed
+																			77278 group
+																			77279 text Products
+																77280 group
+																	77281 text Show original
+																77282 group
+																	77283 group
+																		77284 check box (settable, string) Show original
+																		77285 text Show original
+																77286 group
+																	77287 status
+																		77288 group
+																		77289 group
+																			77290 heading Some changes can't be opened in the editor
+																		77291 group
+																			77292 group
+																				77293 text Review these changes in the table before publishing.
+																77294 table
+																	77295 row
+																		77296 column header Change type
+																		77297 column header Image
+																		77298 column header Product
+																		77299 column header Options
+																		77300 column header Variants
+																		77301 column header Media
+																		77302 column header Price
+																	77303 row
+																		77304 item Change
+																			77305 group
+																		77306 item
+																			77307 group
+																		77308 item The Clock Crewneck
+																			77309 group
+																		77310 item Size, Colour
+																			77311 group
+																		77312 item 6 variants changed
+																			77313 group
+																		77314 item crewneck-clock.png crewneck-1466-blue-jean-clock.png Variants: S / Ivory, Variant: gid://shopify/ProductVariant/67946090103106, Media Id: gid://shopify/MediaImage/46665010577730, Media: crewneck-clock.png; M / Ivory, Variant: gid://shopify/ProductVariant/67946090135874, Media Id: gid://shopify/MediaImage/46665010577730, Media: crewneck-clock.png; L / Ivory, Variant: gid://shopify/ProductVariant/67946090168642, Media Id: gid://shopify/MediaImage/46665010577730, Media: crewneck-clock.png; XL / Ivory, Variant: gid://shopify/ProductVariant/67946090201410, Media Id: gid://shopify/MediaImage/46665010577730, Media: crewneck-clock.png; 2XL / Ivory, Variant: gid://shopify/ProductVariant/67946090234178, Media Id: gid://shopify/MediaImage/46665010577730, Media: crewneck-clock.png; 3XL / Ivory, Variant: gid://shopify/ProductVariant/67946090266946, Media Id: gid://shopify/MediaImage/46665010577730, Media: crewneck-clock.png; S / Blue Jean, Variant: client:blue-0, Media Id: gid://shopify/MediaImage/46665866051906, Media: crewneck-1466-blue-jean-clock.png; M / Blue Jean, Variant: client:blue-1, Media Id: gid://shopify/MediaImage/46665866051906, Media: crewneck-1466-blue-jean-clock.png; L / Blue Jean, Variant: client:blue-2, Media Id: gid://shopify/MediaImage/46665866051906, Media: crewneck-1466-blue-jean-clock.png; XL / Blue Jean, Variant: client:blue-3, Media Id: gid://shopify/MediaImage/46665866051906, Media: crewneck-1466-blue-jean-clock.png; 2XL / Blue Jean, Variant: client:blue-4, Media Id: gid://shopify/MediaImage/46665866051906, Media: crewneck-1466-blue-jean-clock.png; 3XL / Blue Jean, Variant: client:blue-5, Media Id: gid://shopify/MediaImage/46665866051906, Media: crewneck-1466-blue-jean-clock.png
+																			77315 group
+																				77316 graphic crewneck-clock.png
+																			77317 group
+																				77318 graphic crewneck-1466-blue-jean-clock.png
+																			77319 group
+																		77320 item 79.99
+																			77321 group
+																	77322 row
+																		77323 item Change
+																			77324 group
+																		77325 item
+																			77326 group
+																		77327 item OFF SHFT Logo Crewneck
+																			77328 group
+																		77329 item Size, Colour
+																			77330 group
+																		77331 item 6 variants changed
+																			77332 group
+																		77333 item crewneck-logo.png crewneck-1466-blue-jean-logo.png Items: crewneck-logo.png, Media Content Type: IMAGE; crewneck-1466-blue-jean-logo.png, Media Content Type: IMAGE, Change: attached; offshft-crew-1466-logo.png, Media Content Type: IMAGE, Variants: S / Ivory, Variant: gid://shopify/ProductVariant/67946089906498, Media Id: gid://shopify/MediaImage/46665010544962, Media: crewneck-logo.png; M / Ivory, Variant: gid://shopify/ProductVariant/67946089939266, Media Id: gid://shopify/MediaImage/46665010544962, Media: crewneck-logo.png; L / Ivory, Variant: gid://shopify/ProductVariant/67946089972034, Media Id: gid://shopify/MediaImage/46665010544962, Media: crewneck-logo.png; XL / Ivory, Variant: gid://shopify/ProductVariant/67946090004802, Media Id: gid://shopify/MediaImage/46665010544962, Media: crewneck-logo.png; 2XL / Ivory, Variant: gid://shopify/ProductVariant/67946090037570, Media Id: gid://shopify/MediaImage/46665010544962, Media: crewneck-logo.png; 3XL / Ivory, Variant: gid://shopify/ProductVariant/67946090070338, Media Id: gid://shopify/MediaImage/46665010544962, Media: crewneck-logo.png; S / Blue Jean, Variant: client:blue-0, Media Id: gid://shopify/MediaImage/46665865986370, Media: crewneck-1466-blue-jean-logo.png; M / Blue Jean, Variant: client:blue-1, Media Id: gid://shopify/MediaImage/46665865986370, Media: crewneck-1466-blue-jean-logo.png; L / Blue Jean, Variant: client:blue-2, Media Id: gid://shopify/MediaImage/46665865986370, Media: crewneck-1466-blue-jean-logo.png; XL / Blue Jean, Variant: client:blue-3, Media Id: gid://shopify/MediaImage/46665865986370, Media: crewneck-1466-blue-jean-logo.png; 2XL / Blue Jean, Variant: client:blue-4, Media Id: gid://shopify/MediaImage/46665865986370, Media: crewneck-1466-blue-jean-logo.png; 3XL / Blue Jean, Variant: client:blue-5, Media Id: gid://shopify/MediaImage/46665865986370, Media: crewneck-1466-blue-jean-logo.png
+																			77334 group
+																				77335 graphic crewneck-logo.png
+																			77336 group
+																				77337 graphic crewneck-1466-blue-jean-logo.png
+																			77338 group
+																		77339 item 79.99
+																			77340 group
+																	77341 row
+																		77342 item Change
+																			77343 group
+																		77344 item
+																			77345 group
+																		77346 item Punched Out. Crewneck
+																			77347 group
+																		77348 item Size, Colour
+																			77349 group
+																		77350 item 6 variants changed
+																			77351 group
+																		77352 item crewneck-punched-out.png crewneck-1466-blue-jean-punched-out.png Items: crewneck-punched-out.png, Media Content Type: IMAGE; crewneck-1466-blue-jean-punched-out.png, Media Content Type: IMAGE, Change: attached; offshft-crew-1466-punched-out.png, Media Content Type: IMAGE, Variants: S / Ivory, Variant: gid://shopify/ProductVariant/67946090529090, Media Id: gid://shopify/MediaImage/46665017262402, Media: crewneck-punched-out.png; M / Ivory, Variant: gid://shopify/ProductVariant/67946090561858, Media Id: gid://shopify/MediaImage/46665017262402, Media: crewneck-punched-out.png; L / Ivory, Variant: gid://shopify/ProductVariant/67946090594626, Media Id: gid://shopify/MediaImage/46665017262402, Media: crewneck-punched-out.png; XL / Ivory, Variant: gid://shopify/ProductVariant/67946090627394, Media Id: gid://shopify/MediaImage/46665017262402, Media: crewneck-punched-out.png; 2XL / Ivory, Variant: gid://shopify/ProductVariant/67946090660162, Media Id: gid://shopify/MediaImage/46665017262402, Media: crewneck-punched-out.png; 3XL / Ivory, Variant: gid://shopify/ProductVariant/67946090692930, Media Id: gid://shopify/MediaImage/46665017262402, Media: crewneck-punched-out.png; S / Blue Jean, Variant: client:blue-0, Media Id: gid://shopify/MediaImage/46665865724226, Media: crewneck-1466-blue-jean-punched-out.png; M / Blue Jean, Variant: client:blue-1, Media Id: gid://shopify/MediaImage/46665865724226, Media: crewneck-1466-blue-jean-punched-out.png; L / Blue Jean, Variant: client:blue-2, Media Id: gid://shopify/MediaImage/46665865724226, Media: crewneck-1466-blue-jean-punched-out.png; XL / Blue Jean, Variant: client:blue-3, Media Id: gid://shopify/MediaImage/46665865724226, Media: crewneck-1466-blue-jean-punched-out.png; 2XL / Blue Jean, Variant: client:blue-4, Media Id: gid://shopify/MediaImage/46665865724226, Media: crewneck-1466-blue-jean-punched-out.png; 3XL / Blue Jean, Variant: client:blue-5, Media Id: gid://shopify/MediaImage/46665865724226, Media: crewneck-1466-blue-jean-punched-out.png
+																			77353 group
+																				77354 graphic crewneck-punched-out.png
+																			77355

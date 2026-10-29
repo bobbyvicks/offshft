@@ -128,3 +128,16 @@ The 6030 placement check used `getGuidelinesAndTemplates` against the same endpo
 Choose the exact supplier labels above, keep existing artwork/placement/scale, and preserve each blank's material and silhouette. The next images can illustrate these colourways, but cannot verify physical cloth shades, yarn matches or sew-out quality. Keep the research distinction between observed catalogue colours and confirmed orderable size/region combinations.
 
 For a shared fleece set, request samples together and compare them under the same light. For each additional colour, confirm its desired size and destination in the live editor before creating a sellable variant. This research does not change the current draft listings.
+
+## Final selected size and colour check
+
+The follow-up public picker check covers all twelve selected blanks. Its complete responses are saved in `verification/supplier-size-colour-availability.json`; `verification/independent-matrix-review.md` checks the final matrix against those responses. The final jacket expansion uses **Light Blue**.
+
+- Hoodies 5161, 1567 and 1467, and crewneck 1466: selected colours support S–3XL.
+- Heavyweight T-shirt 1717: selected colours support S–3XL for the selected embroidery technique. The supplier also lists 4XL, which this task does not add.
+- Pocket T-shirt 6030, sweatpants 1469 and Champion CO200 jacket: S–2XL only.
+- Hats: One size. Exact selected colours are those in `colour-plan.json`.
+
+The untouched Shopify baseline contains six unsupported 3XL records: one per sweatpants and jacket product. The owner explicitly approved removing those six options. Their exact IDs are listed in `colour-plan.json`; final verification must require their absence and preserve the other 136 original IDs. Both colours of these garments stop at 2XL. The final target is **253 variants: 136 retained originals + 117 new variants**, all matching the selected supplier colour/size rows. Actual Shopify removal is verified separately from this local plan.
+
+The selected rows have no stock/general-availability failures or embroidery exclusions in the public data. Some 1717 rows have a literal `T-SHIRT` technique exclusion; the independent review records it without treating it as an embroidery failure. This remains a public catalogue check without an account-specific destination quote, stock reservation or Printful fulfilment sync.

@@ -1,0 +1,102 @@
+ontainer
+												68629 group
+												72212 complementary Sidekick ID: sidekick
+													81351 group
+														81352 group
+															81353 dialog Changes Secondary Actions: Raise
+																81354 group
+																	81355 button Close review
+																		81356 group
+																81357 status
+																	81358 group
+																		81359 text Review the full set of changes and publish when ready.
+																81360 group
+																	81361 button Publish all changes
+																81362 group Change types
+																	81363 group
+																		81364 toggle button Products, reviewed
+																			81365 group
+																			81366 text Products
+																81367 group
+																	81368 text Show original
+																81369 group
+																	81370 group
+																		81371 check box (settable, string) Show original
+																		81372 text Show original
+																81373 group
+																	81374 status
+																		81375 group
+																		81376 group
+																			81377 heading Some changes can't be opened in the editor
+																		81378 group
+																			81379 group
+																				81380 text Review these changes in the table before publishing.
+																81381 table
+																	81382 row
+																		81383 column header Change type
+																		81384 column header Image
+																		81385 column header Product
+																		81386 column header Description
+																		81387 column header Options
+																		81388 column header Variants
+																		81389 column header Media
+																		81452 column header Price
+																	81390 row
+																		81391 item Change
+																			81392 group
+																		81453 item
+																			81454 group
+																		81455 item The Clock Sweatpants
+																			81456 group
+																		81457 item A clock with its hands at 5:00. Quitting time.It's the clock from the OFF SHFT logo, on its own. Off the clock, on the couch.Nowhere to be and all day to get there.Made to order and shipped to you.Details Leg: the clock, on the front of the left leg, about 25 mm (1 in) tall Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.5 oz/yd² (220 g/m²) Flat cord at the waist Which size? See Size & fit.
+																			81458 group
+																		81459 item Size, Colour
+																			81460 group
+																		81461 item 6 variants changed
+																			81462 group
+																		81463 item sweatpants-1469-pepper-clock.png sweatpants-1469-espresso-clock.png Items: sweatpants-1469-pepper-clock.png, Media Content Type: IMAGE, Change: attached; sweatpants-1469-espresso-clock.png, Media Content Type: IMAGE, Change: attached; sweatpants-clock.png, Media Content Type: IMAGE; offshft-pants-1469-clock.png, Media Content Type: IMAGE, Variants: S / Pepper, Variant: gid://shopify/ProductVariant/67946090922306, Media Id: gid://shopify/MediaImage/46665864937794, Media: sweatpants-1469-pepper-clock.png; M / Pepper, Variant: gid://shopify/ProductVariant/67946090955074, Media Id: gid://shopify/MediaImage/46665864937794, Media: sweatpants-1469-pepper-clock.png; L / Pepper, Variant: gid://shopify/ProductVariant/67946090987842, Media Id: gid://shopify/MediaImage/46665864937794, Media: sweatpants-1469-pepper-clock.png; XL / Pepper, Variant: gid://shopify/ProductVariant/67946091020610, Media Id: gid://shopify/MediaImage/46665864937794, Media: sweatpants-1469-pepper-clock.png; 2XL / Pepper, Variant: gid://shopify/ProductVariant/67946091053378, Media Id: gid://shopify/MediaImage/46665864937794, Media: sweatpants-1469-pepper-clock.png; S / Espresso, Variant: client:espresso-0, Media Id: gid://shopify/MediaImage/46665865265474, Media: sweatpants-1469-espresso-clock.png; M / Espresso, Variant: client:espresso-1, Media Id: gid://shopify/MediaImage/46665865265474, Media: sweatpants-1469-espresso-clock.png; L / Espresso, Variant: client:espresso-2, Media Id: gid://shopify/MediaImage/46665865265474, Media: sweatpants-1469-espresso-clock.png; XL / Espresso, Variant: client:espresso-3, Media Id: gid://shopify/MediaImage/46665865265474, Media: sweatpants-1469-espresso-clock.png; 2XL / Espresso, Variant: client:espresso-4, Media Id: gid://shopify/MediaImage/46665865265474, Media: sweatpants-1469-espresso-clock.png
+																			81464 group
+																				81465 graphic sweatpants-1469-pepper-clock.png
+																			81466 group
+																				81467 graphic sweatpants-1469-espresso-clock.png
+																			81468 group
+																		81469 item 79.99
+																			81470 group
+																	81409 row
+																		81410 item Change
+																			81411 group
+																		81471 item
+																			81472 group
+																		81473 item OFF SHFT Logo Sweatpants
+																			81474 group
+																		81475 item The O in OFF is a clock. The hands say 5:00.Quitting time. Off the clock, on the couch.Nowhere to be and all day to get there.Made to order and shipped to you.Details Leg: the OFF SHFT logo, on the front of the left leg Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.5 oz/yd² (220 g/m²) Flat cord at the waist Which size? See Size & fit.
+																			81476 group
+																		81477 item Size, Colour
+																			81478 group
+																		81479 item 6 variants changed
+																			81480 group
+																		81481 item sweatpants-1469-pepper-logo.png sweatpants-1469-espresso-logo.png Items: sweatpants-1469-pepper-logo.png, Media Content Type: IMAGE, Change: attached; sweatpants-1469-espresso-logo.png, Media Content Type: IMAGE, Change: attached; sweatpants-logo.png, Media Content Type: IMAGE; offshft-pants-1469-logo.png, Media Content Type: IMAGE, Variants: S / Pepper, Variant: gid://shopify/ProductVariant/67946090725698, Media Id: gid://shopify/MediaImage/46665865625922, Media: sweatpants-1469-pepper-logo.png; M / Pepper, Variant: gid://shopify/ProductVariant/67946090758466, Media Id: gid://shopify/MediaImage/46665865625922, Media: sweatpants-1469-pepper-logo.png; L / Pepper, Variant: gid://shopify/ProductVariant/67946090791234, Media Id: gid://shopify/MediaImage/46665865625922, Media: sweatpants-1469-pepper-logo.png; XL / Pepper, Variant: gid://shopify/ProductVariant/67946090824002, Media Id: gid://shopify/MediaImage/46665865625922, Media: sweatpants-1469-pepper-logo.png; 2XL / Pepper, Variant: gid://shopify/ProductVariant/67946090856770, Media Id: gid://shopify/MediaImage/46665865625922, Media: sweatpants-1469-pepper-logo.png; S / Espresso, Variant: client:espresso-0, Media Id: gid://shopify/MediaImage/46665865396546, Media: sweatpants-1469-espresso-logo.png; M / Espresso, Variant: client:espresso-1, Media Id: gid://shopify/MediaImage/46665865396546, Media: sweatpants-1469-espresso-logo.png; L / Espresso, Variant: client:espresso-2, Media Id: gid://shopify/MediaImage/46665865396546, Media: sweatpants-1469-espresso-logo.png; XL / Espresso, Variant: client:espresso-3, Media Id: gid://shopify/MediaImage/46665865396546, Media: sweatpants-1469-espresso-logo.png; 2XL / Espresso, Variant: client:espresso-4, Media Id: gid://shopify/MediaImage/46665865396546, Media: sweatpants-1469-espresso-logo.png
+																			81482 group
+																				81483 graphic sweatpants-1469-pepper-logo.png
+																			81484 group
+																				81485 graphic sweatpants-1469-espresso-logo.png
+																			81486 group
+																		81487 item 79.99
+																			81488 group
+																	81428 row
+																		81429 item Change
+																			81430 group
+																		81489 item
+																			81490 group
+																		81491 item Punched Out. Sweatpants
+																			81492 group
+																		81493 item Punched out.Two words and a full stop, on the leg. Nothing else to say.Nowhere to be and all day to get there.Made to order and shipped to you.Details Leg: PUNCHED OUT., on the front of the left leg Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.5 oz/yd² (220 g/m²) Flat cord at the waist Which size? See Size & fit.
+																			81494 group
+																		81495 item Size, Colour
+																			81496 group
+																		81497 item 6 variants changed
+																			81498 group
+																		81499 item sweatpants-1469-pepper-punched-out.png sweatpants-1469-espresso-punched-out.png Items: sweatpants-1469-pepper-punched-out.png, Media Content Type: IMAGE, Change: attached; sweatpants-1469-espresso-punched-out.png, Media Content Type: IMAGE, Change: attached; sweatpants-punched-out.png, Media Content Type: IMAGE; offshft-pants-1469-punched-out.png, Media Content Type: IMAGE, Variants: S / Pepper, Variant: gid://shopify/ProductVariant/67946091184450, Media Id: gid://shopify/MediaImage/46665864872258, Media: sweatpants-1469-pepper-punched-out.png; M / Pepper, Variant: gid://shopify/ProductVariant/67946091217218, Media Id: gid://shopify/MediaImage/46665864872258, Media: sweatpants-1469-pepper-punched-out.png; L / Pepper, Variant: gid://shopify/ProductVariant/67946091249986, Media Id: gid://shopify/MediaImage/46665864872258, Media: sweatpants-1469-pepper-punched-out.png; XL / Pepper, Variant: gid://shopify/ProductVariant/67946091282754, Media Id: gid://shopify/MediaImage/46665864872258, Media: sweatpants-1469-pepper-punched-out.png; 2XL / Pepper, Variant: gid://shopify/ProductVariant/67946091315522, Media Id: gid://shopify/MediaImage/46665864872258, Media: sweatpants-1469-pepper-punched-out.png; S / Espresso, Variant: client:espresso-0, Media Id: gid://shopify/MediaImage/46665865593154, Media: sweatpants-1469-espresso-punched-out.png; M / Espresso, Variant: client:espresso-1, Media Id: gid://shopify/MediaImage/46665865593154, Media: sweatpants-1469-espresso-punched-out.png; L / Espresso, Variant: client:espresso-2, Media Id: gid://shopify/MediaImage/46665865593154, Media: sweatpants-1469-espresso-punched-out.png; XL / Espresso, Variant: client:espresso-3, Media Id: gid://shopify/MediaImage/46665865593154, Media: sweatpants-1469-espresso-punched-out.png; 2XL / Espresso, Variant: client:espresso-4, Media Id: gid://shopify/MediaImage/46665865593154, Media: sweatpants-1469-espresso-punched-out.png
+																			81500 group
+																				81501 graphic sweatpants-1469-pepper-punched-out.png
+																			81502 
