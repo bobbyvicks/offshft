@@ -1,0 +1,1048 @@
+{
+  "checkedAtUTC": "2026-10-29T22:23:37.730751+00:00",
+  "scope": "Read-only official catalogue and sync-product GETs; no mutation",
+  "storeId": 18982909,
+  "candidateEvidenceDirectory": "store/printful-setup/private/for-a-reason-20261029T222249Z",
+  "recommendation": {
+    "status": "Owner selected mixed-blank mapping via root instruction; draft only, no mutation",
+    "singleShopifyProduct": true,
+    "proposedProductTitle": "FOR A REASON Hat",
+    "optionName": "Colour",
+    "optionValues": [
+      "Charcoal",
+      "Ivory/Ivory",
+      "Evergreen"
+    ],
+    "variantCount": 3,
+    "supplierSizeAllVariants": "One size",
+    "shopifySizeOptionNecessary": false,
+    "descriptionDisclosure": "Charcoal and Evergreen use the structured Yupoong 6606 with a curved visor and matching mesh. Ivory/Ivory uses the softer, unstructured Comfort Colors CCST0 Sunwashed Trucker Cap with a curved bill and ivory mesh. Crown shape and fabric finish differ by colour.",
+    "doNotClaim": [
+      "Do not call Charcoal washed black.",
+      "Do not describe all three colours as structured or all three as Comfort Colors.",
+      "Do not describe Ivory/Ivory as Stone or Khaki."
+    ]
+  },
+  "candidates": [
+    {
+      "catalogueProductId": 252,
+      "brand": "Yupoong",
+      "model": "6606",
+      "title": "Retro Trucker Hat | Yupoong 6606",
+      "officialPage": "https://www.printful.com/custom/hats/trucker-hats/retro-trucker-cap-yupoong-6606",
+      "productApiUrl": "https://api.printful.com/products/252",
+      "fieldsApiUrl": "https://api.printful.com/mockup-generator/printfiles/252?technique=EMBROIDERY",
+      "description": "This six-panel trucker cap with a mesh back will be a comfy and classic choice for a perfect day in the sun. \n\n• Fabric composition may vary depending on the color and available stock: 60% cotton, 40% polyester, or 74% polyester, 26% cotton.\n• Mid-profile cap with a low-profile embroidery area\n• Structured, six-panel cap\n• 3.5″ crown (8.9 cm)\n• Hard buckram front panels\n• Mesh back\n• Permacurv® visor, matching undervisor\n• Plastic adjustable closure\n• Head circumference: 21⅝″–23⅝″ (54.9 cm–60 cm)\n• Blank product sourced from Vietnam or Bangladesh",
+      "currency": "CAD",
+      "allColourNames": [
+        "Black",
+        "Black/ White",
+        "Brown/ Khaki",
+        "Caramel",
+        "Charcoal",
+        "Charcoal/ Black",
+        "Cranberry",
+        "Dark Heather Gray",
+        "Evergreen",
+        "Heather Grey/White",
+        "Heather/ Black",
+        "Khaki",
+        "Moss/ Khaki",
+        "Navy",
+        "Navy/ White",
+        "Pink",
+        "Red",
+        "Rustic Orange/ Khaki",
+        "Silver",
+        "White"
+      ],
+      "puffSupportedOption": {
+        "id": "embroidery_type",
+        "value": "3d",
+        "surcharge": "1.95"
+      },
+      "relevantProductFiles": [
+        {
+          "id": "default",
+          "type": "embroidery_front",
+          "title": "Front",
+          "additional_price": null,
+          "options": [
+            {
+              "id": "full_color",
+              "type": "bool",
+              "title": "Unlimited color",
+              "additional_price": 5.25
+            }
+          ]
+        },
+        {
+          "id": "embroidery_front_large",
+          "type": "embroidery_front_large",
+          "title": "Front",
+          "additional_price": "3.95",
+          "options": [
+            {
+              "id": "full_color",
+              "type": "bool",
+              "title": "Unlimited color",
+              "additional_price": 5.25
+            }
+          ]
+        },
+        {
+          "id": "addon_embroidery_front",
+          "type": "addon_embroidery_front",
+          "title": "Front",
+          "additional_price": null,
+          "options": []
+        },
+        {
+          "id": "preview",
+          "type": "mockup",
+          "title": "Mockup",
+          "additional_price": null,
+          "options": []
+        }
+      ],
+      "threadOptionIds": [
+        "thread_colors_3d",
+        "thread_colors_3d_front_large"
+      ],
+      "productEvidenceSha256": "09519329c728cd785172d74aaa7ea4ce96edcb56dfe08ed8ef87ee532e6d6424",
+      "fieldEvidenceSha256": "8b3d16fb1179c2476621b39c4f17b41d84152464b4520559c3d21ed6fbb6552f",
+      "selectedVariants": [
+        {
+          "catalogueVariantId": 8747,
+          "supplierColour": "Black",
+          "size": "One size",
+          "supplierSwatch": "#181818",
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/252/8747_1585041627.jpg",
+          "catalogueBaseCAD": "20.35",
+          "basePlusPuffCAD": "22.30",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_LV",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_ES",
+              "status": "in_stock"
+            },
+            {
+              "region": "CA",
+              "status": "in_stock"
+            },
+            {
+              "region": "UK",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front_large",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            },
+            {
+              "role": "addon_embroidery_front",
+              "printfileId": 706,
+              "widthPx": 675,
+              "heightPx": 675,
+              "dpi": 300,
+              "widthMm": 57.15,
+              "heightMm": 57.15
+            }
+          ]
+        },
+        {
+          "catalogueVariantId": 20390,
+          "supplierColour": "Charcoal",
+          "size": "One size",
+          "supplierSwatch": "#3f3c38",
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/252/20390_1725007489.jpg",
+          "catalogueBaseCAD": "19.25",
+          "basePlusPuffCAD": "21.20",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front_large",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            },
+            {
+              "role": "addon_embroidery_front",
+              "printfileId": 706,
+              "widthPx": 675,
+              "heightPx": 675,
+              "dpi": 300,
+              "widthMm": 57.15,
+              "heightMm": 57.15
+            }
+          ]
+        },
+        {
+          "catalogueVariantId": 20393,
+          "supplierColour": "Evergreen",
+          "size": "One size",
+          "supplierSwatch": "#385e3d",
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/252/20393_1725007500.jpg",
+          "catalogueBaseCAD": "19.25",
+          "basePlusPuffCAD": "21.20",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_LV",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front_large",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            },
+            {
+              "role": "addon_embroidery_front",
+              "printfileId": 706,
+              "widthPx": 675,
+              "heightPx": 675,
+              "dpi": 300,
+              "widthMm": 57.15,
+              "heightMm": 57.15
+            }
+          ]
+        },
+        {
+          "catalogueVariantId": 8752,
+          "supplierColour": "Khaki",
+          "size": "One size",
+          "supplierSwatch": "#b3a58e",
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/252/8752_1585041706.jpg",
+          "catalogueBaseCAD": "20.35",
+          "basePlusPuffCAD": "22.30",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_LV",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_ES",
+              "status": "in_stock"
+            },
+            {
+              "region": "CA",
+              "status": "in_stock"
+            },
+            {
+              "region": "UK",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front_large",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            },
+            {
+              "role": "addon_embroidery_front",
+              "printfileId": 706,
+              "widthPx": 675,
+              "heightPx": 675,
+              "dpi": 300,
+              "widthMm": 57.15,
+              "heightMm": 57.15
+            }
+          ]
+        },
+        {
+          "catalogueVariantId": 20392,
+          "supplierColour": "Silver",
+          "size": "One size",
+          "supplierSwatch": "#a4a4a3",
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/252/20392_1725007500.jpg",
+          "catalogueBaseCAD": "19.25",
+          "basePlusPuffCAD": "21.20",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_LV",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front_large",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            },
+            {
+              "role": "addon_embroidery_front",
+              "printfileId": 706,
+              "widthPx": 675,
+              "heightPx": 675,
+              "dpi": 300,
+              "widthMm": 57.15,
+              "heightMm": 57.15
+            }
+          ]
+        },
+        {
+          "catalogueVariantId": 8746,
+          "supplierColour": "White",
+          "size": "One size",
+          "supplierSwatch": "#FFFFFF",
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/252/8746_1585041861.jpg",
+          "catalogueBaseCAD": "20.35",
+          "basePlusPuffCAD": "22.30",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_LV",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_ES",
+              "status": "in_stock"
+            },
+            {
+              "region": "CA",
+              "status": "in_stock"
+            },
+            {
+              "region": "UK",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front_large",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            },
+            {
+              "role": "addon_embroidery_front",
+              "printfileId": 706,
+              "widthPx": 675,
+              "heightPx": 675,
+              "dpi": 300,
+              "widthMm": 57.15,
+              "heightMm": 57.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalogueProductId": 1678,
+      "brand": "Comfort Colors",
+      "model": "CCST0",
+      "title": "Sunwashed Trucker Cap | Comfort Colors CCST0",
+      "officialPage": "https://www.printful.com/custom/hats/all/sunwashed-trucker-cap-comfort-colors-ccst0",
+      "productApiUrl": "https://api.printful.com/products/1678",
+      "fieldsApiUrl": "https://api.printful.com/mockup-generator/printfiles/1678?technique=EMBROIDERY",
+      "description": "Give your headwear line a timeless, laid-back look with this pigment-dyed cotton cap. Made from 100% cotton twill with a heavy brushed finish, this unstructured 6-panel cap features a curved bill and a soft mesh back with an adjustable plastic snapback closure. \n\n• 100% cotton pigment-dyed twill with heavy brushed finish\n• 6-panel, unstructured cap\n• One size fits most\n• Circumference: 22.875 in (58.1 cm); bill width: 7 in (17.8 cm); bill length: 2.75 in (7 cm)\n• Curved bill\n• Self-fabric inside sweatband\n• Soft mesh back with plastic snapback closure\n• Signature twill label inside\n• Signature twill flag label at closure",
+      "currency": "CAD",
+      "allColourNames": [
+        "Bay/Tan",
+        "Black/Tan",
+        "Blossom/Tan",
+        "Butter/Tan",
+        "Crimson/Tan",
+        "Denim/Tan",
+        "Espresso/Tan",
+        "Granite/Tan",
+        "Hydrangea/Tan",
+        "Ivory/Ivory"
+      ],
+      "puffSupportedOption": {
+        "id": "embroidery_type",
+        "value": "3d",
+        "surcharge": "1.95"
+      },
+      "relevantProductFiles": [
+        {
+          "id": "default",
+          "type": "embroidery_front",
+          "title": "Front",
+          "additional_price": null,
+          "options": []
+        },
+        {
+          "id": "front_dtf_hat",
+          "type": "front_dtf_hat",
+          "title": "Front print",
+          "additional_price": "4.25",
+          "options": []
+        },
+        {
+          "id": "preview",
+          "type": "mockup",
+          "title": "Mockup",
+          "additional_price": null,
+          "options": []
+        }
+      ],
+      "threadOptionIds": [
+        "thread_colors_3d"
+      ],
+      "productEvidenceSha256": "bce46f88278af674b03c23b0c0f28d0498619db1d26c25741615283f29101f05",
+      "fieldEvidenceSha256": "aadb64298b9fb9a99b6498ce8d83d222645d2433a3dedbcb33c75af09e75f61c",
+      "selectedVariants": [
+        {
+          "catalogueVariantId": 52932,
+          "supplierColour": "Bay/Tan",
+          "size": "One size",
+          "supplierSwatch": null,
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/1678/52932_1790230800.jpg",
+          "catalogueBaseCAD": "22.75",
+          "basePlusPuffCAD": "24.70",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_LV",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            }
+          ]
+        },
+        {
+          "catalogueVariantId": 52933,
+          "supplierColour": "Black/Tan",
+          "size": "One size",
+          "supplierSwatch": null,
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/1678/52933_1790230502.jpg",
+          "catalogueBaseCAD": "22.75",
+          "basePlusPuffCAD": "24.70",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_LV",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            }
+          ]
+        },
+        {
+          "catalogueVariantId": 52939,
+          "supplierColour": "Granite/Tan",
+          "size": "One size",
+          "supplierSwatch": null,
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/1678/52939_1790230912.jpg",
+          "catalogueBaseCAD": "22.75",
+          "basePlusPuffCAD": "24.70",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_LV",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            }
+          ]
+        },
+        {
+          "catalogueVariantId": 52941,
+          "supplierColour": "Ivory/Ivory",
+          "size": "One size",
+          "supplierSwatch": null,
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/1678/52941_1790230933.jpg",
+          "catalogueBaseCAD": "22.75",
+          "basePlusPuffCAD": "24.70",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU",
+              "status": "in_stock"
+            },
+            {
+              "region": "EU_LV",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalogueProductId": 422,
+      "brand": "Richardson",
+      "model": "112",
+      "title": "Snapback Trucker Cap | Richardson 112",
+      "officialPage": "https://www.printful.com/custom/hats/trucker-hats/snapback-trucker-cap-richardson-112",
+      "productApiUrl": "https://api.printful.com/products/422",
+      "fieldsApiUrl": "https://api.printful.com/mockup-generator/printfiles/422?technique=EMBROIDERY",
+      "description": "Complete your outfit with an embroidered trucker cap—combine it with a sports tee, slacks, and comfy shoes. It has a classic structured fit, adjustable plastic snapback, and a curved visor that matches its underbill. \r\n\r\n• 60% cotton, 40% polyester\r\n• 100% polyester mesh back\r\n• Structured, 6-panel, mid-profile cap\r\n• Pre-curved contrast stitched visor\r\n• Underbill matches visor color\r\n• Adjustable plastic snapback\r\n• Blank product sourced from China",
+      "currency": "CAD",
+      "allColourNames": [
+        "Black",
+        "Black / Charcoal",
+        "Black / White",
+        "Charcoal/Black",
+        "Heather Grey / Black",
+        "Heather Grey/White",
+        "Loden"
+      ],
+      "puffSupportedOption": {
+        "id": "embroidery_type",
+        "value": "3d",
+        "surcharge": "1.95"
+      },
+      "relevantProductFiles": [
+        {
+          "id": "default",
+          "type": "embroidery_front",
+          "title": "Front",
+          "additional_price": null,
+          "options": [
+            {
+              "id": "full_color",
+              "type": "bool",
+              "title": "Unlimited color",
+              "additional_price": 5.25
+            }
+          ]
+        },
+        {
+          "id": "embroidery_front_large",
+          "type": "embroidery_front_large",
+          "title": "Front",
+          "additional_price": "3.95",
+          "options": [
+            {
+              "id": "full_color",
+              "type": "bool",
+              "title": "Unlimited color",
+              "additional_price": 5.25
+            }
+          ]
+        },
+        {
+          "id": "preview",
+          "type": "mockup",
+          "title": "Mockup",
+          "additional_price": null,
+          "options": []
+        }
+      ],
+      "threadOptionIds": [
+        "thread_colors_3d",
+        "thread_colors_3d_front_large"
+      ],
+      "productEvidenceSha256": "33ecaf85139ff49051b13dce00a1e66ad9bbf9a93362f7624235f71490edd638",
+      "fieldEvidenceSha256": "dbef2661005e5cbb756a8a4d42dc433e1f475acebd0fcdf61968eb2180ec5ff3",
+      "selectedVariants": [
+        {
+          "catalogueVariantId": 11417,
+          "supplierColour": "Black",
+          "size": "One size",
+          "supplierSwatch": "#101010",
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/422/11417_1587535533.jpg",
+          "catalogueBaseCAD": "26.47",
+          "basePlusPuffCAD": "28.42",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "CA",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front_large",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            }
+          ]
+        },
+        {
+          "catalogueVariantId": 16713,
+          "supplierColour": "Charcoal/Black",
+          "size": "One size",
+          "supplierSwatch": "#616161",
+          "supplierSecondarySwatch": "#000000",
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/422/16713_1680001492.jpg",
+          "catalogueBaseCAD": "26.47",
+          "basePlusPuffCAD": "28.42",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "CA",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front_large",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            }
+          ]
+        },
+        {
+          "catalogueVariantId": 11418,
+          "supplierColour": "Loden",
+          "size": "One size",
+          "supplierSwatch": "#8e845e",
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/422/11418_1587535534.jpg",
+          "catalogueBaseCAD": "25.95",
+          "basePlusPuffCAD": "27.90",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front_large",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalogueProductId": 596,
+      "brand": "Flexfit",
+      "model": "6511",
+      "title": "Closed-Back Trucker Cap | Flexfit 6511",
+      "officialPage": "https://api.printful.com/products/596",
+      "productApiUrl": "https://api.printful.com/products/596",
+      "fieldsApiUrl": "https://api.printful.com/mockup-generator/printfiles/596?technique=EMBROIDERY",
+      "description": "Be it the iconic Y2K fashion era or the everchanging 2020s—a classic trucker cap always seems to find a place in the fashion world. This mesh back trucker cap has that trendy yet timeless style and a mesh back that’ll ensure maximum comfort and breathability. Wear it to complete loungewear, streetwear, or casual fits, or have it as your go-to beach hat.\n\n• 55% polyester, 43% cotton, 2% spandex\n• Structured, 6-panel, mid-profile\n• Reinforced front\n• Curved peak\n• Permacurv® visor with 8 rows of visible stitching\n• Silver under visor\n• 2 embroidered eyelets\n• Mesh back\n• Elastic band\n• Blank product sourced from Bangladesh",
+      "currency": "CAD",
+      "allColourNames": [
+        "Black",
+        "Black/White",
+        "Caramel",
+        "Charcoal",
+        "Navy"
+      ],
+      "puffSupportedOption": {
+        "id": "embroidery_type",
+        "value": "3d",
+        "surcharge": "1.95"
+      },
+      "relevantProductFiles": [
+        {
+          "id": "default",
+          "type": "embroidery_front",
+          "title": "Front",
+          "additional_price": null,
+          "options": [
+            {
+              "id": "full_color",
+              "type": "bool",
+              "title": "Unlimited color",
+              "additional_price": 5.25
+            }
+          ]
+        },
+        {
+          "id": "embroidery_front_large",
+          "type": "embroidery_front_large",
+          "title": "Front",
+          "additional_price": "3.95",
+          "options": [
+            {
+              "id": "full_color",
+              "type": "bool",
+              "title": "Unlimited color",
+              "additional_price": 5.25
+            }
+          ]
+        },
+        {
+          "id": "front_dtf_hat",
+          "type": "front_dtf_hat",
+          "title": "Front print",
+          "additional_price": "4.25",
+          "options": []
+        },
+        {
+          "id": "preview",
+          "type": "mockup",
+          "title": "Mockup",
+          "additional_price": null,
+          "options": []
+        }
+      ],
+      "threadOptionIds": [
+        "thread_colors_3d",
+        "thread_colors_3d_front_large"
+      ],
+      "productEvidenceSha256": "8050cd81cc7ebc6b6b775902ea3fdba8bee663da7d612263c20dd690b6ca4845",
+      "fieldEvidenceSha256": "ef7110d9e8b89f446eaff2f31854f67c0f16449bc3df4c16fe1524318670219d",
+      "selectedVariants": [
+        {
+          "catalogueVariantId": 15406,
+          "supplierColour": "Charcoal",
+          "size": "One size",
+          "supplierSwatch": "#6b6b6b",
+          "supplierSecondarySwatch": null,
+          "publicColourImageUrl": "https://files.cdn.printful.com/products/596/15406_1656307789.jpg",
+          "catalogueBaseCAD": "25.29",
+          "basePlusPuffCAD": "27.24",
+          "inStock": true,
+          "availability": [
+            {
+              "region": "US",
+              "status": "in_stock"
+            },
+            {
+              "region": "CA",
+              "status": "in_stock"
+            }
+          ],
+          "fields": [
+            {
+              "role": "embroidery_front_large",
+              "printfileId": 522,
+              "widthPx": 1770,
+              "heightPx": 600,
+              "dpi": 300,
+              "widthMm": 149.86,
+              "heightMm": 50.8
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "duplicateCheck": {
+    "apiUrl": "https://api.printful.com/sync/products?limit=100&offset=0",
+    "totalProducts": 31,
+    "paginationComplete": true,
+    "caseInsensitiveNameContains": "reason",
+    "matches": [],
+    "limit": "Covers Printful-imported products; not proof against a Shopify-only listing not yet imported.",
+    "sha256": "edc6e1d251d036ea0ee787533d0a4e15ebef6d46ff9bd6b41d93d7266fc1933c"
+  },
+  "cautions": [
+    "6606 does not offer Ivory, Stone or Washed Black. Charcoal is not a washed finish.",
+    "CCST0 is unstructured and most colours have contrasting Tan mesh; Bay/Tan is not Evergreen.",
+    "Current 6606 technique-specific fields map to embroidery_front_large, with thread_colors_3d_front_large. General product.files still contains default front; use actual accepted production mapping and verify configured charge.",
+    "Catalogue base plus puff excludes additional placement, digitization, shipping, tax and any other configured charges. Product 252 lists embroidery_front_large additional_price CAD3.95.",
+    "3D puff option exposure does not approve artwork geometry or replace digitization. Do not use legacy both option to override current rule against mixing flat and puff in one placement.",
+    "The three chosen public colour images were verified by unauthenticated HEAD, HTTP200 image/jpeg. No image bytes downloaded."
+  ],
+  "chosenMapping": [
+    {
+      "shopifyOptionName": "Colour",
+      "proposedShopifyOptionValue": "Charcoal",
+      "supplierColour": "Charcoal",
+      "catalogueProductId": 252,
+      "catalogueVariantId": 20390,
+      "blank": "Yupoong 6606",
+      "size": "One size",
+      "fit": "structured",
+      "catalogueBaseCAD": "19.25",
+      "puffSurchargeCAD": "1.95",
+      "basePlusPuffCAD": "21.20",
+      "availability": [
+        {
+          "region": "US",
+          "status": "in_stock"
+        }
+      ],
+      "publicColourImageUrl": "https://files.cdn.printful.com/products/252/20390_1725007489.jpg",
+      "publicImageVerification": {
+        "method": "HEAD",
+        "status": 200,
+        "finalUrl": "https://files.cdn.printful.com/products/252/20390_1725007489.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "56189",
+        "checkedAtUTC": "2026-10-29T22:24:08.132363+00:00",
+        "authenticated": false,
+        "imageBytesDownloaded": false
+      },
+      "technique": "EMBROIDERY",
+      "placement": "embroidery_front_large",
+      "printfileId": 522,
+      "fieldWidthMm": 149.86,
+      "fieldHeightMm": 50.8,
+      "embroideryTypeOption": {
+        "id": "embroidery_type",
+        "value": "3d"
+      },
+      "threadColourOptionId": "thread_colors_3d_front_large",
+      "frontPlacementAdditionalPriceCAD": "3.95",
+      "artworkAndThreadSelection": "Pending final production artwork mapping and digitization; do not infer from garment colour."
+    },
+    {
+      "shopifyOptionName": "Colour",
+      "proposedShopifyOptionValue": "Ivory/Ivory",
+      "supplierColour": "Ivory/Ivory",
+      "catalogueProductId": 1678,
+      "catalogueVariantId": 52941,
+      "blank": "Comfort Colors CCST0",
+      "size": "One size",
+      "fit": "unstructured",
+      "catalogueBaseCAD": "22.75",
+      "puffSurchargeCAD": "1.95",
+      "basePlusPuffCAD": "24.70",
+      "availability": [
+        {
+          "region": "US",
+          "status": "in_stock"
+        },
+        {
+          "region": "EU",
+          "status": "in_stock"
+        },
+        {
+          "region": "EU_LV",
+          "status": "in_stock"
+        }
+      ],
+      "publicColourImageUrl": "https://files.cdn.printful.com/products/1678/52941_1790230933.jpg",
+      "publicImageVerification": {
+        "method": "HEAD",
+        "status": 200,
+        "finalUrl": "https://files.cdn.printful.com/products/1678/52941_1790230933.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "85886",
+        "checkedAtUTC": "2026-10-29T22:24:08.100964+00:00",
+        "authenticated": false,
+        "imageBytesDownloaded": false
+      },
+      "technique": "EMBROIDERY",
+      "placement": "embroidery_front",
+      "printfileId": 522,
+      "fieldWidthMm": 149.86,
+      "fieldHeightMm": 50.8,
+      "embroideryTypeOption": {
+        "id": "embroidery_type",
+        "value": "3d"
+      },
+      "threadColourOptionId": "thread_colors_3d",
+      "frontPlacementAdditionalPriceCAD": null,
+      "artworkAndThreadSelection": "Pending final production artwork mapping and digitization; do not infer from garment colour."
+    },
+    {
+      "shopifyOptionName": "Colour",
+      "proposedShopifyOptionValue": "Evergreen",
+      "supplierColour": "Evergreen",
+      "catalogueProductId": 252,
+      "catalogueVariantId": 20393,
+      "blank": "Yupoong 6606",
+      "size": "One size",
+      "fit": "structured",
+      "catalogueBaseCAD": "19.25",
+      "puffSurchargeCAD": "1.95",
+      "basePlusPuffCAD": "21.20",
+      "availability": [
+        {
+          "region": "US",
+          "status": "in_stock"
+        },
+        {
+          "region": "EU",
+          "status": "in_stock"
+        },
+        {
+          "region": "EU_LV",
+          "status": "in_stock"
+        }
+      ],
+      "publicColourImageUrl": "https://files.cdn.printful.com/products/252/20393_1725007500.jpg",
+      "publicImageVerification": {
+        "method": "HEAD",
+        "status": 200,
+        "finalUrl": "https://files.cdn.printful.com/products/252/20393_1725007500.jpg",
+        "contentType": "image/jpeg",
+        "contentLength": "63304",
+        "checkedAtUTC": "2026-10-29T22:24:08.208111+00:00",
+        "authenticated": false,
+        "imageBytesDownloaded": false
+      },
+      "technique": "EMBROIDERY",
+      "placement": "embroidery_front_large",
+      "printfileId": 522,
+      "fieldWidthMm": 149.86,
+      "fieldHeightMm": 50.8,
+      "embroideryTypeOption": {
+        "id": "embroidery_type",
+        "value": "3d"
+      },
+      "threadColourOptionId": "thread_colors_3d_front_large",
+      "frontPlacementAdditionalPriceCAD": "3.95",
+      "artworkAndThreadSelection": "Pending final production artwork mapping and digitization; do not infer from garment colour."
+    }
+  ]
+}

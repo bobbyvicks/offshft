@@ -1,0 +1,392 @@
+{
+  "status": "Independent geometric review; not supplier acceptance",
+  "measurementsSha256": "87027e738e986e5e0fb8e4d3d400d6cbed01c7734057e85afc62c60d782c320e",
+  "artworkMm": [
+    117.0501,
+    47.6944
+  ],
+  "fieldFits": true,
+  "glyphs": [
+    {
+      "id": "glyph-1",
+      "char": "F",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "expectedCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.5966,
+        "upperBoundDiameterMm": 7.6166,
+        "centreMm": [
+          3.8048,
+          11.2324
+        ]
+      },
+      "counterMinimumCalipersMm": [],
+      "counterInscribedDiscs": []
+    },
+    {
+      "id": "glyph-2",
+      "char": "O",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "expectedCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 6.2413,
+        "upperBoundDiameterMm": 6.2613,
+        "centreMm": [
+          29.3026,
+          4.788
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        5.957
+      ],
+      "counterInscribedDiscs": [
+        {
+          "foundDiameterMm": 5.9454,
+          "upperBoundDiameterMm": 5.9654,
+          "centreMm": [
+            24.9793,
+            10.5637
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glyph-3",
+      "char": "R",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "expectedCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.4087,
+        "upperBoundDiameterMm": 7.4287,
+        "centreMm": [
+          39.6421,
+          12.0503
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        3.0127
+      ],
+      "counterInscribedDiscs": [
+        {
+          "foundDiameterMm": 3.0127,
+          "upperBoundDiameterMm": 3.0327,
+          "centreMm": [
+            43.2866,
+            7.643
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glyph-4",
+      "char": "A",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "expectedCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 9.3219,
+        "upperBoundDiameterMm": 9.3419,
+        "centreMm": [
+          66.0997,
+          5.2537
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        2.1997
+      ],
+      "counterInscribedDiscs": [
+        {
+          "foundDiameterMm": 2.1889,
+          "upperBoundDiameterMm": 2.2089,
+          "centreMm": [
+            66.0079,
+            11.1203
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glyph-5",
+      "char": "R",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "expectedCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.4087,
+        "upperBoundDiameterMm": 7.4287,
+        "centreMm": [
+          3.7067,
+          37.7975
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        3.0127
+      ],
+      "counterInscribedDiscs": [
+        {
+          "foundDiameterMm": 3.0127,
+          "upperBoundDiameterMm": 3.0327,
+          "centreMm": [
+            7.3512,
+            33.3902
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glyph-6",
+      "char": "E",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "expectedCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 7.5396,
+        "upperBoundDiameterMm": 7.5596,
+        "centreMm": [
+          21.7084,
+          36.5984
+        ]
+      },
+      "counterMinimumCalipersMm": [],
+      "counterInscribedDiscs": []
+    },
+    {
+      "id": "glyph-7",
+      "char": "A",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "expectedCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 9.3219,
+        "upperBoundDiameterMm": 9.3419,
+        "centreMm": [
+          44.3153,
+          31.0009
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        2.1997
+      ],
+      "counterInscribedDiscs": [
+        {
+          "foundDiameterMm": 2.1889,
+          "upperBoundDiameterMm": 2.2089,
+          "centreMm": [
+            44.2235,
+            36.8675
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glyph-8",
+      "char": "S",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "expectedCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 6.5543,
+        "upperBoundDiameterMm": 6.5743,
+        "centreMm": [
+          67.1747,
+          38.2538
+        ]
+      },
+      "counterMinimumCalipersMm": [],
+      "counterInscribedDiscs": []
+    },
+    {
+      "id": "glyph-9",
+      "char": "O",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "expectedCounters": 1,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 6.2413,
+        "upperBoundDiameterMm": 6.2613,
+        "centreMm": [
+          86.5049,
+          30.5352
+        ]
+      },
+      "counterMinimumCalipersMm": [
+        5.957
+      ],
+      "counterInscribedDiscs": [
+        {
+          "foundDiameterMm": 5.9454,
+          "upperBoundDiameterMm": 5.9654,
+          "centreMm": [
+            82.17,
+            36.3341
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glyph-10",
+      "char": "N",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "expectedCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 9.5782,
+        "upperBoundDiameterMm": 9.5982,
+        "centreMm": [
+          104.4589,
+          38.871
+        ]
+      },
+      "counterMinimumCalipersMm": [],
+      "counterInscribedDiscs": []
+    },
+    {
+      "id": "glyph-11",
+      "char": ".",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "expectedCounters": 0,
+      "maxInscribedDisc": {
+        "foundDiameterMm": 5.9998,
+        "upperBoundDiameterMm": 6.0198,
+        "centreMm": [
+          114.0501,
+          44.6944
+        ]
+      },
+      "counterMinimumCalipersMm": [],
+      "counterInscribedDiscs": []
+    }
+  ],
+  "svgChecks": [
+    {
+      "file": "for-a-reason-bone-sun.svg",
+      "sha256": "7652a297b8100c4a25d1567068ae520c11c6e482946c15cb03a5ac322b262da4",
+      "matchesMeasurements": true
+    },
+    {
+      "file": "for-a-reason-ink-rust.svg",
+      "sha256": "799b662d5d3c8c6e2919f7cd7cc39d969d71c70b0404136172eaacf2a7662e59",
+      "matchesMeasurements": true
+    }
+  ],
+  "glyphGaps": [
+    {
+      "from": "glyph-1",
+      "to": "glyph-2",
+      "differentRows": false,
+      "mm": 2.6403
+    },
+    {
+      "from": "glyph-1",
+      "to": "glyph-5",
+      "differentRows": true,
+      "mm": 4.4472
+    },
+    {
+      "from": "glyph-2",
+      "to": "glyph-3",
+      "differentRows": false,
+      "mm": 1.8
+    },
+    {
+      "from": "glyph-2",
+      "to": "glyph-6",
+      "differentRows": true,
+      "mm": 4.1236
+    },
+    {
+      "from": "glyph-3",
+      "to": "glyph-4",
+      "differentRows": false,
+      "mm": 4.6181
+    },
+    {
+      "from": "glyph-3",
+      "to": "glyph-7",
+      "differentRows": true,
+      "mm": 4.8184
+    },
+    {
+      "from": "glyph-4",
+      "to": "glyph-8",
+      "differentRows": true,
+      "mm": 4.368
+    },
+    {
+      "from": "glyph-5",
+      "to": "glyph-6",
+      "differentRows": false,
+      "mm": 1.8
+    },
+    {
+      "from": "glyph-6",
+      "to": "glyph-7",
+      "differentRows": false,
+      "mm": 1.8001
+    },
+    {
+      "from": "glyph-7",
+      "to": "glyph-8",
+      "differentRows": false,
+      "mm": 2.1614
+    },
+    {
+      "from": "glyph-8",
+      "to": "glyph-9",
+      "differentRows": false,
+      "mm": 2.0154
+    },
+    {
+      "from": "glyph-9",
+      "to": "glyph-10",
+      "differentRows": false,
+      "mm": 1.8
+    },
+    {
+      "from": "glyph-10",
+      "to": "glyph-11",
+      "differentRows": false,
+      "mm": 1.8
+    }
+  ],
+  "minimumGlyphGapMm": 1.8,
+  "minimumDifferentRowGapMm": 4.1236,
+  "maximumInscribedDiscUpperBoundMm": 9.5982,
+  "allTopologyExpected": true,
+  "allClosedCounterCalipersAbove1_27mm": true,
+  "allClosedCountersAdmit1_27mmDisc": true,
+  "maximumDiscBelow12_5mm": true,
+  "sourceFontUnchanged": true,
+  "referenceUnchanged": true,
+  "limitations": [
+    "Rolling-disc construction certifies a connected structural clearance route; arbitrary chords near rounded tips are smaller.",
+    "Counter calipers and inscribed discs describe usable negative spaces, not infinitesimal tapered ends.",
+    "Supplier digitization and actual stitching are separate from polygon verification."
+  ]
+}

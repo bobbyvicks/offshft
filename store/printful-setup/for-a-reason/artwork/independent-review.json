@@ -1,0 +1,65 @@
+{
+  "status": "Current production vector passes the independent geometric checks performed; no supplier acceptance claimed",
+  "measurementsSha256": "8698267b672d0a38646313aedfee992c863e67ed944f6cc2ef3ab7c8e1c87502",
+  "files": [
+    {
+      "file": "for-a-reason-bone-sun.svg",
+      "sha256": "1f72b612f0013b58180f2df73699429270d980197bc4308e34c1dd665650cadb"
+    },
+    {
+      "file": "for-a-reason-bone-sun.png",
+      "sha256": "095bd86152e5691be1d5a6c558a2fe2b1e11bfe2ce421d03d1598661be76304b"
+    },
+    {
+      "file": "for-a-reason-ink-rust.svg",
+      "sha256": "85dd99aacd4efc44bba152e2bbc424d43f98d1eee1ed5f11fd102d66b1fa055c"
+    },
+    {
+      "file": "for-a-reason-ink-rust.png",
+      "sha256": "c9387ce60e8a98b85b56c6bf20a388a030fbe3eca30eb3b2d129fd7d850a226a"
+    }
+  ],
+  "geometryReport": "independent-geometry-review-8698267b672d.json",
+  "openingReport": "independent-opening-review-8698267b672d.json",
+  "text": [
+    "FOR A",
+    "REASON."
+  ],
+  "physicalMm": [
+    117.0501,
+    47.6944
+  ],
+  "bothBlanksFit149_86x50_8mm": true,
+  "rasterFormat": {
+    "both": [
+      2765,
+      1127
+    ],
+    "dpi": 600,
+    "channels": 4,
+    "space": "sRGB",
+    "alphaRange": [
+      0,
+      255
+    ]
+  },
+  "visualReview": {
+    "informedReading": true,
+    "wordingLineBreakAlignmentAndAccentPeriodCorrect": true,
+    "assessment": "Recognizably faithful compact, heavy rounded sans treatment. The outlined vector is not an exact trace of the generated photo: As use circular2.2mm counters and R bowls have flatter interiors. These are visible technical adaptations; approved wording, two rows, left alignment and palette roles remain. No additional blocking spelling or layout defect identified.",
+    "reference": "approved-mockup.png",
+    "proofs": [
+      "comparison-proof.png",
+      "colourways-proof.png"
+    ]
+  },
+  "sources": [
+    "https://help.printful.com/hc/en-us/articles/50263211098769-What-is-3D-puff-embroidery-and-how-does-it-work",
+    "https://help.printful.com/hc/en-us/articles/50263985175953-How-should-I-prepare-my-design-for-embroidery"
+  ],
+  "limitations": [
+    "Connected rolling-disc route is a geometric stroke construction; it is not a claim every rounded-tip chord exceeds5.08mm.",
+    "Opening values are conservative selected-probe corridor clearances, not universal infinitesimal boundary widths.",
+    "Supplier digitization, thread choice, physical placement and actual stitched result are separate."
+  ]
+}

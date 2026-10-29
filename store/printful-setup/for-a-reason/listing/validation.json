@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "newProducts": 1,
+  "variants": 3,
+  "colours": [
+    "Charcoal",
+    "Ivory",
+    "Evergreen"
+  ],
+  "optionOrder": [
+    "Size",
+    "Colour"
+  ],
+  "priceCad": "34.99",
+  "trackedQuantity": 0,
+  "overselling": "deny",
+  "taxable": true,
+  "csvStatus": "NOT IMPORT READY: media URLs pending",
+  "puffClaimInInitialCsv": false,
+  "existingSourceExportModified": false
+}

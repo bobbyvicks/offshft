@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "status": "Draft package; image placeholders must be replaced before import.",
+  "title": "For a Reason. Hat",
+  "handle": "for-a-reason-hat",
+  "vendor": "OFF SHFT",
+  "type": "Hat",
+  "tags": [
+    "off-shft",
+    "for-a-reason",
+    "hat",
+    "text-hat"
+  ],
+  "currency": "CAD",
+  "price": "34.99",
+  "publication": {
+    "status": "active",
+    "publishedOnOnlineStore": true,
+    "otherChannels": "Not selected by this CSV; verify importer does not publish to all channels."
+  },
+  "options": [
+    {
+      "name": "Size",
+      "values": [
+        "One size"
+      ]
+    },
+    {
+      "name": "Colour",
+      "values": [
+        "Charcoal",
+        "Ivory",
+        "Evergreen"
+      ]
+    }
+  ],
+  "descriptionHtmlInitial": "<p>For whatever makes it worth it.</p><p>FOR A REASON. Made for the hours that are yours.</p><p>Made to order and shipped to you.</p><ul><li>Front: FOR A REASON. lettering</li><li>Charcoal and Evergreen: Yupoong 6606 structured six-panel trucker, with a firm front, mesh back and curved visor</li><li>Ivory: Comfort Colors CCST0 unstructured six-panel trucker, with a softer crown, soft mesh back and curved bill</li><li>Ivory front: 100% cotton pigment-dyed twill with a heavy brushed finish</li><li>One size, with an adjustable plastic snap closure</li></ul><p>Product images are mockups. The crown shape and finish vary by colour as described above.</p>",
+  "descriptionHtmlAfterVerifiedPuff": "<p>For whatever makes it worth it.</p><p>FOR A REASON. Made for the hours that are yours.</p><p>Made to order and shipped to you.</p><ul><li>Front: FOR A REASON. in raised 3D puff embroidery</li><li>Charcoal and Evergreen: Yupoong 6606 structured six-panel trucker, with a firm front, mesh back and curved visor</li><li>Ivory: Comfort Colors CCST0 unstructured six-panel trucker, with a softer crown, soft mesh back and curved bill</li><li>Ivory front: 100% cotton pigment-dyed twill with a heavy brushed finish</li><li>One size, with an adjustable plastic snap closure</li></ul><p>Product images are mockups. The crown shape and finish vary by colour as described above.</p>",
+  "puffCopyGate": "Only apply the after-puff description and SEO description after all three saved supplier mappings are verified as 3D puff with the approved artwork.",
+  "seoTitle": "For a Reason. Hat | OFF SHFT",
+  "seoDescriptionInitial": "FOR A REASON. on an adjustable trucker hat in Charcoal, Ivory or Evergreen. A softer unstructured crown in Ivory. Made to order. OFF SHFT.",
+  "seoDescriptionAfterVerifiedPuff": "FOR A REASON. in raised 3D puff embroidery on an adjustable trucker hat. Charcoal, Ivory or Evergreen. Made to order. OFF SHFT.",
+  "variants": [
+    {
+      "size": "One size",
+      "colour": "Charcoal",
+      "price": "34.99",
+      "catalogueProductId": 252,
+      "blank": "Yupoong 6606",
+      "inventoryTracker": "shopify",
+      "initialInventoryQuantity": 0,
+      "inventoryPolicy": "deny",
+      "initialFulfillmentService": "manual",
+      "requiresShipping": true,
+      "taxable": true,
+      "supplierVariantId": null,
+      "inventoryLocationId": null,
+      "media": {
+        "productImageUrl": "REPLACE_WITH_APPROVED_PUBLIC_CHARCOAL_MOCKUP_URL",
+        "variantImageUrl": "REPLACE_WITH_APPROVED_PUBLIC_CHARCOAL_MOCKUP_URL",
+        "altText": "Mockup of For a Reason. Hat in Charcoal.",
+        "imagePosition": 1
+      }
+    },
+    {
+      "size": "One size",
+      "colour": "Ivory",
+      "price": "34.99",
+      "catalogueProductId": 1678,
+      "blank": "Comfort Colors CCST0",
+      "inventoryTracker": "shopify",
+      "initialInventoryQuantity": 0,
+      "inventoryPolicy": "deny",
+      "initialFulfillmentService": "manual",
+      "requiresShipping": true,
+      "taxable": true,
+      "supplierVariantId": null,
+      "inventoryLocationId": null,
+      "media": {
+        "productImageUrl": "REPLACE_WITH_APPROVED_PUBLIC_IVORY_MOCKUP_URL",
+        "variantImageUrl": "REPLACE_WITH_APPROVED_PUBLIC_IVORY_MOCKUP_URL",
+        "altText": "Mockup of For a Reason. Hat in Ivory.",
+        "imagePosition": 2
+      }
+    },
+    {
+      "size": "One size",
+      "colour": "Evergreen",
+      "price": "34.99",
+      "catalogueProductId": 252,
+      "blank": "Yupoong 6606",
+      "inventoryTracker": "shopify",
+      "initialInventoryQuantity": 0,
+      "inventoryPolicy": "deny",
+      "initialFulfillmentService": "manual",
+      "requiresShipping": true,
+      "taxable": true,
+      "supplierVariantId": null,
+      "inventoryLocationId": null,
+      "media": {
+        "productImageUrl": "REPLACE_WITH_APPROVED_PUBLIC_EVERGREEN_MOCKUP_URL",
+        "variantImageUrl": "REPLACE_WITH_APPROVED_PUBLIC_EVERGREEN_MOCKUP_URL",
+        "altText": "Mockup of For a Reason. Hat in Evergreen.",
+        "imagePosition": 3
+      }
+    }
+  ],
+  "fulfillmentCaveat": "manual is the documented new-import placeholder, not a Printful location assignment. Verify supplier variant, Printful location and inventory routing after sync. Product CSV quantity is single-location only.",
+  "sources": [
+    {
+      "path": "store/printful-setup/private/shopify-31-before-extracted.csv",
+      "sha256": "adb01269d0974c24f2a586ce361c283f9330c6b85df5a457c8a5e0f09c04d1a0",
+      "role": "Existing cap option order, price and description structure; private source remains ignored."
+    },
+    {
+      "path": "store/printful-setup/private/catalogue-all-products.json",
+      "sha256": "f27e6efbba0b673be2330ba86bf42ed4d06845d63d0fc1321cec31964c338c4f",
+      "role": "Official read-only catalogue snapshot: exact CCST0 and6606 construction/fabric."
+    },
+    {
+      "url": "https://help.shopify.com/en/manual/products/import-export/using-csv",
+      "checked": "2026-10-29",
+      "role": "Current CSV headers, defaults, image columns and quantity/location limitations."
+    }
+  ],
+  "unresolvedBeforeImport": [
+    "Replace all three image placeholders with approved working public image URLs.",
+    "Verify this handle remains absent in the live store and keep overwrite disabled.",
+    "Review import preview: exactly one new product, three variants and no existing updates."
+  ],
+  "unresolvedBeforeOrders": [
+    "Verify all three supplier variant IDs, colour/size, files, physical placement and 3D puff technique.",
+    "Verify actual Printful inventory location/routing and availability; never replace stock with invented quantities.",
+    "Apply the gated puff description/SEO only after mapping verification.",
+    "Complete root operator billing/shipping/checkout readiness review."
+  ]
+}
