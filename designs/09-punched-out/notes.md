@@ -13,3 +13,8 @@ Status: drafted (style v2: minimal)
 ## Clearance check
 
 Replaces "CLOCKED OUT", which is a filed US trademark for hats.
+
+Knock-out search, 29 Oct 2026 (search results only; the trademark databases are blocked from these sessions): `trademark-search.md`.
+- No US or Canadian filing for PUNCHED OUT, PUNCHEDOUT, PUNCHED-OUT or PUNCHIN' OUT turned up, in any class.
+- Closest clothing records, both US, current status unknown: POWER PUNCHOUT (boxing-glove design, Reg. 5079893, class 25 incl. caps, hats, hoodies, T-shirts, registered 2016) and PUNCHED (duck design, Serial 98254855, class 25, filed 2023).
+- [CONFIRM: the owner checks https://tmsearch.uspto.gov/ (PUNCHED OUT, PUNCH OUT, PUNCHOUT, PUNCHED), the two statuses at https://tsdr.uspto.gov/ (86818395, 98254855) and CIPO (https://ised-isde.canada.ca/cipo/trademark-search/srch). Not legal advice.]
