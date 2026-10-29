@@ -42,7 +42,8 @@ Facts so far: store/research/comfort-colors.md, the cap and AS Colour hoodie che
 
 ## In Shopify (29 Oct 2026)
 
-All 17 listings are drafts: not on the Online Store and not for sale. Each design on each kind of piece is one listing,
+All 17 listings are active and on the Online Store, behind the store password (published 29 Oct 2026, on the owner's
+yes). Nobody can buy yet (see below). Each design on each kind of piece is one listing,
 with the styles as an option, so the 34 pairings fit in 17 listings. Admin: https://admin.shopify.com/store/offshft/products
 
 | Listings | Styles and sizes | Price set |
@@ -56,15 +57,28 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
 
 - Ids: store/apply/out/drop1-ids.json. Each style's photo: store/apply/out/drop1-variant-images.json. Text:
   store/products/drop1.json, claims-checked and applied.
+- Selling to the US (owner's yes, 29 Oct 2026): a US market, gid://shopify/Market/105333752130 (handle us), priced in
+  CAD like Canada. Shipping: Standard C$12, free from C$75, 3-5 days, from Shop location, the same as Canada's Standard.
+  No Express for the US: nothing faster sits behind it at Printful (Canada's C$20 Express has the same problem).
+  Checked after: the store ships to CA and US; a New York hat gets C$12, a hoodie ships free; Canada unchanged; all 17
+  listings show in the US. The plan, its checks and the fallback calls: scratchpad us-market/final-r3 (workflow run).
 - Before anything sells:
-  - The owner decides on publishing to the Online Store, and on adding the US: the store ships to Canada only for now.
+  - The owner picks a Shopify plan (the trial had 1 day left on 29 Oct) and opens the store (the password).
+  - US prices in US dollars need Shopify Payments, and the owner's yes.
+  - Checkout delivery dates count 1 business day to make an order; Printful takes 2-5. The owner changes the
+    processing time in Settings → Shipping and delivery.
   - Each listing has to be linked to its Printful product and embroidery file in Printful, or orders won't reach
     Printful. That needs the colours, which come later.
   - The prices were set before Printful's embroidered prices were confirmed; check them.
-- Photos to redo in one upload, with the final Punched Out. art:
-  - Punched Out.: the old draft art for now.
-  - Rope cap: it has 5 panels, but its drawing has a centre seam and the designs are moved off-centre for it.
+- Photos to redo in one upload (19, rendered in store/previews/out/shop, waiting for the owner's OK on the new art):
+  - Punched Out.: the old draft art for now; the redraw (v3) is rendered.
+  - Rope cap: it has 5 panels, but the uploaded photos show a centre seam and the designs moved off-centre for it.
+  - 5-panel: the front eyelets were added to the drawing after the upload.
   - Sweatpants and tees: their drawings changed after the upload.
+- Not ours: 15 "studio mockup" images were added to the store between 03:54 and 04:06 UTC on 29 Oct, three of them as
+  the first photo of each hoodie listing. Left alone; the owner was asked where they came from.
+- New pieces on the picker page (29 Oct, not in Shopify): golf shirts (store/research/golf-shirts.md) and beanies,
+  bucket hats and quarter-zips (store/research/more-pieces.md). The owner selects there.
 
 ## Everything the owner sent
 

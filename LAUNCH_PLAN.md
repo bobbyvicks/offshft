@@ -23,6 +23,7 @@
 ## Phase 3: Launch (week 3)
 
 - [ ] Owner: publish products after samples pass
+  - Owner decision, 29 Oct 2026: publish the 17 first-drop products (behind the password) and start selling to the US. US market added the same day with Canada's Standard shipping (C$12, free from C$75), no Express, prices in CAD (store/picks.md).
 - [ ] Agents: launch posts (photos of samples, story of the brand), 2 weeks of content drafted ahead
 - [ ] Owner: post them, tell friends, coworkers, fishing/golf/cornhole groups
 - [ ] Optional: a small paid-ads test ($5–10/day for 2 weeks), owner sets the budget

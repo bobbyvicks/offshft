@@ -11,11 +11,12 @@ const fs = require('fs');
 const path = require('path');
 const kit = require('./kit.cjs');
 
-const OUT = path.join(__dirname, 'out', 'shop');
+// Optional arguments, for checking pieces not in the selection yet: node renders.cjs [selection.json] [out dir]
+const OUT = process.argv[3] ? path.resolve(process.argv[3]) : path.join(__dirname, 'out', 'shop');
 const PANEL = '#F4F1EA';
 const A = JSON.parse(fs.readFileSync(path.join(__dirname, 'out', 'items.json'), 'utf8'));
 const DESIGNS = new Map(JSON.parse(fs.readFileSync(path.join(__dirname, 'out', 'designs.json'), 'utf8')).map((d) => [d.id, d]));
-const SELECTION = JSON.parse(fs.readFileSync(path.join(__dirname, 'selection.json'), 'utf8'));
+const SELECTION = JSON.parse(fs.readFileSync(process.argv[2] ? path.resolve(process.argv[2]) : path.join(__dirname, 'selection.json'), 'utf8'));
 
 function svgFor(p, chosen) {
   const d = DESIGNS.get((p.art && p.art[chosen.id]) || chosen.id);
@@ -55,8 +56,8 @@ async function main() {
     const p = A.products.find((x) => x.id === pid);
     if (!p) { missing.push(pid); continue; }
     for (const did of designIds) jobs.push({ out: path.join(OUT, `${pid}--${did}.png`), svg: svgFor(p, DESIGNS.get(did)) });
-    // The back view, once per piece: its mark is the same whatever design is on the front.
-    if (p.back && A.items[p.back.item]) jobs.push({ out: path.join(OUT, `${pid}--back.png`), svg: svgFor({ item: p.back.item, at: p.back.at }, DESIGNS.get(p.back.design)) });
+    // The second view (the back, or the sleeve), once per piece: its mark is the same whatever design is on the front.
+    if (p.back && A.items[p.back.item]) jobs.push({ out: path.join(OUT, `${pid}--${(p.back.label || 'back').toLowerCase()}.png`), svg: svgFor({ item: p.back.item, at: p.back.at }, DESIGNS.get(p.back.design)) });
   }
   await kit.render(jobs);
   console.log(`wrote ${jobs.length} images to ${OUT}${missing.length ? `; no drawing yet for ${missing.join(', ')}` : ''}`);
