@@ -216,18 +216,20 @@ const SPEC = {
   // Hood, built like the hoodie's: crown, widest point, base (behind the shoulder line), the rim (front edge, with the
   // bungee channel) and how its two sides run into the centre front, and the back neck seam seen through the opening.
   hood: { top: -292, wide: { x: 170, y: -118 }, base: { x: 130, y: 46 }, rim: { x: 112, y: -148 }, rimW: 20, meet: 40, backNeck: 18 },
-  hoodCord: { y: 30, length: 125, drift: 3, stopper: 0.56 }, // bungee ends from eyelets in the rim, through cord stoppers
+  // Bungee cord ends (mm): each hangs from an eyelet, its stopper `lock` mm down it. The hood's eyelets sit on the rim,
+  // y below the HPS; the hem's sit on the channel near the side seams, y below the channel seam.
+  hoodCord: { y: 30, length: 125, drift: 3, lock: 70 },
   zip: { length: 250, halfW: 11, teeth: 3, pitch: 5 },     // 1/2 zip from the bottom of the face opening; placket
   shoulder: { x: 256, y: 50 },
   armhole: { underarm: { x: 302, y: 272 }, pit: { x: 262, y: 246 } },
   // Elastic cuff: a narrow binding the sleeve is gathered into, so the sleeve blouses over it more than over a knit rib.
   sleeve: { angle: 18, topW: 122, round: 0.9, length: 620, cuffW: 84, cuffH: 18, blouse: 12, blouseH: 34 },
-  hem: { h: 26, halfW: 292, blouse: 30, cordX: 272, cordLength: 30 }, // bungee channel; cord ends near the side seams
+  hem: { h: 26, halfW: 292, blouse: 30, cord: { x: 264, y: 8.5, length: 31, lock: 12.5 } }, // the bungee channel
   pocket: { top: 450, topHalf: 136, sideX: 214, sideY: 620 },
   badge: { up: 78, w: 24, h: 16 },     // Champion's "C": up the sleeve from the cuff seam, across and along the arm
   chest: { x: 95, y: 190 },            // the OFF SHFT logo, on the wearer's left chest
 };
-const CORD = { w: 5.5, lock: { w: 13, h: 20 }, tip: { w: 7, h: 10 } }; // round bungee cord, its stoppers and end caps
+const CORD = { w: 5.5, lock: { w: 13, h: 18 }, tip: { w: 7, h: 9 } }; // round bungee cord, its stoppers and end caps
 
 module.exports = (kit) => {
   const s = kit.strokes(kit.WEAR_PX);
@@ -336,13 +338,11 @@ module.exports = (kit) => {
     ...reverse([seamSP]),
   ];
   const cuff = rounded([Ki, Ko, Bo, Bi], [0, 0, 3, 3]);
-  // The elastic gathers the sleeve into the cuff: soft folds fanning up from the cuff seam into the blouse.
-  const gathers = [0.18, 0.39, 0.61, 0.82].map((f, i) => {
-    const a = sub(lerp(Ki, Ko, f), mul(ax, 2.5));
-    const lean = (f - 0.5) * 0.5, reach = i === 0 || i === 3 ? 17 : 24;
-    const b = add(a, add(mul(ax, -reach), mul(nx, lean * reach)));
-    const bow = mul(nx, (f < 0.5 ? -1 : 1) * 1.5);
-    return [C(a, add(lerp(a, b, 0.35), bow), add(lerp(a, b, 0.7), bow), b)];
+  // The elastic gathers the sleeve into the cuff: short folds, long and short in turn, fanning up from the cuff seam.
+  const gathers = [1, 2, 3, 4, 5].map((i) => {
+    const f = i / 6, a = sub(lerp(Ki, Ko, f), mul(ax, 2));
+    const reach = i % 2 ? 11 : 17, lean = (f - 0.5) * 0.35;
+    return [L(a, add(a, add(mul(ax, -reach), mul(nx, lean * reach))))];
   });
 
   // ---------- draw, back to front ----------
@@ -364,8 +364,8 @@ module.exports = (kit) => {
   both(stitch, cutAtX(offset(rimOuter, 5), 0));
   both(stitch, offset(neckSeam, 6));
 
-  // Hem: the bungee channel, and the stitching just above it.
-  fill(rounded([V(-bandW, hemSeam), V(bandW, hemSeam), V(bandW - 1, hemBottom), V(-(bandW - 1), hemBottom)], [0, 0, 4, 4]));
+  // Hem: the bungee channel. Its cord ends are drawn with the hood's, last.
+  fill(rounded([V(-bandW, hemSeam), V(bandW, hemSeam), V(bandW - 1, hemBottom), V(-(bandW - 1), hemBottom)], [0, 0, 4, 4]), rib);
 
   // Kangaroo pouch pocket, open at the sides.
   {
@@ -377,6 +377,7 @@ module.exports = (kit) => {
     stitch([L(V(-(p.topHalf - 5), p.top + 6), V(p.topHalf - 5, p.top + 6))]);
     both(stitch, trim(offset([opening, L(Sc, Bc)], 6), 0.03, 0.97));
   }
+  // Hem stitch, just above the channel, across the body (and through the pocket's foot).
   {
     const y = hemSeam - 6, x = xAtY(side, y) - 4;
     stitch([L(V(-x, y), V(x, y))]);
@@ -404,6 +405,7 @@ module.exports = (kit) => {
     fill(f(sleeve));
     fill(f(cuff), rib);
     fine(gathers.map(f));
+    stitch(f([L(add(lerp(Ki, Bi, 0.5), mul(nx, 4)), sub(lerp(Ko, Bo, 0.5), mul(nx, 4)))])); // the elastic's casing
     stitch(f(trim(offset([seamSP], 6), 0.02, 0.9)));
   };
   drawSleeve(false);
@@ -415,28 +417,28 @@ module.exports = (kit) => {
 
   // Bungee cords, last: they hang over everything. Each comes out of an eyelet, runs through a cord stopper and ends
   // in a cap.
-  const cord = (E, length, drift, at) => {
+  const cord = (E, { length, drift = 0, lock: at }) => {
     const centre = [C(E, add(E, V(0, length * 0.35)), add(E, V(drift, length * 0.6)), add(E, V(drift, length)))];
     const a = offset(centre, CORD.w / 2), b = offset(centre, -CORD.w / 2);
     const tube = a.concat([L(a[a.length - 1].d, b[b.length - 1].d)], reverse(b), [L(b[0].a, a[0].a)]);
     const end = add(E, V(drift, length)), tw = CORD.tip.w / 2;
     const tip = rounded([V(end.x - tw, end.y - 3), V(end.x + tw, end.y - 3), V(end.x + tw, end.y + CORD.tip.h - 3), V(end.x - tw, end.y + CORD.tip.h - 3)], [0, 0, 3, 3]);
-    const c = along(centre, [at])[0], lw = CORD.lock.w / 2, lh = CORD.lock.h / 2;
+    const c = along(centre, [at / arc(centre)])[0], lw = CORD.lock.w / 2, lh = CORD.lock.h / 2;
     const lock = rounded([V(c.x - lw, c.y - lh), V(c.x + lw, c.y - lh), V(c.x + lw, c.y + lh), V(c.x - lw, c.y + lh)], [5, 5, 5, 5]);
     return { tube, tip, lock };
   };
   const hc = SPEC.hoodCord;
   const hoodE = V(xAtY(offset(rimOuter, hd.rimW / 2), hc.y), hc.y);
-  const hemE = V(hm.cordX, hemSeam + 8);
-  for (const [E, c] of [[hoodE, cord(hoodE, hc.length, hc.drift, hc.stopper)], [hemE, cord(hemE, hm.cordLength, 0, 0.5)]]) {
+  const hemE = V(hm.cord.x, hemSeam + hm.cord.y);
+  for (const [E, c] of [[hoodE, cord(hoodE, hc)], [hemE, cord(hemE, hm.cord)]]) {
     for (const m of [false, true]) {
       const f = m ? mirror : same;
       fill(f(c.tube));
       fill(f(c.tip), shade);
       fill(f(c.lock), shade);
       const e = m ? V(-E.x, E.y) : E;
-      ring(e, 4.5, rib);
-      ring(e, 2, shade);
+      ring(e, 5.5, rib);
+      ring(e, 2.3, shade);
     }
   }
 
