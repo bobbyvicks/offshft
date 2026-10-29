@@ -59,7 +59,8 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
   store/products/drop1.json, claims-checked and applied.
 - Selling to the US (owner's yes, 29 Oct 2026): a US market, gid://shopify/Market/105333752130 (handle us), priced in
   CAD like Canada. Shipping: Standard C$12, free from C$75, 3-5 days, from Shop location, the same as Canada's Standard.
-  No Express for the US: nothing faster sits behind it at Printful (Canada's C$20 Express has the same problem).
+  No Express for the US: nothing faster sits behind it at Printful. Canada's C$20 Express was dropped too, on the
+  owner's yes (29 Oct), so both countries have Standard only (checked at checkout for Toronto and New York).
   Checked after: the store ships to CA and US; a New York hat gets C$12, a hoodie ships free; Canada unchanged; all 17
   listings show in the US. The plan, its checks and the fallback calls: scratchpad us-market/final-r3 (workflow run).
 - Before anything sells:
