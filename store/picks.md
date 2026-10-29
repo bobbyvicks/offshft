@@ -115,7 +115,9 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
 | Tee | Unisex Garment-Dyed Heavyweight T-Shirt, Comfort Colors 1717 | https://www.printful.com/custom/collections/embroidery/unisex-garment-dyed-heavyweight-shirt-comfort-colors-1717 | Picked 29 Oct 2026 |
 | Pocket tee | Unisex Garment-Dyed Pocket T-Shirt, Comfort Colors 6030 | https://www.printful.com/custom/mens/t-shirts/unisex-garment-dyed-pocket-t-shirt-comfort-colors-6030 | Picked 29 Oct 2026. Whether a chest logo would land on the pocket is being checked |
 
-**Everything embroidered.** The owner wants every product embroidered if Printful allows it (29 Oct 2026). Some of
+**Everything embroidered.** The owner wants every product embroidered if Printful allows it (29 Oct 2026). One exception,
+the owner's call (29 Oct 2026): the back of The Rest Is Ours. hoodie stays printed, because the back can't be
+embroidered; its front logo is embroidered. Some of
 their links had printing selected. The picker's links now open each product with embroidery selected, and whether
 Printful embroiders each Comfort Colors item, and where, is being checked (store/research/comfort-colors.md).
 
