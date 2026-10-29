@@ -15,13 +15,19 @@ const item = (name) => require(`./items/${name}.cjs`)(kit);
 
 // Which drawing each product uses, and its one embroidered mark. 'Left' is the wearer's left.
 const SEAM_SHIFT = 5.2; // 6-panel fronts: move the lockup right so the centre seam falls in the word space (notes.md)
+// The clock on a 6-panel front would have its 12 o'clock hand on the centre seam, so it moves onto the wearer's left
+// panel: half the 40 mm clock's width (19.1 mm) plus 1.5 mm of fabric to the seam.
+const CLOCK_SEAM_SHIFT = 11.1;
+const SIX_PANEL = { logo: SEAM_SHIFT, clock: CLOCK_SEAM_SHIFT };
+// On hat fronts the clock is the 40 mm version (notes.md: the 40 mm symbol); 25 mm is lost on a 190 mm front.
+const HAT_ART = { clock: 'clock-40' };
 // The owner wants Punched Out. bigger and in the middle on the tops: Printful's large-front spot, centred (29 Oct 2026).
 const BIG_PUNCHED_OUT = { 'punched-out': 'largeFront' };
 const PRODUCTS = [
-  { id: 'trucker-6606', item: 'trucker', mark: 'lockup', at: 'front', shift: SEAM_SHIFT },
-  { id: 'five-panel', item: 'five-panel', mark: 'lockup', at: 'front' },
-  { id: 'dad-hat', item: 'dad-hat', mark: 'lockup', at: 'front', shift: SEAM_SHIFT },
-  { id: 'rope-cap', item: 'rope-cap', mark: 'lockup', at: 'front', shift: SEAM_SHIFT },
+  { id: 'trucker-6606', item: 'trucker', mark: 'lockup', at: 'front', shift: SIX_PANEL, art: HAT_ART },
+  { id: 'five-panel', item: 'five-panel', mark: 'lockup', at: 'front', art: HAT_ART },
+  { id: 'dad-hat', item: 'dad-hat', mark: 'lockup', at: 'front', shift: SIX_PANEL, art: HAT_ART },
+  { id: 'rope-cap', item: 'rope-cap', mark: 'lockup', at: 'front', shift: SIX_PANEL, art: HAT_ART },
   { id: 'hoodie-5161', item: 'hoodie-oversized', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
   { id: 'hoodie-1567', item: 'hoodie', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
   { id: 'hoodie-1467', item: 'hoodie', mark: 'lockup', at: 'chest' , designAt: BIG_PUNCHED_OUT },
@@ -36,6 +42,7 @@ const PRODUCTS = [
   { id: 'tee-1717', item: 'tee', mark: 'lockup', at: 'chest' },
   // The 6030 takes no chest embroidery; the logo is too wide for its sleeve, so it goes on the large-centre front spot.
   { id: 'tee-6030', item: 'pocket-tee', mark: 'symbol', at: 'leftSleeve', designAt: { logo: 'centre' } },
+  { id: 'jacket-co200', item: 'anorak', mark: 'lockup', at: 'chest' },
 ];
 
 async function main() {
@@ -47,7 +54,7 @@ async function main() {
     const it = item(p.item);
     const a = it.anchors[p.at];
     if (!a) throw new Error(`${p.item} has no ${p.at} anchor`);
-    jobs.push({ out: path.join(OUT, `${p.id}.png`), svg: kit.compose(it, [{ kind: p.mark, x: a.x + (p.shift || 0), y: a.y, rotate: a.rotate }]) });
+    jobs.push({ out: path.join(OUT, `${p.id}.png`), svg: kit.compose(it, [{ kind: p.mark, x: a.x + ((p.shift && p.shift.logo) || 0), y: a.y, rotate: a.rotate }]) });
   }
   await kit.render(jobs);
   if (!only.length) {

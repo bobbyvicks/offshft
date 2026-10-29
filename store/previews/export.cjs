@@ -33,6 +33,7 @@ const FINAL = (file) => path.join(ROOT, 'designs/mark/final/the-o', file);
 const DESIGNS = [
   { id: 'logo', name: 'OFF SHFT logo', idea: 'The final logo: the clock O at 5:00.', file: FINAL('logo-light.svg') },
   { id: 'clock', name: 'The clock', idea: 'The clock on its own, 25 mm tall.', file: FINAL('symbol-light-25mm.svg') },
+  { id: 'clock-40', name: 'The clock', idea: 'The clock at 40 mm, for hat fronts.', file: FINAL('symbol-light-40mm.svg'), artOnly: true },
   { id: 'punched-out', name: 'Punched Out.', idea: 'Just the line, with a full stop. Being redrawn in the logo font.', file: D('09-punched-out', 'design-bone.svg'), draft: true },
 ];
 
