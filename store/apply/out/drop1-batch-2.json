@@ -1,5 +1,5 @@
 {
- "query": "mutation Drop1Batch2($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!, $p5: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p5: productSet(synchronous: true, input: $p5) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n}",
+ "query": "mutation Drop1Batch2($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!, $p5: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p5: productSet(synchronous: true, input: $p5) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n}",
  "variables": {
   "p0": {
    "title": "OFF SHFT Logo Crewneck",
@@ -54,9 +54,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
      }
     },
     {
@@ -69,9 +66,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
      }
     },
     {
@@ -84,9 +78,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
      }
     },
     {
@@ -99,9 +90,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
      }
     },
     {
@@ -114,9 +102,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
      }
     },
     {
@@ -129,9 +114,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png"
      }
     }
    ],
@@ -139,7 +121,7 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/6357922d-d4d3-4337-820b-a1c31b352275/offshft-crew-1466-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo Crewneck: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo Crewneck: drawing with the OFF SHFT logo at real size"
     }
    ]
   },
@@ -196,9 +178,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
      }
     },
     {
@@ -211,9 +190,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
      }
     },
     {
@@ -226,9 +202,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
      }
     },
     {
@@ -241,9 +214,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
      }
     },
     {
@@ -256,9 +226,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
      }
     },
     {
@@ -271,9 +238,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png"
      }
     }
    ],
@@ -281,7 +245,7 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/ee55fbbf-219e-4df2-b3e6-9cadaee78d27/offshft-crew-1466-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock Crewneck: the clock embroidered, at its real size"
+     "alt": "The Clock Crewneck: drawing with the clock at real size"
     }
    ]
   },
@@ -337,9 +301,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
      }
     },
     {
@@ -352,9 +313,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
      }
     },
     {
@@ -367,9 +325,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
      }
     },
     {
@@ -382,9 +337,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
      }
     },
     {
@@ -397,9 +349,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
      }
     },
     {
@@ -412,9 +361,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png"
      }
     }
    ],
@@ -422,7 +368,7 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/2e63a989-25ec-48ca-a3c3-1e1009249cc8/offshft-crew-1466-punched-out.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of Punched Out. Crewneck: Punched Out. embroidered, at its real size"
+     "alt": "Punched Out. Crewneck: drawing with Punched Out. at real size"
     }
    ]
   },
@@ -479,9 +425,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
      }
     },
     {
@@ -494,9 +437,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
      }
     },
     {
@@ -509,9 +449,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
      }
     },
     {
@@ -524,9 +461,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
      }
     },
     {
@@ -539,9 +473,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
      }
     },
     {
@@ -554,9 +485,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png"
      }
     }
    ],
@@ -564,7 +492,7 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/e255ae49-8be5-467d-999d-aedcc737f09a/offshft-pants-1469-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo Sweatpants: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo Sweatpants: drawing with the OFF SHFT logo at real size"
     }
    ]
   },
@@ -621,9 +549,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
      }
     },
     {
@@ -636,9 +561,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
      }
     },
     {
@@ -651,9 +573,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
      }
     },
     {
@@ -666,9 +585,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
      }
     },
     {
@@ -681,9 +597,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
      }
     },
     {
@@ -696,9 +609,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png"
      }
     }
    ],
@@ -706,7 +616,7 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/724e5cb0-72e6-4dd8-9dc5-d111aaa7ff91/offshft-pants-1469-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock Sweatpants: the clock embroidered, at its real size"
+     "alt": "The Clock Sweatpants: drawing with the clock at real size"
     }
    ]
   },
@@ -762,9 +672,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
      }
     },
     {
@@ -777,9 +684,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
      }
     },
     {
@@ -792,9 +696,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
      }
     },
     {
@@ -807,9 +708,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
      }
     },
     {
@@ -822,9 +720,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
      }
     },
     {
@@ -837,9 +732,6 @@
      "price": "79.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png"
      }
     }
    ],
@@ -847,7 +739,7 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/b2cde0f8-3388-4d9c-8c73-03f9d0db344b/offshft-pants-1469-punched-out.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of Punched Out. Sweatpants: Punched Out. embroidered, at its real size"
+     "alt": "Punched Out. Sweatpants: drawing with Punched Out. at real size"
     }
    ]
   }

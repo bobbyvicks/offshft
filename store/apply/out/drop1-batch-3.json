@@ -1,5 +1,5 @@
 {
- "query": "mutation Drop1Batch3($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n}",
+ "query": "mutation Drop1Batch3($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n}",
  "variables": {
   "p0": {
    "title": "OFF SHFT Logo T-Shirt",
@@ -69,9 +69,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
      }
     },
     {
@@ -88,9 +85,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
      }
     },
     {
@@ -107,9 +101,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
      }
     },
     {
@@ -126,9 +117,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
      }
     },
     {
@@ -145,9 +133,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
      }
     },
     {
@@ -164,9 +149,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png"
      }
     },
     {
@@ -183,9 +165,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png"
      }
     },
     {
@@ -202,9 +181,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png"
      }
     },
     {
@@ -221,9 +197,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png"
      }
     },
     {
@@ -240,9 +213,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png"
      }
     },
     {
@@ -259,9 +229,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png"
      }
     }
    ],
@@ -269,12 +236,12 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/73a85598-c1f2-4ddb-8b72-885fd129a658/offshft-tee-1717-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo T-Shirt, Heavyweight: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo T-Shirt, Heavyweight: drawing with the OFF SHFT logo at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/7ac376f3-ee2c-4d20-aa26-1fb14825b4e9/offshft-tee-6030-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo T-Shirt, Pocket: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo T-Shirt, Pocket: drawing with the OFF SHFT logo at real size"
     }
    ]
   },
@@ -346,9 +313,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
      }
     },
     {
@@ -365,9 +329,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
      }
     },
     {
@@ -384,9 +345,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
      }
     },
     {
@@ -403,9 +361,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
      }
     },
     {
@@ -422,9 +377,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
      }
     },
     {
@@ -441,9 +393,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png"
      }
     },
     {
@@ -460,9 +409,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png"
      }
     },
     {
@@ -479,9 +425,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png"
      }
     },
     {
@@ -498,9 +441,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png"
      }
     },
     {
@@ -517,9 +457,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png"
      }
     },
     {
@@ -536,9 +473,6 @@
      "price": "44.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png"
      }
     }
    ],
@@ -546,12 +480,12 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/bd1cca68-cc30-4773-9454-224daeb081fc/offshft-tee-1717-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock T-Shirt, Heavyweight: the clock embroidered, at its real size"
+     "alt": "The Clock T-Shirt, Heavyweight: drawing with the clock at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fe80c2e9-cf3d-481a-813f-30e02f3aaf44/offshft-tee-6030-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock T-Shirt, Pocket: the clock embroidered, at its real size"
+     "alt": "The Clock T-Shirt, Pocket: drawing with the clock at real size"
     }
    ]
   },
@@ -608,9 +542,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
      }
     },
     {
@@ -623,9 +554,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
      }
     },
     {
@@ -638,9 +566,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
      }
     },
     {
@@ -653,9 +578,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
      }
     },
     {
@@ -668,9 +590,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
      }
     },
     {
@@ -683,9 +602,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png"
      }
     }
    ],
@@ -693,7 +609,7 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fbff4a3f-7e8c-4485-ac36-6cb88fc5a1e4/offshft-jacket-co200-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo Jacket: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo Jacket: drawing with the OFF SHFT logo at real size"
     }
    ]
   },
@@ -750,9 +666,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
      }
     },
     {
@@ -765,9 +678,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
      }
     },
     {
@@ -780,9 +690,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
      }
     },
     {
@@ -795,9 +702,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
      }
     },
     {
@@ -810,9 +714,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
      }
     },
     {
@@ -825,9 +726,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png"
      }
     }
    ],
@@ -835,7 +733,7 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/a1f32b43-18c4-4a3c-a776-937328f0886f/offshft-jacket-co200-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock Jacket: the clock embroidered, at its real size"
+     "alt": "The Clock Jacket: drawing with the clock at real size"
     }
    ]
   },
@@ -891,9 +789,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
      }
     },
     {
@@ -906,9 +801,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
      }
     },
     {
@@ -921,9 +813,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
      }
     },
     {
@@ -936,9 +825,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
      }
     },
     {
@@ -951,9 +837,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
      }
     },
     {
@@ -966,9 +849,6 @@
      "price": "99.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png"
      }
     }
    ],
@@ -976,7 +856,7 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/fad8a0a3-a40e-48de-857c-f1bca854502a/offshft-jacket-co200-punched-out.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of Punched Out. Jacket: Punched Out. embroidered, at its real size"
+     "alt": "Punched Out. Jacket: drawing with Punched Out. at real size"
     }
    ]
   }

@@ -33,13 +33,13 @@ function productInput(c) {
   const piece = PIECES[kind];
   if (!piece) throw new Error(`unknown kind in ${c.key}`);
   const styled = piece.styles.length > 1;
-  const files = [], seen = new Set();
+  const files = [], seen = new Set();   // variant images are linked afterwards, by media id
   const fileFor = (pid, style) => {
     const url = UP[`${pid}--${design}.png`];
     if (!url) return null;
     if (!seen.has(url)) {
       seen.add(url);
-      files.push({ originalSource: url, contentType: 'IMAGE', alt: `Drawing of ${c.title}${style ? `, ${style}` : ''}: ${DESIGN_ALT[design]} embroidered, at its real size` });
+      files.push({ originalSource: url, contentType: 'IMAGE', alt: `${c.title}${style ? `, ${style}` : ''}: drawing with ${DESIGN_ALT[design]} at real size` });
     }
     return { originalSource: url };
   };
@@ -49,13 +49,13 @@ function productInput(c) {
   if (sizes.length) options.push({ name: 'Size', values: SIZES.filter((z) => sizes.includes(z)).map((z) => ({ name: z })) });
   if (!options.length) options.push({ name: 'Title', values: [{ name: 'Default Title' }] });
   for (const [style, pid, zs] of piece.styles) {
-    const file = fileFor(pid, style);
+    fileFor(pid, style);
     for (const size of zs || [null]) {
       const optionValues = [];
       if (styled) optionValues.push({ optionName: 'Style', name: style });
       if (size) optionValues.push({ optionName: 'Size', name: size });
       if (!optionValues.length) optionValues.push({ optionName: 'Title', name: 'Default Title' });
-      variants.push({ optionValues, price: piece.price, inventoryItem: { tracked: false }, ...(file ? { file } : {}) });
+      variants.push({ optionValues, price: piece.price, inventoryItem: { tracked: false } });
     }
   }
   return {
@@ -74,7 +74,7 @@ for (let b = 0; b * SIZE < inputs.length; b++) {
   chunk.forEach((inp, i) => {
     vars[`p${i}`] = inp;
     defs.push(`$p${i}: ProductSetInput!`);
-    fields.push(`p${i}: productSet(synchronous: true, input: $p${i}) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }`);
+    fields.push(`p${i}: productSet(synchronous: true, input: $p${i}) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }`);
   });
   const query = `mutation Drop1Batch${b + 1}(${defs.join(', ')}) {\n  ${fields.join('\n  ')}\n}`;
   fs.writeFileSync(path.join(OUT, `drop1-batch-${b + 1}.json`), JSON.stringify({ query, variables: vars }, null, 1));

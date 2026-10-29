@@ -1,5 +1,5 @@
 {
- "query": "mutation Drop1Batch1($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!, $p5: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n  p5: productSet(synchronous: true, input: $p5) { product { id handle title status variantsCount { count } media(first: 5) { nodes { id } } } userErrors { field message code } }\n}",
+ "query": "mutation Drop1Batch1($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!, $p5: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n  p5: productSet(synchronous: true, input: $p5) { product { id handle status variantsCount { count } mediaCount { count } } userErrors { field message code } }\n}",
  "variables": {
   "p0": {
    "title": "OFF SHFT Logo Hat",
@@ -48,9 +48,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/85a50348-21f6-4ac1-96d7-b583343d0f68/offshft-trucker-6606-logo.png"
      }
     },
     {
@@ -63,9 +60,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/3d400a43-11b6-43aa-9baf-b7f0fccdb53b/offshft-five-panel-logo.png"
      }
     },
     {
@@ -78,9 +72,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/d1421be8-d551-47cf-923e-27b273b4d3ff/offshft-dad-hat-logo.png"
      }
     },
     {
@@ -93,9 +84,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/82bf5204-d6f0-4521-a829-fe6bae2913c1/offshft-rope-cap-logo.png"
      }
     }
    ],
@@ -103,22 +91,22 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/85a50348-21f6-4ac1-96d7-b583343d0f68/offshft-trucker-6606-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo Hat, Retro Trucker: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo Hat, Retro Trucker: drawing with the OFF SHFT logo at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/3d400a43-11b6-43aa-9baf-b7f0fccdb53b/offshft-five-panel-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo Hat, 5-Panel: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo Hat, 5-Panel: drawing with the OFF SHFT logo at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/d1421be8-d551-47cf-923e-27b273b4d3ff/offshft-dad-hat-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo Hat, Dad Hat: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo Hat, Dad Hat: drawing with the OFF SHFT logo at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/82bf5204-d6f0-4521-a829-fe6bae2913c1/offshft-rope-cap-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo Hat, Rope Cap: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo Hat, Rope Cap: drawing with the OFF SHFT logo at real size"
     }
    ]
   },
@@ -169,9 +157,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/0b543a69-7689-467d-9f10-97eec7c611bf/offshft-trucker-6606-clock.png"
      }
     },
     {
@@ -184,9 +169,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/1f9b27dc-4bde-4357-8e83-99a944a23f4b/offshft-five-panel-clock.png"
      }
     },
     {
@@ -199,9 +181,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/f77e4e82-da2a-43e3-abcb-2c4f48dd483d/offshft-dad-hat-clock.png"
      }
     },
     {
@@ -214,9 +193,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/f2d8d674-97a0-4420-bf98-62bfde05e1c3/offshft-rope-cap-clock.png"
      }
     }
    ],
@@ -224,22 +200,22 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/0b543a69-7689-467d-9f10-97eec7c611bf/offshft-trucker-6606-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock Hat, Retro Trucker: the clock embroidered, at its real size"
+     "alt": "The Clock Hat, Retro Trucker: drawing with the clock at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/1f9b27dc-4bde-4357-8e83-99a944a23f4b/offshft-five-panel-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock Hat, 5-Panel: the clock embroidered, at its real size"
+     "alt": "The Clock Hat, 5-Panel: drawing with the clock at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/f77e4e82-da2a-43e3-abcb-2c4f48dd483d/offshft-dad-hat-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock Hat, Dad Hat: the clock embroidered, at its real size"
+     "alt": "The Clock Hat, Dad Hat: drawing with the clock at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/f2d8d674-97a0-4420-bf98-62bfde05e1c3/offshft-rope-cap-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock Hat, Rope Cap: the clock embroidered, at its real size"
+     "alt": "The Clock Hat, Rope Cap: drawing with the clock at real size"
     }
    ]
   },
@@ -290,9 +266,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/d327e76e-56bc-4742-bf5d-81203fe5a931/offshft-trucker-6606-punched-out.png"
      }
     },
     {
@@ -305,9 +278,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/dc5808b2-e72f-4a18-a6fe-d361464735f6/offshft-five-panel-punched-out.png"
      }
     },
     {
@@ -320,9 +290,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/017ca18f-fa0c-4d57-9044-0df9a81ffcd5/offshft-dad-hat-punched-out.png"
      }
     },
     {
@@ -335,9 +302,6 @@
      "price": "34.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/57f61fc9-06b6-4bd3-bf81-1bc1cc90908d/offshft-rope-cap-punched-out.png"
      }
     }
    ],
@@ -345,22 +309,22 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/d327e76e-56bc-4742-bf5d-81203fe5a931/offshft-trucker-6606-punched-out.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of Punched Out. Hat, Retro Trucker: Punched Out. embroidered, at its real size"
+     "alt": "Punched Out. Hat, Retro Trucker: drawing with Punched Out. at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/dc5808b2-e72f-4a18-a6fe-d361464735f6/offshft-five-panel-punched-out.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of Punched Out. Hat, 5-Panel: Punched Out. embroidered, at its real size"
+     "alt": "Punched Out. Hat, 5-Panel: drawing with Punched Out. at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/017ca18f-fa0c-4d57-9044-0df9a81ffcd5/offshft-dad-hat-punched-out.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of Punched Out. Hat, Dad Hat: Punched Out. embroidered, at its real size"
+     "alt": "Punched Out. Hat, Dad Hat: drawing with Punched Out. at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/57f61fc9-06b6-4bd3-bf81-1bc1cc90908d/offshft-rope-cap-punched-out.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of Punched Out. Hat, Rope Cap: Punched Out. embroidered, at its real size"
+     "alt": "Punched Out. Hat, Rope Cap: drawing with Punched Out. at real size"
     }
    ]
   },
@@ -435,9 +399,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
      }
     },
     {
@@ -454,9 +415,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
      }
     },
     {
@@ -473,9 +431,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
      }
     },
     {
@@ -492,9 +447,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
      }
     },
     {
@@ -511,9 +463,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
      }
     },
     {
@@ -530,9 +479,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png"
      }
     },
     {
@@ -549,9 +495,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -568,9 +511,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -587,9 +527,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -606,9 +543,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -625,9 +559,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -644,9 +575,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -663,9 +591,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -682,9 +607,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -701,9 +623,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -720,9 +639,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -739,9 +655,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     },
     {
@@ -758,9 +671,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png"
      }
     }
    ],
@@ -768,12 +678,12 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/8304f08c-b255-4c8f-8755-29b2d643e8f8/offshft-hoodie-5161-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo Hoodie, Oversized: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo Hoodie, Oversized: drawing with the OFF SHFT logo at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24e17ed7-3c24-45ee-8ecf-e4588d17f41c/offshft-hoodie-1567-logo.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of OFF SHFT Logo Hoodie, Garment-Dyed: the OFF SHFT logo embroidered, at its real size"
+     "alt": "OFF SHFT Logo Hoodie, Garment-Dyed: drawing with the OFF SHFT logo at real size"
     }
    ]
   },
@@ -848,9 +758,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
      }
     },
     {
@@ -867,9 +774,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
      }
     },
     {
@@ -886,9 +790,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
      }
     },
     {
@@ -905,9 +806,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
      }
     },
     {
@@ -924,9 +822,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
      }
     },
     {
@@ -943,9 +838,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png"
      }
     },
     {
@@ -962,9 +854,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -981,9 +870,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -1000,9 +886,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -1019,9 +902,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -1038,9 +918,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -1057,9 +934,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -1076,9 +950,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -1095,9 +966,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -1114,9 +982,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -1133,9 +998,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -1152,9 +1014,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     },
     {
@@ -1171,9 +1030,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png"
      }
     }
    ],
@@ -1181,12 +1037,12 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/24af8d66-2a70-44ab-9798-41c8a60681f7/offshft-hoodie-5161-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock Hoodie, Oversized: the clock embroidered, at its real size"
+     "alt": "The Clock Hoodie, Oversized: drawing with the clock at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/630b013e-9ce3-4238-83f3-b719051d9bce/offshft-hoodie-1567-clock.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of The Clock Hoodie, Garment-Dyed: the clock embroidered, at its real size"
+     "alt": "The Clock Hoodie, Garment-Dyed: drawing with the clock at real size"
     }
    ]
   },
@@ -1260,9 +1116,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
      }
     },
     {
@@ -1279,9 +1132,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
      }
     },
     {
@@ -1298,9 +1148,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
      }
     },
     {
@@ -1317,9 +1164,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
      }
     },
     {
@@ -1336,9 +1180,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
      }
     },
     {
@@ -1355,9 +1196,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png"
      }
     },
     {
@@ -1374,9 +1212,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1393,9 +1228,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1412,9 +1244,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1431,9 +1260,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1450,9 +1276,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1469,9 +1292,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1488,9 +1308,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1507,9 +1324,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1526,9 +1340,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1545,9 +1356,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1564,9 +1372,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     },
     {
@@ -1583,9 +1388,6 @@
      "price": "89.99",
      "inventoryItem": {
       "tracked": false
-     },
-     "file": {
-      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png"
      }
     }
    ],
@@ -1593,12 +1395,12 @@
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/56efc039-f5aa-40c6-95f3-94ec26c2fef6/offshft-hoodie-5161-punched-out.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of Punched Out. Hoodie, Oversized: Punched Out. embroidered, at its real size"
+     "alt": "Punched Out. Hoodie, Oversized: drawing with Punched Out. at real size"
     },
     {
      "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/104405631298/files/356213b7-5ed0-415a-9ab1-da160051bf2d/offshft-hoodie-1567-punched-out.png",
      "contentType": "IMAGE",
-     "alt": "Drawing of Punched Out. Hoodie, Garment-Dyed: Punched Out. embroidered, at its real size"
+     "alt": "Punched Out. Hoodie, Garment-Dyed: drawing with Punched Out. at real size"
     }
    ]
   }
