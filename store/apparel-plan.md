@@ -171,7 +171,7 @@ Free shipping would also hurt the other two. A 3XL pair of sweatpants shipped fr
 | One sample order: Bone hoodie, Bone sweatpants, Spruce crewneck, at 20% off [18] | 90.81 | 128.95 at 1.42 | Before digitizing, shipping and tax. Up to 3 items per sample order [18]. [CONFIRM: the discount is active on this account] |
 
 - The hats need the same cap-7 lockup. Whichever is digitized first pays US$6.50 and the other may pay the US$2.95 re-use fee [6]. [CONFIRM: a cap file can be reused on a flat garment]
-- This sample order tests both thread colourways, the set's shade match and the fit.
+- This sample order tests both thread colourways, the set's shade match and the fit. It takes the month's only discounted sample order (one a month, up to 3 items, from the month after the store connects [18]). The hat samples (LAUNCH_PLAN.md: the top 3–5 hats) need it too, so one of the two waits a month or pays full price.
 
 ### Shipping, duties and tax
 
