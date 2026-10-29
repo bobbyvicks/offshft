@@ -1,0 +1,1010 @@
+{
+  "checkedAt": "2026-10-29T11:45:38.653Z",
+  "scope": "16 approved colourways; public global flags, no destination or account-specific guarantee",
+  "products": [
+    {
+      "concept": "11-time-well-earned",
+      "blank": "1717",
+      "productId": 586,
+      "checkedAt": "2026-10-29T11:45:38.653Z",
+      "availableSizes": [
+        {
+          "value": "S",
+          "title": "S"
+        },
+        {
+          "value": "M",
+          "title": "M"
+        },
+        {
+          "value": "L",
+          "title": "L"
+        },
+        {
+          "value": "XL",
+          "title": "XL"
+        },
+        {
+          "value": "2XL",
+          "title": "2XL"
+        },
+        {
+          "value": "3XL",
+          "title": "3XL"
+        },
+        {
+          "value": "4XL",
+          "title": "4XL"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blue Spruce",
+          "swatch": {
+            "codes": [
+              "#4c6151"
+            ],
+            "tooltip": "Blue Spruce #4c6151"
+          },
+          "sizes": [
+            {
+              "color": "Blue Spruce",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            },
+            {
+              "color": "Blue Spruce",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            },
+            {
+              "color": "Blue Spruce",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            },
+            {
+              "color": "Blue Spruce",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            },
+            {
+              "color": "Blue Spruce",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            },
+            {
+              "color": "Blue Spruce",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            },
+            {
+              "color": "Blue Spruce",
+              "size": "4XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            }
+          ]
+        },
+        {
+          "name": "Ivory",
+          "swatch": {
+            "codes": [
+              "#fff4d9"
+            ],
+            "tooltip": "Ivory #fff4d9"
+          },
+          "sizes": [
+            {
+              "color": "Ivory",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Ivory",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Ivory",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Ivory",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Ivory",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Ivory",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            },
+            {
+              "color": "Ivory",
+              "size": "4XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            }
+          ]
+        },
+        {
+          "name": "Pepper",
+          "swatch": {
+            "codes": [
+              "#514f4c"
+            ],
+            "tooltip": "Pepper #514f4c"
+          },
+          "sizes": [
+            {
+              "color": "Pepper",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Pepper",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Pepper",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Pepper",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Pepper",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Pepper",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            },
+            {
+              "color": "Pepper",
+              "size": "4XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            }
+          ]
+        },
+        {
+          "name": "Blue Jean",
+          "swatch": {
+            "codes": [
+              "#707e8d"
+            ],
+            "tooltip": "Blue Jean #707e8d"
+          },
+          "sizes": [
+            {
+              "color": "Blue Jean",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "4XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true,
+              "T-SHIRT": "notFulfilled"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "12-the-rest-is-ours",
+      "blank": "1467",
+      "productId": 969,
+      "checkedAt": "2026-10-29T11:45:38.653Z",
+      "availableSizes": [
+        {
+          "value": "S",
+          "title": "S"
+        },
+        {
+          "value": "M",
+          "title": "M"
+        },
+        {
+          "value": "L",
+          "title": "L"
+        },
+        {
+          "value": "XL",
+          "title": "XL"
+        },
+        {
+          "value": "2XL",
+          "title": "2XL"
+        },
+        {
+          "value": "3XL",
+          "title": "3XL"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Blue Jean",
+          "swatch": {
+            "codes": [
+              "#9aa5b3"
+            ],
+            "tooltip": "Blue Jean #9aa5b3"
+          },
+          "sizes": [
+            {
+              "color": "Blue Jean",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            }
+          ]
+        },
+        {
+          "name": "Ivory",
+          "swatch": {
+            "codes": [
+              "#fef5df"
+            ],
+            "tooltip": "Ivory #fef5df"
+          },
+          "sizes": [
+            {
+              "color": "Ivory",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Ivory",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Ivory",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Ivory",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Ivory",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Ivory",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            }
+          ]
+        },
+        {
+          "name": "Pepper",
+          "swatch": {
+            "codes": [
+              "#69635a"
+            ],
+            "tooltip": "Pepper #69635a"
+          },
+          "sizes": [
+            {
+              "color": "Pepper",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Pepper",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Pepper",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Pepper",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Pepper",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Pepper",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            }
+          ]
+        },
+        {
+          "name": "Butter",
+          "swatch": {
+            "codes": [
+              "#ffdc8f"
+            ],
+            "tooltip": "Butter #ffdc8f"
+          },
+          "sizes": [
+            {
+              "color": "Butter",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Butter",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Butter",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Butter",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Butter",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            },
+            {
+              "color": "Butter",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "13-ours-to-spend",
+      "blank": "6606",
+      "productId": 252,
+      "checkedAt": "2026-10-29T11:45:38.653Z",
+      "availableSizes": [
+        {
+          "value": "One size",
+          "title": "One size fits all"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Evergreen",
+          "swatch": {
+            "codes": [
+              "#385e3d"
+            ],
+            "tooltip": "Evergreen #385e3d"
+          },
+          "sizes": [
+            {
+              "color": "Evergreen",
+              "size": "One size",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            }
+          ]
+        },
+        {
+          "name": "Navy",
+          "swatch": {
+            "codes": [
+              "#24303b"
+            ],
+            "tooltip": "Navy #24303b"
+          },
+          "sizes": [
+            {
+              "color": "Navy",
+              "size": "One size",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            }
+          ]
+        },
+        {
+          "name": "Khaki",
+          "swatch": {
+            "codes": [
+              "#b3a58e"
+            ],
+            "tooltip": "Khaki #b3a58e"
+          },
+          "sizes": [
+            {
+              "color": "Khaki",
+              "size": "One size",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            }
+          ]
+        },
+        {
+          "name": "Caramel",
+          "swatch": {
+            "codes": [
+              "#97622e"
+            ],
+            "tooltip": "Caramel #97622e"
+          },
+          "sizes": [
+            {
+              "color": "Caramel",
+              "size": "One size",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true,
+              "isUnlimitedEmbroideryAvailable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concept": "14-five-oclock",
+      "blank": "1466",
+      "productId": 971,
+      "checkedAt": "2026-10-29T11:45:38.653Z",
+      "availableSizes": [
+        {
+          "value": "S",
+          "title": "S"
+        },
+        {
+          "value": "M",
+          "title": "M"
+        },
+        {
+          "value": "L",
+          "title": "L"
+        },
+        {
+          "value": "XL",
+          "title": "XL"
+        },
+        {
+          "value": "2XL",
+          "title": "2XL"
+        },
+        {
+          "value": "3XL",
+          "title": "3XL"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Ivory",
+          "swatch": {
+            "codes": [
+              "#fff4d9"
+            ],
+            "tooltip": "Ivory #fff4d9"
+          },
+          "sizes": [
+            {
+              "color": "Ivory",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Ivory",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Ivory",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Ivory",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Ivory",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Ivory",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            }
+          ]
+        },
+        {
+          "name": "Blue Jean",
+          "swatch": {
+            "codes": [
+              "#9aa5b3"
+            ],
+            "tooltip": "Blue Jean #9aa5b3"
+          },
+          "sizes": [
+            {
+              "color": "Blue Jean",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Blue Jean",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            }
+          ]
+        },
+        {
+          "name": "Pepper",
+          "swatch": {
+            "codes": [
+              "#69655e"
+            ],
+            "tooltip": "Pepper #69655e"
+          },
+          "sizes": [
+            {
+              "color": "Pepper",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Pepper",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Pepper",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Pepper",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Pepper",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Pepper",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            }
+          ]
+        },
+        {
+          "name": "Espresso",
+          "swatch": {
+            "codes": [
+              "#966f56"
+            ],
+            "tooltip": "Espresso #966f56"
+          },
+          "sizes": [
+            {
+              "color": "Espresso",
+              "size": "S",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Espresso",
+              "size": "M",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Espresso",
+              "size": "L",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Espresso",
+              "size": "XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Espresso",
+              "size": "2XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            },
+            {
+              "color": "Espresso",
+              "size": "3XL",
+              "isDiscontinued": false,
+              "isDisabledInPush": false,
+              "isFulfillable": true,
+              "hasStock": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

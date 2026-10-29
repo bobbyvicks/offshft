@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "sourceExport": "shopify-after-export.json",
+  "sourceSha256": "896b027384ca880d4a58a9f0f56f1353589f971ed573fd17f0c6253990502001",
+  "descriptionComparison": "HTML structure/text preserved; whitespace normalized. Plan plus Coming soon. Product images are mockups. compared with imported CSV.",
+  "authorizedTagAddition": "text-hat on Ours to Spend. Trucker Hat only",
+  "products": [
+    {
+      "handle": "time-well-earned-t-shirt",
+      "passed": true,
+      "errors": [],
+      "variantCount": 24,
+      "price": "44.99",
+      "tags": [
+        "11-time-well-earned",
+        "off-shft",
+        "t-shirt"
+      ]
+    },
+    {
+      "handle": "the-rest-is-ours-hoodie",
+      "passed": true,
+      "errors": [],
+      "variantCount": 24,
+      "price": "89.99",
+      "tags": [
+        "12-the-rest-is-ours",
+        "hoodie",
+        "off-shft"
+      ]
+    },
+    {
+      "handle": "ours-to-spend-trucker-hat",
+      "passed": true,
+      "errors": [],
+      "variantCount": 4,
+      "price": "34.99",
+      "tags": [
+        "13-ours-to-spend",
+        "hat",
+        "off-shft",
+        "text-hat"
+      ]
+    },
+    {
+      "handle": "five-oclock-crewneck",
+      "passed": true,
+      "errors": [],
+      "variantCount": 24,
+      "price": "79.99",
+      "tags": [
+        "14-five-oclock",
+        "crewneck",
+        "off-shft"
+      ]
+    }
+  ]
+}

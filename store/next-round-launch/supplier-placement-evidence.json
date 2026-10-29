@@ -1,0 +1,441 @@
+{
+  "checkedAt": "2026-10-29T11:49:11.891Z",
+  "endpoint": "https://www.printful.com/graphql?getGuidelinesAndTemplates",
+  "method": "Unauthenticated public catalogue query; no cookies, credentials or storeId",
+  "query": "query getGuidelinesAndTemplates($productId: Int!) { singleProducts { singleProduct(productId: $productId) { id canHaveDtgWithEmbroideryWrists canHaveDtgWithEmbroiderySleeves isLargeEmbroideryFileUploadDisabled hasFrontLargePlacement availableTechniques guidelinesAndTemplates { technique templates { isBrandingTemplate downloadUrl technique description size printArea recommendedSize type printFileSize } } } } }",
+  "products": [
+    {
+      "blank": "1717",
+      "productId": 586,
+      "httpStatus": 200,
+      "response": {
+        "data": {
+          "singleProducts": {
+            "singleProduct": {
+              "id": "PFCore://CatalogProduct/586",
+              "canHaveDtgWithEmbroideryWrists": false,
+              "canHaveDtgWithEmbroiderySleeves": false,
+              "isLargeEmbroideryFileUploadDisabled": true,
+              "hasFrontLargePlacement": false,
+              "availableTechniques": [
+                "T-SHIRT",
+                "EMBROIDERY",
+                "DTFILM"
+              ],
+              "guidelinesAndTemplates": [
+                {
+                  "technique": "T-SHIRT",
+                  "templates": [
+                    {
+                      "isBrandingTemplate": true,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/outside_label.zip",
+                      "technique": "T-SHIRT",
+                      "description": "Outside label",
+                      "size": "All sizes",
+                      "printArea": "7.62 × 7.62 cm",
+                      "recommendedSize": "7.62 × 7.62 cm",
+                      "type": "",
+                      "printFileSize": "7.62 × 7.62 cm"
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/12x16 template.zip",
+                      "technique": "T-SHIRT",
+                      "description": "Front & back print",
+                      "size": "All sizes",
+                      "printArea": "30.48 × 40.64 cm",
+                      "recommendedSize": "30.48 × 40.64 cm",
+                      "type": "",
+                      "printFileSize": "30.48 × 40.64 cm"
+                    },
+                    {
+                      "isBrandingTemplate": true,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Short sleeve template.zip",
+                      "technique": "T-SHIRT",
+                      "description": "Sleeve print",
+                      "size": "All sizes",
+                      "printArea": "10.16 × 8.89 cm",
+                      "recommendedSize": "10.16 × 8.89 cm",
+                      "type": "",
+                      "printFileSize": "10.16 × 8.89 cm"
+                    }
+                  ]
+                },
+                {
+                  "technique": "EMBROIDERY",
+                  "templates": [
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Embroidered_T-shirt.zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Left chest",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "",
+                      "printFileSize": "10.16 × 10.16 cm"
+                    },
+                    {
+                      "isBrandingTemplate": true,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Centered_Embroidered T-shirt.zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Centered",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "",
+                      "printFileSize": "10.16 × 10.16 cm"
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Large Center (Front) .zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Large Front",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "Embroidery",
+                      "printFileSize": "25.40 × 15.24 cm"
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Embroidered__sleeves_template.zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Left Top Sleeve\nRight Top Sleeve",
+                      "size": "All sizes\nAll sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "",
+                      "printFileSize": "5.08 × 7.62 cm\n5.08 × 7.62 cm"
+                    }
+                  ]
+                },
+                {
+                  "technique": "DTFILM",
+                  "templates": [
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/DTF frontandback.zip",
+                      "technique": "DTFILM",
+                      "description": "Front & Back",
+                      "size": "All sizes",
+                      "printArea": "30.48 × 40.64 cm",
+                      "recommendedSize": "30.48 × 40.64 cm",
+                      "type": "",
+                      "printFileSize": "30.48 × 40.64 cm"
+                    },
+                    {
+                      "isBrandingTemplate": true,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Short sleeve template..zip",
+                      "technique": "DTFILM",
+                      "description": "Sleeve print",
+                      "size": "All sizes",
+                      "printArea": "10.16 × 8.89 cm",
+                      "recommendedSize": "10.16 × 8.89 cm",
+                      "type": "",
+                      "printFileSize": "10.16 × 8.89 cm"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "blank": "1467",
+      "productId": 969,
+      "httpStatus": 200,
+      "response": {
+        "data": {
+          "singleProducts": {
+            "singleProduct": {
+              "id": "PFCore://CatalogProduct/969",
+              "canHaveDtgWithEmbroideryWrists": true,
+              "canHaveDtgWithEmbroiderySleeves": false,
+              "isLargeEmbroideryFileUploadDisabled": false,
+              "hasFrontLargePlacement": false,
+              "availableTechniques": [
+                "T-SHIRT",
+                "EMBROIDERY"
+              ],
+              "guidelinesAndTemplates": [
+                {
+                  "technique": "T-SHIRT",
+                  "templates": [
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Hoodie Large back .zip",
+                      "technique": "T-SHIRT",
+                      "description": "Large Back",
+                      "size": "M - 3XL",
+                      "printArea": "38.10 × 45.72 cm",
+                      "recommendedSize": "38.10 × 45.72 cm",
+                      "type": "",
+                      "printFileSize": "38.10 × 45.72 cm"
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/15x18.zip",
+                      "technique": "T-SHIRT",
+                      "description": "Large Front",
+                      "size": "M - 3XL",
+                      "printArea": "38.10 × 45.72 cm",
+                      "recommendedSize": "38.10 × 45.72 cm",
+                      "type": "",
+                      "printFileSize": "38.10 × 45.72 cm"
+                    },
+                    {
+                      "isBrandingTemplate": true,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/3x12 long sleeve template.zip",
+                      "technique": "T-SHIRT",
+                      "description": "Sleeve print",
+                      "size": "All sizes",
+                      "printArea": "7.62 × 30.48 cm",
+                      "recommendedSize": "7.62 × 30.48 cm",
+                      "type": "",
+                      "printFileSize": "7.62 × 30.48 cm"
+                    },
+                    {
+                      "isBrandingTemplate": true,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/outside_label.zip",
+                      "technique": "T-SHIRT",
+                      "description": "Outside label",
+                      "size": "All sizes",
+                      "printArea": "7.62 × 7.62 cm",
+                      "recommendedSize": "7.62 × 7.62 cm",
+                      "type": "",
+                      "printFileSize": ""
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Front and back.zip",
+                      "technique": "T-SHIRT",
+                      "description": "Front",
+                      "size": "S\nM - 3XL",
+                      "printArea": "29.21 × 39.37 cm\n30.48 × 40.64 cm",
+                      "recommendedSize": "29.21 × 39.37 cm\n30.48 × 40.64 cm",
+                      "type": "",
+                      "printFileSize": "29.21 × 39.37 cm\n30.48 × 40.64 cm"
+                    }
+                  ]
+                },
+                {
+                  "technique": "EMBROIDERY",
+                  "templates": [
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Large Center (Front) .zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Large Front",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "Embroidery",
+                      "printFileSize": "25.40 × 15.24 cm"
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/left chest hoodie .zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Left chest",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "Embroidery",
+                      "printFileSize": "10.16 × 10.16 cm"
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Embroidered__wrist_guidelines.zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Left Wrist",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "",
+                      "printFileSize": "5.08 × 7.62 cm"
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Embroidered__wrist_guidelines (1).zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Right Wrist",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "",
+                      "printFileSize": "5.08 × 7.62 cm"
+                    },
+                    {
+                      "isBrandingTemplate": true,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Centered Embroidered Hoodie.zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Centered",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "Embroidery",
+                      "printFileSize": "10.16 × 10.16 cm"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "blank": "6606",
+      "productId": 252,
+      "httpStatus": 200,
+      "response": {
+        "data": {
+          "singleProducts": {
+            "singleProduct": {
+              "id": "PFCore://CatalogProduct/252",
+              "canHaveDtgWithEmbroideryWrists": false,
+              "canHaveDtgWithEmbroiderySleeves": false,
+              "isLargeEmbroideryFileUploadDisabled": false,
+              "hasFrontLargePlacement": true,
+              "availableTechniques": [
+                "EMBROIDERY"
+              ],
+              "guidelinesAndTemplates": [
+                {
+                  "technique": "EMBROIDERY",
+                  "templates": [
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Low Profile Hats.zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Front",
+                      "size": "",
+                      "printArea": "14.99 × 5.08 cm",
+                      "recommendedSize": "",
+                      "type": "",
+                      "printFileSize": "14.99 × 5.08 cm"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "blank": "1466",
+      "productId": 971,
+      "httpStatus": 200,
+      "response": {
+        "data": {
+          "singleProducts": {
+            "singleProduct": {
+              "id": "PFCore://CatalogProduct/971",
+              "canHaveDtgWithEmbroideryWrists": false,
+              "canHaveDtgWithEmbroiderySleeves": false,
+              "isLargeEmbroideryFileUploadDisabled": false,
+              "hasFrontLargePlacement": false,
+              "availableTechniques": [
+                "EMBROIDERY",
+                "T-SHIRT"
+              ],
+              "guidelinesAndTemplates": [
+                {
+                  "technique": "EMBROIDERY",
+                  "templates": [
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/left chest hoodie .zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Left chest",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "Embroidery",
+                      "printFileSize": "10.16 × 10.16 cm"
+                    },
+                    {
+                      "isBrandingTemplate": true,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Centered_Embroidered T-shirt.zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Centered",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "",
+                      "printFileSize": "10.16 × 10.16 cm"
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Large Center (Front) .zip",
+                      "technique": "EMBROIDERY",
+                      "description": "Large Front",
+                      "size": "All sizes",
+                      "printArea": "",
+                      "recommendedSize": "",
+                      "type": "Embroidery",
+                      "printFileSize": "25.40 × 15.24 cm"
+                    }
+                  ]
+                },
+                {
+                  "technique": "T-SHIRT",
+                  "templates": [
+                    {
+                      "isBrandingTemplate": true,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/3x12 long sleeve template.zip",
+                      "technique": "T-SHIRT",
+                      "description": "Sleeve print",
+                      "size": "All sizes",
+                      "printArea": "7.62 × 30.48 cm",
+                      "recommendedSize": "7.62 × 30.48 cm",
+                      "type": "",
+                      "printFileSize": "7.62 × 30.48 cm"
+                    },
+                    {
+                      "isBrandingTemplate": true,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Outside label_4x4.zip",
+                      "technique": "T-SHIRT",
+                      "description": "Outside label",
+                      "size": "All sizes",
+                      "printArea": "10.16 × 10.16 cm",
+                      "recommendedSize": "10.16 × 10.16 cm",
+                      "type": "",
+                      "printFileSize": "10.16 × 10.16 cm"
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/Gildan 18000.zip",
+                      "technique": "T-SHIRT",
+                      "description": "Front & back",
+                      "size": "S\nM+",
+                      "printArea": "29.21 × 38.86 cm\n30.48 × 40.64 cm",
+                      "recommendedSize": "29.21 × 38.86 cm\n30.48 × 40.64 cm",
+                      "type": "",
+                      "printFileSize": "29.21 × 38.86 cm\n30.48 × 40.64 cm"
+                    },
+                    {
+                      "isBrandingTemplate": false,
+                      "downloadUrl": "https://printful.s3-accelerate.amazonaws.com/upload/guideline/15x18 front and back  (6).zip",
+                      "technique": "T-SHIRT",
+                      "description": "Front and back large",
+                      "size": "From M",
+                      "printArea": "38.10 × 45.72 cm",
+                      "recommendedSize": "38.10 × 45.72 cm",
+                      "type": "",
+                      "printFileSize": "38.10 × 45.72 cm"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}
