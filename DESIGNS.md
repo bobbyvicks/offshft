@@ -25,6 +25,10 @@ Owner picks which of these become the first 6–8 hats, and which fabric colour 
 
 **Owner's call, 29 Oct 2026:** three designs are usable: the final OFF SHFT logo, the clock on its own, and Punched Out. The icon designs and Mulligan Monday are out. In the owner's words, they're "too AI" or not good enough. Avoid clip-art icons and badge layouts in new work.
 
+## Phrase ideas for the owner (29 Oct 2026)
+
+Six short lines in the house voice, with previews and quick trademark notes: `designs/phrases/notes.md`. NOWHERE TO BE., SUN’S STILL UP., NO ALARM SET., BANKED TIME., NOT PICKING UP., PARKED. Status: idea.
+
 ## Backlog (drop 2 and later)
 
 | Hat | Hobby | Notes |

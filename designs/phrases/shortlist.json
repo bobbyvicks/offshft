@@ -1,0 +1,8 @@
+[
+ { "text": "NOWHERE TO BE.", "views": [{ "item": "hoodie-oversized", "layout": "stack" }] },
+ { "text": "SUN’S STILL UP.", "views": [{ "item": "rope-cap", "layout": "stack" }] },
+ { "text": "NO ALARM SET.", "views": [{ "item": "crewneck", "layout": "line", "big": true }] },
+ { "text": "BANKED TIME.", "views": [{ "item": "dad-hat", "layout": "line" }] },
+ { "text": "NOT PICKING UP.", "views": [{ "item": "hoodie-oversized", "layout": "line", "big": true }] },
+ { "text": "PARKED.", "views": [{ "item": "trucker", "layout": "line" }] }
+]

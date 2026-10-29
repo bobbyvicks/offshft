@@ -5,7 +5,9 @@
 //
 //   cd /home/user/offshft/tools && node ../designs/phrases/preview.cjs phrases.json out-dir
 //
-// phrases.json: [{ "text": "TOOLS DOWN." }, ...]
+// phrases.json: [{ "text": "TOOLS DOWN." }, ...]. Optional per phrase, "views": [{ "item": "dad-hat", "layout": "line" |
+// "stack", "big": true }] to show it on a given drawing (store/previews/items), on one line or stacked, and for a big
+// centre front scaled to fit 230 x 90 mm like the tops' large front. Without views: a 5-panel cap and a tee chest.
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -45,14 +47,14 @@ function art(text, stacked) {
 }
 
 // The picker's composition: the drawing at its scale, the artwork at true size on the anchor, a round close-up for clothes.
-function shot(item, anchor, a) {
+function shot(item, anchor, a, k = 1) {
   const C = kit.CANVAS, hat = item.category === 'hat', scale = hat ? kit.HAT_PX : kit.WEAR_PX;
   const tx = C / 2, ty = hat ? (C - item.h * scale) / 2 : C - item.h * scale - 20;
-  const p = item.anchors[anchor];
-  const placed = `<g transform="translate(${p.x - a.w / 2} ${p.y - a.h / 2})">${a.svg}</g>`;
+  const p = anchor === 'big' ? { x: 0, y: item.anchors.chest.y } : item.anchors[anchor];
+  const placed = `<g transform="translate(${p.x - (a.w * k) / 2} ${p.y - (a.h * k) / 2}) scale(${k})">${a.svg}</g>`;
   const drawing = item.body + placed + (item.over || '');
   let zoom = '';
-  if (!hat) {
+  if (!hat && Math.max(a.w, a.h) * k <= 120) {
     const r = 118, cx = C - r - 14, cy = r + 14, Z = 165 / (Math.max(a.w, a.h) * scale);
     const mx = tx + p.x * scale, my = ty + p.y * scale, ring = Math.max(14, Math.max(a.w, a.h) * scale * 0.75);
     const dist = Math.hypot(cx - mx, cy - my), ux = (cx - mx) / dist, uy = (cy - my) / dist, line = 'stroke="#2B3340" stroke-width="1.5"';
@@ -66,18 +68,21 @@ function shot(item, anchor, a) {
 
 (async () => {
   fs.mkdirSync(outDir, { recursive: true });
-  const cap5 = require('../../store/previews/items/five-panel.cjs')(kit);
-  const tee = require('../../store/previews/items/tee.cjs')(kit);
+  const item = (name) => require(`../../store/previews/items/${name}.cjs`)(kit);
   const jobs = [], sizes = [];
   PHRASES.forEach((ph, i) => {
-    const line = art(ph.text, false);
-    const chest = line.w <= CHEST - 12 ? line : art(ph.text, true);
     const slug = `${String(i + 1).padStart(2, '0')}`;
-    jobs.push({ out: path.join(outDir, `${slug}-hat.png`), svg: shot(cap5, 'front', line) });
-    jobs.push({ out: path.join(outDir, `${slug}-tee.png`), svg: shot(tee, 'chest', chest) });
-    sizes.push({ text: ph.text, hat: `${line.w.toFixed(1)} x ${line.h.toFixed(1)} mm`, chest: `${chest.w.toFixed(1)} x ${chest.h.toFixed(1)} mm` });
+    const line = art(ph.text, false);
+    const views = ph.views || [{ item: 'five-panel', layout: 'line' }, { item: 'tee', layout: line.w <= CHEST - 12 ? 'line' : 'stack' }];
+    views.forEach((v, j) => {
+      const it = item(v.item), a = v.layout === 'stack' ? art(ph.text, true) : line;
+      const anchor = v.big ? 'big' : it.category === 'hat' ? 'front' : 'chest';
+      const k = v.big ? Math.min(230 / a.w, 90 / a.h) : 1;
+      jobs.push({ out: path.join(outDir, `${slug}-${j + 1}-${v.item}.png`), svg: shot(it, anchor, a, k) });
+      sizes.push({ text: ph.text, on: `${v.item}${v.big ? ' (big front)' : ''}`, size: `${(a.w * k).toFixed(1)} x ${(a.h * k).toFixed(1)} mm`, cap: `${(7 * k).toFixed(1)} mm` });
+    });
   });
   await kit.render(jobs);
   fs.writeFileSync(path.join(outDir, 'sizes.json'), JSON.stringify(sizes, null, 1));
-  console.log(sizes.map((s) => `${s.text}: hat ${s.hat}, chest ${s.chest}`).join('\n'));
+  console.log(sizes.map((s) => `${s.text} on ${s.on}: ${s.size}, cap ${s.cap}`).join('\n'));
 })().catch((e) => { console.error(e); process.exit(1); });
