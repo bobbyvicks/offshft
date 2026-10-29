@@ -7,3 +7,7 @@ designs/next-round/** -text
 designs/next-round/*.pdf binary
 designs/next-round/*.zip binary
 designs/next-round/*.png binary
+designs/next-round-colourways/** -text
+designs/next-round-colourways/**/*.pdf binary
+designs/next-round-colourways/**/*.zip binary
+designs/next-round-colourways/**/*.png binary

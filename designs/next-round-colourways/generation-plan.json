@@ -1,0 +1,126 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "date": "2026-10-29",
+  "jobs": [
+    {
+      "id": "11-time-well-earned-ivory",
+      "concept": "11-time-well-earned",
+      "colour": "Ivory",
+      "image": "images/11-time-well-earned-ivory.png",
+      "references": [
+        "../11-time-well-earned/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Comfort Colors 1717 tee; new exact supplier colour is Ivory, approximate product-picker swatch #FFF4D9 (reference midtone, retain natural shaded fabric variation). Recolour the body, sleeves, ribbing and all seams consistently. Existing text must remain exactly \"TIME WELL EARNED.\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #1F2733 and the existing punctuation/dots/colon to #B4552D. Preserve the two-colour graphic. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "11-time-well-earned-pepper",
+      "concept": "11-time-well-earned",
+      "colour": "Pepper",
+      "image": "images/11-time-well-earned-pepper.png",
+      "references": [
+        "../11-time-well-earned/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Comfort Colors 1717 tee; new exact supplier colour is Pepper, approximate product-picker swatch #514F4C (reference midtone, retain natural shaded fabric variation). Recolour the body, sleeves, ribbing and all seams consistently. Existing text must remain exactly \"TIME WELL EARNED.\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #ECE5D3 and the existing punctuation/dots/colon to #D29B3C. Preserve the two-colour graphic. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "11-time-well-earned-blue-jean",
+      "concept": "11-time-well-earned",
+      "colour": "Blue Jean",
+      "image": "images/11-time-well-earned-blue-jean.png",
+      "references": [
+        "../11-time-well-earned/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Comfort Colors 1717 tee; new exact supplier colour is Blue Jean, approximate product-picker swatch #707E8D (reference midtone, retain natural shaded fabric variation). Recolour the body, sleeves, ribbing and all seams consistently. Existing text must remain exactly \"TIME WELL EARNED.\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #ECE5D3 and the existing punctuation/dots/colon to #D29B3C. Preserve the two-colour graphic. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "12-the-rest-is-ours-ivory",
+      "concept": "12-the-rest-is-ours",
+      "colour": "Ivory",
+      "image": "images/12-the-rest-is-ours-ivory.png",
+      "references": [
+        "../12-the-rest-is-ours/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Comfort Colors 1467 hoodie; new exact supplier colour is Ivory, approximate product-picker swatch #FEF5DF (reference midtone, retain natural shaded fabric variation). Keep this the exact back-only hoodie view; no front pocket or drawstrings appear on a back view. Hood, sleeves, rib cuffs and hem all match the new colour. Existing text must remain exactly \"THE REST IS OURS.\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #1F2733 and the existing punctuation/dots/colon to #B4552D. Preserve the two-colour graphic. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "12-the-rest-is-ours-pepper",
+      "concept": "12-the-rest-is-ours",
+      "colour": "Pepper",
+      "image": "images/12-the-rest-is-ours-pepper.png",
+      "references": [
+        "../12-the-rest-is-ours/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Comfort Colors 1467 hoodie; new exact supplier colour is Pepper, approximate product-picker swatch #69635A (reference midtone, retain natural shaded fabric variation). Keep this the exact back-only hoodie view; no front pocket or drawstrings appear on a back view. Hood, sleeves, rib cuffs and hem all match the new colour. Existing text must remain exactly \"THE REST IS OURS.\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #ECE5D3 and the existing punctuation/dots/colon to #D29B3C. Preserve the two-colour graphic. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "12-the-rest-is-ours-butter",
+      "concept": "12-the-rest-is-ours",
+      "colour": "Butter",
+      "image": "images/12-the-rest-is-ours-butter.png",
+      "references": [
+        "../12-the-rest-is-ours/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Comfort Colors 1467 hoodie; new exact supplier colour is Butter, approximate product-picker swatch #FFDC8F (reference midtone, retain natural shaded fabric variation). Keep this the exact back-only hoodie view; no front pocket or drawstrings appear on a back view. Hood, sleeves, rib cuffs and hem all match the new colour. Existing text must remain exactly \"THE REST IS OURS.\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #1F2733 and the existing punctuation/dots/colon to #B4552D. Preserve the two-colour graphic. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "13-ours-to-spend-navy",
+      "concept": "13-ours-to-spend",
+      "colour": "Navy",
+      "image": "images/13-ours-to-spend-navy.png",
+      "references": [
+        "../13-ours-to-spend/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Yupoong 6606 trucker; new exact supplier colour is Navy, approximate product-picker swatch #24303B (reference midtone, retain natural shaded fabric variation). Recolour the ENTIRE cap consistently: front cotton panels, curved visor, matching mesh back, top button and seams. Preserve the visible open mesh. Existing text must remain exactly \"OURS TO SPEND.\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #ECE5D3 and the existing punctuation/dots/colon to #D29B3C. Preserve the two-colour graphic. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "13-ours-to-spend-khaki",
+      "concept": "13-ours-to-spend",
+      "colour": "Khaki",
+      "image": "images/13-ours-to-spend-khaki.png",
+      "references": [
+        "../13-ours-to-spend/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Yupoong 6606 trucker; new exact supplier colour is Khaki, approximate product-picker swatch #B3A58E (reference midtone, retain natural shaded fabric variation). Recolour the ENTIRE cap consistently: front cotton panels, curved visor, matching mesh back, top button and seams. Preserve the visible open mesh. Existing text must remain exactly \"OURS TO SPEND.\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #1F2733 and the existing punctuation/dots/colon to #B4552D. Preserve the two-colour graphic. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "13-ours-to-spend-caramel",
+      "concept": "13-ours-to-spend",
+      "colour": "Caramel",
+      "image": "images/13-ours-to-spend-caramel.png",
+      "references": [
+        "../13-ours-to-spend/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Yupoong 6606 trucker; new exact supplier colour is Caramel, approximate product-picker swatch #97622E (reference midtone, retain natural shaded fabric variation). Recolour the ENTIRE cap consistently: front cotton panels, curved visor, matching mesh back, top button and seams. Preserve the visible open mesh. Existing text must remain exactly \"OURS TO SPEND.\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #ECE5D3 and the existing punctuation/dots/colon to #ECE5D3. This is ONE-COLOUR Bone embroidery: the final period or colon is also Bone, no yellow or rust accent. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "14-five-oclock-blue-jean",
+      "concept": "14-five-oclock",
+      "colour": "Blue Jean",
+      "image": "images/14-five-oclock-blue-jean.png",
+      "references": [
+        "../14-five-oclock/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Comfort Colors 1466 crewneck; new exact supplier colour is Blue Jean, approximate product-picker swatch #9AA5B3 (reference midtone, retain natural shaded fabric variation). Recolour the body, sleeves, ribbing and all seams consistently. Existing text must remain exactly \"5:00\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #1F2733 and the existing punctuation/dots/colon to #B4552D. Preserve the two-colour graphic. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "14-five-oclock-pepper",
+      "concept": "14-five-oclock",
+      "colour": "Pepper",
+      "image": "images/14-five-oclock-pepper.png",
+      "references": [
+        "../14-five-oclock/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Comfort Colors 1466 crewneck; new exact supplier colour is Pepper, approximate product-picker swatch #69655E (reference midtone, retain natural shaded fabric variation). Recolour the body, sleeves, ribbing and all seams consistently. Existing text must remain exactly \"5:00\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #ECE5D3 and the existing punctuation/dots/colon to #D29B3C. Preserve the two-colour graphic. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    },
+    {
+      "id": "14-five-oclock-espresso",
+      "concept": "14-five-oclock",
+      "colour": "Espresso",
+      "image": "images/14-five-oclock-espresso.png",
+      "references": [
+        "../14-five-oclock/mockup-v2.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Make one additional colourway of the supplied OFF SHFT product concept. Change ONLY garment/fabric colour and the existing graphic's thread/ink colours. Keep the complete original garment shape, fabric texture, folds, seams, view, composition, light, shadows and warm ivory studio background unchanged. Garment is Comfort Colors 1466 crewneck; new exact supplier colour is Espresso, approximate product-picker swatch #966F56 (reference midtone, retain natural shaded fabric variation). Recolour the body, sleeves, ribbing and all seams consistently. Existing text must remain exactly \"5:00\" with every original line break, glyph shape, spacing, alignment, size and placement unchanged. Recolour all main lettering/numerals to #ECE5D3 and the existing punctuation/dots/colon to #ECE5D3. This is ONE-COLOUR Bone embroidery: the final period or colon is also Bone, no yellow or rust accent. Preserve the current low-profile embroidery or matte print application. Plain natural cotton or cap twill, with no ornamental swirls or all-over pattern. No new logos, icons, words, tags, objects, framing or watermark. Full uncropped product, same camera angle. Realistic product photograph; a colour variation of this exact concept, not a redesign."
+    }
+  ]
+}

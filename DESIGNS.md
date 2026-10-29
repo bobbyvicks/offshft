@@ -38,6 +38,8 @@ Four new concepts requested after the Shopify colour rollout. These remain draft
 
 [Review gallery and download package](designs/next-round/) · [Preliminary phrase research](designs/next-round-research.md). Each concept has outlined SVG artwork, light/dark references, a realistic AI mockup, dimensions and notes. Phrase screening is preliminary; these are not approved or published products.
 
+**Colour expansion:** all four concepts now have four colour options each: [16-colour review package](designs/next-round-colourways/). The supplement adds 12 mockups using the selected blanks' catalogue colour names, plus one-colour Bone artwork for the Caramel cap and Espresso crewneck. These remain design drafts.
+
 ## Backlog (drop 2 and later)
 
 | Hat | Hobby | Notes |

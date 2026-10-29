@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "date": "2026-10-29",
+  "status": "Draft colour concepts; not published products",
+  "scope": "12 additional mockups plus 4 existing originals",
+  "colourEvidence": "research.md",
+  "palette": {
+    "dark": {
+      "title": "Bone / Sun",
+      "main": "#ECE5D3",
+      "accent": "#D29B3C"
+    },
+    "light": {
+      "title": "Ink / Rust",
+      "main": "#1F2733",
+      "accent": "#B4552D"
+    },
+    "bone": {
+      "title": "Bone — one colour",
+      "main": "#ECE5D3",
+      "accent": "#ECE5D3"
+    }
+  },
+  "concepts": [
+    {
+      "id": "11-time-well-earned",
+      "title": "TIME WELL EARNED.",
+      "garment": "Comfort Colors 1717 tee",
+      "widthMm": 95,
+      "placement": "Centre-chest embroidery",
+      "supplierUrl": "https://www.printful.com/custom/collections/embroidery/unisex-garment-dyed-heavyweight-shirt-comfort-colors-1717",
+      "sourceDir": "../11-time-well-earned",
+      "notes": "../11-time-well-earned/notes.md",
+      "measurements": "../11-time-well-earned/measurements.json",
+      "artwork": {
+        "light": {
+          "svg": "../11-time-well-earned/design-light.svg",
+          "png": "../11-time-well-earned/design-light.png"
+        },
+        "dark": {
+          "svg": "../11-time-well-earned/design.svg",
+          "png": "../11-time-well-earned/design-dark.png"
+        }
+      },
+      "colourways": [
+        {
+          "id": "blue-spruce",
+          "name": "Blue Spruce",
+          "swatch": "#4C6151",
+          "artwork": "dark",
+          "image": "../11-time-well-earned/mockup-v2.png",
+          "existing": true
+        },
+        {
+          "id": "ivory",
+          "name": "Ivory",
+          "swatch": "#FFF4D9",
+          "artwork": "light",
+          "image": "images/11-time-well-earned-ivory.png",
+          "existing": false
+        },
+        {
+          "id": "pepper",
+          "name": "Pepper",
+          "swatch": "#514F4C",
+          "artwork": "dark",
+          "image": "images/11-time-well-earned-pepper.png",
+          "existing": false
+        },
+        {
+          "id": "blue-jean",
+          "name": "Blue Jean",
+          "swatch": "#707E8D",
+          "artwork": "dark",
+          "image": "images/11-time-well-earned-blue-jean.png",
+          "existing": false
+        }
+      ]
+    },
+    {
+      "id": "12-the-rest-is-ours",
+      "title": "THE REST IS OURS.",
+      "garment": "Comfort Colors 1467 hoodie",
+      "widthMm": 240,
+      "placement": "Upper-back print; rear view",
+      "supplierUrl": "https://www.printful.com/custom/mens/hoodies/garment-dyed-hooded-sweatshirt-comfort-colors-1467",
+      "sourceDir": "../12-the-rest-is-ours",
+      "notes": "../12-the-rest-is-ours/notes.md",
+      "measurements": "../12-the-rest-is-ours/measurements.json",
+      "artwork": {
+        "light": {
+          "svg": "../12-the-rest-is-ours/design-light.svg",
+          "png": "../12-the-rest-is-ours/design-light.png"
+        },
+        "dark": {
+          "svg": "../12-the-rest-is-ours/design.svg",
+          "png": "../12-the-rest-is-ours/design-dark.png"
+        }
+      },
+      "colourways": [
+        {
+          "id": "blue-jean",
+          "name": "Blue Jean",
+          "swatch": "#9AA5B3",
+          "artwork": "light",
+          "image": "../12-the-rest-is-ours/mockup-v2.png",
+          "existing": true
+        },
+        {
+          "id": "ivory",
+          "name": "Ivory",
+          "swatch": "#FEF5DF",
+          "artwork": "light",
+          "image": "images/12-the-rest-is-ours-ivory.png",
+          "existing": false
+        },
+        {
+          "id": "pepper",
+          "name": "Pepper",
+          "swatch": "#69635A",
+          "artwork": "dark",
+          "image": "images/12-the-rest-is-ours-pepper.png",
+          "existing": false
+        },
+        {
+          "id": "butter",
+          "name": "Butter",
+          "swatch": "#FFDC8F",
+          "artwork": "light",
+          "image": "images/12-the-rest-is-ours-butter.png",
+          "existing": false
+        }
+      ]
+    },
+    {
+      "id": "13-ours-to-spend",
+      "title": "OURS TO SPEND.",
+      "garment": "Yupoong 6606 trucker",
+      "widthMm": 85,
+      "placement": "Front-panel embroidery",
+      "supplierUrl": "https://www.printful.com/custom/hats/trucker-hats/retro-trucker-cap-yupoong-6606",
+      "sourceDir": "../13-ours-to-spend",
+      "notes": "../13-ours-to-spend/notes.md",
+      "measurements": "../13-ours-to-spend/measurements.json",
+      "artwork": {
+        "light": {
+          "svg": "../13-ours-to-spend/design-light.svg",
+          "png": "../13-ours-to-spend/design-light.png"
+        },
+        "dark": {
+          "svg": "../13-ours-to-spend/design.svg",
+          "png": "../13-ours-to-spend/design-dark.png"
+        },
+        "bone": {
+          "svg": "artwork/13-ours-to-spend-bone.svg",
+          "png": "artwork/13-ours-to-spend-bone.png"
+        }
+      },
+      "colourways": [
+        {
+          "id": "evergreen",
+          "name": "Evergreen",
+          "swatch": "#385E3D",
+          "artwork": "dark",
+          "image": "../13-ours-to-spend/mockup-v2.png",
+          "existing": true
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "swatch": "#24303B",
+          "artwork": "dark",
+          "image": "images/13-ours-to-spend-navy.png",
+          "existing": false
+        },
+        {
+          "id": "khaki",
+          "name": "Khaki",
+          "swatch": "#B3A58E",
+          "artwork": "light",
+          "image": "images/13-ours-to-spend-khaki.png",
+          "existing": false
+        },
+        {
+          "id": "caramel",
+          "name": "Caramel",
+          "swatch": "#97622E",
+          "artwork": "bone",
+          "image": "images/13-ours-to-spend-caramel.png",
+          "existing": false
+        }
+      ]
+    },
+    {
+      "id": "14-five-oclock",
+      "title": "5:00",
+      "garment": "Comfort Colors 1466 crewneck",
+      "widthMm": 115,
+      "placement": "Centre-chest embroidery",
+      "supplierUrl": "https://www.printful.com/custom/mens/hoodies-sweatshirts/unisex-garment-dyed-lightweight-fleece-crewneck-sweatshirt-comfort-colors-1466",
+      "sourceDir": "../14-five-oclock",
+      "notes": "../14-five-oclock/notes.md",
+      "measurements": "../14-five-oclock/measurements.json",
+      "artwork": {
+        "light": {
+          "svg": "../14-five-oclock/design-light.svg",
+          "png": "../14-five-oclock/design-light.png"
+        },
+        "dark": {
+          "svg": "../14-five-oclock/design.svg",
+          "png": "../14-five-oclock/design-dark.png"
+        },
+        "bone": {
+          "svg": "artwork/14-five-oclock-bone.svg",
+          "png": "artwork/14-five-oclock-bone.png"
+        }
+      },
+      "colourways": [
+        {
+          "id": "ivory",
+          "name": "Ivory",
+          "swatch": "#FFF4D9",
+          "artwork": "light",
+          "image": "../14-five-oclock/mockup-v2.png",
+          "existing": true
+        },
+        {
+          "id": "blue-jean",
+          "name": "Blue Jean",
+          "swatch": "#9AA5B3",
+          "artwork": "light",
+          "image": "images/14-five-oclock-blue-jean.png",
+          "existing": false
+        },
+        {
+          "id": "pepper",
+          "name": "Pepper",
+          "swatch": "#69655E",
+          "artwork": "dark",
+          "image": "images/14-five-oclock-pepper.png",
+          "existing": false
+        },
+        {
+          "id": "espresso",
+          "name": "Espresso",
+          "swatch": "#966F56",
+          "artwork": "bone",
+          "image": "images/14-five-oclock-espresso.png",
+          "existing": false
+        }
+      ]
+    }
+  ]
+}

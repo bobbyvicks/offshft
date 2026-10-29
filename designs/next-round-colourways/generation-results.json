@@ -1,0 +1,66 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "date": "2026-10-29",
+  "outputs": [
+    {
+      "id": "11-time-well-earned-ivory",
+      "image": "images/11-time-well-earned-ivory.png",
+      "sourceFile": "exec-08ad7d22-db89-438b-8d05-d805f55636ab.png"
+    },
+    {
+      "id": "11-time-well-earned-pepper",
+      "image": "images/11-time-well-earned-pepper.png",
+      "sourceFile": "exec-0835f94b-34eb-42ac-b568-b90e494ae8ff.png"
+    },
+    {
+      "id": "11-time-well-earned-blue-jean",
+      "image": "images/11-time-well-earned-blue-jean.png",
+      "sourceFile": "exec-ce00c5ae-2bb2-458f-9e8a-a9c84af9fb1a.png"
+    },
+    {
+      "id": "12-the-rest-is-ours-ivory",
+      "image": "images/12-the-rest-is-ours-ivory.png",
+      "sourceFile": "exec-369427f7-e47c-4f2e-9546-c6bd22ab58c0.png"
+    },
+    {
+      "id": "12-the-rest-is-ours-pepper",
+      "image": "images/12-the-rest-is-ours-pepper.png",
+      "sourceFile": "exec-58734f17-0f62-4e79-83b3-c88f480ce38b.png"
+    },
+    {
+      "id": "12-the-rest-is-ours-butter",
+      "image": "images/12-the-rest-is-ours-butter.png",
+      "sourceFile": "exec-e32950dc-f72f-4714-b308-8b4b3aa94d39.png"
+    },
+    {
+      "id": "13-ours-to-spend-navy",
+      "image": "images/13-ours-to-spend-navy.png",
+      "sourceFile": "exec-0025c8fe-31e2-4be9-be3e-5cde2cccf512.png"
+    },
+    {
+      "id": "13-ours-to-spend-khaki",
+      "image": "images/13-ours-to-spend-khaki.png",
+      "sourceFile": "exec-c2fd80af-7578-4944-9818-eda5dbcfe60f.png"
+    },
+    {
+      "id": "13-ours-to-spend-caramel",
+      "image": "images/13-ours-to-spend-caramel.png",
+      "sourceFile": "exec-a4ccc28a-4681-41e6-be70-8f4d5e68b46a.png"
+    },
+    {
+      "id": "14-five-oclock-blue-jean",
+      "image": "images/14-five-oclock-blue-jean.png",
+      "sourceFile": "exec-788c09fb-bcc2-446a-8aad-ffc86ba6e8f8.png"
+    },
+    {
+      "id": "14-five-oclock-pepper",
+      "image": "images/14-five-oclock-pepper.png",
+      "sourceFile": "exec-73f5c6a2-7962-4d65-b415-b582a4a6e1f8.png"
+    },
+    {
+      "id": "14-five-oclock-espresso",
+      "image": "images/14-five-oclock-espresso.png",
+      "sourceFile": "exec-36382764-39be-48d4-b937-095d87a8603e.png"
+    }
+  ]
+}
