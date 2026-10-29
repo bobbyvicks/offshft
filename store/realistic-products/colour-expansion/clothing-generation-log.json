@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-29",
+  "tool": "Built-in image_gen.imagegen",
+  "intent": "Photorealistic clothing colourway mockups using approved artwork and supplier-labelled bases",
+  "note": "AI mockups. Fabric colours, stitch appearance and physical scale remain illustrative pending samples. Original images were not edited; outputs copied without raster conversion.",
+  "count": 13,
+  "outputs": [
+    {
+      "key": "crewneck-1466-blue-jean-logo",
+      "prompt": "Use case: product-mockup. Create one photorealistic square ecommerce hero photograph of a single Comfort Colors 1466 lightweight crewneck sweatshirt in the supplier colour Blue Jean, a washed muted pale blue-grey (#9AA5B3). Reference image1 is the existing approved photo: preserve its warm ivory floor, soft directional upper-left studio light, natural shadows, relaxed flat lay, and garment construction, but change only the garment colour to Blue Jean. Frame the entire sweatshirt with roughly10% clear margin, cuffs and hem fully visible. It is 100% ring-spun cotton garment-dyed lightweight fleece217gsm, relaxed fit, rib collar/cuffs/waistband, realistic fine cotton grain and slightly faded seams; no jacquard pattern. Reference image2 is exact approved artwork: embroider this precise OFF SHFT logo in Ink with Rust accents on the wearer's LEFT chest (viewer's right). Very small real-world63mm total logo width, about one-tenth torso width; preserve exact spelling OFF SHFT with NO I, ring-shaped O and separated Rust clock rays. Subtle believable flat embroidery stitches. No extra design, no props, tags, packaging, graphic captions or text outside the garment. One product only, no collage.",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\crewneck-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\logo-light.png"
+      ],
+      "output": "store/realistic-products/colour-expansion/images/crewneck-1466-blue-jean-logo.png",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-5e8d75ea-1ac2-4233-8a89-317ffe9ba7d5.png",
+      "review": "Checked displayed output: supplier Blue Jean direction, exact logo spelling and small left chest placement, full single garment.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "b53c830464b53331e3396baa925661dbce36863181a3675014d59d40a2c94334",
+      "bytes": 2720932
+    },
+    {
+      "key": "crewneck-1466-blue-jean-punched-out",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\crewneck-1466-blue-jean-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\09-punched-out\\preview-bone.png"
+      ],
+      "prompt": "Use case: product-mockup. Image1 is garment/photography reference; image2 exact approved Punched Out v2 lettering reference. Keep the Comfort Colors1466 lightweight crewneck in washed Blue Jean(#9AA5B3) as image1. Remove the tiny chest wordmark. Embroider ONE line of text exactly \"PUNCHED OUT.\" in Rust thread across CENTRE FRONT,230mm wide, approximately40%of torso width. Match reference2's uppercase wide-spaced geometric sans lettering and period exactly, without copying its rectangular background or shadow. The only artwork is centred PUNCHED OUT. no clocks or chest logo. Relaxed217gsm100%cotton garment-dyed fleece, rib neckline/cuffs/waistband. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-07ad9855-0642-4980-a96b-9387c786e38f.png",
+      "output": "store/realistic-products/colour-expansion/images/crewneck-1466-blue-jean-punched-out.png",
+      "review": "Exact PUNCHED OUT. spelling, single centered line, Rust on Blue Jean, full garment.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "15bc6d7ab63df53bdd8f8a54015e4ce75f607bca5c2681ae6b684ef992e71ee9",
+      "bytes": 2608558
+    },
+    {
+      "key": "crewneck-1466-blue-jean-clock",
+      "refs": [
+        "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-9c0e6486-43b7-46c3-92de-f85114543f97.png"
+      ],
+      "prompt": "Precise product photo edit. Keep this entire Blue Jean crewneck photo exactly the same, including garment, folds, colour, warm floor, light and framing. Only change the size of the left chest clock emblem: REDUCE its TOTAL HEIGHT to40percent of the current height, about30pixels tall on this1254square photograph (real-world25mm total height). Keep same centre position, Ink ring, Rust dot/rays, exact geometry. Tiny subtle actual embroidery scale. Do not add text or any other changes.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-0bde2b97-f27d-4e0b-82ed-a554e5101b6e.png",
+      "output": "store/realistic-products/colour-expansion/images/crewneck-1466-blue-jean-clock.png",
+      "review": "Visually checked displayed output: exact emblem/wordmark, small placement, correct colour direction and full garment.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "778307deeae2c9ec674fbc679f28886c3fc7ae5c0faf6127f1fec26e80bc567d",
+      "bytes": 2424792
+    },
+    {
+      "key": "sweatpants-1469-pepper-logo",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\sweatpants-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\logo-dark.png"
+      ],
+      "prompt": "Use case: product-mockup. Reference1 supplies exact garment silhouette, styling, art placement/scale and warm studio photography; reference2 supplies exact embroidery artwork. Create one Comfort Colors1469 relaxed lightweight cuffed sweatpants. Change base fabric to supplier Pepper (#5C574F), washed warm charcoal-grey with brown undertone, distinctly lighter and warmer than near-black. Preserve100%ring-spun cotton garment-dyed220gsm texture, two front slash pockets, ribbed elastic waistband, two natural cream FLAT drawcords, ribbed ankle cuffs. Show full pair of pants front view arranged naturally; feet/waistband complete. Keep small embroidery on wearer LEFT upper thigh(viewer right) below the pocket. Exact OFF SHFT logo, NO I in SHFT,63mm total width, reference2 precise geometry and thread colours. Bone lettering/ring with Sun gold clock accents exactly as reference2, if present. No additional logo or artwork. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-b8a01edb-eb7e-40df-b654-c0bf0dfde128.png",
+      "output": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-logo.png",
+      "review": "Visually checked displayed output: exact emblem/wordmark, small placement, correct colour direction and full garment.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "3daae1927d8e0f2d53f725c3958ff59e3f16a6b2ed46dac0c9ee02c6a8ab2c6f",
+      "bytes": 1960573
+    },
+    {
+      "key": "sweatpants-1469-pepper-clock",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\sweatpants-clock.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\symbol-dark.png"
+      ],
+      "prompt": "Use case: product-mockup. Reference1 supplies exact garment silhouette, styling, art placement/scale and warm studio photography; reference2 supplies exact embroidery artwork. Create one Comfort Colors1469 relaxed lightweight cuffed sweatpants. Change base fabric to supplier Pepper (#5C574F), washed warm charcoal-grey with brown undertone, distinctly lighter and warmer than near-black. Preserve100%ring-spun cotton garment-dyed220gsm texture, two front slash pockets, ribbed elastic waistband, two natural cream FLAT drawcords, ribbed ankle cuffs. Show full pair of pants front view arranged naturally; feet/waistband complete. Keep small embroidery on wearer LEFT upper thigh(viewer right) below the pocket. Only the clock emblem from reference2, tiny25mm total height, approximately30pixels tall in1254px output; preserve circle, centre dot, separated rays. No lettering. Bone lettering/ring with Sun gold clock accents exactly as reference2, if present. No additional logo or artwork. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-1df57cfc-e170-4c0e-a6eb-fb14671bbf44.png",
+      "output": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-clock.png",
+      "review": "Visually checked displayed output: exact emblem/wordmark, small placement, correct colour direction and full garment.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "22541396edeb762046bf16ac79b40c54e92d54a5d2dcccf3c191ca5c24f032c0",
+      "bytes": 1876301
+    },
+    {
+      "key": "sweatpants-1469-pepper-punched-out",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\sweatpants-punched-out.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\09-punched-out\\preview-slate.png"
+      ],
+      "prompt": "Use case: product-mockup. Reference1 supplies exact garment silhouette, styling, art placement/scale and warm studio photography; reference2 supplies exact embroidery artwork. Create one Comfort Colors1469 relaxed lightweight cuffed sweatpants. Change base fabric to supplier Pepper (#5C574F), washed warm charcoal-grey with brown undertone, distinctly lighter and warmer than near-black. Preserve100%ring-spun cotton garment-dyed220gsm texture, two front slash pockets, ribbed elastic waistband, two natural cream FLAT drawcords, ribbed ankle cuffs. Show full pair of pants front view arranged naturally; feet/waistband complete. Keep small embroidery on wearer LEFT upper thigh(viewer right) below the pocket. Exact one-line text \"PUNCHED OUT.\" from approved v2 reference2, Bone thread, small practical80mm total width; preserve wide-spaced uppercase sans lettering and period. Do not copy the reference background. Bone lettering/ring with Sun gold clock accents exactly as reference2, if present. No additional logo or artwork. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-dd7a62bf-b685-49ad-bb2f-c8b8406c36f0.png",
+      "output": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-punched-out.png",
+      "review": "Visually checked: correct small thigh placement and legible artwork, natural cream cords, rib cuffs, distinct supplier shade.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "1bcf0c81cb39cd186ab8e5a248ef97c75200fdece841d6cc1d1d1d2cf992938a",
+      "bytes": 1926742
+    },
+    {
+      "key": "sweatpants-1469-espresso-logo",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\sweatpants-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\logo-one-colour-bone.png"
+      ],
+      "prompt": "Use case: product-mockup. Reference1 supplies exact garment silhouette, styling, art placement/scale and warm studio photography; reference2 supplies exact embroidery artwork. Create one Comfort Colors1469 relaxed lightweight cuffed sweatpants. Change base fabric to supplier Espresso (#966F56), medium warm muted tobacco brown, not black or dark chocolate. Preserve100%ring-spun cotton garment-dyed220gsm texture, two front slash pockets, ribbed elastic waistband, two natural cream FLAT drawcords, ribbed ankle cuffs. Show full pair of pants front view arranged naturally; feet/waistband complete. Keep small embroidery on wearer LEFT upper thigh(viewer right) below the pocket. Exact OFF SHFT logo, NO I in SHFT,63mm total width, reference2 precise geometry and thread colours. All artwork is ONE-COLOUR warm Bone, including logo rays and clock rays; no yellow/Sun anywhere. No additional logo or artwork. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-f031a385-affc-4789-a881-9adce78c6841.png",
+      "output": "store/realistic-products/colour-expansion/images/sweatpants-1469-espresso-logo.png",
+      "review": "Visually checked: correct small thigh placement and legible artwork, natural cream cords, rib cuffs, distinct supplier shade.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "fa9b5bb061b5a7a17defc9028b445f72919a3fcf04bf691e8d811cfd0832d37f",
+      "bytes": 1980878
+    },
+    {
+      "key": "sweatpants-1469-espresso-clock",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\sweatpants-clock.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\symbol-one-colour-bone.png"
+      ],
+      "prompt": "Use case: product-mockup. Reference1 supplies exact garment silhouette, styling, art placement/scale and warm studio photography; reference2 supplies exact embroidery artwork. Create one Comfort Colors1469 relaxed lightweight cuffed sweatpants. Change base fabric to supplier Espresso (#966F56), medium warm muted tobacco brown, not black or dark chocolate. Preserve100%ring-spun cotton garment-dyed220gsm texture, two front slash pockets, ribbed elastic waistband, two natural cream FLAT drawcords, ribbed ankle cuffs. Show full pair of pants front view arranged naturally; feet/waistband complete. Keep small embroidery on wearer LEFT upper thigh(viewer right) below the pocket. Only the clock emblem from reference2, tiny25mm total height, approximately30pixels tall in1254px output; preserve circle, centre dot, separated rays. No lettering. All artwork is ONE-COLOUR warm Bone, including logo rays and clock rays; no yellow/Sun anywhere. No additional logo or artwork. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-b54771d2-aeb1-4be9-9940-a2ce6cd5635f.png",
+      "output": "store/realistic-products/colour-expansion/images/sweatpants-1469-espresso-clock.png",
+      "review": "Visually checked: correct small thigh placement and legible artwork, natural cream cords, rib cuffs, distinct supplier shade.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "9d78bc053839fb61d267d0b4842e19bb18464f30af8bbe9d64c8dafd9237b133",
+      "bytes": 1861442
+    },
+    {
+      "key": "sweatpants-1469-espresso-punched-out",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\sweatpants-punched-out.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\09-punched-out\\preview-slate.png"
+      ],
+      "prompt": "Use case: product-mockup. Reference1 supplies exact garment silhouette, styling, art placement/scale and warm studio photography; reference2 supplies exact embroidery artwork. Create one Comfort Colors1469 relaxed lightweight cuffed sweatpants. Change base fabric to supplier Espresso (#966F56), medium warm muted tobacco brown, not black or dark chocolate. Preserve100%ring-spun cotton garment-dyed220gsm texture, two front slash pockets, ribbed elastic waistband, two natural cream FLAT drawcords, ribbed ankle cuffs. Show full pair of pants front view arranged naturally; feet/waistband complete. Keep small embroidery on wearer LEFT upper thigh(viewer right) below the pocket. Exact one-line text \"PUNCHED OUT.\" from approved v2 reference2, Bone thread, small practical80mm total width; preserve wide-spaced uppercase sans lettering and period. Do not copy the reference background. All artwork is ONE-COLOUR warm Bone, including logo rays and clock rays; no yellow/Sun anywhere. No additional logo or artwork. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-a804243f-521d-4bd3-9493-b31772901f17.png",
+      "output": "store/realistic-products/colour-expansion/images/sweatpants-1469-espresso-punched-out.png",
+      "review": "Visually checked exact spelling, small placement, shade, full garment silhouette.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "888664ceab0f9c5c27d198542a7225ebee178b1cbfa7f64f59aef6219a084dc5",
+      "bytes": 1979081
+    },
+    {
+      "key": "tee-1717-blue-spruce-logo",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\tee-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\logo-dark.png"
+      ],
+      "prompt": "Use case: product-mockup. Image 1 is the approved garment and studio reference; image 2 is exact embroidery artwork. Create a single Comfort Colors 1717 Heavyweight short sleeve T-shirt in supplier Blue Spruce (#4C6151), a muted medium-dark forest green. Preserve image 1's relaxed garment-dyed cotton tee construction and photo styling, changing only garment colour and the embroidery colours/design specified. NO POCKET. 100% ring-spun cotton, 207 gsm, rib crew neck, double-stitched short-sleeve and bottom hems. Wearer LEFT chest (viewer right) only: exact small OFF SHFT logo from image 2, 63 mm total width, Bone lettering with Sun rays/dot. Exact spelling OFF SHFT without an I. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-2e2a0080-4cac-4db2-8b16-d3791bd188b9.png",
+      "output": "store/realistic-products/colour-expansion/images/tee-1717-blue-spruce-logo.png",
+      "review": "Visually checked exact spelling, small placement, shade, full garment silhouette.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "1727e8c2704d2774400cff71fea9c29a3861c5dc9eb248f631b9cf1c7b577fa8",
+      "bytes": 2250686
+    },
+    {
+      "key": "tee-6030-white-logo",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\tee-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\logo-light.png"
+      ],
+      "prompt": "Use case: product-mockup. Reference image 1 supplies photography style and base relaxed cotton T-shirt shape ONLY. Reference image 2 is exact approved embroidery artwork. Create a single Comfort Colors 6030 POCKET T-SHIRT in crisp supplier White (#FFFFFF). This garment MUST have a plain BLANK patch pocket on the wearer's LEFT chest (viewer's right), with authentic stitched pocket edges and open top. Relaxed garment-dyed 100% ring-spun cotton, heavyweight 207 gsm, rib neck, double-stitched sleeve/bottom hems. Embroider the precise OFF SHFT logo from image 2 in Ink with Rust clock accents at CENTRE FRONT upper chest, centred horizontally on the shirt, above and clear of the pocket level. Small63mm total logo width, no letter I in SHFT. KEEP THE POCKET COMPLETELY BLANK; no embroidery on the pocket or left chest. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-71ece7cd-c6aa-4a88-a1f0-c5a5c1affc01.png",
+      "output": "store/realistic-products/colour-expansion/images/tee-6030-white-logo.png",
+      "review": "Visually checked exact spelling/emblem and requested placement, full garment. Pocket tee has blank pocket and center-front logo; Blue Spruce clock reduced to discreet scale.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "6e106d1d01f3aa26d878d4929b76f3cd9897019485fd2510feba85f8bbddb784",
+      "bytes": 2024853
+    },
+    {
+      "key": "tee-1717-blue-spruce-clock",
+      "refs": [
+        "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-d8706c09-5141-45c1-8c93-3e441969e357.png"
+      ],
+      "prompt": "Precise photo edit. Keep the Blue Spruce T-shirt image identical. Shrink ONLY the chest clock emblem to35percent of its current height and width, keeping the same centre point. It should look like extremely discreet25mm actual embroidery, a little over the width of a shirt-collar seam, roughly20pixels tall on this1254image. Keep Bone ring, Sun dot/rays, complete precise geometry and stitch texture. Do not change anything else.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-2cb9e532-7454-4b6c-88c1-4e3aab1c3f45.png",
+      "output": "store/realistic-products/colour-expansion/images/tee-1717-blue-spruce-clock.png",
+      "review": "Visually checked exact spelling/emblem and requested placement, full garment. Pocket tee has blank pocket and center-front logo; Blue Spruce clock reduced to discreet scale.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "79fd9b6b9a352eb7a02454cc1a639ca8d7ab600632397bb6a6edc39ade9602c6",
+      "bytes": 2059888
+    },
+    {
+      "key": "tee-6030-white-clock",
+      "refs": [
+        "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-8b6103e6-32b1-49c8-a6fc-338579f61363.png"
+      ],
+      "prompt": "Precise image edit. Preserve this entire White Comfort Colors6030 pocket T-shirt photograph unchanged, especially blank pocket, blank torso, sleeve placement, fabric, light and framing. ONLY shrink the left-sleeve clock emblem to35percent of its present height/width, keeping its centre in the same spot on the outer sleeve. Tiny discreet25mm real embroidery, about20pixels total height in this1254square photo. Keep Ink circle and Rust dot/rays with exact geometry. No text. No other changes.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-4b1bf8c7-8b6c-4633-aa16-3aecbbe89399.png",
+      "output": "store/realistic-products/colour-expansion/images/tee-6030-white-clock.png",
+      "review": "Visually checked: tiny Ink/Rust emblem on wearer-left sleeve, blank left-chest pocket and front torso, full White tee.",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "406c9f0d44fa25b3f3e13d4b3f7fca6468a5edd1887cfa67d856ea9ab2aff7e4",
+      "bytes": 1877889
+    }
+  ],
+  "earlierAttempts": [
+    {
+      "key": "crewneck-1466-blue-jean-clock",
+      "prompt": "Use case: product-mockup. Image1 is garment/photography reference, image2 exact embroidery artwork. Keep the Comfort Colors1466 lightweight crewneck shape and washed Blue Jean fabric(#9AA5B3) from image1. Replace its wordmark with ONLY the clock emblem from image2 on wearer LEFT chest(viewer right). Tiny25mm emblem total height, roughly one-third the width of the previous small wordmark. Preserve Ink ring with Rust centre dot and separated Rust rays, no lettering. No logo elsewhere. Relaxed 217gsm100% cotton fleece with ribbed neckline/cuffs/waistband. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\crewneck-1466-blue-jean-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\symbol-light.png"
+      ],
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-9c0e6486-43b7-46c3-92de-f85114543f97.png",
+      "reason": "Initial clock looked oversized; reduced with built-in image generation."
+    },
+    {
+      "key": "tee-1717-blue-spruce-clock",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\tee-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\symbol-dark.png"
+      ],
+      "prompt": "Use case: product-mockup. Image 1 is the approved garment and studio reference; image 2 is exact embroidery artwork. Create a single Comfort Colors 1717 Heavyweight short sleeve T-shirt in supplier Blue Spruce (#4C6151), a muted medium-dark forest green. Preserve image 1's relaxed garment-dyed cotton tee construction and photo styling, changing only garment colour and the embroidery colours/design specified. NO POCKET. 100% ring-spun cotton, 207 gsm, rib crew neck, double-stitched short-sleeve and bottom hems. Wearer LEFT chest (viewer right) only: ONLY the tiny clock symbol from image 2 in Bone/Sun, 25 mm TOTAL height, about 30 pixels tall in the finished1254square image, no wordmark or lettering. Keep the circular ring, tiny centre dot and separated rays. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-d8706c09-5141-45c1-8c93-3e441969e357.png",
+      "reason": "Initial clock looked oversized; reduced with built-in image generation."
+    },
+    {
+      "key": "tee-6030-white-clock",
+      "refs": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\tee-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\symbol-light.png"
+      ],
+      "prompt": "Use case: product-mockup. Reference image 1 supplies photography style and base relaxed cotton T-shirt shape ONLY. Reference image 2 is exact approved embroidery artwork. Create a single Comfort Colors 6030 POCKET T-SHIRT in crisp supplier White (#FFFFFF). This garment MUST have a plain BLANK patch pocket on the wearer's LEFT chest (viewer's right), with authentic stitched pocket edges and open top. Relaxed garment-dyed 100% ring-spun cotton, heavyweight 207 gsm, rib neck, double-stitched sleeve/bottom hems. Place ONLY the tiny 25 mm clock symbol from image 2 on the top/outside of the wearer's LEFT SLEEVE, near upper arm. Ink ring with Rust dot and rays. Arrange the shirt in a natural slightly angled front flat lay so the wearer-left sleeve (viewer right) and its emblem are fully visible. The entire front torso and chest pocket stay BLANK. No chest embroidery, no lettering, no logo on pocket. Square single-product photorealistic ecommerce hero. Warm ivory studio floor/background, soft natural directional upper-left light and believable gentle shadows, full garment visible with generous clear edge margin. Fine natural cotton texture and realistic flat embroidery stitches. No person, mannequin, props, packaging, watermark or graphic text outside product; no collage.",
+      "source": "C:\\Users\\vicke\\.codex\\generated_images\\01a185c6-195e-7672-a9dc-ba115a8d5014\\exec-8b6103e6-32b1-49c8-a6fc-338579f61363.png",
+      "reason": "Initial clock looked oversized; reduced with built-in image generation."
+    }
+  ]
+}

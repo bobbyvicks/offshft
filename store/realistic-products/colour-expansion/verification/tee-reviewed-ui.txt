@@ -1,0 +1,80 @@
+ontainer
+												68629 group
+												72212 complementary Sidekick ID: sidekick
+													85327 group
+														85328 group
+															85329 dialog Changes Secondary Actions: Raise
+																85330 group
+																	85331 button Close review
+																		85332 group
+																85333 status
+																	85334 group
+																		85335 text Review the full set of changes and publish when ready.
+																85336 group
+																	85337 button Publish all changes
+																85338 group Change types
+																	85339 group
+																		85340 toggle button Products, reviewed
+																			85341 group
+																			85342 text Products
+																85343 group
+																	85344 text Show original
+																85345 group
+																	85346 group
+																		85347 check box (settable, string) Show original
+																		85348 text Show original
+																85349 group
+																	85350 status
+																		85351 group
+																		85352 group
+																			85353 heading Some changes can't be opened in the editor
+																		85354 group
+																			85355 group
+																				85356 text Review these changes in the table before publishing.
+																85357 table
+																	85358 row
+																		85359 column header Change type
+																		85360 column header Image
+																		85361 column header Product
+																		85362 column header Options
+																		85363 column header Variants
+																		85364 column header Media
+																		85365 column header Price
+																	85366 row
+																		85367 item Change
+																			85368 group
+																		85369 item
+																			85370 group
+																		85371 item The Clock T-Shirt
+																			85372 group
+																		85373 item Style, Size, Colour
+																			85374 group
+																		85375 item 6 variants changed
+																			85376 group
+																		85377 item tee-clock.png tee-1717-blue-spruce-clock.png tee-6030-white-clock.png Items: tee-clock.png, Media Content Type: IMAGE; tee-1717-blue-spruce-clock.png, Media Content Type: IMAGE, Change: attached; tee-6030-white-clock.png, Media Content Type: IMAGE, Change: attached; offshft-tee-1717-clock.png, Media Content Type: IMAGE; offshft-tee-6030-clock.png, Media Content Type: IMAGE, Variants: Heavyweight / S / Ivory, Variant: gid://shopify/ProductVariant/67946096492866, Media Id: gid://shopify/MediaImage/46665021227330, Media: tee-clock.png; Heavyweight / M / Ivory, Variant: gid://shopify/ProductVariant/67946096525634, Media Id: gid://shopify/MediaImage/46665021227330, Media: tee-clock.png; Heavyweight / L / Ivory, Variant: gid://shopify/ProductVariant/67946096558402, Media Id: gid://shopify/MediaImage/46665021227330, Media: tee-clock.png; Heavyweight / XL / Ivory, Variant: gid://shopify/ProductVariant/67946096591170, Media Id: gid://shopify/MediaImage/46665021227330, Media: tee-clock.png; Heavyweight / 2XL / Ivory, Variant: gid://shopify/ProductVariant/67946096623938, Media Id: gid://shopify/MediaImage/46665021227330, Media: tee-clock.png; Heavyweight / 3XL / Ivory, Variant: gid://shopify/ProductVariant/67946096656706, Media Id: gid://shopify/MediaImage/46665021227330, Media: tee-clock.png; Pocket / S / White, Variant: gid://shopify/ProductVariant/67946096689474, Media Id: gid://shopify/MediaImage/46665864806722, Media: tee-6030-white-clock.png; Pocket / M / White, Variant: gid://shopify/ProductVariant/67946096722242, Media Id: gid://shopify/MediaImage/46665864806722, Media: tee-6030-white-clock.png; Pocket / L / White, Variant: gid://shopify/ProductVariant/67946096755010, Media Id: gid://shopify/MediaImage/46665864806722, Media: tee-6030-white-clock.png; Pocket / XL / White, Variant: gid://shopify/ProductVariant/67946096787778, Media Id: gid://shopify/MediaImage/46665864806722, Media: tee-6030-white-clock.png; Pocket / 2XL / White, Variant: gid://shopify/ProductVariant/67946096820546, Media Id: gid://shopify/MediaImage/46665864806722, Media: tee-6030-white-clock.png; Heavyweight / S / Blue Spruce, Variant: client:blue-spruce-0, Media Id: gid://shopify/MediaImage/46665865494850, Media: tee-1717-blue-spruce-clock.png; Heavyweight / M / Blue Spruce, Variant: client:blue-spruce-1, Media Id: gid://shopify/MediaImage/46665865494850, Media: tee-1717-blue-spruce-clock.png; Heavyweight / L / Blue Spruce, Variant: client:blue-spruce-2, Media Id: gid://shopify/MediaImage/46665865494850, Media: tee-1717-blue-spruce-clock.png; Heavyweight / XL / Blue Spruce, Variant: client:blue-spruce-3, Media Id: gid://shopify/MediaImage/46665865494850, Media: tee-1717-blue-spruce-clock.png; Heavyweight / 2XL / Blue Spruce, Variant: client:blue-spruce-4, Media Id: gid://shopify/MediaImage/46665865494850, Media: tee-1717-blue-spruce-clock.png; Heavyweight / 3XL / Blue Spruce, Variant: client:blue-spruce-5, Media Id: gid://shopify/MediaImage/46665865494850, Media: tee-1717-blue-spruce-clock.png
+																			85378 group
+																				85379 graphic tee-clock.png
+																			85380 group
+																				85381 graphic tee-1717-blue-spruce-clock.png
+																			85382 group
+																				85383 graphic tee-6030-white-clock.png
+																			85384 group
+																		85385 item 44.99
+																			85386 group
+																	85387 row
+																		85388 item Change
+																			85389 group
+																		85390 item
+																			85391 group
+																		85392 item OFF SHFT Logo T-Shirt
+																			85393 group
+																		85394 item Style, Size, Colour
+																			85395 group
+																		85396 item 6 variants changed
+																			85397 group
+																		85398 item tee-logo.png tee-1717-blue-spruce-logo.png tee-6030-white-logo.png Items: tee-logo.png, Media Content Type: IMAGE; tee-1717-blue-spruce-logo.png, Media Content Type: IMAGE, Change: attached; tee-6030-white-logo.png, Media Content Type: IMAGE, Change: attached; offshft-tee-1717-logo.png, Media Content Type: IMAGE; offshft-tee-6030-logo.png, Media Content Type: IMAGE, Variants: Heavyweight / S / Ivory, Variant: gid://shopify/ProductVariant/67946096099650, Media Id: gid://shopify/MediaImage/46665021292866, Media: tee-logo.png; Heavyweight / M / Ivory, Variant: gid://shopify/ProductVariant/67946096132418, Media Id: gid://shopify/MediaImage/46665021292866, Media: tee-logo.png; Heavyweight / L / Ivory, Variant: gid://shopify/ProductVariant/67946096165186, Media Id: gid://shopify/MediaImage/46665021292866, Media: tee-logo.png; Heavyweight / XL / Ivory, Variant: gid://shopify/ProductVariant/67946096197954, Media Id: gid://shopify/MediaImage/46665021292866, Media: tee-logo.png; Heavyweight / 2XL / Ivory, Variant: gid://shopify/ProductVariant/67946096230722, Media Id: gid://shopify/MediaImage/46665021292866, Media: tee-logo.png; Heavyweight / 3XL / Ivory, Variant: gid://shopify/ProductVariant/67946096263490, Media Id: gid://shopify/MediaImage/46665021292866, Media: tee-logo.png; Pocket / S / White, Variant: gid://shopify/ProductVariant/67946096296258, Media Id: gid://shopify/MediaImage/46665865429314, Media: tee-6030-white-logo.png; Pocket / M / White, Variant: gid://shopify/ProductVariant/67946096329026, Media Id: gid://shopify/MediaImage/46665865429314, Media: tee-6030-white-logo.png; Pocket / L / White, Variant: gid://shopify/ProductVariant/67946096361794, Media Id: gid://shopify/MediaImage/46665865429314, Media: tee-6030-white-logo.png; Pocket / XL / White, Variant: gid://shopify/ProductVariant/67946096394562, Media Id: gid://shopify/MediaImage/46665865429314, Media: tee-6030-white-logo.png; Pocket / 2XL / White, Variant: gid://shopify/ProductVariant/67946096427330, Media Id: gid://shopify/MediaImage/46665865429314, Media: tee-6030-white-logo.png; Heavyweight / S / Blue Spruce, Variant: client:blue-spruce-0, Media Id: gid://shopify/MediaImage/46665865888066, Media: tee-1717-blue-spruce-logo.png; Heavyweight / M / Blue Spruce, Variant: client:blue-spruce-1, Media Id: gid://shopify/MediaImage/46665865888066, Media: tee-1717-blue-spruce-logo.png; Heavyweight / L / Blue Spruce, Variant: client:blue-spruce-2, Media Id: gid://shopify/MediaImage/46665865888066, Media: tee-1717-blue-spruce-logo.png; Heavyweight / XL / Blue Spruce, Variant: client:blue-spruce-3, Media Id: gid://shopify/MediaImage/46665865888066, Media: tee-1717-blue-spruce-logo.png; Heavyweight / 2XL / Blue Spruce, Variant: client:blue-spruce-4, Media Id: gid://shopify/MediaImage/46665865888066, Media: tee-1717-blue-spruce-logo.png; Heavyweight / 3XL / Blue Spruce, Variant: client:blue-spruce-5, Media Id: gid://shopify/MediaImage/46665865888066, Media: tee-1717-blue-spruce-logo.png
+																			85399 group
+																				85400 graphic tee-logo.png
+																			85401 group
+																				85402 graphic tee-1717-blue-spruce-logo.png
+								

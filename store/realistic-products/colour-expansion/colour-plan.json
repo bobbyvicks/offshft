@@ -1,0 +1,3755 @@
+{
+  "date": "2026-10-29",
+  "scope": "Colour options, valid variants, matching AI mockup images, factual garment construction corrections, and six approved 3XL removals",
+  "preserve": [
+    "all original variant IDs except the six explicitly approved removals",
+    "existing prices",
+    "SKUs",
+    "inventory and fulfilment configuration of retained variants",
+    "product status",
+    "publication channels",
+    "existing media"
+  ],
+  "removalDecision": "Owner explicitly instructed: remove the 3XL options from sweatpants and jackets.",
+  "approvedVariantRemovals": [
+    {
+      "productKey": "jacket-clock",
+      "productId": "15476778860866",
+      "variantId": "gid://shopify/ProductVariant/67946097312066",
+      "options": {
+        "Size": "3XL",
+        "Colour": "Black"
+      },
+      "reason": "Existing 3XL is outside the supplier S\u20132XL range; owner approved removal."
+    },
+    {
+      "productKey": "jacket-logo",
+      "productId": "15476778795330",
+      "variantId": "gid://shopify/ProductVariant/67946097115458",
+      "options": {
+        "Size": "3XL",
+        "Colour": "Black"
+      },
+      "reason": "Existing 3XL is outside the supplier S\u20132XL range; owner approved removal."
+    },
+    {
+      "productKey": "jacket-punched-out",
+      "productId": "15476778926402",
+      "variantId": "gid://shopify/ProductVariant/67946097508674",
+      "options": {
+        "Size": "3XL",
+        "Colour": "Black"
+      },
+      "reason": "Existing 3XL is outside the supplier S\u20132XL range; owner approved removal."
+    },
+    {
+      "productKey": "sweatpants-clock",
+      "productId": "15476774994242",
+      "variantId": "gid://shopify/ProductVariant/67946091086146",
+      "options": {
+        "Size": "3XL",
+        "Colour": "Pepper"
+      },
+      "reason": "Existing 3XL is outside the supplier S\u20132XL range; owner approved removal."
+    },
+    {
+      "productKey": "sweatpants-logo",
+      "productId": "15476774961474",
+      "variantId": "gid://shopify/ProductVariant/67946090889538",
+      "options": {
+        "Size": "3XL",
+        "Colour": "Pepper"
+      },
+      "reason": "Existing 3XL is outside the supplier S\u20132XL range; owner approved removal."
+    },
+    {
+      "productKey": "sweatpants-punched-out",
+      "productId": "15476775059778",
+      "variantId": "gid://shopify/ProductVariant/67946091348290",
+      "options": {
+        "Size": "3XL",
+        "Colour": "Pepper"
+      },
+      "reason": "Existing 3XL is outside the supplier S\u20132XL range; owner approved removal."
+    }
+  ],
+  "approvedRemovalCount": 6,
+  "originalVariants": 142,
+  "retainedOriginalVariants": 136,
+  "newVariants": 117,
+  "finalVariants": 253,
+  "imageCombinations": 57,
+  "products": [
+    {
+      "key": "crewneck-clock",
+      "title": "The Clock Crewneck",
+      "productId": "15476774830402",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476774830402",
+      "originalVariantCount": 6,
+      "retainedOriginalVariantCount": 6,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 6,
+      "finalVariantCount": 12,
+      "pairs": [
+        {
+          "style": null,
+          "blank": "Comfort Colors 1466",
+          "colour": "Ivory",
+          "existingColour": true,
+          "image": "../images/crewneck-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090103106",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090103106",
+              "price": "79.99",
+              "image": "../images/crewneck-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090135874",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090135874",
+              "price": "79.99",
+              "image": "../images/crewneck-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090168642",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090168642",
+              "price": "79.99",
+              "image": "../images/crewneck-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090201410",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090201410",
+              "price": "79.99",
+              "image": "../images/crewneck-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090234178",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090234178",
+              "price": "79.99",
+              "image": "../images/crewneck-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "3XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090266946",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090266946",
+              "price": "79.99",
+              "image": "../images/crewneck-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": null,
+          "blank": "Comfort Colors 1466",
+          "colour": "Blue Jean",
+          "existingColour": false,
+          "image": "images/crewneck-1466-blue-jean-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090103106",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090135874",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090168642",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090201410",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090234178",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "3XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090266946",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "crewneck-logo",
+      "title": "OFF SHFT Logo Crewneck",
+      "productId": "15476774764866",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476774764866",
+      "originalVariantCount": 6,
+      "retainedOriginalVariantCount": 6,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 6,
+      "finalVariantCount": 12,
+      "pairs": [
+        {
+          "style": null,
+          "blank": "Comfort Colors 1466",
+          "colour": "Ivory",
+          "existingColour": true,
+          "image": "../images/crewneck-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946089906498",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946089906498",
+              "price": "79.99",
+              "image": "../images/crewneck-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946089939266",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946089939266",
+              "price": "79.99",
+              "image": "../images/crewneck-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946089972034",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946089972034",
+              "price": "79.99",
+              "image": "../images/crewneck-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090004802",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090004802",
+              "price": "79.99",
+              "image": "../images/crewneck-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090037570",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090037570",
+              "price": "79.99",
+              "image": "../images/crewneck-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "3XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090070338",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090070338",
+              "price": "79.99",
+              "image": "../images/crewneck-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": null,
+          "blank": "Comfort Colors 1466",
+          "colour": "Blue Jean",
+          "existingColour": false,
+          "image": "images/crewneck-1466-blue-jean-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946089906498",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946089939266",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946089972034",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090004802",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090037570",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "3XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090070338",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "crewneck-punched-out",
+      "title": "Punched Out. Crewneck",
+      "productId": "15476774895938",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476774895938",
+      "originalVariantCount": 6,
+      "retainedOriginalVariantCount": 6,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 6,
+      "finalVariantCount": 12,
+      "pairs": [
+        {
+          "style": null,
+          "blank": "Comfort Colors 1466",
+          "colour": "Ivory",
+          "existingColour": true,
+          "image": "../images/crewneck-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090529090",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090529090",
+              "price": "79.99",
+              "image": "../images/crewneck-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090561858",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090561858",
+              "price": "79.99",
+              "image": "../images/crewneck-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090594626",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090594626",
+              "price": "79.99",
+              "image": "../images/crewneck-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090627394",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090627394",
+              "price": "79.99",
+              "image": "../images/crewneck-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090660162",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090660162",
+              "price": "79.99",
+              "image": "../images/crewneck-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "3XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090692930",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090692930",
+              "price": "79.99",
+              "image": "../images/crewneck-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": null,
+          "blank": "Comfort Colors 1466",
+          "colour": "Blue Jean",
+          "existingColour": false,
+          "image": "images/crewneck-1466-blue-jean-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090529090",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090561858",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090594626",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090627394",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090660162",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "3XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090692930",
+              "price": "79.99",
+              "image": "images/crewneck-1466-blue-jean-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hat-clock",
+      "title": "The Clock Hat",
+      "productId": "15476770046274",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476770046274",
+      "originalVariantCount": 4,
+      "retainedOriginalVariantCount": 4,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 1,
+      "finalVariantCount": 5,
+      "pairs": [
+        {
+          "style": "Retro Trucker",
+          "blank": "Yupoong 6606",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "../images/hat-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Retro Trucker",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082173250",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082173250",
+              "price": "34.99",
+              "image": "../images/hat-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Retro Trucker",
+          "blank": "Yupoong 6606",
+          "colour": "Evergreen",
+          "existingColour": false,
+          "image": "images/hat-6606-evergreen-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Retro Trucker",
+                "Colour": "Evergreen"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082173250",
+              "price": "34.99",
+              "image": "images/hat-6606-evergreen-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "5-Panel",
+          "blank": "Otto 31-069",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "images/hat-31-069-black-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "5-Panel",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082206018",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082206018",
+              "price": "34.99",
+              "image": "images/hat-31-069-black-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Dad Hat",
+          "blank": "Yupoong 6245CM",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "images/hat-6245cm-black-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Dad Hat",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082238786",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082238786",
+              "price": "34.99",
+              "image": "images/hat-6245cm-black-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Rope Cap",
+          "blank": "Big Accessories BA671",
+          "colour": "Black/White",
+          "existingColour": true,
+          "image": "images/hat-ba671-black-white-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Rope Cap",
+                "Colour": "Black/White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082271554",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082271554",
+              "price": "34.99",
+              "image": "images/hat-ba671-black-white-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hat-logo",
+      "title": "OFF SHFT Logo Hat",
+      "productId": "15476769980738",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476769980738",
+      "originalVariantCount": 4,
+      "retainedOriginalVariantCount": 4,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 1,
+      "finalVariantCount": 5,
+      "pairs": [
+        {
+          "style": "Retro Trucker",
+          "blank": "Yupoong 6606",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "../images/hat-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Retro Trucker",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082042178",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082042178",
+              "price": "34.99",
+              "image": "../images/hat-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Retro Trucker",
+          "blank": "Yupoong 6606",
+          "colour": "Evergreen",
+          "existingColour": false,
+          "image": "images/hat-6606-evergreen-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Retro Trucker",
+                "Colour": "Evergreen"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082042178",
+              "price": "34.99",
+              "image": "images/hat-6606-evergreen-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "5-Panel",
+          "blank": "Otto 31-069",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "images/hat-31-069-black-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "5-Panel",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082074946",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082074946",
+              "price": "34.99",
+              "image": "images/hat-31-069-black-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Dad Hat",
+          "blank": "Yupoong 6245CM",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "images/hat-6245cm-black-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Dad Hat",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082107714",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082107714",
+              "price": "34.99",
+              "image": "images/hat-6245cm-black-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Rope Cap",
+          "blank": "Big Accessories BA671",
+          "colour": "Black/White",
+          "existingColour": true,
+          "image": "images/hat-ba671-black-white-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Rope Cap",
+                "Colour": "Black/White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082140482",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082140482",
+              "price": "34.99",
+              "image": "images/hat-ba671-black-white-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hat-punched-out",
+      "title": "Punched Out. Hat",
+      "productId": "15476770111810",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476770111810",
+      "originalVariantCount": 4,
+      "retainedOriginalVariantCount": 4,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 1,
+      "finalVariantCount": 5,
+      "pairs": [
+        {
+          "style": "Retro Trucker",
+          "blank": "Yupoong 6606",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "../images/hat-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Retro Trucker",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082304322",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082304322",
+              "price": "34.99",
+              "image": "../images/hat-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Retro Trucker",
+          "blank": "Yupoong 6606",
+          "colour": "Evergreen",
+          "existingColour": false,
+          "image": "images/hat-6606-evergreen-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Retro Trucker",
+                "Colour": "Evergreen"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082304322",
+              "price": "34.99",
+              "image": "images/hat-6606-evergreen-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "5-Panel",
+          "blank": "Otto 31-069",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "images/hat-31-069-black-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "5-Panel",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082337090",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082337090",
+              "price": "34.99",
+              "image": "images/hat-31-069-black-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Dad Hat",
+          "blank": "Yupoong 6245CM",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "images/hat-6245cm-black-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Dad Hat",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082369858",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082369858",
+              "price": "34.99",
+              "image": "images/hat-6245cm-black-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Rope Cap",
+          "blank": "Big Accessories BA671",
+          "colour": "Black/White",
+          "existingColour": true,
+          "image": "images/hat-ba671-black-white-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Rope Cap",
+                "Colour": "Black/White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082402626",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082402626",
+              "price": "34.99",
+              "image": "images/hat-ba671-black-white-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hoodie-clock",
+      "title": "The Clock Hoodie",
+      "productId": "15476770210114",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476770210114",
+      "originalVariantCount": 18,
+      "retainedOriginalVariantCount": 18,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 18,
+      "finalVariantCount": 36,
+      "pairs": [
+        {
+          "style": "Oversized",
+          "blank": "AS Colour 5161",
+          "colour": "Bone",
+          "existingColour": true,
+          "image": "../images/hoodie-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "S",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083025218",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083025218",
+              "price": "89.99",
+              "image": "../images/hoodie-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "M",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083057986",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083057986",
+              "price": "89.99",
+              "image": "../images/hoodie-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "L",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083090754",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083090754",
+              "price": "89.99",
+              "image": "../images/hoodie-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "XL",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083123522",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083123522",
+              "price": "89.99",
+              "image": "../images/hoodie-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "2XL",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083156290",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083156290",
+              "price": "89.99",
+              "image": "../images/hoodie-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "3XL",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083189058",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083189058",
+              "price": "89.99",
+              "image": "../images/hoodie-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Oversized",
+          "blank": "AS Colour 5161",
+          "colour": "Pine Green",
+          "existingColour": false,
+          "image": "images/hoodie-5161-pine-green-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "S",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083025218",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "M",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083057986",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "L",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083090754",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "XL",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083123522",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "2XL",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083156290",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "3XL",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083189058",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Garment-Dyed",
+          "blank": "Comfort Colors 1567",
+          "colour": "White",
+          "existingColour": true,
+          "image": "images/hoodie-1567-white-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "S",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083221826",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083221826",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "M",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083254594",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083254594",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "L",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083287362",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083287362",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083320130",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083320130",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "2XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083352898",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083352898",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "3XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083385666",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083385666",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Garment-Dyed",
+          "blank": "Comfort Colors 1567",
+          "colour": "Blue Spruce",
+          "existingColour": false,
+          "image": "images/hoodie-1567-blue-spruce-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "S",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083221826",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "M",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083254594",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "L",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083287362",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083320130",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "2XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083352898",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "3XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083385666",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Lightweight",
+          "blank": "Comfort Colors 1467",
+          "colour": "Ivory",
+          "existingColour": true,
+          "image": "images/hoodie-1467-ivory-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "S",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083418434",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083418434",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "M",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083451202",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083451202",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "L",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083483970",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083483970",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083516738",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083516738",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "2XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083549506",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083549506",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "3XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083582274",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083582274",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Lightweight",
+          "blank": "Comfort Colors 1467",
+          "colour": "Blue Jean",
+          "existingColour": false,
+          "image": "images/hoodie-1467-blue-jean-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "S",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083418434",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "M",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083451202",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "L",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083483970",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083516738",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "2XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083549506",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "3XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083582274",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hoodie-logo",
+      "title": "OFF SHFT Logo Hoodie",
+      "productId": "15476770144578",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476770144578",
+      "originalVariantCount": 18,
+      "retainedOriginalVariantCount": 18,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 18,
+      "finalVariantCount": 36,
+      "pairs": [
+        {
+          "style": "Oversized",
+          "blank": "AS Colour 5161",
+          "colour": "Bone",
+          "existingColour": true,
+          "image": "../images/hoodie-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "S",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082435394",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082435394",
+              "price": "89.99",
+              "image": "../images/hoodie-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "M",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082468162",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082468162",
+              "price": "89.99",
+              "image": "../images/hoodie-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "L",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082500930",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082500930",
+              "price": "89.99",
+              "image": "../images/hoodie-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "XL",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082533698",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082533698",
+              "price": "89.99",
+              "image": "../images/hoodie-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "2XL",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082566466",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082566466",
+              "price": "89.99",
+              "image": "../images/hoodie-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "3XL",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082599234",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082599234",
+              "price": "89.99",
+              "image": "../images/hoodie-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Oversized",
+          "blank": "AS Colour 5161",
+          "colour": "Pine Green",
+          "existingColour": false,
+          "image": "images/hoodie-5161-pine-green-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "S",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082435394",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "M",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082468162",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "L",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082500930",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "XL",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082533698",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "2XL",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082566466",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "3XL",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082599234",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Garment-Dyed",
+          "blank": "Comfort Colors 1567",
+          "colour": "White",
+          "existingColour": true,
+          "image": "images/hoodie-1567-white-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "S",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082632002",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082632002",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "M",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082664770",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082664770",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "L",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082697538",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082697538",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082730306",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082730306",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "2XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082763074",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082763074",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "3XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082795842",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082795842",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Garment-Dyed",
+          "blank": "Comfort Colors 1567",
+          "colour": "Blue Spruce",
+          "existingColour": false,
+          "image": "images/hoodie-1567-blue-spruce-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "S",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082632002",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "M",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082664770",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "L",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082697538",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082730306",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "2XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082763074",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "3XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082795842",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Lightweight",
+          "blank": "Comfort Colors 1467",
+          "colour": "Ivory",
+          "existingColour": true,
+          "image": "images/hoodie-1467-ivory-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "S",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082828610",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082828610",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "M",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082861378",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082861378",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "L",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082894146",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082894146",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082926914",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082926914",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "2XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082959682",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082959682",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "3XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946082992450",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082992450",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Lightweight",
+          "blank": "Comfort Colors 1467",
+          "colour": "Blue Jean",
+          "existingColour": false,
+          "image": "images/hoodie-1467-blue-jean-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "S",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082828610",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "M",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082861378",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "L",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082894146",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082926914",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "2XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082959682",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "3XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946082992450",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "hoodie-punched-out",
+      "title": "Punched Out. Hoodie",
+      "productId": "15476770275650",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476770275650",
+      "originalVariantCount": 18,
+      "retainedOriginalVariantCount": 18,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 18,
+      "finalVariantCount": 36,
+      "pairs": [
+        {
+          "style": "Oversized",
+          "blank": "AS Colour 5161",
+          "colour": "Bone",
+          "existingColour": true,
+          "image": "../images/hoodie-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "S",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083615042",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083615042",
+              "price": "89.99",
+              "image": "../images/hoodie-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "M",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083647810",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083647810",
+              "price": "89.99",
+              "image": "../images/hoodie-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "L",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083680578",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083680578",
+              "price": "89.99",
+              "image": "../images/hoodie-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "XL",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083713346",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083713346",
+              "price": "89.99",
+              "image": "../images/hoodie-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "2XL",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083746114",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083746114",
+              "price": "89.99",
+              "image": "../images/hoodie-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "3XL",
+                "Colour": "Bone"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083778882",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083778882",
+              "price": "89.99",
+              "image": "../images/hoodie-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Oversized",
+          "blank": "AS Colour 5161",
+          "colour": "Pine Green",
+          "existingColour": false,
+          "image": "images/hoodie-5161-pine-green-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "S",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083615042",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "M",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083647810",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "L",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083680578",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "XL",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083713346",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "2XL",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083746114",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Oversized",
+                "Size": "3XL",
+                "Colour": "Pine Green"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083778882",
+              "price": "89.99",
+              "image": "images/hoodie-5161-pine-green-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Garment-Dyed",
+          "blank": "Comfort Colors 1567",
+          "colour": "White",
+          "existingColour": true,
+          "image": "images/hoodie-1567-white-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "S",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083811650",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083811650",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "M",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083844418",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083844418",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "L",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083877186",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083877186",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083909954",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083909954",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "2XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083942722",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083942722",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "3XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946083975490",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083975490",
+              "price": "89.99",
+              "image": "images/hoodie-1567-white-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Garment-Dyed",
+          "blank": "Comfort Colors 1567",
+          "colour": "Blue Spruce",
+          "existingColour": false,
+          "image": "images/hoodie-1567-blue-spruce-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "S",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083811650",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "M",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083844418",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "L",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083877186",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083909954",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "2XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083942722",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Garment-Dyed",
+                "Size": "3XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946083975490",
+              "price": "89.99",
+              "image": "images/hoodie-1567-blue-spruce-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Lightweight",
+          "blank": "Comfort Colors 1467",
+          "colour": "Ivory",
+          "existingColour": true,
+          "image": "images/hoodie-1467-ivory-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "S",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946084008258",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084008258",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "M",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946084041026",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084041026",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "L",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946084073794",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084073794",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946084106562",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084106562",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "2XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946084139330",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084139330",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "3XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946084172098",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084172098",
+              "price": "89.99",
+              "image": "images/hoodie-1467-ivory-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Lightweight",
+          "blank": "Comfort Colors 1467",
+          "colour": "Blue Jean",
+          "existingColour": false,
+          "image": "images/hoodie-1467-blue-jean-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "S",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084008258",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "M",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084041026",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "L",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084073794",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084106562",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "2XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084139330",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Lightweight",
+                "Size": "3XL",
+                "Colour": "Blue Jean"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946084172098",
+              "price": "89.99",
+              "image": "images/hoodie-1467-blue-jean-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "jacket-clock",
+      "title": "The Clock Jacket",
+      "productId": "15476778860866",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476778860866",
+      "originalVariantCount": 6,
+      "retainedOriginalVariantCount": 5,
+      "approvedVariantRemovalIds": [
+        "gid://shopify/ProductVariant/67946097312066"
+      ],
+      "newVariantCount": 5,
+      "finalVariantCount": 10,
+      "pairs": [
+        {
+          "style": null,
+          "blank": "Champion CO200",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "../images/jacket-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097148226",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097148226",
+              "price": "99.99",
+              "image": "../images/jacket-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097180994",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097180994",
+              "price": "99.99",
+              "image": "../images/jacket-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097213762",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097213762",
+              "price": "99.99",
+              "image": "../images/jacket-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097246530",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097246530",
+              "price": "99.99",
+              "image": "../images/jacket-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097279298",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097279298",
+              "price": "99.99",
+              "image": "../images/jacket-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": null,
+          "blank": "Champion CO200",
+          "colour": "Light Blue",
+          "existingColour": false,
+          "image": "images/jacket-co200-light-blue-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097148226",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097180994",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097213762",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097246530",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097279298",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "jacket-logo",
+      "title": "OFF SHFT Logo Jacket",
+      "productId": "15476778795330",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476778795330",
+      "originalVariantCount": 6,
+      "retainedOriginalVariantCount": 5,
+      "approvedVariantRemovalIds": [
+        "gid://shopify/ProductVariant/67946097115458"
+      ],
+      "newVariantCount": 5,
+      "finalVariantCount": 10,
+      "pairs": [
+        {
+          "style": null,
+          "blank": "Champion CO200",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "../images/jacket-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096951618",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096951618",
+              "price": "99.99",
+              "image": "../images/jacket-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096984386",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096984386",
+              "price": "99.99",
+              "image": "../images/jacket-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097017154",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097017154",
+              "price": "99.99",
+              "image": "../images/jacket-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097049922",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097049922",
+              "price": "99.99",
+              "image": "../images/jacket-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097082690",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097082690",
+              "price": "99.99",
+              "image": "../images/jacket-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": null,
+          "blank": "Champion CO200",
+          "colour": "Light Blue",
+          "existingColour": false,
+          "image": "images/jacket-co200-light-blue-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096951618",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096984386",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097017154",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097049922",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097082690",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "jacket-punched-out",
+      "title": "Punched Out. Jacket",
+      "productId": "15476778926402",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476778926402",
+      "originalVariantCount": 6,
+      "retainedOriginalVariantCount": 5,
+      "approvedVariantRemovalIds": [
+        "gid://shopify/ProductVariant/67946097508674"
+      ],
+      "newVariantCount": 5,
+      "finalVariantCount": 10,
+      "pairs": [
+        {
+          "style": null,
+          "blank": "Champion CO200",
+          "colour": "Black",
+          "existingColour": true,
+          "image": "../images/jacket-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097344834",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097344834",
+              "price": "99.99",
+              "image": "../images/jacket-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097377602",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097377602",
+              "price": "99.99",
+              "image": "../images/jacket-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097410370",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097410370",
+              "price": "99.99",
+              "image": "../images/jacket-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097443138",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097443138",
+              "price": "99.99",
+              "image": "../images/jacket-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Black"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946097475906",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097475906",
+              "price": "99.99",
+              "image": "../images/jacket-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": null,
+          "blank": "Champion CO200",
+          "colour": "Light Blue",
+          "existingColour": false,
+          "image": "images/jacket-co200-light-blue-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097344834",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097377602",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097410370",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097443138",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Light Blue"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946097475906",
+              "price": "99.99",
+              "image": "images/jacket-co200-light-blue-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sweatpants-clock",
+      "title": "The Clock Sweatpants",
+      "productId": "15476774994242",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476774994242",
+      "originalVariantCount": 6,
+      "retainedOriginalVariantCount": 5,
+      "approvedVariantRemovalIds": [
+        "gid://shopify/ProductVariant/67946091086146"
+      ],
+      "newVariantCount": 5,
+      "finalVariantCount": 10,
+      "pairs": [
+        {
+          "style": null,
+          "blank": "Comfort Colors 1469",
+          "colour": "Pepper",
+          "existingColour": true,
+          "image": "images/sweatpants-1469-pepper-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090922306",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090922306",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090955074",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090955074",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090987842",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090987842",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946091020610",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091020610",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946091053378",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091053378",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": null,
+          "blank": "Comfort Colors 1469",
+          "colour": "Espresso",
+          "existingColour": false,
+          "image": "images/sweatpants-1469-espresso-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090922306",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090955074",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090987842",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091020610",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091053378",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sweatpants-logo",
+      "title": "OFF SHFT Logo Sweatpants",
+      "productId": "15476774961474",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476774961474",
+      "originalVariantCount": 6,
+      "retainedOriginalVariantCount": 5,
+      "approvedVariantRemovalIds": [
+        "gid://shopify/ProductVariant/67946090889538"
+      ],
+      "newVariantCount": 5,
+      "finalVariantCount": 10,
+      "pairs": [
+        {
+          "style": null,
+          "blank": "Comfort Colors 1469",
+          "colour": "Pepper",
+          "existingColour": true,
+          "image": "images/sweatpants-1469-pepper-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090725698",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090725698",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090758466",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090758466",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090791234",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090791234",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090824002",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090824002",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946090856770",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090856770",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": null,
+          "blank": "Comfort Colors 1469",
+          "colour": "Espresso",
+          "existingColour": false,
+          "image": "images/sweatpants-1469-espresso-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090725698",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090758466",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090791234",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090824002",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946090856770",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sweatpants-punched-out",
+      "title": "Punched Out. Sweatpants",
+      "productId": "15476775059778",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476775059778",
+      "originalVariantCount": 6,
+      "retainedOriginalVariantCount": 5,
+      "approvedVariantRemovalIds": [
+        "gid://shopify/ProductVariant/67946091348290"
+      ],
+      "newVariantCount": 5,
+      "finalVariantCount": 10,
+      "pairs": [
+        {
+          "style": null,
+          "blank": "Comfort Colors 1469",
+          "colour": "Pepper",
+          "existingColour": true,
+          "image": "images/sweatpants-1469-pepper-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946091184450",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091184450",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946091217218",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091217218",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946091249986",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091249986",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946091282754",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091282754",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Pepper"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946091315522",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091315522",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-pepper-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": null,
+          "blank": "Comfort Colors 1469",
+          "colour": "Espresso",
+          "existingColour": false,
+          "image": "images/sweatpants-1469-espresso-punched-out.png",
+          "variants": [
+            {
+              "options": {
+                "Size": "S",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091184450",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "M",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091217218",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "L",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091249986",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "XL",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091282754",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-punched-out.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Size": "2XL",
+                "Colour": "Espresso"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946091315522",
+              "price": "79.99",
+              "image": "images/sweatpants-1469-espresso-punched-out.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tee-clock",
+      "title": "The Clock T-Shirt",
+      "productId": "15476778729794",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476778729794",
+      "originalVariantCount": 11,
+      "retainedOriginalVariantCount": 11,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 6,
+      "finalVariantCount": 17,
+      "pairs": [
+        {
+          "style": "Heavyweight",
+          "blank": "Comfort Colors 1717",
+          "colour": "Ivory",
+          "existingColour": true,
+          "image": "../images/tee-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "S",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096492866",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096492866",
+              "price": "44.99",
+              "image": "../images/tee-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "M",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096525634",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096525634",
+              "price": "44.99",
+              "image": "../images/tee-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "L",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096558402",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096558402",
+              "price": "44.99",
+              "image": "../images/tee-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096591170",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096591170",
+              "price": "44.99",
+              "image": "../images/tee-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "2XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096623938",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096623938",
+              "price": "44.99",
+              "image": "../images/tee-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "3XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096656706",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096656706",
+              "price": "44.99",
+              "image": "../images/tee-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Heavyweight",
+          "blank": "Comfort Colors 1717",
+          "colour": "Blue Spruce",
+          "existingColour": false,
+          "image": "images/tee-1717-blue-spruce-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "S",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096492866",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "M",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096525634",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "L",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096558402",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096591170",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "2XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096623938",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "3XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096656706",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Pocket",
+          "blank": "Comfort Colors 6030",
+          "colour": "White",
+          "existingColour": true,
+          "image": "images/tee-6030-white-clock.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Pocket",
+                "Size": "S",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096689474",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096689474",
+              "price": "44.99",
+              "image": "images/tee-6030-white-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Pocket",
+                "Size": "M",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096722242",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096722242",
+              "price": "44.99",
+              "image": "images/tee-6030-white-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Pocket",
+                "Size": "L",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096755010",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096755010",
+              "price": "44.99",
+              "image": "images/tee-6030-white-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Pocket",
+                "Size": "XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096787778",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096787778",
+              "price": "44.99",
+              "image": "images/tee-6030-white-clock.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Pocket",
+                "Size": "2XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096820546",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096820546",
+              "price": "44.99",
+              "image": "images/tee-6030-white-clock.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tee-logo",
+      "title": "OFF SHFT Logo T-Shirt",
+      "productId": "15476778631490",
+      "adminUrl": "https://admin.shopify.com/store/offshft/products/15476778631490",
+      "originalVariantCount": 11,
+      "retainedOriginalVariantCount": 11,
+      "approvedVariantRemovalIds": [],
+      "newVariantCount": 6,
+      "finalVariantCount": 17,
+      "pairs": [
+        {
+          "style": "Heavyweight",
+          "blank": "Comfort Colors 1717",
+          "colour": "Ivory",
+          "existingColour": true,
+          "image": "../images/tee-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "S",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096099650",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096099650",
+              "price": "44.99",
+              "image": "../images/tee-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "M",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096132418",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096132418",
+              "price": "44.99",
+              "image": "../images/tee-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "L",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096165186",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096165186",
+              "price": "44.99",
+              "image": "../images/tee-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096197954",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096197954",
+              "price": "44.99",
+              "image": "../images/tee-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "2XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096230722",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096230722",
+              "price": "44.99",
+              "image": "../images/tee-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "3XL",
+                "Colour": "Ivory"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096263490",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096263490",
+              "price": "44.99",
+              "image": "../images/tee-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Heavyweight",
+          "blank": "Comfort Colors 1717",
+          "colour": "Blue Spruce",
+          "existingColour": false,
+          "image": "images/tee-1717-blue-spruce-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "S",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096099650",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "M",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096132418",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "L",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096165186",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096197954",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "2XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096230722",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Heavyweight",
+                "Size": "3XL",
+                "Colour": "Blue Spruce"
+              },
+              "existingVariantId": null,
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096263490",
+              "price": "44.99",
+              "image": "images/tee-1717-blue-spruce-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        },
+        {
+          "style": "Pocket",
+          "blank": "Comfort Colors 6030",
+          "colour": "White",
+          "existingColour": true,
+          "image": "images/tee-6030-white-logo.png",
+          "variants": [
+            {
+              "options": {
+                "Style": "Pocket",
+                "Size": "S",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096296258",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096296258",
+              "price": "44.99",
+              "image": "images/tee-6030-white-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Pocket",
+                "Size": "M",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096329026",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096329026",
+              "price": "44.99",
+              "image": "images/tee-6030-white-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Pocket",
+                "Size": "L",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096361794",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096361794",
+              "price": "44.99",
+              "image": "images/tee-6030-white-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Pocket",
+                "Size": "XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096394562",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096394562",
+              "price": "44.99",
+              "image": "images/tee-6030-white-logo.png",
+              "supplierSupported": true
+            },
+            {
+              "options": {
+                "Style": "Pocket",
+                "Size": "2XL",
+                "Colour": "White"
+              },
+              "existingVariantId": "gid://shopify/ProductVariant/67946096427330",
+              "copyConfigurationFrom": "gid://shopify/ProductVariant/67946096427330",
+              "price": "44.99",
+              "image": "images/tee-6030-white-logo.png",
+              "supplierSupported": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

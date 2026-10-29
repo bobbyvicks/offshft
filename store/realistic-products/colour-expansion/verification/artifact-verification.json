@@ -1,0 +1,139 @@
+{
+  "verifiedAt": "2026-10-29T05:31:26.742673+00:00",
+  "plan": {
+    "originalVariants": 142,
+    "approvedRemovals": 6,
+    "retainedOriginalVariants": 136,
+    "newVariants": 117,
+    "finalVariants": 253,
+    "imageCombinations": 57,
+    "approvedRemovalIds": [
+      "gid://shopify/ProductVariant/67946090889538",
+      "gid://shopify/ProductVariant/67946091086146",
+      "gid://shopify/ProductVariant/67946091348290",
+      "gid://shopify/ProductVariant/67946097115458",
+      "gid://shopify/ProductVariant/67946097312066",
+      "gid://shopify/ProductVariant/67946097508674"
+    ]
+  },
+  "galleryCards": 57,
+  "galleryImageSources": 57,
+  "galleryPhotoLinks": 57,
+  "galleryDownloadLinks": 57,
+  "uniqueGalleryImagePaths": 57,
+  "missingLocalLinks": [],
+  "imageHashesMatched": 57,
+  "pdfPages": 10,
+  "pdfImagesPerPage": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    3,
+    6,
+    6,
+    6,
+    6
+  ],
+  "archiveImages": 57,
+  "archiveIntegrity": "passed",
+  "archivePngHashesMatched": 57,
+  "archiveDocumentsByteMatched": [
+    "index.html",
+    "OFF-SHFT-Colour-Review.pdf",
+    "colour-plan.json",
+    "image-verification.json",
+    "README.md",
+    "hoodie-research.md",
+    "collection-colour-research.md",
+    "verification/independent-final-review.md",
+    "verification/shopify-verification.json",
+    "verification/storefront-check.json"
+  ],
+  "archivePlanMatchesCurrent": true,
+  "artifacts": {
+    "index.html": {
+      "bytes": 36152,
+      "sha256": "2993bafd6a5db65e8a66e6b46a1d66f46d4d7aea0bf2f83910175c59adeb2d98"
+    },
+    "OFF-SHFT-Colour-Review.pdf": {
+      "bytes": 13691066,
+      "sha256": "be018bdd18a1f819bfcc259428d384039049f399bf5bfefda896aba6143573ed"
+    },
+    "OFF-SHFT-Colour-Images.zip": {
+      "bytes": 123536838,
+      "sha256": "3225bf01c57f4d5459554970f2b723aa0898242fb6aa38c8609f80c68fb5d7ad"
+    },
+    "colour-plan.json": {
+      "bytes": 140652,
+      "sha256": "1a8f3aef2f71b07be214ca718c15e9a5a44c8d20f162d22968b4a1a0ce671c09"
+    },
+    "image-verification.json": {
+      "bytes": 16601,
+      "sha256": "2a2b4136d0f0c539d1ddb7dc17090ac8f66d2b80319aad92771490a60a27e312"
+    },
+    "README.md": {
+      "bytes": 5691,
+      "sha256": "0dba329b6c6b0cbe7e2d010ff8cc7b95acdaf0623d8e8c0706e8e69b80fba129"
+    }
+  },
+  "visualPdfReview": {
+    "status": "passed",
+    "pagesReviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "renderDirectory": "verification/pdf-rebuild-pages",
+    "renderer": "Poppler pdftoppm at 72 dpi",
+    "findings": "All ten pages were visually reviewed previously. Re-rendering the final PDF produces identical PNG hashes for every page; no layout or visual change.",
+    "rendererNotes": "Poppler emitted host display-font configuration warnings for unused font aliases. Rendering completed with exit code 0; no visible PDF defects found.",
+    "rebuildRenderHashesIdenticalToReviewedPages": true,
+    "renderHashes": {
+      "page-01.png": "b81635491ec2028192f4d08b8ef1d6a9002ac2354c2410b19d0a90d53e588092",
+      "page-02.png": "79e6acefa2553a517615b616a1d34c7d79f1fff651935c01096cf07f2da6bddf",
+      "page-03.png": "eb6b245bc9b8ef207532d3aad898d989790eb050a256716bdc8adf7bce024507",
+      "page-04.png": "9eb39ab5e1124fc843cb5643a3cdb1b3ea1297c45c8f81ae4dd6cf3081cac8c0",
+      "page-05.png": "60b1518b7a66750d20f6c1a0450d27571436359be1f1ab331eaed7672daaddc2",
+      "page-06.png": "555ec9b42207386a836f7d30481d4382c9788ba5889f54ac20f934b17bd8c0fc",
+      "page-07.png": "70133c1d74e173598c818dd2a608ab6334fef8c9c1dae7cea60775ce02fe077a",
+      "page-08.png": "262607cf7d72f256cd405ed17445cbe91c438ca69cc468b000acbae5be8299fe",
+      "page-09.png": "12c17a5f87cf6873f8ce29e98a64fcb98a057293ec294c77a66f19a5667b1365",
+      "page-10.png": "c80e72558e996a4c5cc3356bc5b20b0588d65541cc62bf34d3daedf157a14be2"
+    }
+  },
+  "baselineExportsUnchanged": {
+    "variant-baseline.json": "1094f47bcab5a2722c2158d5f96797177e0ef64e18dccdc863f98ecd594ca2c1",
+    "shopify-before-media-export.json": "330fd5eff4e2dd99de427eed79d07a0b121bb6b461b1f696fc3b8b0dd46fc911"
+  },
+  "galleryUtf8Check": {
+    "replacementCharacters": 0,
+    "notes": "Valid Unicode em dashes, middle dots and download arrows preserved."
+  },
+  "rebuildReason": "Final completed-rollout README and self-contained audit links/proof added to archive.",
+  "archiveTotalPngs": 58,
+  "archiveProofImages": 1,
+  "archiveProofHashMatched": true,
+  "archiveReadmeLinksChecked": [
+    "verification/independent-final-review.md",
+    "verification/shopify-verification.json",
+    "verification/storefront-check.json"
+  ],
+  "archiveProofReferenceChecked": "verification/shopify-blue-spruce-proof.png",
+  "archiveUnresolvedLinks": [],
+  "planAndReadmeUnchangedFromBuildStart": true,
+  "exportsUnchangedFromBuildStart": {
+    "before-media-baseline-verification.json": "844857d0e3b1faef5d4fee469500f9450c3c44dc8c0ac2db38242062e9fcc4f3",
+    "shopify-before-media-export.json": "330fd5eff4e2dd99de427eed79d07a0b121bb6b461b1f696fc3b8b0dd46fc911",
+    "shopify-final-export.json": "a726751ed1b355ccb6c27e3b9655bfeaf1bf379f79b3e17e3f55e737e4f342d7",
+    "variant-baseline.json": "1094f47bcab5a2722c2158d5f96797177e0ef64e18dccdc863f98ecd594ca2c1"
+  }
+}

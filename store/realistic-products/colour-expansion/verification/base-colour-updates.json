@@ -1,0 +1,1062 @@
+{
+  "date": "2026-10-29",
+  "status": "complete",
+  "scope": "Base Colour assignments only; no new variants or media",
+  "method": "Native Shopify UI via cua_repl; Sidekick for single-value option creation; direct variant editor for style-specific corrections",
+  "products": [
+    {
+      "productId": "15476770144578",
+      "title": "OFF SHFT Logo Hoodie",
+      "originalVariantCount": 18,
+      "observedVariantCount": 18,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "All18 style/size/colour mappings and original variant IDs were visible in native variant list; each changed field saved and Save control cleared. First3 Garment-Dyed sizes and option creation were performed by root before handoff.",
+      "variants": [
+        {
+          "id": "67946082435394",
+          "style": "Oversized",
+          "size": "S",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946082468162",
+          "style": "Oversized",
+          "size": "M",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946082500930",
+          "style": "Oversized",
+          "size": "L",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946082533698",
+          "style": "Oversized",
+          "size": "XL",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946082566466",
+          "style": "Oversized",
+          "size": "2XL",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946082599234",
+          "style": "Oversized",
+          "size": "3XL",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946082632002",
+          "style": "Garment-Dyed",
+          "size": "S",
+          "colour": "White"
+        },
+        {
+          "id": "67946082664770",
+          "style": "Garment-Dyed",
+          "size": "M",
+          "colour": "White"
+        },
+        {
+          "id": "67946082697538",
+          "style": "Garment-Dyed",
+          "size": "L",
+          "colour": "White"
+        },
+        {
+          "id": "67946082730306",
+          "style": "Garment-Dyed",
+          "size": "XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946082763074",
+          "style": "Garment-Dyed",
+          "size": "2XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946082795842",
+          "style": "Garment-Dyed",
+          "size": "3XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946082828610",
+          "style": "Lightweight",
+          "size": "S",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946082861378",
+          "style": "Lightweight",
+          "size": "M",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946082894146",
+          "style": "Lightweight",
+          "size": "L",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946082926914",
+          "style": "Lightweight",
+          "size": "XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946082959682",
+          "style": "Lightweight",
+          "size": "2XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946082992450",
+          "style": "Lightweight",
+          "size": "3XL",
+          "colour": "Ivory"
+        }
+      ]
+    },
+    {
+      "productId": "15476774830402",
+      "title": "The Clock Crewneck",
+      "originalVariantCount": 6,
+      "observedVariantCount": 6,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Sidekick single-value Colour option saved. Native variant list and current editor verified all original IDs and colour mappings; no new variants.",
+      "variants": [
+        {
+          "id": "67946090103106",
+          "style": null,
+          "size": "S",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090135874",
+          "style": null,
+          "size": "M",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090168642",
+          "style": null,
+          "size": "L",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090201410",
+          "style": null,
+          "size": "XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090234178",
+          "style": null,
+          "size": "2XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090266946",
+          "style": null,
+          "size": "3XL",
+          "colour": "Ivory"
+        }
+      ]
+    },
+    {
+      "productId": "15476774764866",
+      "title": "OFF SHFT Logo Crewneck",
+      "originalVariantCount": 6,
+      "observedVariantCount": 6,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Sidekick single-value Colour option saved. Native variant list and current editor verified all original IDs and colour mappings; no new variants.",
+      "variants": [
+        {
+          "id": "67946089906498",
+          "style": null,
+          "size": "S",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946089939266",
+          "style": null,
+          "size": "M",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946089972034",
+          "style": null,
+          "size": "L",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090004802",
+          "style": null,
+          "size": "XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090037570",
+          "style": null,
+          "size": "2XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090070338",
+          "style": null,
+          "size": "3XL",
+          "colour": "Ivory"
+        }
+      ]
+    },
+    {
+      "productId": "15476774895938",
+      "title": "Punched Out. Crewneck",
+      "originalVariantCount": 6,
+      "observedVariantCount": 6,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Sidekick single-value Colour option saved. Native variant list and current editor verified all original IDs and colour mappings; no new variants.",
+      "variants": [
+        {
+          "id": "67946090529090",
+          "style": null,
+          "size": "S",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090561858",
+          "style": null,
+          "size": "M",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090594626",
+          "style": null,
+          "size": "L",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090627394",
+          "style": null,
+          "size": "XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090660162",
+          "style": null,
+          "size": "2XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946090692930",
+          "style": null,
+          "size": "3XL",
+          "colour": "Ivory"
+        }
+      ]
+    },
+    {
+      "productId": "15476774994242",
+      "title": "The Clock Sweatpants",
+      "originalVariantCount": 6,
+      "observedVariantCount": 6,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Sidekick single-value Colour option saved. Native variant list and current editor verified all original IDs and colour mappings; no new variants.",
+      "variants": [
+        {
+          "id": "67946090922306",
+          "style": null,
+          "size": "S",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946090955074",
+          "style": null,
+          "size": "M",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946090987842",
+          "style": null,
+          "size": "L",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946091020610",
+          "style": null,
+          "size": "XL",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946091053378",
+          "style": null,
+          "size": "2XL",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946091086146",
+          "style": null,
+          "size": "3XL",
+          "colour": "Pepper"
+        }
+      ]
+    },
+    {
+      "productId": "15476774961474",
+      "title": "OFF SHFT Logo Sweatpants",
+      "originalVariantCount": 6,
+      "observedVariantCount": 6,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Sidekick single-value Colour option saved. Native variant list and current editor verified all original IDs and colour mappings; no new variants.",
+      "variants": [
+        {
+          "id": "67946090725698",
+          "style": null,
+          "size": "S",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946090758466",
+          "style": null,
+          "size": "M",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946090791234",
+          "style": null,
+          "size": "L",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946090824002",
+          "style": null,
+          "size": "XL",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946090856770",
+          "style": null,
+          "size": "2XL",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946090889538",
+          "style": null,
+          "size": "3XL",
+          "colour": "Pepper"
+        }
+      ]
+    },
+    {
+      "productId": "15476775059778",
+      "title": "Punched Out. Sweatpants",
+      "originalVariantCount": 6,
+      "observedVariantCount": 6,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Sidekick single-value Colour option saved. Native variant list and current editor verified all original IDs and colour mappings; no new variants.",
+      "variants": [
+        {
+          "id": "67946091184450",
+          "style": null,
+          "size": "S",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946091217218",
+          "style": null,
+          "size": "M",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946091249986",
+          "style": null,
+          "size": "L",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946091282754",
+          "style": null,
+          "size": "XL",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946091315522",
+          "style": null,
+          "size": "2XL",
+          "colour": "Pepper"
+        },
+        {
+          "id": "67946091348290",
+          "style": null,
+          "size": "3XL",
+          "colour": "Pepper"
+        }
+      ]
+    },
+    {
+      "productId": "15476778860866",
+      "title": "The Clock Jacket",
+      "originalVariantCount": 6,
+      "observedVariantCount": 6,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Sidekick single-value Colour option saved. Native variant list and current editor verified all original IDs and colour mappings; no new variants.",
+      "variants": [
+        {
+          "id": "67946097148226",
+          "style": null,
+          "size": "S",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097180994",
+          "style": null,
+          "size": "M",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097213762",
+          "style": null,
+          "size": "L",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097246530",
+          "style": null,
+          "size": "XL",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097279298",
+          "style": null,
+          "size": "2XL",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097312066",
+          "style": null,
+          "size": "3XL",
+          "colour": "Black"
+        }
+      ]
+    },
+    {
+      "productId": "15476778795330",
+      "title": "OFF SHFT Logo Jacket",
+      "originalVariantCount": 6,
+      "observedVariantCount": 6,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Sidekick single-value Colour option saved. Native variant list and current editor verified all original IDs and colour mappings; no new variants.",
+      "variants": [
+        {
+          "id": "67946096951618",
+          "style": null,
+          "size": "S",
+          "colour": "Black"
+        },
+        {
+          "id": "67946096984386",
+          "style": null,
+          "size": "M",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097017154",
+          "style": null,
+          "size": "L",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097049922",
+          "style": null,
+          "size": "XL",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097082690",
+          "style": null,
+          "size": "2XL",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097115458",
+          "style": null,
+          "size": "3XL",
+          "colour": "Black"
+        }
+      ]
+    },
+    {
+      "productId": "15476778926402",
+      "title": "Punched Out. Jacket",
+      "originalVariantCount": 6,
+      "observedVariantCount": 6,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Sidekick single-value Colour option saved. Native variant list and current editor verified all original IDs and colour mappings; no new variants.",
+      "variants": [
+        {
+          "id": "67946097344834",
+          "style": null,
+          "size": "S",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097377602",
+          "style": null,
+          "size": "M",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097410370",
+          "style": null,
+          "size": "L",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097443138",
+          "style": null,
+          "size": "XL",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097475906",
+          "style": null,
+          "size": "2XL",
+          "colour": "Black"
+        },
+        {
+          "id": "67946097508674",
+          "style": null,
+          "size": "3XL",
+          "colour": "Black"
+        }
+      ]
+    },
+    {
+      "productId": "15476770046274",
+      "title": "The Clock Hat",
+      "originalVariantCount": 4,
+      "observedVariantCount": 4,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Single-value Black option saved via Sidekick; original Rope Cap changed directly to Black/White and saved. Native list verified all4 original IDs and style/colour mappings.",
+      "variants": [
+        {
+          "id": "67946082173250",
+          "style": "Retro Trucker",
+          "size": null,
+          "colour": "Black"
+        },
+        {
+          "id": "67946082206018",
+          "style": "5-Panel",
+          "size": null,
+          "colour": "Black"
+        },
+        {
+          "id": "67946082238786",
+          "style": "Dad Hat",
+          "size": null,
+          "colour": "Black"
+        },
+        {
+          "id": "67946082271554",
+          "style": "Rope Cap",
+          "size": null,
+          "colour": "Black/White"
+        }
+      ]
+    },
+    {
+      "productId": "15476769980738",
+      "title": "OFF SHFT Logo Hat",
+      "originalVariantCount": 4,
+      "observedVariantCount": 4,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Single-value Black option saved via Sidekick; original Rope Cap changed directly to Black/White and saved. Native list verified all4 original IDs and style/colour mappings.",
+      "variants": [
+        {
+          "id": "67946082042178",
+          "style": "Retro Trucker",
+          "size": null,
+          "colour": "Black"
+        },
+        {
+          "id": "67946082074946",
+          "style": "5-Panel",
+          "size": null,
+          "colour": "Black"
+        },
+        {
+          "id": "67946082107714",
+          "style": "Dad Hat",
+          "size": null,
+          "colour": "Black"
+        },
+        {
+          "id": "67946082140482",
+          "style": "Rope Cap",
+          "size": null,
+          "colour": "Black/White"
+        }
+      ]
+    },
+    {
+      "productId": "15476770111810",
+      "title": "Punched Out. Hat",
+      "originalVariantCount": 4,
+      "observedVariantCount": 4,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Single-value Black option saved via Sidekick; original Rope Cap changed directly to Black/White and saved. Native list verified all4 original IDs and style/colour mappings.",
+      "variants": [
+        {
+          "id": "67946082304322",
+          "style": "Retro Trucker",
+          "size": null,
+          "colour": "Black"
+        },
+        {
+          "id": "67946082337090",
+          "style": "5-Panel",
+          "size": null,
+          "colour": "Black"
+        },
+        {
+          "id": "67946082369858",
+          "style": "Dad Hat",
+          "size": null,
+          "colour": "Black"
+        },
+        {
+          "id": "67946082402626",
+          "style": "Rope Cap",
+          "size": null,
+          "colour": "Black/White"
+        }
+      ]
+    },
+    {
+      "productId": "15476778729794",
+      "title": "The Clock T-Shirt",
+      "originalVariantCount": 11,
+      "observedVariantCount": 11,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Single-value Ivory option saved via Sidekick; each of5 original Pocket variants changed directly to White and saved. Native list verified all11 original IDs and style/size/colour mappings.",
+      "variants": [
+        {
+          "id": "67946096492866",
+          "style": "Heavyweight",
+          "size": "S",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096525634",
+          "style": "Heavyweight",
+          "size": "M",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096558402",
+          "style": "Heavyweight",
+          "size": "L",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096591170",
+          "style": "Heavyweight",
+          "size": "XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096623938",
+          "style": "Heavyweight",
+          "size": "2XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096656706",
+          "style": "Heavyweight",
+          "size": "3XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096689474",
+          "style": "Pocket",
+          "size": "S",
+          "colour": "White"
+        },
+        {
+          "id": "67946096722242",
+          "style": "Pocket",
+          "size": "M",
+          "colour": "White"
+        },
+        {
+          "id": "67946096755010",
+          "style": "Pocket",
+          "size": "L",
+          "colour": "White"
+        },
+        {
+          "id": "67946096787778",
+          "style": "Pocket",
+          "size": "XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946096820546",
+          "style": "Pocket",
+          "size": "2XL",
+          "colour": "White"
+        }
+      ]
+    },
+    {
+      "productId": "15476778631490",
+      "title": "OFF SHFT Logo T-Shirt",
+      "originalVariantCount": 11,
+      "observedVariantCount": 11,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Single-value Ivory option saved via Sidekick; each of5 original Pocket variants changed directly to White and saved. Native list verified all11 original IDs and style/size/colour mappings.",
+      "variants": [
+        {
+          "id": "67946096099650",
+          "style": "Heavyweight",
+          "size": "S",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096132418",
+          "style": "Heavyweight",
+          "size": "M",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096165186",
+          "style": "Heavyweight",
+          "size": "L",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096197954",
+          "style": "Heavyweight",
+          "size": "XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096230722",
+          "style": "Heavyweight",
+          "size": "2XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096263490",
+          "style": "Heavyweight",
+          "size": "3XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946096296258",
+          "style": "Pocket",
+          "size": "S",
+          "colour": "White"
+        },
+        {
+          "id": "67946096329026",
+          "style": "Pocket",
+          "size": "M",
+          "colour": "White"
+        },
+        {
+          "id": "67946096361794",
+          "style": "Pocket",
+          "size": "L",
+          "colour": "White"
+        },
+        {
+          "id": "67946096394562",
+          "style": "Pocket",
+          "size": "XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946096427330",
+          "style": "Pocket",
+          "size": "2XL",
+          "colour": "White"
+        }
+      ]
+    },
+    {
+      "productId": "15476770210114",
+      "title": "The Clock Hoodie",
+      "originalVariantCount": 18,
+      "observedVariantCount": 18,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Bone base option saved via Sidekick; all6 Garment-Dyed changed directly to White and all6 Lightweight to Ivory. Native list verified all18 original IDs and mappings.",
+      "variants": [
+        {
+          "id": "67946083025218",
+          "style": "Oversized",
+          "size": "S",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083057986",
+          "style": "Oversized",
+          "size": "M",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083090754",
+          "style": "Oversized",
+          "size": "L",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083123522",
+          "style": "Oversized",
+          "size": "XL",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083156290",
+          "style": "Oversized",
+          "size": "2XL",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083189058",
+          "style": "Oversized",
+          "size": "3XL",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083221826",
+          "style": "Garment-Dyed",
+          "size": "S",
+          "colour": "White"
+        },
+        {
+          "id": "67946083254594",
+          "style": "Garment-Dyed",
+          "size": "M",
+          "colour": "White"
+        },
+        {
+          "id": "67946083287362",
+          "style": "Garment-Dyed",
+          "size": "L",
+          "colour": "White"
+        },
+        {
+          "id": "67946083320130",
+          "style": "Garment-Dyed",
+          "size": "XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946083352898",
+          "style": "Garment-Dyed",
+          "size": "2XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946083385666",
+          "style": "Garment-Dyed",
+          "size": "3XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946083418434",
+          "style": "Lightweight",
+          "size": "S",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946083451202",
+          "style": "Lightweight",
+          "size": "M",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946083483970",
+          "style": "Lightweight",
+          "size": "L",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946083516738",
+          "style": "Lightweight",
+          "size": "XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946083549506",
+          "style": "Lightweight",
+          "size": "2XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946083582274",
+          "style": "Lightweight",
+          "size": "3XL",
+          "colour": "Ivory"
+        }
+      ]
+    },
+    {
+      "productId": "15476770275650",
+      "title": "Punched Out. Hoodie",
+      "originalVariantCount": 18,
+      "observedVariantCount": 18,
+      "status": "complete",
+      "preservedIdsVerified": true,
+      "verification": "Bone base option saved via Sidekick; all 6 Garment-Dyed variants changed directly to White and all 6 Lightweight variants to Ivory. Native list verified all 18 original IDs and mappings, with no pending Save button.",
+      "variants": [
+        {
+          "id": "67946083615042",
+          "style": "Oversized",
+          "size": "S",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083647810",
+          "style": "Oversized",
+          "size": "M",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083680578",
+          "style": "Oversized",
+          "size": "L",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083713346",
+          "style": "Oversized",
+          "size": "XL",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083746114",
+          "style": "Oversized",
+          "size": "2XL",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083778882",
+          "style": "Oversized",
+          "size": "3XL",
+          "colour": "Bone"
+        },
+        {
+          "id": "67946083811650",
+          "style": "Garment-Dyed",
+          "size": "S",
+          "colour": "White"
+        },
+        {
+          "id": "67946083844418",
+          "style": "Garment-Dyed",
+          "size": "M",
+          "colour": "White"
+        },
+        {
+          "id": "67946083877186",
+          "style": "Garment-Dyed",
+          "size": "L",
+          "colour": "White"
+        },
+        {
+          "id": "67946083909954",
+          "style": "Garment-Dyed",
+          "size": "XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946083942722",
+          "style": "Garment-Dyed",
+          "size": "2XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946083975490",
+          "style": "Garment-Dyed",
+          "size": "3XL",
+          "colour": "White"
+        },
+        {
+          "id": "67946084008258",
+          "style": "Lightweight",
+          "size": "S",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946084041026",
+          "style": "Lightweight",
+          "size": "M",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946084073794",
+          "style": "Lightweight",
+          "size": "L",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946084106562",
+          "style": "Lightweight",
+          "size": "XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946084139330",
+          "style": "Lightweight",
+          "size": "2XL",
+          "colour": "Ivory"
+        },
+        {
+          "id": "67946084172098",
+          "style": "Lightweight",
+          "size": "3XL",
+          "colour": "Ivory"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "batch": "16 initial products",
+      "result": "Sidekick reported read throttling; no changes proposed or saved."
+    },
+    {
+      "batch": "3 crewnecks",
+      "result": "Retry submitted; awaiting review."
+    }
+  ],
+  "completedSummary": "All 17 products and all 142 existing variant IDs verified with their base Colour values. No new variants, media uploads, deletions, or inventory edits performed.",
+  "limitations": [
+    "Verification covers variant IDs, counts, and base Colour mappings through native Shopify UI; other fields were not independently audited.",
+    "Existing 3XL sweatpants and jackets retained without inventory changes pending user decision."
+  ]
+}

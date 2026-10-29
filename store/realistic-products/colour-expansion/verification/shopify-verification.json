@@ -1,0 +1,299 @@
+{
+  "productCount": 17,
+  "baselineOriginalIds": 142,
+  "originalIdsRetained": 136,
+  "approvedRemovalsAbsent": 6,
+  "approvedRemovalIds": [
+    "gid://shopify/ProductVariant/67946090889538",
+    "gid://shopify/ProductVariant/67946091086146",
+    "gid://shopify/ProductVariant/67946091348290",
+    "gid://shopify/ProductVariant/67946097115458",
+    "gid://shopify/ProductVariant/67946097312066",
+    "gid://shopify/ProductVariant/67946097508674"
+  ],
+  "newVariants": 117,
+  "beforeMediaOriginalIds": 142,
+  "baselineMediaIds": 48,
+  "originalMediaIdsRetained": 48,
+  "mediaAttachments": 91,
+  "matchedPublicationProducts": 17,
+  "matchedOptionProducts": 17,
+  "matchedVariantImages": 253,
+  "actualVariants": 253,
+  "expectedVariants": 253,
+  "errors": [],
+  "products": [
+    {
+      "key": "crewneck-clock",
+      "productId": "15476774830402",
+      "variantCount": 12,
+      "originalIdsRetained": 6,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "crewneck-clock.png",
+      "mediaCount": 3,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "crewneck-logo",
+      "productId": "15476774764866",
+      "variantCount": 12,
+      "originalIdsRetained": 6,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "crewneck-logo.png",
+      "mediaCount": 3,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "crewneck-punched-out",
+      "productId": "15476774895938",
+      "variantCount": 12,
+      "originalIdsRetained": 6,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "crewneck-punched-out.png",
+      "mediaCount": 3,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "hat-clock",
+      "productId": "15476770046274",
+      "variantCount": 5,
+      "originalIdsRetained": 4,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "hat-clock.png",
+      "mediaCount": 9,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "hat-logo",
+      "productId": "15476769980738",
+      "variantCount": 5,
+      "originalIdsRetained": 4,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "hat-logo.png",
+      "mediaCount": 9,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "hat-punched-out",
+      "productId": "15476770111810",
+      "variantCount": 5,
+      "originalIdsRetained": 4,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "hat-punched-out.png",
+      "mediaCount": 9,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "hoodie-clock",
+      "productId": "15476770210114",
+      "variantCount": 36,
+      "originalIdsRetained": 18,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "hoodie-clock.png",
+      "mediaCount": 8,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "hoodie-logo",
+      "productId": "15476770144578",
+      "variantCount": 36,
+      "originalIdsRetained": 18,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "hoodie-logo.png",
+      "mediaCount": 8,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "hoodie-punched-out",
+      "productId": "15476770275650",
+      "variantCount": 36,
+      "originalIdsRetained": 18,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "hoodie-punched-out.png",
+      "mediaCount": 8,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "jacket-clock",
+      "productId": "15476778860866",
+      "variantCount": 10,
+      "originalIdsRetained": 5,
+      "approvedRemovalsAbsent": 1,
+      "primaryImage": "jacket-clock.png",
+      "mediaCount": 3,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "jacket-logo",
+      "productId": "15476778795330",
+      "variantCount": 10,
+      "originalIdsRetained": 5,
+      "approvedRemovalsAbsent": 1,
+      "primaryImage": "jacket-logo.png",
+      "mediaCount": 3,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "jacket-punched-out",
+      "productId": "15476778926402",
+      "variantCount": 10,
+      "originalIdsRetained": 5,
+      "approvedRemovalsAbsent": 1,
+      "primaryImage": "jacket-punched-out.png",
+      "mediaCount": 3,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "sweatpants-clock",
+      "productId": "15476774994242",
+      "variantCount": 10,
+      "originalIdsRetained": 5,
+      "approvedRemovalsAbsent": 1,
+      "primaryImage": "sweatpants-1469-pepper-clock.png",
+      "mediaCount": 4,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "sweatpants-logo",
+      "productId": "15476774961474",
+      "variantCount": 10,
+      "originalIdsRetained": 5,
+      "approvedRemovalsAbsent": 1,
+      "primaryImage": "sweatpants-1469-pepper-logo.png",
+      "mediaCount": 4,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "sweatpants-punched-out",
+      "productId": "15476775059778",
+      "variantCount": 10,
+      "originalIdsRetained": 5,
+      "approvedRemovalsAbsent": 1,
+      "primaryImage": "sweatpants-1469-pepper-punched-out.png",
+      "mediaCount": 4,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "tee-clock",
+      "productId": "15476778729794",
+      "variantCount": 17,
+      "originalIdsRetained": 11,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "tee-clock.png",
+      "mediaCount": 5,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    },
+    {
+      "key": "tee-logo",
+      "productId": "15476778631490",
+      "variantCount": 17,
+      "originalIdsRetained": 11,
+      "approvedRemovalsAbsent": 0,
+      "primaryImage": "tee-logo.png",
+      "mediaCount": 5,
+      "status": "ACTIVE",
+      "selectedPublicationChannels": [
+        {
+          "id": "gid://shopify/Publication/335132361026",
+          "name": "Online Store"
+        }
+      ]
+    }
+  ]
+}

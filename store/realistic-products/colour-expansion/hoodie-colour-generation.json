@@ -1,0 +1,321 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "createdFor": "OFF SHFT hoodie style and supplier colour expansion",
+  "sourceResearch": "hoodie-research.md",
+  "outputCount": 15,
+  "status": "Draft AI product concepts. Supplier screen swatches guide colour; images are not physical colour proofs or photographs of manufactured samples. Geometry and nominal decoration dimensions are approximated by image generation; source artwork governs production.",
+  "nominalDecoration": {
+    "logoWidthMm": 63,
+    "clockHeightMm": 25,
+    "punchedOutWidthMm": 230
+  },
+  "styleColourMatrix": [
+    {
+      "blank": "AS Colour 5161",
+      "style": "Oversized",
+      "colour": "Pine Green",
+      "swatch": "#113433",
+      "cords": "none",
+      "branding": "Bone / Sun",
+      "punchedOutThread": "Sun"
+    },
+    {
+      "blank": "Comfort Colors 1567",
+      "style": "Garment-Dyed",
+      "colour": "White",
+      "swatch": "#FFFFFF",
+      "cords": "matching white flat cords",
+      "branding": "Ink / Rust",
+      "punchedOutThread": "Rust"
+    },
+    {
+      "blank": "Comfort Colors 1567",
+      "style": "Garment-Dyed",
+      "colour": "Blue Spruce",
+      "swatch": "#5A7260",
+      "cords": "matching Blue Spruce flat cords",
+      "branding": "Bone / Sun",
+      "punchedOutThread": "Sun"
+    },
+    {
+      "blank": "Comfort Colors 1467",
+      "style": "Lightweight",
+      "colour": "Ivory",
+      "swatch": "#FEF5DF",
+      "cords": "natural cream flat cords",
+      "branding": "Ink / Rust",
+      "punchedOutThread": "Rust"
+    },
+    {
+      "blank": "Comfort Colors 1467",
+      "style": "Lightweight",
+      "colour": "Blue Jean",
+      "swatch": "#9AA5B3",
+      "cords": "natural cream flat cords",
+      "branding": "Ink / Rust",
+      "punchedOutThread": "Rust"
+    }
+  ],
+  "supplierPhotoReferences": [
+    {
+      "file": "references/printful-1567-front.jpg",
+      "url": "https://files.cdn.printful.com/o/upload/variant-image/37/379fb448a553b8e3a7b13e042c7486f0_l",
+      "page": "https://www.printful.com/custom/mens/hoodies/garment-dyed-hooded-sweatshirt-comfort-colors-1567",
+      "role": "construction reference only; supplier decorative print and people not copied"
+    },
+    {
+      "file": "references/printful-1467-front.jpg",
+      "url": "https://files.cdn.printful.com/o/upload/variant-image-jpg/d9/d99281b652acd4495feddbfaf1871209_l",
+      "page": "https://www.printful.com/custom/mens/hoodies/garment-dyed-hooded-sweatshirt-comfort-colors-1467",
+      "role": "construction reference only; supplier decorative print and people not copied"
+    }
+  ],
+  "visualReview": "Each output was inspected after generation. Checked full garment, no extra objects or external text, correct cord presence and colour, small left-chest logo/clock, clock hands up and diagonally down-right, one-line v2 PUNCHED OUT. wording including period, and consistent studio direction. Targeted revisions corrected initial clock size, framing, Punched Out scale and cord overlap. Existing Bone5161 files were left unchanged.",
+  "images": [
+    {
+      "key": "hoodie-1567-white-logo",
+      "prompt": "Product-mockup. Create one realistic square overhead single-product photograph of a WHITE Comfort Colors1567 garment-dyed pullover hoodie. Image1 gives our warm ivory studio background, lighting and very small chest logo scale; image2 is official supplier reference for1567 garment construction ONLY, do not copy people or any existing print; image3 is exact OFF SHFT artwork. REQUIRED: two clearly visible WHITE FLAT DRAWCORDS matching white garment, descending naturally from hood openings; substantial 322gsm relaxed fleece, jersey-lined hood, forward shoulder construction, front kangaroo pocket, ribbed cuffs and hem. Colour white #FFFFFF, distinguish from warm cream studio surface. Cotton face is natural fine smooth knit, subtle fibres and slight lived-in variation, NOT patterned jacquard, embossed swirls or synthetic worm-like grain. Full garment front-up with both sleeves, hood, cuffs and hem visible, composed within central80percent of square leaving approximately10percent margin on all sides. Soft upper-left daylight, subtle natural shadows, no props, no people, no tags, no external text. Only decoration is TINY 63mm-wide OFF SHFT embroidery on wearer-left chest/viewer-right, about10percent of torso width. Preserve exact Ink #1F2733 letters and O-ring, Rust #B4552D central dot and detached clock hands at12 straight up and5 diagonally down-right; not6. Spell OFF SHFT with space and no I. Do not enlarge logo. Photorealistic cotton and modest thread relief. No hoodless garment, no missing cords, no collage or inset.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\hoodie-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\references\\printful-1567-front.jpg",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\logo-light.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-f04b40d3-bc04-4c6a-a221-fdd9adec2fe1.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-logo.png",
+      "initialSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-8f094a8a-d33d-4b18-8a1b-cecf67d5a381.png",
+      "revisionPrompt": "Precisely refine this product photo. Pull the camera back so the garment is15percent smaller within the same square canvas, with around10percent clear ivory background margin around the whole garment including hood and outer sleeves. Replace the distracting raised squiggly/swirl fabric pattern with a PLAIN SMOOTH fine-knit cotton face, as a real cotton fleece hoodie has; retain natural folds but no embossed or jacquard texture. Keep both WHITE FLAT DRAWCORDS, white1567 relaxed hoodie, hood and kangaroo pocket, ribbed cuffs/hem, tiny left-chest OFF SHFT embroidery with12and5 clock hands, all colours, lighting and same orientation. These are the only corrections. No added objects or text.",
+      "file": "images/hoodie-1567-white-logo.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1567-white-clock",
+      "prompt": "Edit image1 only at its chest branding. Remove OFF SHFT wordmark entirely and replace with tiny standalone clock from image2 on same wearer-left chest/viewer-right. Entire clock height only25mm in real life, approximately25-30pixels in this1254pixel square photo; discreet not large. Ink ring #1F2733, Rust #B4552D pivot dot and detached hands at12 straightup and5 diagonally down-right, not6. Preserve full exact WHITE1567 hoodie with TWO matching WHITE FLAT DRAWCORDS, relaxed substantial fleece, pocket, ribs, silhouette, folds,10percent margin, ivory backdrop and soft upper-left light. No other letters, no props, no new text. All garment details unchanged.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\symbol-light.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-7c64901e-31f0-4a29-aadd-d3c77b3c3bea.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-clock.png",
+      "initialSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-20104fa2-b168-4b91-bd4f-71cd8e595dbf.png",
+      "revisionPrompt": "Make ONLY the clock chest emblem HALF its present height and HALF its present width, keeping the same centre. Exactly50percent size. It is a tiny25mm embroidery, not a badge. All ring, dot and detached12and5 hands scale together. Preserve both WHITE flat cords, white hoodie, every seam, fabric folds, entire garment margins, square framing, background and light completely unchanged. No other changes.",
+      "file": "images/hoodie-1567-white-clock.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1567-white-punched-out",
+      "prompt": "Edit image1's chest design only. Remove tiny OFF SHFT logo, replace with EXISTING v2 PUNCHED OUT. artwork from image2, exactly this single low wide horizontal line with final period, centred across chest, Rust thread #B4552D,230mm wide about37percent torso width,14mm cap height. No clock, no extra logo, no stacked redesign. Keep BOTH WHITE FLAT DRAWCORDS clearly present; lay them naturally a little to the sides of the lettering so the exact words stay readable, do not remove cords. Preserve white Comfort Colors1567 relaxed substantial fleece hoodie, jersey-lined hood, kangaroo pocket, ribs, smooth fine cotton face, full garment with10percent margin, warm ivory background, same square overhead photo and soft upper-left light. No people, props, tags, outside text or circles.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\09-punched-out\\preview-bone.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-b18e90f7-7542-44fe-bf88-539faa775942.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-punched-out.png",
+      "initialSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-ef2d2760-3a17-47d5-8cfd-40f4f8a6648c.png",
+      "revisionPrompt": "Correct only two details in this product photograph: make the centred PUNCHED OUT. lettering70percent of its present width and height while keeping its centre fixed, retaining exact spelling, single-line layout, final period and Rust thread. Move the loose WHITE FLAT DRAWCORD ends naturally ABOVE the lettering: cords still visibly emerge from both hood openings and hang in front, but their visible free ends stop just above the text, so no part of a cord crosses any letter. Keep two cords, do not remove either. Keep white1567 substantial hoodie, hood, ribs, pocket, full silhouette, square crop, margins, cotton, backdrop and lighting unchanged. No new graphic or object.",
+      "file": "images/hoodie-1567-white-punched-out.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1567-blue-spruce-logo",
+      "prompt": "Precise product colourway edit. Recolour ONLY the hoodie fabric, hood, ribs, pocket and BOTH FLAT DRAWCORDS to Comfort Colors1567 BLUE SPRUCE, muted grey-green #5A7260. Cords MUST match the garment colour, not cream or white. Recolour the existing tiny OFF SHFT embroidery: letters and O-ring Bone #ECE5D3; detached clock hands and pivot Sun #D29B3C. Preserve exact existing small logo SIZE, location, wording, ring, central dot and12and5 hand angles; do not enlarge. Keep substantial relaxed1567 fleece construction, all seams, natural cotton/folds, square composition, full garment and10percent margin. Warm ivory studio surface, lighting and shadows stay completely unchanged. No added objects or lettering.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-logo.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-eec54949-f77e-48c1-bfd8-c32da4a9ec75.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-blue-spruce-logo.png",
+      "file": "images/hoodie-1567-blue-spruce-logo.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1567-blue-spruce-clock",
+      "prompt": "Precise colourway edit only. Change white1567 hoodie and BOTH matching FLAT DRAWCORDS to muted BLUE SPRUCE #5A7260. Keep drawcords same green as garment. Recolour the existing tiny clock: O ring Bone #ECE5D3, pivot dot and hands Sun #D29B3C. Absolutely preserve the existing TINY clock height and position, upper hand straight12 and lower hand diagonal5, gaps and centre dot. No enlarging. Keep all garment construction, substantial relaxed fleece, kangaroo, ribs, folds, full-frame margins, square photograph, ivory background and lighting unchanged. No text or new objects.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-clock.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-15d3e87c-1b77-4e6a-883a-3440c788f187.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-blue-spruce-clock.png",
+      "file": "images/hoodie-1567-blue-spruce-clock.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1567-blue-spruce-punched-out",
+      "prompt": "Precise colourway edit only. Recolour entire white1567 hoodie including both FLAT DRAWCORDS to BLUE SPRUCE muted grey-green #5A7260. Cords match garment exactly. Recolour existing PUNCHED OUT. embroidery from Rust to Sun #D29B3C. Preserve EXACT current small230mm width, single-line v2 lettering, final period, centre-front position; no redesign or enlarging. Keep cords ending above the wording so all letters remain readable. Keep substantial relaxed hoodie construction, pocket, ribs, silhouette, folds,10percent margin, full garment square overhead framing, ivory studio surface and soft upper-left lighting. No new text or props.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-punched-out.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-7b150401-050d-4479-bdde-36d5adda7d53.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-blue-spruce-punched-out.png",
+      "file": "images/hoodie-1567-blue-spruce-punched-out.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1467-ivory-logo",
+      "prompt": "Create a matching single-product overhead photo of Comfort Colors1467 LIGHTWEIGHT hoodie using image1's exact studio presentation and tiny OFF SHFT embroidery. Image2 is official1467 supplier construction reference only, do not copy models or print. Change garment to IVORY #FEF5DF with TWO NATURAL CREAM FLAT DRAWCORDS. This1467 is visibly lighter and less bulky than image1's1567:217gsm lightweight cotton, softer thinner drape, lighter jersey-lined hood, relaxed seamless body and forward shoulder, ribbed cuffs/hem, kangaroo pocket. Natural smooth fine-knit cotton face, subtle thin folds rather than thick rounded fleece; no embossed swirls or pattern. Preserve tiny63mm wearer-left chest OFF SHFT logo (viewer-right) at exactly current size/location, Ink #1F2733 letters and ring plus Rust #B4552D dot and detached hands straight12anddiagonal5. Maintain warm ivory backdrop distinct from garment, full garment with~10percent margin, square overhead composition and soft upper-left lighting. No people, props, labels or external text. Cream flat drawcords must remain clearly visible.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\references\\printful-1467-front.jpg"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-14e3982d-5db0-4f60-836f-1040d6e65cae.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-ivory-logo.png",
+      "file": "images/hoodie-1467-ivory-logo.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1467-ivory-clock",
+      "prompt": "Use image1 as base with its tiny clock emblem EXACTLY unchanged in size, shape and wearer-left chest position. Change ONLY garment construction and colour to the lightweight1467 IVORY version in image2: Ivory #FEF5DF, TWO NATURAL CREAM FLAT DRAWCORDS, lighter217gsm smooth cotton face and thinner softer drape, light jersey-lined hood, relaxed seamless body, front pocket, ribs. Keep image1's clock: Ink ring, Rust pivot dot and detached12anddiagonal5 hands, tiny25mm total height. Do not copy image2's letters; final has only standalone clock, no words. Retain same full garment overhead square composition, approximately10percent margins, warm ivory studio background and soft upper-left light. No added props or external text.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-clock.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-ivory-logo.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-42e283d5-5c79-4ad5-829c-23f0a21acdb9.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-ivory-clock.png",
+      "file": "images/hoodie-1467-ivory-clock.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1467-ivory-punched-out",
+      "prompt": "Use image1 as base with PUNCHED OUT. embroidery EXACTLY unchanged: existing v2 one-line Rust #B4552D text, final period,230mm width, same centred position. Change garment to Comfort Colors1467 lightweight IVORY #FEF5DF as image2: softer thinner217gsm cotton drape, lighter jersey-lined hood, relaxed seamless body, rib cuffs/hem, front pouch. TWO NATURAL CREAM FLAT DRAWCORDS, still ending above lettering so no letters are obscured. Preserve full garment framing and10percent margins, square overhead photograph, warm ivory studio surface and upper-left light. Smooth fine cotton knit, no decorative fabric pattern. No tinyOFF SHFT logo, no clock or extra text, no people or props.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-white-punched-out.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-ivory-logo.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-5602472d-0c74-4a48-bcb2-350a0256fdf0.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-ivory-punched-out.png",
+      "file": "images/hoodie-1467-ivory-punched-out.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1467-blue-jean-logo",
+      "prompt": "Precise colourway edit: recolour ONLY the1467 hoodie fabric, hood lining, ribs and pocket from Ivory to washed BLUE JEAN, muted pale blue-grey #9AA5B3. Keep BOTH FLAT DRAWCORDS NATURAL CREAM, visibly contrasting against blue fabric; do not dye cords blue. Keep tiny63mm OFF SHFT embroidery exactly unchanged: Ink letters/ring and Rust dot/hands at12and5, same small size and wearer-left chest location. Preserve lightweight217gsm soft drape, smooth cotton knit, relaxed construction, all natural folds, full garment10percent margins, square overhead image, warm ivory surface and upper-left soft lighting. Nothing else changes, no new text, no props.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-ivory-logo.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-a0e2ad1b-1fcb-4816-8cee-cc7296128a7d.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-blue-jean-logo.png",
+      "file": "images/hoodie-1467-blue-jean-logo.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1467-blue-jean-clock",
+      "prompt": "Precise recolour only: change1467 hoodie fabric, hood, ribs and pouch to washed BLUE JEAN #9AA5B3 muted pale blue-grey. BOTH FLAT DRAWCORDS stay NATURAL CREAM, contrasting clearly against blue; do not recolour cords. Tiny25mm clock emblem stays exactly same size, shape and wearer-left location, Ink O-ring and Rust dot and detached12anddiagonal5 hands. Keep light soft217gsm cotton drape, every seam and fold, full garment margins, square overhead composition, ivory studio surface, warm upper-left daylight and shadows. No text or new objects. No enlargement of clock.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-ivory-clock.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-1748ef60-de25-490e-86c3-2b44652a4613.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-blue-jean-clock.png",
+      "file": "images/hoodie-1467-blue-jean-clock.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-1467-blue-jean-punched-out",
+      "prompt": "Precise recolour only. Recolour1467 lightweight hoodie fabric, hood, lining, ribs and pocket to washed BLUE JEAN #9AA5B3 pale blue-grey. BOTH FLAT DRAWCORDS remain NATURAL CREAM, visibly contrasting, and their ends stay above the lettering. Keep existing v2 PUNCHED OUT. embroidery Rust #B4552D, one single horizontal line with final period, same230mm width and centred location, no scaling or redesign. Retain lighter soft217gsm cotton drape, full garment and10percent margins, same overhead square studio photo, warm ivory background and soft upper-left daylight. No extra graphics, props or external text.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-ivory-punched-out.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-19a6d067-a02b-4f75-9ac1-6b685937508d.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1467-blue-jean-punched-out.png",
+      "file": "images/hoodie-1467-blue-jean-punched-out.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-5161-pine-green-logo",
+      "prompt": "Product colourway edit. Keep the exact AS Colour5161 oversized hoodie construction of image1: broad relaxed dropped shoulders, self-lined hood with ABSOLUTELY NO DRAWCORDS OR EYELETS, kangaroo pocket and ribbed cuffs/hem. Recolour fabric to deep PINE GREEN #113433 (dark blue-green), matte plain cotton fleece. Recolour tiny63mm OFF SHFT logo to image2's Bone #ECE5D3 letters/ring and Sun #D29B3C detached hands and centre dot. Preserve tiny current logo size, wearer-left chest location, exact OFF SHFT spelling, hands at12straightup and5diagonaldown-right. Pull framing back so entire garment is about15percent smaller within square, with~10percent background margin on all sides. Keep full sleeves and hem visible, same flatlay orientation, warm ivory studio surface and soft upper-left directional light. Smooth believable cotton texture and natural folds, no props or external captions. NO drawcords on this5161.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\images\\hoodie-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\designs\\brand-system\\assets\\logo-dark.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-852554f1-815c-4c1d-b9fe-e89d9ea6a6b1.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-5161-pine-green-logo.png",
+      "initialSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-b7846ca7-ee4e-4e43-b593-bb5013a0dbc7.png",
+      "revisionPrompt": "Change ONLY framing: pull back camera and make the whole hoodie20percent smaller in the same square1254pixel image. Centre it within the central80percent of canvas, with at least120pixels of clear ivory background at top, bottom, left and right. Full hood, cuffs and hem. Do not crop any garment. Preserve exact cord-free PineGreen5161 hoodie, logo, colour, geometry, folds, photography and lighting. No added drawcords, no added text or objects.",
+      "file": "images/hoodie-5161-pine-green-logo.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-5161-pine-green-clock",
+      "prompt": "Edit ONLY chest branding in image1, keeping the exact cord-free PineGreen5161 hoodie. Remove OFF SHFT letters and replace with tiny standalone clock as shown in image2. Use emblem only from image2, NOT its hoodie or cords. Clock25mm high, approximately25pixels high in this photograph, never a large badge. Bone ring #ECE5D3, Sun #D29B3C centre dot, detached upper12hand and diagonaldown-right5hand. Same wearer-left chest centre. Preserve exact PineGreen #113433 fabric, oversized dropped shoulders, lined hood with NO DRAWCORDS AND NO EYELETS, kangaroo, rib cuffs/hem, full garment and generous margins, square overhead shot, ivory surface and warm light. No letters remain, no added props or external text.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-5161-pine-green-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-blue-spruce-clock.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-91ec6453-592f-4cc5-90b5-8630b1e356fb.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-5161-pine-green-clock.png",
+      "initialSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-44fde09d-c515-4014-b869-b7b24b1a1481.png",
+      "revisionPrompt": "Change ONLY the chest clock emblem size: reduce it to TWO THIRDS of current height and width, about25pixels total height, keeping same centre. It represents a discreet25mm embroidery. Retain Bone ring, Sun central dot, detached12upperhand and5diagonaldown-righthand. Preserve the entire rest of photograph exactly: cord-free PineGreen5161 hoodie, no drawcords, pocket/ribs, fabric, folds, generous margins, square ivory studio framing and lighting. No other changes.",
+      "file": "images/hoodie-5161-pine-green-clock.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    },
+    {
+      "key": "hoodie-5161-pine-green-punched-out",
+      "prompt": "Edit ONLY chest decoration of image1's cord-free PineGreen5161 hoodie. Remove OFF SHFT small logo. Add the exact existing v2 PUNCHED OUT. lettering from image2, one line, final period, Sun #D29B3C thread, centred upper front. Scale to230mm width physically, about36percent of the flat torso width or190pixels in this image. Keep low horizontal letters, no stacked redesign, no clock. Image2 is artwork reference only; do NOT copy its cords. Preserve image1's AS Colour5161 broad oversized dropped-shoulder body, lined hood with NO DRAWCORDS and NO EYELETS, deep PineGreen #113433, kangaroo pocket, rib cuffs/hem, all folds, full garment with generous margins, square warm ivory studio photo and upper-left light. No props or extra text.",
+      "references": [
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-5161-pine-green-logo.png",
+        "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-1567-blue-spruce-punched-out.png"
+      ],
+      "generatedSource": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b2-19e2-7e70-aa8f-4f1c4abccf84\\exec-6b4196aa-03e4-4bd3-9d9b-5130bf50181b.png",
+      "output": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\realistic-products\\colour-expansion\\images\\hoodie-5161-pine-green-punched-out.png",
+      "file": "images/hoodie-5161-pine-green-punched-out.png",
+      "expectedPixels": [
+        1254,
+        1254
+      ],
+      "visualReview": "inspected"
+    }
+  ]
+}

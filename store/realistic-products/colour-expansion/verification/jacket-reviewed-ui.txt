@@ -1,0 +1,95 @@
+ontainer
+												68629 group
+												72212 complementary Sidekick ID: sidekick
+													83351 group
+														83352 group
+															83353 dialog Changes Secondary Actions: Raise
+																83354 group
+																	83355 button Close review
+																		83356 group
+																83357 status
+																	83358 group
+																		83359 text Review the full set of changes and publish when ready.
+																83360 group
+																	83361 button Publish all changes
+																83362 group Change types
+																	83363 group
+																		83364 toggle button Products, reviewed
+																			83365 group
+																			83366 text Products
+																83367 group
+																	83368 text Show original
+																83369 group
+																	83370 group
+																		83371 check box (settable, string) Show original
+																		83372 text Show original
+																83373 group
+																	83374 status
+																		83375 group
+																		83376 group
+																			83377 heading Some changes can't be opened in the editor
+																		83378 group
+																			83379 group
+																				83380 text Review these changes in the table before publishing.
+																83381 table
+																	83382 row
+																		83383 column header Change type
+																		83384 column header Image
+																		83385 column header Product
+																		83386 column header Options
+																		83387 column header Variants
+																		83388 column header Media
+																		83389 column header Price
+																	83390 row
+																		83391 item Change
+																			83392 group
+																		83393 item
+																			83394 group
+																		83395 item The Clock Jacket
+																			83396 group
+																		83397 item Size, Colour
+																			83398 group
+																		83399 item 6 variants changed
+																			83400 group
+																		83401 item jacket-clock.png jacket-co200-light-blue-clock.png Items: jacket-clock.png, Media Content Type: IMAGE; jacket-co200-light-blue-clock.png, Media Content Type: IMAGE, Change: attached; offshft-jacket-co200-clock.png, Media Content Type: IMAGE, Variants: S / Black, Variant: gid://shopify/ProductVariant/67946097148226, Media Id: gid://shopify/MediaImage/46665017033026, Media: jacket-clock.png; M / Black, Variant: gid://shopify/ProductVariant/67946097180994, Media Id: gid://shopify/MediaImage/46665017033026, Media: jacket-clock.png; L / Black, Variant: gid://shopify/ProductVariant/67946097213762, Media Id: gid://shopify/MediaImage/46665017033026, Media: jacket-clock.png; XL / Black, Variant: gid://shopify/ProductVariant/67946097246530, Media Id: gid://shopify/MediaImage/46665017033026, Media: jacket-clock.png; 2XL / Black, Variant: gid://shopify/ProductVariant/67946097279298, Media Id: gid://shopify/MediaImage/46665017033026, Media: jacket-clock.png; S / Light Blue, Variant: client:light-blue-0, Media Id: gid://shopify/MediaImage/46665864905026, Media: jacket-co200-light-blue-clock.png; M / Light Blue, Variant: client:light-blue-1, Media Id: gid://shopify/MediaImage/46665864905026, Media: jacket-co200-light-blue-clock.png; L / Light Blue, Variant: client:light-blue-2, Media Id: gid://shopify/MediaImage/46665864905026, Media: jacket-co200-light-blue-clock.png; XL / Light Blue, Variant: client:light-blue-3, Media Id: gid://shopify/MediaImage/46665864905026, Media: jacket-co200-light-blue-clock.png; 2XL / Light Blue, Variant: client:light-blue-4, Media Id: gid://shopify/MediaImage/46665864905026, Media: jacket-co200-light-blue-clock.png
+																			83402 group
+																				83403 graphic jacket-clock.png
+																			83404 group
+																				83405 graphic jacket-co200-light-blue-clock.png
+																			83406 group
+																		83407 item 99.99
+																			83408 group
+																	83409 row
+																		83410 item Change
+																			83411 group
+																		83412 item
+																			83413 group
+																		83414 item OFF SHFT Logo Jacket
+																			83415 group
+																		83416 item Size, Colour
+																			83417 group
+																		83418 item 6 variants changed
+																			83419 group
+																		83420 item jacket-logo.png jacket-co200-light-blue-logo.png Items: jacket-logo.png, Media Content Type: IMAGE; jacket-co200-light-blue-logo.png, Media Content Type: IMAGE, Change: attached; offshft-jacket-co200-logo.png, Media Content Type: IMAGE, Variants: S / Black, Variant: gid://shopify/ProductVariant/67946096951618, Media Id: gid://shopify/MediaImage/46665017000258, Media: jacket-logo.png; M / Black, Variant: gid://shopify/ProductVariant/67946096984386, Media Id: gid://shopify/MediaImage/46665017000258, Media: jacket-logo.png; L / Black, Variant: gid://shopify/ProductVariant/67946097017154, Media Id: gid://shopify/MediaImage/46665017000258, Media: jacket-logo.png; XL / Black, Variant: gid://shopify/ProductVariant/67946097049922, Media Id: gid://shopify/MediaImage/46665017000258, Media: jacket-logo.png; 2XL / Black, Variant: gid://shopify/ProductVariant/67946097082690, Media Id: gid://shopify/MediaImage/46665017000258, Media: jacket-logo.png; S / Light Blue, Variant: client:light-blue-0, Media Id: gid://shopify/MediaImage/46665865167170, Media: jacket-co200-light-blue-logo.png; M / Light Blue, Variant: client:light-blue-1, Media Id: gid://shopify/MediaImage/46665865167170, Media: jacket-co200-light-blue-logo.png; L / Light Blue, Variant: client:light-blue-2, Media Id: gid://shopify/MediaImage/46665865167170, Media: jacket-co200-light-blue-logo.png; XL / Light Blue, Variant: client:light-blue-3, Media Id: gid://shopify/MediaImage/46665865167170, Media: jacket-co200-light-blue-logo.png; 2XL / Light Blue, Variant: client:light-blue-4, Media Id: gid://shopify/MediaImage/46665865167170, Media: jacket-co200-light-blue-logo.png
+																			83421 group
+																				83422 graphic jacket-logo.png
+																			83423 group
+																				83424 graphic jacket-co200-light-blue-logo.png
+																			83425 group
+																		83426 item 99.99
+																			83427 group
+																	83428 row
+																		83429 item Change
+																			83430 group
+																		83431 item
+																			83432 group
+																		83433 item Punched Out. Jacket
+																			83434 group
+																		83435 item Size, Colour
+																			83436 group
+																		83437 item 6 variants changed
+																			83438 group
+																		83439 item jacket-punched-out.png jacket-co200-light-blue-punched-out.png Items: jacket-punched-out.png, Media Content Type: IMAGE; jacket-co200-light-blue-punched-out.png, Media Content Type: IMAGE, Change: attached; offshft-jacket-co200-punched-out.png, Media Content Type: IMAGE, Variants: S / Black, Variant: gid://shopify/ProductVariant/67946097344834, Media Id: gid://shopify/MediaImage/46665017065794, Media: jacket-punched-out.png; M / Black, Variant: gid://shopify/ProductVariant/67946097377602, Media Id: gid://shopify/MediaImage/46665017065794, Media: jacket-punched-out.png; L / Black, Variant: gid://shopify/ProductVariant/67946097410370, Media Id: gid://shopify/MediaImage/46665017065794, Media: jacket-punched-out.png; XL / Black, Variant: gid://shopify/ProductVariant/67946097443138, Media Id: gid://shopify/MediaImage/46665017065794, Media: jacket-punched-out.png; 2XL / Black, Variant: gid://shopify/ProductVariant/67946097475906, Media Id: gid://shopify/MediaImage/46665017065794, Media: jacket-punched-out.png; S / Light Blue, Variant: client:light-blue-0, Media Id: gid://shopify/MediaImage/46665865560386, Media: jacket-co200-light-blue-punched-out.png; M / Light Blue, Variant: client:light-blue-1, Media Id: gid://shopify/MediaImage/46665865560386, Media: jacket-co200-light-blue-punched-out.png; L / Light Blue, Variant: client:light-blue-2, Media Id: gid://shopify/MediaImage/46665865560386, Media: jacket-co200-light-blue-punched-out.png; XL / Light Blue, Variant: client:light-blue-3, Media Id: gid://shopify/MediaImage/46665865560386, Media: jacket-co200-light-blue-punched-out.png; 2XL / Light Blue, Variant: client:light-blue-4, Media Id: gid://shopify/MediaImage/46665865560386, Media: jacket-co200-light-blue-punched-out.png
+																			83440 group
+																				83441 graphic jacket-punched-out.png
+																			83442

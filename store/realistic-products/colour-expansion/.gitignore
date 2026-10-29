@@ -1,0 +1,5 @@
+# Download bundle is generated locally; individual source images are tracked.
+OFF-SHFT-Colour-Images.zip
+__pycache__/
+verification/review-previews/
+verification/pdf-rebuild-pages/

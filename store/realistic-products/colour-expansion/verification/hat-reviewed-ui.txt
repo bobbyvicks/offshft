@@ -1,0 +1,101 @@
+ontainer
+												68629 group
+												72212 complementary Sidekick ID: sidekick
+													75270 group
+														75271 group
+															75272 dialog Changes Secondary Actions: Raise
+																75273 group
+																	75274 button Close review
+																		75275 group
+																75276 status
+																	75277 group
+																		75278 text Review the full set of changes and publish when ready.
+																75279 group
+																	75280 button Publish all changes
+																75281 group Change types
+																	75282 group
+																		75283 toggle button Products, reviewed
+																			75284 group
+																			75285 text Products
+																75286 group
+																	75287 text Show original
+																75288 group
+																	75289 group
+																		75290 check box (settable, string) Show original
+																		75291 text Show original
+																75292 group
+																	75293 status
+																		75294 group
+																		75295 group
+																			75296 heading Some changes can't be opened in the editor
+																		75297 group
+																			75298 group
+																				75299 text Review these changes in the table before publishing.
+																75300 table
+																	75301 row
+																		75302 column header Change type
+																		75303 column header Image
+																		75304 column header Product
+																		75305 column header Options
+																		75306 column header Variants
+																		75307 column header Media
+																		75308 column header Price
+																	75309 row
+																		75310 item Change
+																			75311 group
+																		75312 item
+																			75313 group
+																		75314 item The Clock Hat
+																			75315 group
+																		75316 item Style, Colour
+																			75317 group
+																		75318 item 1 variant changed
+																			75319 group
+																		75320 item hat-clock.png hat-6606-evergreen-clock.png hat-31-069-black-clock.png Items: hat-clock.png, Media Content Type: IMAGE; hat-6606-evergreen-clock.png, Media Content Type: IMAGE, Change: attached; hat-31-069-black-clock.png, Media Content Type: IMAGE, Change: attached; hat-6245cm-black-clock.png, Media Content Type: IMAGE, Change: attached; hat-ba671-black-white-clock.png, Media Content Type: IMAGE, Change: attached; offshft-trucker-6606-clock.png, Media Content Type: IMAGE; offshft-five-panel-clock.png, Media Content Type: IMAGE; offshft-dad-hat-clock.png, Media Content Type: IMAGE; offshft-rope-cap-clock.png, Media Content Type: IMAGE, Variants: Retro Trucker / Black, Variant: gid://shopify/ProductVariant/67946082173250, Media Id: gid://shopify/MediaImage/46665017196866, Media: hat-clock.png; 5-Panel / Black, Variant: gid://shopify/ProductVariant/67946082206018, Media Id: gid://shopify/MediaImage/46665866084674, Media: hat-31-069-black-clock.png; Dad Hat / Black, Variant: gid://shopify/ProductVariant/67946082238786, Media Id: gid://shopify/MediaImage/46665866150210, Media: hat-6245cm-black-clock.png; Rope Cap / Black/White, Variant: gid://shopify/ProductVariant/67946082271554, Media Id: gid://shopify/MediaImage/46665865527618, Media: hat-ba671-black-white-clock.png; Retro Trucker / Evergreen, Variant: client:evergreen-trucker, Media Id: gid://shopify/MediaImage/46665866019138, Media: hat-6606-evergreen-clock.png
+																			75321 group
+																				75322 graphic hat-clock.png
+																			75323 group
+																				75324 graphic hat-6606-evergreen-clock.png
+																			75325 group
+																				75326 graphic hat-31-069-black-clock.png
+																			75327 group
+																		75328 item 34.99
+																			75329 group
+																	75330 row
+																		75331 item Change
+																			75332 group
+																		75333 item
+																			75334 group
+																		75335 item OFF SHFT Logo Hat
+																			75336 group
+																		75337 item Style, Colour
+																			75338 group
+																		75339 item 1 variant changed
+																			75340 group
+																		75341 item hat-logo.png hat-6606-evergreen-logo.png hat-31-069-black-logo.png Items: hat-logo.png, Media Content Type: IMAGE; hat-6606-evergreen-logo.png, Media Content Type: IMAGE, Change: attached; hat-31-069-black-logo.png, Media Content Type: IMAGE, Change: attached; hat-6245cm-black-logo.png, Media Content Type: IMAGE, Change: attached; hat-ba671-black-white-logo.png, Media Content Type: IMAGE, Change: attached; offshft-trucker-6606-logo.png, Media Content Type: IMAGE; offshft-five-panel-logo.png, Media Content Type: IMAGE; offshft-dad-hat-logo.png, Media Content Type: IMAGE; offshft-rope-cap-logo.png, Media Content Type: IMAGE, Variants: Retro Trucker / Black, Variant: gid://shopify/ProductVariant/67946082042178, Media Id: gid://shopify/MediaImage/46665017295170, Media: hat-logo.png; 5-Panel / Black, Variant: gid://shopify/ProductVariant/67946082074946, Media Id: gid://shopify/MediaImage/46665866182978, Media: hat-31-069-black-logo.png; Dad Hat / Black, Variant: gid://shopify/ProductVariant/67946082107714, Media Id: gid://shopify/MediaImage/46665865756994, Media: hat-6245cm-black-logo.png; Rope Cap / Black/White, Variant: gid://shopify/ProductVariant/67946082140482, Media Id: gid://shopify/MediaImage/46665865232706, Media: hat-ba671-black-white-logo.png; Retro Trucker / Evergreen, Variant: client:evergreen-trucker, Media Id: gid://shopify/MediaImage/46665865363778, Media: hat-6606-evergreen-logo.png
+																			75342 group
+																				75343 graphic hat-logo.png
+																			75344 group
+																				75345 graphic hat-6606-evergreen-logo.png
+																			75346 group
+																				75347 graphic hat-31-069-black-logo.png
+																			75348 group
+																		75349 item 34.99
+																			75350 group
+																	75351 row
+																		75352 item Change
+																			75353 group
+																		75354 item
+																			75355 group
+																		75356 item Punched Out. Hat
+																			75357 group
+																		75358 item Style, Colour
+																			75359 group
+																		75360 item 1 variant changed
+																			75361 group
+																		75362 item hat-punched-out.png hat-6606-evergreen-punched-out.png hat-31-069-black-punched-out.png Items: hat-punched-out.png, Media Content Type: IMAGE; hat-6606-evergreen-punched-out.png, Media Content Type: IMAGE, Change: attached; hat-31-069-black-punched-out.png, Media Content Type: IMAGE, Change: attached; hat-6245cm-black-punched-out.png, Media Content Type: IMAGE, Change: attached; hat-ba671-black-white-punched-out.png, Media Content Type: IMAGE, Change: attached; offshft-trucker-6606-punched-out.png, Media Content Type: IMAGE; offshft-five-panel-punched-out.png, Media Content Type: IMAGE; offshft-dad-hat-punched-out.png, Media Content Type: IMAGE; offshft-rope-cap-punched-out.png, Media Content Type: IMAGE, Variants: Retro Trucker / Black, Variant: gid://shopify/ProductVariant/67946082304322, Media Id: gid://shopify/MediaImage/46665017327938, Media: hat-punched-out.png; 5-Panel / Black, Variant: gid://shopify/ProductVariant/67946082337090, Media Id: gid://shopify/MediaImage/46665865822530, Media: hat-31-069-black-punched-out.png; Dad Hat / Black, Variant: gid://shopify/ProductVariant/67946082369858, Media Id: gid://shopify/MediaImage/46665865298242, Media: hat-6245cm-black-punched-out.png; Rope Cap / Black/White, Variant: gid://shopify/ProductVariant/67946082402626, Media Id: gid://shopify/MediaImage/46665865068866, Media: hat-ba671-black-white-punched-out.png; Retro Trucker / Evergreen, Variant: client:evergreen-trucker, Media Id: gid://shopify/MediaImage/46665865658690, Media: hat-6606-evergreen-punched-out.png
+																			75363 group
+																				75364 graphic hat-punched-out.png
+																			75365 group
+																				75366 graphic hat-6606-evergreen-punched-out.png
+																	

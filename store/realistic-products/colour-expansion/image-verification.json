@@ -1,0 +1,572 @@
+[
+  {
+    "key": "hoodie-logo",
+    "style": "Oversized",
+    "colour": "Bone",
+    "image": "../images/hoodie-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2472975,
+    "sha256": "a1b858665426f02dacaeef7b34fde707864a9057244af2dae039838cd7feba81"
+  },
+  {
+    "key": "hoodie-clock",
+    "style": "Oversized",
+    "colour": "Bone",
+    "image": "../images/hoodie-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2237008,
+    "sha256": "229e74958e89859832cee268d708534cc02d0540daef4354dcc230010c2e53d0"
+  },
+  {
+    "key": "hoodie-punched-out",
+    "style": "Oversized",
+    "colour": "Bone",
+    "image": "../images/hoodie-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2369764,
+    "sha256": "40129b96784dcb9f4bb1aa053e4a733971b8bfffc366a47d73da8dad2d827dad"
+  },
+  {
+    "key": "hoodie-logo",
+    "style": "Oversized",
+    "colour": "Pine Green",
+    "image": "images/hoodie-5161-pine-green-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1954524,
+    "sha256": "a68fd8f9a13bd7214f3cd88e2295d1356034fe17b36282c555d0dd6768c1f2e0"
+  },
+  {
+    "key": "hoodie-clock",
+    "style": "Oversized",
+    "colour": "Pine Green",
+    "image": "images/hoodie-5161-pine-green-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1720425,
+    "sha256": "274304f9817f59c58ed99386cdeba445dcb87ff4f11337421d64cce2fb74ee4d"
+  },
+  {
+    "key": "hoodie-punched-out",
+    "style": "Oversized",
+    "colour": "Pine Green",
+    "image": "images/hoodie-5161-pine-green-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1811434,
+    "sha256": "458a133e636f1e47ebe6e9eb80cc912b8499f1a7ee0a996ed884354fbfb475fe"
+  },
+  {
+    "key": "hoodie-logo",
+    "style": "Lightweight",
+    "colour": "Blue Jean",
+    "image": "images/hoodie-1467-blue-jean-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2107015,
+    "sha256": "05bd77af215a95f6e6606421159b4f08f11baa90740e5620e6784d1595d9f24d"
+  },
+  {
+    "key": "hoodie-clock",
+    "style": "Lightweight",
+    "colour": "Blue Jean",
+    "image": "images/hoodie-1467-blue-jean-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2106566,
+    "sha256": "335d5044e501d8f7727c1ab6bc84d1e9513d818ba5fe6e217f80913dd1b68406"
+  },
+  {
+    "key": "hoodie-punched-out",
+    "style": "Lightweight",
+    "colour": "Blue Jean",
+    "image": "images/hoodie-1467-blue-jean-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2179337,
+    "sha256": "ff05020ad1c4858a6228463a8a06498f279af8491007b020cf0b1d8cd33558c5"
+  },
+  {
+    "key": "hoodie-logo",
+    "style": "Lightweight",
+    "colour": "Ivory",
+    "image": "images/hoodie-1467-ivory-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1908993,
+    "sha256": "fba82ae60976931845d91cebb55ffdcb437e9cd97378c0a287abd905774064df"
+  },
+  {
+    "key": "hoodie-clock",
+    "style": "Lightweight",
+    "colour": "Ivory",
+    "image": "images/hoodie-1467-ivory-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1818516,
+    "sha256": "2128ac8a70d32f6c856c3f7e666d3122cd3d2c1f2ebf06b1fc5e28982990c657"
+  },
+  {
+    "key": "hoodie-punched-out",
+    "style": "Lightweight",
+    "colour": "Ivory",
+    "image": "images/hoodie-1467-ivory-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1890106,
+    "sha256": "62882424085fa48cec62eb7583692c18dceee9add83670c6a3f85f4440df7bfe"
+  },
+  {
+    "key": "hoodie-logo",
+    "style": "Garment-Dyed",
+    "colour": "Blue Spruce",
+    "image": "images/hoodie-1567-blue-spruce-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2345505,
+    "sha256": "f587a88945f0d60316b21382b76eac1f0c1ab23429268d1b2c69a374ae7a5eb8"
+  },
+  {
+    "key": "hoodie-clock",
+    "style": "Garment-Dyed",
+    "colour": "Blue Spruce",
+    "image": "images/hoodie-1567-blue-spruce-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2121469,
+    "sha256": "45727c443fd94e981228485b667692be9dab4e9c5fec65521eadbf08b38a2c2f"
+  },
+  {
+    "key": "hoodie-punched-out",
+    "style": "Garment-Dyed",
+    "colour": "Blue Spruce",
+    "image": "images/hoodie-1567-blue-spruce-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2045690,
+    "sha256": "aec6678141f8de5f7a8f75f2f5cba87f0660491db5335ce0408bad88a1d8f95e"
+  },
+  {
+    "key": "hoodie-logo",
+    "style": "Garment-Dyed",
+    "colour": "White",
+    "image": "images/hoodie-1567-white-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2054959,
+    "sha256": "53c972fa8d34e211cb8c0fe5dc470294c1cee26e6fd91a7cd2b433894a64e00c"
+  },
+  {
+    "key": "hoodie-clock",
+    "style": "Garment-Dyed",
+    "colour": "White",
+    "image": "images/hoodie-1567-white-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1878930,
+    "sha256": "770761d1e4906cafb896ef2811b8ef2dfaa244fba84ca0ada0903197e858cee9"
+  },
+  {
+    "key": "hoodie-punched-out",
+    "style": "Garment-Dyed",
+    "colour": "White",
+    "image": "images/hoodie-1567-white-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1837664,
+    "sha256": "d7e701d1435ae9cfa5a32e3062151089fd8d32032731f949cdd140b437166dbf"
+  },
+  {
+    "key": "hat-logo",
+    "style": "Rope Cap",
+    "colour": "Black/White",
+    "image": "images/hat-ba671-black-white-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2063032,
+    "sha256": "b36356ef054d73b60270ab3fbdf3be7c8a8756c9fc918b8ab67dcb50ff3e5820"
+  },
+  {
+    "key": "hat-clock",
+    "style": "Rope Cap",
+    "colour": "Black/White",
+    "image": "images/hat-ba671-black-white-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2068963,
+    "sha256": "e9b62bd27e2e86c864cc92d4e2999bb17aa2b7fdc676ce13104b99837ca4abf3"
+  },
+  {
+    "key": "hat-punched-out",
+    "style": "Rope Cap",
+    "colour": "Black/White",
+    "image": "images/hat-ba671-black-white-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1978031,
+    "sha256": "74eebee4abe9f231489a27d643fca47f4a00559ce2156c8e258a548c80e0a3cd"
+  },
+  {
+    "key": "hat-logo",
+    "style": "5-Panel",
+    "colour": "Black",
+    "image": "images/hat-31-069-black-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2354231,
+    "sha256": "5e83b728201e6ac3102f1481c34bd06c3d8e7ec89aa4eafc7d36119dcd9cbcd0"
+  },
+  {
+    "key": "hat-clock",
+    "style": "5-Panel",
+    "colour": "Black",
+    "image": "images/hat-31-069-black-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2261075,
+    "sha256": "33b747896c2485666df10a472e51e7c5cbe2177e462cc3302990da33415221e7"
+  },
+  {
+    "key": "hat-punched-out",
+    "style": "5-Panel",
+    "colour": "Black",
+    "image": "images/hat-31-069-black-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2205788,
+    "sha256": "558270d239d2e2c7fc566f83491e8d665a807736eacfa6a13433e09fd6d36062"
+  },
+  {
+    "key": "hat-logo",
+    "style": "Dad Hat",
+    "colour": "Black",
+    "image": "images/hat-6245cm-black-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2235280,
+    "sha256": "a179f06045802a2546f8d0e96dcff11c9e243c15dc9b13a00ce1ac1eb2c39f68"
+  },
+  {
+    "key": "hat-clock",
+    "style": "Dad Hat",
+    "colour": "Black",
+    "image": "images/hat-6245cm-black-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2141505,
+    "sha256": "2144600ce0c7f55c25777c7597b8b6276109270b4ce263acbc217f1d2807ebaa"
+  },
+  {
+    "key": "hat-punched-out",
+    "style": "Dad Hat",
+    "colour": "Black",
+    "image": "images/hat-6245cm-black-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2072991,
+    "sha256": "ab627e124c109451288a4b2ae14200fd5bdc28f42b8036deec9b5975fb89a66c"
+  },
+  {
+    "key": "hat-logo",
+    "style": "Retro Trucker",
+    "colour": "Black",
+    "image": "../images/hat-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2463442,
+    "sha256": "2530046452f12df687b381506fe9f7a72cd1ff8699ff8203f257f2e0843811ea"
+  },
+  {
+    "key": "hat-clock",
+    "style": "Retro Trucker",
+    "colour": "Black",
+    "image": "../images/hat-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2374304,
+    "sha256": "66273c2a1143b9a2f234ae9d0eae80c966afd515d3e64ccdaa1a3d30fdd24262"
+  },
+  {
+    "key": "hat-punched-out",
+    "style": "Retro Trucker",
+    "colour": "Black",
+    "image": "../images/hat-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2403022,
+    "sha256": "cc64d920a47446af29d9aa882670e097dbdfb293addc551f894b17bc61a19fba"
+  },
+  {
+    "key": "hat-logo",
+    "style": "Retro Trucker",
+    "colour": "Evergreen",
+    "image": "images/hat-6606-evergreen-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2468178,
+    "sha256": "8a880c6d7796aaded55aefb309f6c71e6acaefabe860a69d4e60d72976f99180"
+  },
+  {
+    "key": "hat-clock",
+    "style": "Retro Trucker",
+    "colour": "Evergreen",
+    "image": "images/hat-6606-evergreen-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2439947,
+    "sha256": "7f4620c46e3a9f2f880d77adfc52d3af24b3090ed68f0a0861d4b413c6e51362"
+  },
+  {
+    "key": "hat-punched-out",
+    "style": "Retro Trucker",
+    "colour": "Evergreen",
+    "image": "images/hat-6606-evergreen-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2525665,
+    "sha256": "780cf15fa6d8aa6bced2b6eb84e45694dd0d7208bda3615a1c637c3f755a6886"
+  },
+  {
+    "key": "crewneck-logo",
+    "style": null,
+    "colour": "Blue Jean",
+    "image": "images/crewneck-1466-blue-jean-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2720932,
+    "sha256": "b53c830464b53331e3396baa925661dbce36863181a3675014d59d40a2c94334"
+  },
+  {
+    "key": "crewneck-clock",
+    "style": null,
+    "colour": "Blue Jean",
+    "image": "images/crewneck-1466-blue-jean-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2424792,
+    "sha256": "778307deeae2c9ec674fbc679f28886c3fc7ae5c0faf6127f1fec26e80bc567d"
+  },
+  {
+    "key": "crewneck-punched-out",
+    "style": null,
+    "colour": "Blue Jean",
+    "image": "images/crewneck-1466-blue-jean-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2608558,
+    "sha256": "15bc6d7ab63df53bdd8f8a54015e4ce75f607bca5c2681ae6b684ef992e71ee9"
+  },
+  {
+    "key": "crewneck-logo",
+    "style": null,
+    "colour": "Ivory",
+    "image": "../images/crewneck-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2506886,
+    "sha256": "0f1b5496ac5089111745f0b581dae87b7ce07db09bdffaaa710120002de2969c"
+  },
+  {
+    "key": "crewneck-clock",
+    "style": null,
+    "colour": "Ivory",
+    "image": "../images/crewneck-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2338592,
+    "sha256": "7ac6c5c722944b7c781d547a449c24290fcb3fd70c6cbd3f59db9ac91b731864"
+  },
+  {
+    "key": "crewneck-punched-out",
+    "style": null,
+    "colour": "Ivory",
+    "image": "../images/crewneck-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2307112,
+    "sha256": "8b6122d26e1af1589b195170648163d6f752cb78310d33ba9c0173022cc1bb87"
+  },
+  {
+    "key": "sweatpants-logo",
+    "style": null,
+    "colour": "Espresso",
+    "image": "images/sweatpants-1469-espresso-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1980878,
+    "sha256": "fa9b5bb061b5a7a17defc9028b445f72919a3fcf04bf691e8d811cfd0832d37f"
+  },
+  {
+    "key": "sweatpants-clock",
+    "style": null,
+    "colour": "Espresso",
+    "image": "images/sweatpants-1469-espresso-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1861442,
+    "sha256": "9d78bc053839fb61d267d0b4842e19bb18464f30af8bbe9d64c8dafd9237b133"
+  },
+  {
+    "key": "sweatpants-punched-out",
+    "style": null,
+    "colour": "Espresso",
+    "image": "images/sweatpants-1469-espresso-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1979081,
+    "sha256": "888664ceab0f9c5c27d198542a7225ebee178b1cbfa7f64f59aef6219a084dc5"
+  },
+  {
+    "key": "sweatpants-logo",
+    "style": null,
+    "colour": "Pepper",
+    "image": "images/sweatpants-1469-pepper-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1960573,
+    "sha256": "3daae1927d8e0f2d53f725c3958ff59e3f16a6b2ed46dac0c9ee02c6a8ab2c6f"
+  },
+  {
+    "key": "sweatpants-clock",
+    "style": null,
+    "colour": "Pepper",
+    "image": "images/sweatpants-1469-pepper-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1876301,
+    "sha256": "22541396edeb762046bf16ac79b40c54e92d54a5d2dcccf3c191ca5c24f032c0"
+  },
+  {
+    "key": "sweatpants-punched-out",
+    "style": null,
+    "colour": "Pepper",
+    "image": "images/sweatpants-1469-pepper-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1926742,
+    "sha256": "1bcf0c81cb39cd186ab8e5a248ef97c75200fdece841d6cc1d1d1d2cf992938a"
+  },
+  {
+    "key": "tee-logo",
+    "style": "Heavyweight",
+    "colour": "Blue Spruce",
+    "image": "images/tee-1717-blue-spruce-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2250686,
+    "sha256": "1727e8c2704d2774400cff71fea9c29a3861c5dc9eb248f631b9cf1c7b577fa8"
+  },
+  {
+    "key": "tee-clock",
+    "style": "Heavyweight",
+    "colour": "Blue Spruce",
+    "image": "images/tee-1717-blue-spruce-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2059888,
+    "sha256": "79fd9b6b9a352eb7a02454cc1a639ca8d7ab600632397bb6a6edc39ade9602c6"
+  },
+  {
+    "key": "tee-logo",
+    "style": "Heavyweight",
+    "colour": "Ivory",
+    "image": "../images/tee-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2189227,
+    "sha256": "e490375b6c52d3efb931c4698b4d54e7ac18e0ca6c0f74aea4db1e989ddfb543"
+  },
+  {
+    "key": "tee-clock",
+    "style": "Heavyweight",
+    "colour": "Ivory",
+    "image": "../images/tee-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1969059,
+    "sha256": "2fb416d7b9cfb0d263da8da8766c70c74cdcbfcf245f0b7e0b729456d5616ecf"
+  },
+  {
+    "key": "tee-logo",
+    "style": "Pocket",
+    "colour": "White",
+    "image": "images/tee-6030-white-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2024853,
+    "sha256": "6e106d1d01f3aa26d878d4929b76f3cd9897019485fd2510feba85f8bbddb784"
+  },
+  {
+    "key": "tee-clock",
+    "style": "Pocket",
+    "colour": "White",
+    "image": "images/tee-6030-white-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1877889,
+    "sha256": "406c9f0d44fa25b3f3e13d4b3f7fca6468a5edd1887cfa67d856ea9ab2aff7e4"
+  },
+  {
+    "key": "jacket-logo",
+    "style": null,
+    "colour": "Black",
+    "image": "../images/jacket-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1846646,
+    "sha256": "c96356e6a6814dc605e3805b7a68f3c094fc62fa7b4a5b27ca0b8b9aa3a976ca"
+  },
+  {
+    "key": "jacket-clock",
+    "style": null,
+    "colour": "Black",
+    "image": "../images/jacket-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1804519,
+    "sha256": "40a7b0b1868ec4cffd31cf22eb14d6f0e75c741f3edabe26207168847dbd3d91"
+  },
+  {
+    "key": "jacket-punched-out",
+    "style": null,
+    "colour": "Black",
+    "image": "../images/jacket-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1913099,
+    "sha256": "aecff9f43dfcec94065b202f184caccdaea20ba4c9a497c7f7c4a0b79f7ab021"
+  },
+  {
+    "key": "jacket-logo",
+    "style": null,
+    "colour": "Light Blue",
+    "image": "images/jacket-co200-light-blue-logo.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1907220,
+    "sha256": "53bf9a10617ead06c99282726bc2d378956d1acca7f58bc6c11ce4df82787c6a"
+  },
+  {
+    "key": "jacket-clock",
+    "style": null,
+    "colour": "Light Blue",
+    "image": "images/jacket-co200-light-blue-clock.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1840765,
+    "sha256": "e427174352107ad59d655ff4f029aab457689c8f14157a0fec7d68ff7f6b43a4"
+  },
+  {
+    "key": "jacket-punched-out",
+    "style": null,
+    "colour": "Light Blue",
+    "image": "images/jacket-co200-light-blue-punched-out.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1904269,
+    "sha256": "2e8d70e0ce14d9924b5627b2f9d99e48262f3937532962023054d32fd5646d0e"
+  }
+]
