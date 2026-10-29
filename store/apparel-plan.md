@@ -8,6 +8,15 @@ How to read it: numbers in square brackets are sources, listed at the end. "Arit
 
 How it was checked: most facts come from store/research/apparel.md and its sources. printful.com and blankstyle.com were blocked from this session again. Five new facts come from search results that quote those pages: the sweatpants' leg placements [3], the hoodie's embroidery placements [1], Printful's sleeve embroidery area [11], its 2XL+ size markup [12] and the full hoodie size chart [29]. To open the pages directly, allow www.printful.com and www.blankstyle.com in the environment's network settings.
 
+## Read first
+
+- **The owner has since picked other bases.** This plan was asked for on the research's recommendation: Bella + Canvas 4719, 4737 and 4711. While it was being written, the owner picked the AS Colour 5161 hoodie ("for sure"), the Comfort Colors 1567 and 1467 hoodies, the Comfort Colors 1469 sweatpants and the Comfort Colors 1466 crewneck, and asked for everything to be embroidered. The 4711 was shown and not picked (store/picks.md).
+  - Carries over to the owner's picks: the decoration (logo sizes, placements, thread colourways, the floor checks), the pricing method, the free-shipping flag, the listing structure and the render script.
+  - Has to be redone for them: blank facts, colours, prices, placements and size charts. The research has none of these for the 1467, 1469 and 1466 yet. Whether Printful embroiders each Comfort Colors item, and where, is being checked (store/picks.md).
+  - Known now: the Comfort Colors 1567 lists embroidery on the large front, centre chest and left chest, with no wrist [37]. On that hoodie the wrist symbol needs another spot. [CONFIRM: the 1567's placements] The AS Colour 5161 lists at US$38.97 [36] [CONFIRM: currency] and the 1567 at US$40.75 [37]. At C$89.99 they'd make about C$31.83 and C$29.30 on a Canadian card, before any second placement (arithmetic). So the hoodie price still works.
+- **The name, in clothing, comes first.** FIGS, Inc.'s OFF-SHIFT filing may cover clothing, loungewear included. The go-ahead in LAUNCH_PLAN.md was given for hats. store/apparel-copy.md (owner decision 1) has the details and says to ask a trademark lawyer before any OFF SHFT garment goes on sale.
+- **Copy and store structure for clothes** (collections, menus, FAQ, Size & fit text, the brand line) are proposed in store/apparel-copy.md. This plan follows its patterns and doesn't repeat them.
+
 ## In short
 
 - **Three pieces from Printful, all in the same heavyweight Bella + Canvas fleece:** an oversized hoodie, sweatpants and an oversized crewneck. The hoodie and sweatpants are the lounge set. The crewneck can wait if the owner wants to start with two.
@@ -174,31 +183,33 @@ Free shipping would also hurt the other two. A 3XL pair of sweatpants shipped fr
 
 ## 3. Listing drafts
 
-Built from store/products/_template.md, adapted for clothing: Colour and Size are the options, and the size charts live on the Size & fit page. Every listing is a Draft until the owner publishes it, after the samples pass.
+Built from store/products/_template.md, with the garment patterns in store/apparel-copy.md (part 2, Products): Colour and Size are the options, and the size charts live on the Size & fit page. Every listing is a Draft until the owner publishes it, after the samples pass.
 
 What changes from the hat template:
 
-- Product types: Hoodie, Sweatpants, Crewneck. They stay out of All hats, which is product type Hat.
-- Tags: `logo` (the design is the OFF SHFT logo or symbol) and `apparel` (fills the new collection; see Store changes).
+- Titles and handles: `<Design name> Hoodie`, `Crewneck` or `Sweatpants`, so OFF SHFT Logo Hoodie, off-shft-logo-hoodie. SEO titles add "Oversized" where the blank is cut oversized.
+- Product types: Hoodie, Crewneck, Sweatpants, typed exactly. They stay out of All hats, which is product type Hat, and fill Lounge and its two sub-collections by type (store/apparel-copy.md, part 3). No new tag is needed.
+- Tags: `logo` (the design is the OFF SHFT logo or symbol). Hobby tags only if the owner wants clothes in the hobby collections (store/apparel-copy.md, owner decision 6).
 - Options: Option 1 Color, Option 2 Size. [CONFIRM: the option names and order Printful's sync creates]
 - Category: [CONFIRM: the category Shopify's picker offers for each, under Apparel & Accessories > Clothing]. Shopify's taxonomy couldn't be opened from this session.
-- Never write: "made in Canada", "premium", "quality", "perfect gift", "must-have", "Off Shift", stock counts, countdowns, ratings or exclamation marks (template). Materials only as Printful states them on the day.
+- Last line: "Which size? See [Size & fit](/pages/size-fit)."
+- Never write: "made in Canada", "premium", "quality", "perfect gift", "must-have", "Off Shift", stock counts, countdowns, ratings or exclamation marks (template). Nor "heavyweight", "pre-shrunk", "true to size" or any other fabric or fit claim the maker doesn't make (store/apparel-copy.md). "Heavyweight" is in each of these blanks' own names [1][2][3], so it can stay. Materials only as Printful states them on the day.
 
-### 3.1 OFF SHFT Oversized Hoodie
+### 3.1 OFF SHFT Logo Hoodie
 
-- **SEO title (37 characters):** OFF SHFT Embroidered Oversized Hoodie
+- **SEO title (30 characters):** OFF SHFT Logo Oversized Hoodie
 - **Meta description (126 characters):** The O in OFF is a clock set to 5:00. The OFF SHFT logo, embroidered on an oversized hoodie made to order. For after the shift.
 
 | Shopify field | Value |
 |---|---|
-| Title | OFF SHFT Oversized Hoodie |
-| URL handle | off-shft-oversized-hoodie |
+| Title | OFF SHFT Logo Hoodie |
+| URL handle | off-shft-logo-hoodie |
 | Category | [CONFIRM: Shopify's category for a hoodie] |
 | Category attributes | Age group: Adults. Target gender: Unisex. Color and Size: per variant. Fabric and any fit or neckline attributes: [CONFIRM: from Printful's page] |
 | Product type | Hoodie |
 | Vendor | OFF SHFT |
-| Tags | logo, apparel |
-| Collections | Leave empty. Hoodies & sweats fills itself by tag. |
+| Tags | logo |
+| Collections | Leave empty. Lounge and Hoodies and crews fill themselves by product type. |
 | Status | Draft |
 | Price | 89.99, every size |
 | Compare-at price | Empty |
@@ -227,7 +238,7 @@ Made to order and shipped to you.
 - Care: [CONFIRM: care instructions from Printful's page]
 - Ships: made to order, usually ships in 2–5 business days [CONFIRM: Printful's time for embroidered apparel]
 
-Pairs with the OFF SHFT Sweatpants. Fit questions? See [Size & fit](/pages/size-fit).
+Pairs with the OFF SHFT Logo Sweatpants. Which size? See [Size & fit](/pages/size-fit).
 <!-- paste:end -->
 
 **Variants:** 3 colours × 8 sizes = 24.
@@ -257,21 +268,21 @@ Pairs with the OFF SHFT Sweatpants. Fit questions? See [Size & fit](/pages/size-
 - Threads: Black + Orange on Bone, White + Old Gold on Spruce and Navy, or unlimited colour (owner's call).
 - Approve only after a sew-out on the real hoodie shows both channels at least 0.8 mm open, the O's counter open, both S openings open and the symbol's pivot centred within 0.2 mm (notes.md).
 
-### 3.2 OFF SHFT Sweatpants
+### 3.2 OFF SHFT Logo Sweatpants
 
-- **SEO title (31 characters):** OFF SHFT Embroidered Sweatpants
-- **Meta description (123 characters):** A small clock stopped at 5:00. OFF SHFT sweatpants with the clock embroidered on the leg, made to order. For your days off.
+- **SEO title (24 characters):** OFF SHFT Logo Sweatpants
+- **Meta description (110 characters):** A small clock stopped at 5:00. The OFF SHFT clock, embroidered on sweatpants made to order. For your days off.
 
 | Shopify field | Value |
 |---|---|
-| Title | OFF SHFT Sweatpants |
-| URL handle | off-shft-sweatpants |
+| Title | OFF SHFT Logo Sweatpants |
+| URL handle | off-shft-logo-sweatpants |
 | Category | [CONFIRM: Shopify's category for sweatpants] |
 | Category attributes | Age group: Adults. Target gender: Unisex. Color and Size: per variant. Fabric and any fit attributes: [CONFIRM: from Printful's page] |
 | Product type | Sweatpants |
 | Vendor | OFF SHFT |
-| Tags | logo, apparel |
-| Collections | Leave empty. Hoodies & sweats fills itself by tag. |
+| Tags | logo |
+| Collections | Leave empty. Lounge and Sweats fill themselves by product type. |
 | Status | Draft |
 | Price | 79.99, every size |
 | Compare-at price | Empty |
@@ -300,7 +311,7 @@ Made to order and shipped to you.
 - Care: [CONFIRM: care instructions from Printful's page]
 - Ships: made to order, usually ships in 2–5 business days [CONFIRM: Printful's time for embroidered apparel]
 
-Pairs with the OFF SHFT Oversized Hoodie. Fit questions? See [Size & fit](/pages/size-fit).
+Pairs with the OFF SHFT Logo Hoodie. Which size? See [Size & fit](/pages/size-fit).
 <!-- paste:end -->
 
 **Variants:** 2 colours × 6 sizes = 12.
@@ -326,21 +337,21 @@ Pairs with the OFF SHFT Oversized Hoodie. Fit questions? See [Size & fit](/pages
 - One reviewer's embroidered pair had a loose leg seam [3]. Check it on the sample.
 - Same sew-out checks as the hoodie.
 
-### 3.3 OFF SHFT Oversized Crewneck
+### 3.3 OFF SHFT Logo Crewneck
 
-- **SEO title (39 characters):** OFF SHFT Embroidered Oversized Crewneck
+- **SEO title (32 characters):** OFF SHFT Logo Oversized Crewneck
 - **Meta description (128 characters):** The O in OFF is a clock set to 5:00. The OFF SHFT logo, embroidered on an oversized crewneck made to order. For after the shift.
 
 | Shopify field | Value |
 |---|---|
-| Title | OFF SHFT Oversized Crewneck |
-| URL handle | off-shft-oversized-crewneck |
+| Title | OFF SHFT Logo Crewneck |
+| URL handle | off-shft-logo-crewneck |
 | Category | [CONFIRM: Shopify's category for a crewneck sweatshirt] |
 | Category attributes | Age group: Adults. Target gender: Unisex. Color and Size: per variant. Fabric and any fit or neckline attributes: [CONFIRM: from Printful's page] |
 | Product type | Crewneck |
 | Vendor | OFF SHFT |
-| Tags | logo, apparel |
-| Collections | Leave empty. Hoodies & sweats fills itself by tag. |
+| Tags | logo |
+| Collections | Leave empty. Lounge and Hoodies and crews fill themselves by product type. |
 | Status | Draft |
 | Price | 79.99, every size |
 | Compare-at price | Empty |
@@ -368,7 +379,7 @@ Made to order and shipped to you.
 - Care: [CONFIRM: care instructions from Printful's page]
 - Ships: made to order, usually ships in 2–5 business days [CONFIRM: Printful's time for embroidered apparel]
 
-Fit questions? See [Size & fit](/pages/size-fit).
+Which size? See [Size & fit](/pages/size-fit).
 <!-- paste:end -->
 
 **Variants:** 3 colours × 8 sizes = 24, all 79.99. Same colours, artwork and thread as the hoodie. Default (first) colour: Bone.
@@ -389,46 +400,43 @@ Fit questions? See [Size & fit](/pages/size-fit).
 
 ## 4. Size & fit
 
-The Size & fit page (store/pages/size-fit.md) only covers hats. If the clothes launch, add this after the hat sections, inside the paste markers.
+The Size & fit text for clothes is in store/apparel-copy.md (part 4): how the clothes fit, how to measure one you own, and two empty charts. For these Bella + Canvas blanks, the charts fill in like this. Garment measurements, laid flat.
 
 <!-- paste:start -->
-### Hoodies and crewnecks
+### Hoodie and crewneck sizes
 
-The OFF SHFT Oversized Hoodie and Oversized Crewneck are cut big on purpose. Order your usual size for a roomy fit, or a size down for a closer one. [CONFIRM: after trying the samples]
+| Size | Chest | Length | Sleeve |
+|---|---|---|---|
+| XS | 53 cm (20¾ in) | 67 cm (26½ in) | [CONFIRM] |
+| S | 55 cm (21½ in) | 71 cm (28 in) | [CONFIRM] |
+| M | 60 cm (23½ in) | 72 cm (28½ in) | [CONFIRM] |
+| L | 65 cm (25½ in) | 75 cm (29½ in) | [CONFIRM] |
+| XL | 70 cm (27½ in) | 76 cm (30 in) | [CONFIRM] |
+| 2XL | 75 cm (29½ in) | 77 cm (30½ in) | [CONFIRM] |
+| 3XL | 80 cm (31½ in) | 79 cm (31 in) | [CONFIRM] |
+| 4XL | 85 cm (33½ in) | 80 cm (31½ in) | [CONFIRM] |
 
-The easiest check: lay a sweatshirt you like flat, measure straight across the chest just under the arms, and compare it with the chart.
+### Sweats sizes
 
-Measured flat. Chest is straight across. Length is from the top of the shoulder to the hem, at the back.
-
-| Size | XS | S | M | L | XL | 2XL | 3XL | 4XL |
-|---|---|---|---|---|---|---|---|---|
-| Chest across, in | 20¾ | 21½ | 23½ | 25½ | 27½ | 29½ | 31½ | 33½ |
-| Chest across, cm | 53 | 55 | 60 | 65 | 70 | 75 | 80 | 85 |
-| Length, in | 26½ | 28 | 28½ | 29½ | 30 | 30½ | 31 | 31½ |
-| Length, cm | 67 | 71 | 72 | 75 | 76 | 77 | 79 | 80 |
-
-### Sweatpants
-
-The OFF SHFT Sweatpants have a relaxed fit, an inside drawcord and elastic cuffs. [CONFIRM: from Printful's page on the day]
-
-Measured flat. Waist is straight across the waistband, not stretched. Inseam runs from the crotch seam to the hem.
-
-| Size | S | M | L | XL | 2XL | 3XL |
-|---|---|---|---|---|---|---|
-| Waist across, in | 14 | 15 | 16½ | 18 | 19½ | 21½ |
-| Waist across, cm | 36 | 38 | 42 | 46 | 50 | 55 |
-| Inseam, in | 29½ | 30 | 30½ | 31 | 31½ | 32 |
-| Inseam, cm | 75 | 76 | 77 | 79 | 80 | 81 |
+| Size | Waist | Inseam |
+|---|---|---|
+| S | 36 cm (14 in) | 75 cm (29½ in) |
+| M | 38 cm (15 in) | 76 cm (30 in) |
+| L | 42 cm (16½ in) | 77 cm (30½ in) |
+| XL | 46 cm (18 in) | 79 cm (31 in) |
+| 2XL | 50 cm (19½ in) | 80 cm (31½ in) |
+| 3XL | 55 cm (21½ in) | 81 cm (32 in) |
 <!-- paste:end -->
 
 Notes
 
-- Hoodie and crewneck: Bella + Canvas's spec sheet for the 4719 [29], quoted in search results. The 4711 sheet has the same numbers [30]. Sweatpants: waist from BlankStyle [32], inseam from the size guide on Printify's 4737 page [33]. The cm rows are arithmetic, rounded to the nearest cm.
+- Hoodie and crewneck: Bella + Canvas's spec sheet for the 4719 [29], quoted in search results. The 4711 sheet has the same numbers [30]. Sweatpants: waist from BlankStyle [32], inseam from the size guide on Printify's 4737 page [33]. The inches are the sources'; the cm are arithmetic, rounded to the nearest cm.
+- Sleeve: not in the research. [CONFIRM: from the spec sheets [29][30], or drop the column]
 - Printful's own size guide may differ. [CONFIRM: open the Size guide tab on each Printful product page [1][2][3] and use its numbers if they differ]
-- Measuring points: the 4711 sheet measures length from the high point of the shoulder to the hem [30]. [CONFIRM: the same on the 4719 sheet, and where the chest is measured]
-- The sweatpants waist is listed as "waist, relaxed" [32]. The numbers are half the waist: a 15 in waist couldn't go all the way round an adult. [CONFIRM on the spec sheet]
-- "Cut big on purpose" and "size down" rest on the product name and on reviews of the 4711 [2]. Change them if the samples fit differently.
-- The page's SEO title is "Hat Size and Fit Guide | OFF SHFT". If clothes launch, make it "Size and Fit Guide | OFF SHFT" (29 characters) and update its meta description to name hoodies, crewnecks and sweatpants.
+- Measuring points: the 4711 sheet measures length from the high point of the shoulder to the hem [30], as store/apparel-copy.md's steps do. [CONFIRM: the same on the 4719 sheet, and that chest is measured straight across]
+- The sweatpants waist is listed as "waist, relaxed" [32]. These numbers are the waist laid flat, not all the way round: a 15 in waist couldn't fit an adult. [CONFIRM on the spec sheet]
+- For the fit lines in store/apparel-copy.md: the 4719 and 4711 are cut oversized by name [1][2], and reviewers say the 4711 runs very large and women size down [2]. Fill its "size down" placeholder only after trying the samples.
+- The charts are for these blanks only. The owner's picks (Read first) need their own.
 - Spec sheets, for checking: [29] 4719, [30] 4711, [31] 4737, [32] 4737 measurements, [33] Printify's 4737 size guide.
 
 ## 5. Placement renders
@@ -448,28 +456,30 @@ Notes
 - The script builds the artwork from the logo build and checks it byte for byte against the approved files in designs/mark/final/the-o/. All match, except the dark 40 mm symbol, which has no file yet. It stops on any size under the floors in notes.md, and on any swatch too small to show the artwork at true size.
 - Checked on the output: the chest logo is 502 px wide, 62.75 mm at 8 px per mm. The extra 0.15 mm is anti-aliasing.
 - Rebuild: `cd /home/user/offshft/tools && node ../store/apparel/build.cjs`
+- For the owner's picks, change the garment colours (`COLOURS`) and placements (`RENDERS`) at the top of build.cjs and run it again. The artwork, floor checks and true-size check stay as they are.
 
 ## Store changes (owner, when the clothes launch)
 
-None of these are done. Each one is a store change, so the owner makes it.
+store/apparel-copy.md lists every copy and structure change clothes need, with the new words: the Lounge, Hoodies and crews, Sweats and Everything collections, the menus, the FAQ and Size & fit sections, the lines that say "hats", and the brand line. None of it is applied, and each one is a store change, so the owner makes it. This plan adds three things to it:
 
-- **A collection:** Hoodies & sweats. Handle: hoodies-sweats. Automated: Product tag is equal to apparel. Description: Heavy fleece for the hours after the shift. Made to order and shipped to you. Add it to the main menu.
-- **Words that say "hats":** the home page headline and "Shop hats" button (store/pages/home.md), the About page ("OFF SHFT makes the hat you wear when you get there"), the README tagline ("Hats for the hours you earned") and BRAND.md. The owner decides whether the brand line widens.
-- **FAQ and Shipping & returns:** both are written for hats ("Every hat is made to order"). They need "hat" widened, and a fit answer for clothes.
-- **Size swaps:** the draft policy takes no returns or exchanges for fit. Clothes have sizes, so more people will ask to swap. Printful doesn't cover a change of mind [20], so a swap would be at the store's cost. [CONFIRM: how Printful treats a customer who picked the wrong size]
+- **The charts** in section 4 fill its two empty Size & fit charts, if these blanks are used.
+- **Size swaps** (its owner decision 5): Printful doesn't cover a change of mind [20], so any swap would be at the store's cost. [CONFIRM: how Printful treats a customer who picked the wrong size]
+- **Shipping:** its FAQ and Shipping & returns lines carry over, but the free-shipping flag in section 2 needs settling first.
 
 ## Owner decisions
 
-1. Go ahead with clothes: all three pieces, or the hoodie and sweatpants first.
-2. Colours: Bone, Spruce and Navy (sweatpants: Bone and Navy), after a swatch check.
-3. Leg symbol: 25 mm (proposed) or 40 mm.
-4. Prices: C$89.99, C$79.99, C$79.99. One price for every size, or more for 2XL and up.
-5. Shipping on clothes: charge it (proposed), or a free-shipping line one piece can't reach. This settles the hoodie flags.
-6. Threads: Printful's standard threads, or unlimited colour at +US$3.50 a piece.
-7. Spending: digitizing (about US$21.85) and one sample order (about US$90.81 plus shipping).
-8. Size swaps: none, or at the store's cost.
-9. The brand line: keep "hats" or widen it.
+1. The name in clothing, with a trademark lawyer, before any garment goes on sale (store/apparel-copy.md, owner decision 1).
+2. Which blanks: this plan's Bella + Canvas set, or the owner's picks in store/picks.md. If the picks, this plan's blank facts, prices, colours, charts and renders are redone for them once the Comfort Colors check finishes.
+3. The look: the logo on the left chest at hat-front size, and the clock symbol on the left wrist and leg (proposed).
+4. Leg symbol: 25 mm (proposed) or 40 mm.
+5. Colours: Bone, Spruce and Navy (sweatpants: Bone and Navy), after a swatch check.
+6. Prices: C$89.99, C$79.99, C$79.99. One price for every size, or more for 2XL and up.
+7. Shipping on clothes: charge it (proposed), or a free-shipping line one piece can't reach. This settles the hoodie flags.
+8. Threads: Printful's standard threads, or unlimited colour at +US$3.50 a piece.
+9. Spending: digitizing (about US$21.85) and one sample order (about US$90.81 plus shipping).
 10. GST/HST: register or not, with an accountant. It decides whether HST on Ontario-made orders is a cost.
+
+Size swaps, the brand line, the collections and the menus are decisions in store/apparel-copy.md.
 
 ## Sources
 
@@ -519,5 +529,10 @@ Makers and others
 33. Printify, Bella + Canvas 4737 (size guide, inseam): https://printify.com/app/products/2771/bella-canvas/unisex-heavyweight-sweatpants
 34. ShirtSpace, BC4719 (blend change): https://www.shirtspace.com/bella-canvas/sweatshirts/24306-bella-canvas-4719-unisex-10-ounce-heavyweight-pullover-hoodie
 35. exchange-rates.org, 1 October 2026: https://www.exchange-rates.org/exchange-rate-history/cad-usd-2026-10-01
+
+The owner's picks (Printful, via store/research/apparel.md)
+
+36. AS Colour 5161 hoodie: https://www.printful.com/custom/mens/hoodies/unisex-oversized-hoodie-as-colour-5161
+37. Comfort Colors 1567 hoodie: https://www.printful.com/custom/product/970
 
 In this repo: store/research/apparel.md, store/research/pod-partner.md, store/research/shopify-setup.md, designs/mark/final/the-o/notes.md, BRAND.md, PRODUCTS.md, store/products/_template.md.
