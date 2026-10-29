@@ -10,6 +10,6 @@ module.exports = (kit) => cap(kit, {
   shape: { top: 0.72, side: 0.62, lean: 3 },
   panels: 6,
   frontAz: 55,
-  mesh: { cell: 2.6, until: 87 },
+  mesh: { cw: 1.9, ch: 2.6 },
   visor: { centre: 15, drop: 21, rows: 8, first: 0.06, gap: 0.075 },
 });

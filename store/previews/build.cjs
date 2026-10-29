@@ -32,7 +32,8 @@ const PRODUCTS = [
   { id: 'joggers-975', item: 'sweatpants', mark: 'symbol', at: 'leftLeg' },
   { id: 'shorts-ind20', item: 'shorts', mark: 'symbol', at: 'leftLeg' },
   { id: 'tee-1717', item: 'tee', mark: 'lockup', at: 'chest' },
-  { id: 'tee-6030', item: 'pocket-tee', mark: 'symbol', at: 'leftSleeve' },
+  // The 6030 takes no chest embroidery; the logo is too wide for its sleeve, so it goes on the large-centre front spot.
+  { id: 'tee-6030', item: 'pocket-tee', mark: 'symbol', at: 'leftSleeve', designAt: { logo: 'centre' } },
 ];
 
 async function main() {

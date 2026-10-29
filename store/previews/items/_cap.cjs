@@ -12,10 +12,9 @@
 'use strict';
 
 const W = 95;                 // crown half-width at the base
-const VISOR_DEPTH = 72;       // visor depth (front to back), shown foreshortened as the band
 const SD = 7;                 // how far the base arcs up at the centre front, seen from just below the visor
 const TOP = 4.2;              // crown peak (under the button), from the top of the button
-const BUTTON = { w: 17, h: 4.6 };
+const BUTTON_W = 17;          // top button, across
 const KAPPA = 0.5523;         // cubic handle for a quarter ellipse
 
 // --- small cubic toolkit: a segment is [p0, p1, p2, p3] ---
@@ -42,7 +41,7 @@ const flip = (c) => c.map((p) => pt(-p.x, p.y));                  // mirror to t
 const lerpSeg = (a, b, f) => a.map((p, i) => mix(p, b[i], f));
 const line = (a, b) => [a, mix(a, b, 1 / 3), mix(a, b, 2 / 3), b];
 
-const num = (v) => +v.toFixed(3);
+const num = (v) => +v.toFixed(2);
 const xy = (p) => `${num(p.x)} ${num(p.y)}`;
 function path(segs, close = false) {
   let s = `M${xy(segs[0][0])}`;
@@ -90,13 +89,12 @@ function cap(kit, o) {
   const crownShape = path([...crownOutline, rev(baseArc), flip(baseArc)], true);
 
   // Stitching beside a seam stops short of the button, where the seams crowd together.
-  const tStitch = solve((t) => at(prof, t).x, BUTTON.w / 2 + 5);
+  const tStitch = solve((t) => at(prof, t).x, BUTTON_W / 2 + 5);
   const stitchBeside = (az, off) => {   // off: mm beside the seam, measured at the base
     const d = off / (W * Math.cos(az));
     return [az - d, az + d].map((a) => `<path d="${path([part(seam(a), tStitch, 1)])}" ${S.stitch}/>`).join('');
   };
   const seamAt = (az) => `<path d="${path([seam(az)])}" ${S.outline}/>`;
-  const both = (svgFor) => svgFor(1) + svgFor(-1);   // +1 = the wearer's left (+x), -1 = right
 
   const parts = [];
   parts.push(`<path d="${crownShape}" fill="${C.fabric}"/>`);
@@ -112,10 +110,9 @@ function cap(kit, o) {
     // Mesh side panels: rib ground and a fine, regular diamond net (two sets of diagonals), clipped to the panel.
     const { cw, ch } = o.mesh;   // diamond width and height, mm
     const net = [];
-    const x0 = W * Math.sin(azF) - 6, x1 = W + 2, y0 = top - 2, y1 = baseY + 2;
-    for (let x = x0 - (y1 - y0) * (cw / ch); x <= x1; x += cw) {
-      const dx = (y1 - y0) * (cw / ch) / 2;   // run of a diagonal over the panel's height (slope ch/cw, halved)
-      net.push(`M${num(x)} ${num(y0)} L${num(x + 2 * dx)} ${num(y1)}`, `M${num(x + 2 * dx)} ${num(y0)} L${num(x)} ${num(y1)}`);
+    const y0 = top - 2, y1 = baseY + 2, run = (y1 - y0) * (cw / ch);   // a diagonal's run over the panel's height
+    for (let x = -run - cw; x <= W + cw; x += cw) {   // the panel spans x = 0 (at the button) to W
+      net.push(`M${num(x)} ${num(y0)} L${num(x + run)} ${num(y1)}`, `M${num(x + run)} ${num(y0)} L${num(x)} ${num(y1)}`);
     }
     for (const sgn of [1, -1]) {
       parts.push(`<clipPath id="${id(`mesh${sgn}`)}"><path d="${sidePanel(sgn)}"/></clipPath>`);
@@ -131,15 +128,16 @@ function cap(kit, o) {
   }
   if (o.panels === 6) parts.push(`<path d="M0 ${num(top)} V${num(seamY)}" ${S.outline}/>`, stitchBeside(0, 1.5));
 
-  // Soft creases on an unstructured front (shade under a fold line), built once and mirrored.
-  if (o.creases) {
-    for (const c of o.creases) {
-      const ridge = c.map((p) => pt(p[0], seamY - p[1]));
-      const under = [ridge[3], mix(ridge[2], ridge[3], -0.15), mix(ridge[1], ridge[0], -0.15), ridge[0]]
-        .map((p, i) => (i === 1 || i === 2 ? pt(p.x, p.y + c.depth) : p));
-      const lens = path([ridge, under], true);
-      parts.push(both((sgn) => `<g${sgn < 0 ? ' transform="scale(-1 1)"' : ''}><path d="${lens}" fill="${C.shade}"/><path d="${path([ridge])}" ${S.outline}/></g>`));
-    }
+  // Soft creases on an unstructured front: a fold line with a sliver of shade beside it, built once and mirrored.
+  // Each crease is { ridge: four [x, height above the seam] points, depth: mm of shade at the middle, to the right
+  // of the ridge's direction (negative: to the left) }.
+  for (const c of o.creases || []) {
+    const ridge = c.ridge.map(([x, hh]) => pt(x, seamY - hh));
+    const ch = pt(ridge[3].x - ridge[0].x, ridge[3].y - ridge[0].y), cl = Math.hypot(ch.x, ch.y);
+    const nx = (-ch.y / cl) * c.depth, ny = (ch.x / cl) * c.depth;
+    const under = [ridge[3], pt(ridge[2].x + nx, ridge[2].y + ny), pt(ridge[1].x + nx, ridge[1].y + ny), ridge[0]];
+    const fold = `<path d="${path([ridge, under], true)}" fill="${C.shade}"/><path d="${path([ridge])}" ${solid}/>`;
+    parts.push(fold, `<g transform="scale(-1 1)">${fold}</g>`);
   }
 
   // Sewn eyelets: a circle on the crown's surface, projected (so it foreshortens with the dome).
@@ -162,27 +160,38 @@ function cap(kit, o) {
   parts.push(`<path d="${path(crownOutline)}" ${S.outline}/>`);
 
   // Button at the peak.
-  const bw = BUTTON.w / 2, bb = top + 1.3;
+  const bw = BUTTON_W / 2, bb = top + 1.3;
   parts.push(`<path d="M${-bw} ${num(bb)} C${-bw} ${num(half + 1.3)} ${num(-bw * 0.55)} ${num(half)} 0 ${num(half)} C${num(bw * 0.55)} ${num(half)} ${bw} ${num(half + 1.3)} ${bw} ${num(bb)} C${num(bw * 0.5)} ${num(bb + 1.2)} ${num(-bw * 0.5)} ${num(bb + 1.2)} ${-bw} ${num(bb)} Z" ${S.fill()}/>`);
 
   // --- visor ---
-  // Lower (front) edge: from the centre front out to K, where it turns the visor's corner and runs back up to the
-  // crown at the side. v.centre: band height at the centre front; v.drop: how far the front edge falls at the sides.
+  // The front edge runs from the centre front out and down to K, turns the visor's rounded corner (a fillet of
+  // radius rho, ending at Q, the outermost point) and the visor's side edge runs back up to the crown at E.
+  // v.centre: band height at the centre front; v.drop: how far the front edge falls by the corner.
   const v = o.visor;
-  const K = pt(96, seamY + v.centre + v.drop);
+  const VX = 100;                                // visor half-width
   const E = baseArc[3];
-  const kIn = pt(8, v.drop * 0.5), kLen = Math.hypot(kIn.x, kIn.y);
-  const lower = [pt(0, seamY + v.centre), pt(40, seamY + v.centre), pt(K.x - kIn.x, K.y - kIn.y), K];
-  const corner = [K, pt(K.x + (kIn.x / kLen) * 5, K.y + (kIn.y / kLen) * 5), pt(W + 5.5, E.y + (K.y - E.y) * 0.42), E];
-  const band = path([flip(rev(baseArc)), baseArc, rev(corner), rev(lower), flip(lower), flip(corner)], true);
+  const rho = v.corner || 4.5;
+  const dK = pt(Math.cos(rad(v.angle || 38)), Math.sin(rad(v.angle || 38)));   // front edge direction at K
+  const turn = Math.PI / 2 + rad(v.angle || 38);                              // from dK round to straight up
+  const hk = (4 / 3) * Math.tan(turn / 4) * rho;
+  const Q = pt(VX, seamY + v.centre + v.drop - dK.x * rho);
+  const O = pt(Q.x - rho, Q.y);
+  const K = pt(O.x - dK.y * rho, O.y + dK.x * rho);
+  const lower = [pt(0, seamY + v.centre), pt(K.x * 0.42, seamY + v.centre), pt(K.x - dK.x * K.x * 0.22, K.y - dK.y * K.x * 0.22), K];
+  const fillet = [K, pt(K.x + dK.x * hk, K.y + dK.y * hk), pt(Q.x, Q.y + hk), Q];
+  const side = [Q, pt(Q.x, Q.y - (Q.y - E.y) * 0.45), pt(E.x + 1.2, E.y + (Q.y - E.y) * 0.3), E];
+  const band = path([flip(rev(baseArc)), baseArc, rev(side), rev(fillet), rev(lower), flip(lower), flip(fillet), flip(side)], true);
   parts.push(`<clipPath id="${id('visor')}"><path d="${band}"/></clipPath>`);
   parts.push(`<path d="${band}" fill="${C.shade}"/>`);
-  // Rows of stitching follow the front edge; f = 0 is the front edge, 1 the seam.
+  // Rows of stitching follow the front edge (f = 0 is the front edge, 1 the seam), run on past the visor's side and
+  // are clipped to it.
   const rows = [];
   for (let i = 0; i < v.rows; i++) {
     const f = v.first + i * v.gap;
     const r = lerpSeg(lower, baseArc, f);
-    rows.push(path([flip(rev(r)), r]));
+    const end = r[3], dir = slope(r, 1), dl = Math.hypot(dir.x, dir.y);
+    const run = line(end, pt(end.x + (dir.x / dl) * 12, end.y + (dir.y / dl) * 12));
+    rows.push(path([flip(rev(run)), flip(rev(r)), r, run]));
   }
   parts.push(`<g clip-path="url(#${id('visor')})"><path d="${rows.join(' ')}" ${S.stitch}/></g>`);
   parts.push(`<path d="${band}" ${S.outline}/>`);
@@ -195,7 +204,7 @@ function cap(kit, o) {
     const R = r.radius, reach = r.reach, tuck = r.tuck;
     // Centre line: just above the seam, dipping into it over the last `tuck` mm at each end.
     const pts = [];
-    for (let x = -reach; x <= reach + 1e-9; x += 1) {
+    for (let x = -reach; x <= reach + 1e-9; x += 2) {
       const endness = Math.max(0, (Math.abs(x) - (reach - tuck)) / tuck);   // 0 .. 1 over the tucked ends
       pts.push({ x, y: arcY(x) - r.lift + endness * endness * (r.lift + R * 0.6), w: R * (1 - 0.55 * endness * endness) });
     }
@@ -242,8 +251,9 @@ function cap(kit, o) {
 
   // Extent: the visor corners are the widest and lowest points.
   let maxX = 0, maxY = 0;
-  for (let i = 0; i <= 200; i++) { const p = at(corner, i / 200); maxX = Math.max(maxX, p.x); maxY = Math.max(maxY, p.y); }
-  for (let i = 0; i <= 200; i++) { const p = at(lower, i / 200); maxY = Math.max(maxY, p.y); }
+  for (const c of [lower, fillet, side]) {
+    for (let i = 0; i <= 200; i++) { const p = at(c, i / 200); maxX = Math.max(maxX, p.x); maxY = Math.max(maxY, p.y); }
+  }
 
   return {
     name: o.name,
@@ -256,5 +266,3 @@ function cap(kit, o) {
 }
 
 module.exports = cap;
-module.exports.W = W;
-module.exports.VISOR_DEPTH = VISOR_DEPTH;
