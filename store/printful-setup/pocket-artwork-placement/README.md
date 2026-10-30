@@ -1,0 +1,66 @@
+# Pocket artwork placement
+
+Prepared offline for the owner's request to put the actual Logo/Clock artwork **on** the pocket. Only the ten existing Comfort Colors6030 Pocket/White/S–2XL variants are targeted. The24 Heavyweight configurations, Shopify IDs, retail prices and SKUs are protected. No API or credential call was made while preparing this folder; nothing here proves a live production change.
+
+## Supplier evidence and size limitation
+
+[Printful6030](https://www.printful.com/custom/mens/t-shirts/unisex-garment-dyed-pocket-t-shirt-comfort-colors-6030) explicitly lists DTG Pocket. Its product-specific embroidery list does not include pocket embroidery. The fresh root-captured `../private/pocket-artwork-placement/printfiles-before.json` identifies product593, pocket printfile191,450×300 at150DPI, fit mode: **3×2 inches**. White S–2XL uses catalogue variants15150–15154 respectively.
+
+The [official v1 Modify a Sync Variant schema](https://developers.printful.com/docs/#operation/updateStoreSyncVariant) uses `EcommerceSyncVariantUpdate.files[]` → `File`. This schema has no `position`; width/height/DPI are read-only. `SyncVariantFile` adds only read-only stitch-count metadata. The [Orders API](https://developers.printful.com/docs/#tag/Orders-API) adds `position` specifically to order item files. No order endpoint is used here.
+
+**No public API documentation found guarantees that transparent margins survive sync-file processing or that this canvas remains at exactly3×2in.** No guessed file option or `position` is sent. After saving the two S canaries, inspect their persisted Printful Designer: actual artwork must be centered on the physical pocket, Logo2in wide and Clock1in high. Correct native placement if needed and re-read supplier state before the other eight variants. Do not interpret `synced:true` or a1800×1200 uploaded-file dimension as proof of physical placement. The script's `--placement-verified` is an operator assertion, not an API test.
+
+## Exact artwork files
+
+`build-canvases.cjs` reads canonical `designs/mark/final/the-o/logo-light.svg` and `symbol-light.svg` with pinned source hashes. It preserves the full inner SVG, transforms, paths, palette and viewBox byte-for-byte, in an editable centered nested SVG. Only uniform scale and canvas position change; original files remain untouched.
+
+| File | Whole transparent canvas | Artwork viewport |
+|---|---|---|
+| `logo-pocket-2in.svg` / `.png` |3×2in;1800×1200px at600DPI|2×0.57594866in; centered|
+| `clock-pocket-1in.svg` / `.png` |3×2in;1800×1200px at600DPI|0.47192×1in; centered|
+
+Both PNGs are transparent RGBA/sRGB. `canvas-manifest.json` preserves hashes and exact floating-point geometry. Both rendered files were visually inspected. Empty canvas is transparent, not black ink. Source scaling follows the SVG viewBox, avoiding raster rounding drift from the earlier PNG exports.
+
+## Guarded execution for root review
+
+Default is offline and does not import the credential client. The private snapshots are local inputs; do not commit them.
+
+```powershell
+python -B store/printful-setup/pocket-artwork-placement/apply_pocket.py
+python -B -m unittest discover -s store/printful-setup/pocket-artwork-placement -p 'test_*.py'
+```
+
+Rebuild artwork using the existing Sharp renderer (set NODE_PATH to the bundled node_modules if required):
+
+```powershell
+node store/printful-setup/pocket-artwork-placement/build-canvases.cjs
+```
+
+After root reviews and publishes these exact PNGs at an immutable40-character Git commit, the optional apply path uses only the existing scoped `printful_client.py`:
+
+```powershell
+python -B store/printful-setup/pocket-artwork-placement/apply_pocket.py --apply --commit COMMIT_SHA --phase canary
+# Root checks saved native Designer for both actual on-pocket sizes/centering.
+python -B store/printful-setup/pocket-artwork-placement/apply_pocket.py --apply --commit COMMIT_SHA --phase remaining --placement-verified
+```
+
+The canary stage uploads the two exact immutable-URL canvases, checks their ready status/dimensions, then configures only Logo S and Clock S. The remaining stage requires both canaries and the explicit placement assertion. A private ledger prevents silent mutation retries; ambiguous outcomes retain `inflight` and require manual readback/reconciliation. Do not delete the ledger to bypass an uncertainty. Every mutation is followed by product readback; untouched variants are compared against baseline, target identities/prices/SKUs remain fixed, and exactly one ready `pocket` production file is required. The scoped client supplies7-second mutation pacing.
+
+Practical Logo S payload (replace the file ID with its verified upload ID):
+
+```json
+{
+  "variant_id":15150,
+  "files":[{"id":123,"type":"pocket"}],
+  "options":[],
+  "is_ignored":false
+}
+```
+
+PUT target: `/sync/variant/5605512017`. Clock S uses `/sync/variant/5605512034`, same catalogue variant, its own artwork ID. `plan.json` contains all10 exact identity tuples. No retail price, inventory quantity, order, payment, Shopify media or product-wide update is sent. Clearing ignored for these ten is necessary to enable their requested fulfillment mapping; all Heavyweight states remain as captured.
+
+## Validation
+
+13 offline tests pass: exact ten targets; no Heavyweight/3XL targeting; external product/variant/colour identity guards; membership; payload allowlist; protected state and price drift; exact ready-file readback; unknown ledger IDs; immutable URL restriction; exact SVG inner markup/source hashes; transparent centered canvas geometry; supplier field drift. Python syntax and offline CLI also pass. Tests first failed before implementation; a subsequently added unknown-ledger-ID case reproduced the missing guard before it was fixed.
+
+Pending: root review, immutable file publication, optional supplier apply, saved native placement verification and final live readback. No active-production or order-readiness claim is made by this folder alone.

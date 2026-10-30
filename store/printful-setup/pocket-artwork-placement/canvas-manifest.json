@@ -1,0 +1,82 @@
+{
+  "files": [
+    {
+      "design": "logo",
+      "sourceSvg": "designs/mark/final/the-o/logo-light.svg",
+      "sourceSvgSha256": "c9271f97d4c831536889cfc15b7747969df9798647c11f99433b827f18afcbc9",
+      "sourceInnerMarkupSha256": "1cc7f2c290bfdf4ff5c7f62aecea2e2434b33943881a40678f00af8be3cdd728",
+      "svg": "logo-pocket-2in.svg",
+      "svgSha256": "bad1ad3706ea7e9e3892e9f43088feb4e5ce3c21335f643bc030bf4745599afe",
+      "png": "logo-pocket-2in.png",
+      "pngSha256": "2e675aaa75871b4b3b10af9ed6b4bee5174ac64b8f00a91d142630b06b4040ce",
+      "canvasPixels": [
+        1800,
+        1200
+      ],
+      "canvasInches": [
+        3,
+        2
+      ],
+      "dpi": 600,
+      "artworkPixelsExact": [
+        1200,
+        345.56919589406306
+      ],
+      "artworkPixels": [
+        1200,
+        346
+      ],
+      "artworkInches": [
+        2,
+        0.5759486598234385
+      ],
+      "left": 300,
+      "top": 427.21540205296844,
+      "palette": [
+        "#1F2733",
+        "#B4552D"
+      ],
+      "geometry": "Exact source inner SVG, paths, transforms and viewBox retained; uniformly scaled within centered nested SVG; no redraw or recolour.",
+      "supplierPlacementVerified": false
+    },
+    {
+      "design": "clock",
+      "sourceSvg": "designs/mark/final/the-o/symbol-light.svg",
+      "sourceSvgSha256": "938ccb2ce5fa6ba345c28e995aa0f9143c4cee5a0a45cd3430f7307adcb07e05",
+      "sourceInnerMarkupSha256": "d03ca3af8fe596ed8efcd790d680c18fb5c221876e6f0578eaab66ffdcaa5db9",
+      "svg": "clock-pocket-1in.svg",
+      "svgSha256": "0d48959c795685b7cbc9b9bd038c13e9a2a2b9ecb234745a5faa08fa4a76e9d2",
+      "png": "clock-pocket-1in.png",
+      "pngSha256": "da6bbf59d3265ef89b0704fda9cb449680ebc5094cc6798c61594e55fc954dfa",
+      "canvasPixels": [
+        1800,
+        1200
+      ],
+      "canvasInches": [
+        3,
+        2
+      ],
+      "dpi": 600,
+      "artworkPixelsExact": [
+        283.152,
+        600
+      ],
+      "artworkPixels": [
+        283,
+        600
+      ],
+      "artworkInches": [
+        0.47191999999999995,
+        1
+      ],
+      "left": 758.424,
+      "top": 300,
+      "palette": [
+        "#1F2733",
+        "#B4552D"
+      ],
+      "geometry": "Exact source inner SVG, paths, transforms and viewBox retained; uniformly scaled within centered nested SVG; no redraw or recolour.",
+      "supplierPlacementVerified": false
+    }
+  ]
+}
