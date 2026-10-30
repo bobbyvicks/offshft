@@ -20,7 +20,17 @@ SPECS = {
               'externalVariants':('67946096689474','67946096722242','67946096755010','67946096787778','67946096820546'), 'png':'clock-pocket-1in.png'},
 }
 CONFIG_KEYS = ('id','external_id','sync_product_id','name','variant_id','synced','is_ignored','retail_price','sku','currency','files','options','warehouse_product_id','warehouse_product_variant_id')
-IDENTITY_KEYS = ('id','external_id','sync_product_id','name','retail_price','sku','currency','warehouse_product_id','warehouse_product_variant_id')
+IDENTITY_KEYS = ('id','external_id','sync_product_id','name','retail_price','currency','warehouse_product_id','warehouse_product_variant_id')
+# Exact non-operative defaults observed after the Logo S DTG pocket canary.
+# The supplier exposes these on a DTG mapping without any embroidery file.
+SUPPLIER_DEFAULT_OPTIONS = {
+    'embroidery_type':'flat', 'lifelike':False,
+    'thread_colors':[], 'text_thread_colors':[], 'thread_colors_3d':[],
+    'thread_colors_large_center':[], 'text_thread_colors_large_center':[],
+    'thread_colors_sleeve_left_top':[], 'text_thread_colors_sleeve_left_top':[],
+    'thread_colors_sleeve_right_top':[], 'text_thread_colors_sleeve_right_top':[],
+    'license_type':[],
+}
 
 def require(condition, message):
     if not condition:
@@ -62,7 +72,7 @@ def make_plan(snapshots):
             v=byid.get(row['syncVariantId'],{})
             require(v.get('external_id')==row['shopifyVariantId'] and v.get('sync_product_id')==s['product'] and v.get('name')==row['name'], 'Pocket identity mismatch')
         rows.extend(targets)
-    return {'storeId':18982909,'scope':'Only ten existing Pocket / White / S-2XL variants; preserve24 Heavyweight configurations and all retail prices/SKUs/Shopify IDs.',
+    return {'storeId':18982909,'scope':'Only ten existing Pocket / White / S-2XL variants; preserve24 Heavyweight configurations, retail prices, populated SKUs and Shopify IDs. Record supplier-generated SKUs for completed targets whose original SKU was null/empty.',
             'technique':'DTG','placement':'pocket','catalogueProductId':593,'printfileId':191,'fieldPixels':[450,300],'fieldDpi':150,
             'physicalFieldInches':[3,2],'canvasPixels':[1800,1200],'canvasDpi':600,
             'supplierPlacementVerified':False,'variants':rows}
@@ -84,9 +94,30 @@ def render_canvas(design):
     require(sha(HERE/item['png'])==item['pngSha256'], 'Canvas hash mismatch')
     return Image.open(HERE/item['png']), item
 
+def has_only_empty_supplier_defaults(options):
+    if not isinstance(options,list):
+        return False
+    if options==[]:
+        return True
+    if len(options)!=len(SUPPLIER_DEFAULT_OPTIONS):
+        return False
+    seen=set()
+    for option in options:
+        if not isinstance(option,dict) or set(option)!={'id','value'}:
+            return False
+        id=option['id']
+        if not isinstance(id,str) or id in seen or id not in SUPPLIER_DEFAULT_OPTIONS:
+            return False
+        seen.add(id)
+        expected=SUPPLIER_DEFAULT_OPTIONS[id]
+        if type(option['value']) is not type(expected) or option['value']!=expected:
+            return False
+    return seen==set(SUPPLIER_DEFAULT_OPTIONS)
+
 def verify_state(before, current, completed):
     make_plan(before); make_plan(current)
     require(set(completed).issubset({str(r['syncVariantId']) for d in SPECS for r in rows_for(d)}), 'Completed ledger contains unknown variant')
+    generated_skus=[]
     for design in SPECS:
         a={v['id']:v for v in result(before[design])['sync_variants']}
         b={v['id']:v for v in result(current[design])['sync_variants']}
@@ -98,12 +129,17 @@ def verify_state(before, current, completed):
                 require({k:v.get(k) for k in CONFIG_KEYS}=={k:now.get(k) for k in CONFIG_KEYS}, f'Unchanged variant {id} drifted; stop')
                 continue
             require(id in targets,'Completed ledger contains unrelated variant')
-            require({k:v.get(k) for k in IDENTITY_KEYS}=={k:now.get(k) for k in IDENTITY_KEYS},f'Identity/price/SKU changed for {id}')
+            require({k:v.get(k) for k in IDENTITY_KEYS}=={k:now.get(k) for k in IDENTITY_KEYS},f'Identity/price changed for {id}')
+            old_sku,new_sku=v.get('sku'),now.get('sku')
+            if old_sku!=new_sku:
+                require(old_sku in (None,'') and isinstance(new_sku,str) and bool(new_sku.strip()), f'Existing or invalid supplier SKU changed for {id}')
+                generated_skus.append({'syncVariantId':id,'shopifyVariantId':v['external_id'],'sku':new_sku})
             require(now.get('variant_id')==targets[id]['catalogueVariantId'] and now.get('synced') is True and now.get('is_ignored') is False, f'Variant {id} not synced as intended')
             require(now.get('size')==targets[id]['size'] and now.get('color')=='White', f'Supplier size/colour mismatch for {id}')
             art=[f for f in now.get('files',[]) if f.get('type') not in ('preview','mockup')]
             require(len(art)==1 and art[0].get('type')=='pocket' and art[0].get('id')==completed[str(id)] and art[0].get('status')=='ok', f'Pocket file mismatch for {id}')
-            require(not now.get('options'), f'Unexpected non-DTG options for {id}')
+            require(has_only_empty_supplier_defaults(now.get('options')), f'Unexpected populated/non-default options for {id}')
+    return {'generatedSupplierSkus':generated_skus}
 
 def validate_catalogue(catalogue, fields):
     c=result(catalogue); f=result(fields)
@@ -173,9 +209,9 @@ def apply(args, plan, baseline):
         verify_state(baseline,live_products(client),candidate)
         ledger['completed']=candidate;ledger['inflight']=None;write(ledger_path,ledger)
         print(json.dumps({'verifiedPocketSyncVariantId':id,'size':row['size'],'design':row['design']}),flush=True)
-    final=live_products(client);verify_state(baseline,final,ledger['completed'])
+    final=live_products(client);evidence=verify_state(baseline,final,ledger['completed'])
     for design,data in final.items():write(PRIVATE/(design+'-after.json'),data)
-    write(HERE/'apply-verification.json',{'completed':ledger['completed'],'unchangedHeavyweightCount':24,'phase':args.phase,'nativePlacementVerifiedByOperator':args.placement_verified,'commit':args.commit})
+    write(HERE/'apply-verification.json',{'completed':ledger['completed'],'unchangedHeavyweightCount':24,'phase':args.phase,'nativePlacementVerifiedByOperator':args.placement_verified,'commit':args.commit,**evidence})
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)

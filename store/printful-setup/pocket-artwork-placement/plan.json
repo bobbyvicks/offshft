@@ -1,6 +1,6 @@
 {
   "storeId": 18982909,
-  "scope": "Only ten existing Pocket / White / S-2XL variants; preserve24 Heavyweight configurations and all retail prices/SKUs/Shopify IDs.",
+  "scope": "Only ten existing Pocket / White / S-2XL variants; preserve24 Heavyweight configurations, retail prices, populated SKUs and Shopify IDs. Record supplier-generated SKUs for completed targets whose original SKU was null/empty.",
   "technique": "DTG",
   "placement": "pocket",
   "catalogueProductId": 593,

@@ -106,6 +106,66 @@ class PocketGuardTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             m.validate_catalogue(catalogue,fields)
 
+    def default_option_fixture(self):
+        snapshot=m.read(m.PRIVATE/'logo-canary-readback.json')
+        return copy.deepcopy(next(v for v in snapshot['result']['sync_variants'] if v['id']==5605512017)['options'])
+
+    def completed_with_options(self, options):
+        after=copy.deepcopy(self.baseline)
+        v=after['logo']['result']['sync_variants'][6]
+        v.update(variant_id=15150,is_ignored=False,synced=True,options=options,size='S',color='White',files=[{'id':123,'type':'pocket','status':'ok'}])
+        return after
+
+    def test_exact_observed_empty_supplier_defaults_pass(self):
+        options=self.default_option_fixture()
+        m.verify_state(self.baseline,self.completed_with_options(options),{'5605512017':123})
+        # Option order is not meaningful.
+        m.verify_state(self.baseline,self.completed_with_options(list(reversed(options))),{'5605512017':123})
+
+    def test_populated_or_changed_defaults_fail(self):
+        for option_id,value in [('thread_colors',['#FFFFFF']),('license_type',['CLC']),('embroidery_type','3d'),('lifelike',True),('lifelike',0)]:
+            options=self.default_option_fixture()
+            next(o for o in options if o['id']==option_id)['value']=value
+            with self.subTest(option_id=option_id,value=value),self.assertRaises(ValueError):
+                m.verify_state(self.baseline,self.completed_with_options(options),{'5605512017':123})
+
+    def test_unknown_duplicate_or_incomplete_defaults_fail(self):
+        defaults=self.default_option_fixture()
+        cases=[defaults+[{'id':'unexpected','value':[]}],defaults+[defaults[0]],defaults[:-1],None]
+        for options in cases:
+            with self.subTest(options=options),self.assertRaises(ValueError):
+                m.verify_state(self.baseline,self.completed_with_options(options),{'5605512017':123})
+
+    def test_target_automatic_sku_is_recorded_when_previously_empty(self):
+        for original in (None,''):
+            before=copy.deepcopy(self.baseline)
+            before['logo']['result']['sync_variants'][6]['sku']=original
+            after=self.completed_with_options([])
+            after['logo']['result']['sync_variants'][6]['sku']='6974850'
+            evidence=m.verify_state(before,after,{'5605512017':123})
+            self.assertEqual(evidence['generatedSupplierSkus'],[{'syncVariantId':5605512017,'shopifyVariantId':'67946096296258','sku':'6974850'}])
+
+    def test_populated_target_sku_cannot_change(self):
+        before=copy.deepcopy(self.baseline)
+        before['logo']['result']['sync_variants'][6]['sku']='EXISTING-SKU'
+        after=self.completed_with_options([])
+        after['logo']['result']['sync_variants'][6]['sku']='6974850'
+        with self.assertRaises(ValueError):
+            m.verify_state(before,after,{'5605512017':123})
+        after['logo']['result']['sync_variants'][6]['sku']='EXISTING-SKU'
+        self.assertEqual(m.verify_state(before,after,{'5605512017':123})['generatedSupplierSkus'],[])
+
+    def test_untouched_sku_and_invalid_generated_sku_fail(self):
+        after=copy.deepcopy(self.baseline)
+        after['logo']['result']['sync_variants'][0]['sku']='6974850'
+        with self.assertRaises(ValueError):
+            m.verify_state(self.baseline,after,{})
+        for invalid in (' ',123,[],False):
+            after=self.completed_with_options([])
+            after['logo']['result']['sync_variants'][6]['sku']=invalid
+            with self.subTest(sku=invalid),self.assertRaises(ValueError):
+                m.verify_state(self.baseline,after,{'5605512017':123})
+
 
 if __name__ == '__main__':
     unittest.main()

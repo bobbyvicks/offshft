@@ -1,6 +1,6 @@
 # Pocket artwork placement
 
-Prepared offline for the owner's request to put the actual Logo/Clock artwork **on** the pocket. Only the ten existing Comfort Colors6030 Pocket/White/S–2XL variants are targeted. The24 Heavyweight configurations, Shopify IDs, retail prices and SKUs are protected. No API or credential call was made while preparing this folder; nothing here proves a live production change.
+Prepared offline for the owner's request to put the actual Logo/Clock artwork **on** the pocket. Only the ten existing Comfort Colors6030 Pocket/White/S–2XL variants are targeted. The24 Heavyweight configurations, Shopify IDs, retail prices and originally populated SKUs are protected. Printful can generate a nonempty supplier SKU when an activated Pocket variant previously had no SKU; these automatic fulfillment identifiers are recorded in sanitized verification. No API or credential call was made by this preparation agent; root performs any live execution and verification separately.
 
 ## Supplier evidence and size limitation
 
@@ -44,7 +44,9 @@ python -B store/printful-setup/pocket-artwork-placement/apply_pocket.py --apply 
 python -B store/printful-setup/pocket-artwork-placement/apply_pocket.py --apply --commit COMMIT_SHA --phase remaining --placement-verified
 ```
 
-The canary stage uploads the two exact immutable-URL canvases, checks their ready status/dimensions, then configures only Logo S and Clock S. The remaining stage requires both canaries and the explicit placement assertion. A private ledger prevents silent mutation retries; ambiguous outcomes retain `inflight` and require manual readback/reconciliation. Do not delete the ledger to bypass an uncertainty. Every mutation is followed by product readback; untouched variants are compared against baseline, target identities/prices/SKUs remain fixed, and exactly one ready `pocket` production file is required. The scoped client supplies7-second mutation pacing.
+The canary stage uploads the two exact immutable-URL canvases, checks their ready status/dimensions, then configures only Logo S and Clock S. The remaining stage requires both canaries and the explicit placement assertion. A private ledger prevents silent mutation retries; ambiguous outcomes retain `inflight` and require manual readback/reconciliation. Do not delete the ledger to bypass an uncertainty. Every mutation is followed by product readback; untouched variants are compared against baseline, target identities/prices/originally populated SKUs remain fixed, and exactly one ready `pocket` production file is required. The scoped client supplies7-second mutation pacing.
+
+Live Logo S readback showed Printful automatically adding supplier SKU `6974850` where the original was null, although no SKU was sent. The target-only guard accepts a newly generated nonempty string only when the baseline SKU was null or empty, then records `{syncVariantId,shopifyVariantId,sku}` in `apply-verification.json.generatedSupplierSkus`. A changed previously populated SKU, an invalid generated value, or any SKU change on an untouched variant still fails. This is necessary supplier-generated fulfillment metadata; it does not establish whether Shopify subsequently displays that SKU. Root checks Shopify separately. The script also accepts only an empty options list or the exact observed12 empty/default Printful options: flat embroidery type, false lifelike and empty arrays for the observed thread/license IDs. It rejects active thread selections, puff, unknown/duplicate/incomplete defaults and type coercion.
 
 Practical Logo S payload (replace the file ID with its verified upload ID):
 
@@ -61,6 +63,6 @@ PUT target: `/sync/variant/5605512017`. Clock S uses `/sync/variant/5605512034`,
 
 ## Validation
 
-13 offline tests pass: exact ten targets; no Heavyweight/3XL targeting; external product/variant/colour identity guards; membership; payload allowlist; protected state and price drift; exact ready-file readback; unknown ledger IDs; immutable URL restriction; exact SVG inner markup/source hashes; transparent centered canvas geometry; supplier field drift. Python syntax and offline CLI also pass. Tests first failed before implementation; a subsequently added unknown-ledger-ID case reproduced the missing guard before it was fixed.
+19 offline tests pass: exact ten targets; no Heavyweight/3XL targeting; external product/variant/colour identity guards; membership; payload allowlist; protected state and price drift; exact ready-file readback; unknown ledger IDs; immutable URL restriction; exact SVG inner markup/source hashes; transparent centered canvas geometry; supplier field drift; exact supplier defaults; and generated-SKU acceptance/reporting with populated/untouched/invalid-SKU rejection. Python syntax and offline CLI also pass. Tests first failed before implementation, including the supplier-default and generated-SKU cases before their guarded acceptance was added.
 
 Pending: root review, immutable file publication, optional supplier apply, saved native placement verification and final live readback. No active-production or order-readiness claim is made by this folder alone.

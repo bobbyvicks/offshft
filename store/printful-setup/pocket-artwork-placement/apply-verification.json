@@ -1,0 +1,17 @@
+{
+  "completed": {
+    "5605512017": 1098409896,
+    "5605512034": 1098409983
+  },
+  "unchangedHeavyweightCount": 24,
+  "phase": "canary",
+  "nativePlacementVerifiedByOperator": false,
+  "commit": "83b6f7ed5d6142d0083b25e0b65854bbc2cd971e",
+  "generatedSupplierSkus": [
+    {
+      "syncVariantId": 5605512017,
+      "shopifyVariantId": "67946096296258",
+      "sku": "6974850"
+    }
+  ]
+}
