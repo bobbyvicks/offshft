@@ -1,0 +1,28 @@
+{
+  "themeId": "195077472578",
+  "themeName": "OFF SHFT",
+  "scope": "Product preview cards only; hero and main product-page gallery unchanged.",
+  "appliedThrough": "Shopify theme editor native UI",
+  "changes": [
+    {
+      "setting": "Collection > Product card > Product image > Aspect ratio",
+      "before": "Auto",
+      "after": "Square",
+      "verification": "Saved; editor Save button disabled and Square read back."
+    },
+    {
+      "setting": "Theme settings > Custom CSS",
+      "before": "",
+      "afterFile": "uniform-previews.css",
+      "verification": "Full CSS value read back; saved with Save disabled."
+    },
+    {
+      "setting": "Theme settings > Product cards > Show second image on hover",
+      "before": true,
+      "after": false,
+      "verification": "Toggle visibly off; saved with Save disabled."
+    }
+  ],
+  "preserved": ["product IDs", "gallery references", "prices", "options", "inventory", "fulfilment", "publication status", "hero images"],
+  "visualVerification": "Passed after all 28 replacements: all 32 desktop catalogue previews, representative mobile catalogue rows and final row, plus homepage featured cards on desktop/mobile. Native theme Save button remained disabled. See storefront-qa.json and verification screenshots."
+}

@@ -1,0 +1,1810 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-30T01:27:06.376862+00:00",
+  "scope": "Read-only source and theme audit; no image, theme or store mutations performed by this audit.",
+  "provenance": {
+    "catalogueSnapshot": "store/storefront-refresh/storefront-final-products.json",
+    "snapshotCheckedAt": "2026-10-29T23:50:46.675Z",
+    "snapshotSha256": "8d9335088a1cf15918801e8005b7be2e4df30b28373359d6859f697f8d55255f",
+    "currentPixelOverrides": "Six catalogue-polish background replacements preserve Shopify filenames and file references. activeLocalPath identifies the served replacement source; snapshot URL cache versions predate that edit.",
+    "externalAccess": "No fresh catalogue network read; current list reconciles saved snapshot with confirmed catalogue-polish deployment manifests.",
+    "paths": "All asset paths are relative to repository root."
+  },
+  "summary": {
+    "products": 32,
+    "galleryImages": 86,
+    "uniqueGalleryFilenames": 86,
+    "allFilenamesResolveUniquely": true,
+    "leadMatchesFirstGalleryImage": true,
+    "dimensions": {
+      "1312x1199": 12,
+      "1254x1254": 70,
+      "1536x1024": 4
+    },
+    "leadDimensions": {
+      "1312x1199": 3,
+      "1254x1254": 28,
+      "1536x1024": 1
+    },
+    "nonSquareImages": 16,
+    "nonSquareLeads": 4,
+    "inPlaceOverrides": 6,
+    "visuallyInspectedRepresentatives": 14,
+    "familyCounts": {
+      "phrase_apparel": 12,
+      "for_a_reason_caps": 3,
+      "warm_bone_headwear": 6,
+      "original_apparel": 36,
+      "original_caps": 15,
+      "original_jackets": 6,
+      "pale_studio_apparel": 4,
+      "ours_landscape_caps": 4
+    }
+  },
+  "families": {
+    "warm_bone_headwear": {
+      "backdrop": "Warm Bone seamless with restrained contact shadow; previously replaced in place.",
+      "framing": "Large frontal beanies and bucket hats; full silhouette, narrow side margins.",
+      "recommendedAction": "Retain assets; verify common card fit and padding."
+    },
+    "pale_studio_apparel": {
+      "backdrop": "Near-white seamless with soft shadow.",
+      "framing": "Full front quarter-zip or polo, fills most square canvas.",
+      "recommendedAction": "Four highest-priority apparel background outliers; preserve product and framing."
+    },
+    "phrase_apparel": {
+      "backdrop": "Pale warm neutral studio, without strong diagonal sun bands.",
+      "framing": "Full garment in 1312x1199 canvas, often narrow side margins; Rest Is Ours uses back view.",
+      "recommendedAction": "Contain within square cards; preserve front/back view. No forced source regeneration."
+    },
+    "ours_landscape_caps": {
+      "backdrop": "Creamy warm neutral seamless.",
+      "framing": "Three-quarter cap in 1536x1024 landscape, brim close to edge.",
+      "recommendedAction": "Contain within square cards to avoid 33.3% horizontal crop; retain source assets."
+    },
+    "for_a_reason_caps": {
+      "backdrop": "Golden beige with stronger directional light/shadow than surrounding assets.",
+      "framing": "Large three-quarter caps within square canvas.",
+      "recommendedAction": "Three priority headwear background outliers; unify backdrop only."
+    },
+    "original_caps": {
+      "backdrop": "Light warm cream seamless with soft ground shadow; inferred siblings may vary.",
+      "framing": "Large three-quarter cap, generally narrow side margins.",
+      "recommendedAction": "Retain assets; verify common card fit and padding."
+    },
+    "original_jackets": {
+      "backdrop": "Pale warm cream studio; no pronounced sunlight bands in inspected navy lead.",
+      "framing": "Full front hooded jacket very close to canvas edges.",
+      "recommendedAction": "Retain initially; card padding addresses tight framing. Revisit only if live QA shows a distracting pale patch."
+    },
+    "original_apparel": {
+      "backdrop": "Warm beige with diagonal sunlight or soft foliage shadows in inspected representatives.",
+      "framing": "Full front flat lay; tops fill width, sweatpants narrower with more side space.",
+      "recommendedAction": "Retain assets; common square card, contain and modest padding first."
+    }
+  },
+  "theme": {
+    "homepageRatio": "square",
+    "collectionRatioAtAuditStart": "adapt; root subsequently confirmed native Auto and saved Square",
+    "cardFitDefault": "cover",
+    "nativeContainSettingExists": false,
+    "verifiedContainSelector": ".card-gallery .product-media-container.media-fit img.product-media__image",
+    "verifiedContainDeclaration": "object-fit: contain;",
+    "nativeImagePadding": "Existing card/gallery padding is zero. No native object-fit setting in card-gallery schema.",
+    "hover": "Historical settings enable show_second_image_on_hover; include second images in live preview QA.",
+    "sourceReferences": [
+      "https://raw.githubusercontent.com/Shopify/horizon/dfad90d87be2408de52636315069fc998da28c9e/snippets/card-gallery.liquid",
+      "https://raw.githubusercontent.com/Shopify/horizon/dfad90d87be2408de52636315069fc998da28c9e/snippets/slideshow-slide.liquid",
+      "https://raw.githubusercontent.com/Shopify/horizon/dfad90d87be2408de52636315069fc998da28c9e/blocks/_product-card-gallery.liquid",
+      "https://raw.githubusercontent.com/Shopify/horizon/dfad90d87be2408de52636315069fc998da28c9e/snippets/product-media-container-styles.liquid"
+    ],
+    "squareCoverLoss": {
+      "1312x1199": "8.6% horizontal crop",
+      "1536x1024": "33.3% horizontal crop"
+    },
+    "appliedStateCaveat": "Source audit is read-only. Root owns current live settings and final CSS deployment verification.",
+    "verifiedGlobalSquareRule": ".card-gallery { --gallery-aspect-ratio: 1 !important; background: #ECE5D3; }",
+    "ratioEvidence": "card-gallery inline --gallery-aspect-ratio is consumed by shared .product-media-container aspect-ratio; important overrides inline ratio across card surfaces.",
+    "verifiedInsetRule": ".card-gallery .product-media-container.media-fit { background: #ECE5D3; } .card-gallery .product-media-container.media-fit img.product-media__image { object-fit: contain; object-position: center; box-sizing: border-box; padding: 4%; }"
+  },
+  "recommendedScope": {
+    "first": "Apply common square card geometry, scoped contain fit and consistent modest padding; verify desktop and mobile including hover.",
+    "sourceEdits": "Only seven clearest backdrop outliers initially: three For a Reason caps and four near-white quarter-zip/polo images. Preserve garments, designs, colours, view and material.",
+    "retainInitially": 79,
+    "imageRegenerationNotRequiredForAspectRatio": true,
+    "verificationScope": "32 lead cards and hover/secondary previews, using this complete 86-image inventory as coverage.",
+    "preserve": "Do not change production artwork, supplier mockups used outside this storefront, product variants, prices, fulfilment or Printful configuration."
+  },
+  "products": [
+    {
+      "id": "gid://shopify/Product/15478492070210",
+      "handle": "five-oclock-crewneck",
+      "title": "5:00 Crewneck",
+      "productType": "Crewneck",
+      "leadFilename": "off-shft-five-oclock-ivory.png",
+      "leadLocalPath": "store/next-round-launch/upload-media/off-shft-five-oclock-ivory.png",
+      "leadDimensions": [
+        1312,
+        1199
+      ],
+      "leadFamily": "phrase_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "off-shft-five-oclock-ivory.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-five-oclock-ivory.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-five-oclock-ivory.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-five-oclock-ivory.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "off-shft-five-oclock-blue-jean.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-five-oclock-blue-jean.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-five-oclock-blue-jean.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-five-oclock-blue-jean.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "off-shft-five-oclock-pepper.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-five-oclock-pepper.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-five-oclock-pepper.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-five-oclock-pepper.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 4,
+          "filename": "off-shft-five-oclock-espresso.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-five-oclock-espresso.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-five-oclock-espresso.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-five-oclock-espresso.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478784098626",
+      "handle": "for-a-reason-hat",
+      "title": "For a Reason. Hat",
+      "productType": "Hat",
+      "leadFilename": "for-a-reason-charcoal.png",
+      "leadLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-charcoal.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "for_a_reason_caps",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "for-a-reason-charcoal.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-charcoal.png?v=1793313509",
+          "originalLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-charcoal.png",
+          "activeLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-charcoal.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "for_a_reason_caps",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "for-a-reason-ivory.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-ivory.png?v=1793313509",
+          "originalLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-ivory.png",
+          "activeLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-ivory.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "for_a_reason_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "for-a-reason-evergreen.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-evergreen.png?v=1793313508",
+          "originalLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-evergreen.png",
+          "activeLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-evergreen.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "for_a_reason_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478604923202",
+      "handle": "off-shft-logo-beanie",
+      "title": "OFF SHFT Logo Beanie",
+      "productType": "Hat",
+      "leadFilename": "off-shft-logo-beanie-studio.png",
+      "leadLocalPath": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "warm_bone_headwear",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "off-shft-logo-beanie-studio.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-logo-beanie-studio.png?v=1793317779",
+          "originalLocalPath": "store/storefront-refresh/media/off-shft-logo-beanie-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "warm_bone_headwear",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": true,
+          "overrideEvidence": "store/catalogue-polish/beanie-background-manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605119810",
+      "handle": "off-shft-logo-bucket-hat",
+      "title": "OFF SHFT Logo Bucket Hat",
+      "productType": "Hat",
+      "leadFilename": "off-shft-logo-bucket-hat-studio.png",
+      "leadLocalPath": "store/catalogue-polish/media/off-shft-logo-bucket-hat-studio-bone.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "warm_bone_headwear",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "off-shft-logo-bucket-hat-studio.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-logo-bucket-hat-studio.png?v=1793317596",
+          "originalLocalPath": "store/storefront-refresh/media/off-shft-logo-bucket-hat-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/off-shft-logo-bucket-hat-studio-bone.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "warm_bone_headwear",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": true,
+          "overrideEvidence": "store/catalogue-polish/bucket-background-manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476774764866",
+      "handle": "off-shft-logo-crewneck",
+      "title": "OFF SHFT Logo Crewneck",
+      "productType": "Crewneck",
+      "leadFilename": "crewneck-logo.png",
+      "leadLocalPath": "store/realistic-products/images/crewneck-logo.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "crewneck-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-logo.png?v=1793246483",
+          "originalLocalPath": "store/realistic-products/images/crewneck-logo.png",
+          "activeLocalPath": "store/realistic-products/images/crewneck-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "crewneck-1466-blue-jean-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-1466-blue-jean-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/crewneck-1466-blue-jean-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/crewneck-1466-blue-jean-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476769980738",
+      "handle": "off-shft-logo-hat",
+      "title": "OFF SHFT Logo Hat",
+      "productType": "Hat",
+      "leadFilename": "hat-logo.png",
+      "leadLocalPath": "store/realistic-products/images/hat-logo.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_caps",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "hat-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-logo.png?v=1793246534",
+          "originalLocalPath": "store/realistic-products/images/hat-logo.png",
+          "activeLocalPath": "store/realistic-products/images/hat-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "hat-6606-evergreen-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6606-evergreen-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-6606-evergreen-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6606-evergreen-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "hat-31-069-black-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-31-069-black-logo.png?v=1793250386",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-31-069-black-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-31-069-black-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 4,
+          "filename": "hat-6245cm-black-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6245cm-black-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-6245cm-black-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6245cm-black-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 5,
+          "filename": "hat-ba671-black-white-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-ba671-black-white-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-ba671-black-white-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-ba671-black-white-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476770144578",
+      "handle": "off-shft-logo-hoodie",
+      "title": "OFF SHFT Logo Hoodie",
+      "productType": "Hoodie",
+      "leadFilename": "hoodie-logo.png",
+      "leadLocalPath": "store/realistic-products/images/hoodie-logo.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "hoodie-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-logo.png?v=1793246070",
+          "originalLocalPath": "store/realistic-products/images/hoodie-logo.png",
+          "activeLocalPath": "store/realistic-products/images/hoodie-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "hoodie-5161-pine-green-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-5161-pine-green-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-5161-pine-green-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-5161-pine-green-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "hoodie-1567-white-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-white-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-white-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-white-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 4,
+          "filename": "hoodie-1567-blue-spruce-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-blue-spruce-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-blue-spruce-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-blue-spruce-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 5,
+          "filename": "hoodie-1467-ivory-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-ivory-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-ivory-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-ivory-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 6,
+          "filename": "hoodie-1467-blue-jean-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-blue-jean-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-blue-jean-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-blue-jean-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476778795330",
+      "handle": "off-shft-logo-jacket",
+      "title": "OFF SHFT Logo Jacket",
+      "productType": "Jacket",
+      "leadFilename": "jacket-logo.png",
+      "leadLocalPath": "store/realistic-products/images/jacket-logo.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_jackets",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "jacket-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-logo.png?v=1793246534",
+          "originalLocalPath": "store/realistic-products/images/jacket-logo.png",
+          "activeLocalPath": "store/realistic-products/images/jacket-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_jackets",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "jacket-co200-light-blue-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-co200-light-blue-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/jacket-co200-light-blue-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/jacket-co200-light-blue-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_jackets",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605218114",
+      "handle": "off-shft-logo-quarter-zip",
+      "title": "OFF SHFT Logo Quarter-Zip",
+      "productType": "Quarter-Zip",
+      "leadFilename": "quarter-zip-logo-ivory.png",
+      "leadLocalPath": "store/storefront-refresh/media/quarter-zip-logo-ivory.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "pale_studio_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "quarter-zip-logo-ivory.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-logo-ivory.png?v=1793317440",
+          "originalLocalPath": "store/storefront-refresh/media/quarter-zip-logo-ivory.png",
+          "activeLocalPath": "store/storefront-refresh/media/quarter-zip-logo-ivory.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "pale_studio_apparel",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476774961474",
+      "handle": "off-shft-logo-sweatpants",
+      "title": "OFF SHFT Logo Sweatpants",
+      "productType": "Sweatpants",
+      "leadFilename": "sweatpants-1469-pepper-logo.png",
+      "leadLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-logo.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "sweatpants-1469-pepper-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "sweatpants-1469-espresso-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-espresso-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-espresso-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-espresso-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476778631490",
+      "handle": "off-shft-logo-t-shirt",
+      "title": "OFF SHFT Logo T-Shirt",
+      "productType": "T-Shirt",
+      "leadFilename": "tee-logo.png",
+      "leadLocalPath": "store/realistic-products/images/tee-logo.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "tee-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-logo.png?v=1793246578",
+          "originalLocalPath": "store/realistic-products/images/tee-logo.png",
+          "activeLocalPath": "store/realistic-products/images/tee-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "tee-1717-blue-spruce-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-1717-blue-spruce-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/tee-1717-blue-spruce-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/tee-1717-blue-spruce-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "tee-6030-white-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-logo.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/tee-6030-white-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/tee-6030-white-logo.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478492037442",
+      "handle": "ours-to-spend-trucker-hat",
+      "title": "Ours to Spend. Trucker Hat",
+      "productType": "Hat",
+      "leadFilename": "off-shft-ours-to-spend-evergreen.png",
+      "leadLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-evergreen.png",
+      "leadDimensions": [
+        1536,
+        1024
+      ],
+      "leadFamily": "ours_landscape_caps",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "off-shft-ours-to-spend-evergreen.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-evergreen.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-evergreen.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-evergreen.png",
+          "width": 1536,
+          "height": 1024,
+          "aspectRatio": 1.5,
+          "square": false,
+          "family": "ours_landscape_caps",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "off-shft-ours-to-spend-navy.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-navy.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-navy.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-navy.png",
+          "width": 1536,
+          "height": 1024,
+          "aspectRatio": 1.5,
+          "square": false,
+          "family": "ours_landscape_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "off-shft-ours-to-spend-khaki.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-khaki.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-khaki.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-khaki.png",
+          "width": 1536,
+          "height": 1024,
+          "aspectRatio": 1.5,
+          "square": false,
+          "family": "ours_landscape_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 4,
+          "filename": "off-shft-ours-to-spend-caramel.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-caramel.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-caramel.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-caramel.png",
+          "width": 1536,
+          "height": 1024,
+          "aspectRatio": 1.5,
+          "square": false,
+          "family": "ours_landscape_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605087042",
+      "handle": "punched-out-beanie",
+      "title": "Punched Out. Beanie",
+      "productType": "Hat",
+      "leadFilename": "punched-out-beanie-studio.png",
+      "leadLocalPath": "store/catalogue-polish/media/punched-out-beanie-studio-bone.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "warm_bone_headwear",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "punched-out-beanie-studio.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-studio.png?v=1793317662",
+          "originalLocalPath": "store/storefront-refresh/media/punched-out-beanie-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/punched-out-beanie-studio-bone.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "warm_bone_headwear",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": true,
+          "overrideEvidence": "store/catalogue-polish/beanie-background-manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605185346",
+      "handle": "punched-out-bucket-hat",
+      "title": "Punched Out. Bucket Hat",
+      "productType": "Hat",
+      "leadFilename": "punched-out-bucket-hat-studio.png",
+      "leadLocalPath": "store/catalogue-polish/media/punched-out-bucket-hat-studio-bone.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "warm_bone_headwear",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "punched-out-bucket-hat-studio.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-bucket-hat-studio.png?v=1793317489",
+          "originalLocalPath": "store/storefront-refresh/media/punched-out-bucket-hat-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/punched-out-bucket-hat-studio-bone.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "warm_bone_headwear",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": true,
+          "overrideEvidence": "store/catalogue-polish/bucket-background-manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476774895938",
+      "handle": "punched-out-crewneck",
+      "title": "Punched Out. Crewneck",
+      "productType": "Crewneck",
+      "leadFilename": "crewneck-punched-out.png",
+      "leadLocalPath": "store/realistic-products/images/crewneck-punched-out.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "crewneck-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-punched-out.png?v=1793246535",
+          "originalLocalPath": "store/realistic-products/images/crewneck-punched-out.png",
+          "activeLocalPath": "store/realistic-products/images/crewneck-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "crewneck-1466-blue-jean-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-1466-blue-jean-punched-out.png?v=1793250386",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/crewneck-1466-blue-jean-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/crewneck-1466-blue-jean-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605381954",
+      "handle": "punched-out-golf-shirt",
+      "title": "Punched Out. Golf Shirt",
+      "productType": "Polo",
+      "leadFilename": "golf-shirt-punched-out-ivory.png",
+      "leadLocalPath": "store/storefront-refresh/media/golf-shirt-punched-out-ivory.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "pale_studio_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "golf-shirt-punched-out-ivory.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-shirt-punched-out-ivory.png?v=1793316916",
+          "originalLocalPath": "store/storefront-refresh/media/golf-shirt-punched-out-ivory.png",
+          "activeLocalPath": "store/storefront-refresh/media/golf-shirt-punched-out-ivory.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "pale_studio_apparel",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476770111810",
+      "handle": "punched-out-hat",
+      "title": "Punched Out. Hat",
+      "productType": "Hat",
+      "leadFilename": "hat-punched-out.png",
+      "leadLocalPath": "store/realistic-products/images/hat-punched-out.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_caps",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "hat-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-punched-out.png?v=1793246535",
+          "originalLocalPath": "store/realistic-products/images/hat-punched-out.png",
+          "activeLocalPath": "store/realistic-products/images/hat-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "hat-6606-evergreen-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6606-evergreen-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-6606-evergreen-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6606-evergreen-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "hat-31-069-black-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-31-069-black-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-31-069-black-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-31-069-black-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 4,
+          "filename": "hat-6245cm-black-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6245cm-black-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-6245cm-black-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6245cm-black-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 5,
+          "filename": "hat-ba671-black-white-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-ba671-black-white-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-ba671-black-white-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-ba671-black-white-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476770275650",
+      "handle": "punched-out-hoodie",
+      "title": "Punched Out. Hoodie",
+      "productType": "Hoodie",
+      "leadFilename": "hoodie-punched-out.png",
+      "leadLocalPath": "store/realistic-products/images/hoodie-punched-out.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "hoodie-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-punched-out.png?v=1793246535",
+          "originalLocalPath": "store/realistic-products/images/hoodie-punched-out.png",
+          "activeLocalPath": "store/realistic-products/images/hoodie-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "hoodie-5161-pine-green-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-5161-pine-green-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-5161-pine-green-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-5161-pine-green-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "hoodie-1567-white-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-white-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-white-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-white-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 4,
+          "filename": "hoodie-1567-blue-spruce-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-blue-spruce-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-blue-spruce-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-blue-spruce-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 5,
+          "filename": "hoodie-1467-ivory-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-ivory-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-ivory-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-ivory-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 6,
+          "filename": "hoodie-1467-blue-jean-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-blue-jean-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-blue-jean-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-blue-jean-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476778926402",
+      "handle": "punched-out-jacket",
+      "title": "Punched Out. Jacket",
+      "productType": "Jacket",
+      "leadFilename": "jacket-punched-out.png",
+      "leadLocalPath": "store/realistic-products/images/jacket-punched-out.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_jackets",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "jacket-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-punched-out.png?v=1793246534",
+          "originalLocalPath": "store/realistic-products/images/jacket-punched-out.png",
+          "activeLocalPath": "store/realistic-products/images/jacket-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_jackets",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "jacket-co200-light-blue-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-co200-light-blue-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/jacket-co200-light-blue-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/jacket-co200-light-blue-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_jackets",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605316418",
+      "handle": "punched-out-quarter-zip",
+      "title": "Punched Out. Quarter-Zip",
+      "productType": "Quarter-Zip",
+      "leadFilename": "quarter-zip-punched-out-ivory.png",
+      "leadLocalPath": "store/storefront-refresh/media/quarter-zip-punched-out-ivory.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "pale_studio_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "quarter-zip-punched-out-ivory.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-punched-out-ivory.png?v=1793317316",
+          "originalLocalPath": "store/storefront-refresh/media/quarter-zip-punched-out-ivory.png",
+          "activeLocalPath": "store/storefront-refresh/media/quarter-zip-punched-out-ivory.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "pale_studio_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476775059778",
+      "handle": "punched-out-sweatpants",
+      "title": "Punched Out. Sweatpants",
+      "productType": "Sweatpants",
+      "leadFilename": "sweatpants-1469-pepper-punched-out.png",
+      "leadLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-punched-out.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "sweatpants-1469-pepper-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "sweatpants-1469-espresso-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-espresso-punched-out.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-espresso-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-espresso-punched-out.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605054274",
+      "handle": "the-clock-beanie",
+      "title": "The Clock Beanie",
+      "productType": "Hat",
+      "leadFilename": "the-clock-beanie-studio.png",
+      "leadLocalPath": "store/catalogue-polish/media/the-clock-beanie-studio-bone.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "warm_bone_headwear",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "the-clock-beanie-studio.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/the-clock-beanie-studio.png?v=1793317715",
+          "originalLocalPath": "store/storefront-refresh/media/the-clock-beanie-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/the-clock-beanie-studio-bone.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "warm_bone_headwear",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": true,
+          "overrideEvidence": "store/catalogue-polish/beanie-background-manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605152578",
+      "handle": "the-clock-bucket-hat",
+      "title": "The Clock Bucket Hat",
+      "productType": "Hat",
+      "leadFilename": "the-clock-bucket-hat-studio.png",
+      "leadLocalPath": "store/catalogue-polish/media/the-clock-bucket-hat-studio-bone.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "warm_bone_headwear",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "the-clock-bucket-hat-studio.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/the-clock-bucket-hat-studio.png?v=1793317538",
+          "originalLocalPath": "store/storefront-refresh/media/the-clock-bucket-hat-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/the-clock-bucket-hat-studio-bone.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "warm_bone_headwear",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": true,
+          "overrideEvidence": "store/catalogue-polish/bucket-background-manifest.json"
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476774830402",
+      "handle": "the-clock-crewneck",
+      "title": "The Clock Crewneck",
+      "productType": "Crewneck",
+      "leadFilename": "crewneck-clock.png",
+      "leadLocalPath": "store/realistic-products/images/crewneck-clock.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "crewneck-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-clock.png?v=1793246483",
+          "originalLocalPath": "store/realistic-products/images/crewneck-clock.png",
+          "activeLocalPath": "store/realistic-products/images/crewneck-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "crewneck-1466-blue-jean-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-1466-blue-jean-clock.png?v=1793250386",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/crewneck-1466-blue-jean-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/crewneck-1466-blue-jean-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476770046274",
+      "handle": "the-clock-hat",
+      "title": "The Clock Hat",
+      "productType": "Hat",
+      "leadFilename": "hat-clock.png",
+      "leadLocalPath": "store/realistic-products/images/hat-clock.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_caps",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "hat-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-clock.png?v=1793246534",
+          "originalLocalPath": "store/realistic-products/images/hat-clock.png",
+          "activeLocalPath": "store/realistic-products/images/hat-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "hat-6606-evergreen-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6606-evergreen-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-6606-evergreen-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6606-evergreen-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "hat-31-069-black-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-31-069-black-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-31-069-black-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-31-069-black-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 4,
+          "filename": "hat-6245cm-black-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6245cm-black-clock.png?v=1793250386",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-6245cm-black-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6245cm-black-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 5,
+          "filename": "hat-ba671-black-white-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-ba671-black-white-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hat-ba671-black-white-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-ba671-black-white-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_caps",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476770210114",
+      "handle": "the-clock-hoodie",
+      "title": "The Clock Hoodie",
+      "productType": "Hoodie",
+      "leadFilename": "hoodie-clock.png",
+      "leadLocalPath": "store/realistic-products/images/hoodie-clock.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "hoodie-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-clock.png?v=1793246534",
+          "originalLocalPath": "store/realistic-products/images/hoodie-clock.png",
+          "activeLocalPath": "store/realistic-products/images/hoodie-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "hoodie-5161-pine-green-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-5161-pine-green-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-5161-pine-green-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-5161-pine-green-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "hoodie-1567-white-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-white-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-white-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-white-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 4,
+          "filename": "hoodie-1567-blue-spruce-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-blue-spruce-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-blue-spruce-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1567-blue-spruce-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 5,
+          "filename": "hoodie-1467-ivory-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-ivory-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-ivory-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-ivory-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 6,
+          "filename": "hoodie-1467-blue-jean-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-blue-jean-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-blue-jean-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hoodie-1467-blue-jean-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476778860866",
+      "handle": "the-clock-jacket",
+      "title": "The Clock Jacket",
+      "productType": "Jacket",
+      "leadFilename": "jacket-clock.png",
+      "leadLocalPath": "store/realistic-products/images/jacket-clock.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_jackets",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "jacket-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-clock.png?v=1793246534",
+          "originalLocalPath": "store/realistic-products/images/jacket-clock.png",
+          "activeLocalPath": "store/realistic-products/images/jacket-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_jackets",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "jacket-co200-light-blue-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-co200-light-blue-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/jacket-co200-light-blue-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/jacket-co200-light-blue-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_jackets",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605250882",
+      "handle": "the-clock-quarter-zip",
+      "title": "The Clock Quarter-Zip",
+      "productType": "Quarter-Zip",
+      "leadFilename": "quarter-zip-clock-ivory.png",
+      "leadLocalPath": "store/storefront-refresh/media/quarter-zip-clock-ivory.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "pale_studio_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "quarter-zip-clock-ivory.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-clock-ivory.png?v=1793317384",
+          "originalLocalPath": "store/storefront-refresh/media/quarter-zip-clock-ivory.png",
+          "activeLocalPath": "store/storefront-refresh/media/quarter-zip-clock-ivory.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "pale_studio_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476774994242",
+      "handle": "the-clock-sweatpants",
+      "title": "The Clock Sweatpants",
+      "productType": "Sweatpants",
+      "leadFilename": "sweatpants-1469-pepper-clock.png",
+      "leadLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-clock.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "sweatpants-1469-pepper-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "sweatpants-1469-espresso-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-espresso-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-espresso-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/sweatpants-1469-espresso-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476778729794",
+      "handle": "the-clock-t-shirt",
+      "title": "The Clock T-Shirt",
+      "productType": "T-Shirt",
+      "leadFilename": "tee-clock.png",
+      "leadLocalPath": "store/realistic-products/images/tee-clock.png",
+      "leadDimensions": [
+        1254,
+        1254
+      ],
+      "leadFamily": "original_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "tee-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-clock.png?v=1793246578",
+          "originalLocalPath": "store/realistic-products/images/tee-clock.png",
+          "activeLocalPath": "store/realistic-products/images/tee-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "tee-1717-blue-spruce-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-1717-blue-spruce-clock.png?v=1793250386",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/tee-1717-blue-spruce-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/tee-1717-blue-spruce-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "tee-6030-white-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-clock.png?v=1793250385",
+          "originalLocalPath": "store/realistic-products/colour-expansion/images/tee-6030-white-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/tee-6030-white-clock.png",
+          "width": 1254,
+          "height": 1254,
+          "aspectRatio": 1.0,
+          "square": true,
+          "family": "original_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478492004674",
+      "handle": "the-rest-is-ours-hoodie",
+      "title": "The Rest Is Ours. Hoodie",
+      "productType": "Hoodie",
+      "leadFilename": "off-shft-the-rest-is-ours-blue-jean.png",
+      "leadLocalPath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-blue-jean.png",
+      "leadDimensions": [
+        1312,
+        1199
+      ],
+      "leadFamily": "phrase_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "off-shft-the-rest-is-ours-blue-jean.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-blue-jean.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-blue-jean.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-blue-jean.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "representative visually inspected",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "off-shft-the-rest-is-ours-ivory.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-ivory.png?v=1793304571",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-ivory.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-ivory.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "off-shft-the-rest-is-ours-pepper.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-pepper.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-pepper.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-pepper.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 4,
+          "filename": "off-shft-the-rest-is-ours-butter.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-butter.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-butter.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-butter.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478491971906",
+      "handle": "time-well-earned-t-shirt",
+      "title": "Time Well Earned. T-Shirt",
+      "productType": "T-Shirt",
+      "leadFilename": "off-shft-time-well-earned-blue-spruce.png",
+      "leadLocalPath": "store/next-round-launch/upload-media/off-shft-time-well-earned-blue-spruce.png",
+      "leadDimensions": [
+        1312,
+        1199
+      ],
+      "leadFamily": "phrase_apparel",
+      "gallery": [
+        {
+          "position": 1,
+          "filename": "off-shft-time-well-earned-blue-spruce.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-time-well-earned-blue-spruce.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-time-well-earned-blue-spruce.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-time-well-earned-blue-spruce.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 2,
+          "filename": "off-shft-time-well-earned-ivory.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-time-well-earned-ivory.png?v=1793304571",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-time-well-earned-ivory.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-time-well-earned-ivory.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 3,
+          "filename": "off-shft-time-well-earned-pepper.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-time-well-earned-pepper.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-time-well-earned-pepper.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-time-well-earned-pepper.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        },
+        {
+          "position": 4,
+          "filename": "off-shft-time-well-earned-blue-jean.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-time-well-earned-blue-jean.png?v=1793304572",
+          "originalLocalPath": "store/next-round-launch/upload-media/off-shft-time-well-earned-blue-jean.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-time-well-earned-blue-jean.png",
+          "width": 1312,
+          "height": 1199,
+          "aspectRatio": 1.094245,
+          "square": false,
+          "family": "phrase_apparel",
+          "visualEvidence": "family inferred from source group and filename; dimensions read directly",
+          "inPlaceOverride": false
+        }
+      ]
+    }
+  ]
+}

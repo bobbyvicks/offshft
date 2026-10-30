@@ -1,0 +1,49 @@
+{
+  "verifiedAt": "2026-10-30T02:07:02Z",
+  "status": "passed",
+  "reviewer": "root",
+  "method": "Native Brave screenshots and accessibility readbacks from the authenticated active Shopify theme editor; no browser-private API calls.",
+  "themeId": "195077472578",
+  "themeName": "OFF SHFT",
+  "catalogue": {
+    "route": "/collections/all",
+    "observedProducts": 32,
+    "observedHandlesFile": "verification/observed-product-handles.json",
+    "desktopColumns": 5,
+    "mobileColumns": 2,
+    "desktopReview": "Scrolled all 32 products. Warm Bone background family, square cards, full silhouettes and consistent spacing. No white-background lead previews remain.",
+    "mobileReview": "Checked top, apparel, middle headwear and final rows. Two columns fit the narrow preview without horizontal overflow or garment cropping. Blue hoodie retains its back design; green tee remains fully visible.",
+    "proofs": [
+      "verification/catalogue-desktop-top.jpg",
+      "verification/catalogue-desktop-middle.jpg",
+      "verification/catalogue-desktop-lower.jpg",
+      "verification/catalogue-desktop-final.jpg",
+      "verification/catalogue-mobile-top.jpg",
+      "verification/catalogue-mobile-apparel.jpg",
+      "verification/catalogue-mobile-middle.jpg",
+      "verification/catalogue-mobile-final.jpg"
+    ]
+  },
+  "homepage": {
+    "route": "/",
+    "desktopColumns": 4,
+    "mobileColumns": 2,
+    "observedFeaturedProducts": [
+      "off-shft-logo-hoodie",
+      "ours-to-spend-trucker-hat",
+      "punched-out-crewneck",
+      "the-clock-t-shirt",
+      "off-shft-logo-sweatpants",
+      "punched-out-golf-shirt",
+      "off-shft-logo-quarter-zip",
+      "the-clock-beanie"
+    ],
+    "result": "The eight featured cards inherit the updated previews and square containment. Desktop and mobile grids align consistently; existing hero still renders separately.",
+    "proofs": [
+      "verification/homepage-desktop-grid.jpg",
+      "verification/homepage-mobile-grid.jpg"
+    ]
+  },
+  "savedState": "Active theme displayed; Save disabled at final review. Desktop preview restored after mobile checks; browser zoom left at 100%.",
+  "scopeLimit": "Verifies preview presentation and observed product coverage. Does not establish supplier accuracy, a fresh complete variant audit, stock availability, fulfilment readiness or public launch. Product-detail gallery photos are retained."
+}

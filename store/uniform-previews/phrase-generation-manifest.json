@@ -1,0 +1,233 @@
+{
+  "images": [
+    {
+      "source": "store/next-round-launch/upload-media/off-shft-five-oclock-ivory.png",
+      "originalCdnFilename": "off-shft-five-oclock-ivory.png",
+      "generatedPath": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b0-8e64-7bb3-b5c4-7d31c117d1a7\\exec-a8c47282-c25e-41cf-932f-9e6951610f74.png",
+      "output": "store/uniform-previews/media/off-shft-five-oclock-ivory-uniform.png",
+      "prompt": "Use case: precise-object-edit. Asset type: OFF SHFT ecommerce main product preview. Image 1 is the edit target. Image 2 is supporting style reference for its warm Bone seamless backdrop ONLY; do not copy its hat. Normalize Image 1 to a square studio product photograph on warm Bone #ECE5D3 matte seamless background with very soft short contact shadow, matching Image 2 backdrop. Subject: Ivory crewneck front; exact \"5:00\" dark navy numerals and rusty orange colon. Preserve EXACT product silhouette, proportions, fabric colour, weave, wrinkles, seams, collar/hood/brim, artwork glyphs/colour/size/placement and view from Image 1. Change only background/lighting; no horizon, sunbeams, foliage shadows, props, labels or extra text. Fit the entire original product centered within square canvas, keep at least 5 percent clear space on every side. Do not crop any sleeve, cuff, hem, hood or brim. Do not redesign or stylize garment/artwork. Output one polished square product image.",
+      "tool": "built-in image_gen",
+      "qa": "passed visual source/output comparison",
+      "sourceSha256": "9fd62fdeca0fea5ad5e479f532bdafe22c857e0a101f822719369fda08d1c3a5",
+      "outputSha256": "927b50afdac8aef3c3ba15849b454f0f81c037fc1e464667295a7670c1d73325",
+      "outputBytes": 1980495,
+      "sourceDimensions": [
+        1312,
+        1199
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "cornerMedianRgb": [
+        [
+          234,
+          224,
+          205
+        ],
+        [
+          233,
+          223,
+          203
+        ],
+        [
+          234,
+          224,
+          205
+        ],
+        [
+          234,
+          224,
+          205
+        ]
+      ],
+      "visualQA": {
+        "status": "passed",
+        "checkedAt": "2026-10-30T01:36:03.598828+00:00",
+        "reviewedBy": "root and replace_headwear_drawings agents",
+        "method": "Viewed the original source and output locally with view_image.",
+        "checks": [
+          "Full product visible, no cropped sleeves, cuffs, hem, hood or brim.",
+          "Correct front/back view, garment/cap colour, wording, line layout and accent thread/print colours retained.",
+          "Warm seamless Bone-family backdrop; no horizon, sunlight bands, props or white border.",
+          "Square framing and soft contact shadow."
+        ],
+        "limitation": "Generative mockups are visually checked; product pixels, wrinkles and proportions are not mathematically identical to the source."
+      }
+    },
+    {
+      "source": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-blue-jean.png",
+      "originalCdnFilename": "off-shft-the-rest-is-ours-blue-jean.png",
+      "generatedPath": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b0-8e64-7bb3-b5c4-7d31c117d1a7\\exec-24d21a99-b34b-421d-a876-3fc07e984272.png",
+      "output": "store/uniform-previews/media/off-shft-the-rest-is-ours-blue-jean-uniform.png",
+      "prompt": "Use case: precise-object-edit. Asset type: OFF SHFT ecommerce main product preview. Image 1 is the edit target. Image 2 is supporting style reference for its warm Bone seamless backdrop ONLY; do not copy its hat. Normalize Image 1 to a square studio product photograph on warm Bone #ECE5D3 matte seamless background with very soft short contact shadow, matching Image 2 backdrop. Subject: Blue Jean hoodie BACK view; exact \"THE REST / IS OURS.\" dark navy lettering and rusty orange period. Preserve EXACT product silhouette, proportions, fabric colour, weave, wrinkles, seams, collar/hood/brim, artwork glyphs/colour/size/placement and view from Image 1. Change only background/lighting; no horizon, sunbeams, foliage shadows, props, labels or extra text. Fit the entire original product centered within square canvas, keep at least 5 percent clear space on every side. Do not crop any sleeve, cuff, hem, hood or brim. Do not redesign or stylize garment/artwork. Output one polished square product image.",
+      "tool": "built-in image_gen",
+      "qa": "passed visual source/output comparison",
+      "sourceSha256": "ed84af15b10d317643f4259e354e1a27f3596f901ff435f70085770a44f58746",
+      "outputSha256": "5cd659b4821c5499ffeea5b205b4f9ad2c24988667acbbe5ab36a81afda80033",
+      "outputBytes": 2421723,
+      "sourceDimensions": [
+        1312,
+        1199
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "cornerMedianRgb": [
+        [
+          237,
+          227,
+          209
+        ],
+        [
+          235,
+          226,
+          207
+        ],
+        [
+          236,
+          227,
+          209
+        ],
+        [
+          236,
+          226,
+          208
+        ]
+      ],
+      "visualQA": {
+        "status": "passed",
+        "checkedAt": "2026-10-30T01:36:03.598828+00:00",
+        "reviewedBy": "root and replace_headwear_drawings agents",
+        "method": "Viewed the original source and output locally with view_image.",
+        "checks": [
+          "Full product visible, no cropped sleeves, cuffs, hem, hood or brim.",
+          "Correct front/back view, garment/cap colour, wording, line layout and accent thread/print colours retained.",
+          "Warm seamless Bone-family backdrop; no horizon, sunlight bands, props or white border.",
+          "Square framing and soft contact shadow."
+        ],
+        "limitation": "Generative mockups are visually checked; product pixels, wrinkles and proportions are not mathematically identical to the source."
+      }
+    },
+    {
+      "source": "store/next-round-launch/upload-media/off-shft-time-well-earned-blue-spruce.png",
+      "originalCdnFilename": "off-shft-time-well-earned-blue-spruce.png",
+      "generatedPath": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b0-8e64-7bb3-b5c4-7d31c117d1a7\\exec-8045b9a5-5469-48e2-9f75-fb1e23a7dca4.png",
+      "output": "store/uniform-previews/media/off-shft-time-well-earned-blue-spruce-uniform.png",
+      "prompt": "Use case: precise-object-edit. Asset type: OFF SHFT ecommerce main product preview. Image 1 is the edit target. Image 2 is supporting style reference for its warm Bone seamless backdrop ONLY; do not copy its hat. Normalize Image 1 to a square studio product photograph on warm Bone #ECE5D3 matte seamless background with very soft short contact shadow, matching Image 2 backdrop. Subject: Blue Spruce T-shirt front; exact \"TIME / WELL / EARNED.\" cream lettering with gold period. Preserve EXACT product silhouette, proportions, fabric colour, weave, wrinkles, seams, collar/hood/brim, artwork glyphs/colour/size/placement and view from Image 1. Change only background/lighting; no horizon, sunbeams, foliage shadows, props, labels or extra text. Fit the entire original product centered within square canvas, keep at least 5 percent clear space on every side. Do not crop any sleeve, cuff, hem, hood or brim. Do not redesign or stylize garment/artwork. Output one polished square product image.",
+      "tool": "built-in image_gen",
+      "qa": "passed visual source/output comparison",
+      "sourceSha256": "d4aefb6a0d3cff8aae4e0a050c5a745e0fc8593fd41d234d9da9fd9962216ff4",
+      "outputSha256": "80e6c97462e43a1714284d6be93d683c58d97a8904612a856f0ff9b32412075c",
+      "outputBytes": 2303637,
+      "sourceDimensions": [
+        1312,
+        1199
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "cornerMedianRgb": [
+        [
+          239,
+          230,
+          212
+        ],
+        [
+          237,
+          228,
+          209
+        ],
+        [
+          238,
+          229,
+          211
+        ],
+        [
+          237,
+          227,
+          209
+        ]
+      ],
+      "visualQA": {
+        "status": "passed",
+        "checkedAt": "2026-10-30T01:36:03.598828+00:00",
+        "reviewedBy": "root and replace_headwear_drawings agents",
+        "method": "Viewed the original source and output locally with view_image.",
+        "checks": [
+          "Full product visible, no cropped sleeves, cuffs, hem, hood or brim.",
+          "Correct front/back view, garment/cap colour, wording, line layout and accent thread/print colours retained.",
+          "Warm seamless Bone-family backdrop; no horizon, sunlight bands, props or white border.",
+          "Square framing and soft contact shadow."
+        ],
+        "limitation": "Generative mockups are visually checked; product pixels, wrinkles and proportions are not mathematically identical to the source."
+      }
+    },
+    {
+      "source": "store/next-round-launch/upload-media/off-shft-ours-to-spend-evergreen.png",
+      "originalCdnFilename": "off-shft-ours-to-spend-evergreen.png",
+      "generatedPath": "C:\\Users\\vicke\\.codex\\generated_images\\01a185b0-8e64-7bb3-b5c4-7d31c117d1a7\\exec-d3e06342-632f-4247-a685-149dea6e26cb.png",
+      "output": "store/uniform-previews/media/off-shft-ours-to-spend-evergreen-uniform.png",
+      "prompt": "Use case: precise-object-edit. Asset type: OFF SHFT ecommerce main product preview. Image 1 is the edit target. Image 2 is supporting style reference for its warm Bone seamless backdrop ONLY; do not copy its hat. Normalize Image 1 to a square studio product photograph on warm Bone #ECE5D3 matte seamless background with very soft short contact shadow, matching Image 2 backdrop. Subject: Evergreen mesh trucker cap three-quarter view; exact \"OURS TO / SPEND.\" cream lettering with gold period. Preserve EXACT product silhouette, proportions, fabric colour, weave, wrinkles, seams, collar/hood/brim, artwork glyphs/colour/size/placement and view from Image 1. Change only background/lighting; no horizon, sunbeams, foliage shadows, props, labels or extra text. Fit the entire original product centered within square canvas, keep at least 5 percent clear space on every side. Do not crop any sleeve, cuff, hem, hood or brim. Do not redesign or stylize garment/artwork. Output one polished square product image.",
+      "tool": "built-in image_gen",
+      "qa": "passed visual source/output comparison",
+      "sourceSha256": "afb06020818c5a2db6c0a5dad2c584e62669f9391d0012d8d0f4e48dab6793f3",
+      "outputSha256": "fb20d405434f435d3e41ad94d5f1e5678a70495d6f9702133c904e974fb8741d",
+      "outputBytes": 2393177,
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "cornerMedianRgb": [
+        [
+          236,
+          226,
+          209
+        ],
+        [
+          236,
+          227,
+          208
+        ],
+        [
+          238,
+          229,
+          212
+        ],
+        [
+          236,
+          227,
+          209
+        ]
+      ],
+      "visualQA": {
+        "status": "passed",
+        "checkedAt": "2026-10-30T01:36:03.598828+00:00",
+        "reviewedBy": "root and replace_headwear_drawings agents",
+        "method": "Viewed the original source and output locally with view_image.",
+        "checks": [
+          "Full product visible, no cropped sleeves, cuffs, hem, hood or brim.",
+          "Correct front/back view, garment/cap colour, wording, line layout and accent thread/print colours retained.",
+          "Warm seamless Bone-family backdrop; no horizon, sunlight bands, props or white border.",
+          "Square framing and soft contact shadow."
+        ],
+        "limitation": "Generative mockups are visually checked; product pixels, wrinkles and proportions are not mathematically identical to the source."
+      }
+    }
+  ],
+  "application": {
+    "status": "pending",
+    "shopifyChangedByThisQATask": false
+  },
+  "qaCompletedAt": "2026-10-30T01:36:03.598828+00:00"
+}

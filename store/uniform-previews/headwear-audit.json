@@ -1,0 +1,1126 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-30T01:29:37.465095+00:00",
+  "scope": "Local headwear background/framing audit; no UI or Shopify writes.",
+  "inventorySource": "store/uniform-previews/catalogue-inventory.json",
+  "inventorySha256": "6df64b3444a65c58b0fc61b270718fc3ed49d383914f53e5f8a50e6b9e6ea7d6",
+  "standard": {
+    "card": "square",
+    "background": "warm Bone #ECE5D3 seamless matte studio",
+    "shadow": "soft short contact shadow",
+    "framing": "Entire product centered with approximately 10% breathing room; preserve model, colour, artwork and puff. Root handles common card contain and padding without changing source composition."
+  },
+  "counts": {
+    "products": 11,
+    "images": 28,
+    "backgroundEditsAuthorizedAndGenerated": 6
+  },
+  "recommendedSmallBatch": {
+    "handle": "for-a-reason-hat",
+    "filenames": [
+      "for-a-reason-charcoal.png",
+      "for-a-reason-ivory.png",
+      "for-a-reason-evergreen.png"
+    ],
+    "reason": "The three clearly dramatic tan/sunlit outliers.",
+    "status": "Generated and visually checked; pending root application",
+    "manifest": "store/uniform-previews/headwear-generation-manifest.json"
+  },
+  "retainSourceFilesInitially": 22,
+  "products": [
+    {
+      "handle": "for-a-reason-hat",
+      "productId": "gid://shopify/Product/15478784098626",
+      "family": "for_a_reason_caps",
+      "finding": {
+        "issue": "Strong tan/golden backdrop with horizon and directional sunlight/long shadows.",
+        "framing": "Square source; entire cap visible with roughly 8-10% side breathing room.",
+        "action": "Exactly three background-only replacements generated; source framing/scale retained. Root applies and verifies storefront."
+      },
+      "assets": [
+        {
+          "filename": "for-a-reason-charcoal.png",
+          "activeLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-charcoal.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-charcoal.png?v=1793313509",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "e764d6c64670fecf8225d10c587233d0112698f46601bc7b2577db179c048cd6",
+          "cornerMedianRgb": [
+            [
+              245,
+              225,
+              199
+            ],
+            [
+              208,
+              185,
+              160
+            ],
+            [
+              239,
+              218,
+              193
+            ],
+            [
+              234,
+              213,
+              188
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "for_a_reason_caps"
+        },
+        {
+          "filename": "for-a-reason-ivory.png",
+          "activeLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-ivory.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-ivory.png?v=1793313509",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "38d46ae3023225c40a483f849cff93313c4576fd304280d5f7ebee454e408958",
+          "cornerMedianRgb": [
+            [
+              223,
+              206,
+              186
+            ],
+            [
+              202,
+              182,
+              162
+            ],
+            [
+              230,
+              210,
+              189
+            ],
+            [
+              218,
+              196,
+              172
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "for_a_reason_caps"
+        },
+        {
+          "filename": "for-a-reason-evergreen.png",
+          "activeLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-evergreen.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-evergreen.png?v=1793313508",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "c9f34a72f40b3818e4c71258723b9e8ce58656869bf817398d9bcec6147c8e56",
+          "cornerMedianRgb": [
+            [
+              217,
+              197,
+              174
+            ],
+            [
+              222,
+              203,
+              181
+            ],
+            [
+              242,
+              225,
+              206
+            ],
+            [
+              234,
+              216,
+              195
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "for_a_reason_caps"
+        }
+      ]
+    },
+    {
+      "handle": "off-shft-logo-beanie",
+      "productId": "gid://shopify/Product/15478604923202",
+      "family": "warm_bone_headwear",
+      "finding": {
+        "issue": "Background already normalized; generated warm tone is close to Bone but not mathematically exact #ECE5D3.",
+        "framing": "Full frontal beanies/buckets, about 2-4% side margins.",
+        "action": "Retain the six recent in-place replacements; use common contain and padding to add breathing room."
+      },
+      "assets": [
+        {
+          "filename": "off-shft-logo-beanie-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-logo-beanie-studio.png?v=1793317779",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "2632e1105d384779ad67463531ecede8ea9608a0eab3eef50fe1c7ae4ea296c1",
+          "cornerMedianRgb": [
+            [
+              232,
+              223,
+              204
+            ],
+            [
+              232,
+              223,
+              204
+            ],
+            [
+              232,
+              223,
+              204
+            ],
+            [
+              233,
+              224,
+              204
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "warm_bone_headwear"
+        }
+      ]
+    },
+    {
+      "handle": "off-shft-logo-bucket-hat",
+      "productId": "gid://shopify/Product/15478605119810",
+      "family": "warm_bone_headwear",
+      "finding": {
+        "issue": "Background already normalized; generated warm tone is close to Bone but not mathematically exact #ECE5D3.",
+        "framing": "Full frontal beanies/buckets, about 2-4% side margins.",
+        "action": "Retain the six recent in-place replacements; use common contain and padding to add breathing room."
+      },
+      "assets": [
+        {
+          "filename": "off-shft-logo-bucket-hat-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/off-shft-logo-bucket-hat-studio-bone.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-logo-bucket-hat-studio.png?v=1793317596",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "327bc14e59c8e5cf6e9843e5034d9e2838b3dfcb26fc9ddfc93b4d34a5f05771",
+          "cornerMedianRgb": [
+            [
+              234,
+              225,
+              206
+            ],
+            [
+              234,
+              225,
+              206
+            ],
+            [
+              235,
+              225,
+              207
+            ],
+            [
+              235,
+              225,
+              207
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "warm_bone_headwear"
+        }
+      ]
+    },
+    {
+      "handle": "off-shft-logo-hat",
+      "productId": "gid://shopify/Product/15476769980738",
+      "family": "original_caps",
+      "finding": {
+        "issue": "Lighter/pinker warm-cream backgrounds than recent Bone set; no distracting horizon or dramatic sunlight in inspected examples.",
+        "framing": "Large three-quarter caps, usually about 4-5% side margins.",
+        "action": "Normalize this product lead image background; preserve its four other style/colour gallery images. Root handles common contain/padding and disables second-image hover for uniform lead previews."
+      },
+      "assets": [
+        {
+          "filename": "hat-logo.png",
+          "activeLocalPath": "store/realistic-products/images/hat-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-logo.png?v=1793246534",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "2530046452f12df687b381506fe9f7a72cd1ff8699ff8203f257f2e0843811ea",
+          "cornerMedianRgb": [
+            [
+              249,
+              241,
+              230
+            ],
+            [
+              237,
+              227,
+              215
+            ],
+            [
+              249,
+              242,
+              232
+            ],
+            [
+              245,
+              236,
+              225
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-6606-evergreen-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6606-evergreen-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6606-evergreen-logo.png?v=1793250385",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "8a880c6d7796aaded55aefb309f6c71e6acaefabe860a69d4e60d72976f99180",
+          "cornerMedianRgb": [
+            [
+              251,
+              241,
+              229
+            ],
+            [
+              240,
+              228,
+              215
+            ],
+            [
+              251,
+              242,
+              231
+            ],
+            [
+              246,
+              235,
+              223
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-31-069-black-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-31-069-black-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-31-069-black-logo.png?v=1793250386",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "5e83b728201e6ac3102f1481c34bd06c3d8e7ec89aa4eafc7d36119dcd9cbcd0",
+          "cornerMedianRgb": [
+            [
+              251,
+              242,
+              232
+            ],
+            [
+              241,
+              230,
+              217
+            ],
+            [
+              252,
+              243,
+              233
+            ],
+            [
+              247,
+              236,
+              225
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-6245cm-black-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6245cm-black-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6245cm-black-logo.png?v=1793250385",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "a179f06045802a2546f8d0e96dcff11c9e243c15dc9b13a00ce1ac1eb2c39f68",
+          "cornerMedianRgb": [
+            [
+              251,
+              241,
+              230
+            ],
+            [
+              235,
+              222,
+              210
+            ],
+            [
+              252,
+              243,
+              233
+            ],
+            [
+              247,
+              236,
+              225
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-ba671-black-white-logo.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-ba671-black-white-logo.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-ba671-black-white-logo.png?v=1793250385",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "b36356ef054d73b60270ab3fbdf3be7c8a8756c9fc918b8ab67dcb50ff3e5820",
+          "cornerMedianRgb": [
+            [
+              252,
+              241,
+              231
+            ],
+            [
+              241,
+              227,
+              216
+            ],
+            [
+              253,
+              244,
+              234
+            ],
+            [
+              247,
+              234,
+              224
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "original_caps"
+        }
+      ],
+      "leadReplacement": "store/uniform-previews/media/hat-logo-uniform.png"
+    },
+    {
+      "handle": "ours-to-spend-trucker-hat",
+      "productId": "gid://shopify/Product/15478492037442",
+      "family": "ours_landscape_caps",
+      "finding": {
+        "issue": "Landscape 1536x1024 source; square cover crops one third of source width. Background is pale warm cream, slightly lighter than Bone.",
+        "framing": "Evergreen representative has tight top/bottom margins.",
+        "action": "Retain source and use square card + contain + common padding. No regeneration required for aspect ratio."
+      },
+      "assets": [
+        {
+          "filename": "off-shft-ours-to-spend-evergreen.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-evergreen.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-evergreen.png?v=1793304572",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "afb06020818c5a2db6c0a5dad2c584e62669f9391d0012d8d0f4e48dab6793f3",
+          "cornerMedianRgb": [
+            [
+              246,
+              238,
+              227
+            ],
+            [
+              243,
+              235,
+              223
+            ],
+            [
+              248,
+              242,
+              234
+            ],
+            [
+              244,
+              236,
+              226
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "ours_landscape_caps"
+        },
+        {
+          "filename": "off-shft-ours-to-spend-navy.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-navy.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-navy.png?v=1793304572",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "698204419d70822164f06e319f6618d12069bf7c10afbc96bbd4447b8a351020",
+          "cornerMedianRgb": [
+            [
+              246,
+              237,
+              226
+            ],
+            [
+              245,
+              236,
+              224
+            ],
+            [
+              249,
+              242,
+              233
+            ],
+            [
+              246,
+              237,
+              227
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "ours_landscape_caps"
+        },
+        {
+          "filename": "off-shft-ours-to-spend-khaki.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-khaki.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-khaki.png?v=1793304572",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "6bee3ede19d59ba16cd1de001d551c3b46f22392f3c26869737b230f06602323",
+          "cornerMedianRgb": [
+            [
+              247,
+              238,
+              228
+            ],
+            [
+              245,
+              235,
+              224
+            ],
+            [
+              249,
+              242,
+              234
+            ],
+            [
+              245,
+              237,
+              226
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "ours_landscape_caps"
+        },
+        {
+          "filename": "off-shft-ours-to-spend-caramel.png",
+          "activeLocalPath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-caramel.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-caramel.png?v=1793304572",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "03f07c8f103394d8802c3943b8e41d5da536fed00753468442f74f27a78b6b2b",
+          "cornerMedianRgb": [
+            [
+              246,
+              237,
+              227
+            ],
+            [
+              243,
+              234,
+              223
+            ],
+            [
+              249,
+              242,
+              233
+            ],
+            [
+              244,
+              236,
+              226
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "ours_landscape_caps"
+        }
+      ]
+    },
+    {
+      "handle": "punched-out-beanie",
+      "productId": "gid://shopify/Product/15478605087042",
+      "family": "warm_bone_headwear",
+      "finding": {
+        "issue": "Background already normalized; generated warm tone is close to Bone but not mathematically exact #ECE5D3.",
+        "framing": "Full frontal beanies/buckets, about 2-4% side margins.",
+        "action": "Retain the six recent in-place replacements; use common contain and padding to add breathing room."
+      },
+      "assets": [
+        {
+          "filename": "punched-out-beanie-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/punched-out-beanie-studio-bone.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-studio.png?v=1793317662",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "8dd7bf71e12732a03842482449c086eb90bd0fb0903bc72e5968d9e9968f615c",
+          "cornerMedianRgb": [
+            [
+              233,
+              224,
+              205
+            ],
+            [
+              233,
+              224,
+              205
+            ],
+            [
+              233,
+              224,
+              206
+            ],
+            [
+              233,
+              224,
+              205
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "warm_bone_headwear"
+        }
+      ]
+    },
+    {
+      "handle": "punched-out-bucket-hat",
+      "productId": "gid://shopify/Product/15478605185346",
+      "family": "warm_bone_headwear",
+      "finding": {
+        "issue": "Background already normalized; generated warm tone is close to Bone but not mathematically exact #ECE5D3.",
+        "framing": "Full frontal beanies/buckets, about 2-4% side margins.",
+        "action": "Retain the six recent in-place replacements; use common contain and padding to add breathing room."
+      },
+      "assets": [
+        {
+          "filename": "punched-out-bucket-hat-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/punched-out-bucket-hat-studio-bone.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-bucket-hat-studio.png?v=1793317489",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "dd9cccee8b42ef9332ccac218446792eb1abd74193a237aa0f2c565ad1eb6952",
+          "cornerMedianRgb": [
+            [
+              234,
+              225,
+              208
+            ],
+            [
+              234,
+              224,
+              207
+            ],
+            [
+              234,
+              225,
+              208
+            ],
+            [
+              233,
+              224,
+              207
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "warm_bone_headwear"
+        }
+      ]
+    },
+    {
+      "handle": "punched-out-hat",
+      "productId": "gid://shopify/Product/15476770111810",
+      "family": "original_caps",
+      "finding": {
+        "issue": "Lighter/pinker warm-cream backgrounds than recent Bone set; no distracting horizon or dramatic sunlight in inspected examples.",
+        "framing": "Large three-quarter caps, usually about 4-5% side margins.",
+        "action": "Normalize this product lead image background; preserve its four other style/colour gallery images. Root handles common contain/padding and disables second-image hover for uniform lead previews."
+      },
+      "assets": [
+        {
+          "filename": "hat-punched-out.png",
+          "activeLocalPath": "store/realistic-products/images/hat-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-punched-out.png?v=1793246535",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "cc64d920a47446af29d9aa882670e097dbdfb293addc551f894b17bc61a19fba",
+          "cornerMedianRgb": [
+            [
+              251,
+              242,
+              231
+            ],
+            [
+              240,
+              229,
+              216
+            ],
+            [
+              250,
+              242,
+              231
+            ],
+            [
+              246,
+              236,
+              225
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-6606-evergreen-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6606-evergreen-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6606-evergreen-punched-out.png?v=1793250385",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "780cf15fa6d8aa6bced2b6eb84e45694dd0d7208bda3615a1c637c3f755a6886",
+          "cornerMedianRgb": [
+            [
+              250,
+              242,
+              231
+            ],
+            [
+              242,
+              230,
+              217
+            ],
+            [
+              250,
+              242,
+              231
+            ],
+            [
+              245,
+              235,
+              224
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-31-069-black-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-31-069-black-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-31-069-black-punched-out.png?v=1793250385",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "558270d239d2e2c7fc566f83491e8d665a807736eacfa6a13433e09fd6d36062",
+          "cornerMedianRgb": [
+            [
+              251,
+              242,
+              231
+            ],
+            [
+              243,
+              230,
+              217
+            ],
+            [
+              252,
+              243,
+              234
+            ],
+            [
+              247,
+              236,
+              225
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-6245cm-black-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6245cm-black-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6245cm-black-punched-out.png?v=1793250385",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "ab627e124c109451288a4b2ae14200fd5bdc28f42b8036deec9b5975fb89a66c",
+          "cornerMedianRgb": [
+            [
+              251,
+              240,
+              228
+            ],
+            [
+              237,
+              223,
+              210
+            ],
+            [
+              252,
+              243,
+              233
+            ],
+            [
+              248,
+              236,
+              225
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-ba671-black-white-punched-out.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-ba671-black-white-punched-out.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-ba671-black-white-punched-out.png?v=1793250385",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "74eebee4abe9f231489a27d643fca47f4a00559ce2156c8e258a548c80e0a3cd",
+          "cornerMedianRgb": [
+            [
+              252,
+              240,
+              229
+            ],
+            [
+              242,
+              227,
+              215
+            ],
+            [
+              252,
+              242,
+              232
+            ],
+            [
+              247,
+              233,
+              222
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        }
+      ],
+      "leadReplacement": "store/uniform-previews/media/hat-punched-out-uniform.png"
+    },
+    {
+      "handle": "the-clock-beanie",
+      "productId": "gid://shopify/Product/15478605054274",
+      "family": "warm_bone_headwear",
+      "finding": {
+        "issue": "Background already normalized; generated warm tone is close to Bone but not mathematically exact #ECE5D3.",
+        "framing": "Full frontal beanies/buckets, about 2-4% side margins.",
+        "action": "Retain the six recent in-place replacements; use common contain and padding to add breathing room."
+      },
+      "assets": [
+        {
+          "filename": "the-clock-beanie-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/the-clock-beanie-studio-bone.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/the-clock-beanie-studio.png?v=1793317715",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "319151599702654ca2d38253e879818b455255499a3e5d552153eb7bbd3f4e5f",
+          "cornerMedianRgb": [
+            [
+              233,
+              224,
+              205
+            ],
+            [
+              232,
+              224,
+              205
+            ],
+            [
+              232,
+              224,
+              205
+            ],
+            [
+              233,
+              224,
+              205
+            ]
+          ],
+          "visualInspection": "directly inspected",
+          "family": "warm_bone_headwear"
+        }
+      ]
+    },
+    {
+      "handle": "the-clock-bucket-hat",
+      "productId": "gid://shopify/Product/15478605152578",
+      "family": "warm_bone_headwear",
+      "finding": {
+        "issue": "Background already normalized; generated warm tone is close to Bone but not mathematically exact #ECE5D3.",
+        "framing": "Full frontal beanies/buckets, about 2-4% side margins.",
+        "action": "Retain the six recent in-place replacements; use common contain and padding to add breathing room."
+      },
+      "assets": [
+        {
+          "filename": "the-clock-bucket-hat-studio.png",
+          "activeLocalPath": "store/catalogue-polish/media/the-clock-bucket-hat-studio-bone.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/the-clock-bucket-hat-studio.png?v=1793317538",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "d5b4cf552c0646d7183f6cee28c17873d31f4081e354a92b4b4c06d75b5be3ca",
+          "cornerMedianRgb": [
+            [
+              233,
+              223,
+              205
+            ],
+            [
+              233,
+              223,
+              205
+            ],
+            [
+              233,
+              223,
+              206
+            ],
+            [
+              234,
+              224,
+              206
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "warm_bone_headwear"
+        }
+      ]
+    },
+    {
+      "handle": "the-clock-hat",
+      "productId": "gid://shopify/Product/15476770046274",
+      "family": "original_caps",
+      "finding": {
+        "issue": "Lighter/pinker warm-cream backgrounds than recent Bone set; no distracting horizon or dramatic sunlight in inspected examples.",
+        "framing": "Large three-quarter caps, usually about 4-5% side margins.",
+        "action": "Normalize this product lead image background; preserve its four other style/colour gallery images. Root handles common contain/padding and disables second-image hover for uniform lead previews."
+      },
+      "assets": [
+        {
+          "filename": "hat-clock.png",
+          "activeLocalPath": "store/realistic-products/images/hat-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-clock.png?v=1793246534",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "66273c2a1143b9a2f234ae9d0eae80c966afd515d3e64ccdaa1a3d30fdd24262",
+          "cornerMedianRgb": [
+            [
+              250,
+              241,
+              230
+            ],
+            [
+              239,
+              228,
+              217
+            ],
+            [
+              250,
+              242,
+              232
+            ],
+            [
+              245,
+              235,
+              225
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-6606-evergreen-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6606-evergreen-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6606-evergreen-clock.png?v=1793250385",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "7f4620c46e3a9f2f880d77adfc52d3af24b3090ed68f0a0861d4b413c6e51362",
+          "cornerMedianRgb": [
+            [
+              251,
+              242,
+              231
+            ],
+            [
+              241,
+              229,
+              218
+            ],
+            [
+              251,
+              242,
+              233
+            ],
+            [
+              246,
+              235,
+              225
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-31-069-black-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-31-069-black-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-31-069-black-clock.png?v=1793250385",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "33b747896c2485666df10a472e51e7c5cbe2177e462cc3302990da33415221e7",
+          "cornerMedianRgb": [
+            [
+              252,
+              243,
+              234
+            ],
+            [
+              244,
+              231,
+              220
+            ],
+            [
+              253,
+              244,
+              235
+            ],
+            [
+              247,
+              236,
+              227
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-6245cm-black-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-6245cm-black-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6245cm-black-clock.png?v=1793250386",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "2144600ce0c7f55c25777c7597b8b6276109270b4ce263acbc217f1d2807ebaa",
+          "cornerMedianRgb": [
+            [
+              254,
+              244,
+              234
+            ],
+            [
+              238,
+              225,
+              215
+            ],
+            [
+              254,
+              245,
+              235
+            ],
+            [
+              248,
+              237,
+              228
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        },
+        {
+          "filename": "hat-ba671-black-white-clock.png",
+          "activeLocalPath": "store/realistic-products/colour-expansion/images/hat-ba671-black-white-clock.png",
+          "snapshotUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-ba671-black-white-clock.png?v=1793250385",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "sha256": "e9b62bd27e2e86c864cc92d4e2999bb17aa2b7fdc676ce13104b99837ca4abf3",
+          "cornerMedianRgb": [
+            [
+              252,
+              241,
+              231
+            ],
+            [
+              242,
+              227,
+              216
+            ],
+            [
+              252,
+              241,
+              232
+            ],
+            [
+              247,
+              233,
+              224
+            ]
+          ],
+          "visualInspection": "family inferred; dimensions and corners measured directly",
+          "family": "original_caps"
+        }
+      ],
+      "leadReplacement": "store/uniform-previews/media/hat-clock-uniform.png"
+    }
+  ],
+  "limitations": [
+    "Based on the earlier 32-product catalogue reconciled by the local inventory; no fresh external catalogue read in this task.",
+    "Margin estimates are visual approximations, not segmentation-derived measurements.",
+    "No production artwork, supplier configuration or fulfilment readiness was audited or changed."
+  ],
+  "updatedAt": "2026-10-30T01:32:12.997476+00:00",
+  "scopeExpansion": "Root requested uniform backgrounds for all 32 lead previews after live grid review. This agent additionally normalized three original lead caps; root owns Ours to Spend and theme/UI changes."
+}

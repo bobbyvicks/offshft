@@ -1,0 +1,1324 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-10-30T01:38:22.820326+00:00",
+  "status": "pending",
+  "immutablePreparationPlan": true,
+  "currentDeploymentTruth": "store/uniform-previews/deployment-progress.json",
+  "scope": "28 file-content replacements: 26 lead previews plus two extra For a Reason colour images; six existing warm Bone lead previews retained.",
+  "expectedCounts": {
+    "replacementFiles": 28,
+    "replacedLeadPreviews": 26,
+    "additionalForAReasonColourImages": 2,
+    "retainedWarmBoneLeads": 6,
+    "leadProductsCovered": 32
+  },
+  "verifiedCounts": {
+    "replacementFiles": 28,
+    "replacedLeadPreviews": 26,
+    "additionalForAReasonColourImages": 2,
+    "retainedWarmBoneLeads": 6,
+    "leadProductsCovered": 32
+  },
+  "sources": [
+    {
+      "file": "store/uniform-previews/catalogue-inventory.json",
+      "sha256": "6df64b3444a65c58b0fc61b270718fc3ed49d383914f53e5f8a50e6b9e6ea7d6"
+    },
+    {
+      "file": "store/uniform-previews/apparel-generation-manifest.json",
+      "sha256": "50a8622ab7dec05964ceef3c347241e57fcc765f801d5e5645f86a6faa902c96"
+    },
+    {
+      "file": "store/uniform-previews/headwear-generation-manifest.json",
+      "sha256": "ca6cab55bd3283caefdc4259f706c3f1e297be524d028e41365e3e1736c737df"
+    },
+    {
+      "file": "store/uniform-previews/other-apparel-generation-manifest.json",
+      "sha256": "095fe1ffc1d7258a22770526e528104776a90056f96e6b97ad8fd503acd06132"
+    },
+    {
+      "file": "store/uniform-previews/phrase-generation-manifest.json",
+      "sha256": "c015f42358cd72d1f1b6b22740273dd6ed0d0aa4251e701f6928e40964ae96b8"
+    }
+  ],
+  "validation": {
+    "allOriginalFilenamesUniquelyMatchedInventory": true,
+    "allOutputFilesExist": true,
+    "allSourceAndOutputHashesMatchManifests": true,
+    "allOutputFilesSquareOpaqueRGB": true,
+    "all32LeadProductsCoveredExactlyOnceByReplacementOrRetention": true,
+    "allDeploymentStatusesPending": true
+  },
+  "limitations": [
+    "Local preparation only; no Shopify or UI used by this joining task.",
+    "Snapshot CDN cache versions may predate in-place replacements. Match exact filenames and live product references.",
+    "This immutable plan is not current deployment status; deployment-progress.json is maintained by the UI agent.",
+    "Visual changes do not establish supplier accuracy, fulfilment readiness or storefront availability."
+  ],
+  "replacements": [
+    {
+      "originalCdnFilename": "off-shft-five-oclock-ivory.png",
+      "productHandle": "five-oclock-crewneck",
+      "productTitle": "5:00 Crewneck",
+      "shopifyProductId": "15478492070210",
+      "shopifyProductGid": "gid://shopify/Product/15478492070210",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-five-oclock-ivory.png?v=1793304572",
+      "sourcePath": "store/next-round-launch/upload-media/off-shft-five-oclock-ivory.png",
+      "sourceSha256": "9fd62fdeca0fea5ad5e479f532bdafe22c857e0a101f822719369fda08d1c3a5",
+      "sourceDimensions": [
+        1312,
+        1199
+      ],
+      "outputPath": "store/uniform-previews/media/off-shft-five-oclock-ivory-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/off-shft-five-oclock-ivory-uniform.png",
+      "outputSha256": "927b50afdac8aef3c3ba15849b454f0f81c037fc1e464667295a7670c1d73325",
+      "outputBytes": 1980495,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/phrase-generation-manifest.json",
+      "visualQA": {
+        "status": "passed",
+        "checkedAt": "2026-10-30T01:36:03.598828+00:00",
+        "reviewedBy": "root and replace_headwear_drawings agents",
+        "method": "Viewed the original source and output locally with view_image.",
+        "checks": [
+          "Full product visible, no cropped sleeves, cuffs, hem, hood or brim.",
+          "Correct front/back view, garment/cap colour, wording, line layout and accent thread/print colours retained.",
+          "Warm seamless Bone-family backdrop; no horizon, sunlight bands, props or white border.",
+          "Square framing and soft contact shadow."
+        ],
+        "limitation": "Generative mockups are visually checked; product pixels, wrinkles and proportions are not mathematically identical to the source."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "off-shft-five-oclock-ivory.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/next-round-launch/upload-media/off-shft-five-oclock-ivory.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "for-a-reason-charcoal.png",
+      "productHandle": "for-a-reason-hat",
+      "productTitle": "For a Reason. Hat",
+      "shopifyProductId": "15478784098626",
+      "shopifyProductGid": "gid://shopify/Product/15478784098626",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-charcoal.png?v=1793313509",
+      "sourcePath": "store/printful-setup/for-a-reason/media/for-a-reason-charcoal.png",
+      "sourceSha256": "e764d6c64670fecf8225d10c587233d0112698f46601bc7b2577db179c048cd6",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/for-a-reason-charcoal-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/for-a-reason-charcoal-uniform.png",
+      "outputSha256": "97ff8f7a46a2fe9fbb5ff53729af0c6ed2f38559d2cdf60697db005698d79eb9",
+      "outputBytes": 2116565,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/headwear-generation-manifest.json",
+      "visualQA": "Passed visual comparison: original hat model, colour, raised wording and source framing retained; calm warm background with short shadow.",
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "for-a-reason-charcoal.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/printful-setup/for-a-reason/media/for-a-reason-charcoal.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "for-a-reason-ivory.png",
+      "productHandle": "for-a-reason-hat",
+      "productTitle": "For a Reason. Hat",
+      "shopifyProductId": "15478784098626",
+      "shopifyProductGid": "gid://shopify/Product/15478784098626",
+      "role": "additional-for-a-reason-colour",
+      "galleryPosition": 2,
+      "isLead": false,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-ivory.png?v=1793313509",
+      "sourcePath": "store/printful-setup/for-a-reason/media/for-a-reason-ivory.png",
+      "sourceSha256": "38d46ae3023225c40a483f849cff93313c4576fd304280d5f7ebee454e408958",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/for-a-reason-ivory-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/for-a-reason-ivory-uniform.png",
+      "outputSha256": "b7d3b6926ec3e542e0a906c1d5724c83fa70f194dc0d9cfd5275acfe4565edcf",
+      "outputBytes": 2112163,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/headwear-generation-manifest.json",
+      "visualQA": "Passed visual comparison: original hat model, colour, raised wording and source framing retained; calm warm background with short shadow.",
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "for-a-reason-ivory.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/printful-setup/for-a-reason/media/for-a-reason-ivory.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "for-a-reason-evergreen.png",
+      "productHandle": "for-a-reason-hat",
+      "productTitle": "For a Reason. Hat",
+      "shopifyProductId": "15478784098626",
+      "shopifyProductGid": "gid://shopify/Product/15478784098626",
+      "role": "additional-for-a-reason-colour",
+      "galleryPosition": 3,
+      "isLead": false,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-evergreen.png?v=1793313508",
+      "sourcePath": "store/printful-setup/for-a-reason/media/for-a-reason-evergreen.png",
+      "sourceSha256": "c9f34a72f40b3818e4c71258723b9e8ce58656869bf817398d9bcec6147c8e56",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/for-a-reason-evergreen-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/for-a-reason-evergreen-uniform.png",
+      "outputSha256": "fc7c64c734dd4d255c74d9fd087488e05b913cd84ddf6f24eeee7b0e6f09837a",
+      "outputBytes": 2286984,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/headwear-generation-manifest.json",
+      "visualQA": "Passed visual comparison: original hat model, colour, raised wording and source framing retained; calm warm background with short shadow.",
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "for-a-reason-evergreen.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/printful-setup/for-a-reason/media/for-a-reason-evergreen.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "crewneck-logo.png",
+      "productHandle": "off-shft-logo-crewneck",
+      "productTitle": "OFF SHFT Logo Crewneck",
+      "shopifyProductId": "15476774764866",
+      "shopifyProductGid": "gid://shopify/Product/15476774764866",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-logo.png?v=1793246483",
+      "sourcePath": "store/realistic-products/images/crewneck-logo.png",
+      "sourceSha256": "0f1b5496ac5089111745f0b581dae87b7ce07db09bdffaaa710120002de2969c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/crewneck-logo-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/crewneck-logo-uniform.png",
+      "outputSha256": "56bc8c1259b1bdf371da57bb1c82082962c2f625d65ca69ac1a3b1e80ac04783",
+      "outputBytes": 2305059,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/apparel-generation-manifest.json",
+      "visualQA": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "crewneck-logo.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/crewneck-logo.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "hat-logo.png",
+      "productHandle": "off-shft-logo-hat",
+      "productTitle": "OFF SHFT Logo Hat",
+      "shopifyProductId": "15476769980738",
+      "shopifyProductGid": "gid://shopify/Product/15476769980738",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-logo.png?v=1793246534",
+      "sourcePath": "store/realistic-products/images/hat-logo.png",
+      "sourceSha256": "2530046452f12df687b381506fe9f7a72cd1ff8699ff8203f257f2e0843811ea",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/hat-logo-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/hat-logo-uniform.png",
+      "outputSha256": "1fe1034018fa65886bf3249b937a5d988fc4f270a724f1ea56891a9d236c89c7",
+      "outputBytes": 2372391,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/headwear-generation-manifest.json",
+      "visualQA": "Passed visual comparison: original black trucker model, mesh, stitching, silhouette, artwork geometry/thread colours and source framing retained; warm seamless background and short contact shadow.",
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "hat-logo.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/hat-logo.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "hoodie-logo.png",
+      "productHandle": "off-shft-logo-hoodie",
+      "productTitle": "OFF SHFT Logo Hoodie",
+      "shopifyProductId": "15476770144578",
+      "shopifyProductGid": "gid://shopify/Product/15476770144578",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-logo.png?v=1793246070",
+      "sourcePath": "store/realistic-products/images/hoodie-logo.png",
+      "sourceSha256": "a1b858665426f02dacaeef7b34fde707864a9057244af2dae039838cd7feba81",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/hoodie-logo-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/hoodie-logo-uniform.png",
+      "outputSha256": "28ae5fa229c530d09d111ce0db969f90f10c57a92ec93b6865492c91ffa200ff",
+      "outputBytes": 2326573,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/apparel-generation-manifest.json",
+      "visualQA": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "hoodie-logo.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/hoodie-logo.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "jacket-logo.png",
+      "productHandle": "off-shft-logo-jacket",
+      "productTitle": "OFF SHFT Logo Jacket",
+      "shopifyProductId": "15476778795330",
+      "shopifyProductGid": "gid://shopify/Product/15476778795330",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-logo.png?v=1793246534",
+      "sourcePath": "store/realistic-products/images/jacket-logo.png",
+      "sourceSha256": "c96356e6a6814dc605e3805b7a68f3c094fc62fa7b4a5b27ca0b8b9aa3a976ca",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/jacket-logo-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/jacket-logo-uniform.png",
+      "outputSha256": "170e7c4b1ef6d4988d47c4a6f876212f37bd0524b4a13cf742ddcd979097a57c",
+      "outputBytes": 1687836,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/other-apparel-generation-manifest.json",
+      "visualQA": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop; full jacket silhouette, hood/drawstrings, half zipper, cuffs and hem toggles retained. Chest artwork and Champion sleeve patch remain intact. No crop or visible white halo."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "jacket-logo.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/jacket-logo.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "quarter-zip-logo-ivory.png",
+      "productHandle": "off-shft-logo-quarter-zip",
+      "productTitle": "OFF SHFT Logo Quarter-Zip",
+      "shopifyProductId": "15478605218114",
+      "shopifyProductGid": "gid://shopify/Product/15478605218114",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-logo-ivory.png?v=1793317440",
+      "sourcePath": "store/storefront-refresh/media/quarter-zip-logo-ivory.png",
+      "sourceSha256": "a989ed37a0cf32c44099c88f114e1ba5ab60903c09614c071c79b3966986c8ce",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/quarter-zip-logo-ivory-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/quarter-zip-logo-ivory-uniform.png",
+      "outputSha256": "40f36abbd10d08f6e57e7d4b0f81fee17dee2bf54829ca45d6094493e70ed3d5",
+      "outputBytes": 2064676,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/apparel-generation-manifest.json",
+      "visualQA": {
+        "reviewed": true,
+        "background": "Warm opaque Bone studio backdrop, edge to edge; no white border, props, horizon or strong sunlight.",
+        "garment": "Full original silhouette and framing retained; ivory colour, construction and decoration visually preserved.",
+        "decoration": "Approved chest decoration remains intact.",
+        "result": "Pass"
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "quarter-zip-logo-ivory.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/storefront-refresh/media/quarter-zip-logo-ivory.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "sweatpants-1469-pepper-logo.png",
+      "productHandle": "off-shft-logo-sweatpants",
+      "productTitle": "OFF SHFT Logo Sweatpants",
+      "shopifyProductId": "15476774961474",
+      "shopifyProductGid": "gid://shopify/Product/15476774961474",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-logo.png?v=1793250385",
+      "sourcePath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-logo.png",
+      "sourceSha256": "3daae1927d8e0f2d53f725c3958ff59e3f16a6b2ed46dac0c9ee02c6a8ab2c6f",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/sweatpants-1469-pepper-logo-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/sweatpants-1469-pepper-logo-uniform.png",
+      "outputSha256": "2e3354614b9aede6c6840eeaafeab2114a63c4f3c47e2fd2e8ba8bae5705b826",
+      "outputBytes": 1636609,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/other-apparel-generation-manifest.json",
+      "visualQA": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop without sunlight bands; same pepper washed colour, full front silhouette, cream drawstrings, ribbed waistband/cuffs and exact upper-leg artwork. Both cuffs visible, no white halo."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "sweatpants-1469-pepper-logo.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-logo.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "tee-logo.png",
+      "productHandle": "off-shft-logo-t-shirt",
+      "productTitle": "OFF SHFT Logo T-Shirt",
+      "shopifyProductId": "15476778631490",
+      "shopifyProductGid": "gid://shopify/Product/15476778631490",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-logo.png?v=1793246578",
+      "sourcePath": "store/realistic-products/images/tee-logo.png",
+      "sourceSha256": "e490375b6c52d3efb931c4698b4d54e7ac18e0ca6c0f74aea4db1e989ddfb543",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/tee-logo-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/tee-logo-uniform.png",
+      "outputSha256": "184bb21b9f441d48263c220f7596a51ddc8b969ad7811e4e9408844f43e6e3ce",
+      "outputBytes": 1860548,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/other-apparel-generation-manifest.json",
+      "visualQA": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop without sunlight bands; same ivory tee silhouette, neckline, sleeve lengths, wrinkles and small chest mark. Full garment visible, no white halo."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "tee-logo.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/tee-logo.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "off-shft-ours-to-spend-evergreen.png",
+      "productHandle": "ours-to-spend-trucker-hat",
+      "productTitle": "Ours to Spend. Trucker Hat",
+      "shopifyProductId": "15478492037442",
+      "shopifyProductGid": "gid://shopify/Product/15478492037442",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-evergreen.png?v=1793304572",
+      "sourcePath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-evergreen.png",
+      "sourceSha256": "afb06020818c5a2db6c0a5dad2c584e62669f9391d0012d8d0f4e48dab6793f3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "outputPath": "store/uniform-previews/media/off-shft-ours-to-spend-evergreen-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/off-shft-ours-to-spend-evergreen-uniform.png",
+      "outputSha256": "fb20d405434f435d3e41ad94d5f1e5678a70495d6f9702133c904e974fb8741d",
+      "outputBytes": 2393177,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/phrase-generation-manifest.json",
+      "visualQA": {
+        "status": "passed",
+        "checkedAt": "2026-10-30T01:36:03.598828+00:00",
+        "reviewedBy": "root and replace_headwear_drawings agents",
+        "method": "Viewed the original source and output locally with view_image.",
+        "checks": [
+          "Full product visible, no cropped sleeves, cuffs, hem, hood or brim.",
+          "Correct front/back view, garment/cap colour, wording, line layout and accent thread/print colours retained.",
+          "Warm seamless Bone-family backdrop; no horizon, sunlight bands, props or white border.",
+          "Square framing and soft contact shadow."
+        ],
+        "limitation": "Generative mockups are visually checked; product pixels, wrinkles and proportions are not mathematically identical to the source."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "off-shft-ours-to-spend-evergreen.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/next-round-launch/upload-media/off-shft-ours-to-spend-evergreen.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "crewneck-punched-out.png",
+      "productHandle": "punched-out-crewneck",
+      "productTitle": "Punched Out. Crewneck",
+      "shopifyProductId": "15476774895938",
+      "shopifyProductGid": "gid://shopify/Product/15476774895938",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-punched-out.png?v=1793246535",
+      "sourcePath": "store/realistic-products/images/crewneck-punched-out.png",
+      "sourceSha256": "8b6122d26e1af1589b195170648163d6f752cb78310d33ba9c0173022cc1bb87",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/crewneck-punched-out-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/crewneck-punched-out-uniform.png",
+      "outputSha256": "2743ae9510d34ea207787813f3809fb991a6ff29f4721db4679e95299bfb122c",
+      "outputBytes": 2283103,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/apparel-generation-manifest.json",
+      "visualQA": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "crewneck-punched-out.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/crewneck-punched-out.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "golf-shirt-punched-out-ivory.png",
+      "productHandle": "punched-out-golf-shirt",
+      "productTitle": "Punched Out. Golf Shirt",
+      "shopifyProductId": "15478605381954",
+      "shopifyProductGid": "gid://shopify/Product/15478605381954",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-shirt-punched-out-ivory.png?v=1793316916",
+      "sourcePath": "store/storefront-refresh/media/golf-shirt-punched-out-ivory.png",
+      "sourceSha256": "e0f79c6dcf8ef21be489addd561ac3853a7a3a677e367f19efb216bcd9b77ed7",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/golf-shirt-punched-out-ivory-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/golf-shirt-punched-out-ivory-uniform.png",
+      "outputSha256": "4f8c2b84f2c6bb313e9a90aa4eddc0cfa0760ed69031fdb1bce629ad99ae366b",
+      "outputBytes": 2317306,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/apparel-generation-manifest.json",
+      "visualQA": {
+        "reviewed": true,
+        "background": "Warm opaque Bone studio backdrop, edge to edge; no white border, props, horizon or strong sunlight.",
+        "garment": "Full original silhouette and framing retained; ivory colour, construction and decoration visually preserved.",
+        "decoration": "Two-line PUNCHED / OUT. chest wording and clock on wearer’s left sleeve remain visible.",
+        "result": "Pass"
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "golf-shirt-punched-out-ivory.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/storefront-refresh/media/golf-shirt-punched-out-ivory.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "hat-punched-out.png",
+      "productHandle": "punched-out-hat",
+      "productTitle": "Punched Out. Hat",
+      "shopifyProductId": "15476770111810",
+      "shopifyProductGid": "gid://shopify/Product/15476770111810",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-punched-out.png?v=1793246535",
+      "sourcePath": "store/realistic-products/images/hat-punched-out.png",
+      "sourceSha256": "cc64d920a47446af29d9aa882670e097dbdfb293addc551f894b17bc61a19fba",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/hat-punched-out-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/hat-punched-out-uniform.png",
+      "outputSha256": "077ef095011be89eb13c36e19d62e2574685f4332e4528dc2f595ff0231cc9d3",
+      "outputBytes": 2269157,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/headwear-generation-manifest.json",
+      "visualQA": "Passed visual comparison: original black trucker model, mesh, stitching, silhouette, artwork geometry/thread colours and source framing retained; warm seamless background and short contact shadow.",
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "hat-punched-out.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/hat-punched-out.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "hoodie-punched-out.png",
+      "productHandle": "punched-out-hoodie",
+      "productTitle": "Punched Out. Hoodie",
+      "shopifyProductId": "15476770275650",
+      "shopifyProductGid": "gid://shopify/Product/15476770275650",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-punched-out.png?v=1793246535",
+      "sourcePath": "store/realistic-products/images/hoodie-punched-out.png",
+      "sourceSha256": "40129b96784dcb9f4bb1aa053e4a733971b8bfffc366a47d73da8dad2d827dad",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/hoodie-punched-out-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/hoodie-punched-out-uniform.png",
+      "outputSha256": "4c85c494d9ee1e5faec40e0368de0c755f9f13bf9c213fb8d9dd26fc69fda9a3",
+      "outputBytes": 2374975,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/apparel-generation-manifest.json",
+      "visualQA": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "hoodie-punched-out.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/hoodie-punched-out.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "jacket-punched-out.png",
+      "productHandle": "punched-out-jacket",
+      "productTitle": "Punched Out. Jacket",
+      "shopifyProductId": "15476778926402",
+      "shopifyProductGid": "gid://shopify/Product/15476778926402",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-punched-out.png?v=1793246534",
+      "sourcePath": "store/realistic-products/images/jacket-punched-out.png",
+      "sourceSha256": "aecff9f43dfcec94065b202f184caccdaea20ba4c9a497c7f7c4a0b79f7ab021",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/jacket-punched-out-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/jacket-punched-out-uniform.png",
+      "outputSha256": "fb54d117a506e289b7935ad33057b7dd6f9429b4c51e39b43016a78da38375fa",
+      "outputBytes": 1728501,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/other-apparel-generation-manifest.json",
+      "visualQA": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop; full jacket silhouette, hood/drawstrings, half zipper, cuffs and hem toggles retained. Chest artwork and Champion sleeve patch remain intact. No crop or visible white halo."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "jacket-punched-out.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/jacket-punched-out.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "quarter-zip-punched-out-ivory.png",
+      "productHandle": "punched-out-quarter-zip",
+      "productTitle": "Punched Out. Quarter-Zip",
+      "shopifyProductId": "15478605316418",
+      "shopifyProductGid": "gid://shopify/Product/15478605316418",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-punched-out-ivory.png?v=1793317316",
+      "sourcePath": "store/storefront-refresh/media/quarter-zip-punched-out-ivory.png",
+      "sourceSha256": "14fa0434bf0b5b02f2dc234b62eb1760881fc80f4110b973843e62f851fedfd8",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/quarter-zip-punched-out-ivory-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/quarter-zip-punched-out-ivory-uniform.png",
+      "outputSha256": "8b07b28d55f36a43b8cb9280d62c011109f84da20fa11958f17e9d309cc2b601",
+      "outputBytes": 2016962,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/apparel-generation-manifest.json",
+      "visualQA": {
+        "reviewed": true,
+        "background": "Warm opaque Bone studio backdrop, edge to edge; no white border, props, horizon or strong sunlight.",
+        "garment": "Full original silhouette and framing retained; ivory colour, construction and decoration visually preserved.",
+        "decoration": "Approved chest decoration remains intact.",
+        "result": "Pass"
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "quarter-zip-punched-out-ivory.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/storefront-refresh/media/quarter-zip-punched-out-ivory.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "sweatpants-1469-pepper-punched-out.png",
+      "productHandle": "punched-out-sweatpants",
+      "productTitle": "Punched Out. Sweatpants",
+      "shopifyProductId": "15476775059778",
+      "shopifyProductGid": "gid://shopify/Product/15476775059778",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-punched-out.png?v=1793250385",
+      "sourcePath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-punched-out.png",
+      "sourceSha256": "1bcf0c81cb39cd186ab8e5a248ef97c75200fdece841d6cc1d1d1d2cf992938a",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/sweatpants-1469-pepper-punched-out-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/sweatpants-1469-pepper-punched-out-uniform.png",
+      "outputSha256": "b694c6914da7ee8e3127f8a95aeea65eed7d7d8e65fe6196e0c49b6bf4b3a27e",
+      "outputBytes": 1654100,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/other-apparel-generation-manifest.json",
+      "visualQA": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop without sunlight bands; same pepper washed colour, full front silhouette, cream drawstrings, ribbed waistband/cuffs and exact upper-leg artwork. Both cuffs visible, no white halo."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "sweatpants-1469-pepper-punched-out.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-punched-out.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "crewneck-clock.png",
+      "productHandle": "the-clock-crewneck",
+      "productTitle": "The Clock Crewneck",
+      "shopifyProductId": "15476774830402",
+      "shopifyProductGid": "gid://shopify/Product/15476774830402",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-clock.png?v=1793246483",
+      "sourcePath": "store/realistic-products/images/crewneck-clock.png",
+      "sourceSha256": "7ac6c5c722944b7c781d547a449c24290fcb3fd70c6cbd3f59db9ac91b731864",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/crewneck-clock-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/crewneck-clock-uniform.png",
+      "outputSha256": "55caf712269cffbed59ea79751fc59281b1525a29c023bd1d8d2c14c23c16d06",
+      "outputBytes": 2227432,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/apparel-generation-manifest.json",
+      "visualQA": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "crewneck-clock.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/crewneck-clock.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "hat-clock.png",
+      "productHandle": "the-clock-hat",
+      "productTitle": "The Clock Hat",
+      "shopifyProductId": "15476770046274",
+      "shopifyProductGid": "gid://shopify/Product/15476770046274",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-clock.png?v=1793246534",
+      "sourcePath": "store/realistic-products/images/hat-clock.png",
+      "sourceSha256": "66273c2a1143b9a2f234ae9d0eae80c966afd515d3e64ccdaa1a3d30fdd24262",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/hat-clock-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/hat-clock-uniform.png",
+      "outputSha256": "ff99f4832f98e85c0ef2e60b04219c58331d4b6ee7eb49b7decd1b6f6658733b",
+      "outputBytes": 2269142,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/headwear-generation-manifest.json",
+      "visualQA": "Passed visual comparison: original black trucker model, mesh, stitching, silhouette, artwork geometry/thread colours and source framing retained; warm seamless background and short contact shadow.",
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "hat-clock.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/hat-clock.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "hoodie-clock.png",
+      "productHandle": "the-clock-hoodie",
+      "productTitle": "The Clock Hoodie",
+      "shopifyProductId": "15476770210114",
+      "shopifyProductGid": "gid://shopify/Product/15476770210114",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-clock.png?v=1793246534",
+      "sourcePath": "store/realistic-products/images/hoodie-clock.png",
+      "sourceSha256": "229e74958e89859832cee268d708534cc02d0540daef4354dcc230010c2e53d0",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/hoodie-clock-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/hoodie-clock-uniform.png",
+      "outputSha256": "9b480be7f10050e741d1193e40693db97aae13f30d9e8622d2b286472687f656",
+      "outputBytes": 2171548,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/apparel-generation-manifest.json",
+      "visualQA": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "hoodie-clock.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/hoodie-clock.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "jacket-clock.png",
+      "productHandle": "the-clock-jacket",
+      "productTitle": "The Clock Jacket",
+      "shopifyProductId": "15476778860866",
+      "shopifyProductGid": "gid://shopify/Product/15476778860866",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-clock.png?v=1793246534",
+      "sourcePath": "store/realistic-products/images/jacket-clock.png",
+      "sourceSha256": "40a7b0b1868ec4cffd31cf22eb14d6f0e75c741f3edabe26207168847dbd3d91",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/jacket-clock-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/jacket-clock-uniform.png",
+      "outputSha256": "138761f69d52d43a482929817002bf64126b6b860e43b44f39efe190e84b13d7",
+      "outputBytes": 1688678,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/other-apparel-generation-manifest.json",
+      "visualQA": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop; full jacket silhouette, hood/drawstrings, half zipper, cuffs and hem toggles retained. Chest artwork and Champion sleeve patch remain intact. No crop or visible white halo."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "jacket-clock.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/jacket-clock.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "quarter-zip-clock-ivory.png",
+      "productHandle": "the-clock-quarter-zip",
+      "productTitle": "The Clock Quarter-Zip",
+      "shopifyProductId": "15478605250882",
+      "shopifyProductGid": "gid://shopify/Product/15478605250882",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-clock-ivory.png?v=1793317384",
+      "sourcePath": "store/storefront-refresh/media/quarter-zip-clock-ivory.png",
+      "sourceSha256": "22c7b3205b0227a6d6e755b4982fa087514b0884f209400f3ed8696d90a2a1a5",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/quarter-zip-clock-ivory-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/quarter-zip-clock-ivory-uniform.png",
+      "outputSha256": "adc6864283a5865317a1509c1cf4f534b823f5caf5245d71e6de3d0ea61ae01c",
+      "outputBytes": 1907236,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/apparel-generation-manifest.json",
+      "visualQA": {
+        "reviewed": true,
+        "background": "Warm opaque Bone studio backdrop, edge to edge; no white border, props, horizon or strong sunlight.",
+        "garment": "Full original silhouette and framing retained; ivory colour, construction and decoration visually preserved.",
+        "decoration": "Approved chest decoration remains intact.",
+        "result": "Pass"
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "quarter-zip-clock-ivory.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/storefront-refresh/media/quarter-zip-clock-ivory.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "sweatpants-1469-pepper-clock.png",
+      "productHandle": "the-clock-sweatpants",
+      "productTitle": "The Clock Sweatpants",
+      "shopifyProductId": "15476774994242",
+      "shopifyProductGid": "gid://shopify/Product/15476774994242",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-clock.png?v=1793250385",
+      "sourcePath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-clock.png",
+      "sourceSha256": "22541396edeb762046bf16ac79b40c54e92d54a5d2dcccf3c191ca5c24f032c0",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/sweatpants-1469-pepper-clock-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/sweatpants-1469-pepper-clock-uniform.png",
+      "outputSha256": "86a8942446a0d264b4f80d063b870165d79a25926dd4be15990e852ea115a27e",
+      "outputBytes": 1580257,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/other-apparel-generation-manifest.json",
+      "visualQA": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop without sunlight bands; same pepper washed colour, full front silhouette, cream drawstrings, ribbed waistband/cuffs and exact upper-leg artwork. Both cuffs visible, no white halo."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "sweatpants-1469-pepper-clock.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-clock.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "tee-clock.png",
+      "productHandle": "the-clock-t-shirt",
+      "productTitle": "The Clock T-Shirt",
+      "shopifyProductId": "15476778729794",
+      "shopifyProductGid": "gid://shopify/Product/15476778729794",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-clock.png?v=1793246578",
+      "sourcePath": "store/realistic-products/images/tee-clock.png",
+      "sourceSha256": "2fb416d7b9cfb0d263da8da8766c70c74cdcbfcf245f0b7e0b729456d5616ecf",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputPath": "store/uniform-previews/media/tee-clock-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/tee-clock-uniform.png",
+      "outputSha256": "25b085d6db6ce808baedade9b149ef8fa8ad7bfbe9dcd71306e963e114e9070e",
+      "outputBytes": 1721110,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/other-apparel-generation-manifest.json",
+      "visualQA": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop without sunlight bands; same ivory tee silhouette, neckline, sleeve lengths, wrinkles and small chest mark. Full garment visible, no white halo."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "tee-clock.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/realistic-products/images/tee-clock.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "off-shft-the-rest-is-ours-blue-jean.png",
+      "productHandle": "the-rest-is-ours-hoodie",
+      "productTitle": "The Rest Is Ours. Hoodie",
+      "shopifyProductId": "15478492004674",
+      "shopifyProductGid": "gid://shopify/Product/15478492004674",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-blue-jean.png?v=1793304572",
+      "sourcePath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-blue-jean.png",
+      "sourceSha256": "ed84af15b10d317643f4259e354e1a27f3596f901ff435f70085770a44f58746",
+      "sourceDimensions": [
+        1312,
+        1199
+      ],
+      "outputPath": "store/uniform-previews/media/off-shft-the-rest-is-ours-blue-jean-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/off-shft-the-rest-is-ours-blue-jean-uniform.png",
+      "outputSha256": "5cd659b4821c5499ffeea5b205b4f9ad2c24988667acbbe5ab36a81afda80033",
+      "outputBytes": 2421723,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/phrase-generation-manifest.json",
+      "visualQA": {
+        "status": "passed",
+        "checkedAt": "2026-10-30T01:36:03.598828+00:00",
+        "reviewedBy": "root and replace_headwear_drawings agents",
+        "method": "Viewed the original source and output locally with view_image.",
+        "checks": [
+          "Full product visible, no cropped sleeves, cuffs, hem, hood or brim.",
+          "Correct front/back view, garment/cap colour, wording, line layout and accent thread/print colours retained.",
+          "Warm seamless Bone-family backdrop; no horizon, sunlight bands, props or white border.",
+          "Square framing and soft contact shadow."
+        ],
+        "limitation": "Generative mockups are visually checked; product pixels, wrinkles and proportions are not mathematically identical to the source."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "off-shft-the-rest-is-ours-blue-jean.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-blue-jean.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    },
+    {
+      "originalCdnFilename": "off-shft-time-well-earned-blue-spruce.png",
+      "productHandle": "time-well-earned-t-shirt",
+      "productTitle": "Time Well Earned. T-Shirt",
+      "shopifyProductId": "15478491971906",
+      "shopifyProductGid": "gid://shopify/Product/15478491971906",
+      "role": "lead-preview",
+      "galleryPosition": 1,
+      "isLead": true,
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-time-well-earned-blue-spruce.png?v=1793304572",
+      "sourcePath": "store/next-round-launch/upload-media/off-shft-time-well-earned-blue-spruce.png",
+      "sourceSha256": "d4aefb6a0d3cff8aae4e0a050c5a745e0fc8593fd41d234d9da9fd9962216ff4",
+      "sourceDimensions": [
+        1312,
+        1199
+      ],
+      "outputPath": "store/uniform-previews/media/off-shft-time-well-earned-blue-spruce-uniform.png",
+      "absoluteOutputPath": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/off-shft-time-well-earned-blue-spruce-uniform.png",
+      "outputSha256": "80e6c97462e43a1714284d6be93d683c58d97a8904612a856f0ff9b32412075c",
+      "outputBytes": 2303637,
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "generationManifest": "store/uniform-previews/phrase-generation-manifest.json",
+      "visualQA": {
+        "status": "passed",
+        "checkedAt": "2026-10-30T01:36:03.598828+00:00",
+        "reviewedBy": "root and replace_headwear_drawings agents",
+        "method": "Viewed the original source and output locally with view_image.",
+        "checks": [
+          "Full product visible, no cropped sleeves, cuffs, hem, hood or brim.",
+          "Correct front/back view, garment/cap colour, wording, line layout and accent thread/print colours retained.",
+          "Warm seamless Bone-family backdrop; no horizon, sunlight bands, props or white border.",
+          "Square framing and soft contact shadow."
+        ],
+        "limitation": "Generative mockups are visually checked; product pixels, wrinkles and proportions are not mathematically identical to the source."
+      },
+      "operation": {
+        "status": "pending",
+        "mode": "Shopify Content > Files > native Replace",
+        "targetFilename": "off-shft-time-well-earned-blue-spruce.png",
+        "shopifyFileId": null,
+        "preserveExistingFileRecordUrlAltAndProductReferences": true,
+        "removeAssociations": false,
+        "recoverySourcePath": "store/next-round-launch/upload-media/off-shft-time-well-earned-blue-spruce.png",
+        "note": "Confirm exact existing filename and product reference before native Replace. Immutable preparation plan; deployment-progress.json is the current application record."
+      }
+    }
+  ],
+  "retainedLeads": [
+    {
+      "productHandle": "off-shft-logo-beanie",
+      "productTitle": "OFF SHFT Logo Beanie",
+      "shopifyProductId": "15478604923202",
+      "shopifyProductGid": "gid://shopify/Product/15478604923202",
+      "originalCdnFilename": "off-shft-logo-beanie-studio.png",
+      "activeLocalPath": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+      "sha256": "2632e1105d384779ad67463531ecede8ea9608a0eab3eef50fe1c7ae4ea296c1",
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-logo-beanie-studio.png?v=1793317779",
+      "action": "retain existing warm Bone lead; no replacement in this plan"
+    },
+    {
+      "productHandle": "off-shft-logo-bucket-hat",
+      "productTitle": "OFF SHFT Logo Bucket Hat",
+      "shopifyProductId": "15478605119810",
+      "shopifyProductGid": "gid://shopify/Product/15478605119810",
+      "originalCdnFilename": "off-shft-logo-bucket-hat-studio.png",
+      "activeLocalPath": "store/catalogue-polish/media/off-shft-logo-bucket-hat-studio-bone.png",
+      "sha256": "327bc14e59c8e5cf6e9843e5034d9e2838b3dfcb26fc9ddfc93b4d34a5f05771",
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-logo-bucket-hat-studio.png?v=1793317596",
+      "action": "retain existing warm Bone lead; no replacement in this plan"
+    },
+    {
+      "productHandle": "punched-out-beanie",
+      "productTitle": "Punched Out. Beanie",
+      "shopifyProductId": "15478605087042",
+      "shopifyProductGid": "gid://shopify/Product/15478605087042",
+      "originalCdnFilename": "punched-out-beanie-studio.png",
+      "activeLocalPath": "store/catalogue-polish/media/punched-out-beanie-studio-bone.png",
+      "sha256": "8dd7bf71e12732a03842482449c086eb90bd0fb0903bc72e5968d9e9968f615c",
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-studio.png?v=1793317662",
+      "action": "retain existing warm Bone lead; no replacement in this plan"
+    },
+    {
+      "productHandle": "punched-out-bucket-hat",
+      "productTitle": "Punched Out. Bucket Hat",
+      "shopifyProductId": "15478605185346",
+      "shopifyProductGid": "gid://shopify/Product/15478605185346",
+      "originalCdnFilename": "punched-out-bucket-hat-studio.png",
+      "activeLocalPath": "store/catalogue-polish/media/punched-out-bucket-hat-studio-bone.png",
+      "sha256": "dd9cccee8b42ef9332ccac218446792eb1abd74193a237aa0f2c565ad1eb6952",
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-bucket-hat-studio.png?v=1793317489",
+      "action": "retain existing warm Bone lead; no replacement in this plan"
+    },
+    {
+      "productHandle": "the-clock-beanie",
+      "productTitle": "The Clock Beanie",
+      "shopifyProductId": "15478605054274",
+      "shopifyProductGid": "gid://shopify/Product/15478605054274",
+      "originalCdnFilename": "the-clock-beanie-studio.png",
+      "activeLocalPath": "store/catalogue-polish/media/the-clock-beanie-studio-bone.png",
+      "sha256": "319151599702654ca2d38253e879818b455255499a3e5d552153eb7bbd3f4e5f",
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/the-clock-beanie-studio.png?v=1793317715",
+      "action": "retain existing warm Bone lead; no replacement in this plan"
+    },
+    {
+      "productHandle": "the-clock-bucket-hat",
+      "productTitle": "The Clock Bucket Hat",
+      "shopifyProductId": "15478605152578",
+      "shopifyProductGid": "gid://shopify/Product/15478605152578",
+      "originalCdnFilename": "the-clock-bucket-hat-studio.png",
+      "activeLocalPath": "store/catalogue-polish/media/the-clock-bucket-hat-studio-bone.png",
+      "sha256": "d5b4cf552c0646d7183f6cee28c17873d31f4081e354a92b4b4c06d75b5be3ca",
+      "snapshotCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/the-clock-bucket-hat-studio.png?v=1793317538",
+      "action": "retain existing warm Bone lead; no replacement in this plan"
+    }
+  ]
+}
