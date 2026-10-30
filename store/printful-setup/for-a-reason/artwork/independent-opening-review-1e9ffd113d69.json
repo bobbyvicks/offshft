@@ -1,0 +1,188 @@
+{
+  "status": "Independent geometric review; not supplier acceptance",
+  "measurementsSha256": "1e9ffd113d69f858b8ab5ec2316c22422f70a909672106bdcd5fb787bbf48539",
+  "artworkMm": [
+    115.6154,
+    47.6944
+  ],
+  "construction": [
+    {
+      "id": "glyph-1",
+      "char": "F",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "reconstructionXorAreaMm2": 0,
+      "periodCircleApproximation": false
+    },
+    {
+      "id": "glyph-2",
+      "char": "O",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "reconstructionXorAreaMm2": 0.0000025,
+      "periodCircleApproximation": false
+    },
+    {
+      "id": "glyph-3",
+      "char": "R",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "reconstructionXorAreaMm2": 0.000001965,
+      "periodCircleApproximation": false
+    },
+    {
+      "id": "glyph-4",
+      "char": "A",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "reconstructionXorAreaMm2": 0,
+      "periodCircleApproximation": false
+    },
+    {
+      "id": "glyph-5",
+      "char": "R",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "reconstructionXorAreaMm2": 0,
+      "periodCircleApproximation": false
+    },
+    {
+      "id": "glyph-6",
+      "char": "E",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "reconstructionXorAreaMm2": 0,
+      "periodCircleApproximation": false
+    },
+    {
+      "id": "glyph-7",
+      "char": "A",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "reconstructionXorAreaMm2": 0,
+      "periodCircleApproximation": false
+    },
+    {
+      "id": "glyph-8",
+      "char": "S",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "reconstructionXorAreaMm2": 0.00000202,
+      "periodCircleApproximation": false
+    },
+    {
+      "id": "glyph-9",
+      "char": "O",
+      "coreOuterComponents": 1,
+      "coreCounters": 1,
+      "finalOuterComponents": 1,
+      "finalCounters": 1,
+      "reconstructionXorAreaMm2": 0.0000025,
+      "periodCircleApproximation": false
+    },
+    {
+      "id": "glyph-10",
+      "char": "N",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "reconstructionXorAreaMm2": 0,
+      "periodCircleApproximation": false
+    },
+    {
+      "id": "glyph-11",
+      "char": ".",
+      "coreOuterComponents": 1,
+      "coreCounters": 0,
+      "finalOuterComponents": 1,
+      "finalCounters": 0,
+      "reconstructionXorAreaMm2": 0.002642475,
+      "periodCircleApproximation": true
+    }
+  ],
+  "openings": [
+    {
+      "id": "glyph-1",
+      "char": "F",
+      "openings": [
+        {
+          "probeLocalMm": [
+            9,
+            7
+          ],
+          "clearanceDiameterLowerBoundMm": 1.7490921020507812,
+          "clearanceDiameterUpperBoundMm": 1.749114990234375,
+          "passes1_27mmProbe": true
+        }
+      ]
+    },
+    {
+      "id": "glyph-6",
+      "char": "E",
+      "openings": [
+        {
+          "probeLocalMm": [
+            9,
+            6.6
+          ],
+          "clearanceDiameterLowerBoundMm": 1.3336944580078125,
+          "clearanceDiameterUpperBoundMm": 1.3337173461914062,
+          "passes1_27mmProbe": true
+        },
+        {
+          "probeLocalMm": [
+            9,
+            14.5
+          ],
+          "clearanceDiameterLowerBoundMm": 1.365692138671875,
+          "clearanceDiameterUpperBoundMm": 1.3657150268554688,
+          "passes1_27mmProbe": true
+        }
+      ]
+    },
+    {
+      "id": "glyph-8",
+      "char": "S",
+      "openings": [
+        {
+          "probeLocalMm": [
+            8,
+            6.8
+          ],
+          "clearanceDiameterLowerBoundMm": 0.9780349731445312,
+          "clearanceDiameterUpperBoundMm": 0.978057861328125,
+          "passes1_27mmProbe": false
+        },
+        {
+          "probeLocalMm": [
+            7.5,
+            15
+          ],
+          "clearanceDiameterLowerBoundMm": 1.4687576293945312,
+          "clearanceDiameterUpperBoundMm": 1.468780517578125,
+          "passes1_27mmProbe": true
+        }
+      ]
+    }
+  ],
+  "method": "Exact supplied core offset by2.65mm and XOR against SVG-associated final contours; negative-space erosion proves a selected interior-mouth probe connects to exterior through a disc-clearance corridor. Period is a separately sampled6mm circle; small reconstruction area error is expected there.",
+  "allSelectedOpeningsPass": false,
+  "minimumTestedOpeningMm": 0.9780349731445312
+}

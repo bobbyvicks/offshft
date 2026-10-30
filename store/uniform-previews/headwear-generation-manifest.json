@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-30T01:28:25.758Z",
+  "scope": "Six background-only headwear edits: three For a Reason colour images plus the original lead previews for OFF SHFT Logo Hat, The Clock Hat and Punched Out. Hat. Original framing retained; other variant gallery images unchanged.",
+  "tool": "built-in image_gen.imagegen",
+  "calls": 6,
+  "transparentBackground": false,
+  "standard": {
+    "canvas": "square",
+    "background": "warm Bone #ECE5D3 matte seamless studio",
+    "shadow": "soft short contact shadow",
+    "framing": "Source scale and position preserved; global storefront contain/padding is handled separately by root.",
+    "avoid": [
+      "horizon",
+      "diagonal sunlight",
+      "long cast shadows",
+      "white borders",
+      "product redesign"
+    ]
+  },
+  "qa": {
+    "inputsIndividuallyViewed": true,
+    "outputsVisuallyInspected": true,
+    "observations": [
+      "All six caps retain source silhouettes, camera views, fabric colours, stitches and mesh construction.",
+      "The three For a Reason images preserve exact two-line raised wording, puff style, artwork placement and thread colours.",
+      "The three original lead caps preserve their respective OFF SHFT logo, standalone Clock, or single-line PUNCHED OUT. artwork and thread colours.",
+      "All six outputs use calm warm seamless backgrounds and short contact shadows, with no white border or visible halo.",
+      "Source framing and 1254 by 1254 square dimensions retained."
+    ],
+    "limitations": [
+      "Generative editing preserves appearance visually but does not guarantee pixel-identical product regions.",
+      "This task preserves the existing mockup model and does not independently verify supplier/manufacturing accuracy."
+    ]
+  },
+  "application": {
+    "status": "pending root review/application",
+    "shopifyChanged": false,
+    "uiUsed": false,
+    "originalSourcesRetained": true
+  },
+  "assets": [
+    {
+      "productHandle": "for-a-reason-hat",
+      "colour": "Charcoal",
+      "originalFilename": "for-a-reason-charcoal.png",
+      "originalLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-charcoal.png",
+      "originalCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-charcoal.png?v=1793313509",
+      "originalCdnSource": "store/storefront-refresh/storefront-final-products.json",
+      "styleReference": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+      "styleReferenceRole": "Representative backdrop from the approved six-image warm Bone beanie/bucket set; background only.",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-5d41bda7-8df2-40ff-b499-c8d5dc2ad196.png",
+      "output": "store/uniform-previews/media/for-a-reason-charcoal-uniform.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: square ecommerce hat product photograph background replacement.\nInput image1 is the EDIT TARGET: the existing Charcoal For a Reason cap. Input image2 is BACKGROUND STYLE REFERENCE ONLY: its quiet warm Bone studio background is the finish used by the existing six-beanie/bucket image set. Do not borrow its beanie, knit fabric, logo or product shape.\nChange ONLY the background around the cap in image1: replace the dramatic tan/sunlit scene with opaque edge-to-edge warm Bone #ECE5D3 matte seamless studio background. Match the calm warm Bone tone and softness of image2. Use only a short, soft natural contact shadow immediately beneath the cap. Remove the background horizon, sunlight stripes, diagonal illumination, long shadow and tan/brown falloff. No border, halo, props, visible background texture, overlay text, transparency or vignette.\nKeep the cap itself unchanged: exact model and silhouette, panel construction, crown, brim curvature, stitching, mesh, eyelets, button, Charcoal fabric colour, fabric texture, and detailed 3D puff thread texture. Preserve the exact heavy raised two-line wording 'FOR A' / 'REASON.' with Bone raised letters and Sun yellow period; keep letterforms, period, spacing, placement, artwork size and relief identical to the edit target. Do not redraw or retype the design. Preserve the original camera angle, square crop, subject position, product scale and framing. Do not change lighting or colour on the cap. Do not redesign or resize any product part. Deliver one opaque square image; only the background and ground shadow change.",
+      "qa": "Passed visual comparison: original hat model, colour, raised wording and source framing retained; calm warm background with short shadow.",
+      "originalSha256": "e764d6c64670fecf8225d10c587233d0112698f46601bc7b2577db179c048cd6",
+      "outputSha256": "97ff8f7a46a2fe9fbb5ff53729af0c6ed2f38559d2cdf60697db005698d79eb9",
+      "styleReferenceSha256": "2632e1105d384779ad67463531ecede8ea9608a0eab3eef50fe1c7ae4ea296c1",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRgb": [
+        [
+          236,
+          228,
+          209
+        ],
+        [
+          236,
+          227,
+          208
+        ],
+        [
+          236,
+          227,
+          208
+        ],
+        [
+          236,
+          228,
+          209
+        ]
+      ]
+    },
+    {
+      "productHandle": "for-a-reason-hat",
+      "colour": "Ivory",
+      "originalFilename": "for-a-reason-ivory.png",
+      "originalLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-ivory.png",
+      "originalCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-ivory.png?v=1793313509",
+      "originalCdnSource": "store/storefront-refresh/storefront-final-products.json",
+      "styleReference": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+      "styleReferenceRole": "Representative backdrop from the approved six-image warm Bone beanie/bucket set; background only.",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-48561855-6575-4792-8dea-c8c9799e3ee0.png",
+      "output": "store/uniform-previews/media/for-a-reason-ivory-uniform.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: square ecommerce hat product photograph background replacement.\nInput image1 is the EDIT TARGET: the existing Ivory For a Reason cap. Input image2 is BACKGROUND STYLE REFERENCE ONLY: its quiet warm Bone studio background is the finish used by the existing six-beanie/bucket image set. Do not borrow its beanie, knit fabric, logo or product shape.\nChange ONLY the background around the cap in image1: replace the dramatic tan/sunlit scene with opaque edge-to-edge warm Bone #ECE5D3 matte seamless studio background. Match the calm warm Bone tone and softness of image2. Use only a short, soft natural contact shadow immediately beneath the cap. Remove the background horizon, sunlight stripes, diagonal illumination, long shadow and tan/brown falloff. No border, halo, props, visible background texture, overlay text, transparency or vignette.\nKeep the cap itself unchanged: exact model and silhouette, panel construction, crown, brim curvature, stitching, mesh, eyelets, button, Ivory fabric colour, fabric texture, and detailed 3D puff thread texture. Preserve the exact heavy raised two-line wording 'FOR A' / 'REASON.' with Ink raised letters and Rust period; keep letterforms, period, spacing, placement, artwork size and relief identical to the edit target. Do not redraw or retype the design. Preserve the original camera angle, square crop, subject position, product scale and framing. Do not change lighting or colour on the cap. Do not redesign or resize any product part. Deliver one opaque square image; only the background and ground shadow change.",
+      "qa": "Passed visual comparison: original hat model, colour, raised wording and source framing retained; calm warm background with short shadow.",
+      "originalSha256": "38d46ae3023225c40a483f849cff93313c4576fd304280d5f7ebee454e408958",
+      "outputSha256": "b7d3b6926ec3e542e0a906c1d5724c83fa70f194dc0d9cfd5275acfe4565edcf",
+      "styleReferenceSha256": "2632e1105d384779ad67463531ecede8ea9608a0eab3eef50fe1c7ae4ea296c1",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRgb": [
+        [
+          232,
+          223,
+          204
+        ],
+        [
+          233,
+          224,
+          205
+        ],
+        [
+          232,
+          224,
+          205
+        ],
+        [
+          233,
+          224,
+          205
+        ]
+      ]
+    },
+    {
+      "productHandle": "for-a-reason-hat",
+      "colour": "Evergreen",
+      "originalFilename": "for-a-reason-evergreen.png",
+      "originalLocalPath": "store/printful-setup/for-a-reason/media/for-a-reason-evergreen.png",
+      "originalCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-evergreen.png?v=1793313508",
+      "originalCdnSource": "store/storefront-refresh/storefront-final-products.json",
+      "styleReference": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+      "styleReferenceRole": "Representative backdrop from the approved six-image warm Bone beanie/bucket set; background only.",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-a227b07e-ae4b-4020-b1d4-956c855087a0.png",
+      "output": "store/uniform-previews/media/for-a-reason-evergreen-uniform.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: square ecommerce hat product photograph background replacement.\nInput image1 is the EDIT TARGET: the existing Evergreen For a Reason cap. Input image2 is BACKGROUND STYLE REFERENCE ONLY: its quiet warm Bone studio background is the finish used by the existing six-beanie/bucket image set. Do not borrow its beanie, knit fabric, logo or product shape.\nChange ONLY the background around the cap in image1: replace the dramatic tan/sunlit scene with opaque edge-to-edge warm Bone #ECE5D3 matte seamless studio background. Match the calm warm Bone tone and softness of image2. Use only a short, soft natural contact shadow immediately beneath the cap. Remove the background horizon, sunlight stripes, diagonal illumination, long shadow and tan/brown falloff. No border, halo, props, visible background texture, overlay text, transparency or vignette.\nKeep the cap itself unchanged: exact model and silhouette, panel construction, crown, brim curvature, stitching, mesh, eyelets, button, Evergreen fabric colour, fabric texture, and detailed 3D puff thread texture. Preserve the exact heavy raised two-line wording 'FOR A' / 'REASON.' with Bone raised letters and Sun yellow period; keep letterforms, period, spacing, placement, artwork size and relief identical to the edit target. Do not redraw or retype the design. Preserve the original camera angle, square crop, subject position, product scale and framing. Do not change lighting or colour on the cap. Do not redesign or resize any product part. Deliver one opaque square image; only the background and ground shadow change.",
+      "qa": "Passed visual comparison: original hat model, colour, raised wording and source framing retained; calm warm background with short shadow.",
+      "originalSha256": "c9f34a72f40b3818e4c71258723b9e8ce58656869bf817398d9bcec6147c8e56",
+      "outputSha256": "fc7c64c734dd4d255c74d9fd087488e05b913cd84ddf6f24eeee7b0e6f09837a",
+      "styleReferenceSha256": "2632e1105d384779ad67463531ecede8ea9608a0eab3eef50fe1c7ae4ea296c1",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRgb": [
+        [
+          235,
+          225,
+          206
+        ],
+        [
+          236,
+          226,
+          206
+        ],
+        [
+          237,
+          227,
+          208
+        ],
+        [
+          236,
+          226,
+          207
+        ]
+      ]
+    },
+    {
+      "productHandle": "off-shft-logo-hat",
+      "shopifyProductId": "15476769980738",
+      "colour": "Black",
+      "originalFilename": "hat-logo.png",
+      "originalLocalPath": "store/realistic-products/images/hat-logo.png",
+      "originalCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-logo.png?v=1793246534",
+      "originalCdnSource": "store/uniform-previews/catalogue-inventory.json",
+      "styleReference": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+      "styleReferenceRole": "Background-only representative from approved warm Bone headwear set.",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-0cfd7566-d6d6-424f-a0c0-3b9207de916b.png",
+      "output": "store/uniform-previews/media/hat-logo-uniform.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: square ecommerce hat photograph, background-only normalization.\nInput image1 is the EDIT TARGET. Input image2 is BACKGROUND STYLE REFERENCE ONLY: match its warm Bone studio backdrop, never its beanie, logo, fabric or silhouette.\nReplace only the light cream background of image1 with edge-to-edge opaque warm Bone #ECE5D3 matte seamless studio background, matching the calm Bone tone of image2. Keep a short soft natural contact shadow beneath the cap. No horizon, diagonal sunlight, long cast shadow, white border, halo, props, visible background texture, vignette or transparency.\nPreserve the cap exactly: identical black fabric colour and textile detail, same trucker model with mesh side/rear, front panels, seams, brim shape and stitching, button and eyelets. Preserve the exact raised OFF SHFT logo, with Bone letters and clock O, and Sun yellow clock hands and pivot dot. The embroidery's shape, relief, thread colour, position and scale must stay unchanged. Do not redraw, retype, enlarge, thicken, simplify or redesign the artwork. Keep the same camera angle, lighting on the product, cap position, square crop, source framing and cap size. Do not resize the hat to add margin: the storefront layout will handle padding separately. Only background and ground-shadow pixels should change. Produce one opaque square image.",
+      "qa": "Passed visual comparison: original black trucker model, mesh, stitching, silhouette, artwork geometry/thread colours and source framing retained; warm seamless background and short contact shadow.",
+      "applicationStatus": "pending root review/application",
+      "originalSha256": "2530046452f12df687b381506fe9f7a72cd1ff8699ff8203f257f2e0843811ea",
+      "outputSha256": "1fe1034018fa65886bf3249b937a5d988fc4f270a724f1ea56891a9d236c89c7",
+      "styleReferenceSha256": "2632e1105d384779ad67463531ecede8ea9608a0eab3eef50fe1c7ae4ea296c1",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRgb": [
+        [
+          234,
+          226,
+          207
+        ],
+        [
+          235,
+          226,
+          207
+        ],
+        [
+          235,
+          226,
+          207
+        ],
+        [
+          235,
+          226,
+          208
+        ]
+      ]
+    },
+    {
+      "productHandle": "the-clock-hat",
+      "shopifyProductId": "15476770046274",
+      "colour": "Black",
+      "originalFilename": "hat-clock.png",
+      "originalLocalPath": "store/realistic-products/images/hat-clock.png",
+      "originalCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-clock.png?v=1793246534",
+      "originalCdnSource": "store/uniform-previews/catalogue-inventory.json",
+      "styleReference": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+      "styleReferenceRole": "Background-only representative from approved warm Bone headwear set.",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-66fde2a5-688d-4bec-8334-b63c329bada6.png",
+      "output": "store/uniform-previews/media/hat-clock-uniform.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: square ecommerce hat photograph, background-only normalization.\nInput image1 is the EDIT TARGET. Input image2 is BACKGROUND STYLE REFERENCE ONLY: match its warm Bone studio backdrop, never its beanie, logo, fabric or silhouette.\nReplace only the light cream background of image1 with edge-to-edge opaque warm Bone #ECE5D3 matte seamless studio background, matching the calm Bone tone of image2. Keep a short soft natural contact shadow beneath the cap. No horizon, diagonal sunlight, long cast shadow, white border, halo, props, visible background texture, vignette or transparency.\nPreserve the cap exactly: identical black fabric colour and textile detail, same trucker model with mesh side/rear, front panels, seams, brim shape and stitching, button and eyelets. Preserve the exact small standalone clock O, with a Bone ring and Sun yellow hands and pivot dot; no added lettering. The embroidery's shape, relief, thread colour, position and scale must stay unchanged. Do not redraw, retype, enlarge, thicken, simplify or redesign the artwork. Keep the same camera angle, lighting on the product, cap position, square crop, source framing and cap size. Do not resize the hat to add margin: the storefront layout will handle padding separately. Only background and ground-shadow pixels should change. Produce one opaque square image.",
+      "qa": "Passed visual comparison: original black trucker model, mesh, stitching, silhouette, artwork geometry/thread colours and source framing retained; warm seamless background and short contact shadow.",
+      "applicationStatus": "pending root review/application",
+      "originalSha256": "66273c2a1143b9a2f234ae9d0eae80c966afd515d3e64ccdaa1a3d30fdd24262",
+      "outputSha256": "ff99f4832f98e85c0ef2e60b04219c58331d4b6ee7eb49b7decd1b6f6658733b",
+      "styleReferenceSha256": "2632e1105d384779ad67463531ecede8ea9608a0eab3eef50fe1c7ae4ea296c1",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRgb": [
+        [
+          236,
+          228,
+          210
+        ],
+        [
+          236,
+          228,
+          209
+        ],
+        [
+          236,
+          228,
+          210
+        ],
+        [
+          236,
+          228,
+          209
+        ]
+      ]
+    },
+    {
+      "productHandle": "punched-out-hat",
+      "shopifyProductId": "15476770111810",
+      "colour": "Black",
+      "originalFilename": "hat-punched-out.png",
+      "originalLocalPath": "store/realistic-products/images/hat-punched-out.png",
+      "originalCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-punched-out.png?v=1793246535",
+      "originalCdnSource": "store/uniform-previews/catalogue-inventory.json",
+      "styleReference": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+      "styleReferenceRole": "Background-only representative from approved warm Bone headwear set.",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-d04904fc-d449-47e4-9037-0bdcb02ebba7.png",
+      "output": "store/uniform-previews/media/hat-punched-out-uniform.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: square ecommerce hat photograph, background-only normalization.\nInput image1 is the EDIT TARGET. Input image2 is BACKGROUND STYLE REFERENCE ONLY: match its warm Bone studio backdrop, never its beanie, logo, fabric or silhouette.\nReplace only the light cream background of image1 with edge-to-edge opaque warm Bone #ECE5D3 matte seamless studio background, matching the calm Bone tone of image2. Keep a short soft natural contact shadow beneath the cap. No horizon, diagonal sunlight, long cast shadow, white border, halo, props, visible background texture, vignette or transparency.\nPreserve the cap exactly: identical black fabric colour and textile detail, same trucker model with mesh side/rear, front panels, seams, brim shape and stitching, button and eyelets. Preserve the exact small single-line PUNCHED OUT. wording, including the Bone full stop; all lettering stays Bone with its original weight and spacing. The embroidery's shape, relief, thread colour, position and scale must stay unchanged. Do not redraw, retype, enlarge, thicken, simplify or redesign the artwork. Keep the same camera angle, lighting on the product, cap position, square crop, source framing and cap size. Do not resize the hat to add margin: the storefront layout will handle padding separately. Only background and ground-shadow pixels should change. Produce one opaque square image.",
+      "qa": "Passed visual comparison: original black trucker model, mesh, stitching, silhouette, artwork geometry/thread colours and source framing retained; warm seamless background and short contact shadow.",
+      "applicationStatus": "pending root review/application",
+      "originalSha256": "cc64d920a47446af29d9aa882670e097dbdfb293addc551f894b17bc61a19fba",
+      "outputSha256": "077ef095011be89eb13c36e19d62e2574685f4332e4528dc2f595ff0231cc9d3",
+      "styleReferenceSha256": "2632e1105d384779ad67463531ecede8ea9608a0eab3eef50fe1c7ae4ea296c1",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRgb": [
+        [
+          234,
+          225,
+          208
+        ],
+        [
+          234,
+          225,
+          207
+        ],
+        [
+          234,
+          226,
+          208
+        ],
+        [
+          233,
+          224,
+          207
+        ]
+      ]
+    }
+  ],
+  "productHandles": [
+    "for-a-reason-hat",
+    "off-shft-logo-hat",
+    "punched-out-hat",
+    "the-clock-hat"
+  ],
+  "updatedAt": "2026-10-30T01:32:12.997476+00:00"
+}

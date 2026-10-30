@@ -1,0 +1,438 @@
+{
+  "checkedAt": "2026-10-29T23:51:47.129843+00:00",
+  "result": "PASS_WITH_VARIANT_RECORD_COVERAGE_LIMIT",
+  "sources": [
+    {
+      "file": "storefront-before-final-images.json",
+      "sha256": "0fb5e1709f697b9c02c9e43fe2a8b43014c21eb1b2a0c702d2b9c153a82c8910"
+    },
+    {
+      "file": "storefront-final-products.json",
+      "sha256": "8d9335088a1cf15918801e8005b7be2e4df30b28373359d6859f697f8d55255f"
+    },
+    {
+      "file": "gallery-cleanup-log.json",
+      "sha256": "93bc9540885e32f323f6036a17cc500bfacb254e1908af3581c15caabecfce0b"
+    },
+    {
+      "file": "product-image-replacements.json",
+      "sha256": "883dd8672d787d06d154ad8a16f53d9858746c15206da887ed56eb97e2402373"
+    }
+  ],
+  "counts": {
+    "publishedProductsBefore": 32,
+    "publishedProductsAfter": 32,
+    "declaredVariantsBefore": 380,
+    "declaredVariantsAfter": 380,
+    "individualVariantRecordsBefore": 32,
+    "individualVariantRecordsAfter": 32,
+    "imagesBefore": 87,
+    "imagesAfter": 86,
+    "originalRemovedFilesAbsent": 34,
+    "newProductDrawingsAbsent": 11,
+    "newMockups": 10,
+    "exactDescriptionAppends": 10
+  },
+  "checks": {
+    "productIdsUnchanged": true,
+    "publishedHandleSetMatchesProducts": true,
+    "allSuppliedNonVisualFieldsUnchanged": true,
+    "declaredVariantCountUnchanged": true,
+    "all32SuppliedVariantRecordsUnchanged": true,
+    "all34OriginalRemovedFilesAbsent": true,
+    "all11NewProductDrawingsAbsent": true,
+    "all10ExpectedNewFilesPresentExactlyOnce": true,
+    "all10DescriptionsExactAppendOnly": true,
+    "allOther22ProductGalleriesUnchanged": true,
+    "allOther22DescriptionsUnchanged": true,
+    "original17Retain57FinishedImages": true
+  },
+  "unexpectedFieldDifferences": [],
+  "originalRemovedFiles": [
+    {
+      "productId": "15476769980738",
+      "filename": "offshft-trucker-6606-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476769980738",
+      "filename": "offshft-five-panel-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476769980738",
+      "filename": "offshft-dad-hat-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476769980738",
+      "filename": "offshft-rope-cap-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770046274",
+      "filename": "offshft-trucker-6606-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770046274",
+      "filename": "offshft-five-panel-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770046274",
+      "filename": "offshft-dad-hat-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770046274",
+      "filename": "offshft-rope-cap-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770111810",
+      "filename": "offshft-trucker-6606-punched-out.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770111810",
+      "filename": "offshft-five-panel-punched-out.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770111810",
+      "filename": "offshft-dad-hat-punched-out.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770111810",
+      "filename": "offshft-rope-cap-punched-out.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770144578",
+      "filename": "offshft-hoodie-5161-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770144578",
+      "filename": "offshft-hoodie-1567-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770210114",
+      "filename": "offshft-hoodie-5161-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770210114",
+      "filename": "offshft-hoodie-1567-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770275650",
+      "filename": "offshft-hoodie-5161-punched-out.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476770275650",
+      "filename": "offshft-hoodie-1567-punched-out.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476774764866",
+      "filename": "offshft-crew-1466-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476774830402",
+      "filename": "offshft-crew-1466-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476774895938",
+      "filename": "offshft-crew-1466-punched-out.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476774961474",
+      "filename": "sweatpants-logo.png",
+      "reason": "obsolete Slate concept colour",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476774961474",
+      "filename": "offshft-pants-1469-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476774994242",
+      "filename": "sweatpants-clock.png",
+      "reason": "obsolete Slate concept colour",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476774994242",
+      "filename": "offshft-pants-1469-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476775059778",
+      "filename": "sweatpants-punched-out.png",
+      "reason": "obsolete Slate concept colour",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476775059778",
+      "filename": "offshft-pants-1469-punched-out.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476778631490",
+      "filename": "offshft-tee-1717-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476778631490",
+      "filename": "offshft-tee-6030-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476778729794",
+      "filename": "offshft-tee-1717-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476778729794",
+      "filename": "offshft-tee-6030-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476778795330",
+      "filename": "offshft-jacket-co200-logo.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476778860866",
+      "filename": "offshft-jacket-co200-clock.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15476778926402",
+      "filename": "offshft-jacket-co200-punched-out.png",
+      "reason": "flat concept drawing",
+      "occurrencesInFinalCatalogue": 0
+    }
+  ],
+  "newProductDrawingsRemoved": [
+    {
+      "productId": "15478605119810",
+      "filename": "offshft-bucket-hat-logo.png",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15478605381954",
+      "filename": "offshft-golf-shirt-punched-out.png",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15478605381954",
+      "filename": "offshft-golf-shirt-sleeve.png",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15478605316418",
+      "filename": "offshft-quarter-zip-punched-out.png",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15478605152578",
+      "filename": "offshft-bucket-hat-clock.png",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15478605087042",
+      "filename": "offshft-beanie-punched-out.png",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15478605054274",
+      "filename": "offshft-beanie-clock.png",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15478605218114",
+      "filename": "offshft-quarter-zip-logo.png",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15478604923202",
+      "filename": "offshft-beanie-logo.png",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15478605185346",
+      "filename": "offshft-bucket-hat-punched-out.png",
+      "occurrencesInFinalCatalogue": 0
+    },
+    {
+      "productId": "15478605250882",
+      "filename": "offshft-quarter-zip-clock.png",
+      "occurrencesInFinalCatalogue": 0
+    }
+  ],
+  "replacementProducts": [
+    {
+      "productId": "15478605381954",
+      "handle": "punched-out-golf-shirt",
+      "expectedFilename": "golf-shirt-punched-out-ivory.png",
+      "occurrencesInProduct": 1,
+      "occurrencesInCatalogue": 1,
+      "onlyImageIsExpected": true,
+      "primaryImageIsExpected": true,
+      "disclosureOccurrences": 1,
+      "descriptionIsExactOriginalPlusDisclosure": true,
+      "nativeAltTextSaved": "Studio mockup of Punched Out. Golf Shirt in ivory pique, with two-line chest embroidery and a clock on the left sleeve."
+    },
+    {
+      "productId": "15478605316418",
+      "handle": "punched-out-quarter-zip",
+      "expectedFilename": "quarter-zip-punched-out-ivory.png",
+      "occurrencesInProduct": 1,
+      "occurrencesInCatalogue": 1,
+      "onlyImageIsExpected": true,
+      "primaryImageIsExpected": true,
+      "disclosureOccurrences": 1,
+      "descriptionIsExactOriginalPlusDisclosure": true,
+      "nativeAltTextSaved": "Studio mockup of Punched Out. Quarter-Zip in ivory with small two-line Ink lettering and Rust period."
+    },
+    {
+      "productId": "15478605250882",
+      "handle": "the-clock-quarter-zip",
+      "expectedFilename": "quarter-zip-clock-ivory.png",
+      "occurrencesInProduct": 1,
+      "occurrencesInCatalogue": 1,
+      "onlyImageIsExpected": true,
+      "primaryImageIsExpected": true,
+      "disclosureOccurrences": 1,
+      "descriptionIsExactOriginalPlusDisclosure": true,
+      "nativeAltTextSaved": "Studio mockup of The Clock Quarter-Zip in ivory with a small Ink and Rust clock on the left chest."
+    },
+    {
+      "productId": "15478605218114",
+      "handle": "off-shft-logo-quarter-zip",
+      "expectedFilename": "quarter-zip-logo-ivory.png",
+      "occurrencesInProduct": 1,
+      "occurrencesInCatalogue": 1,
+      "onlyImageIsExpected": true,
+      "primaryImageIsExpected": true,
+      "disclosureOccurrences": 1,
+      "descriptionIsExactOriginalPlusDisclosure": true,
+      "nativeAltTextSaved": "Studio mockup of OFF SHFT Logo Quarter-Zip in ivory with small Ink and Rust chest embroidery."
+    },
+    {
+      "productId": "15478605185346",
+      "handle": "punched-out-bucket-hat",
+      "expectedFilename": "punched-out-bucket-hat-studio.png",
+      "occurrencesInProduct": 1,
+      "occurrencesInCatalogue": 1,
+      "onlyImageIsExpected": true,
+      "primaryImageIsExpected": true,
+      "disclosureOccurrences": 1,
+      "descriptionIsExactOriginalPlusDisclosure": true,
+      "nativeAltTextSaved": "Studio mockup of punched out bucket hat in Bone with Ink and Rust embroidery."
+    },
+    {
+      "productId": "15478605152578",
+      "handle": "the-clock-bucket-hat",
+      "expectedFilename": "the-clock-bucket-hat-studio.png",
+      "occurrencesInProduct": 1,
+      "occurrencesInCatalogue": 1,
+      "onlyImageIsExpected": true,
+      "primaryImageIsExpected": true,
+      "disclosureOccurrences": 1,
+      "descriptionIsExactOriginalPlusDisclosure": true,
+      "nativeAltTextSaved": "Studio mockup of the clock bucket hat in Bone with Ink and Rust embroidery."
+    },
+    {
+      "productId": "15478605119810",
+      "handle": "off-shft-logo-bucket-hat",
+      "expectedFilename": "off-shft-logo-bucket-hat-studio.png",
+      "occurrencesInProduct": 1,
+      "occurrencesInCatalogue": 1,
+      "onlyImageIsExpected": true,
+      "primaryImageIsExpected": true,
+      "disclosureOccurrences": 1,
+      "descriptionIsExactOriginalPlusDisclosure": true,
+      "nativeAltTextSaved": "Studio mockup of off shft logo bucket hat in Bone with Ink and Rust embroidery."
+    },
+    {
+      "productId": "15478605087042",
+      "handle": "punched-out-beanie",
+      "expectedFilename": "punched-out-beanie-studio.png",
+      "occurrencesInProduct": 1,
+      "occurrencesInCatalogue": 1,
+      "onlyImageIsExpected": true,
+      "primaryImageIsExpected": true,
+      "disclosureOccurrences": 1,
+      "descriptionIsExactOriginalPlusDisclosure": true,
+      "nativeAltTextSaved": "Studio mockup of punched out beanie in Bone with Ink and Rust embroidery."
+    },
+    {
+      "productId": "15478605054274",
+      "handle": "the-clock-beanie",
+      "expectedFilename": "the-clock-beanie-studio.png",
+      "occurrencesInProduct": 1,
+      "occurrencesInCatalogue": 1,
+      "onlyImageIsExpected": true,
+      "primaryImageIsExpected": true,
+      "disclosureOccurrences": 1,
+      "descriptionIsExactOriginalPlusDisclosure": true,
+      "nativeAltTextSaved": "Studio mockup of the clock beanie in Bone with Ink and Rust embroidery."
+    },
+    {
+      "productId": "15478604923202",
+      "handle": "off-shft-logo-beanie",
+      "expectedFilename": "off-shft-logo-beanie-studio.png",
+      "occurrencesInProduct": 1,
+      "occurrencesInCatalogue": 1,
+      "onlyImageIsExpected": true,
+      "primaryImageIsExpected": true,
+      "disclosureOccurrences": 1,
+      "descriptionIsExactOriginalPlusDisclosure": true,
+      "nativeAltTextSaved": "Studio mockup of off shft logo beanie in Bone with Ink and Rust embroidery."
+    }
+  ],
+  "coverageLimit": "Each public snapshot supplies one variant record per product: 32 individual IDs, not all 380. All 32 supplied records (IDs, options, prices, availability and SKUs), per-product variant counts, product options, price ranges, availability and available option combinations are unchanged. These snapshots cannot independently prove equality of the other 348 individual variant IDs or records. Image alt text is recorded from prior native Shopify verification, not exposed by these public snapshots.",
+  "scope": "Read-only local comparison of saved public catalogue snapshots. This verification does not establish theme publication, supplier accuracy, Printful readiness, billing or checkout readiness."
+}

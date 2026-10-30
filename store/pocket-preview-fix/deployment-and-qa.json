@@ -1,0 +1,21 @@
+{
+  "verifiedAt": "2026-10-30T02:23:14Z",
+  "themeId": "195077472578",
+  "themeName": "OFF SHFT",
+  "status": "saved and verified",
+  "target": "Header > Custom Liquid > Liquid code",
+  "before": "header-custom-liquid-before.liquid",
+  "after": "header-custom-liquid-proposed.liquid",
+  "readback": "Exact match after normalizing accessibility-tree whitespace. Save disabled after submission. Fresh native theme preview reload verified execution.",
+  "localTests": {"passed": 11, "failed": 0, "command": "node --test store/pocket-preview-fix/pocket-preview.test.cjs"},
+  "nativeChecks": [
+    {"product": "the-clock-t-shirt", "from": "Heavyweight / S / Ivory", "action": "Click Pocket only", "result": "Pocket / S / White; correct pocket tee with sleeve clock; Add to cart enabled", "proof": "verification/clock-pocket-desktop.jpg"},
+    {"product": "the-clock-t-shirt", "from": "Heavyweight / M / Blue Spruce", "action": "Click Pocket only", "result": "Pocket / M / White; correct pocket photo and unchanged M", "proof": "verification/clock-pocket-size-m.jpg"},
+    {"product": "the-clock-t-shirt", "from": "Pocket / M / White", "action": "Click Heavyweight only", "result": "Heavyweight / M / Blue Spruce; original colour and correct image restored", "proof": "verification/clock-heavyweight-restored.jpg"},
+    {"product": "the-clock-t-shirt", "from": "Heavyweight / 3XL / Blue Spruce", "action": "Click Pocket only", "result": "3XL stays selected; White selected; purchase remains Unavailable; visible note explains Pocket is not offered in 3XL", "proof": "verification/clock-pocket-3xl-unavailable.jpg"},
+    {"product": "off-shft-logo-t-shirt", "viewport": "Shopify mobile preview", "from": "Heavyweight / S / Ivory", "action": "Click Pocket only", "result": "Pocket / S / White; correct pocket shirt photo; Add to cart enabled", "proof": "verification/logo-pocket-mobile.jpg"}
+  ],
+  "preserved": ["existing header and hero CSS", "chosen size", "stock policy", "prices", "variant records", "product media assignments", "fulfilment setup"],
+  "limitations": "Native purchase-button state was checked; no cart submission, checkout or order was created. Unsupported size combinations retain native fallback imagery while the size notice and Unavailable state remain visible. Does not verify manufacturing or broader fulfilment readiness.",
+  "finalEditorState": "Desktop preview restored; no unsaved theme changes."
+}

@@ -1,0 +1,16 @@
+																				46301 button (disabled) Save
+																				46303 button (disabled) Save as
+																					46327 button CAD Region and language selector
+																					46339 text $44.99 CAD
+																						46342 radio button (selectable, settable, string) Heavyweight
+																						46344 radio button (selectable, settable, string) Pocket
+																						46348 radio button (selectable, settable, string) S
+																						46350 radio button (selectable, settable, string) M
+																						46352 radio button (selectable, settable, string) L
+																						46354 radio button (selectable, settable, string) XL
+																						46356 radio button (selectable, settable, string) 2XL
+																						46358 radio button (selectable, disabled) 3XL - Sold out
+																						46362 radio button (selectable, disabled) Ivory - Sold out
+																						46364 radio button (selectable, settable, string) White
+																						46366 radio button (selectable, disabled) Blue Spruce - Sold out
+																					46372 button Add to cart ID: BuyButtons-ProductSubmitButton-AQjlQdzNkaFltUDRzM__add-to-cart

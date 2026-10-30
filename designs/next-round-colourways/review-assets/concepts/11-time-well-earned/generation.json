@@ -1,0 +1,27 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "created": "2026-10-29",
+  "role": "Draft AI garment mockup; vector artwork governs exact typography and nominal size",
+  "prompt": "Use case: product-mockup. Create a polished photorealistic OFF SHFT clothing design concept by editing reference image 1. Image 1 is the garment/photo edit target: a Blue Spruce Comfort Colors 1717 heavyweight cotton crewneck T-shirt photographed full front on warm sand. Image 2 is the exact transparent artwork to apply. Remove the small existing OFF SHFT chest logo cleanly. In its place put the artwork as a modest centre-chest embroidered block, 95 mm wide on a real adult shirt, three flush-left lines exactly TIME / WELL / EARNED. including the single final full stop. Keep the exact wide Unbounded letterforms, spacing, line breaks and alignment shown in reference 2; Bone thread letters, Sun ochre full stop. Centre the complete block across the upper chest, about 90mm below the collar, not at left chest. It should occupy about 17 percent of the shirt body's width and look wearable and quiet, surrounded by ample empty fabric. Embroidery has fine low-profile thread with slight natural fabric compression, not puffy plastic. Keep the garment's silhouette, colour, rib collar, sleeves, seams, camera angle, full uncropped framing, warm cream background, soft daylight and shadows from reference 1. Use natural plain cotton jersey grain with subtle irregular garment dye; remove any unnatural embossed swirling texture or patterned noise. Do not add a logo, icon, badge, additional words, labels, borders, props, people or watermark. Text must be exactly TIME WELL EARNED. across three lines. Square premium product photograph.",
+  "references": [
+    "store/realistic-products/colour-expansion/images/tee-1717-blue-spruce-logo.png",
+    "designs/11-time-well-earned/design-dark.png"
+  ],
+  "output": "mockup.png",
+  "originalGeneratedFile": "exec-961f3aa0-0bd0-4960-ab46-9cbeb0fbf602.png",
+  "selectedOutput": "mockup-v2.png",
+  "selectedGeneration": {
+    "generator": "built-in image_gen.imagegen",
+    "prompt": "Use case: product-mockup. Make a NEW photorealistic premium apparel studio photograph, using the input strictly as the graphic artwork to apply, not as a clothing photograph. Warm ivory seamless background, gentle side daylight, soft natural shadow, complete garment with generous margin. Real ordinary smooth cotton surface that reads nearly solid from this distance. Subtle small-scale weave only. Flat colour cloth, no all-over pattern, no swirls, no embossed decorative texture, no contour-map or woodgrain texture, no distressed graphics, no labels or watermarks. Copy the supplied artwork's exact lettering and line breaks; transparent background is not printed. A relaxed adult Blue Spruce dark grey-green heavyweight short-sleeve cotton T-shirt, full front flat lay with a ribbed crewneck, slightly imperfect natural folds. The supplied TIME / WELL / EARNED. artwork is a modest centered chest embroidery, approximately 95mm wide (17% of torso width), three flush-left lines, Bone cream letters and ochre final period. Fine low flat embroidery. Only the supplied words, no added brand mark. Quiet genuine cotton knit as in a real fashion retailer's product photograph.",
+    "references": [
+      "designs/11-time-well-earned/design-dark.png"
+    ],
+    "originalGeneratedFile": "exec-377da929-eb5d-4f4a-9d7d-208541d2531e.png",
+    "reason": "Fresh artwork-only generation removes unnatural all-over cloth texture; exact SVGs and measurements govern typography, colour and placement."
+  },
+  "rejectedRefinement": {
+    "prompt": "Use case: precise-object-edit. One change only: correct the garment fabric surface in this provided concept photograph. It currently has artificial embossed winding squiggles, tiny labyrinth lines, swirls and ornamental noise covering the fabric. REMOVE all of that repeated relief/pattern entirely. Replace it with realistic plain fine cotton jersey T-shirt—a clean matte knitted/woven fabric that looks almost smooth at this camera distance, with only extremely fine genuine textile grain. No decorative surface pattern. Preserve the garment colour exactly, all natural large folds, lighting, shadows, body shape, seam stitching, ribbed sections, composition, scale and background. Preserve ALL lettering/graphics pixel-faithfully as far as possible: TIME / WELL / EARNED. in the exact current three-line layout. Do not alter letterforms, text spelling, punctuation, placement, size, embroidery or print colour. Do not add or remove any object, label, border or watermark. This is a material-surface correction only. Aim for a real professional apparel photograph: plain cotton, no embossed or jacquard ornamentation.",
+    "originalGeneratedFile": "exec-089b4aa0-c67d-48d9-8f0f-07fda3d349dd.png",
+    "reason": "Texture-only edit of the initial garment image retained artificial swirl texture; not selected or bundled."
+  }
+}

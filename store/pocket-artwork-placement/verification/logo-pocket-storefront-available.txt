@@ -1,0 +1,21 @@
+																				47036 button (disabled) Save
+																				47038 button (disabled) Save as
+																					47153 button CAD Region and language selector
+																					47165 text $44.99 CAD
+																						47168 radio button (selectable, settable, string) Heavyweight
+																						47170 radio button (selectable, settable, string) Pocket
+																						47174 radio button (selectable, settable, string) S
+																						47176 radio button (selectable, settable, string) M
+																						47178 radio button (selectable, settable, string) L
+																						47180 radio button (selectable, settable, string) XL
+																						47182 radio button (selectable, settable, string) 2XL
+																						47184 radio button (selectable, disabled) 3XL - Sold out
+																						47188 radio button (selectable, disabled) Ivory - Sold out
+																						47190 radio button (selectable, settable, string) White
+																						47192 radio button (selectable, disabled) Blue Spruce - Sold out
+																					47198 button Add to cart ID: BuyButtons-ProductSubmitButton-AQjlQdzNkaFltUDRzM__add-to-cart
+																							47220 table Cart total $44.99 CAD
+																									47223 text $44.99 CAD
+																									47233 item The Clock T-Shirt Style: Pocket, Size: 2XL, Colour: White Price $44.99
+																									47244 item $44.99 CAD
+																								47247 text $44.99 CAD

@@ -1,0 +1,117 @@
+{
+  "productCount": 17,
+  "variantCount": 253,
+  "uniqueProductIds": 17,
+  "uniqueVariantIds": 253,
+  "publicDomain": "offshft.myshopify.com",
+  "currency": "CAD",
+  "printfulInstalled": false,
+  "incompleteConnections": [],
+  "products": [
+    {
+      "id": "gid://shopify/Product/15476769980738",
+      "title": "OFF SHFT Logo Hat",
+      "handle": "off-shft-logo-hat",
+      "variantCount": 5
+    },
+    {
+      "id": "gid://shopify/Product/15476770046274",
+      "title": "The Clock Hat",
+      "handle": "the-clock-hat",
+      "variantCount": 5
+    },
+    {
+      "id": "gid://shopify/Product/15476770111810",
+      "title": "Punched Out. Hat",
+      "handle": "punched-out-hat",
+      "variantCount": 5
+    },
+    {
+      "id": "gid://shopify/Product/15476770144578",
+      "title": "OFF SHFT Logo Hoodie",
+      "handle": "off-shft-logo-hoodie",
+      "variantCount": 36
+    },
+    {
+      "id": "gid://shopify/Product/15476770210114",
+      "title": "The Clock Hoodie",
+      "handle": "the-clock-hoodie",
+      "variantCount": 36
+    },
+    {
+      "id": "gid://shopify/Product/15476770275650",
+      "title": "Punched Out. Hoodie",
+      "handle": "punched-out-hoodie",
+      "variantCount": 36
+    },
+    {
+      "id": "gid://shopify/Product/15476774764866",
+      "title": "OFF SHFT Logo Crewneck",
+      "handle": "off-shft-logo-crewneck",
+      "variantCount": 12
+    },
+    {
+      "id": "gid://shopify/Product/15476774830402",
+      "title": "The Clock Crewneck",
+      "handle": "the-clock-crewneck",
+      "variantCount": 12
+    },
+    {
+      "id": "gid://shopify/Product/15476774895938",
+      "title": "Punched Out. Crewneck",
+      "handle": "punched-out-crewneck",
+      "variantCount": 12
+    },
+    {
+      "id": "gid://shopify/Product/15476774961474",
+      "title": "OFF SHFT Logo Sweatpants",
+      "handle": "off-shft-logo-sweatpants",
+      "variantCount": 10
+    },
+    {
+      "id": "gid://shopify/Product/15476774994242",
+      "title": "The Clock Sweatpants",
+      "handle": "the-clock-sweatpants",
+      "variantCount": 10
+    },
+    {
+      "id": "gid://shopify/Product/15476775059778",
+      "title": "Punched Out. Sweatpants",
+      "handle": "punched-out-sweatpants",
+      "variantCount": 10
+    },
+    {
+      "id": "gid://shopify/Product/15476778631490",
+      "title": "OFF SHFT Logo T-Shirt",
+      "handle": "off-shft-logo-t-shirt",
+      "variantCount": 17
+    },
+    {
+      "id": "gid://shopify/Product/15476778729794",
+      "title": "The Clock T-Shirt",
+      "handle": "the-clock-t-shirt",
+      "variantCount": 17
+    },
+    {
+      "id": "gid://shopify/Product/15476778795330",
+      "title": "OFF SHFT Logo Jacket",
+      "handle": "off-shft-logo-jacket",
+      "variantCount": 10
+    },
+    {
+      "id": "gid://shopify/Product/15476778860866",
+      "title": "The Clock Jacket",
+      "handle": "the-clock-jacket",
+      "variantCount": 10
+    },
+    {
+      "id": "gid://shopify/Product/15476778926402",
+      "title": "Punched Out. Jacket",
+      "handle": "punched-out-jacket",
+      "variantCount": 10
+    }
+  ],
+  "passed": true,
+  "errors": [],
+  "beforeSha256": "59f5ef9f4efa431c93dec31a8f8be78b69213220470135abecd06523d50e8853"
+}

@@ -1,0 +1,27 @@
+{
+  "generator": "built-in image_gen.imagegen",
+  "created": "2026-10-29",
+  "role": "Draft AI garment mockup; vector artwork governs exact typography and nominal size",
+  "prompt": "Use case: product-mockup. Precisely edit reference1, a full front Ivory Comfort Colors1466 crewneck sweatshirt in a warm sand studio flat lay. Reference2 is exact transparent graphic artwork. Remove the small OFF SHFT left-chest logo cleanly. Add only the exact numeric artwork5:00 from reference2 centred across the upper chest, nominal115mm wide on an adult garment, around20percent of torso width. Use exactly the supplied wide Unbounded numeral letterforms with Ink navy5and twozeros; the two colon dots in Rust. Preserve the open counters and deliberate spacing. Fine low-profile embroidery with credible stitched texture and mild cotton compression; do not use puff foam or reflective plastic. The full design is only5:00, no words or subsidiary mark. Keep reference1's pale Ivory cotton, loose relaxed drape, crewneck rib collar, cuff/hem ribs, visible real seams, uncropped full garment, composition, warm daylight and soft shadows. Fabric should be naturally woven, no decorative embossed swirl pattern or artificial texture noise. No frame or badge, no drink/golf/sports imagery, no extra graphics, text overlay, tags, people or watermark. Quiet established apparel brand. Square photorealistic ecommerce image. Transparent reference background must not be printed.",
+  "references": [
+    "store/realistic-products/images/crewneck-logo.png",
+    "designs/14-five-oclock/design-light.png"
+  ],
+  "output": "mockup.png",
+  "originalGeneratedFile": "exec-20418106-1ac5-4c61-a1d8-4f831f5cdb70.png",
+  "selectedOutput": "mockup-v2.png",
+  "selectedGeneration": {
+    "generator": "built-in image_gen.imagegen",
+    "prompt": "Use case: product-mockup. Make a NEW photorealistic premium apparel studio photograph, using the input strictly as the graphic artwork to apply, not as a clothing photograph. Warm ivory seamless background, gentle side daylight, soft natural shadow, complete garment with generous margin. Real ordinary smooth cotton surface that reads nearly solid from this distance. Subtle small-scale weave only. Flat colour cloth, no all-over pattern, no swirls, no embossed decorative texture, no contour-map or woodgrain texture, no distressed graphics, no labels or watermarks. Copy the supplied artwork's exact lettering and line breaks; transparent background is not printed. A relaxed Ivory pale warm cream cotton crewneck sweatshirt, full front flat lay, complete sleeves and ribbed collar/cuffs/waistband, subtle natural folds. Across center upper chest is exactly the supplied numeric 5:00 artwork, modest 115mm wide (about 20% of torso width). Exact wide outlined numeral forms from reference, navy Ink numbers and Rust orange colon, no other lettering. Low flat embroidery with credible fine thread, not puff or applique. Smooth plain cotton fleece face that looks solid-coloured at product-photo distance.",
+    "references": [
+      "designs/14-five-oclock/design-light.png"
+    ],
+    "originalGeneratedFile": "exec-7dde6d37-3107-4301-bc89-2c9e534e9cf2.png",
+    "reason": "Fresh artwork-only generation removes unnatural all-over cloth texture; exact SVGs and measurements govern typography, colour and placement."
+  },
+  "rejectedRefinement": {
+    "prompt": "Use case: precise-object-edit. One change only: correct the garment fabric surface in this provided concept photograph. It currently has artificial embossed winding squiggles, tiny labyrinth lines, swirls and ornamental noise covering the fabric. REMOVE all of that repeated relief/pattern entirely. Replace it with realistic smooth natural cotton fleece crewneck surface—a clean matte knitted/woven fabric that looks almost smooth at this camera distance, with only extremely fine genuine textile grain. No decorative surface pattern. Preserve the garment colour exactly, all natural large folds, lighting, shadows, body shape, seam stitching, ribbed sections, composition, scale and background. Preserve ALL lettering/graphics pixel-faithfully as far as possible: 5:00, the exact current Ink digits and Rust colon. Do not alter letterforms, text spelling, punctuation, placement, size, embroidery or print colour. Do not add or remove any object, label, border or watermark. This is a material-surface correction only. Aim for a real professional apparel photograph: plain cotton, no embossed or jacquard ornamentation.",
+    "originalGeneratedFile": "exec-f45927cb-dfa4-42b9-8ef0-5459a86ada8f.png",
+    "reason": "Texture-only edit of the initial garment image retained artificial swirl texture; not selected or bundled."
+  }
+}

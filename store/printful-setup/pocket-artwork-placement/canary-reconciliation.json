@@ -1,0 +1,14 @@
+{
+  "readbackVerified": true,
+  "mutationRepeated": false,
+  "syncVariantId": 5605512017,
+  "fileId": 1098409896,
+  "reason": "Supplier returns empty/default decoration options and auto-generated SKU after DTG sync.",
+  "generatedSupplierSkus": [
+    {
+      "syncVariantId": 5605512017,
+      "shopifyVariantId": "67946096296258",
+      "sku": "6974850"
+    }
+  ]
+}

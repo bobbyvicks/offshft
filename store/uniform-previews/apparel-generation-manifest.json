@@ -1,0 +1,567 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-30T01:30:54.893Z",
+  "status": "Generated locally; publication handled by parent task.",
+  "generator": "Built-in image_gen imagegen",
+  "editIntent": "Background-only edit to uniform Bone #ECE5D3 studio backdrop. Preserve product design, silhouette, apparel colour, decoration, scale, and framing.",
+  "styleReference": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/catalogue-polish/media/off-shft-logo-bucket-hat-studio-bone.png",
+  "styleReferenceRole": "Backdrop colour and soft contact shadow only; not a product reference.",
+  "limitations": [
+    "AI-generated visual mockups, not photographs of manufactured samples.",
+    "Background-only intent was checked visually; generative editing does not guarantee pixel identity.",
+    "These image edits do not approve suppliers or production specifications."
+  ],
+  "assets": [
+    {
+      "name": "quarter-zip-logo-ivory",
+      "shopifyProductId": "15478605218114",
+      "handle": "off-shft-logo-quarter-zip",
+      "source": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/storefront-refresh/media/quarter-zip-logo-ivory.png",
+      "originalLocalFilename": "quarter-zip-logo-ivory.png",
+      "originalCdnFilename": "quarter-zip-logo-ivory.png",
+      "sourceCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-logo-ivory.png?v=1793317440",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-41381774-b9e1-4c1e-8b50-c964aadeacf1.png",
+      "output": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/quarter-zip-logo-ivory-uniform.png",
+      "prompt": "Precise BACKGROUND-ONLY product photograph edit. Image1 is the apparel photo to edit. Image2 is a BACKGROUNDCOLOUR/softshadow style reference only; do NOT include its hat. Preserve image1's garment EXACTLY: identical model, full silhouette, cut, collar, zipperorbuttons, cuffs andhem, seams, folds, knit/fabricstructure, garment ivorycolour, decorationposition, scale and framing in the squarecanvas. Preserve the small OFF SHFT navy wordmark with RustclockO, exact lettering andscale. Change ONLY the nearwhite backdrop to a consistent warm Bone #ECE5D3 seamless matte studiosurface edge-to-edge matching image2's gentle Bonebackground. Soft short natural contactshadow closebeneath garment, no longshadow, sunlightbeams, horizon line, vignette, props or gradients towhite. Opaquebackground. No whiteborder, brightwhitecorners, halo, or decorativeframe. Do not redesign the product, retype wording, redrawsymbol, invent textures, enlarge logo or crop any part. Maintain exact samegarmentlighting and squarecomposition. This is a subtle uniform brandbackdrop replacement, nothingelse.",
+      "qa": {
+        "reviewed": true,
+        "background": "Warm opaque Bone studio backdrop, edge to edge; no white border, props, horizon or strong sunlight.",
+        "garment": "Full original silhouette and framing retained; ivory colour, construction and decoration visually preserved.",
+        "decoration": "Approved chest decoration remains intact.",
+        "result": "Pass"
+      },
+      "sourceMetadata": {
+        "sha256": "a989ed37a0cf32c44099c88f114e1ba5ab60903c09614c071c79b3966986c8ce",
+        "bytes": 2336350,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "outputMetadata": {
+        "sha256": "40f36abbd10d08f6e57e7d4b0f81fee17dee2bf54829ca45d6094493e70ed3d5",
+        "bytes": 2064676,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "cornerRgb": [
+          [
+            231,
+            221,
+            203
+          ],
+          [
+            233,
+            224,
+            203
+          ],
+          [
+            230,
+            220,
+            203
+          ],
+          [
+            229,
+            221,
+            199
+          ]
+        ]
+      }
+    },
+    {
+      "name": "quarter-zip-clock-ivory",
+      "shopifyProductId": "15478605250882",
+      "handle": "the-clock-quarter-zip",
+      "source": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/storefront-refresh/media/quarter-zip-clock-ivory.png",
+      "originalLocalFilename": "quarter-zip-clock-ivory.png",
+      "originalCdnFilename": "quarter-zip-clock-ivory.png",
+      "sourceCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-clock-ivory.png?v=1793317384",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-06dbf04b-51c6-4043-a05b-9ca8f82d4b3a.png",
+      "output": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/quarter-zip-clock-ivory-uniform.png",
+      "prompt": "Precise BACKGROUND-ONLY product photograph edit. Image1 is the apparel photo to edit. Image2 is a BACKGROUNDCOLOUR/softshadow style reference only; do NOT include its hat. Preserve image1's garment EXACTLY: identical model, full silhouette, cut, collar, zipperorbuttons, cuffs andhem, seams, folds, knit/fabricstructure, garment ivorycolour, decorationposition, scale and framing in the squarecanvas. Preserve the small navy clockring with Rustdot andhands, exactgeometry andscale. Change ONLY the nearwhite backdrop to a consistent warm Bone #ECE5D3 seamless matte studiosurface edge-to-edge matching image2's gentle Bonebackground. Soft short natural contactshadow closebeneath garment, no longshadow, sunlightbeams, horizon line, vignette, props or gradients towhite. Opaquebackground. No whiteborder, brightwhitecorners, halo, or decorativeframe. Do not redesign the product, retype wording, redrawsymbol, invent textures, enlarge logo or crop any part. Maintain exact samegarmentlighting and squarecomposition. This is a subtle uniform brandbackdrop replacement, nothingelse.",
+      "qa": {
+        "reviewed": true,
+        "background": "Warm opaque Bone studio backdrop, edge to edge; no white border, props, horizon or strong sunlight.",
+        "garment": "Full original silhouette and framing retained; ivory colour, construction and decoration visually preserved.",
+        "decoration": "Approved chest decoration remains intact.",
+        "result": "Pass"
+      },
+      "sourceMetadata": {
+        "sha256": "22c7b3205b0227a6d6e755b4982fa087514b0884f209400f3ed8696d90a2a1a5",
+        "bytes": 1991188,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "outputMetadata": {
+        "sha256": "adc6864283a5865317a1509c1cf4f534b823f5caf5245d71e6de3d0ea61ae01c",
+        "bytes": 1907236,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "cornerRgb": [
+          [
+            231,
+            222,
+            202
+          ],
+          [
+            231,
+            221,
+            201
+          ],
+          [
+            230,
+            219,
+            203
+          ],
+          [
+            228,
+            218,
+            198
+          ]
+        ]
+      }
+    },
+    {
+      "name": "quarter-zip-punched-out-ivory",
+      "shopifyProductId": "15478605316418",
+      "handle": "punched-out-quarter-zip",
+      "source": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/storefront-refresh/media/quarter-zip-punched-out-ivory.png",
+      "originalLocalFilename": "quarter-zip-punched-out-ivory.png",
+      "originalCdnFilename": "quarter-zip-punched-out-ivory.png",
+      "sourceCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-punched-out-ivory.png?v=1793317316",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-12656020-1b8c-416f-a0aa-c274f6ec29d2.png",
+      "output": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/quarter-zip-punched-out-ivory-uniform.png",
+      "prompt": "Precise BACKGROUND-ONLY product photograph edit. Image1 is the apparel photo to edit. Image2 is a BACKGROUNDCOLOUR/softshadow style reference only; do NOT include its hat. Preserve image1's garment EXACTLY: identical model, full silhouette, cut, collar, zipperorbuttons, cuffs andhem, seams, folds, knit/fabricstructure, garment ivorycolour, decorationposition, scale and framing in the squarecanvas. Preserve the small two-line navy PUNCHED / OUT. chest wording with Rustperiod, exactlettering andscale. Change ONLY the nearwhite backdrop to a consistent warm Bone #ECE5D3 seamless matte studiosurface edge-to-edge matching image2's gentle Bonebackground. Soft short natural contactshadow closebeneath garment, no longshadow, sunlightbeams, horizon line, vignette, props or gradients towhite. Opaquebackground. No whiteborder, brightwhitecorners, halo, or decorativeframe. Do not redesign the product, retype wording, redrawsymbol, invent textures, enlarge logo or crop any part. Maintain exact samegarmentlighting and squarecomposition. This is a subtle uniform brandbackdrop replacement, nothingelse.",
+      "qa": {
+        "reviewed": true,
+        "background": "Warm opaque Bone studio backdrop, edge to edge; no white border, props, horizon or strong sunlight.",
+        "garment": "Full original silhouette and framing retained; ivory colour, construction and decoration visually preserved.",
+        "decoration": "Approved chest decoration remains intact.",
+        "result": "Pass"
+      },
+      "sourceMetadata": {
+        "sha256": "14fa0434bf0b5b02f2dc234b62eb1760881fc80f4110b973843e62f851fedfd8",
+        "bytes": 2167256,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "outputMetadata": {
+        "sha256": "8b07b28d55f36a43b8cb9280d62c011109f84da20fa11958f17e9d309cc2b601",
+        "bytes": 2016962,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "cornerRgb": [
+          [
+            230,
+            221,
+            202
+          ],
+          [
+            232,
+            223,
+            202
+          ],
+          [
+            231,
+            221,
+            205
+          ],
+          [
+            229,
+            220,
+            199
+          ]
+        ]
+      }
+    },
+    {
+      "name": "golf-shirt-punched-out-ivory",
+      "shopifyProductId": "15478605381954",
+      "handle": "punched-out-golf-shirt",
+      "source": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/storefront-refresh/media/golf-shirt-punched-out-ivory.png",
+      "originalLocalFilename": "golf-shirt-punched-out-ivory.png",
+      "originalCdnFilename": "golf-shirt-punched-out-ivory.png",
+      "sourceCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-shirt-punched-out-ivory.png?v=1793316916",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-6a033f95-4eba-4c13-93c2-df901d2d70e2.png",
+      "output": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/golf-shirt-punched-out-ivory-uniform.png",
+      "prompt": "Precise BACKGROUND-ONLY product photograph edit. Image1 is the apparel photo to edit. Image2 is a BACKGROUNDCOLOUR/softshadow style reference only; do NOT include its hat. Preserve image1's garment EXACTLY: identical model, full silhouette, cut, collar, zipperorbuttons, cuffs andhem, seams, folds, knit/fabricstructure, garment ivorycolour, decorationposition, scale and framing in the squarecanvas. Preserve the small two-line navy PUNCHED / OUT. chestwording with Rustperiod AND the tiny clock on the wearer'sleftsleeve(viewerright), exactscale. Change ONLY the nearwhite backdrop to a consistent warm Bone #ECE5D3 seamless matte studiosurface edge-to-edge matching image2's gentle Bonebackground. Soft short natural contactshadow closebeneath garment, no longshadow, sunlightbeams, horizon line, vignette, props or gradients towhite. Opaquebackground. No whiteborder, brightwhitecorners, halo, or decorativeframe. Do not redesign the product, retype wording, redrawsymbol, invent textures, enlarge logo or crop any part. Maintain exact samegarmentlighting and squarecomposition. This is a subtle uniform brandbackdrop replacement, nothingelse.",
+      "qa": {
+        "reviewed": true,
+        "background": "Warm opaque Bone studio backdrop, edge to edge; no white border, props, horizon or strong sunlight.",
+        "garment": "Full original silhouette and framing retained; ivory colour, construction and decoration visually preserved.",
+        "decoration": "Two-line PUNCHED / OUT. chest wording and clock on wearer’s left sleeve remain visible.",
+        "result": "Pass"
+      },
+      "sourceMetadata": {
+        "sha256": "e0f79c6dcf8ef21be489addd561ac3853a7a3a677e367f19efb216bcd9b77ed7",
+        "bytes": 2729225,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "outputMetadata": {
+        "sha256": "4f8c2b84f2c6bb313e9a90aa4eddc0cfa0760ed69031fdb1bce629ad99ae366b",
+        "bytes": 2317306,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "cornerRgb": [
+          [
+            230,
+            221,
+            202
+          ],
+          [
+            232,
+            223,
+            202
+          ],
+          [
+            231,
+            220,
+            204
+          ],
+          [
+            230,
+            221,
+            200
+          ]
+        ]
+      }
+    },
+    {
+      "name": "hoodie-logo",
+      "source": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hoodie-logo.png",
+      "originalLocalFilename": "hoodie-logo.png",
+      "originalCdnFilename": "hoodie-logo.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-9c9b9709-5c4c-4d75-9dab-7c9ec0013df2.png",
+      "output": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/hoodie-logo-uniform.png",
+      "prompt": "Use case: precise-object-edit. BACKGROUND-ONLY edit of image 1. Image 1 is the hoodie photo to edit. Image 2 is a BACKDROP COLOUR and SHORT CONTACT SHADOW reference ONLY; do not include any hat or other object from it. Preserve the product in image 1 exactly: identical garment model, whole silhouette, original ivory colour, collar/hood construction, neckline, seams, cuffs, ribbing, hem, pocket if present, all fabric texture and natural folds, all existing features and their absence. Preserve the tiny navy \"OFF SHFT\" chest wordmark with its Rust clock-O details, keeping exact lettering, scale and placement. Do not add drawstrings or any construction detail absent from the original. Maintain the original camera perspective, garment position, scale and framing on a square canvas. Change ONLY the background outside the garment to an opaque, seamless, matte warm Bone #ECE5D3 studio surface, matching image 2. Remove all diagonal sunlight beams, dappled or leaf shadows, hard bright light patches and long cast shadows from the BACKDROP; use only a short, soft, natural contact shadow close under the garment. The whole canvas must have an even warm Bone tone at all edges and corners. No horizon, white border, halo, frame, props, gradients to white, or strong vignette. Preserve the garment itself and all wording unchanged; no redraw, crop, retype, redesign or texture invention.",
+      "qa": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "shopifyProductId": "gid://shopify/Product/15476770144578",
+      "handle": "off-shft-logo-hoodie",
+      "sourceCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-logo.png?v=1793246070",
+      "sourceMetadata": {
+        "sha256": "a1b858665426f02dacaeef7b34fde707864a9057244af2dae039838cd7feba81",
+        "bytes": 2472975,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "outputMetadata": {
+        "sha256": "28ae5fa229c530d09d111ce0db969f90f10c57a92ec93b6865492c91ffa200ff",
+        "bytes": 2326573,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "cornerRgb": [
+          [
+            233,
+            223,
+            202
+          ],
+          [
+            234,
+            222,
+            201
+          ],
+          [
+            233,
+            221,
+            203
+          ],
+          [
+            232,
+            221,
+            199
+          ]
+        ]
+      }
+    },
+    {
+      "name": "hoodie-clock",
+      "source": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hoodie-clock.png",
+      "originalLocalFilename": "hoodie-clock.png",
+      "originalCdnFilename": "hoodie-clock.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-674b9fd7-f94c-4014-8456-05966f21d294.png",
+      "output": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/hoodie-clock-uniform.png",
+      "prompt": "Use case: precise-object-edit. BACKGROUND-ONLY edit of image 1. Image 1 is the hoodie photo to edit. Image 2 is a BACKDROP COLOUR and SHORT CONTACT SHADOW reference ONLY; do not include any hat or other object from it. Preserve the product in image 1 exactly: identical garment model, whole silhouette, original ivory colour, collar/hood construction, neckline, seams, cuffs, ribbing, hem, pocket if present, all fabric texture and natural folds, all existing features and their absence. Preserve the small navy clock ring and Rust center and hands on the left chest, with exact geometry, scale and placement. Do not add drawstrings or any construction detail absent from the original. Maintain the original camera perspective, garment position, scale and framing on a square canvas. Change ONLY the background outside the garment to an opaque, seamless, matte warm Bone #ECE5D3 studio surface, matching image 2. Remove all diagonal sunlight beams, dappled or leaf shadows, hard bright light patches and long cast shadows from the BACKDROP; use only a short, soft, natural contact shadow close under the garment. The whole canvas must have an even warm Bone tone at all edges and corners. No horizon, white border, halo, frame, props, gradients to white, or strong vignette. Preserve the garment itself and all wording unchanged; no redraw, crop, retype, redesign or texture invention.",
+      "qa": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "shopifyProductId": "gid://shopify/Product/15476770210114",
+      "handle": "the-clock-hoodie",
+      "sourceCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-clock.png?v=1793246534",
+      "sourceMetadata": {
+        "sha256": "229e74958e89859832cee268d708534cc02d0540daef4354dcc230010c2e53d0",
+        "bytes": 2237008,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "outputMetadata": {
+        "sha256": "9b480be7f10050e741d1193e40693db97aae13f30d9e8622d2b286472687f656",
+        "bytes": 2171548,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "cornerRgb": [
+          [
+            234,
+            223,
+            203
+          ],
+          [
+            233,
+            223,
+            202
+          ],
+          [
+            232,
+            221,
+            203
+          ],
+          [
+            230,
+            221,
+            200
+          ]
+        ]
+      }
+    },
+    {
+      "name": "hoodie-punched-out",
+      "source": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/hoodie-punched-out.png",
+      "originalLocalFilename": "hoodie-punched-out.png",
+      "originalCdnFilename": "hoodie-punched-out.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-0e0e9520-6b60-44fb-826f-b3c5b790b9f8.png",
+      "output": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/hoodie-punched-out-uniform.png",
+      "prompt": "Use case: precise-object-edit. BACKGROUND-ONLY edit of image 1. Image 1 is the hoodie photo to edit. Image 2 is a BACKDROP COLOUR and SHORT CONTACT SHADOW reference ONLY; do not include any hat or other object from it. Preserve the product in image 1 exactly: identical garment model, whole silhouette, original ivory colour, collar/hood construction, neckline, seams, cuffs, ribbing, hem, pocket if present, all fabric texture and natural folds, all existing features and their absence. Preserve the centered single-line Rust text \"PUNCHED OUT.\" with its exact existing lettering, size and placement. Do not add drawstrings or any construction detail absent from the original. Maintain the original camera perspective, garment position, scale and framing on a square canvas. Change ONLY the background outside the garment to an opaque, seamless, matte warm Bone #ECE5D3 studio surface, matching image 2. Remove all diagonal sunlight beams, dappled or leaf shadows, hard bright light patches and long cast shadows from the BACKDROP; use only a short, soft, natural contact shadow close under the garment. The whole canvas must have an even warm Bone tone at all edges and corners. No horizon, white border, halo, frame, props, gradients to white, or strong vignette. Preserve the garment itself and all wording unchanged; no redraw, crop, retype, redesign or texture invention.",
+      "qa": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "shopifyProductId": "gid://shopify/Product/15476770275650",
+      "handle": "punched-out-hoodie",
+      "sourceCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-punched-out.png?v=1793246535",
+      "sourceMetadata": {
+        "sha256": "40129b96784dcb9f4bb1aa053e4a733971b8bfffc366a47d73da8dad2d827dad",
+        "bytes": 2369764,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "outputMetadata": {
+        "sha256": "4c85c494d9ee1e5faec40e0368de0c755f9f13bf9c213fb8d9dd26fc69fda9a3",
+        "bytes": 2374975,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "cornerRgb": [
+          [
+            232,
+            221,
+            202
+          ],
+          [
+            232,
+            221,
+            201
+          ],
+          [
+            230,
+            219,
+            203
+          ],
+          [
+            228,
+            217,
+            196
+          ]
+        ]
+      }
+    },
+    {
+      "name": "crewneck-logo",
+      "source": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/crewneck-logo.png",
+      "originalLocalFilename": "crewneck-logo.png",
+      "originalCdnFilename": "crewneck-logo.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-c6e55a20-a0b9-4654-a622-fea1071faebd.png",
+      "output": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/crewneck-logo-uniform.png",
+      "prompt": "Use case: precise-object-edit. BACKGROUND-ONLY edit of image 1. Image 1 is the crewneck photo to edit. Image 2 is a BACKDROP COLOUR and SHORT CONTACT SHADOW reference ONLY; do not include any hat or other object from it. Preserve the product in image 1 exactly: identical garment model, whole silhouette, original ivory colour, collar/hood construction, neckline, seams, cuffs, ribbing, hem, pocket if present, all fabric texture and natural folds, all existing features and their absence. Preserve the tiny navy \"OFF SHFT\" chest wordmark with its Rust clock-O details, keeping exact lettering, scale and placement. Do not add drawstrings or any construction detail absent from the original. Maintain the original camera perspective, garment position, scale and framing on a square canvas. Change ONLY the background outside the garment to an opaque, seamless, matte warm Bone #ECE5D3 studio surface, matching image 2. Remove all diagonal sunlight beams, dappled or leaf shadows, hard bright light patches and long cast shadows from the BACKDROP; use only a short, soft, natural contact shadow close under the garment. The whole canvas must have an even warm Bone tone at all edges and corners. No horizon, white border, halo, frame, props, gradients to white, or strong vignette. Preserve the garment itself and all wording unchanged; no redraw, crop, retype, redesign or texture invention.",
+      "qa": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "shopifyProductId": "gid://shopify/Product/15476774764866",
+      "handle": "off-shft-logo-crewneck",
+      "sourceCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-logo.png?v=1793246483",
+      "sourceMetadata": {
+        "sha256": "0f1b5496ac5089111745f0b581dae87b7ce07db09bdffaaa710120002de2969c",
+        "bytes": 2506886,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "outputMetadata": {
+        "sha256": "56bc8c1259b1bdf371da57bb1c82082962c2f625d65ca69ac1a3b1e80ac04783",
+        "bytes": 2305059,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "cornerRgb": [
+          [
+            231,
+            222,
+            202
+          ],
+          [
+            232,
+            222,
+            201
+          ],
+          [
+            230,
+            220,
+            203
+          ],
+          [
+            229,
+            220,
+            199
+          ]
+        ]
+      }
+    },
+    {
+      "name": "crewneck-clock",
+      "source": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/crewneck-clock.png",
+      "originalLocalFilename": "crewneck-clock.png",
+      "originalCdnFilename": "crewneck-clock.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-fe43c471-bdb1-47ec-8682-6321f1ef6dd0.png",
+      "output": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/crewneck-clock-uniform.png",
+      "prompt": "Use case: precise-object-edit. BACKGROUND-ONLY edit of image 1. Image 1 is the crewneck photo to edit. Image 2 is a BACKDROP COLOUR and SHORT CONTACT SHADOW reference ONLY; do not include any hat or other object from it. Preserve the product in image 1 exactly: identical garment model, whole silhouette, original ivory colour, collar/hood construction, neckline, seams, cuffs, ribbing, hem, pocket if present, all fabric texture and natural folds, all existing features and their absence. Preserve the small navy clock ring and Rust center and hands on the left chest, with exact geometry, scale and placement. Do not add drawstrings or any construction detail absent from the original. Maintain the original camera perspective, garment position, scale and framing on a square canvas. Change ONLY the background outside the garment to an opaque, seamless, matte warm Bone #ECE5D3 studio surface, matching image 2. Remove all diagonal sunlight beams, dappled or leaf shadows, hard bright light patches and long cast shadows from the BACKDROP; use only a short, soft, natural contact shadow close under the garment. The whole canvas must have an even warm Bone tone at all edges and corners. No horizon, white border, halo, frame, props, gradients to white, or strong vignette. Preserve the garment itself and all wording unchanged; no redraw, crop, retype, redesign or texture invention.",
+      "qa": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "shopifyProductId": "gid://shopify/Product/15476774830402",
+      "handle": "the-clock-crewneck",
+      "sourceCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-clock.png?v=1793246483",
+      "sourceMetadata": {
+        "sha256": "7ac6c5c722944b7c781d547a449c24290fcb3fd70c6cbd3f59db9ac91b731864",
+        "bytes": 2338592,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "outputMetadata": {
+        "sha256": "55caf712269cffbed59ea79751fc59281b1525a29c023bd1d8d2c14c23c16d06",
+        "bytes": 2227432,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "cornerRgb": [
+          [
+            230,
+            220,
+            202
+          ],
+          [
+            231,
+            222,
+            201
+          ],
+          [
+            231,
+            221,
+            204
+          ],
+          [
+            228,
+            219,
+            197
+          ]
+        ]
+      }
+    },
+    {
+      "name": "crewneck-punched-out",
+      "source": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/realistic-products/images/crewneck-punched-out.png",
+      "originalLocalFilename": "crewneck-punched-out.png",
+      "originalCdnFilename": "crewneck-punched-out.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-bf807d5c-87d5-4153-968f-6c10dd5a233f.png",
+      "output": "C:/Users/vicke/OneDrive/Documents/ChatGPT/New project/offshft-brand-kit/store/uniform-previews/media/crewneck-punched-out-uniform.png",
+      "prompt": "Use case: precise-object-edit. BACKGROUND-ONLY edit of image 1. Image 1 is the crewneck photo to edit. Image 2 is a BACKDROP COLOUR and SHORT CONTACT SHADOW reference ONLY; do not include any hat or other object from it. Preserve the product in image 1 exactly: identical garment model, whole silhouette, original ivory colour, collar/hood construction, neckline, seams, cuffs, ribbing, hem, pocket if present, all fabric texture and natural folds, all existing features and their absence. Preserve the centered single-line Rust text \"PUNCHED OUT.\" with its exact existing lettering, size and placement. Do not add drawstrings or any construction detail absent from the original. Maintain the original camera perspective, garment position, scale and framing on a square canvas. Change ONLY the background outside the garment to an opaque, seamless, matte warm Bone #ECE5D3 studio surface, matching image 2. Remove all diagonal sunlight beams, dappled or leaf shadows, hard bright light patches and long cast shadows from the BACKDROP; use only a short, soft, natural contact shadow close under the garment. The whole canvas must have an even warm Bone tone at all edges and corners. No horizon, white border, halo, frame, props, gradients to white, or strong vignette. Preserve the garment itself and all wording unchanged; no redraw, crop, retype, redesign or texture invention.",
+      "qa": {
+        "reviewed": true,
+        "background": "Even opaque warm Bone edge-to-edge; diagonal sunlight and long cast shadows removed; short soft contact shadow.",
+        "garment": "Original full silhouette, construction, ivory colour, pose, scale, framing and chest decoration visually preserved.",
+        "sourceLimitations": "Original garments have a fine squiggle-like surface texture; original hoodie leads lack drawstrings. Background-only editing intentionally retains those source details and does not verify production accuracy.",
+        "result": "Pass for requested background-only change"
+      },
+      "shopifyProductId": "gid://shopify/Product/15476774895938",
+      "handle": "punched-out-crewneck",
+      "sourceCdnUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-punched-out.png?v=1793246535",
+      "sourceMetadata": {
+        "sha256": "8b6122d26e1af1589b195170648163d6f752cb78310d33ba9c0173022cc1bb87",
+        "bytes": 2307112,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "outputMetadata": {
+        "sha256": "2743ae9510d34ea207787813f3809fb991a6ff29f4721db4679e95299bfb122c",
+        "bytes": 2283103,
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "cornerRgb": [
+          [
+            230,
+            222,
+            203
+          ],
+          [
+            230,
+            221,
+            201
+          ],
+          [
+            230,
+            220,
+            203
+          ],
+          [
+            229,
+            220,
+            199
+          ]
+        ]
+      }
+    }
+  ],
+  "updatedAt": "2026-10-30T01:34:09.6676865Z"
+}

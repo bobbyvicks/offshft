@@ -1,0 +1,60 @@
+Attach the 16 already-uploaded Files images below to the four existing draft products, then map their variant images. This is a media-only task. Do not publish or change product status, collections, copy, SEO, prices, options, variant IDs, inventory, fulfilment settings, or any of the other 17 products. Do not create products or upload duplicate files.
+
+First read the four products by exact ID and verify their handles, DRAFT status, Size/Colour options and variant counts below. Read the current catalogue as a before snapshot so unchanged records can be compared after the work. All 76 new variants must retain tracked inventory, zero available quantity at every stocking location and DENY inventory policy. Keep manual fulfilment as the existing placeholder; do not claim or configure Printful sync. If any invariant differs, report the discrepancy before changing it.
+
+Resolve each existing Files image by its exact filename, verify that it is ready, and use its actual returned media/file ID. Do not invent IDs or use a similar filename. If a file is missing or ambiguous, report that filename and do not substitute. Reuse an image already attached to the right product. Attach the four images in the numbered order below; the first image is the featured product image. Set alt text exactly as supplied. For each colour, assign that image to every variant whose selected option Colour equals that value, across all listed sizes. Do not recreate variants.
+
+Time Well Earned. T-Shirt | gid://shopify/Product/15478491971906 | handle time-well-earned-t-shirt
+Expected 24 variants; sizes: S, M, L, XL, 2XL, 3XL. Each image must match 6 variants.
+1. Colour=Blue Spruce; file=off-shft-time-well-earned-blue-spruce.png
+   Alt: AI mockup of Time Well Earned. T-Shirt in Blue Spruce.
+2. Colour=Ivory; file=off-shft-time-well-earned-ivory.png
+   Alt: AI mockup of Time Well Earned. T-Shirt in Ivory.
+3. Colour=Pepper; file=off-shft-time-well-earned-pepper.png
+   Alt: AI mockup of Time Well Earned. T-Shirt in Pepper.
+4. Colour=Blue Jean; file=off-shft-time-well-earned-blue-jean.png
+   Alt: AI mockup of Time Well Earned. T-Shirt in Blue Jean.
+
+The Rest Is Ours. Hoodie | gid://shopify/Product/15478492004674 | handle the-rest-is-ours-hoodie
+Expected 24 variants; sizes: S, M, L, XL, 2XL, 3XL. Each image must match 6 variants.
+1. Colour=Blue Jean; file=off-shft-the-rest-is-ours-blue-jean.png
+   Alt: AI mockup of The Rest Is Ours. Hoodie in Blue Jean, back view.
+2. Colour=Ivory; file=off-shft-the-rest-is-ours-ivory.png
+   Alt: AI mockup of The Rest Is Ours. Hoodie in Ivory, back view.
+3. Colour=Pepper; file=off-shft-the-rest-is-ours-pepper.png
+   Alt: AI mockup of The Rest Is Ours. Hoodie in Pepper, back view.
+4. Colour=Butter; file=off-shft-the-rest-is-ours-butter.png
+   Alt: AI mockup of The Rest Is Ours. Hoodie in Butter, back view.
+
+Ours to Spend. Trucker Hat | gid://shopify/Product/15478492037442 | handle ours-to-spend-trucker-hat
+Expected 4 variants; sizes: One size. Each image must match 1 variant.
+1. Colour=Evergreen; file=off-shft-ours-to-spend-evergreen.png
+   Alt: AI mockup of Ours to Spend. Trucker Hat in Evergreen.
+2. Colour=Navy; file=off-shft-ours-to-spend-navy.png
+   Alt: AI mockup of Ours to Spend. Trucker Hat in Navy.
+3. Colour=Khaki; file=off-shft-ours-to-spend-khaki.png
+   Alt: AI mockup of Ours to Spend. Trucker Hat in Khaki.
+4. Colour=Caramel; file=off-shft-ours-to-spend-caramel.png
+   Alt: AI mockup of Ours to Spend. Trucker Hat in Caramel.
+
+5:00 Crewneck | gid://shopify/Product/15478492070210 | handle five-oclock-crewneck
+Expected 24 variants; sizes: S, M, L, XL, 2XL, 3XL. Each image must match 6 variants.
+1. Colour=Ivory; file=off-shft-five-oclock-ivory.png
+   Alt: AI mockup of 5:00 Crewneck in Ivory.
+2. Colour=Blue Jean; file=off-shft-five-oclock-blue-jean.png
+   Alt: AI mockup of 5:00 Crewneck in Blue Jean.
+3. Colour=Pepper; file=off-shft-five-oclock-pepper.png
+   Alt: AI mockup of 5:00 Crewneck in Pepper.
+4. Colour=Espresso; file=off-shft-five-oclock-espresso.png
+   Alt: AI mockup of 5:00 Crewneck in Espresso.
+
+After saving, re-read the four products and all their variants/media from Shopify. Report 16 correct product-media attachments, in the specified order with exact alt text, and 76 correct Colour-to-image variant assignments (24 / 24 / 4 / 24). Report each file, actual media ID, product ID, colour and assigned-variant count. Missing assignments, duplicate attachments, extra images or wrong order must be reported, not counted as success. Confirm all four remain DRAFT and unpublished, all 76 remain tracked/zero/DENY, and the other 17 products are unchanged.
+
+Then provide a downloadable read-only JSON file named shopify-after-media-export.json containing the complete current catalogue, not only these four products. Use the same nested nodes/pageInfo shape as the previous full-catalogue export, with these additional description, SEO and collection fields. Query actual supported fields and paginate every connection to completion; do not truncate, fabricate missing values or reconstruct records from expected counts.
+
+JSON envelope: readOnly=true, exportedAt (UTC timestamp), source, errors[], products[] (all 21 actual products), and audit with actual counts, incompleteConnections[] and discrepancies[].
+For every product include: id, handle, title, descriptionHtml, seo {title, description}, vendor, productType, tags, status; options [{id, name, position, values}]; resourcePublicationsV2 {nodes [{isPublished, publication {id, name}}], pageInfo}; selectedPublicationChannels derived from the actual publication records; collections {nodes [{id, title, handle}], pageInfo}.
+Include variants {nodes [{id, title, selectedOptions [{name, value}], price, compareAtPrice, sku, inventoryPolicy, inventoryQuantity, image {id, url, altText}, inventoryItem {id, tracked, requiresShipping, inventoryLevels {nodes [{id, location {id, name, fulfillmentService {id, serviceName}}, quantities [{name, quantity}]}], pageInfo}}}], pageInfo}. Include available and on_hand quantities at every inventory location, preserving real nulls such as a manual location with no fulfillmentService.
+Include media in actual product order: media {nodes [{__typename, id, alt, status, image {id, url, altText}}], pageInfo}; image is nullable for non-image media. Preserve actual fields and report unsupported fields or permission gaps in errors instead of silently omitting them. Every final aggregated connection must explicitly report hasNextPage=false; retain cursor information where returned.
+
+Expected audit after this media task, subject to actual verification: 21 products, 329 variants (253 existing + 76 new), 107 product-media attachments (91 existing + 16 new), all original 17 products and their 253 variant IDs / 91 media attachments preserved. Keep actual counts distinct from these expectations. Download the current JSON even if checks fail, with discrepancies recorded. Do not publish during this task.

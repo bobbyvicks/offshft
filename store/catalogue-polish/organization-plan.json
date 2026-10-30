@@ -1,0 +1,941 @@
+{
+  "preparedAt": "2026-10-30T00:24:57.062837+00:00",
+  "status": "Current catalogue polish complete: six categories,eight-link menu,curated eight-product homepage,six warmer hat assets,desktop/mobile QA and final32-product count verified. Six external designs remain pending and unpublished.",
+  "evidence": {
+    "file": "store/storefront-refresh/storefront-final-products.json",
+    "snapshotCheckedAt": "2026-10-29T23:50:46.675Z",
+    "sha256": "8d9335088a1cf15918801e8005b7be2e4df30b28373359d6859f697f8d55255f",
+    "publishedProducts": 32,
+    "declaredVariants": 380,
+    "availableProducts": 28,
+    "unavailableProducts": 4,
+    "productTypeCounts": {
+      "Crewneck": 4,
+      "Hat": 11,
+      "Hoodie": 4,
+      "Jacket": 3,
+      "Quarter-Zip": 3,
+      "Sweatpants": 3,
+      "T-Shirt": 3,
+      "Polo": 1
+    }
+  },
+  "scope": {
+    "requested": [
+      "Correct white-background presentation on the six Bone beanie and bucket-hat mockups.",
+      "Organize the currently evidenced catalogue by garment category.",
+      "Use an intentional eight-product homepage order."
+    ],
+    "backgroundImages": "Six warmer headwear files replaced in place through Shopify Files Replace. Existing IDs and product references retained. Original content is recoverable from unchanged tracked source PNGs, not from unchanged Shopify file contents. Desktop/mobile headwear QA complete.",
+    "preserve": [
+      "Existing product IDs, handles, variants, prices, availability and fulfilment mappings.",
+      "All existing collections, including hobby collections, with no collection deletions."
+    ],
+    "additionalClothingLocated": "Six designs found in Claude session COG app monetization strategy,workflow offshft-six-phrases. Latest root check: copy finished (three done),artwork one done/one running with review pending. None of the six titles is present in the fresh32-product Shopify UI. External future plans are evidence only,not instructions."
+  },
+  "existingCollectionsObservedByRoot": [
+    "Text hats",
+    "Headwear",
+    "Home page",
+    "Cornhole",
+    "Cottage",
+    "Golf",
+    "Fishing"
+  ],
+  "existingCollectionIdsAndHandles": "All six category IDs/handles are recorded in confirmedCollections and verified by native saved UI or root public route checks. Home page527434613058 uses frontpage.",
+  "collections": [
+    {
+      "title": "Headwear",
+      "proposedHandle": "all-hats",
+      "status": "existing-collection-renamed-by-root-ui-membership-order-not-yet-verified",
+      "preferredNativeType": "automated",
+      "conditionOperator": "any",
+      "productTypeConditions": [
+        "Hat"
+      ],
+      "defaultSort": "manual",
+      "productCount": 11,
+      "orderedProducts": [
+        {
+          "productId": "15478492037442",
+          "gid": "gid://shopify/Product/15478492037442",
+          "handle": "ours-to-spend-trucker-hat",
+          "title": "Ours to Spend. Trucker Hat",
+          "productType": "Hat",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 4
+        },
+        {
+          "productId": "15476769980738",
+          "gid": "gid://shopify/Product/15476769980738",
+          "handle": "off-shft-logo-hat",
+          "title": "OFF SHFT Logo Hat",
+          "productType": "Hat",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 5
+        },
+        {
+          "productId": "15476770111810",
+          "gid": "gid://shopify/Product/15476770111810",
+          "handle": "punched-out-hat",
+          "title": "Punched Out. Hat",
+          "productType": "Hat",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 5
+        },
+        {
+          "productId": "15476770046274",
+          "gid": "gid://shopify/Product/15476770046274",
+          "handle": "the-clock-hat",
+          "title": "The Clock Hat",
+          "productType": "Hat",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 5
+        },
+        {
+          "productId": "15478604923202",
+          "gid": "gid://shopify/Product/15478604923202",
+          "handle": "off-shft-logo-beanie",
+          "title": "OFF SHFT Logo Beanie",
+          "productType": "Hat",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 2
+        },
+        {
+          "productId": "15478605054274",
+          "gid": "gid://shopify/Product/15478605054274",
+          "handle": "the-clock-beanie",
+          "title": "The Clock Beanie",
+          "productType": "Hat",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 2
+        },
+        {
+          "productId": "15478605087042",
+          "gid": "gid://shopify/Product/15478605087042",
+          "handle": "punched-out-beanie",
+          "title": "Punched Out. Beanie",
+          "productType": "Hat",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 2
+        },
+        {
+          "productId": "15478605119810",
+          "gid": "gid://shopify/Product/15478605119810",
+          "handle": "off-shft-logo-bucket-hat",
+          "title": "OFF SHFT Logo Bucket Hat",
+          "productType": "Hat",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 2
+        },
+        {
+          "productId": "15478605152578",
+          "gid": "gid://shopify/Product/15478605152578",
+          "handle": "the-clock-bucket-hat",
+          "title": "The Clock Bucket Hat",
+          "productType": "Hat",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 2
+        },
+        {
+          "productId": "15478605185346",
+          "gid": "gid://shopify/Product/15478605185346",
+          "handle": "punched-out-bucket-hat",
+          "title": "Punched Out. Bucket Hat",
+          "productType": "Hat",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 2
+        },
+        {
+          "productId": "15478784098626",
+          "gid": "gid://shopify/Product/15478784098626",
+          "handle": "for-a-reason-hat",
+          "title": "For a Reason. Hat",
+          "productType": "Hat",
+          "availableInSnapshot": false,
+          "declaredVariantCount": 3
+        }
+      ],
+      "implementationNote": "Root confirmed All hats renamed to Headwear, existing all-hats handle retained, Online Store enabled and description saved. Verify membership and manual order before recording organization complete.",
+      "shopifyCollectionId": "527680078146",
+      "handleVerified": true,
+      "onlineStoreEnabled": true,
+      "publicReadbackVerified": true,
+      "savedProductCount": 11
+    },
+    {
+      "title": "Hoodies",
+      "proposedHandle": "hoodies",
+      "status": "saved-confirmed-by-root-ui",
+      "preferredNativeType": "automated",
+      "conditionOperator": "any",
+      "productTypeConditions": [
+        "Hoodie"
+      ],
+      "defaultSort": "manual",
+      "productCount": 4,
+      "orderedProducts": [
+        {
+          "productId": "15476770144578",
+          "gid": "gid://shopify/Product/15476770144578",
+          "handle": "off-shft-logo-hoodie",
+          "title": "OFF SHFT Logo Hoodie",
+          "productType": "Hoodie",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 36
+        },
+        {
+          "productId": "15476770275650",
+          "gid": "gid://shopify/Product/15476770275650",
+          "handle": "punched-out-hoodie",
+          "title": "Punched Out. Hoodie",
+          "productType": "Hoodie",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 36
+        },
+        {
+          "productId": "15476770210114",
+          "gid": "gid://shopify/Product/15476770210114",
+          "handle": "the-clock-hoodie",
+          "title": "The Clock Hoodie",
+          "productType": "Hoodie",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 36
+        },
+        {
+          "productId": "15478492004674",
+          "gid": "gid://shopify/Product/15478492004674",
+          "handle": "the-rest-is-ours-hoodie",
+          "title": "The Rest Is Ours. Hoodie",
+          "productType": "Hoodie",
+          "availableInSnapshot": false,
+          "declaredVariantCount": 24
+        }
+      ],
+      "implementationNote": "New native collection if no current matching collection exists.",
+      "shopifyCollectionId": "527746203970",
+      "handleVerified": true,
+      "savedProductCount": 4,
+      "savedSort": "Most relevant",
+      "onlineStoreEnabled": true,
+      "publicReadbackVerified": true
+    },
+    {
+      "title": "Sweatshirts",
+      "proposedHandle": "sweatshirts",
+      "status": "saved-confirmed-by-ui",
+      "preferredNativeType": "automated",
+      "conditionOperator": "any",
+      "productTypeConditions": [
+        "Crewneck"
+      ],
+      "defaultSort": "manual",
+      "productCount": 4,
+      "orderedProducts": [
+        {
+          "productId": "15476774895938",
+          "gid": "gid://shopify/Product/15476774895938",
+          "handle": "punched-out-crewneck",
+          "title": "Punched Out. Crewneck",
+          "productType": "Crewneck",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 12
+        },
+        {
+          "productId": "15476774764866",
+          "gid": "gid://shopify/Product/15476774764866",
+          "handle": "off-shft-logo-crewneck",
+          "title": "OFF SHFT Logo Crewneck",
+          "productType": "Crewneck",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 12
+        },
+        {
+          "productId": "15476774830402",
+          "gid": "gid://shopify/Product/15476774830402",
+          "handle": "the-clock-crewneck",
+          "title": "The Clock Crewneck",
+          "productType": "Crewneck",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 12
+        },
+        {
+          "productId": "15478492070210",
+          "gid": "gid://shopify/Product/15478492070210",
+          "handle": "five-oclock-crewneck",
+          "title": "5:00 Crewneck",
+          "productType": "Crewneck",
+          "availableInSnapshot": false,
+          "declaredVariantCount": 24
+        }
+      ],
+      "implementationNote": "Customer-facing label Sweatshirts; retain actual Crewneck product types.",
+      "shopifyCollectionId": "527746335042",
+      "handleVerified": true,
+      "savedProductCount": 4,
+      "savedSort": "Most relevant"
+    },
+    {
+      "title": "Sweatpants",
+      "proposedHandle": "sweatpants",
+      "status": "saved-confirmed-by-ui",
+      "preferredNativeType": "automated",
+      "conditionOperator": "any",
+      "productTypeConditions": [
+        "Sweatpants"
+      ],
+      "defaultSort": "manual",
+      "productCount": 3,
+      "orderedProducts": [
+        {
+          "productId": "15476774961474",
+          "gid": "gid://shopify/Product/15476774961474",
+          "handle": "off-shft-logo-sweatpants",
+          "title": "OFF SHFT Logo Sweatpants",
+          "productType": "Sweatpants",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 10
+        },
+        {
+          "productId": "15476775059778",
+          "gid": "gid://shopify/Product/15476775059778",
+          "handle": "punched-out-sweatpants",
+          "title": "Punched Out. Sweatpants",
+          "productType": "Sweatpants",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 10
+        },
+        {
+          "productId": "15476774994242",
+          "gid": "gid://shopify/Product/15476774994242",
+          "handle": "the-clock-sweatpants",
+          "title": "The Clock Sweatpants",
+          "productType": "Sweatpants",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 10
+        }
+      ],
+      "implementationNote": "New native collection if no current matching collection exists.",
+      "shopifyCollectionId": "527746466114",
+      "handleVerified": true,
+      "savedProductCount": 3,
+      "savedSort": "Most relevant"
+    },
+    {
+      "title": "T-Shirts & Polos",
+      "proposedHandle": "t-shirts-polos",
+      "status": "saved-confirmed-by-ui",
+      "preferredNativeType": "automated",
+      "conditionOperator": "any",
+      "productTypeConditions": [
+        "T-Shirt",
+        "Polo"
+      ],
+      "defaultSort": "manual",
+      "productCount": 4,
+      "orderedProducts": [
+        {
+          "productId": "15476778729794",
+          "gid": "gid://shopify/Product/15476778729794",
+          "handle": "the-clock-t-shirt",
+          "title": "The Clock T-Shirt",
+          "productType": "T-Shirt",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 17
+        },
+        {
+          "productId": "15478605381954",
+          "gid": "gid://shopify/Product/15478605381954",
+          "handle": "punched-out-golf-shirt",
+          "title": "Punched Out. Golf Shirt",
+          "productType": "Polo",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 18
+        },
+        {
+          "productId": "15476778631490",
+          "gid": "gid://shopify/Product/15476778631490",
+          "handle": "off-shft-logo-t-shirt",
+          "title": "OFF SHFT Logo T-Shirt",
+          "productType": "T-Shirt",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 17
+        },
+        {
+          "productId": "15478491971906",
+          "gid": "gid://shopify/Product/15478491971906",
+          "handle": "time-well-earned-t-shirt",
+          "title": "Time Well Earned. T-Shirt",
+          "productType": "T-Shirt",
+          "availableInSnapshot": false,
+          "declaredVariantCount": 24
+        }
+      ],
+      "implementationNote": "Includes the one existing golf polo without mislabelling it as a T-shirt. Keep the existing Golf collection as a separate shopping route.",
+      "shopifyCollectionId": "527746531650",
+      "handleVerified": true,
+      "savedProductCount": 4,
+      "savedSort": "Most relevant"
+    },
+    {
+      "title": "Layers",
+      "proposedHandle": "layers",
+      "status": "saved-confirmed-by-ui",
+      "preferredNativeType": "automated",
+      "conditionOperator": "any",
+      "productTypeConditions": [
+        "Quarter-Zip",
+        "Jacket"
+      ],
+      "defaultSort": "manual",
+      "productCount": 6,
+      "orderedProducts": [
+        {
+          "productId": "15478605218114",
+          "gid": "gid://shopify/Product/15478605218114",
+          "handle": "off-shft-logo-quarter-zip",
+          "title": "OFF SHFT Logo Quarter-Zip",
+          "productType": "Quarter-Zip",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 6
+        },
+        {
+          "productId": "15476778926402",
+          "gid": "gid://shopify/Product/15476778926402",
+          "handle": "punched-out-jacket",
+          "title": "Punched Out. Jacket",
+          "productType": "Jacket",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 10
+        },
+        {
+          "productId": "15478605250882",
+          "gid": "gid://shopify/Product/15478605250882",
+          "handle": "the-clock-quarter-zip",
+          "title": "The Clock Quarter-Zip",
+          "productType": "Quarter-Zip",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 6
+        },
+        {
+          "productId": "15476778795330",
+          "gid": "gid://shopify/Product/15476778795330",
+          "handle": "off-shft-logo-jacket",
+          "title": "OFF SHFT Logo Jacket",
+          "productType": "Jacket",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 10
+        },
+        {
+          "productId": "15478605316418",
+          "gid": "gid://shopify/Product/15478605316418",
+          "handle": "punched-out-quarter-zip",
+          "title": "Punched Out. Quarter-Zip",
+          "productType": "Quarter-Zip",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 6
+        },
+        {
+          "productId": "15476778860866",
+          "gid": "gid://shopify/Product/15476778860866",
+          "handle": "the-clock-jacket",
+          "title": "The Clock Jacket",
+          "productType": "Jacket",
+          "availableInSnapshot": true,
+          "declaredVariantCount": 10
+        }
+      ],
+      "implementationNote": "Quarter-zips and lightweight jackets share a useful six-product collection.",
+      "shopifyCollectionId": "527746662722",
+      "handleVerified": true,
+      "savedProductCount": 6,
+      "savedSort": "Most relevant"
+    }
+  ],
+  "navigation": {
+    "finalMainMenuId": "329299198274",
+    "finalMainMenuHandle": "main-menu",
+    "status": "saved-and-mobile-destinations-verified-by-root",
+    "layout": "flat category-first navigation",
+    "orderedItems": [
+      {
+        "position": 1,
+        "label": "Shop",
+        "target": "/collections/all",
+        "depth": 0
+      },
+      {
+        "position": 2,
+        "label": "Headwear",
+        "target": "/collections/all-hats",
+        "depth": 0
+      },
+      {
+        "position": 3,
+        "label": "Hoodies",
+        "target": "/collections/hoodies",
+        "depth": 0
+      },
+      {
+        "position": 4,
+        "label": "Sweatshirts",
+        "target": "/collections/sweatshirts",
+        "depth": 0
+      },
+      {
+        "position": 5,
+        "label": "Sweatpants",
+        "target": "/collections/sweatpants",
+        "depth": 0
+      },
+      {
+        "position": 6,
+        "label": "T-Shirts & Polos",
+        "target": "/collections/t-shirts-polos",
+        "depth": 0
+      },
+      {
+        "position": 7,
+        "label": "Layers",
+        "target": "/collections/layers",
+        "depth": 0
+      },
+      {
+        "position": 8,
+        "label": "About",
+        "target": "/pages/about",
+        "depth": 0
+      }
+    ],
+    "homeLink": "Store logo provides Home; redundant Home menu item removed.",
+    "contactLink": "Existing footer Contact link retained; header Contact removed.",
+    "shopAll": "Shop links to /collections/all; duplicate Shop all item removed.",
+    "nestingRequired": false,
+    "decision": "Direct category links keep the catalogue easy to browse; no dropdown drag operation is required.",
+    "preserve": "Retain existing hobby collections and their URLs.",
+    "labelRules": "Use OFF SHFT and neutral garment labels. No best-seller, trending, scarcity or new-arrival claims without evidence.",
+    "remainingQA": "None for the current task; desktop/mobile destinations and responsive More verified.",
+    "mobileProof": "verification/mobile-category-menu.jpg",
+    "desktopBehavior": "Native More responds to available width. Wider1920 Headwear preview held two overflow items; another expanded desktop view exposed T-Shirts & Polos,Layers,About. Root verified their exact destinations.",
+    "desktopMoreExpandedVerified": true,
+    "desktopMoreVerifiedDestinations": [
+      {
+        "label": "T-Shirts & Polos",
+        "target": "/collections/t-shirts-polos"
+      },
+      {
+        "label": "Layers",
+        "target": "/collections/layers"
+      },
+      {
+        "label": "About",
+        "target": "/pages/about"
+      }
+    ]
+  },
+  "homepage": {
+    "sectionHeading": "Shop OFF SHFT",
+    "collectionToReuse": "Home page",
+    "collectionId": "527434613058",
+    "collectionMode": "manual membership and manual sort",
+    "visibleProductCount": 8,
+    "desktopColumns": 4,
+    "mobileColumns": 2,
+    "order": [
+      {
+        "position": 1,
+        "productId": "15476770144578",
+        "gid": "gid://shopify/Product/15476770144578",
+        "handle": "off-shft-logo-hoodie",
+        "title": "OFF SHFT Logo Hoodie",
+        "productType": "Hoodie",
+        "availableInSnapshot": true,
+        "declaredVariantCount": 36,
+        "rationale": "Lead with the core logo on a recognisable everyday garment."
+      },
+      {
+        "position": 2,
+        "productId": "15478492037442",
+        "gid": "gid://shopify/Product/15478492037442",
+        "handle": "ours-to-spend-trucker-hat",
+        "title": "Ours to Spend. Trucker Hat",
+        "productType": "Hat",
+        "availableInSnapshot": true,
+        "declaredVariantCount": 4,
+        "rationale": "Introduce the earned-free-time phrase on the existing trucker."
+      },
+      {
+        "position": 3,
+        "productId": "15476774895938",
+        "gid": "gid://shopify/Product/15476774895938",
+        "handle": "punched-out-crewneck",
+        "title": "Punched Out. Crewneck",
+        "productType": "Crewneck",
+        "availableInSnapshot": true,
+        "declaredVariantCount": 12,
+        "rationale": "Bring the Punched Out phrase into apparel."
+      },
+      {
+        "position": 4,
+        "productId": "15476778729794",
+        "gid": "gid://shopify/Product/15476778729794",
+        "handle": "the-clock-t-shirt",
+        "title": "The Clock T-Shirt",
+        "productType": "T-Shirt",
+        "availableInSnapshot": true,
+        "declaredVariantCount": 17,
+        "rationale": "Show the standalone clock on a simple tee."
+      },
+      {
+        "position": 5,
+        "productId": "15476774961474",
+        "gid": "gid://shopify/Product/15476774961474",
+        "handle": "off-shft-logo-sweatpants",
+        "title": "OFF SHFT Logo Sweatpants",
+        "productType": "Sweatpants",
+        "availableInSnapshot": true,
+        "declaredVariantCount": 10,
+        "rationale": "Complete the core fleece outfit."
+      },
+      {
+        "position": 6,
+        "productId": "15478605381954",
+        "gid": "gid://shopify/Product/15478605381954",
+        "handle": "punched-out-golf-shirt",
+        "title": "Punched Out. Golf Shirt",
+        "productType": "Polo",
+        "availableInSnapshot": true,
+        "declaredVariantCount": 18,
+        "rationale": "Connect the brand to an actual after-work activity."
+      },
+      {
+        "position": 7,
+        "productId": "15478605218114",
+        "gid": "gid://shopify/Product/15478605218114",
+        "handle": "off-shft-logo-quarter-zip",
+        "title": "OFF SHFT Logo Quarter-Zip",
+        "productType": "Quarter-Zip",
+        "availableInSnapshot": true,
+        "declaredVariantCount": 6,
+        "rationale": "Add a lighter layer with a restrained logo treatment."
+      },
+      {
+        "position": 8,
+        "productId": "15478605054274",
+        "gid": "gid://shopify/Product/15478605054274",
+        "handle": "the-clock-beanie",
+        "title": "The Clock Beanie",
+        "productType": "Hat",
+        "availableInSnapshot": true,
+        "declaredVariantCount": 2,
+        "rationale": "Finish with headwear in a different shape and the clock symbol."
+      }
+    ],
+    "selectionReason": "All eight are available in the saved public snapshot and cover phrase designs, the core logo, the standalone clock and a broad mix of garment shapes. Availability is evidence for curation, not a fulfilment-readiness claim.",
+    "alternatesAfterAvailabilityCheck": [
+      {
+        "productId": "15478784098626",
+        "gid": "gid://shopify/Product/15478784098626",
+        "handle": "for-a-reason-hat",
+        "title": "For a Reason. Hat",
+        "productType": "Hat",
+        "availableInSnapshot": false,
+        "declaredVariantCount": 3,
+        "wouldReplace": "ours-to-spend-trucker-hat",
+        "condition": "Feature after current availability is verified; leave existing stock settings unchanged."
+      },
+      {
+        "productId": "15478492070210",
+        "gid": "gid://shopify/Product/15478492070210",
+        "handle": "five-oclock-crewneck",
+        "title": "5:00 Crewneck",
+        "productType": "Crewneck",
+        "availableInSnapshot": false,
+        "declaredVariantCount": 24,
+        "wouldReplace": "punched-out-crewneck",
+        "condition": "Feature after current availability is verified; leave existing stock settings unchanged."
+      },
+      {
+        "productId": "15478492004674",
+        "gid": "gid://shopify/Product/15478492004674",
+        "handle": "the-rest-is-ours-hoodie",
+        "title": "The Rest Is Ours. Hoodie",
+        "productType": "Hoodie",
+        "availableInSnapshot": false,
+        "declaredVariantCount": 24,
+        "wouldReplace": "off-shft-logo-hoodie",
+        "condition": "Feature after current availability is verified; leave existing stock settings unchanged."
+      },
+      {
+        "productId": "15478491971906",
+        "gid": "gid://shopify/Product/15478491971906",
+        "handle": "time-well-earned-t-shirt",
+        "title": "Time Well Earned. T-Shirt",
+        "productType": "T-Shirt",
+        "availableInSnapshot": false,
+        "declaredVariantCount": 24,
+        "wouldReplace": "the-clock-t-shirt",
+        "condition": "Feature after current availability is verified; leave existing stock settings unchanged."
+      }
+    ],
+    "handle": "frontpage",
+    "deploymentStatus": "collection-membership-and-manual-order-complete-root-ui-confirmed",
+    "handleEvidence": "Root verified local store/apply/ids.json and store/next-round-launch/shopify-after-export.json.",
+    "collectionProductCount": 8,
+    "savedSort": "Manually",
+    "salesChannelCount": 3,
+    "existingChannelsPreserved": true,
+    "onlineStoreEnabled": true,
+    "verificationScreenshot": "verification/homepage-collection-order.jpg",
+    "themeConnectionStatus": "saved-and-preview-verified-by-root",
+    "themeCollectionFrom": "all",
+    "themeCollectionTo": "frontpage",
+    "themeId": "195077472578",
+    "themeRole": "active",
+    "mobileGridVerified": true,
+    "mobileOverflowObserved": false,
+    "mobileProofs": [
+      "verification/homepage-mobile-grid.jpg",
+      "verification/homepage-mobile-featured.jpg"
+    ],
+    "desktopGridVerified": true,
+    "desktopProof": "verification/homepage-desktop-featured.jpg",
+    "desktopCaptureBrowserZoomPercent": 67
+  },
+  "implementationSequence": [
+    "Verify the current Shopify catalogue still matches the32 known records. Keep the six externally pending designs separate until real Shopify records and production files exist.",
+    "Reuse confirmed Headwear527680078146 at /collections/all-hats and inspect Home page IDs/configuration; do not guess other collection links.",
+    "Create missing garment collections using native product-type rules; review memberships and manual order.",
+    "Assign the eight verified products to Home page in the proposed order and connect the existing native product-list section to that collection.",
+    "Replace only the six intended hat mockups after edited outputs are reviewed; preserve their product records and mockup disclosures.",
+    "Verify the saved flat eight-link main menu on desktop/mobile and check its public destinations; nesting is not required."
+  ],
+  "confirmedCollections": [
+    {
+      "resourceType": "collection",
+      "shopifyId": "527680078146",
+      "gid": "gid://shopify/Collection/527680078146",
+      "previousTitle": "All hats",
+      "title": "Headwear",
+      "handle": "all-hats",
+      "urlPath": "/collections/all-hats",
+      "description": "Caps, beanies and bucket hats for your time off. Find your everyday OFF SHFT rotation.",
+      "onlineStoreEnabled": true,
+      "status": "saved-confirmed-by-root-ui",
+      "evidence": "Root confirmed native Shopify UI: rename saved, existing all-hats handle preserved and Online Store enabled.",
+      "recordedAt": "2026-10-30T00:36:15.162651+00:00",
+      "publicReadbackVerified": true,
+      "membershipVerified": true,
+      "expectedProductCountFromCatalogueSnapshot": 11,
+      "productCount": 11,
+      "handleVerified": true,
+      "verification": "Root clicked the mobile Headwear link; actual HEADWEAR heading, description and11 product headings verified. Desktop/mobile screenshots verify six warmer hat assets."
+    },
+    {
+      "title": "Hoodies",
+      "shopifyId": "527746203970",
+      "handle": "hoodies",
+      "productTypes": [
+        "Hoodie"
+      ],
+      "productCount": 4,
+      "evidence": "Root confirmed saved Hoodies collection527746203970 with4 products. Later mobile destination click verified /collections/hoodies, actual HOODIES heading and4 existing product headings, confirming the handle and Online Store publication.",
+      "handleVerified": true,
+      "status": "saved-and-public-route-verified-by-root",
+      "resourceType": "collection",
+      "gid": "gid://shopify/Collection/527746203970",
+      "urlPath": "/collections/hoodies",
+      "onlineStoreEnabled": true,
+      "salesChannels": null,
+      "membershipVerified": true,
+      "publicReadbackVerified": true,
+      "recordedAt": "2026-10-30T00:46:19.092224+00:00",
+      "conditionOperator": "any",
+      "sort": "Most relevant",
+      "channelVerification": "Root clicked the live mobile Hoodies link; actual HOODIES heading and four existing product headings verified, establishing Online Store publication. Other channels not asserted.",
+      "knownPublishedChannels": [
+        "Online Store"
+      ]
+    },
+    {
+      "title": "Sweatshirts",
+      "shopifyId": "527746335042",
+      "handle": "sweatshirts",
+      "productTypes": [
+        "Crewneck"
+      ],
+      "productCount": 4,
+      "evidence": "Root confirmed saved; agent read native saved page heading Created Sweatshirts,4 collection items,Type Crewneck,1 channel and search listing /collections/sweatshirts.",
+      "handleVerified": true,
+      "status": "saved-confirmed-by-ui",
+      "resourceType": "collection",
+      "gid": "gid://shopify/Collection/527746335042",
+      "urlPath": "/collections/sweatshirts",
+      "onlineStoreEnabled": true,
+      "salesChannels": [
+        "Online Store"
+      ],
+      "membershipVerified": true,
+      "publicReadbackVerified": false,
+      "recordedAt": "2026-10-30T00:46:19.092224+00:00",
+      "conditionOperator": "any",
+      "sort": "Most relevant"
+    },
+    {
+      "title": "Sweatpants",
+      "shopifyId": "527746466114",
+      "handle": "sweatpants",
+      "productTypes": [
+        "Sweatpants"
+      ],
+      "productCount": 3,
+      "evidence": "Native saved page heading Created Sweatpants;3 items;Type Sweatpants;1 channel;search listing /collections/sweatpants.",
+      "handleVerified": true,
+      "status": "saved-confirmed-by-ui",
+      "resourceType": "collection",
+      "gid": "gid://shopify/Collection/527746466114",
+      "urlPath": "/collections/sweatpants",
+      "onlineStoreEnabled": true,
+      "salesChannels": [
+        "Online Store"
+      ],
+      "membershipVerified": true,
+      "publicReadbackVerified": false,
+      "recordedAt": "2026-10-30T00:46:19.092224+00:00",
+      "conditionOperator": "any",
+      "sort": "Most relevant"
+    },
+    {
+      "title": "T-Shirts & Polos",
+      "shopifyId": "527746531650",
+      "handle": "t-shirts-polos",
+      "productTypes": [
+        "T-Shirt",
+        "Polo"
+      ],
+      "productCount": 4,
+      "evidence": "Native saved page heading Created T-Shirts & Polos;4 items;Type T-Shirt OR Polo;1 channel;search listing /collections/t-shirts-polos.",
+      "handleVerified": true,
+      "status": "saved-confirmed-by-ui",
+      "resourceType": "collection",
+      "gid": "gid://shopify/Collection/527746531650",
+      "urlPath": "/collections/t-shirts-polos",
+      "onlineStoreEnabled": true,
+      "salesChannels": [
+        "Online Store"
+      ],
+      "membershipVerified": true,
+      "publicReadbackVerified": false,
+      "recordedAt": "2026-10-30T00:46:19.092224+00:00",
+      "conditionOperator": "any",
+      "sort": "Most relevant"
+    },
+    {
+      "title": "Layers",
+      "shopifyId": "527746662722",
+      "handle": "layers",
+      "productTypes": [
+        "Jacket",
+        "Quarter-Zip"
+      ],
+      "productCount": 6,
+      "evidence": "Native saved page heading Created Layers;6 items;Type Jacket OR Quarter-Zip;1 channel;search listing /collections/layers.",
+      "handleVerified": true,
+      "status": "saved-confirmed-by-ui",
+      "resourceType": "collection",
+      "gid": "gid://shopify/Collection/527746662722",
+      "urlPath": "/collections/layers",
+      "onlineStoreEnabled": true,
+      "salesChannels": [
+        "Online Store"
+      ],
+      "membershipVerified": true,
+      "publicReadbackVerified": false,
+      "recordedAt": "2026-10-30T00:46:19.092224+00:00",
+      "conditionOperator": "any",
+      "sort": "Most relevant"
+    },
+    {
+      "resourceType": "collection",
+      "shopifyId": "527434613058",
+      "gid": "gid://shopify/Collection/527434613058",
+      "title": "Home page",
+      "handle": "frontpage",
+      "urlPath": "/collections/frontpage",
+      "productCount": 8,
+      "sort": "Manually",
+      "orderedProducts": [
+        {
+          "position": 1,
+          "productId": "15476770144578",
+          "handle": "off-shft-logo-hoodie",
+          "title": "OFF SHFT Logo Hoodie"
+        },
+        {
+          "position": 2,
+          "productId": "15478492037442",
+          "handle": "ours-to-spend-trucker-hat",
+          "title": "Ours to Spend. Trucker Hat"
+        },
+        {
+          "position": 3,
+          "productId": "15476774895938",
+          "handle": "punched-out-crewneck",
+          "title": "Punched Out. Crewneck"
+        },
+        {
+          "position": 4,
+          "productId": "15476778729794",
+          "handle": "the-clock-t-shirt",
+          "title": "The Clock T-Shirt"
+        },
+        {
+          "position": 5,
+          "productId": "15476774961474",
+          "handle": "off-shft-logo-sweatpants",
+          "title": "OFF SHFT Logo Sweatpants"
+        },
+        {
+          "position": 6,
+          "productId": "15478605381954",
+          "handle": "punched-out-golf-shirt",
+          "title": "Punched Out. Golf Shirt"
+        },
+        {
+          "position": 7,
+          "productId": "15478605218114",
+          "handle": "off-shft-logo-quarter-zip",
+          "title": "OFF SHFT Logo Quarter-Zip"
+        },
+        {
+          "position": 8,
+          "productId": "15478605054274",
+          "handle": "the-clock-beanie",
+          "title": "The Clock Beanie"
+        }
+      ],
+      "onlineStoreEnabled": true,
+      "salesChannelCount": 3,
+      "salesChannelsPreserved": true,
+      "status": "saved-confirmed-by-root-ui",
+      "membershipVerified": true,
+      "orderVerified": true,
+      "publicReadbackVerified": true,
+      "evidence": "Root confirmed native saved readback: exactly eight products in the planned order, Manually sort, no Save/Unsaved controls. Existing three sales channels retained, including Online Store.",
+      "screenshot": "verification/homepage-collection-order.jpg",
+      "recordedAt": "2026-10-30T01:04:56.464061+00:00",
+      "publicReadbackEvidence": "Root native theme preview headings show exactly eight planned products in order; mobile grid visually verified with both rows and warm Clock Beanie."
+    }
+  ],
+  "remainingVerification": [],
+  "finalCatalogueCheck": {
+    "status": "complete-confirmed-by-root-ui",
+    "productCount": 32,
+    "evidence": "Fresh Shopify Products UI Select all32 on page; none of the six new external product titles found.",
+    "externalDesignsPublished": false,
+    "individualVariantAuditRepeated": false,
+    "variantEvidenceLimit": "The existing catalogue snapshot declares380 variants and exposes32 individual variant records. This final UI check verifies product count and absence of six new titles; it does not independently re-audit all380 variant IDs.",
+    "recordedAt": "2026-10-30T01:17:27.257104+00:00"
+  },
+  "browserZoomRestoredPercent": 100
+}

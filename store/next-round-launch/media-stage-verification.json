@@ -1,0 +1,303 @@
+{
+  "stage": "media",
+  "baseline": {
+    "productCount": 17,
+    "variantCount": 253,
+    "uniqueProductIds": 17,
+    "uniqueVariantIds": 253,
+    "publicDomain": "offshft.myshopify.com",
+    "currency": "CAD",
+    "printfulInstalled": false,
+    "incompleteConnections": [],
+    "products": [
+      {
+        "id": "gid://shopify/Product/15476769980738",
+        "title": "OFF SHFT Logo Hat",
+        "handle": "off-shft-logo-hat",
+        "variantCount": 5
+      },
+      {
+        "id": "gid://shopify/Product/15476770046274",
+        "title": "The Clock Hat",
+        "handle": "the-clock-hat",
+        "variantCount": 5
+      },
+      {
+        "id": "gid://shopify/Product/15476770111810",
+        "title": "Punched Out. Hat",
+        "handle": "punched-out-hat",
+        "variantCount": 5
+      },
+      {
+        "id": "gid://shopify/Product/15476770144578",
+        "title": "OFF SHFT Logo Hoodie",
+        "handle": "off-shft-logo-hoodie",
+        "variantCount": 36
+      },
+      {
+        "id": "gid://shopify/Product/15476770210114",
+        "title": "The Clock Hoodie",
+        "handle": "the-clock-hoodie",
+        "variantCount": 36
+      },
+      {
+        "id": "gid://shopify/Product/15476770275650",
+        "title": "Punched Out. Hoodie",
+        "handle": "punched-out-hoodie",
+        "variantCount": 36
+      },
+      {
+        "id": "gid://shopify/Product/15476774764866",
+        "title": "OFF SHFT Logo Crewneck",
+        "handle": "off-shft-logo-crewneck",
+        "variantCount": 12
+      },
+      {
+        "id": "gid://shopify/Product/15476774830402",
+        "title": "The Clock Crewneck",
+        "handle": "the-clock-crewneck",
+        "variantCount": 12
+      },
+      {
+        "id": "gid://shopify/Product/15476774895938",
+        "title": "Punched Out. Crewneck",
+        "handle": "punched-out-crewneck",
+        "variantCount": 12
+      },
+      {
+        "id": "gid://shopify/Product/15476774961474",
+        "title": "OFF SHFT Logo Sweatpants",
+        "handle": "off-shft-logo-sweatpants",
+        "variantCount": 10
+      },
+      {
+        "id": "gid://shopify/Product/15476774994242",
+        "title": "The Clock Sweatpants",
+        "handle": "the-clock-sweatpants",
+        "variantCount": 10
+      },
+      {
+        "id": "gid://shopify/Product/15476775059778",
+        "title": "Punched Out. Sweatpants",
+        "handle": "punched-out-sweatpants",
+        "variantCount": 10
+      },
+      {
+        "id": "gid://shopify/Product/15476778631490",
+        "title": "OFF SHFT Logo T-Shirt",
+        "handle": "off-shft-logo-t-shirt",
+        "variantCount": 17
+      },
+      {
+        "id": "gid://shopify/Product/15476778729794",
+        "title": "The Clock T-Shirt",
+        "handle": "the-clock-t-shirt",
+        "variantCount": 17
+      },
+      {
+        "id": "gid://shopify/Product/15476778795330",
+        "title": "OFF SHFT Logo Jacket",
+        "handle": "off-shft-logo-jacket",
+        "variantCount": 10
+      },
+      {
+        "id": "gid://shopify/Product/15476778860866",
+        "title": "The Clock Jacket",
+        "handle": "the-clock-jacket",
+        "variantCount": 10
+      },
+      {
+        "id": "gid://shopify/Product/15476778926402",
+        "title": "Punched Out. Jacket",
+        "handle": "punched-out-jacket",
+        "variantCount": 10
+      }
+    ],
+    "passed": true,
+    "errors": []
+  },
+  "errors": [],
+  "originalChanges": [],
+  "newProducts": [
+    {
+      "id": "gid://shopify/Product/15478491971906",
+      "handle": "time-well-earned-t-shirt",
+      "variants": 24,
+      "matchedColourMedia": 4
+    },
+    {
+      "id": "gid://shopify/Product/15478492004674",
+      "handle": "the-rest-is-ours-hoodie",
+      "variants": 24,
+      "matchedColourMedia": 4
+    },
+    {
+      "id": "gid://shopify/Product/15478492037442",
+      "handle": "ours-to-spend-trucker-hat",
+      "variants": 4,
+      "matchedColourMedia": 4
+    },
+    {
+      "id": "gid://shopify/Product/15478492070210",
+      "handle": "five-oclock-crewneck",
+      "variants": 24,
+      "matchedColourMedia": 4
+    }
+  ],
+  "urlEquivalencesUsed": [
+    {
+      "productId": "gid://shopify/Product/15476769980738",
+      "mediaId": "gid://shopify/MediaImage/46664459878722",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-five-panel-logo.png?v=1793244507",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-five-panel-logo.png?v=1793303434",
+      "sha256": "9315bf6ae32851b79d4e5f1aa6d485f202d3ded2d9f0eb0da806a5f8f6b35b39"
+    },
+    {
+      "productId": "gid://shopify/Product/15476769980738",
+      "mediaId": "gid://shopify/MediaImage/46664459944258",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-rope-cap-logo.png?v=1793244507",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-rope-cap-logo.png?v=1793303434",
+      "sha256": "cef4e16cee1e49eba0ef29dc66a9756f33651b36395493555083d7f572579654"
+    },
+    {
+      "productId": "gid://shopify/Product/15476770046274",
+      "mediaId": "gid://shopify/MediaImage/46664460206402",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-five-panel-clock.png?v=1793244507",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-five-panel-clock.png?v=1793303434",
+      "sha256": "64af6c85068fca3365d7d29cd649a9fc35e20dd36289524e9aa27fd1f795bb20"
+    },
+    {
+      "productId": "gid://shopify/Product/15476770046274",
+      "mediaId": "gid://shopify/MediaImage/46664460271938",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-rope-cap-clock.png?v=1793244507",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-rope-cap-clock.png?v=1793303434",
+      "sha256": "30011aa97ec24bf5baef98b7423da6295e975eff858ffe9fbfbab101790b6b87"
+    },
+    {
+      "productId": "gid://shopify/Product/15476770111810",
+      "mediaId": "gid://shopify/MediaImage/46664460304706",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-trucker-6606-punched-out.png?v=1793244508",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-trucker-6606-punched-out.png?v=1793303434",
+      "sha256": "a1880cd1f7ac81d2d55cad986604f82e748f85c6fd5694ffcebfd556c942aab9"
+    },
+    {
+      "productId": "gid://shopify/Product/15476770111810",
+      "mediaId": "gid://shopify/MediaImage/46664460337474",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-five-panel-punched-out.png?v=1793244508",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-five-panel-punched-out.png?v=1793303435",
+      "sha256": "ed6dfab62dbf8ce6d5ed8ce64e5275e4aa57693386e4e50ee5aff5d6ee1f06ca"
+    },
+    {
+      "productId": "gid://shopify/Product/15476770111810",
+      "mediaId": "gid://shopify/MediaImage/46664460370242",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-dad-hat-punched-out.png?v=1793244508",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-dad-hat-punched-out.png?v=1793303434",
+      "sha256": "b8371a1ff203d8a6a04423c5783c8fab10c582ef54a050f82a2808701b899fb9"
+    },
+    {
+      "productId": "gid://shopify/Product/15476770111810",
+      "mediaId": "gid://shopify/MediaImage/46664460403010",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-rope-cap-punched-out.png?v=1793244508",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-rope-cap-punched-out.png?v=1793303434",
+      "sha256": "640df100081a88e0c49eee3c3b9a71c4419452180d7a71a4e0609db0fbdf3f91"
+    },
+    {
+      "productId": "gid://shopify/Product/15476770275650",
+      "mediaId": "gid://shopify/MediaImage/46664460927298",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-hoodie-5161-punched-out.png?v=1793244511",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-hoodie-5161-punched-out.png?v=1793303434",
+      "sha256": "838fb2a4ef1d1788c6b4631d8440698dde3f1621a2c283463f9cb152172da55a"
+    },
+    {
+      "productId": "gid://shopify/Product/15476770275650",
+      "mediaId": "gid://shopify/MediaImage/46664460960066",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-hoodie-1567-punched-out.png?v=1793244511",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-hoodie-1567-punched-out.png?v=1793303435",
+      "sha256": "9a66cbc20a3871fcf247baf4eaf06a574c7b6fc6d9b55c70473d4606ea10cdf0"
+    },
+    {
+      "productId": "gid://shopify/Product/15476774895938",
+      "mediaId": "gid://shopify/MediaImage/46664498446658",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-crew-1466-punched-out.png?v=1793244637",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-crew-1466-punched-out.png?v=1793303434",
+      "sha256": "7074995cc456c0e40cf6f9f5dfff234aab718e3a479561da34510b76f7e27f83"
+    },
+    {
+      "productId": "gid://shopify/Product/15476774961474",
+      "mediaId": "gid://shopify/MediaImage/46664498512194",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-pants-1469-logo.png?v=1793244638",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-pants-1469-logo.png?v=1793303434",
+      "sha256": "74a723ed57d44fc70e79a95d9a33e1ae810a383575e82361775b7b6a1185f7a5"
+    },
+    {
+      "productId": "gid://shopify/Product/15476774994242",
+      "mediaId": "gid://shopify/MediaImage/46664498643266",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-pants-1469-clock.png?v=1793244638",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-pants-1469-clock.png?v=1793303434",
+      "sha256": "ed61b8b86d145ad11716c27deb13912a7f887ab0c215715dfa5df2fb43cd61ef"
+    },
+    {
+      "productId": "gid://shopify/Product/15476775059778",
+      "mediaId": "gid://shopify/MediaImage/46664499364162",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-pants-1469-punched-out.png?v=1793244639",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-pants-1469-punched-out.png?v=1793303434",
+      "sha256": "a0ce83cecd16e62cce8418f2f559b3f3dee61afedbde47c77091323321bd3684"
+    },
+    {
+      "productId": "gid://shopify/Product/15476778631490",
+      "mediaId": "gid://shopify/MediaImage/46664541765954",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-tee-1717-logo.png?v=1793244734",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-tee-1717-logo.png?v=1793303434",
+      "sha256": "6a4bf8b3732e371221385835c21276cb1ffe88695d19813d4cdabcfb9f727a70"
+    },
+    {
+      "productId": "gid://shopify/Product/15476778631490",
+      "mediaId": "gid://shopify/MediaImage/46664541798722",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-tee-6030-logo.png?v=1793244734",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-tee-6030-logo.png?v=1793303434",
+      "sha256": "fc3e01138aa39ca66ffd525980af6d0c15c5fc736ac34342663b8f07fc34ebbe"
+    },
+    {
+      "productId": "gid://shopify/Product/15476778729794",
+      "mediaId": "gid://shopify/MediaImage/46664542159170",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-tee-1717-clock.png?v=1793244735",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-tee-1717-clock.png?v=1793303434",
+      "sha256": "785000bf99842290e47547b1bffc2d98e0660850f6a551b950289daf3451c2fd"
+    },
+    {
+      "productId": "gid://shopify/Product/15476778729794",
+      "mediaId": "gid://shopify/MediaImage/46664542191938",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-tee-6030-clock.png?v=1793244735",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-tee-6030-clock.png?v=1793303434",
+      "sha256": "7ed91f790f4b85bc832c4962c0e7418546442db886d88f98ff46c0aa2de985a6"
+    },
+    {
+      "productId": "gid://shopify/Product/15476778926402",
+      "mediaId": "gid://shopify/MediaImage/46664544256322",
+      "beforeUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-jacket-co200-punched-out.png?v=1793244737",
+      "afterUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-jacket-co200-punched-out.png?v=1793303435",
+      "sha256": "0f3e7467ce6580664ae4946d26c794206d510fe84d94a90f7758ee5b96c19fdc"
+    }
+  ],
+  "normalizationNotes": [
+    "Collection membership compares IDs and titles, the fields present in the before export; newly exported handles are not historical changes."
+  ],
+  "afterProductCount": 21,
+  "afterVariantCount": 329,
+  "newVariantCount": 76,
+  "exportReportedState": "Actual current catalogue verified; submitted batch still PROCESSING with four PENDING reorder jobs",
+  "exportReportedErrors": [
+    {
+      "code": "BATCH_PROCESSING",
+      "message": "All four changes remain PENDING for reorder-job completion. Actual media matches requested result."
+    },
+    {
+      "code": "VARIANT_IMAGE_ID_KIND",
+      "message": "Variant image IDs are MediaImage IDs. ImageSource IDs are included in product media image records."
+    }
+  ],
+  "urlEvidenceLimitation": "Exact URL endpoints served equal bytes when fetched. No historical image-byte snapshot was captured with the before export.",
+  "passed": true,
+  "beforeSha256": "59f5ef9f4efa431c93dec31a8f8be78b69213220470135abecd06523d50e8853",
+  "afterSha256": "25a48e91ca8f481509e16a45fc42d71199b258357bc794eb740eba2ce4dbc070"
+}

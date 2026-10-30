@@ -1,0 +1,1901 @@
+{
+  "version": 1,
+  "preparedAt": "2026-10-29T11:50:19.361293+00:00",
+  "status": "Listing copy and variant/price proposal for four owner-approved designs and sixteen colourways; no Shopify mutation performed by this preparation.",
+  "authorization": "Owner approved the four concepts and sixteen colourways and requested that they be added to the site. Earlier source notes retain their historical draft wording.",
+  "currency": "CAD",
+  "currencyEvidence": "Existing CAD pricing convention in PRODUCTS.md and store/realistic-products/colour-expansion/build-shopify-prompts.py. Saved Shopify export price fields are decimal amounts without an explicit currency field.",
+  "summary": {
+    "productCount": 4,
+    "colourwayCount": 16,
+    "variantCount": 76,
+    "optionNames": [
+      "Size",
+      "Colour"
+    ],
+    "styleOption": false
+  },
+  "sources": [
+    {
+      "path": "store/realistic-products/colour-expansion/verification/shopify-final-export.json",
+      "sha256": "a726751ed1b355ccb6c27e3b9655bfeaf1bf379f79b3e17e3f55e737e4f342d7"
+    },
+    {
+      "path": "store/realistic-products/colour-expansion/verification/supplier-size-colour-availability.json",
+      "sha256": "965f008bbadf534758c66e88f955ed938cae54feb9aa65c82f2ac989d19d75bb"
+    },
+    {
+      "path": "designs/next-round-colourways/colourways.json",
+      "sha256": "2e910c2176aaa172f15f38e6c140a2aa1701ac38a8f51287478606b3d04b13b6"
+    },
+    {
+      "path": "designs/next-round-colourways/research.md",
+      "sha256": "091bd1816ad89690ed21564d8ee4e650db49e31aaad57fdfadab972b49026eed"
+    },
+    {
+      "path": "store/realistic-products/colour-expansion/collection-colour-research.md",
+      "sha256": "ba69707ca8f53fe1ef2dd5407e11e908e6533da2388f2958a77a32f14b3f7458"
+    },
+    {
+      "path": "store/realistic-products/colour-expansion/hoodie-research.md",
+      "sha256": "dc21ab2dd88217521423fc9a6937ba8771f58149ad8fabfbe42ac57287e036c5"
+    },
+    {
+      "path": "store/products/drop1.json",
+      "sha256": "754481b77432bbe29b670dceee9fc57cd9dae10b43d2a3bce92770f0890ccd0f"
+    }
+  ],
+  "sourceExportedAt": "2026-10-29T05:21:45.307Z",
+  "internalHandoff": [
+    "Use only Size and Colour options; each product uses one selected blank. The single hat Size value is One size.",
+    "76 proposed combinations match the saved public supplier availability rows; those rows are not a live stock reservation or an account/destination-specific fulfilment confirmation.",
+    "Do not infer Printful sync from Shopify product creation. No SKU, inventory quantity, tracking, location, fulfilment service or supplier sync ID is assigned by this plan.",
+    "Matching existing retail prices is not a verified production-cost or margin calculation. The hoodie has both back print and front embroidery, unlike the single-decoration price references; supplier setup and combined cost remain separate checks.",
+    "Customer copy describes intended approved decoration. Confirm the final application setup before using it to represent the sold product; no substitution of print for embroidery is authorized by this plan.",
+    "No delivery, made-to-order, physical-sample approval, certification, material-origin or legal-clearance claims are included. Existing phrase research remains preliminary.",
+    "Omit unverified washing instructions. The 6606 material percentage is omitted because earlier repository research records a blend transition.",
+    "Selected hoodie photos show the back only; the separate canonical front logo remains specified, 62.64 mm wide on the left chest. Pepper uses Bone/Sun; Blue Jean, Ivory and Butter use Ink/Rust.",
+    "Caramel cap and Espresso crewneck use Bone for every artwork element, including punctuation. Artwork and garment shades follow the approved colourways manifest.",
+    "Media are approved AI concept mockups; exact geometry and dimensions come from SVG/measurements. Do not present them as photographs of manufactured samples."
+  ],
+  "products": [
+    {
+      "conceptId": "11-time-well-earned",
+      "title": "Time Well Earned. T-Shirt",
+      "handle": "time-well-earned-t-shirt",
+      "vendor": "OFF SHFT",
+      "productType": "T-Shirt",
+      "tags": [
+        "off-shft",
+        "11-time-well-earned",
+        "t-shirt"
+      ],
+      "headline": "For the hours you earned.",
+      "descriptionHtml": "<p>You put in the hours. This time is yours.</p><p>TIME WELL EARNED. in three embroidered lines on a relaxed, heavyweight cotton tee.</p><ul><li>Comfort Colors 1717: relaxed fit, short sleeves and no pocket</li><li>Garment-dyed 100% ring-spun cotton, 6.1 oz/yd² (206.8 g/m²)</li><li>Centre-chest embroidery, approximately 95 mm wide</li></ul>",
+      "descriptionParagraphs": [
+        "You put in the hours. This time is yours.",
+        "TIME WELL EARNED. in three embroidered lines on a relaxed, heavyweight cotton tee."
+      ],
+      "details": [
+        "Comfort Colors 1717: relaxed fit, short sleeves and no pocket",
+        "Garment-dyed 100% ring-spun cotton, 6.1 oz/yd² (206.8 g/m²)",
+        "Centre-chest embroidery, approximately 95 mm wide"
+      ],
+      "seoTitle": "Time Well Earned. T-Shirt | OFF SHFT",
+      "seoDescription": "TIME WELL EARNED. embroidered on a relaxed heavyweight cotton tee. Four garment-dyed colours, sizes S–3XL. OFF SHFT.",
+      "blank": {
+        "manufacturer": "Comfort Colors",
+        "model": "1717",
+        "supplierProductId": 586,
+        "supplierUrl": "https://www.printful.com/custom/collections/embroidery/unisex-garment-dyed-heavyweight-shirt-comfort-colors-1717"
+      },
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Blue Spruce",
+            "Ivory",
+            "Pepper",
+            "Blue Jean"
+          ]
+        }
+      ],
+      "priceProposal": {
+        "amount": "44.99",
+        "currency": "CAD",
+        "basis": "Match every saved equivalent style variant; no size or colour surcharge.",
+        "equivalentProducts": [
+          {
+            "productId": "gid://shopify/Product/15476778729794",
+            "title": "The Clock T-Shirt",
+            "style": "Heavyweight",
+            "matchingVariantCount": 12,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946096492866",
+            "observedPrice": "44.99"
+          },
+          {
+            "productId": "gid://shopify/Product/15476778631490",
+            "title": "OFF SHFT Logo T-Shirt",
+            "style": "Heavyweight",
+            "matchingVariantCount": 12,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946096099650",
+            "observedPrice": "44.99"
+          }
+        ],
+        "ambiguity": null,
+        "costOrMarginVerified": false
+      },
+      "colourways": [
+        {
+          "id": "blue-spruce",
+          "name": "Blue Spruce",
+          "swatch": "#4C6151",
+          "artworkPalette": "Bone / Sun",
+          "artworkSvg": "designs/11-time-well-earned/design.svg",
+          "image": "designs/11-time-well-earned/mockup-v2.png",
+          "altText": "Time Well Earned. T-Shirt in Blue Spruce"
+        },
+        {
+          "id": "ivory",
+          "name": "Ivory",
+          "swatch": "#FFF4D9",
+          "artworkPalette": "Ink / Rust",
+          "artworkSvg": "designs/11-time-well-earned/design-light.svg",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-ivory.png",
+          "altText": "Time Well Earned. T-Shirt in Ivory"
+        },
+        {
+          "id": "pepper",
+          "name": "Pepper",
+          "swatch": "#514F4C",
+          "artworkPalette": "Bone / Sun",
+          "artworkSvg": "designs/11-time-well-earned/design.svg",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-pepper.png",
+          "altText": "Time Well Earned. T-Shirt in Pepper"
+        },
+        {
+          "id": "blue-jean",
+          "name": "Blue Jean",
+          "swatch": "#707E8D",
+          "artworkPalette": "Bone / Sun",
+          "artworkSvg": "designs/11-time-well-earned/design.svg",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-blue-jean.png",
+          "altText": "Time Well Earned. T-Shirt in Blue Jean"
+        }
+      ],
+      "variants": [
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Blue Spruce"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/11-time-well-earned/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {
+              "T-SHIRT": "notFulfilled"
+            }
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Blue Spruce"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/11-time-well-earned/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {
+              "T-SHIRT": "notFulfilled"
+            }
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Blue Spruce"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/11-time-well-earned/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {
+              "T-SHIRT": "notFulfilled"
+            }
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Blue Spruce"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/11-time-well-earned/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {
+              "T-SHIRT": "notFulfilled"
+            }
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Blue Spruce"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/11-time-well-earned/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {
+              "T-SHIRT": "notFulfilled"
+            }
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Blue Spruce"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/11-time-well-earned/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {
+              "T-SHIRT": "notFulfilled"
+            }
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Ivory"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Ivory"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Ivory"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Ivory"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Ivory"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Ivory"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {
+              "T-SHIRT": "notFulfilled"
+            }
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Pepper"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Pepper"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Pepper"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Pepper"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Pepper"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Pepper"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {
+              "T-SHIRT": "notFulfilled"
+            }
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Blue Jean"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Blue Jean"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Blue Jean"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Blue Jean"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Blue Jean"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Blue Jean"
+          },
+          "price": "44.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/11-time-well-earned-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 586,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        }
+      ],
+      "variantCount": 24,
+      "sourceNotes": "designs/11-time-well-earned/notes.md",
+      "measurements": "designs/11-time-well-earned/measurements.json",
+      "care": {
+        "customerCopy": null,
+        "status": "Specific care instructions for this blank and decoration are not verified in the repository; omitted from customer copy."
+      },
+      "applicationStatus": "Intended decoration from owner-approved concept. Supplier application/fulfilment setup is being checked separately; this file does not confirm it."
+    },
+    {
+      "conceptId": "12-the-rest-is-ours",
+      "title": "The Rest Is Ours. Hoodie",
+      "handle": "the-rest-is-ours-hoodie",
+      "vendor": "OFF SHFT",
+      "productType": "Hoodie",
+      "tags": [
+        "off-shft",
+        "12-the-rest-is-ours",
+        "hoodie"
+      ],
+      "headline": "The shift is done. The rest is ours.",
+      "descriptionHtml": "<p>The shift is done. The rest is ours.</p><p>A relaxed, lightweight cotton hoodie with THE REST IS OURS. printed across the upper back and the OFF SHFT logo embroidered on the left chest.</p><ul><li>Comfort Colors 1467: relaxed fit in garment-dyed lightweight fleece</li><li>100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Jersey-lined hood with natural cream flat drawcords in all four selected colours</li><li>Upper-back print approximately 240 mm wide; front logo approximately 63 mm wide</li></ul>",
+      "descriptionParagraphs": [
+        "The shift is done. The rest is ours.",
+        "A relaxed, lightweight cotton hoodie with THE REST IS OURS. printed across the upper back and the OFF SHFT logo embroidered on the left chest."
+      ],
+      "details": [
+        "Comfort Colors 1467: relaxed fit in garment-dyed lightweight fleece",
+        "100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)",
+        "Jersey-lined hood with natural cream flat drawcords in all four selected colours",
+        "Upper-back print approximately 240 mm wide; front logo approximately 63 mm wide"
+      ],
+      "seoTitle": "The Rest Is Ours. Hoodie | OFF SHFT",
+      "seoDescription": "THE REST IS OURS. back print with an embroidered OFF SHFT chest logo. Relaxed lightweight cotton hoodie in four colours, sizes S–3XL.",
+      "blank": {
+        "manufacturer": "Comfort Colors",
+        "model": "1467",
+        "supplierProductId": 969,
+        "supplierUrl": "https://www.printful.com/custom/mens/hoodies/garment-dyed-hooded-sweatshirt-comfort-colors-1467"
+      },
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Blue Jean",
+            "Ivory",
+            "Pepper",
+            "Butter"
+          ]
+        }
+      ],
+      "priceProposal": {
+        "amount": "89.99",
+        "currency": "CAD",
+        "basis": "Match every saved equivalent style variant; no size or colour surcharge.",
+        "equivalentProducts": [
+          {
+            "productId": "gid://shopify/Product/15476770210114",
+            "title": "The Clock Hoodie",
+            "style": "Lightweight",
+            "matchingVariantCount": 12,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946083418434",
+            "observedPrice": "89.99"
+          },
+          {
+            "productId": "gid://shopify/Product/15476770144578",
+            "title": "OFF SHFT Logo Hoodie",
+            "style": "Lightweight",
+            "matchingVariantCount": 12,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946082828610",
+            "observedPrice": "89.99"
+          },
+          {
+            "productId": "gid://shopify/Product/15476770275650",
+            "title": "Punched Out. Hoodie",
+            "style": "Lightweight",
+            "matchingVariantCount": 12,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946084008258",
+            "observedPrice": "89.99"
+          }
+        ],
+        "ambiguity": null,
+        "costOrMarginVerified": false
+      },
+      "colourways": [
+        {
+          "id": "blue-jean",
+          "name": "Blue Jean",
+          "swatch": "#9AA5B3",
+          "artworkPalette": "Ink / Rust",
+          "artworkSvg": "designs/12-the-rest-is-ours/design-light.svg",
+          "image": "designs/12-the-rest-is-ours/mockup-v2.png",
+          "altText": "The Rest Is Ours. Hoodie in Blue Jean — back view",
+          "frontLogoSvg": "designs/mark/final/the-o/logo-light.svg"
+        },
+        {
+          "id": "ivory",
+          "name": "Ivory",
+          "swatch": "#FEF5DF",
+          "artworkPalette": "Ink / Rust",
+          "artworkSvg": "designs/12-the-rest-is-ours/design-light.svg",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-ivory.png",
+          "altText": "The Rest Is Ours. Hoodie in Ivory — back view",
+          "frontLogoSvg": "designs/mark/final/the-o/logo-light.svg"
+        },
+        {
+          "id": "pepper",
+          "name": "Pepper",
+          "swatch": "#69635A",
+          "artworkPalette": "Bone / Sun",
+          "artworkSvg": "designs/12-the-rest-is-ours/design.svg",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-pepper.png",
+          "altText": "The Rest Is Ours. Hoodie in Pepper — back view",
+          "frontLogoSvg": "designs/mark/final/the-o/logo-dark.svg"
+        },
+        {
+          "id": "butter",
+          "name": "Butter",
+          "swatch": "#FFDC8F",
+          "artworkPalette": "Ink / Rust",
+          "artworkSvg": "designs/12-the-rest-is-ours/design-light.svg",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-butter.png",
+          "altText": "The Rest Is Ours. Hoodie in Butter — back view",
+          "frontLogoSvg": "designs/mark/final/the-o/logo-light.svg"
+        }
+      ],
+      "variants": [
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Blue Jean"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/12-the-rest-is-ours/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Blue Jean"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/12-the-rest-is-ours/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Blue Jean"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/12-the-rest-is-ours/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Blue Jean"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/12-the-rest-is-ours/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Blue Jean"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/12-the-rest-is-ours/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Blue Jean"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/12-the-rest-is-ours/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Ivory"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Ivory"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Ivory"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Ivory"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Ivory"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Ivory"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-ivory.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Pepper"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Pepper"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Pepper"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Pepper"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Pepper"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Pepper"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Butter"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-butter.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Butter"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-butter.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Butter"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-butter.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Butter"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-butter.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Butter"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-butter.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Butter"
+          },
+          "price": "89.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/12-the-rest-is-ours-butter.png",
+          "catalogueSnapshot": {
+            "productId": 969,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        }
+      ],
+      "variantCount": 24,
+      "sourceNotes": "designs/12-the-rest-is-ours/notes.md",
+      "measurements": "designs/12-the-rest-is-ours/measurements.json",
+      "care": {
+        "customerCopy": null,
+        "status": "Specific care instructions for this blank and decoration are not verified in the repository; omitted from customer copy."
+      },
+      "applicationStatus": "Intended decoration from owner-approved concept. Supplier application/fulfilment setup is being checked separately; this file does not confirm it."
+    },
+    {
+      "conceptId": "13-ours-to-spend",
+      "title": "Ours to Spend. Trucker Hat",
+      "handle": "ours-to-spend-trucker-hat",
+      "vendor": "OFF SHFT",
+      "productType": "Hat",
+      "tags": [
+        "off-shft",
+        "13-ours-to-spend",
+        "hat"
+      ],
+      "headline": "Your time. Spend it well.",
+      "descriptionHtml": "<p>Your time. Spend it well.</p><p>OURS TO SPEND. embroidered on a structured trucker with a mesh back and adjustable snap closure.</p><ul><li>Yupoong 6606: structured six-panel crown with a firm front</li><li>Mesh back, pre-curved visor and adjustable plastic snap closure</li><li>Front embroidery, approximately 85 mm wide</li><li>One size, adjustable</li></ul>",
+      "descriptionParagraphs": [
+        "Your time. Spend it well.",
+        "OURS TO SPEND. embroidered on a structured trucker with a mesh back and adjustable snap closure."
+      ],
+      "details": [
+        "Yupoong 6606: structured six-panel crown with a firm front",
+        "Mesh back, pre-curved visor and adjustable plastic snap closure",
+        "Front embroidery, approximately 85 mm wide",
+        "One size, adjustable"
+      ],
+      "seoTitle": "Ours to Spend. Trucker Hat | OFF SHFT",
+      "seoDescription": "OURS TO SPEND. embroidered on a structured Yupoong trucker hat. Mesh back, curved visor and adjustable snap closure. Four colours. OFF SHFT.",
+      "blank": {
+        "manufacturer": "Yupoong",
+        "model": "6606",
+        "supplierProductId": 252,
+        "supplierUrl": "https://www.printful.com/custom/hats/trucker-hats/retro-trucker-cap-yupoong-6606"
+      },
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "One size"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Evergreen",
+            "Navy",
+            "Khaki",
+            "Caramel"
+          ]
+        }
+      ],
+      "priceProposal": {
+        "amount": "34.99",
+        "currency": "CAD",
+        "basis": "Match every saved equivalent style variant; no size or colour surcharge.",
+        "equivalentProducts": [
+          {
+            "productId": "gid://shopify/Product/15476770046274",
+            "title": "The Clock Hat",
+            "style": "Retro Trucker",
+            "matchingVariantCount": 2,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946082173250",
+            "observedPrice": "34.99"
+          },
+          {
+            "productId": "gid://shopify/Product/15476769980738",
+            "title": "OFF SHFT Logo Hat",
+            "style": "Retro Trucker",
+            "matchingVariantCount": 2,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946082042178",
+            "observedPrice": "34.99"
+          },
+          {
+            "productId": "gid://shopify/Product/15476770111810",
+            "title": "Punched Out. Hat",
+            "style": "Retro Trucker",
+            "matchingVariantCount": 2,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946082304322",
+            "observedPrice": "34.99"
+          }
+        ],
+        "ambiguity": null,
+        "costOrMarginVerified": false
+      },
+      "colourways": [
+        {
+          "id": "evergreen",
+          "name": "Evergreen",
+          "swatch": "#385E3D",
+          "artworkPalette": "Bone / Sun",
+          "artworkSvg": "designs/13-ours-to-spend/design.svg",
+          "image": "designs/13-ours-to-spend/mockup-v2.png",
+          "altText": "Ours to Spend. Trucker Hat in Evergreen"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "swatch": "#24303B",
+          "artworkPalette": "Bone / Sun",
+          "artworkSvg": "designs/13-ours-to-spend/design.svg",
+          "image": "designs/next-round-colourways/images/13-ours-to-spend-navy.png",
+          "altText": "Ours to Spend. Trucker Hat in Navy"
+        },
+        {
+          "id": "khaki",
+          "name": "Khaki",
+          "swatch": "#B3A58E",
+          "artworkPalette": "Ink / Rust",
+          "artworkSvg": "designs/13-ours-to-spend/design-light.svg",
+          "image": "designs/next-round-colourways/images/13-ours-to-spend-khaki.png",
+          "altText": "Ours to Spend. Trucker Hat in Khaki"
+        },
+        {
+          "id": "caramel",
+          "name": "Caramel",
+          "swatch": "#97622E",
+          "artworkPalette": "Bone — one colour",
+          "artworkSvg": "designs/next-round-colourways/artwork/13-ours-to-spend-bone.svg",
+          "image": "designs/next-round-colourways/images/13-ours-to-spend-caramel.png",
+          "altText": "Ours to Spend. Trucker Hat in Caramel"
+        }
+      ],
+      "variants": [
+        {
+          "optionValues": {
+            "Size": "One size",
+            "Colour": "Evergreen"
+          },
+          "price": "34.99",
+          "currency": "CAD",
+          "image": "designs/13-ours-to-spend/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 252,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "One size",
+            "Colour": "Navy"
+          },
+          "price": "34.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/13-ours-to-spend-navy.png",
+          "catalogueSnapshot": {
+            "productId": 252,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "One size",
+            "Colour": "Khaki"
+          },
+          "price": "34.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/13-ours-to-spend-khaki.png",
+          "catalogueSnapshot": {
+            "productId": 252,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "One size",
+            "Colour": "Caramel"
+          },
+          "price": "34.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/13-ours-to-spend-caramel.png",
+          "catalogueSnapshot": {
+            "productId": 252,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        }
+      ],
+      "variantCount": 4,
+      "sourceNotes": "designs/13-ours-to-spend/notes.md",
+      "measurements": "designs/13-ours-to-spend/measurements.json",
+      "care": {
+        "customerCopy": null,
+        "status": "Specific care instructions for this blank and decoration are not verified in the repository; omitted from customer copy."
+      },
+      "applicationStatus": "Intended decoration from owner-approved concept. Supplier application/fulfilment setup is being checked separately; this file does not confirm it."
+    },
+    {
+      "conceptId": "14-five-oclock",
+      "title": "5:00 Crewneck",
+      "handle": "five-oclock-crewneck",
+      "vendor": "OFF SHFT",
+      "productType": "Crewneck",
+      "tags": [
+        "off-shft",
+        "14-five-oclock",
+        "crewneck"
+      ],
+      "headline": "Quitting time.",
+      "descriptionHtml": "<p>Quitting time.</p><p>5:00 embroidered across the chest of a relaxed, lightweight cotton crewneck. For the hours that are yours.</p><ul><li>Comfort Colors 1466: relaxed fit in garment-dyed lightweight fleece</li><li>100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Ribbed collar, cuffs and waistband</li><li>Centre-chest embroidery, approximately 115 mm wide</li></ul>",
+      "descriptionParagraphs": [
+        "Quitting time.",
+        "5:00 embroidered across the chest of a relaxed, lightweight cotton crewneck. For the hours that are yours."
+      ],
+      "details": [
+        "Comfort Colors 1466: relaxed fit in garment-dyed lightweight fleece",
+        "100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)",
+        "Ribbed collar, cuffs and waistband",
+        "Centre-chest embroidery, approximately 115 mm wide"
+      ],
+      "seoTitle": "5:00 Crewneck | OFF SHFT",
+      "seoDescription": "5:00 embroidered across a relaxed lightweight cotton crewneck. Garment-dyed fleece in four colours, sizes S–3XL. OFF SHFT.",
+      "blank": {
+        "manufacturer": "Comfort Colors",
+        "model": "1466",
+        "supplierProductId": 971,
+        "supplierUrl": "https://www.printful.com/custom/mens/hoodies-sweatshirts/unisex-garment-dyed-lightweight-fleece-crewneck-sweatshirt-comfort-colors-1466"
+      },
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Ivory",
+            "Blue Jean",
+            "Pepper",
+            "Espresso"
+          ]
+        }
+      ],
+      "priceProposal": {
+        "amount": "79.99",
+        "currency": "CAD",
+        "basis": "Match every saved equivalent style variant; no size or colour surcharge.",
+        "equivalentProducts": [
+          {
+            "productId": "gid://shopify/Product/15476774830402",
+            "title": "The Clock Crewneck",
+            "style": null,
+            "matchingVariantCount": 12,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946090103106",
+            "observedPrice": "79.99"
+          },
+          {
+            "productId": "gid://shopify/Product/15476774764866",
+            "title": "OFF SHFT Logo Crewneck",
+            "style": null,
+            "matchingVariantCount": 12,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946089906498",
+            "observedPrice": "79.99"
+          },
+          {
+            "productId": "gid://shopify/Product/15476774895938",
+            "title": "Punched Out. Crewneck",
+            "style": null,
+            "matchingVariantCount": 12,
+            "exampleVariantId": "gid://shopify/ProductVariant/67946090529090",
+            "observedPrice": "79.99"
+          }
+        ],
+        "ambiguity": null,
+        "costOrMarginVerified": false
+      },
+      "colourways": [
+        {
+          "id": "ivory",
+          "name": "Ivory",
+          "swatch": "#FFF4D9",
+          "artworkPalette": "Ink / Rust",
+          "artworkSvg": "designs/14-five-oclock/design-light.svg",
+          "image": "designs/14-five-oclock/mockup-v2.png",
+          "altText": "5:00 Crewneck in Ivory"
+        },
+        {
+          "id": "blue-jean",
+          "name": "Blue Jean",
+          "swatch": "#9AA5B3",
+          "artworkPalette": "Ink / Rust",
+          "artworkSvg": "designs/14-five-oclock/design-light.svg",
+          "image": "designs/next-round-colourways/images/14-five-oclock-blue-jean.png",
+          "altText": "5:00 Crewneck in Blue Jean"
+        },
+        {
+          "id": "pepper",
+          "name": "Pepper",
+          "swatch": "#69655E",
+          "artworkPalette": "Bone / Sun",
+          "artworkSvg": "designs/14-five-oclock/design.svg",
+          "image": "designs/next-round-colourways/images/14-five-oclock-pepper.png",
+          "altText": "5:00 Crewneck in Pepper"
+        },
+        {
+          "id": "espresso",
+          "name": "Espresso",
+          "swatch": "#966F56",
+          "artworkPalette": "Bone — one colour",
+          "artworkSvg": "designs/next-round-colourways/artwork/14-five-oclock-bone.svg",
+          "image": "designs/next-round-colourways/images/14-five-oclock-espresso.png",
+          "altText": "5:00 Crewneck in Espresso"
+        }
+      ],
+      "variants": [
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Ivory"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/14-five-oclock/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Ivory"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/14-five-oclock/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Ivory"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/14-five-oclock/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Ivory"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/14-five-oclock/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Ivory"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/14-five-oclock/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Ivory"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/14-five-oclock/mockup-v2.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Blue Jean"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Blue Jean"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Blue Jean"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Blue Jean"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Blue Jean"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Blue Jean"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-blue-jean.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Pepper"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Pepper"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Pepper"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Pepper"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Pepper"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Pepper"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-pepper.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "S",
+            "Colour": "Espresso"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-espresso.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "M",
+            "Colour": "Espresso"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-espresso.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "L",
+            "Colour": "Espresso"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-espresso.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "XL",
+            "Colour": "Espresso"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-espresso.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "2XL",
+            "Colour": "Espresso"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-espresso.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        },
+        {
+          "optionValues": {
+            "Size": "3XL",
+            "Colour": "Espresso"
+          },
+          "price": "79.99",
+          "currency": "CAD",
+          "image": "designs/next-round-colourways/images/14-five-oclock-espresso.png",
+          "catalogueSnapshot": {
+            "productId": 971,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "techniqueExclusions": {}
+          }
+        }
+      ],
+      "variantCount": 24,
+      "sourceNotes": "designs/14-five-oclock/notes.md",
+      "measurements": "designs/14-five-oclock/measurements.json",
+      "care": {
+        "customerCopy": null,
+        "status": "Specific care instructions for this blank and decoration are not verified in the repository; omitted from customer copy."
+      },
+      "applicationStatus": "Intended decoration from owner-approved concept. Supplier application/fulfilment setup is being checked separately; this file does not confirm it."
+    }
+  ]
+}

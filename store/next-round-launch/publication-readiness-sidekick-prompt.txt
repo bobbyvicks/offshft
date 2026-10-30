@@ -1,0 +1,16 @@
+READ-ONLY PUBLICATION PREPARATION. Do not change products, collections, publication, inventory, store settings or apps in this step.
+
+The owner wants these four new products visible on Online Store as coming soon, with purchases disabled until supplier setup. First inspect the current saved records and report readiness. Do not publish yet.
+
+- Time Well Earned. T-Shirt: gid://shopify/Product/15478491971906 (time-well-earned-t-shirt); 24 variants; CAD 44.99.
+- The Rest Is Ours. Hoodie: gid://shopify/Product/15478492004674 (the-rest-is-ours-hoodie); 24 variants; CAD 89.99.
+- Ours to Spend. Trucker Hat: gid://shopify/Product/15478492037442 (ours-to-spend-trucker-hat); 4 variants; CAD 34.99.
+- 5:00 Crewneck: gid://shopify/Product/15478492070210 (five-oclock-crewneck); 24 variants; CAD 79.99.
+
+Confirm 16 approved images are attached in order with exact alt text and all 76 variants have the correct colour image; descriptions contain Coming soon. Product images are mockups.; every new variant is tracked with zero available quantity at every stocking location and inventoryPolicy=DENY. Confirm the products are still DRAFT and that the existing 17 products remain unchanged. Report discrepancies rather than correcting them in this read-only step.
+
+Read the actual publication list and identify the Online Store publication by its returned ID. Read all existing collections with pagination, including id, title, handle, manual/automated type, rules when available, current membership of these four products, and storefront visibility. Propose only relevant existing collections for each tee, hoodie, trucker and crewneck. If an existing coming-soon or upcoming collection exists, identify it by exact title and ID and describe whether its current rules include these zero-stock products. Do not invent a collection, create one, change rules, or alter other memberships. Flag collections whose inventory conditions would exclude these products.
+
+Return the proposed exact collection IDs and Online Store publication ID, the readiness counts, and any blockers. Stop after reporting. The operator will separately confirm the collection selection and authorize the final publication action.
+
+For that later action, the intended scope is: set only these four products ACTIVE, publish only to the verified Online Store publication, add only the confirmed relevant existing manual collections (or allow existing automated rules to apply unchanged), retain all media/copy/prices/variants and tracked-zero/DENY inventory, and leave the other 17 products and all other channels unchanged. This paragraph describes the later target, not permission to perform it now. No paid orders, supplier sync, app installation or inventory increase is requested.

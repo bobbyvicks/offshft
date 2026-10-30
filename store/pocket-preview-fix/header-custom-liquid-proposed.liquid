@@ -1,0 +1,104 @@
+<style>html:root{--letter-spacing--heading-loose:.12em;--opacity-muted-text:.7}.hero[id$="__offshft_hero"]{min-height:50vw}.hero[id$="__offshft_hero"] .hero__content-wrapper>.text-block{max-width:min(40vw,28rem)}.hero[id$="__offshft_hero"] h1{font-size:clamp(1.5rem,3.2vw,3rem);line-height:1.15}.hero[id$="__offshft_hero"] .hero__content-wrapper{justify-content:center;align-items:flex-start}@media(max-width:749px){.hero[id$="__offshft_hero"]{min-height:150vw}.hero[id$="__offshft_hero"] .hero__container{padding-block-start:24px;padding-block-end:24px}.hero[id$="__offshft_hero"] .hero__content-wrapper{justify-content:flex-start;gap:14px}.hero[id$="__offshft_hero"] .hero__content-wrapper>.text-block{max-width:100%}.hero[id$="__offshft_hero"] h1{font-size:clamp(1.5rem,7.2vw,2rem);line-height:1.15}.hero[id$="__offshft_hero"] .hero__content-wrapper p{font-size:1rem;line-height:1.35}}</style>
+
+{% if product.id == 15476778631490 or product.id == 15476778729794 %}
+<script type="application/json" id="offshft-pocket-preview-config">
+{"productId":{{ product.id | json }},"options":{{ product.options | json | replace: '<', '\u003c' }},"variants":[{% for variant in product.variants %}{"id":{{ variant.id | json }},"options":{{ variant.options | json | replace: '<', '\u003c' }}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
+</script>
+<script>
+(function () {
+  function resolveStyle(variants, indices, selected, rememberedColour) {
+    const styleRows = variants.filter(v => v.options[indices.style] === selected[indices.style]);
+    if (!styleRows.length) return null;
+    const sameSize = styleRows.filter(v => v.options[indices.size] === selected[indices.size]);
+    const candidates = sameSize.length ? sameSize : styleRows;
+    const chosen = candidates.find(v => v.options[indices.colour] === selected[indices.colour])
+      || candidates.find(v => v.options[indices.colour] === rememberedColour)
+      || candidates[0];
+    return {
+      colour: chosen.options[indices.colour],
+      size: selected[indices.size],
+      variantId: sameSize.length ? String(chosen.id) : '',
+      supportedSize: sameSize.length > 0,
+    };
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { resolveStyle };
+    return;
+  }
+
+  const configElement = document.getElementById('offshft-pocket-preview-config');
+  if (!configElement) return;
+  const config = JSON.parse(configElement.textContent);
+  const allowedProducts = ['15476778631490', '15476778729794'];
+  if (!allowedProducts.includes(String(config.productId))) return;
+  const indices = {
+    style: config.options.indexOf('Style'),
+    size: config.options.indexOf('Size'),
+    colour: config.options.indexOf('Colour'),
+  };
+  if (Object.values(indices).some(index => index < 0)) return;
+  window.offshftPocketPreviewController?.abort();
+  const controller = new AbortController();
+  window.offshftPocketPreviewController = controller;
+  const rememberedColours = new Map();
+
+  function showSizeNote(picker, style, size) {
+    const supported = config.variants.some(v => v.options[indices.style] === style && v.options[indices.size] === size);
+    let note = picker.parentElement.querySelector('[data-offshft-pocket-size-note]');
+    if (!note && !supported) {
+      note = document.createElement('p');
+      note.dataset.offshftPocketSizeNote = '';
+      note.setAttribute('role', 'status');
+      note.setAttribute('aria-live', 'polite');
+      picker.insertAdjacentElement('afterend', note);
+    }
+    if (note) {
+      note.hidden = supported;
+      note.textContent = supported ? '' : `${style} is not offered in ${size}. Your size selection has been kept; choose another size or style to continue.`;
+    }
+  }
+
+  document.addEventListener('change', event => {
+    const target = event.target;
+    if (!(target instanceof HTMLInputElement) || target.type !== 'radio') return;
+    const picker = target.closest('variant-picker[data-template-product-match="true"]');
+    if (!picker || String(picker.dataset.productId) !== String(config.productId)) return;
+    if (picker.closest('product-card, quick-add-dialog, featured-product-information')) return;
+    const changedOption = target.dataset.optionName;
+    if (!['Style', 'Size', 'Colour'].includes(changedOption)) return;
+    const selectedByName = Object.fromEntries(Array.from(picker.querySelectorAll('input[data-option-name]:checked'))
+      .map(input => [input.dataset.optionName, input.value]));
+    const selected = config.options.map(name => selectedByName[name]);
+    if (selected.some(value => value === undefined)) return;
+    const style = selected[indices.style];
+    const colour = selected[indices.colour];
+
+    // Manual colour and size choices stay under the native picker's control.
+    if (changedOption !== 'Style') {
+      if (changedOption === 'Colour') rememberedColours.set(style, colour);
+      showSizeNote(picker, style, selected[indices.size]);
+      return;
+    }
+
+    // Horizon has not handled this event yet: data-current-checked still names
+    // the prior style, although the browser has checked the newly clicked radio.
+    const previousStyle = picker.querySelector('input[data-option-name="Style"][data-current-checked="true"]')?.value;
+    if (previousStyle) rememberedColours.set(previousStyle, colour);
+    const result = resolveStyle(config.variants, indices, selected, rememberedColours.get(style));
+    if (!result || typeof picker.updateSelectedOption !== 'function') return;
+    const colourInput = Array.from(picker.querySelectorAll('input[data-option-name="Colour"]'))
+      .find(input => input.value === result.colour);
+    if (!colourInput) return;
+    if (colourInput.value !== colour) picker.updateSelectedOption(colourInput);
+    rememberedColours.set(style, result.colour);
+    // The native handler reads this separately for the URL. Its existing value
+    // describes the old colour, so synchronize it with the corrected selection.
+    target.dataset.variantId = result.variantId;
+    showSizeNote(picker, style, result.size);
+    // Do not emit a second change or bypass the native fetch, media, cart, stock
+    // and unavailable-combination handling. The original event bubbles once.
+  }, { capture: true, signal: controller.signal });
+})();
+
+</script>
+{% endif %}

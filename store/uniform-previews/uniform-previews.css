@@ -1,0 +1,13 @@
+.card-gallery {
+  --gallery-aspect-ratio: 1 !important;
+  background: #ECE5D3;
+}
+.card-gallery .product-media-container.media-fit {
+  background: #ECE5D3;
+}
+.card-gallery .product-media-container.media-fit img.product-media__image {
+  object-fit: contain;
+  object-position: center;
+  box-sizing: border-box;
+  padding: 4%;
+}

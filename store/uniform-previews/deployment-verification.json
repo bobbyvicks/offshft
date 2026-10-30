@@ -1,0 +1,325 @@
+{
+  "verifiedAt": "2026-10-30T01:59:18.828171+00:00",
+  "scope": "Native Shopify Files replacement completion and local artifact reconciliation; final storefront desktop/mobile QA is owned by root.",
+  "status": "28 of 28 in-place file replacements confirmed",
+  "counts": {
+    "expectedReplacementFiles": 28,
+    "confirmedReplacementFiles": 28,
+    "uniquePreservedFileIds": 28,
+    "replacedLeadPreviews": 26,
+    "additionalGalleryImages": 2,
+    "existingWarmBoneLeadsRetained": 6,
+    "leadProductsCovered": 32
+  },
+  "validation": {
+    "allExpectedFilenamesMatchProgressExactly": true,
+    "allOutputHashesMatchImmutablePreparationPlan": true,
+    "allRecoverySourceHashesStillMatch": true,
+    "noPendingSizeReadbacks": true,
+    "allNativeFileIdsRetainedBeforeAndAfter": true,
+    "noNewFileAssociationsCreated": true,
+    "noFilesOrAssociationsDeleted": true,
+    "productPricesOptionsPublishingAndPrintfulUntouchedByDeploymentAgent": true,
+    "themeUntouchedByDeploymentAgent": true
+  },
+  "evidence": {
+    "progressLog": "store/uniform-previews/deployment-progress.json",
+    "immutablePreparationPlan": "store/uniform-previews/media-deployment-plan.json",
+    "finalNativeFileScreenshot": "store/uniform-previews/verification/final-file-replacement.jpg",
+    "proofSha256": "1f756779faf60c3e76107da06e72e8ded054931a0ed4f32e66efa0135bdf5fa4",
+    "method": "Exact native file row selected by observed filename and file ID; existing record Replace action; exact local path confirmed in native file picker; separate refreshed row verified file ID and changed size and/or explicit success toast. First three For a Reason files were applied by root and independently read back at 2.29/2.11/2.12 MB.",
+    "limitation": "This record confirms file replacement, not a fresh complete catalogue/variant export or fulfilment readiness."
+  },
+  "handoff": {
+    "nativeWindowId": 67790,
+    "ownership": "returned to root",
+    "currentPage": "Shopify Content > Files",
+    "search": "off-shft-ours-to-spend-evergreen",
+    "nativeDialogOpen": false,
+    "finalFileId": "46673927405890",
+    "finalSize": "2.39 MB",
+    "finalReferenceCountObserved": 1
+  },
+  "files": [
+    {
+      "filename": "off-shft-five-oclock-ivory.png",
+      "fileId": "46673927536962",
+      "productHandle": "five-oclock-crewneck",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "1.98 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "for-a-reason-charcoal.png",
+      "fileId": "46675509805378",
+      "productHandle": "for-a-reason-hat",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.12 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "for-a-reason-ivory.png",
+      "fileId": "46675509838146",
+      "productHandle": "for-a-reason-hat",
+      "isLead": false,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.11 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "for-a-reason-evergreen.png",
+      "fileId": "46675509870914",
+      "productHandle": "for-a-reason-hat",
+      "isLead": false,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.29 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "crewneck-logo.png",
+      "fileId": "46665010544962",
+      "productHandle": "off-shft-logo-crewneck",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.31 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "hat-logo.png",
+      "fileId": "46665017295170",
+      "productHandle": "off-shft-logo-hat",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.37 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "hoodie-logo.png",
+      "fileId": "46664910143810",
+      "productHandle": "off-shft-logo-hoodie",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.33 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "jacket-logo.png",
+      "fileId": "46665017000258",
+      "productHandle": "off-shft-logo-jacket",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "1.69 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "quarter-zip-logo-ivory.png",
+      "fileId": "46676148519234",
+      "productHandle": "off-shft-logo-quarter-zip",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.06 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "sweatpants-1469-pepper-logo.png",
+      "fileId": "46665865625922",
+      "productHandle": "off-shft-logo-sweatpants",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "1.64 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "tee-logo.png",
+      "fileId": "46665021292866",
+      "productHandle": "off-shft-logo-t-shirt",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "1.86 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "off-shft-ours-to-spend-evergreen.png",
+      "fileId": "46673927405890",
+      "productHandle": "ours-to-spend-trucker-hat",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.39 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "crewneck-punched-out.png",
+      "fileId": "46665017262402",
+      "productHandle": "punched-out-crewneck",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.28 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "golf-shirt-punched-out-ivory.png",
+      "fileId": "46676114932034",
+      "productHandle": "punched-out-golf-shirt",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.32 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "hat-punched-out.png",
+      "fileId": "46665017327938",
+      "productHandle": "punched-out-hat",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.27 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "hoodie-punched-out.png",
+      "fileId": "46665017229634",
+      "productHandle": "punched-out-hoodie",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.37 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "jacket-punched-out.png",
+      "fileId": "46665017065794",
+      "productHandle": "punched-out-jacket",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "1.73 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "quarter-zip-punched-out-ivory.png",
+      "fileId": "46676141506882",
+      "productHandle": "punched-out-quarter-zip",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.02 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "sweatpants-1469-pepper-punched-out.png",
+      "fileId": "46665864872258",
+      "productHandle": "punched-out-sweatpants",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "1.65 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "crewneck-clock.png",
+      "fileId": "46665010577730",
+      "productHandle": "the-clock-crewneck",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.23 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "hat-clock.png",
+      "fileId": "46665017196866",
+      "productHandle": "the-clock-hat",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.27 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "hoodie-clock.png",
+      "fileId": "46665017164098",
+      "productHandle": "the-clock-hoodie",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.17 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "jacket-clock.png",
+      "fileId": "46665017033026",
+      "productHandle": "the-clock-jacket",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "1.69 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "quarter-zip-clock-ivory.png",
+      "fileId": "46676144914754",
+      "productHandle": "the-clock-quarter-zip",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "1.91 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "sweatpants-1469-pepper-clock.png",
+      "fileId": "46665864937794",
+      "productHandle": "the-clock-sweatpants",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "1.58 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "tee-clock.png",
+      "fileId": "46665021227330",
+      "productHandle": "the-clock-t-shirt",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "1.72 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "off-shft-the-rest-is-ours-blue-jean.png",
+      "fileId": "46673927274818",
+      "productHandle": "the-rest-is-ours-hoodie",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.42 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    },
+    {
+      "filename": "off-shft-time-well-earned-blue-spruce.png",
+      "fileId": "46673927143746",
+      "productHandle": "time-well-earned-t-shirt",
+      "isLead": true,
+      "status": "native replacement confirmed",
+      "displayedSize": "2.3 MB",
+      "outputSha256MatchesPlan": true,
+      "recoverySourceSha256MatchesPlan": true
+    }
+  ]
+}

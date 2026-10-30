@@ -1,0 +1,2 @@
+# Keep raw export bytes stable so the recorded SHA-256 audit hashes reproduce.
+shopify-*-export.json -text

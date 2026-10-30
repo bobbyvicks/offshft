@@ -1,0 +1,13 @@
+# Keep the review package and its audited source files byte-for-byte intact.
+designs/11-time-well-earned/** -text
+designs/12-the-rest-is-ours/** -text
+designs/13-ours-to-spend/** -text
+designs/14-five-oclock/** -text
+designs/next-round/** -text
+designs/next-round/*.pdf binary
+designs/next-round/*.zip binary
+designs/next-round/*.png binary
+designs/next-round-colourways/** -text
+designs/next-round-colourways/**/*.pdf binary
+designs/next-round-colourways/**/*.zip binary
+designs/next-round-colourways/**/*.png binary

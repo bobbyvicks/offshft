@@ -1,0 +1,1455 @@
+{
+  "checkedAt": "2026-10-29T20:29:40.927Z",
+  "method": "Unauthenticated public catalogue POST; no cookies, credentials, storeId, browser profile or authenticated endpoint",
+  "headers": {
+    "Content-Type": "application/json",
+    "X-PF-Language": "en_CA"
+  },
+  "completedAt": "2026-10-29T20:29:41.230Z",
+  "sourcePlan": "store/next-round-launch/listing-plan.json",
+  "sourcePlanSha256": "829de7e6a064b998da389d48bc53d9a2db3459dc030bb808c6c25a90e4966618",
+  "variantCount": 76,
+  "stockSupportedCount": 76,
+  "scope": "Exact76 launch colour/size rows only. Public blank-stock flags do not prove selected-decoration compatibility, destination-specific stock, or Shopify/Printful sync.",
+  "products": [
+    {
+      "conceptId": "11-time-well-earned",
+      "title": "Time Well Earned. T-Shirt",
+      "blank": {
+        "manufacturer": "Comfort Colors",
+        "model": "1717",
+        "supplierProductId": 586,
+        "supplierUrl": "https://www.printful.com/custom/collections/embroidery/unisex-garment-dyed-heavyweight-shirt-comfort-colors-1717"
+      },
+      "httpStatus": 200,
+      "errors": null,
+      "techniques": [
+        {
+          "value": "printingTechniques",
+          "title": "Printing",
+          "values": [
+            {
+              "value": "T-SHIRT",
+              "title": "DTG printing"
+            },
+            {
+              "value": "DTFILM",
+              "title": "DTF printing"
+            }
+          ]
+        },
+        {
+          "value": "EMBROIDERY",
+          "title": "Embroidery",
+          "values": [
+            {
+              "value": "standard",
+              "title": "Standard"
+            },
+            {
+              "value": "plus",
+              "title": "Unlimited color"
+            }
+          ]
+        }
+      ],
+      "variantCount": 24,
+      "stockSupportedCount": 24,
+      "unsupportedOrUnconfirmed": [],
+      "variants": [
+        {
+          "size": "S",
+          "colour": "Blue Spruce",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Spruce",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true,
+            "T-SHIRT": "notFulfilled"
+          },
+          "techniqueSpecificFields": {
+            "T-SHIRT": "notFulfilled"
+          }
+        },
+        {
+          "size": "M",
+          "colour": "Blue Spruce",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Spruce",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true,
+            "T-SHIRT": "notFulfilled"
+          },
+          "techniqueSpecificFields": {
+            "T-SHIRT": "notFulfilled"
+          }
+        },
+        {
+          "size": "L",
+          "colour": "Blue Spruce",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Spruce",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true,
+            "T-SHIRT": "notFulfilled"
+          },
+          "techniqueSpecificFields": {
+            "T-SHIRT": "notFulfilled"
+          }
+        },
+        {
+          "size": "XL",
+          "colour": "Blue Spruce",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Spruce",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true,
+            "T-SHIRT": "notFulfilled"
+          },
+          "techniqueSpecificFields": {
+            "T-SHIRT": "notFulfilled"
+          }
+        },
+        {
+          "size": "2XL",
+          "colour": "Blue Spruce",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Spruce",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true,
+            "T-SHIRT": "notFulfilled"
+          },
+          "techniqueSpecificFields": {
+            "T-SHIRT": "notFulfilled"
+          }
+        },
+        {
+          "size": "3XL",
+          "colour": "Blue Spruce",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Spruce",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true,
+            "T-SHIRT": "notFulfilled"
+          },
+          "techniqueSpecificFields": {
+            "T-SHIRT": "notFulfilled"
+          }
+        },
+        {
+          "size": "S",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true,
+            "T-SHIRT": "notFulfilled"
+          },
+          "techniqueSpecificFields": {
+            "T-SHIRT": "notFulfilled"
+          }
+        },
+        {
+          "size": "S",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true,
+            "T-SHIRT": "notFulfilled"
+          },
+          "techniqueSpecificFields": {
+            "T-SHIRT": "notFulfilled"
+          }
+        },
+        {
+          "size": "S",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        }
+      ]
+    },
+    {
+      "conceptId": "12-the-rest-is-ours",
+      "title": "The Rest Is Ours. Hoodie",
+      "blank": {
+        "manufacturer": "Comfort Colors",
+        "model": "1467",
+        "supplierProductId": 969,
+        "supplierUrl": "https://www.printful.com/custom/mens/hoodies/garment-dyed-hooded-sweatshirt-comfort-colors-1467"
+      },
+      "httpStatus": 200,
+      "errors": null,
+      "techniques": [
+        {
+          "value": "T-SHIRT",
+          "title": "DTG printing",
+          "values": null
+        },
+        {
+          "value": "EMBROIDERY",
+          "title": "Embroidery",
+          "values": [
+            {
+              "value": "standard",
+              "title": "Standard"
+            },
+            {
+              "value": "plus",
+              "title": "Unlimited color"
+            }
+          ]
+        }
+      ],
+      "variantCount": 24,
+      "stockSupportedCount": 24,
+      "unsupportedOrUnconfirmed": [],
+      "variants": [
+        {
+          "size": "S",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "S",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "S",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "S",
+          "colour": "Butter",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Butter",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Butter",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Butter",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Butter",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Butter",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Butter",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Butter",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Butter",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Butter",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Butter",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Butter",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        }
+      ]
+    },
+    {
+      "conceptId": "13-ours-to-spend",
+      "title": "Ours to Spend. Trucker Hat",
+      "blank": {
+        "manufacturer": "Yupoong",
+        "model": "6606",
+        "supplierProductId": 252,
+        "supplierUrl": "https://www.printful.com/custom/hats/trucker-hats/retro-trucker-cap-yupoong-6606"
+      },
+      "httpStatus": 200,
+      "errors": null,
+      "techniques": [
+        {
+          "value": "EMBROIDERY",
+          "title": "Embroidery",
+          "values": [
+            {
+              "value": "standard",
+              "title": "Standard"
+            },
+            {
+              "value": "plus",
+              "title": "Unlimited color"
+            }
+          ]
+        }
+      ],
+      "variantCount": 4,
+      "stockSupportedCount": 4,
+      "unsupportedOrUnconfirmed": [],
+      "variants": [
+        {
+          "size": "One size",
+          "colour": "Evergreen",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Evergreen",
+            "size": "One size",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "One size",
+          "colour": "Navy",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Navy",
+            "size": "One size",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "One size",
+          "colour": "Khaki",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Khaki",
+            "size": "One size",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "One size",
+          "colour": "Caramel",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Caramel",
+            "size": "One size",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true,
+            "isUnlimitedEmbroideryAvailable": true
+          },
+          "techniqueSpecificFields": {}
+        }
+      ]
+    },
+    {
+      "conceptId": "14-five-oclock",
+      "title": "5:00 Crewneck",
+      "blank": {
+        "manufacturer": "Comfort Colors",
+        "model": "1466",
+        "supplierProductId": 971,
+        "supplierUrl": "https://www.printful.com/custom/mens/hoodies-sweatshirts/unisex-garment-dyed-lightweight-fleece-crewneck-sweatshirt-comfort-colors-1466"
+      },
+      "httpStatus": 200,
+      "errors": null,
+      "techniques": [
+        {
+          "value": "EMBROIDERY",
+          "title": "Embroidery",
+          "values": null
+        },
+        {
+          "value": "T-SHIRT",
+          "title": "DTG printing",
+          "values": null
+        }
+      ],
+      "variantCount": 24,
+      "stockSupportedCount": 24,
+      "unsupportedOrUnconfirmed": [],
+      "variants": [
+        {
+          "size": "S",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Ivory",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Ivory",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "S",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Blue Jean",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Blue Jean",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "S",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Pepper",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Pepper",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "S",
+          "colour": "Espresso",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Espresso",
+            "size": "S",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "M",
+          "colour": "Espresso",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Espresso",
+            "size": "M",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "L",
+          "colour": "Espresso",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Espresso",
+            "size": "L",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "XL",
+          "colour": "Espresso",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Espresso",
+            "size": "XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "2XL",
+          "colour": "Espresso",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Espresso",
+            "size": "2XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        },
+        {
+          "size": "3XL",
+          "colour": "Espresso",
+          "matchedRows": 1,
+          "blankStockSupported": true,
+          "failures": [],
+          "catalogueRow": {
+            "color": "Espresso",
+            "size": "3XL",
+            "isDiscontinued": false,
+            "isDisabledInPush": false,
+            "isFulfillable": true,
+            "hasStock": true
+          },
+          "techniqueSpecificFields": {}
+        }
+      ]
+    }
+  ]
+}

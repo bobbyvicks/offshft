@@ -1,0 +1,65 @@
+{
+  "tool": "built-in image_gen__imagegen",
+  "created": "2026-10-29",
+  "output": "store/storefront-refresh/media/offshft-home-hero.png",
+  "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-f4d2940b-ae2b-4b21-a9a2-d8fa8032c712.png",
+  "sha256": "2edc75a39ad1c6b0824438210351e79eb6a80c0af5c1f88ff527366aea879160",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "references": [
+    "store/realistic-products/images/hoodie-logo.png",
+    "store/printful-setup/for-a-reason/media/for-a-reason-charcoal.png",
+    "designs/mark/final/the-o/logo-light-cap7.png"
+  ],
+  "alt": "OFF SHFT ivory hoodie folded beside a Charcoal For a Reason. hat on a warm neutral studio background.",
+  "qa": [
+    "Final desktop inspected: plain fine cotton-knit surface; original pronounced jacquard-like maze texture removed.",
+    "Full folded garment and hat contained in frame.",
+    "Exact OFF SHFT and FOR A REASON. wording inspected.",
+    "Desktop left~53% clear negative space; logos contained in vertical middle60%.",
+    "Mobile top~50% clear negative space, products grouped below.",
+    "Source hoodie has no drawcords; no drawcords invented.",
+    "AI product mockup, not photograph of manufactured products."
+  ],
+  "layoutRecommendation": "Desktop headline in left45%; mobile headline in upper45%. Preserve2:1desktop and2:3mobile aspect ratios where possible.",
+  "history": [
+    {
+      "generated": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-3dd45a2a-74ab-493f-a57e-15f21733defd.png",
+      "prompt": "Use case: product-mockup / photographic homepage hero. Create a polished OFF SHFT e-commerce hero photograph on a wide LANDSCAPE canvas, ideally 2:1 landscape. Inputs: image1 is the exact ivory OFF SHFT hoodie product to preserve, image2 is the exact charcoal FOR A REASON. trucker hat to preserve. Photograph only: no marketing typography, no captions, no frames. Quiet premium studio flatlay on a continuous matte warm Bone/off-white background, around #ECE5D3, soft natural directional window light and gentle tactile shadows. Composition crucial: leftmost52% of entire image is clean empty warm background with only very faint unobtrusive light falloff, suitable for dark headline text added later. ALL products grouped on RIGHTmost45%, with generous safe margin from every edge. Neatly fold the ivory hoodie into a tasteful small stack with hood folded softly behind it and the small chest OFF SHFT logo unobscured; sleeves naturally folded, realistic knit, fine seams, ribbing, folds. Place charcoal cap beside and slightly in front, angled three-quarter toward viewer with full brim and crown visible and raised puff wording readable. Entire folded hoodie and entire cap fully inside canvas; no cropping. Keep both logo areas in vertical middle60% of the canvas. Match input products: hoodie small navy OFF SHFT logo with rust clock O, exactly OFF SHFT without I; charcoal structured trucker cap front with two rows 'FOR A' and 'REASON.' in offwhite heavy raised puff embroidery and gold circular period. Preserve type, shape, mesh and stitching; do not add a manufacturer logo. Photorealistic fabric texture and soft shadows, no plastic3D render. No boxes, packaging, tags, coffee, props, model, hands, hanger, invented extra garments or watermarks. No large graphic added to hoodie. Do not place anything in left half.",
+      "status": "Rejected: invented pronounced hoodie texture"
+    },
+    {
+      "generated": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-573f0d90-4b62-4104-91e2-9f61ed6dbe3a.png",
+      "prompt": "Precise product photo correction. Edit ONLY the ivory hoodie's textile surface. Remove the invented embossed squiggles, jacquard patterns, wavy relief, contour-like stitched pattern visible over every part of the hoodie. Replace with ORDINARY PLAIN SMOOTH COTTON SWEATSHIRT FLEECE EXTERIOR: a soft matte uniformly coloured ivory jersey face, extremely fine nearly invisible regular knit grain, no visible print or raised motifs, no quilting, no jacquard, no embossing, no decorative stitching. The hoodie should look like conventional smooth cotton fleece. Keep real structural seams, natural broad fabric folds and ribbed cuff exactly. Preserve everything else EXACTLY: same1774x887wide landscape2:1 composition, folded garment shape, lighting, warmBonebackdrop, cleanempty left42%, hat shape/colour/fabric/puff lettering, OFF SHFT logo placement and wording. No products moved, enlarged or cropped. Preserve the hat inscription verbatim 'FOR A' over 'REASON.' withgoldperiod. Preserve small OFF SHFT logo on hoodie. No other additions or changes. Photorealism.",
+      "status": "Discarded: residual texture"
+    },
+    {
+      "generated": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-a982d0ca-875c-4eea-89ab-e171149838b3.png",
+      "prompt": "RETOUCH THE HOODIE COMPLETELY TO PLAIN FABRIC. The input still has an unwanted maze-like embossed texture covering the ivory sweatshirt. Remove that whole maze pattern entirely. The hoodie's exterior must be a completely smooth, solid ivory cotton jersey surface, with NO discernible microtexture, pattern, mottling, lace, quilting, ripples, paisley, embroidery pattern, marbling, speckles or squiggles. Only large natural garment folds and the actual structural seams may remain. Imagine a conventional plain cotton crewneck sweatshirt photographed at this distance: smooth cloth, with the knit structure too tiny for this wide shot to resolve. The matching hood inside must also be plain. Keep the ribbed cuff as regular straight vertical ribbing. Do not merely soften or blur the pattern: replace the hoodie's surface with uniformly smooth solid-colour fabric rendered under the same directional light. Preserve the folded garment silhouette, positions, small OFF SHFT chestwordmark, the cap unchanged with exact FOR A / REASON. wording andgoldperiod, background, negative space, shadows, and2:1 frame. This is a replacement of hoodie material only, a clean professional product photography retouch.",
+      "status": "Discarded: residual texture"
+    },
+    {
+      "generated": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-7a848fce-33a5-4a91-be39-7ad9288496d0.png",
+      "prompt": "Photorealistic premium apparel homepage photograph, wide2:1landscape. A single folded ivory hoodie and one charcoal truckerhat grouped on RIGHT45% of image, ENTIRE left50% empty warmBone matte studio backdrop for addedheadline. The hoodie's material is ordinary plain SMOOTH COTTON JERSEY FACE FLEECE, uniformly cream/ivory, no surfacepatterns. Fine straight microscopic knit grain only; at this camera distance the sweatshirt surface looks nearly smooth. Natural broad soft folds and actual seams, a real ribbed cuff; no quilting, embossed lines, maze, jacquard, paisley, rippling surface, irregular decorative texture, mottled noise, marbling, or raisedpatterns. Hoodie folded casually with hood openbehind, one sleevefoldedacross lowerfront, no drawstrings, small chestlogo unobscured. Use image2 ONLY for exact small 'OFF SHFT' logo: Ink navyletters andrustorangeclockO, no extraI, placedactual wearer'sleftchest as modestembroidery. Use image1 for exact cap: darkCharcoal structuredmeshingtrucker, curvedvisor, raisedpuff 'FOR A' firstrow and 'REASON.' secondrow, offwhiteletters andgoldperiod. Place cap infront/rightof foldedhoodie, angledtowardviewer, entiretyofcapandhoodieinsideframe andsubstantialmargins. Hatmustpreservewording, fabric andpuffletterstyle. Keep logos in vertical middle60%. Bonebackgroundcontinuous lightwarmbeige with gentle sunlit shadows, quietsoftnaturalwindowlight. No humanmodel, mannequin, props, package, tag, hanger, extraobjects. No marketingtext/captions/watermarks. Plaincottonhoodie MUST looklike ordinary solid sweatshirtcloth, NOT embossed or3Dpatterned. Authentic photographic rendering.",
+      "status": "Plain fabric regenerated; layout refinement needed"
+    },
+    {
+      "generated": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-f4d2940b-ae2b-4b21-a9a2-d8fa8032c712.png",
+      "prompt": "Layout-only retouch of the provided photograph. Keep1774x887wide2:1 landscape canvas and same warmbackground. Treat the hoodie-and-cap as a single product group, reduce that entire group to80%of its current size, and position it on far right with rightmargin50px andbottommargin60px. The left half(x0through887) must be completely empty warmBonebackground with subtlelightfalloff, no partofgarment or productshadow extendinginto thatleft half. Everything about the products themselves must stayexact: plain fine cotton jersey fleece with NO embossed or wavy pattern, hoodiecutfoldseams andribbing, smallOFFSHFT chestlogo, charcoaltruckerhatwithFOR A / REASON. puffletters andgoldperiod. Preserve realistic lighting andcastsoftshadows. No textorobjects added. Productsentirelyinsideframe.",
+      "status": "Selected desktop final"
+    }
+  ],
+  "mobile": {
+    "output": "store/storefront-refresh/media/offshft-home-hero-mobile.png",
+    "generated": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-e9d9ca83-74f5-4011-8b8e-e8f4a643fffa.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sha256": "6a693850f83e3be769611ff2852621346bc88832159d13b0151b1358127c2783",
+    "prompt": "Recompose this same product photograph as a PORTRAIT2:3 mobile homepagehero, not a crop. Keep exact same ivory folded hoodie andcharcoalFOR A REASON. puffembroideredhat. Layout: top52%of entire portraitcanvas is entirely empty quietwarmBone background, no product, no lettering, no strongshadow, fordarkheadlineoverlayaddedlater. Bottom43%contains bothproducts sidebysideasonecompactgroup: foldedhoodieonleft/back andcharcoalhatonright/front, fullycontained with generousmargin allaround. Entirehood andfullhatbrimvisible, no clippededges. Same softnaturalwindowlighting, gentle groundedshadows and warmneutralbackdrop. Match plain fine smooth cottonjerseyfleecehoodie: NOembossing, jacquard, squiggles, paisley, patternedweave, marbling ordecorativetexture. Keep actualseams andribbedcuff. Small exactInkandRustOFF SHFT chestlogo remainsvisible; hat wordingexactly'FOR A'row1/'REASON.'row2withoffwhiteheavy3Dpuffandgoldperiod. Noextraobjects, props, tags, packaging, people,hangars, captionsorwatermark. This is a consistentmobilecomposition ofexistinghero. Do not filltheemptytopspacewithproducts or text.",
+    "alt": "OFF SHFT ivory hoodie and Charcoal For a Reason. hat, with clear warm neutral space above."
+  }
+}

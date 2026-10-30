@@ -1,0 +1,427 @@
+{
+  "updatedAt": "2026-10-30T01:35:06.026023+00:00",
+  "reason": "Root live QA found the original sunlit apparel, pale jackets and caps still visibly inconsistent after square/contain/padding. User requested all previews uniform.",
+  "scope": {
+    "publishedProducts": 32,
+    "leadImages": 32,
+    "existingGalleryReferences": 86,
+    "remainingLeadEdits": 21,
+    "leadImagesAlreadyCoveredByPriorBatches": 11,
+    "detailGalleryRetained": true,
+    "secondImageHover": "Root will disable so cards consistently use normalized lead image.",
+    "plannedApplication": "Replace existing Shopify file content in place, retaining image filenames, IDs, product associations and alt text.",
+    "deploymentStatus": "pending root verification"
+  },
+  "groups": [
+    {
+      "group": "root_phrase_and_ours",
+      "count": 4,
+      "status": "assigned by root; generation and deployment not verified by this audit",
+      "items": [
+        {
+          "productId": "gid://shopify/Product/15478492070210",
+          "handle": "five-oclock-crewneck",
+          "title": "5:00 Crewneck",
+          "shopifyFilename": "off-shft-five-oclock-ivory.png",
+          "source": "store/next-round-launch/upload-media/off-shft-five-oclock-ivory.png",
+          "sourceDimensions": [
+            1312,
+            1199
+          ],
+          "sourceFamily": "phrase_apparel",
+          "targetOutput": "store/uniform-previews/media/off-shft-five-oclock-ivory-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15478492004674",
+          "handle": "the-rest-is-ours-hoodie",
+          "title": "The Rest Is Ours. Hoodie",
+          "shopifyFilename": "off-shft-the-rest-is-ours-blue-jean.png",
+          "source": "store/next-round-launch/upload-media/off-shft-the-rest-is-ours-blue-jean.png",
+          "sourceDimensions": [
+            1312,
+            1199
+          ],
+          "sourceFamily": "phrase_apparel",
+          "targetOutput": "store/uniform-previews/media/off-shft-the-rest-is-ours-blue-jean-uniform.png",
+          "viewConstraint": "Preserve back view and exact back design"
+        },
+        {
+          "productId": "gid://shopify/Product/15478491971906",
+          "handle": "time-well-earned-t-shirt",
+          "title": "Time Well Earned. T-Shirt",
+          "shopifyFilename": "off-shft-time-well-earned-blue-spruce.png",
+          "source": "store/next-round-launch/upload-media/off-shft-time-well-earned-blue-spruce.png",
+          "sourceDimensions": [
+            1312,
+            1199
+          ],
+          "sourceFamily": "phrase_apparel",
+          "targetOutput": "store/uniform-previews/media/off-shft-time-well-earned-blue-spruce-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15478492037442",
+          "handle": "ours-to-spend-trucker-hat",
+          "title": "Ours to Spend. Trucker Hat",
+          "shopifyFilename": "off-shft-ours-to-spend-evergreen.png",
+          "source": "store/next-round-launch/upload-media/off-shft-ours-to-spend-evergreen.png",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "sourceFamily": "ours_landscape_caps",
+          "targetOutput": "store/uniform-previews/media/off-shft-ours-to-spend-evergreen-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        }
+      ]
+    },
+    {
+      "group": "apparel_agent_original_hoodies_crews",
+      "count": 6,
+      "status": "assigned by root; generation and deployment not verified by this audit",
+      "items": [
+        {
+          "productId": "gid://shopify/Product/15476770144578",
+          "handle": "off-shft-logo-hoodie",
+          "title": "OFF SHFT Logo Hoodie",
+          "shopifyFilename": "hoodie-logo.png",
+          "source": "store/realistic-products/images/hoodie-logo.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/hoodie-logo-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476770210114",
+          "handle": "the-clock-hoodie",
+          "title": "The Clock Hoodie",
+          "shopifyFilename": "hoodie-clock.png",
+          "source": "store/realistic-products/images/hoodie-clock.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/hoodie-clock-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476770275650",
+          "handle": "punched-out-hoodie",
+          "title": "Punched Out. Hoodie",
+          "shopifyFilename": "hoodie-punched-out.png",
+          "source": "store/realistic-products/images/hoodie-punched-out.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/hoodie-punched-out-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476774764866",
+          "handle": "off-shft-logo-crewneck",
+          "title": "OFF SHFT Logo Crewneck",
+          "shopifyFilename": "crewneck-logo.png",
+          "source": "store/realistic-products/images/crewneck-logo.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/crewneck-logo-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476774830402",
+          "handle": "the-clock-crewneck",
+          "title": "The Clock Crewneck",
+          "shopifyFilename": "crewneck-clock.png",
+          "source": "store/realistic-products/images/crewneck-clock.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/crewneck-clock-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476774895938",
+          "handle": "punched-out-crewneck",
+          "title": "Punched Out. Crewneck",
+          "shopifyFilename": "crewneck-punched-out.png",
+          "source": "store/realistic-products/images/crewneck-punched-out.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/crewneck-punched-out-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        }
+      ]
+    },
+    {
+      "group": "hat_agent_original_caps",
+      "count": 3,
+      "status": "assigned by root; generation and deployment not verified by this audit",
+      "items": [
+        {
+          "productId": "gid://shopify/Product/15476769980738",
+          "handle": "off-shft-logo-hat",
+          "title": "OFF SHFT Logo Hat",
+          "shopifyFilename": "hat-logo.png",
+          "source": "store/realistic-products/images/hat-logo.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_caps",
+          "targetOutput": "store/uniform-previews/media/hat-logo-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476770046274",
+          "handle": "the-clock-hat",
+          "title": "The Clock Hat",
+          "shopifyFilename": "hat-clock.png",
+          "source": "store/realistic-products/images/hat-clock.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_caps",
+          "targetOutput": "store/uniform-previews/media/hat-clock-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476770111810",
+          "handle": "punched-out-hat",
+          "title": "Punched Out. Hat",
+          "shopifyFilename": "hat-punched-out.png",
+          "source": "store/realistic-products/images/hat-punched-out.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_caps",
+          "targetOutput": "store/uniform-previews/media/hat-punched-out-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        }
+      ]
+    },
+    {
+      "group": "storefront_assets_audit_other_apparel",
+      "count": 8,
+      "status": "generated and visually verified; Shopify application pending root verification",
+      "items": [
+        {
+          "productId": "gid://shopify/Product/15476778631490",
+          "handle": "off-shft-logo-t-shirt",
+          "title": "OFF SHFT Logo T-Shirt",
+          "shopifyFilename": "tee-logo.png",
+          "source": "store/realistic-products/images/tee-logo.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/tee-logo-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476778729794",
+          "handle": "the-clock-t-shirt",
+          "title": "The Clock T-Shirt",
+          "shopifyFilename": "tee-clock.png",
+          "source": "store/realistic-products/images/tee-clock.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/tee-clock-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476778795330",
+          "handle": "off-shft-logo-jacket",
+          "title": "OFF SHFT Logo Jacket",
+          "shopifyFilename": "jacket-logo.png",
+          "source": "store/realistic-products/images/jacket-logo.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_jackets",
+          "targetOutput": "store/uniform-previews/media/jacket-logo-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476778860866",
+          "handle": "the-clock-jacket",
+          "title": "The Clock Jacket",
+          "shopifyFilename": "jacket-clock.png",
+          "source": "store/realistic-products/images/jacket-clock.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_jackets",
+          "targetOutput": "store/uniform-previews/media/jacket-clock-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476778926402",
+          "handle": "punched-out-jacket",
+          "title": "Punched Out. Jacket",
+          "shopifyFilename": "jacket-punched-out.png",
+          "source": "store/realistic-products/images/jacket-punched-out.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_jackets",
+          "targetOutput": "store/uniform-previews/media/jacket-punched-out-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476774961474",
+          "handle": "off-shft-logo-sweatpants",
+          "title": "OFF SHFT Logo Sweatpants",
+          "shopifyFilename": "sweatpants-1469-pepper-logo.png",
+          "source": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-logo.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/sweatpants-1469-pepper-logo-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476774994242",
+          "handle": "the-clock-sweatpants",
+          "title": "The Clock Sweatpants",
+          "shopifyFilename": "sweatpants-1469-pepper-clock.png",
+          "source": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-clock.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/sweatpants-1469-pepper-clock-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        },
+        {
+          "productId": "gid://shopify/Product/15476775059778",
+          "handle": "punched-out-sweatpants",
+          "title": "Punched Out. Sweatpants",
+          "shopifyFilename": "sweatpants-1469-pepper-punched-out.png",
+          "source": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-punched-out.png",
+          "sourceDimensions": [
+            1254,
+            1254
+          ],
+          "sourceFamily": "original_apparel",
+          "targetOutput": "store/uniform-previews/media/sweatpants-1469-pepper-punched-out-uniform.png",
+          "viewConstraint": "Preserve current product view and exact design"
+        }
+      ],
+      "generationManifest": "store/uniform-previews/other-apparel-generation-manifest.json"
+    }
+  ],
+  "alreadyCovered": [
+    {
+      "handle": "for-a-reason-hat",
+      "filename": "for-a-reason-charcoal.png",
+      "source": "store/printful-setup/for-a-reason/media/for-a-reason-charcoal.png",
+      "family": "for_a_reason_caps",
+      "status": "first replacement batch in progress; not deployment verified"
+    },
+    {
+      "handle": "off-shft-logo-beanie",
+      "filename": "off-shft-logo-beanie-studio.png",
+      "source": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+      "family": "warm_bone_headwear",
+      "status": "previously applied warm Bone"
+    },
+    {
+      "handle": "off-shft-logo-bucket-hat",
+      "filename": "off-shft-logo-bucket-hat-studio.png",
+      "source": "store/catalogue-polish/media/off-shft-logo-bucket-hat-studio-bone.png",
+      "family": "warm_bone_headwear",
+      "status": "previously applied warm Bone"
+    },
+    {
+      "handle": "off-shft-logo-quarter-zip",
+      "filename": "quarter-zip-logo-ivory.png",
+      "source": "store/storefront-refresh/media/quarter-zip-logo-ivory.png",
+      "family": "pale_studio_apparel",
+      "status": "first replacement batch in progress; not deployment verified"
+    },
+    {
+      "handle": "punched-out-beanie",
+      "filename": "punched-out-beanie-studio.png",
+      "source": "store/catalogue-polish/media/punched-out-beanie-studio-bone.png",
+      "family": "warm_bone_headwear",
+      "status": "previously applied warm Bone"
+    },
+    {
+      "handle": "punched-out-bucket-hat",
+      "filename": "punched-out-bucket-hat-studio.png",
+      "source": "store/catalogue-polish/media/punched-out-bucket-hat-studio-bone.png",
+      "family": "warm_bone_headwear",
+      "status": "previously applied warm Bone"
+    },
+    {
+      "handle": "punched-out-golf-shirt",
+      "filename": "golf-shirt-punched-out-ivory.png",
+      "source": "store/storefront-refresh/media/golf-shirt-punched-out-ivory.png",
+      "family": "pale_studio_apparel",
+      "status": "first replacement batch in progress; not deployment verified"
+    },
+    {
+      "handle": "punched-out-quarter-zip",
+      "filename": "quarter-zip-punched-out-ivory.png",
+      "source": "store/storefront-refresh/media/quarter-zip-punched-out-ivory.png",
+      "family": "pale_studio_apparel",
+      "status": "first replacement batch in progress; not deployment verified"
+    },
+    {
+      "handle": "the-clock-beanie",
+      "filename": "the-clock-beanie-studio.png",
+      "source": "store/catalogue-polish/media/the-clock-beanie-studio-bone.png",
+      "family": "warm_bone_headwear",
+      "status": "previously applied warm Bone"
+    },
+    {
+      "handle": "the-clock-bucket-hat",
+      "filename": "the-clock-bucket-hat-studio.png",
+      "source": "store/catalogue-polish/media/the-clock-bucket-hat-studio-bone.png",
+      "family": "warm_bone_headwear",
+      "status": "previously applied warm Bone"
+    },
+    {
+      "handle": "the-clock-quarter-zip",
+      "filename": "quarter-zip-clock-ivory.png",
+      "source": "store/storefront-refresh/media/quarter-zip-clock-ivory.png",
+      "family": "pale_studio_apparel",
+      "status": "first replacement batch in progress; not deployment verified"
+    }
+  ],
+  "preservationRequirements": [
+    "Exact logo, lettering, artwork position, scale and colours",
+    "Exact garment silhouette, drawstrings, closures, fabric texture, style and view",
+    "Full product visibility, restrained natural contact shadow, consistent warm Bone backdrop",
+    "No product variants, prices, publishing, fulfilment or Printful edits",
+    "Original local source files retained for recovery"
+  ],
+  "auditNote": "This file groups work only. It does not assert generated pixels have passed QA or been applied."
+}

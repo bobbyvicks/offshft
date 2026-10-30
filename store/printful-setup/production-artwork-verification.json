@@ -1,0 +1,530 @@
+{
+  "passed": true,
+  "uniqueArtworkCount": 12,
+  "colourwayCount": 16,
+  "placementCount": 20,
+  "sourceArtworkUnchanged": true,
+  "allSvgCopiesByteIdentical": true,
+  "allPngsTransparentSrgb": true,
+  "allPngs600Dpi": true,
+  "brandColourInteriorsPreserved": true,
+  "alphaGeometryEqualAcrossPaletteVariants": true,
+  "digitizedStitchFilesCreated": false,
+  "threadSubstitutionApplied": false,
+  "files": [
+    {
+      "id": "11-time-well-earned-ink-rust-95mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        2244,
+        1073
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 1729457,
+      "opaqueBrandColourPixelCounts": {
+        "#1F2733": 651180,
+        "#B4552D": 5282
+      },
+      "alphaBounds": [
+        0,
+        0,
+        2244,
+        1073
+      ],
+      "existingReference": {
+        "path": "designs/11-time-well-earned/design-light.png",
+        "pixels": [
+          1800,
+          917
+        ],
+        "alphaBounds": [
+          53,
+          53,
+          1747,
+          864
+        ],
+        "dpiMetadata": [
+          72.009,
+          72.009
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 452.92,
+        "hasReviewPadding": true
+      }
+    },
+    {
+      "id": "11-time-well-earned-bone-sun-95mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        2244,
+        1073
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 1729457,
+      "opaqueBrandColourPixelCounts": {
+        "#ECE5D3": 651180,
+        "#D29B3C": 5282
+      },
+      "alphaBounds": [
+        0,
+        0,
+        2244,
+        1073
+      ],
+      "existingReference": {
+        "path": "designs/11-time-well-earned/design-dark.png",
+        "pixels": [
+          1800,
+          917
+        ],
+        "alphaBounds": [
+          53,
+          53,
+          1747,
+          864
+        ],
+        "dpiMetadata": [
+          72.009,
+          72.009
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 452.92,
+        "hasReviewPadding": true
+      }
+    },
+    {
+      "id": "12-the-rest-is-ours-ink-rust-240mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        5669,
+        1553
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 5730592,
+      "opaqueBrandColourPixelCounts": {
+        "#1F2733": 2999381,
+        "#B4552D": 27885
+      },
+      "alphaBounds": [
+        0,
+        0,
+        5669,
+        1553
+      ],
+      "existingReference": {
+        "path": "designs/12-the-rest-is-ours/design-light.png",
+        "pixels": [
+          1800,
+          525
+        ],
+        "alphaBounds": [
+          22,
+          21,
+          1778,
+          504
+        ],
+        "dpiMetadata": [
+          72.009,
+          72.009
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 185.84,
+        "hasReviewPadding": true
+      }
+    },
+    {
+      "id": "12-the-rest-is-ours-bone-sun-240mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        5669,
+        1553
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 5730592,
+      "opaqueBrandColourPixelCounts": {
+        "#ECE5D3": 2999381,
+        "#D29B3C": 27885
+      },
+      "alphaBounds": [
+        0,
+        0,
+        5669,
+        1553
+      ],
+      "existingReference": {
+        "path": "designs/12-the-rest-is-ours/design-dark.png",
+        "pixels": [
+          1800,
+          525
+        ],
+        "alphaBounds": [
+          22,
+          21,
+          1778,
+          504
+        ],
+        "dpiMetadata": [
+          72.009,
+          72.009
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 185.84,
+        "hasReviewPadding": true
+      }
+    },
+    {
+      "id": "13-ours-to-spend-ink-rust-85mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        2008,
+        611
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 784739,
+      "opaqueBrandColourPixelCounts": {
+        "#1F2733": 421573,
+        "#B4552D": 4235
+      },
+      "alphaBounds": [
+        0,
+        0,
+        2008,
+        611
+      ],
+      "existingReference": {
+        "path": "designs/13-ours-to-spend/design-light.png",
+        "pixels": [
+          1800,
+          631
+        ],
+        "alphaBounds": [
+          59,
+          59,
+          1741,
+          572
+        ],
+        "dpiMetadata": [
+          72.009,
+          72.009
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 502.62,
+        "hasReviewPadding": true
+      }
+    },
+    {
+      "id": "13-ours-to-spend-bone-sun-85mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        2008,
+        611
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 784739,
+      "opaqueBrandColourPixelCounts": {
+        "#ECE5D3": 421573,
+        "#D29B3C": 4235
+      },
+      "alphaBounds": [
+        0,
+        0,
+        2008,
+        611
+      ],
+      "existingReference": {
+        "path": "designs/13-ours-to-spend/design-dark.png",
+        "pixels": [
+          1800,
+          631
+        ],
+        "alphaBounds": [
+          59,
+          59,
+          1741,
+          572
+        ],
+        "dpiMetadata": [
+          72.009,
+          72.009
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 502.62,
+        "hasReviewPadding": true
+      }
+    },
+    {
+      "id": "13-ours-to-spend-bone-85mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        2008,
+        611
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 784739,
+      "opaqueBrandColourPixelCounts": {
+        "#ECE5D3": 425808
+      },
+      "alphaBounds": [
+        0,
+        0,
+        2008,
+        611
+      ],
+      "existingReference": {
+        "path": "designs/next-round-colourways/artwork/13-ours-to-spend-bone.png",
+        "pixels": [
+          1800,
+          548
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          1800,
+          548
+        ],
+        "dpiMetadata": [
+          299.9994,
+          299.9994
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 537.88,
+        "hasReviewPadding": false
+      }
+    },
+    {
+      "id": "14-five-oclock-ink-rust-115mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        2717,
+        649
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 944189,
+      "opaqueBrandColourPixelCounts": {
+        "#1F2733": 752171,
+        "#B4552D": 53526
+      },
+      "alphaBounds": [
+        0,
+        0,
+        2717,
+        649
+      ],
+      "existingReference": {
+        "path": "designs/14-five-oclock/design-light.png",
+        "pixels": [
+          1800,
+          498
+        ],
+        "alphaBounds": [
+          44,
+          44,
+          1756,
+          454
+        ],
+        "dpiMetadata": [
+          72.009,
+          72.009
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 378.13,
+        "hasReviewPadding": true
+      }
+    },
+    {
+      "id": "14-five-oclock-bone-sun-115mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        2717,
+        649
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 944189,
+      "opaqueBrandColourPixelCounts": {
+        "#ECE5D3": 752171,
+        "#D29B3C": 53526
+      },
+      "alphaBounds": [
+        0,
+        0,
+        2717,
+        649
+      ],
+      "existingReference": {
+        "path": "designs/14-five-oclock/design-dark.png",
+        "pixels": [
+          1800,
+          498
+        ],
+        "alphaBounds": [
+          44,
+          44,
+          1756,
+          454
+        ],
+        "dpiMetadata": [
+          72.009,
+          72.009
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 378.13,
+        "hasReviewPadding": true
+      }
+    },
+    {
+      "id": "14-five-oclock-bone-115mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        2717,
+        649
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 944189,
+      "opaqueBrandColourPixelCounts": {
+        "#ECE5D3": 805697
+      },
+      "alphaBounds": [
+        0,
+        0,
+        2717,
+        649
+      ],
+      "existingReference": {
+        "path": "designs/next-round-colourways/artwork/14-five-oclock-bone.png",
+        "pixels": [
+          1800,
+          430
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          1800,
+          430
+        ],
+        "dpiMetadata": [
+          299.9994,
+          299.9994
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 397.57,
+        "hasReviewPadding": false
+      }
+    },
+    {
+      "id": "off-shft-front-logo-ink-rust-62.64mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        1480,
+        426
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 505863,
+      "opaqueBrandColourPixelCounts": {
+        "#1F2733": 107028,
+        "#B4552D": 10819
+      },
+      "alphaBounds": [
+        0,
+        0,
+        1480,
+        426
+      ],
+      "existingReference": {
+        "path": "designs/brand-system/assets/logo-light.png",
+        "pixels": [
+          2400,
+          691
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          2400,
+          691
+        ],
+        "dpiMetadata": [
+          299.9994,
+          299.9994
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 973.18,
+        "hasReviewPadding": false
+      }
+    },
+    {
+      "id": "off-shft-front-logo-bone-sun-62.64mm",
+      "sourceUnchanged": true,
+      "svgByteIdentical": true,
+      "pixels": [
+        1480,
+        426
+      ],
+      "dpiMetadata": [
+        599.9988,
+        599.9988
+      ],
+      "transparentPixels": 505863,
+      "opaqueBrandColourPixelCounts": {
+        "#ECE5D3": 107028,
+        "#D29B3C": 10819
+      },
+      "alphaBounds": [
+        0,
+        0,
+        1480,
+        426
+      ],
+      "existingReference": {
+        "path": "designs/brand-system/assets/logo-dark.png",
+        "pixels": [
+          2400,
+          691
+        ],
+        "alphaBounds": [
+          0,
+          0,
+          2400,
+          691
+        ],
+        "dpiMetadata": [
+          299.9994,
+          299.9994
+        ],
+        "effectiveArtworkDpiAtApprovedWidth": 973.18,
+        "hasReviewPadding": false
+      }
+    }
+  ]
+}

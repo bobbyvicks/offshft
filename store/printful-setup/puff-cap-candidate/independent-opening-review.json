@@ -1,0 +1,82 @@
+{
+  "status": "Independent geometric opening review; not supplier acceptance",
+  "method": "Subtract the exact glyph from an exterior rectangle, erode that negative region by a test radius, and require an interior-opening probe and the exterior to share a connected polygon. Binary search gives a conservative rolling-disc corridor clearance from each specified probe to the exterior. Rounded blind ends are not reported as zero-width throats.",
+  "clipperArcToleranceMm": 0.0005,
+  "checks": [
+    {
+      "id": "glyph-4",
+      "character": "S",
+      "openings": [
+        {
+          "probeLocalMm": [
+            11,
+            6.9
+          ],
+          "clearanceDiameterLowerBoundMm": 1.639862060546875,
+          "clearanceDiameterUpperBoundMm": 1.6399383544921875,
+          "passes1_27mmProbeToExterior": true
+        },
+        {
+          "probeLocalMm": [
+            11,
+            15.2
+          ],
+          "clearanceDiameterLowerBoundMm": 1.62841796875,
+          "clearanceDiameterUpperBoundMm": 1.6284942626953125,
+          "passes1_27mmProbeToExterior": true
+        }
+      ]
+    },
+    {
+      "id": "glyph-7",
+      "character": "S",
+      "openings": [
+        {
+          "probeLocalMm": [
+            11,
+            6.9
+          ],
+          "clearanceDiameterLowerBoundMm": 1.639862060546875,
+          "clearanceDiameterUpperBoundMm": 1.6399383544921875,
+          "passes1_27mmProbeToExterior": true
+        },
+        {
+          "probeLocalMm": [
+            11,
+            15.2
+          ],
+          "clearanceDiameterLowerBoundMm": 1.62841796875,
+          "clearanceDiameterUpperBoundMm": 1.6284942626953125,
+          "passes1_27mmProbeToExterior": true
+        }
+      ]
+    },
+    {
+      "id": "glyph-9",
+      "character": "E",
+      "openings": [
+        {
+          "probeLocalMm": [
+            11,
+            6.963
+          ],
+          "clearanceDiameterLowerBoundMm": 1.8758392333984375,
+          "clearanceDiameterUpperBoundMm": 1.87591552734375,
+          "passes1_27mmProbeToExterior": true
+        },
+        {
+          "probeLocalMm": [
+            11,
+            14.389
+          ],
+          "clearanceDiameterLowerBoundMm": 1.8756866455078125,
+          "clearanceDiameterUpperBoundMm": 1.875762939453125,
+          "passes1_27mmProbeToExterior": true
+        }
+      ]
+    }
+  ],
+  "allSelectedOpeningsPass1_27mm": true,
+  "minimumTestedOpeningClearanceMm": 1.62841796875,
+  "limitation": "This is a geometric probe-path test of the intended S/E openings, not a claim that every infinitesimal chord at a rounded blind end exceeds1.27mm, nor a stitch simulation."
+}

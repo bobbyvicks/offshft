@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-30T02:31:31.524Z",
+  "scope": "Two preview-only White Comfort Colors 6030 pocket T-shirts with existing artwork moved onto the chest pocket.",
+  "tool": "built-in image_gen.imagegen",
+  "generationCalls": 4,
+  "status": "local previews ready for parent review; not uploaded",
+  "productionContext": {
+    "reportedBy": "root agent",
+    "supportedMethod": "DTG Pocket placement",
+    "pocketEmbroiderySupported": false,
+    "exactPrintArea": "pending root verification",
+    "visualSizeTargets": {
+      "offShftLogo": "approximately 2 inches wide",
+      "clock": "approximately 1 inch tall"
+    },
+    "note": "The images are visual placement previews. They do not define measured production coordinates or guarantee physical artwork dimensions."
+  },
+  "style": {
+    "background": "Uniform warm Bone #ECE5D3 studio family",
+    "shadow": "short soft contact shadow",
+    "garment": "White source garment retained; do not inherit Ivory from the background reference"
+  },
+  "qa": {
+    "sourceImagesIndividuallyViewed": true,
+    "styleReferencesViewed": true,
+    "initialAndFinalOutputsVisuallyInspected": true,
+    "status": "passed for visual preview",
+    "checks": [
+      "Each original mark is now centered inside the wearer-left/viewer-right pocket face.",
+      "Old center-chest wordmark and old sleeve clock are completely removed.",
+      "Exactly one Ink+Rust mark per shirt; no extra logos.",
+      "White garment cut, full silhouette and usable pocket opening/perimeter stitching visually retained.",
+      "Final marks depict flat textile print without raised puff or embroidery styling.",
+      "Opaque square composition with warm studio backdrop and soft short ground shadow."
+    ],
+    "limitations": [
+      "Generative mockups do not guarantee pixel-identical artwork or garment geometry.",
+      "Visual size targets are approximate, pending production-area and coordinates verification.",
+      "The source fabric's fine surface texture is retained; this is not a material certification."
+    ]
+  },
+  "application": {
+    "shopifyChanged": false,
+    "printfulChanged": false,
+    "uiUsed": false,
+    "uploaded": false,
+    "publishStatus": "not published; preview only"
+  },
+  "assets": [
+    {
+      "design": "logo",
+      "originalLocalPath": "store/realistic-products/colour-expansion/images/tee-6030-white-logo.png",
+      "originalFilename": "tee-6030-white-logo.png",
+      "backgroundReference": "store/uniform-previews/media/tee-logo-uniform.png",
+      "output": "store/pocket-artwork-placement/media/tee-6030-white-logo-pocket-preview.png",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-1f81ad6c-b313-41bf-b92c-0b8483e52e8e.png",
+      "decorationMethod": "flat DTG textile print",
+      "placement": "center of wearer-left/viewer-right chest pocket outer face",
+      "iterations": [
+        {
+          "purpose": "Move original mark onto pocket, remove old location and normalize backdrop",
+          "prompt": "Use case: precise-object-edit.\nAsset type: preview-only revised apparel product mockup for artwork placement.\nInput image1 is the EDIT TARGET and authoritative garment/artwork source. Input image2 is a BACKGROUND FAMILY REFERENCE ONLY. Do NOT copy image2's garment colour, missing pocket, artwork placement or any other product feature.\nPrimary edit: Move the existing small OFF SHFT mark from the middle of the chest onto the center of the existing chest pocket on the wearer's LEFT (VIEWER RIGHT). The entire exact OFF SHFT wordmark, its clock O, Rust hands and pivot must fit inside the pocket panel, below its opening seam and above its pointed bottom. Preserve its existing size if it fits, exact Unbounded letterforms, spacing, geometry, Ink letters/ring, Rust accent, and aspect ratio. Remove the former center-chest mark completely, restoring uninterrupted white fabric there. Exactly one mark remains, centered ON the pocket, not above the pocket, beside it, or underneath the fabric.\nKeep the actual White Comfort Colors6030 pocket T-shirt shown in image1: full original front silhouette and cut, white colour (not ivory or cream), collar, sleeves, seams, hem, fine cotton grain, wrinkles and folds, original product scale and framing. Preserve the existing real chest pocket and all its perimeter/top stitching, opening and pointed lower edge. Decoration belongs only on the OUTER pocket panel; preserve an unobstructed usable pocket opening and never replace the pocket with a flat graphic rectangle or patch. No extra pocket, no logo on the main chest or sleeves, no neck branding, no additional text.\nSecondary edit: replace the tan sunlight background with uniform opaque warm Bone #ECE5D3 seamless matte studio background matching image2's backdrop family. Retain only a short soft contact shadow directly beneath the shirt. Remove sunlight streaks, foliage shadows, long cast shadows and horizon. No white border, halo, props, hangers, overlay text or watermark.\nMaintain the complete garment centered in the same square canvas, no cropping, no product reshaping or recolouring. The only product change is moving the original mark from its old location onto the center of the existing pocket and restoring blank fabric at the old location. This is a placement preview, not a production proof. Produce one opaque square image.",
+          "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-782819ab-dcc3-49ab-99ed-d3a448727455.png",
+          "selected": false,
+          "generatedSha256": "88ac142631f7a2ad67876a6830dc8c3bf577701a3c55a686d5d3546e3021c250"
+        },
+        {
+          "purpose": "Refine flat DTG appearance and smaller pocket-safe visual scale following root's supplier-feasibility update",
+          "prompt": "Use case: precise-object-edit.\nInput image1 is the EDIT TARGET: a White pocket T-shirt preview with its mark correctly centered ON the wearer-left (viewer-right) pocket. Input image2 is the ORIGINAL ARTWORK reference only; use it to preserve exact symbol/wordmark geometry and Ink+Rust colours, but do not restore its old chest or sleeve placement or its old background.\nMake only this targeted change to image1: reduce the existing OFF SHFT pocket mark uniformly to about42% of the pocket's total width, visually representing approximately2inches wide on this garment. Keep the mark precisely centered in the usable pocket face, safely below the opening stitch and above the pointed bottom. Preserve its exact shape, proportions and artwork colours. Render it as realistic FLAT DTG TEXTILE PRINT: ink absorbed into the cotton surface with fine fabric grain subtly visible through it. No raised embroidery, stitching, thread lines, puff, bevel, rim, patch, embossing, metallic sheen or 3D relief on the mark. The mark must remain readable and exact.\nLock every other element of image1: same White Comfort Colors6030 shirt colour, full silhouette/cut, actual pocket shape/size/stitching/opening, wrinkles, seams, collar, sleeves, garment framing/scale and uniform warm Bone seamless studio background with short soft shadow. The pocket remains visibly functional. The old center-chest/sleeve areas stay completely blank. Exactly one pocket print, no other logo. No added dimensions, guide lines, caption, objects or watermarks. Output one opaque square preview; do not redesign the shirt or artwork.",
+          "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-1f81ad6c-b313-41bf-b92c-0b8483e52e8e.png",
+          "selected": true,
+          "generatedSha256": "1dc0b275bc42ab1f8cae8140f108884e6b2142be9e85f392ec581d4ba1ad51ec"
+        }
+      ],
+      "sourceSha256": "6e106d1d01f3aa26d878d4929b76f3cd9897019485fd2510feba85f8bbddb784",
+      "outputSha256": "1dc0b275bc42ab1f8cae8140f108884e6b2142be9e85f392ec581d4ba1ad51ec",
+      "backgroundReferenceSha256": "184bb21b9f441d48263c220f7596a51ddc8b969ad7811e4e9408844f43e6e3ce",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRgb": [
+        [
+          235,
+          225,
+          205
+        ],
+        [
+          236,
+          226,
+          205
+        ],
+        [
+          234,
+          224,
+          204
+        ],
+        [
+          235,
+          225,
+          205
+        ]
+      ],
+      "productHandle": "off-shft-logo-t-shirt",
+      "shopifyProductId": "gid://shopify/Product/15476778631490",
+      "originalCdnUrlFromInventory": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-logo.png?v=1793250385"
+    },
+    {
+      "design": "clock",
+      "originalLocalPath": "store/realistic-products/colour-expansion/images/tee-6030-white-clock.png",
+      "originalFilename": "tee-6030-white-clock.png",
+      "backgroundReference": "store/uniform-previews/media/tee-clock-uniform.png",
+      "output": "store/pocket-artwork-placement/media/tee-6030-white-clock-pocket-preview.png",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-946d6e54-dc09-4a81-9aa0-bfdfcfaf7c09.png",
+      "decorationMethod": "flat DTG textile print",
+      "placement": "center of wearer-left/viewer-right chest pocket outer face",
+      "iterations": [
+        {
+          "purpose": "Move original mark onto pocket, remove old location and normalize backdrop",
+          "prompt": "Use case: precise-object-edit.\nAsset type: preview-only revised apparel product mockup for artwork placement.\nInput image1 is the EDIT TARGET and authoritative garment/artwork source. Input image2 is a BACKGROUND FAMILY REFERENCE ONLY. Do NOT copy image2's garment colour, missing pocket, artwork placement or any other product feature.\nPrimary edit: Move the existing small standalone clock mark from the wearer's LEFT SLEEVE (VIEWER RIGHT sleeve) onto the center of the existing chest pocket on the wearer's LEFT (VIEWER RIGHT). Keep its exact small size, ring-and-pivot geometry, hand proportions, Ink ring and Rust hands/pivot. Orient it naturally upright on the pocket, with long hand toward12 and short hand toward5, as the same rigid clock mark, without redrawing any part. The whole small mark must sit inside the pocket panel below its opening seam and above its pointed bottom. Remove the former sleeve mark completely, restoring uninterrupted white sleeve fabric. Exactly one mark remains, centered ON the pocket, not above or beside it. No wording or other logo.\nKeep the actual White Comfort Colors6030 pocket T-shirt shown in image1: full original front silhouette and cut, white colour (not ivory or cream), collar, sleeves, seams, hem, fine cotton grain, wrinkles and folds, original product scale and framing. Preserve the existing real chest pocket and all its perimeter/top stitching, opening and pointed lower edge. Decoration belongs only on the OUTER pocket panel; preserve an unobstructed usable pocket opening and never replace the pocket with a flat graphic rectangle or patch. No extra pocket, no logo on the main chest or sleeves, no neck branding, no additional text.\nSecondary edit: replace the tan sunlight background with uniform opaque warm Bone #ECE5D3 seamless matte studio background matching image2's backdrop family. Retain only a short soft contact shadow directly beneath the shirt. Remove sunlight streaks, foliage shadows, long cast shadows and horizon. No white border, halo, props, hangers, overlay text or watermark.\nMaintain the complete garment centered in the same square canvas, no cropping, no product reshaping or recolouring. The only product change is moving the original mark from its old location onto the center of the existing pocket and restoring blank fabric at the old location. This is a placement preview, not a production proof. Produce one opaque square image.",
+          "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-1ac43580-a883-43e3-b184-285e52ca78d2.png",
+          "selected": false,
+          "generatedSha256": "a1095fce69c816bde7fbc6c9803fa96ad111983bfacf6e9d26586d48ee1a9cb4"
+        },
+        {
+          "purpose": "Refine flat DTG appearance and smaller pocket-safe visual scale following root's supplier-feasibility update",
+          "prompt": "Use case: precise-object-edit.\nInput image1 is the EDIT TARGET: a White pocket T-shirt preview with its mark correctly centered ON the wearer-left (viewer-right) pocket. Input image2 is the ORIGINAL ARTWORK reference only; use it to preserve exact symbol/wordmark geometry and Ink+Rust colours, but do not restore its old chest or sleeve placement or its old background.\nMake only this targeted change to image1: reduce the existing standalone Clock pocket mark uniformly to about20% of the pocket's total height, visually representing approximately1inch tall on this garment. Keep the mark precisely centered in the usable pocket face, safely below the opening stitch and above the pointed bottom. Preserve its exact shape, proportions and artwork colours. Render it as realistic FLAT DTG TEXTILE PRINT: ink absorbed into the cotton surface with fine fabric grain subtly visible through it. No raised embroidery, stitching, thread lines, puff, bevel, rim, patch, embossing, metallic sheen or 3D relief on the mark. The mark must remain readable and exact.\nLock every other element of image1: same White Comfort Colors6030 shirt colour, full silhouette/cut, actual pocket shape/size/stitching/opening, wrinkles, seams, collar, sleeves, garment framing/scale and uniform warm Bone seamless studio background with short soft shadow. The pocket remains visibly functional. The old center-chest/sleeve areas stay completely blank. Exactly one pocket print, no other logo. No added dimensions, guide lines, caption, objects or watermarks. Output one opaque square preview; do not redesign the shirt or artwork.",
+          "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-946d6e54-dc09-4a81-9aa0-bfdfcfaf7c09.png",
+          "selected": true,
+          "generatedSha256": "8a00d7124d0e87f2a149e84d16a22d100da22e26ea1908cbf4caa0a662d09bba"
+        }
+      ],
+      "sourceSha256": "406c9f0d44fa25b3f3e13d4b3f7fca6468a5edd1887cfa67d856ea9ab2aff7e4",
+      "outputSha256": "8a00d7124d0e87f2a149e84d16a22d100da22e26ea1908cbf4caa0a662d09bba",
+      "backgroundReferenceSha256": "25b085d6db6ce808baedade9b149ef8fa8ad7bfbe9dcd71306e963e114e9070e",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRgb": [
+        [
+          232,
+          223,
+          205
+        ],
+        [
+          232,
+          223,
+          205
+        ],
+        [
+          233,
+          224,
+          206
+        ],
+        [
+          233,
+          224,
+          206
+        ]
+      ],
+      "productHandle": "the-clock-t-shirt",
+      "shopifyProductId": "gid://shopify/Product/15476778729794",
+      "originalCdnUrlFromInventory": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-clock.png?v=1793250385"
+    }
+  ]
+}

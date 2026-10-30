@@ -1,0 +1,25 @@
+{
+  "draft": true,
+  "title": "OURS TO SPEND.",
+  "font": "tools/fonts/Unbounded-Bold.ttf",
+  "trackingEm": 0.12,
+  "artworkWidthMm": 85,
+  "artworkHeightMm": 25.884,
+  "capHeightMm": 10.261,
+  "baselineStepMm": 15.186,
+  "sTerminalTrimMm": {
+    "upper": 0.03392563978754237,
+    "lower": 0.08392563978754236
+  },
+  "glyphCount": 12,
+  "lines": [
+    {
+      "text": "OURS TO",
+      "inkWidthMm": 85
+    },
+    {
+      "text": "SPEND.",
+      "inkWidthMm": 70.836
+    }
+  ]
+}

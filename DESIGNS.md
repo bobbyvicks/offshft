@@ -25,6 +25,21 @@ Owner picks which of these become the first 6–8 hats, and which fabric colour 
 
 **Owner's call, 29 Oct 2026:** three designs are usable: the final OFF SHFT logo, the clock on its own, and Punched Out. The icon designs and Mulligan Monday are out. In the owner's words, they're "too AI" or not good enough. Avoid clip-art icons and badge layouts in new work.
 
+## Next design round — 29 October 2026
+
+Four new concepts requested after the Shopify colour rollout. These remain drafts for owner review; the three approved Drop 1 designs above are unchanged.
+
+| # | Design | Proposed treatment | Status |
+|---|---|---|---|
+| 11 | [Time Well Earned.](designs/11-time-well-earned/) | Three restrained lines on a Blue Spruce heavyweight tee | drafted for review |
+| 12 | [The Rest Is Ours.](designs/12-the-rest-is-ours/) | Ink/Rust back print on a Blue Jean hoodie, approved logo on front | drafted for review |
+| 13 | [Ours to Spend.](designs/13-ours-to-spend/) | Two-line Bone/Sun embroidery concept on an Evergreen trucker | drafted for review |
+| 14 | [5:00](designs/14-five-oclock/) | Ink numerals and Rust colon on an Ivory crewneck | drafted for review |
+
+[Review gallery and download package](designs/next-round/) · [Preliminary phrase research](designs/next-round-research.md). Each concept has outlined SVG artwork, light/dark references, a realistic AI mockup, dimensions and notes. Phrase screening is preliminary; these are not approved or published products.
+
+**Colour expansion:** all four concepts now have four colour options each: [16-colour review package](designs/next-round-colourways/). The supplement adds 12 mockups using the selected blanks' catalogue colour names, plus one-colour Bone artwork for the Caramel cap and Espresso crewneck. These remain design drafts.
+
 ## Backlog (drop 2 and later)
 
 | Hat | Hobby | Notes |

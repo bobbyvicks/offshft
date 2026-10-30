@@ -1,0 +1,151 @@
+{
+  "status": "Production artwork prepared; independent source geometry and format checks passed",
+  "purpose": "Production artwork matching owner-approved visual reference; no live upload or mutation performed",
+  "text": [
+    "FOR A",
+    "REASON."
+  ],
+  "dimensionsMm": [
+    117.0501,
+    47.6944
+  ],
+  "font": {
+    "path": "tools/fonts/Archivo-Bold.ttf",
+    "sha256": "4395e08b6a10efe4c33cc45d474f9d725e20cb58bf03fe348f1e73e243d2cf75",
+    "licence": "tools/fonts/OFL-Archivo.txt",
+    "adaptation": "Archivo Bold outlined; horizontal factor0.82 except A0.90; outward1.4mm; connected-core radius2.65mm; A counter opened2.2mm; R counter expanded0.25mm; E/S mouths opened; period6mm"
+  },
+  "reference": {
+    "path": "approved-mockup.png",
+    "source": "C:/Users/vicke/.codex/generated_images/01a185b0-8e64-7bb3-b5c4-7d31c117d1a7/exec-bd9ba42a-1f22-48e3-8d5a-88a93ebb82f3.png",
+    "sha256": "9bbdd028bd46f20c0962295468376d4e26f2fc43633e7ffa0d10904f5fec2365"
+  },
+  "fieldBasis": {
+    "blanks": [
+      "Yupoong 6606",
+      "Comfort Colors CCST0"
+    ],
+    "dimensionsMm": [
+      149.86,
+      50.8
+    ],
+    "source": "store/printful-setup/for-a-reason-supplier-check.json",
+    "sourceSha256": "2139f677b3b1e866602e3a66959ad86066ba84385d0531537a597327a937b850"
+  },
+  "colourways": [
+    {
+      "colour": "Charcoal",
+      "blank": "Yupoong 6606",
+      "catalogueProductId": 252,
+      "catalogueVariantId": 20390,
+      "artwork": "bone-sun",
+      "placement": "embroidery_front_large",
+      "threadColourOptionId": "thread_colors_3d_front_large",
+      "embroideryTypeOption": {
+        "id": "embroidery_type",
+        "value": "3d"
+      },
+      "fieldMm": [
+        149.86,
+        50.8
+      ]
+    },
+    {
+      "colour": "Ivory/Ivory",
+      "blank": "Comfort Colors CCST0",
+      "catalogueProductId": 1678,
+      "catalogueVariantId": 52941,
+      "artwork": "ink-rust",
+      "placement": "embroidery_front",
+      "threadColourOptionId": "thread_colors_3d",
+      "embroideryTypeOption": {
+        "id": "embroidery_type",
+        "value": "3d"
+      },
+      "fieldMm": [
+        149.86,
+        50.8
+      ]
+    },
+    {
+      "colour": "Evergreen",
+      "blank": "Yupoong 6606",
+      "catalogueProductId": 252,
+      "catalogueVariantId": 20393,
+      "artwork": "bone-sun",
+      "placement": "embroidery_front_large",
+      "threadColourOptionId": "thread_colors_3d_front_large",
+      "embroideryTypeOption": {
+        "id": "embroidery_type",
+        "value": "3d"
+      },
+      "fieldMm": [
+        149.86,
+        50.8
+      ]
+    }
+  ],
+  "files": [
+    {
+      "palette": "bone-sun",
+      "svg": "for-a-reason-bone-sun.svg",
+      "png": "for-a-reason-bone-sun.png",
+      "pixels": [
+        2765,
+        1127
+      ],
+      "dpi": 600,
+      "transparent": true,
+      "colourSpace": "sRGB",
+      "colours": [
+        "#ECE5D3",
+        "#D29B3C"
+      ],
+      "svgSha256": "1f72b612f0013b58180f2df73699429270d980197bc4308e34c1dd665650cadb",
+      "pngSha256": "095bd86152e5691be1d5a6c558a2fe2b1e11bfe2ce421d03d1598661be76304b"
+    },
+    {
+      "palette": "ink-rust",
+      "svg": "for-a-reason-ink-rust.svg",
+      "png": "for-a-reason-ink-rust.png",
+      "pixels": [
+        2765,
+        1127
+      ],
+      "dpi": 600,
+      "transparent": true,
+      "colourSpace": "sRGB",
+      "colours": [
+        "#1F2733",
+        "#B4552D"
+      ],
+      "svgSha256": "85dd99aacd4efc44bba152e2bbc424d43f98d1eee1ed5f11fd102d66b1fa055c",
+      "pngSha256": "c9387ce60e8a98b85b56c6bf20a388a030fbe3eca30eb3b2d129fd7d850a226a"
+    }
+  ],
+  "measurements": "measurements.json",
+  "comparisonProof": "comparison-proof.png",
+  "colourwaysProof": "colourways-proof.png",
+  "builder": "build.cjs",
+  "physicalPlacement": {
+    "artworkWidthMm": 117.0501,
+    "artworkHeightMm": 47.6944,
+    "fieldWidthMm": 149.86,
+    "fieldHeightMm": 50.8,
+    "centeredOffsetMm": [
+      16.40495,
+      1.5528
+    ],
+    "note": "Cropped artwork canvas. Set and verify physical size/position in supplier configuration. DPI metadata alone does not prove placement or retained transforms."
+  },
+  "verification": {
+    "independentReview": "independent-review.md",
+    "nominalRollingDiscDiameterMm": 5.3,
+    "minimumCounterCaliperMm": 2.1997,
+    "minimumOpenMouthProbeMm": 1.3337,
+    "maximumInscribedDiscUpperBoundMm": 9.5982,
+    "minimumLetterGapMm": 1.8,
+    "supplierDigitization": "Not yet evidenced; source geometry is not a sewn sample or a digitizer approval."
+  },
+  "referenceMatch": "Same text, left alignment, compact two-line proportions, heavy rounded sans style and accent period. Controlled outlined Archivo adaptation, not an exact font trace; A counters rounded open and R bowls flatter than the AI mockup."
+}

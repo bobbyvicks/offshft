@@ -1,0 +1,74 @@
+{
+  "created": "2026-10-29",
+  "mode": "built-in image_gen",
+  "purpose": "Replace six existing Shopify technical drawings with realistic studio product mockups",
+  "productStatus": "Existing listings remain published. No supplier selection, fulfilment setup or physical sample approval is implied.",
+  "limitations": [
+    "Images are generated product mockups based on existing listing drawings, not photographs of manufactured samples.",
+    "One primary image per design/product; it does not establish distinctions between the two Style variants.",
+    "Exact knit, blank shape, substrate, thread and digitization remain subject to supplier selection."
+  ],
+  "qa": "All six generated images visually inspected: full product framing, correct brand wording, clock hands and colours, two-line Punched Out on beanies, one-line Punched Out on buckets, no annotations/watermarks.",
+  "images": [
+    {
+      "handle": "off-shft-logo-beanie",
+      "output": "media/off-shft-logo-beanie-studio.png",
+      "reference": "references/headwear/off-shft-logo-beanie.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-2516f296-4177-48f9-af99-5cb7a7466e2e.png",
+      "altText": "Studio mockup of off shft logo beanie in Bone with Ink and Rust embroidery.",
+      "prompt": "Use case: sketch-to-render. Asset type: premium Shopify product photograph mockup. Input image 1 is the exact existing product design and shape reference; transform its line drawing into one convincing real textile product photograph. Subject: a single warm bone/ivory rib-knit beanie, close-fitting rounded crown with a deep folded cuff. Preserve the construction and proportions from the reference; the cuff is folded once and has soft densely knitted ribs with individual loops and subtle fuzz. The exact compact OFF SHFT wordmark has the clock O as its first letter. Preserve every letter, the gap between OFF and SHFT, Ink navy-black letters, Rust orange pivot dot and hands pointing to 12 and 5. Do not add an I in SHFT. Match logo placement and scale to the reference: small centered embroidery on front cuff, plenty of blank fabric. Embroidery is integrated physically into fabric with fine satin stitches and realistic slight relief. Composition: centered front-facing studio product, camera nearly straight on with very slight top view to reveal form, full hat visible, no crop, subject fills roughly 75 percent of a square canvas. Pale warm off-white seamless backdrop, soft diffuse side light, delicate contact shadow, quiet premium catalogue photography, highly realistic fabric and stitching. No props, model, hands, packaging, tags, dimension annotations, overlays, extra logos or watermark. Do not retain drawing outlines or vector shading.",
+      "sha256": "f37b653abec77678f74ea334cd5e4771f03904370fca022bcf4ba178c517e196",
+      "referenceUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-beanie-logo.png?v=1793309510"
+    },
+    {
+      "handle": "the-clock-beanie",
+      "output": "media/the-clock-beanie-studio.png",
+      "reference": "references/headwear/the-clock-beanie.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-0a0425b1-e1f0-4827-bc00-220c080d7d30.png",
+      "altText": "Studio mockup of the clock beanie in Bone with Ink and Rust embroidery.",
+      "prompt": "Use case: sketch-to-render. Asset type: premium Shopify product photograph mockup. Input image 1 is the exact existing product design and shape reference; transform its line drawing into one convincing real textile product photograph. Subject: a single warm bone/ivory rib-knit beanie, close-fitting rounded crown with a deep folded cuff. Preserve the construction and proportions from the reference; the cuff is folded once and has soft densely knitted ribs with individual loops and subtle fuzz. Only the exact small standalone clock symbol: Ink navy-black circular O, small Rust orange central pivot dot, and Rust orange hands extending to 12 and 5 outside the ring. NO letters, NO numbers. Match logo placement and scale to the reference: small centered embroidery on front cuff, plenty of blank fabric. Embroidery is integrated physically into fabric with fine satin stitches and realistic slight relief. Composition: centered front-facing studio product, camera nearly straight on with very slight top view to reveal form, full hat visible, no crop, subject fills roughly 75 percent of a square canvas. Pale warm off-white seamless backdrop, soft diffuse side light, delicate contact shadow, quiet premium catalogue photography, highly realistic fabric and stitching. No props, model, hands, packaging, tags, dimension annotations, overlays, extra logos or watermark. Do not retain drawing outlines or vector shading.",
+      "sha256": "00f7296518f7bbff2a9a3fbb9a9fba472eb5b238c9da5cd8fdcd7dde395fc0e4",
+      "referenceUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-beanie-clock.png?v=1793309510"
+    },
+    {
+      "handle": "punched-out-beanie",
+      "output": "media/punched-out-beanie-studio.png",
+      "reference": "references/headwear/punched-out-beanie.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-6b1b6bee-451d-4df1-8de2-88c4fa50e046.png",
+      "altText": "Studio mockup of punched out beanie in Bone with Ink and Rust embroidery.",
+      "prompt": "Use case: sketch-to-render. Asset type: premium Shopify product photograph mockup. Input image 1 is the exact existing product design and shape reference; transform its line drawing into one convincing real textile product photograph. Subject: a single warm bone/ivory rib-knit beanie, close-fitting rounded crown with a deep folded cuff. Preserve the construction and proportions from the reference; the cuff is folded once and has soft densely knitted ribs with individual loops and subtle fuzz. The exact embroidered uppercase wording \"PUNCHED\" on line 1, \"OUT.\" centered on line 2. All letters Ink navy-black; only the circular period Rust orange. Preserve the bold wide geometric font and modest size. Match logo placement and scale to the reference: small centered embroidery on front cuff, plenty of blank fabric. Embroidery is integrated physically into fabric with fine satin stitches and realistic slight relief. Composition: centered front-facing studio product, camera nearly straight on with very slight top view to reveal form, full hat visible, no crop, subject fills roughly 75 percent of a square canvas. Pale warm off-white seamless backdrop, soft diffuse side light, delicate contact shadow, quiet premium catalogue photography, highly realistic fabric and stitching. No props, model, hands, packaging, tags, dimension annotations, overlays, extra logos or watermark. Do not retain drawing outlines or vector shading.",
+      "sha256": "e23ccc4c330dfa5e554c38ca6dfc72ed7346131e72b7958df035c0d9540099b4",
+      "referenceUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-beanie-punched-out.png?v=1793309511"
+    },
+    {
+      "handle": "off-shft-logo-bucket-hat",
+      "output": "media/off-shft-logo-bucket-hat-studio.png",
+      "reference": "references/headwear/off-shft-logo-bucket-hat.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-6a03cee6-ba4e-43ba-a0fc-b0eecdc5b062.png",
+      "altText": "Studio mockup of off shft logo bucket hat in Bone with Ink and Rust embroidery.",
+      "prompt": "Use case: sketch-to-render. Asset type: premium Shopify product photograph mockup. Input image 1 is the exact existing product design and shape reference; transform its line drawing into one convincing real textile product photograph. Subject: a single warm bone/ivory cotton twill bucket hat, broad downward brim, stitched concentric brim rows, subtle ventilation eyelets, gently tapered crown. Preserve the construction and proportions from the reference; the crown has soft natural fabric structure, visible fine twill grain and restrained creasing. The exact compact OFF SHFT wordmark has the clock O as its first letter. Preserve every letter, the gap between OFF and SHFT, Ink navy-black letters, Rust orange pivot dot and hands pointing to 12 and 5. Do not add an I in SHFT. Match logo placement and scale to the reference: small centered embroidery on front crown, plenty of blank fabric. Embroidery is integrated physically into fabric with fine satin stitches and realistic slight relief. Composition: centered front-facing studio product, camera nearly straight on with very slight top view to reveal form, full hat visible, no crop, subject fills roughly 75 percent of a square canvas. Pale warm off-white seamless backdrop, soft diffuse side light, delicate contact shadow, quiet premium catalogue photography, highly realistic fabric and stitching. No props, model, hands, packaging, tags, dimension annotations, overlays, extra logos or watermark. Do not retain drawing outlines or vector shading.",
+      "sha256": "f7389b8fc369f931ac79469d38df1dc17da11f30d44c8c95f9c51d7cd338531a",
+      "referenceUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-bucket-hat-logo.png?v=1793309511"
+    },
+    {
+      "handle": "the-clock-bucket-hat",
+      "output": "media/the-clock-bucket-hat-studio.png",
+      "reference": "references/headwear/the-clock-bucket-hat.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-c4d3318b-1fed-4603-a25b-98ee6638b24e.png",
+      "altText": "Studio mockup of the clock bucket hat in Bone with Ink and Rust embroidery.",
+      "prompt": "Use case: sketch-to-render. Asset type: premium Shopify product photograph mockup. Input image 1 is the exact existing product design and shape reference; transform its line drawing into one convincing real textile product photograph. Subject: a single warm bone/ivory cotton twill bucket hat, broad downward brim, stitched concentric brim rows, subtle ventilation eyelets, gently tapered crown. Preserve the construction and proportions from the reference; the crown has soft natural fabric structure, visible fine twill grain and restrained creasing. Only the exact small standalone clock symbol: Ink navy-black circular O, small Rust orange central pivot dot, and Rust orange hands extending to 12 and 5 outside the ring. NO letters, NO numbers. Match logo placement and scale to the reference: small centered embroidery on front crown, plenty of blank fabric. Embroidery is integrated physically into fabric with fine satin stitches and realistic slight relief. Composition: centered front-facing studio product, camera nearly straight on with very slight top view to reveal form, full hat visible, no crop, subject fills roughly 75 percent of a square canvas. Pale warm off-white seamless backdrop, soft diffuse side light, delicate contact shadow, quiet premium catalogue photography, highly realistic fabric and stitching. No props, model, hands, packaging, tags, dimension annotations, overlays, extra logos or watermark. Do not retain drawing outlines or vector shading.",
+      "sha256": "820bad7316924010d2c9d4cc7da945f5a243c0a2aa6e11e315553ea9744f79c4",
+      "referenceUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-bucket-hat-clock.png?v=1793309512"
+    },
+    {
+      "handle": "punched-out-bucket-hat",
+      "output": "media/punched-out-bucket-hat-studio.png",
+      "reference": "references/headwear/punched-out-bucket-hat.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-c2b9a502-b2c6-4c52-be48-2a051f831529.png",
+      "altText": "Studio mockup of punched out bucket hat in Bone with Ink and Rust embroidery.",
+      "prompt": "Use case: sketch-to-render. Asset type: premium Shopify product photograph mockup. Input image 1 is the exact existing product design and shape reference; transform its line drawing into one convincing real textile product photograph. Subject: a single warm bone/ivory cotton twill bucket hat, broad downward brim, stitched concentric brim rows, subtle ventilation eyelets, gently tapered crown. Preserve the construction and proportions from the reference; the crown has soft natural fabric structure, visible fine twill grain and restrained creasing. The exact embroidered uppercase wording \"PUNCHED OUT.\" on ONE horizontal line. All letters Ink navy-black; only the circular period Rust orange. Preserve the bold wide geometric font and modest size. Match logo placement and scale to the reference: small centered embroidery on front crown, plenty of blank fabric. Embroidery is integrated physically into fabric with fine satin stitches and realistic slight relief. Composition: centered front-facing studio product, camera nearly straight on with very slight top view to reveal form, full hat visible, no crop, subject fills roughly 75 percent of a square canvas. Pale warm off-white seamless backdrop, soft diffuse side light, delicate contact shadow, quiet premium catalogue photography, highly realistic fabric and stitching. No props, model, hands, packaging, tags, dimension annotations, overlays, extra logos or watermark. Do not retain drawing outlines or vector shading.",
+      "sha256": "7e870d2c162fb160a6dc6a7087aa1be391278942818ea060392c67ed2d014bb3",
+      "referenceUrl": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/offshft-bucket-hat-punched-out.png?v=1793309512"
+    }
+  ]
+}

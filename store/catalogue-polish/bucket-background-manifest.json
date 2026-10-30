@@ -1,0 +1,188 @@
+{
+  "created": "2026-10-29",
+  "tool": "built-in image_gen__imagegen",
+  "scope": "Background-only edits of three existing bucket-hat images",
+  "targetBackground": "#ECE5D3",
+  "transparentBackground": false,
+  "qa": [
+    "Each source viewed before edit.",
+    "Each output visually compared with source: hat silhouette, cotton twill, eyelets, brim stitching, colour and embroidery retained.",
+    "OFF SHFT logo, clock ring/dot/hands, and single-line PUNCHED OUT. wording preserved.",
+    "Warm Bone background reaches everyedge; no white border or halo visible.",
+    "Soft grounded contact shadows retained.",
+    "AI edits are not mathematically pixel-identical product cutouts; no intentional product changes."
+  ],
+  "assets": [
+    {
+      "source": "store/storefront-refresh/media/off-shft-logo-bucket-hat-studio.png",
+      "output": "store/catalogue-polish/media/off-shft-logo-bucket-hat-studio-bone.png",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-2b19f2fa-0790-4940-955a-a4dbb77fea78.png",
+      "prompt": "Precise background-only product photograph edit. Preserve the bucket hat EXACTLY: identical silhouette, full brim, crown height and shape, stitching, eyelets, plain cotton twill grain, garment ivory colour, lighting on the hat, placement, size within square composition, and embroidery. The embroidered design is OFF SHFT logo including rust clock hands and centre dot; do not redraw, retype, move, resize or recolour it. Change ONLY the near-white background into a uniform warm Bone #ECE5D3 matte studio surface edge-to-edge. Retain a soft natural grounded shadow immediately beneath the hat, smoothly blending into the Bone background. Background can have extremely subtle light falloff, but every edge andcorner must visibly remain warmBone, no brightwhite area, no white border, no halo around thehat, no frame. Opaquebackground. Do not add props or graphic elements, alter texture, beautify/reshape theproduct, invent embossing, add writing, or change any product detail. This is only a seamless warm brand-colour backdrop replacement.",
+      "sha256": "327bc14e59c8e5cf6e9843e5034d9e2838b3dfcb26fc9ddfc93b4d34a5f05771",
+      "sourceSha256": "f7389b8fc369f931ac79469d38df1dc17da11f30d44c8c95f9c51d7cd338531a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "cornerRGB": [
+        [
+          233,
+          224,
+          204
+        ],
+        [
+          231,
+          222,
+          202
+        ],
+        [
+          232,
+          222,
+          205
+        ],
+        [
+          230,
+          222,
+          201
+        ]
+      ]
+    },
+    {
+      "source": "store/storefront-refresh/media/the-clock-bucket-hat-studio.png",
+      "output": "store/catalogue-polish/media/the-clock-bucket-hat-studio-bone.png",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-46e61278-2a59-4518-83b0-a6efae67a03b.png",
+      "prompt": "Precise background-only product photograph edit. Preserve the bucket hat EXACTLY: identical silhouette, full brim, crown height and shape, stitching, eyelets, plain cotton twill grain, garment ivory colour, lighting on the hat, placement, size within square composition, and embroidery. The embroidered design is stand-alone navy clock ring, rust dot, and rust hands at12 and5; do not redraw, retype, move, resize or recolour it. Change ONLY the near-white background into a uniform warm Bone #ECE5D3 matte studio surface edge-to-edge. Retain a soft natural grounded shadow immediately beneath the hat, smoothly blending into the Bone background. Background can have extremely subtle light falloff, but every edge andcorner must visibly remain warmBone, no brightwhite area, no white border, no halo around thehat, no frame. Opaquebackground. Do not add props or graphic elements, alter texture, beautify/reshape theproduct, invent embossing, add writing, or change any product detail. This is only a seamless warm brand-colour backdrop replacement.",
+      "sha256": "d5b4cf552c0646d7183f6cee28c17873d31f4081e354a92b4b4c06d75b5be3ca",
+      "sourceSha256": "820bad7316924010d2c9d4cc7da945f5a243c0a2aa6e11e315553ea9744f79c4",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "cornerRGB": [
+        [
+          230,
+          222,
+          203
+        ],
+        [
+          230,
+          221,
+          201
+        ],
+        [
+          231,
+          220,
+          204
+        ],
+        [
+          230,
+          221,
+          200
+        ]
+      ]
+    },
+    {
+      "source": "store/storefront-refresh/media/punched-out-bucket-hat-studio.png",
+      "output": "store/catalogue-polish/media/punched-out-bucket-hat-studio-bone.png",
+      "generatedPath": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-512bf7bd-ae4b-4368-9d13-f07b4f53a2ed.png",
+      "prompt": "Precise background-only product photograph edit. Preserve the bucket hat EXACTLY: identical silhouette, full brim, crown height and shape, stitching, eyelets, plain cotton twill grain, garment ivory colour, lighting on the hat, placement, size within square composition, and embroidery. The embroidered design is single-line PUNCHED OUT. in navy with rust finalperiod; do not redraw, retype, move, resize or recolour it. Change ONLY the near-white background into a uniform warm Bone #ECE5D3 matte studio surface edge-to-edge. Retain a soft natural grounded shadow immediately beneath the hat, smoothly blending into the Bone background. Background can have extremely subtle light falloff, but every edge andcorner must visibly remain warmBone, no brightwhite area, no white border, no halo around thehat, no frame. Opaquebackground. Do not add props or graphic elements, alter texture, beautify/reshape theproduct, invent embossing, add writing, or change any product detail. This is only a seamless warm brand-colour backdrop replacement.",
+      "sha256": "dd9cccee8b42ef9332ccac218446792eb1abd74193a237aa0f2c565ad1eb6952",
+      "sourceSha256": "7e870d2c162fb160a6dc6a7087aa1be391278942818ea060392c67ed2d014bb3",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "cornerRGB": [
+        [
+          231,
+          223,
+          205
+        ],
+        [
+          232,
+          223,
+          204
+        ],
+        [
+          231,
+          221,
+          205
+        ],
+        [
+          229,
+          221,
+          201
+        ]
+      ]
+    }
+  ],
+  "application": {
+    "status": "complete: six image replacements applied and visually verified",
+    "mode": "Shopify Content > Files > native Replace",
+    "shopifyChanged": true,
+    "uiUsed": true,
+    "performedBy": "root agent",
+    "reportedAt": "2026-10-30T00:56:07.119029+00:00",
+    "documentationProvenance": "Root reported the native Shopify actions and evidence; this documentation task used local files only.",
+    "existingFileIdsPreserved": true,
+    "existingFileUrlsPreserved": true,
+    "existingAltTextPreserved": true,
+    "existingProductReferencesPreserved": true,
+    "associationsRemoved": 0,
+    "newFilesUploadedAndAttached": false,
+    "previousContentStillInShopify": false,
+    "previousContentRecovery": "Unchanged local source PNGs retain the previous image content. Shopify now serves the replacement content from the existing file records.",
+    "fileProcessingStatus": "complete",
+    "fileVerification": "All six rows showed updated links, native file sizes and warm-background thumbnail readback. Explicit success toasts were observed for OFF SHFT Logo Beanie and Punched Out. Beanie.",
+    "productGridVerification": "Verified by root on desktop and mobile Headwear live previews: all six warmer images visible, with 11 Headwear product headings and existing file IDs/product references unchanged.",
+    "screenshot": "store/catalogue-polish/verification/six-hat-files-updated.jpg",
+    "files": [
+      {
+        "handle": "off-shft-logo-bucket-hat",
+        "shopifyFileId": "46676159529282",
+        "displayedSizeMB": 2.22,
+        "successToastObserved": false,
+        "processingComplete": true,
+        "updatedLinkObserved": true,
+        "warmThumbnailObserved": true,
+        "productReferenceCount": 1,
+        "localRecoveryPath": "store/storefront-refresh/media/off-shft-logo-bucket-hat-studio.png",
+        "localReplacementPath": "store/catalogue-polish/media/off-shft-logo-bucket-hat-studio-bone.png"
+      },
+      {
+        "handle": "the-clock-bucket-hat",
+        "shopifyFileId": "46676156219714",
+        "displayedSizeMB": 2.43,
+        "successToastObserved": false,
+        "processingComplete": true,
+        "updatedLinkObserved": true,
+        "warmThumbnailObserved": true,
+        "productReferenceCount": 1,
+        "localRecoveryPath": "store/storefront-refresh/media/the-clock-bucket-hat-studio.png",
+        "localReplacementPath": "store/catalogue-polish/media/the-clock-bucket-hat-studio-bone.png"
+      },
+      {
+        "handle": "punched-out-bucket-hat",
+        "shopifyFileId": "46676152189250",
+        "displayedSizeMB": 2.27,
+        "successToastObserved": false,
+        "processingComplete": true,
+        "updatedLinkObserved": true,
+        "warmThumbnailObserved": true,
+        "productReferenceCount": 1,
+        "localRecoveryPath": "store/storefront-refresh/media/punched-out-bucket-hat-studio.png",
+        "localReplacementPath": "store/catalogue-polish/media/punched-out-bucket-hat-studio-bone.png"
+      }
+    ],
+    "productGridVerifiedAt": "2026-10-30T01:18:41.112902+00:00",
+    "productGridScreenshots": [
+      "store/catalogue-polish/verification/headwear-desktop.jpg",
+      "store/catalogue-polish/verification/headwear-mobile.jpg"
+    ],
+    "additionalClockBeanieScreenshot": "store/catalogue-polish/verification/homepage-mobile-grid.jpg",
+    "completionScope": "Image application only; no product fulfilment or ordering-readiness claim."
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-30T01:34:21.809Z",
+  "tool": "Built-in image_gen",
+  "intent": "precise-object-edit",
+  "scope": "Eight existing lead photos: two T-shirts, three Champion jackets, three pepper sweatpants. Background normalization only.",
+  "styleReference": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+  "requestedBackground": "#ECE5D3",
+  "generationCount": 8,
+  "sourceFilesOverwritten": false,
+  "shopifyApplication": "pending root verification; no UI used by this agent",
+  "assets": [
+    {
+      "originalCdnFilename": "tee-logo.png",
+      "source": "store/realistic-products/images/tee-logo.png",
+      "output": "store/uniform-previews/media/tee-logo-uniform.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f5-2d9b-7332-bef9-8e9284e8a556/exec-9112a2ec-1021-408f-a85a-3d24fd25ca8f.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: OFF SHFT ecommerce lead product photo, background-only edit.\nInput image 1 is the EDIT TARGET. Input image 2 is a BACKGROUND STYLE REFERENCE ONLY; do not transfer its hat or its logo.\nChange only the background of image 1 to a uniform warm Bone #ECE5D3 (RGB236,229,211) seamless matte studio surface, matching the calm warm background of image 2. Remove all diagonal sunlight bands, foliage shadows and horizon. Retain only a short soft natural contact shadow directly beneath the T-shirt. Background should be warm Bone edge-to-edge with no white corners, border, halo, vignette or gradient bands.\nPreserve the T-shirt EXACTLY: same ivory colour, full silhouette, neckline, sleeves, seams, cotton grain, fine wrinkles and folds, garment highlights, artwork placement, scale, shape and colours. Preserve the exact small OFF SHFT logo at the wearer's left chest, including clock O, ink lettering and rust hands.\nKeep the original square canvas, full product visible, identical front view, position, framing and scale. Do not crop, reshape, rotate, recolour, relight or beautify the garment. Do not add text, objects, hangers or watermarks. Output one opaque square product image.",
+      "transparentBackground": false,
+      "qa": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop without sunlight bands; same ivory tee silhouette, neckline, sleeve lengths, wrinkles and small chest mark. Full garment visible, no white halo."
+      },
+      "sourceSha256": "e490375b6c52d3efb931c4698b4d54e7ac18e0ca6c0f74aea4db1e989ddfb543",
+      "outputSha256": "184bb21b9f441d48263c220f7596a51ddc8b969ad7811e4e9408844f43e6e3ce",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRGB": [
+        [
+          235,
+          224,
+          205
+        ],
+        [
+          235,
+          224,
+          205
+        ],
+        [
+          234,
+          224,
+          204
+        ],
+        [
+          235,
+          225,
+          205
+        ]
+      ],
+      "cornerMeasurement": "Read-only median RGB of 32x32 corner patches, TL/TR/BL/BR; no image transforms saved.",
+      "outputBytes": 1860548
+    },
+    {
+      "originalCdnFilename": "tee-clock.png",
+      "source": "store/realistic-products/images/tee-clock.png",
+      "output": "store/uniform-previews/media/tee-clock-uniform.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f5-2d9b-7332-bef9-8e9284e8a556/exec-fc4db6d8-f8a4-4550-be77-18e663460456.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: OFF SHFT ecommerce lead product photo, background-only edit.\nInput image 1 is the EDIT TARGET. Input image 2 is a BACKGROUND STYLE REFERENCE ONLY; do not transfer its hat or its logo.\nChange only the background of image 1 to a uniform warm Bone #ECE5D3 (RGB236,229,211) seamless matte studio surface, matching the calm warm background of image 2. Remove all diagonal sunlight bands, foliage shadows and horizon. Retain only a short soft natural contact shadow directly beneath the T-shirt. Background should be warm Bone edge-to-edge with no white corners, border, halo, vignette or gradient bands.\nPreserve the T-shirt EXACTLY: same ivory colour, full silhouette, neckline, sleeves, seams, cotton grain, fine wrinkles and folds, garment highlights, artwork placement, scale, shape and colours. Preserve the exact small clock-only mark at the wearer's left chest, including ring, pivot and rust hands; do not add lettering.\nKeep the original square canvas, full product visible, identical front view, position, framing and scale. Do not crop, reshape, rotate, recolour, relight or beautify the garment. Do not add text, objects, hangers or watermarks. Output one opaque square product image.",
+      "transparentBackground": false,
+      "qa": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop without sunlight bands; same ivory tee silhouette, neckline, sleeve lengths, wrinkles and small chest mark. Full garment visible, no white halo."
+      },
+      "sourceSha256": "2fb416d7b9cfb0d263da8da8766c70c74cdcbfcf245f0b7e0b729456d5616ecf",
+      "outputSha256": "25b085d6db6ce808baedade9b149ef8fa8ad7bfbe9dcd71306e963e114e9070e",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRGB": [
+        [
+          235,
+          225,
+          204
+        ],
+        [
+          235,
+          225,
+          204
+        ],
+        [
+          235,
+          225,
+          204
+        ],
+        [
+          235,
+          225,
+          204
+        ]
+      ],
+      "cornerMeasurement": "Read-only median RGB of 32x32 corner patches, TL/TR/BL/BR; no image transforms saved.",
+      "outputBytes": 1721110
+    },
+    {
+      "originalCdnFilename": "jacket-logo.png",
+      "source": "store/realistic-products/images/jacket-logo.png",
+      "output": "store/uniform-previews/media/jacket-logo-uniform.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f5-2d9b-7332-bef9-8e9284e8a556/exec-06f86086-b615-4d39-ac4c-122b04af3e84.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: OFF SHFT ecommerce lead product photo, precise background-only edit.\nInput image 1 is the EDIT TARGET. Input image 2 is a BACKGROUND STYLE REFERENCE ONLY; do not transfer the hat or its logo.\nReplace only the pale backdrop of image 1 with a uniform warm Bone #ECE5D3 (RGB236,229,211) seamless matte studio background matching image 2. Keep a short restrained soft contact shadow beneath the jacket; no sunbeams, foliage, horizon, white corners, vignette, border or halo. Background must be warm Bone across the whole square.\nPreserve the jacket EXACTLY: dark ink/navy fabric colour and finish, full silhouette, hood and hood lining, drawstrings and toggles, half zipper, front pouch flap and pockets, stitching, elastic cuffs, hem toggles, all fabric folds and wrinkles, lighting on the jacket, and the Champion C patch on the lower right sleeve in the image. Keep the exact OFF SHFT chest logo, including its clock O and gold hands.\nPreserve exact artwork shape, lettering, colour, scale and position. Keep the identical full front view, square canvas, crop, framing, scale and garment position. Do not reshape, recolour, rotate, resize or beautify the jacket. No new text, objects, logos or watermarks. Output one opaque square image.",
+      "transparentBackground": false,
+      "qa": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop; full jacket silhouette, hood/drawstrings, half zipper, cuffs and hem toggles retained. Chest artwork and Champion sleeve patch remain intact. No crop or visible white halo."
+      },
+      "sourceSha256": "c96356e6a6814dc605e3805b7a68f3c094fc62fa7b4a5b27ca0b8b9aa3a976ca",
+      "outputSha256": "170e7c4b1ef6d4988d47c4a6f876212f37bd0524b4a13cf742ddcd979097a57c",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRGB": [
+        [
+          234,
+          226,
+          207
+        ],
+        [
+          234,
+          226,
+          207
+        ],
+        [
+          234,
+          226,
+          207
+        ],
+        [
+          234,
+          226,
+          207
+        ]
+      ],
+      "cornerMeasurement": "Read-only median RGB of 32x32 corner patches, TL/TR/BL/BR; no image transforms saved.",
+      "outputBytes": 1687836
+    },
+    {
+      "originalCdnFilename": "jacket-clock.png",
+      "source": "store/realistic-products/images/jacket-clock.png",
+      "output": "store/uniform-previews/media/jacket-clock-uniform.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f5-2d9b-7332-bef9-8e9284e8a556/exec-74f14486-9ee3-45d5-b89e-8cd99adb55b6.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: OFF SHFT ecommerce lead product photo, precise background-only edit.\nInput image 1 is the EDIT TARGET. Input image 2 is a BACKGROUND STYLE REFERENCE ONLY; do not transfer the hat or its logo.\nReplace only the pale backdrop of image 1 with a uniform warm Bone #ECE5D3 (RGB236,229,211) seamless matte studio background matching image 2. Keep a short restrained soft contact shadow beneath the jacket; no sunbeams, foliage, horizon, white corners, vignette, border or halo. Background must be warm Bone across the whole square.\nPreserve the jacket EXACTLY: dark ink/navy fabric colour and finish, full silhouette, hood and hood lining, drawstrings and toggles, half zipper, front pouch flap and pockets, stitching, elastic cuffs, hem toggles, all fabric folds and wrinkles, lighting on the jacket, and the Champion C patch on the lower right sleeve in the image. Keep the exact clock-only chest mark, including cream ring and gold hands, with no added lettering.\nPreserve exact artwork shape, lettering, colour, scale and position. Keep the identical full front view, square canvas, crop, framing, scale and garment position. Do not reshape, recolour, rotate, resize or beautify the jacket. No new text, objects, logos or watermarks. Output one opaque square image.",
+      "transparentBackground": false,
+      "qa": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop; full jacket silhouette, hood/drawstrings, half zipper, cuffs and hem toggles retained. Chest artwork and Champion sleeve patch remain intact. No crop or visible white halo."
+      },
+      "sourceSha256": "40a7b0b1868ec4cffd31cf22eb14d6f0e75c741f3edabe26207168847dbd3d91",
+      "outputSha256": "138761f69d52d43a482929817002bf64126b6b860e43b44f39efe190e84b13d7",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRGB": [
+        [
+          234,
+          226,
+          208
+        ],
+        [
+          235,
+          226,
+          209
+        ],
+        [
+          234,
+          226,
+          208
+        ],
+        [
+          234,
+          226,
+          208
+        ]
+      ],
+      "cornerMeasurement": "Read-only median RGB of 32x32 corner patches, TL/TR/BL/BR; no image transforms saved.",
+      "outputBytes": 1688678
+    },
+    {
+      "originalCdnFilename": "jacket-punched-out.png",
+      "source": "store/realistic-products/images/jacket-punched-out.png",
+      "output": "store/uniform-previews/media/jacket-punched-out-uniform.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f5-2d9b-7332-bef9-8e9284e8a556/exec-09a6d396-ff0e-4f24-bc6a-76ce9cf991d0.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: OFF SHFT ecommerce lead product photo, precise background-only edit.\nInput image 1 is the EDIT TARGET. Input image 2 is a BACKGROUND STYLE REFERENCE ONLY; do not transfer the hat or its logo.\nReplace only the pale backdrop of image 1 with uniform warm Bone #ECE5D3 (RGB236,229,211), a seamless matte studio background matching image 2. Keep only a short restrained soft contact shadow immediately beneath the jacket. No sunbeams, foliage shadows, horizon, white corners, vignette, border or halo. Background warm Bone edge-to-edge.\nPreserve the jacket EXACTLY: dark ink/navy fabric colour and finish, complete silhouette, hood, hood lining, drawstrings and toggles, half zipper, front pouch flap, pockets, stitching, elastic cuffs, hem toggles, all fabric wrinkles/folds and lighting. Preserve the small Champion C patch on the lower right sleeve in the image. Preserve exact chest text PUNCHED OUT. in the same cream colour, font, spacing, scale and position; no other chest mark.\nKeep identical full front view, square canvas, crop, framing, scale and garment position. Do not reshape, recolour, rotate, resize or beautify the jacket. No new text, objects, logos or watermarks. Output one opaque square image.",
+      "transparentBackground": false,
+      "qa": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop; full jacket silhouette, hood/drawstrings, half zipper, cuffs and hem toggles retained. Chest artwork and Champion sleeve patch remain intact. No crop or visible white halo."
+      },
+      "sourceSha256": "aecff9f43dfcec94065b202f184caccdaea20ba4c9a497c7f7c4a0b79f7ab021",
+      "outputSha256": "fb54d117a506e289b7935ad33057b7dd6f9429b4c51e39b43016a78da38375fa",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRGB": [
+        [
+          234,
+          225,
+          207
+        ],
+        [
+          234,
+          226,
+          207
+        ],
+        [
+          234,
+          225,
+          207
+        ],
+        [
+          234,
+          225,
+          207
+        ]
+      ],
+      "cornerMeasurement": "Read-only median RGB of 32x32 corner patches, TL/TR/BL/BR; no image transforms saved.",
+      "outputBytes": 1728501
+    },
+    {
+      "originalCdnFilename": "sweatpants-1469-pepper-logo.png",
+      "source": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-logo.png",
+      "output": "store/uniform-previews/media/sweatpants-1469-pepper-logo-uniform.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f5-2d9b-7332-bef9-8e9284e8a556/exec-38f7392b-dd1c-4af3-9786-73316ea1419c.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: OFF SHFT ecommerce lead product photo, background-only edit.\nInput image 1 is the EDIT TARGET. Input image 2 is a BACKGROUND STYLE REFERENCE ONLY; do not transfer its hat or logo.\nChange only the background of image 1 to uniform warm Bone #ECE5D3 (RGB236,229,211) seamless matte studio surface, matching the quiet warm background of image 2. Remove diagonal sunlight bands, foliage shadows, orange cast and long harsh shadows. Retain a short soft natural contact shadow directly beneath the sweatpants. Edge-to-edge warm Bone, no horizon, white areas, border, halo or vignette.\nPreserve the sweatpants EXACTLY: pepper charcoal/brown washed fabric colour, material grain and wrinkles, full tapered silhouette, elastic ribbed waistband, pockets and seams, cream drawstrings and metal eyelets, ribbed cuffs, lighting on the garment and all folds. Preserve exact OFF SHFT small upper-leg logo including cream lettering and gold clock hands, placement, scale, shape and colours. Keep original square canvas, complete front view and both cuffs visible, identical position, framing and scale. Do not crop, recolour, relight, reshape, straighten or beautify the garment; no new text, objects or watermarks. Output one opaque square image.",
+      "transparentBackground": false,
+      "qa": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop without sunlight bands; same pepper washed colour, full front silhouette, cream drawstrings, ribbed waistband/cuffs and exact upper-leg artwork. Both cuffs visible, no white halo."
+      },
+      "sourceSha256": "3daae1927d8e0f2d53f725c3958ff59e3f16a6b2ed46dac0c9ee02c6a8ab2c6f",
+      "outputSha256": "2e3354614b9aede6c6840eeaafeab2114a63c4f3c47e2fd2e8ba8bae5705b826",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRGB": [
+        [
+          235,
+          227,
+          209
+        ],
+        [
+          235,
+          227,
+          209
+        ],
+        [
+          235,
+          227,
+          209
+        ],
+        [
+          235,
+          227,
+          209
+        ]
+      ],
+      "cornerMeasurement": "Read-only median RGB of 32x32 corner patches, TL/TR/BL/BR; no image transforms saved.",
+      "outputBytes": 1636609
+    },
+    {
+      "originalCdnFilename": "sweatpants-1469-pepper-clock.png",
+      "source": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-clock.png",
+      "output": "store/uniform-previews/media/sweatpants-1469-pepper-clock-uniform.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f5-2d9b-7332-bef9-8e9284e8a556/exec-60eb68e8-a783-4366-8294-e909690934e4.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: OFF SHFT ecommerce lead product photo, background-only edit.\nInput image 1 is the EDIT TARGET. Input image 2 is a BACKGROUND STYLE REFERENCE ONLY; do not transfer its hat or logo.\nChange only the background of image 1 to uniform warm Bone #ECE5D3 (RGB236,229,211) seamless matte studio surface, matching the quiet warm background of image 2. Remove diagonal sunlight bands, foliage shadows, orange cast and long harsh shadows. Retain a short soft natural contact shadow directly beneath the sweatpants. Edge-to-edge warm Bone, no horizon, white areas, border, halo or vignette.\nPreserve the sweatpants EXACTLY: pepper charcoal/brown washed fabric colour, material grain and wrinkles, full tapered silhouette, elastic ribbed waistband, pockets and seams, cream drawstrings and metal eyelets, ribbed cuffs, lighting on the garment and all folds. Preserve the exact small clock-only upper-leg mark, including cream ring, pivot and gold hands. Do not add any lettering.\nKeep original square canvas, complete front view and both cuffs visible, identical position, framing and scale. Do not crop, recolour, relight, reshape, straighten or beautify the garment; no new text, objects or watermarks. Output one opaque square image.",
+      "transparentBackground": false,
+      "qa": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop without sunlight bands; same pepper washed colour, full front silhouette, cream drawstrings, ribbed waistband/cuffs and exact upper-leg artwork. Both cuffs visible, no white halo."
+      },
+      "sourceSha256": "22541396edeb762046bf16ac79b40c54e92d54a5d2dcccf3c191ca5c24f032c0",
+      "outputSha256": "86a8942446a0d264b4f80d063b870165d79a25926dd4be15990e852ea115a27e",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRGB": [
+        [
+          234,
+          226,
+          207
+        ],
+        [
+          234,
+          226,
+          207
+        ],
+        [
+          235,
+          226,
+          208
+        ],
+        [
+          234,
+          226,
+          207
+        ]
+      ],
+      "cornerMeasurement": "Read-only median RGB of 32x32 corner patches, TL/TR/BL/BR; no image transforms saved.",
+      "outputBytes": 1580257
+    },
+    {
+      "originalCdnFilename": "sweatpants-1469-pepper-punched-out.png",
+      "source": "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-punched-out.png",
+      "output": "store/uniform-previews/media/sweatpants-1469-pepper-punched-out-uniform.png",
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f5-2d9b-7332-bef9-8e9284e8a556/exec-8c09b0f4-64e3-434f-b715-8532e510c1a7.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: OFF SHFT ecommerce lead product photo, background-only edit.\nInput image 1 is the EDIT TARGET. Input image 2 is a BACKGROUND STYLE REFERENCE ONLY; do not transfer its hat or logo.\nChange only the background of image 1 to uniform warm Bone #ECE5D3 (RGB236,229,211) seamless matte studio surface, matching the quiet warm background of image 2. Remove diagonal sunlight bands, foliage shadows, orange cast and long harsh shadows. Retain a short soft natural contact shadow directly beneath the sweatpants. Edge-to-edge warm Bone, no horizon, white areas, border, halo or vignette.\nPreserve the sweatpants EXACTLY: pepper charcoal/brown washed fabric colour, material grain and wrinkles, full tapered silhouette, elastic ribbed waistband, pockets and seams, cream drawstrings and metal eyelets, ribbed cuffs, lighting on the garment and all folds. Preserve exact upper-leg text PUNCHED OUT. in cream, same letter shapes, spacing, size and placement. Do not add a clock or other logo.\nKeep original square canvas, complete front view and both cuffs visible, identical position, framing and scale. Do not crop, recolour, relight, reshape, straighten or beautify the garment; no new text, objects or watermarks. Output one opaque square image.",
+      "transparentBackground": false,
+      "qa": {
+        "status": "visual inspection passed",
+        "notes": "Warm seamless Bone backdrop without sunlight bands; same pepper washed colour, full front silhouette, cream drawstrings, ribbed waistband/cuffs and exact upper-leg artwork. Both cuffs visible, no white halo."
+      },
+      "sourceSha256": "1bcf0c81cb39cd186ab8e5a248ef97c75200fdece841d6cc1d1d1d2cf992938a",
+      "outputSha256": "b694c6914da7ee8e3127f8a95aeea65eed7d7d8e65fe6196e0c49b6bf4b3a27e",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerMedianRGB": [
+        [
+          234,
+          225,
+          206
+        ],
+        [
+          234,
+          225,
+          206
+        ],
+        [
+          234,
+          224,
+          206
+        ],
+        [
+          234,
+          225,
+          206
+        ]
+      ],
+      "cornerMeasurement": "Read-only median RGB of 32x32 corner patches, TL/TR/BL/BR; no image transforms saved.",
+      "outputBytes": 1654100
+    }
+  ]
+}

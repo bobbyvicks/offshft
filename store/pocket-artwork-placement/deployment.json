@@ -1,0 +1,83 @@
+{
+  "scope": "Logo and Clock Pocket / White variants, S through 2XL",
+  "shopify": {
+    "imagesReplacedInPlace": true,
+    "descriptionChangesSaved": true,
+    "imageRecords": [
+      {
+        "design": "logo",
+        "mediaId": "46665865429314",
+        "filename": "tee-6030-white-logo.png",
+        "replacement": "media/tee-6030-white-logo-pocket-preview.png"
+      },
+      {
+        "design": "clock",
+        "mediaId": "46665864806722",
+        "filename": "tee-6030-white-clock.png",
+        "replacement": "media/tee-6030-white-clock-pocket-preview.png"
+      }
+    ],
+    "copyBeforeAfterDirectory": "copy/",
+    "changedCopy": "Only the Pocket detail now says printed directly on the left-chest pocket. Heavyweight detail remains unchanged.",
+    "verification": "Complete: all ten Printful App location activations saved; refreshed Canada/CAD active-theme previews show both designs S\u20132XL available, unsupported3XL unavailable, correct White pocket images and Add to cart enabled. Both2XL variants added to cart; test cart cleaned.",
+    "representativeFulfillmentChecks": [
+      {
+        "product": "The Clock T-Shirt",
+        "variantId": "67946096689474",
+        "option": "Pocket / S / White",
+        "sku": "4516944",
+        "price": "44.99",
+        "printfulLocationAvailable": 9999
+      },
+      {
+        "product": "OFF SHFT Logo T-Shirt",
+        "variantId": "67946096427330",
+        "option": "Pocket / 2XL / White",
+        "sku": "2296520",
+        "price": "44.99",
+        "printfulLocationAvailable": 9999
+      }
+    ],
+    "inventoryNote": "Printful stock already existed as9999, but the App location was unchecked for fulfillment on all ten Pocket variants. Root activated only that location per variant and saved. Shop location, quantities, tracking and oversell settings were preserved. Supplier-generated SKUs are recorded separately.",
+    "fulfillmentLocationVerification": "shopify-fulfillment-verification.json",
+    "activatedPrintfulVariantCount": 10,
+    "cartVerification": {
+      "passed": true,
+      "items": 2,
+      "estimatedTotalCAD": "89.98",
+      "cleanupComplete": true,
+      "checkoutSubmitted": false,
+      "orderSubmitted": false
+    },
+    "existingShippingRate": {
+      "country": "Canada",
+      "currency": "CAD",
+      "rate": "8.59",
+      "profile": "Printful: T-shirts (#PF-FRG1)",
+      "origin": "Printful",
+      "changed": false,
+      "checkoutRateTested": false
+    }
+  },
+  "printful": {
+    "placement": "pocket",
+    "technique": "DTG",
+    "blank": "Comfort Colors 6030 / White",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "status": "Complete: all ten Pocket variants synced and enabled, with correct ready artwork and saved native Designer placement verified.",
+    "productionFolder": "../printful-setup/pocket-artwork-placement/",
+    "verification": "../printful-setup/pocket-artwork-placement/final-verification.json",
+    "physicalArtworkSizes": {
+      "logoWidthInches": 2,
+      "clockHeightInches": 1
+    },
+    "verifiedAt": "2026-10-30T03:38:47.375404+00:00"
+  },
+  "limitations": "Mockups depict placement; exact production size comes from canonical source SVG canvases plus saved supplier Designer verification. Canada/CAD storefront availability and cart addition were verified. Checkout, payment, billing and store-wide order readiness were not verified; no order was submitted."
+}

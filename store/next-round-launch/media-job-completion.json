@@ -1,0 +1,14 @@
+{
+  "observedDate": "2026-10-29",
+  "source": "Fresh read-only Shopify Sidekick job queries, observed through the current Shopify admin UI after downloading shopify-after-media-export.json",
+  "jobs": [
+    {"productId": "15478492037442", "jobId": "gid://shopify/Job/8e2c0df6-cb31-40df-95f9-c4f72e57694f", "done": true},
+    {"productId": "15478492004674", "jobId": "gid://shopify/Job/0b901f6a-299b-4099-ab15-97506f9a0629", "done": true},
+    {"productId": "15478491971906", "jobId": "gid://shopify/Job/82483f83-08ff-4902-95fc-7fbc8a289fc0", "done": true},
+    {"productId": "15478492070210", "jobId": "gid://shopify/Job/afe0cf2c-0809-45b1-9a7c-1194b43a6f00", "done": true}
+  ],
+  "jobQueryErrors": [],
+  "batchUiStatus": "PROCESSING with four SUBMITTED/PENDING changes and empty error lists",
+  "interpretation": "The batch UI is stale relative to the completed reorder jobs. No changes were repeated.",
+  "limitation": "Some original image URL version tokens differ from the initial baseline. Stable IDs, paths, alt and order alone do not prove unchanged historical bytes; see the separate byte-comparison evidence. The immediately pre-media Sidekick comparison reported preserved original products."
+}

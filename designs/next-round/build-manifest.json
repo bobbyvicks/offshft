@@ -1,0 +1,368 @@
+{
+  "builtAt": "2026-10-29T05:45:22.875261+00:00",
+  "status": "Draft concepts / not released products",
+  "conceptCount": 4,
+  "pdfPages": 5,
+  "sourceImagesEdited": false,
+  "chosenMockupFilename": "mockup-v2.png",
+  "chosenMockupCount": 4,
+  "chosenMockupDimensions": {
+    "11-time-well-earned": [
+      1312,
+      1199
+    ],
+    "12-the-rest-is-ours": [
+      1312,
+      1199
+    ],
+    "13-ours-to-spend": [
+      1536,
+      1024
+    ],
+    "14-five-oclock": [
+      1312,
+      1199
+    ]
+  },
+  "supersededMockupsExcluded": true,
+  "researchSourceSha256": "2512a5e2bc5d75f424cdfb12362421bf5af581caa52e97a20e1aa83c1b7521c4",
+  "bundleReferenceTreatment": "Only local research links adjusted; historical repository links omitted with explanation. Source research unchanged.",
+  "sourceFiles": [
+    {
+      "path": "concepts/11-time-well-earned/design-dark.png",
+      "bytes": 55037,
+      "sha256": "f5f79d8e00a2c2cce9aff57ab1280f341e4bbc961a70423cebddd136db099dde"
+    },
+    {
+      "path": "concepts/11-time-well-earned/design-light.png",
+      "bytes": 54745,
+      "sha256": "e8cfc524a923fea4b09b78fa952008e60a32a8e0cadac196457dddced303e87f"
+    },
+    {
+      "path": "concepts/11-time-well-earned/design-light.svg",
+      "bytes": 15870,
+      "sha256": "e7cb2c7085bde6c7c484a9a5f66d057acc1d6579f121a12a66de77e467f98b10"
+    },
+    {
+      "path": "concepts/11-time-well-earned/design.svg",
+      "bytes": 15870,
+      "sha256": "3c406d19c82ffcd0c7132dfcaa0e52060f1a15b76447f55865bf60f7eedbca8e"
+    },
+    {
+      "path": "concepts/11-time-well-earned/generation.json",
+      "bytes": 5007,
+      "sha256": "92899a3085e38a5716235bcf965169c2f382451fa873e1441cb6537354011116"
+    },
+    {
+      "path": "concepts/11-time-well-earned/measurements.json",
+      "bytes": 505,
+      "sha256": "6dc87f35f3657e7e3db56e624828fdfa2a57b740d76e4d859f5c1bea7990daf0"
+    },
+    {
+      "path": "concepts/11-time-well-earned/mockup-v2.png",
+      "bytes": 2557562,
+      "sha256": "d4aefb6a0d3cff8aae4e0a050c5a745e0fc8593fd41d234d9da9fd9962216ff4"
+    },
+    {
+      "path": "concepts/11-time-well-earned/notes.md",
+      "bytes": 2581,
+      "sha256": "305f3251eb29ef5534e35323da3ab25d4ba927c7f6dbbc989d984a7fbc700e43"
+    },
+    {
+      "path": "concepts/11-time-well-earned/preview-bone.png",
+      "bytes": 60327,
+      "sha256": "912cf1e75a662beeb6541dbed9deca3c1a13641f1f0dc0332fb3132f25ce15a8"
+    },
+    {
+      "path": "concepts/11-time-well-earned/preview-spruce.png",
+      "bytes": 60243,
+      "sha256": "67e51777a532323f3c69f80e9dba4d56c86910e8ba4765981278e3259b12e055"
+    },
+    {
+      "path": "concepts/12-the-rest-is-ours/design-dark.png",
+      "bytes": 47906,
+      "sha256": "7f1a7ebee17e640fb6b19640046e9679ce792a804a961086687c6515f8ae324b"
+    },
+    {
+      "path": "concepts/12-the-rest-is-ours/design-light.png",
+      "bytes": 47627,
+      "sha256": "a694234bc82fe9f07a4238144f0e6f60330c7b3e3b2ae163e07a5069cc27702d"
+    },
+    {
+      "path": "concepts/12-the-rest-is-ours/design-light.svg",
+      "bytes": 64479,
+      "sha256": "55a55d43278f5cfd70c9f72dc6d9cbda74bfdef33c43961e7094d6cc3bf956a3"
+    },
+    {
+      "path": "concepts/12-the-rest-is-ours/design.svg",
+      "bytes": 64479,
+      "sha256": "0d9e08c8d9df9fa4eae2af05b6d049eae490aa45b68a4639be57d658f1e2d2a9"
+    },
+    {
+      "path": "concepts/12-the-rest-is-ours/generation.json",
+      "bytes": 5433,
+      "sha256": "0da9347bd60b2b34fae686013bd8d3b3491e88c1118903b1425efeef1e78e7d3"
+    },
+    {
+      "path": "concepts/12-the-rest-is-ours/measurements.json",
+      "bytes": 451,
+      "sha256": "df277831a220c47c02700539db6678793dcb935d75ca6f6600467e44078d8081"
+    },
+    {
+      "path": "concepts/12-the-rest-is-ours/mockup-v2.png",
+      "bytes": 2464654,
+      "sha256": "ed84af15b10d317643f4259e354e1a27f3596f901ff435f70085770a44f58746"
+    },
+    {
+      "path": "concepts/12-the-rest-is-ours/notes.md",
+      "bytes": 2844,
+      "sha256": "f091ac94969a90226e6da7dda45f84c8310365e78b3d6cb817746a73174dbaaf"
+    },
+    {
+      "path": "concepts/12-the-rest-is-ours/preview-bone.png",
+      "bytes": 56365,
+      "sha256": "4f697a091739be47b8886cbe15a4e55572eb2f985ee2fb1f6a1463051f10d78c"
+    },
+    {
+      "path": "concepts/12-the-rest-is-ours/preview-spruce.png",
+      "bytes": 56329,
+      "sha256": "07ed7325ab947ed16f7f3ec6eeb2056f5589af05a127ce3e0ba8ecb5d88aeff6"
+    },
+    {
+      "path": "concepts/13-ours-to-spend/design-dark.png",
+      "bytes": 51944,
+      "sha256": "872584c457f366b9c621a9ec6434a037fa1aaf476ab2b4192e5f50cf9f602c53"
+    },
+    {
+      "path": "concepts/13-ours-to-spend/design-light.png",
+      "bytes": 51458,
+      "sha256": "f0bcf6ee89ed6c45a1a4e4b107935160d8dc9707eacfc4c16d0d916184813cc3"
+    },
+    {
+      "path": "concepts/13-ours-to-spend/design-light.svg",
+      "bytes": 60184,
+      "sha256": "f019c4ce7845e163064f21dccc218f0f947723101cba8805d77caa1019ae5d0f"
+    },
+    {
+      "path": "concepts/13-ours-to-spend/design.svg",
+      "bytes": 60184,
+      "sha256": "f13c558063f67d9ef0e278dc2f894c6d093c28d4d0ad61137b518157c9ed638f"
+    },
+    {
+      "path": "concepts/13-ours-to-spend/generation.json",
+      "bytes": 4806,
+      "sha256": "354c20b208404a69effa1994bf9528b536a704583285cfda78dd04d1f586a0fb"
+    },
+    {
+      "path": "concepts/13-ours-to-spend/measurements.json",
+      "bytes": 478,
+      "sha256": "f73e6e2093a8d8a13d9232f84b5d100bd705a225c4bf97407519f629d52d8277"
+    },
+    {
+      "path": "concepts/13-ours-to-spend/mockup-v2.png",
+      "bytes": 2593498,
+      "sha256": "afb06020818c5a2db6c0a5dad2c584e62669f9391d0012d8d0f4e48dab6793f3"
+    },
+    {
+      "path": "concepts/13-ours-to-spend/notes.md",
+      "bytes": 2681,
+      "sha256": "6f667d764853a95a015f69fc461171dd713eb0a1ea56e3f2b9e31f34fb2b67af"
+    },
+    {
+      "path": "concepts/13-ours-to-spend/preview-bone.png",
+      "bytes": 60584,
+      "sha256": "4335bac051e429e2bfddb339068ec6dde4bd8d685b4a24adb6c0a0abeac143a9"
+    },
+    {
+      "path": "concepts/13-ours-to-spend/preview-spruce.png",
+      "bytes": 60467,
+      "sha256": "e819f719a12f067e3fe2de4441e0b1ed650e0786b214f3587697afb5f4143303"
+    },
+    {
+      "path": "concepts/14-five-oclock/design-dark.png",
+      "bytes": 45058,
+      "sha256": "392be1cd7e95f694d24f1b98c35ba0b4aa19c4f044dba4e25f1e1b46f0e316bd"
+    },
+    {
+      "path": "concepts/14-five-oclock/design-light.png",
+      "bytes": 44833,
+      "sha256": "9d5b5665fce38bdb8f038c6fa417c10b174eb958ddd0e6e9d7adc4f71d8276bd"
+    },
+    {
+      "path": "concepts/14-five-oclock/design-light.svg",
+      "bytes": 29581,
+      "sha256": "dc2f208c178cd0a7dadbff7cbc54494d84a8cd2d583114cf3dabb488b9d510f4"
+    },
+    {
+      "path": "concepts/14-five-oclock/design.svg",
+      "bytes": 29581,
+      "sha256": "b58f749649d0e1ac90f3060754c37b9ffbad173e220ec2085044b0894ed9b6a5"
+    },
+    {
+      "path": "concepts/14-five-oclock/generation.json",
+      "bytes": 4739,
+      "sha256": "2122e4a3e35d4759e68f982aa90601510f39e014e3f8f7e88a3547b259eb2ae1"
+    },
+    {
+      "path": "concepts/14-five-oclock/measurements.json",
+      "bytes": 366,
+      "sha256": "970b306b0289cbb0db46a0d310b294a42816925ddb5550d44465f0d76fa0a8a4"
+    },
+    {
+      "path": "concepts/14-five-oclock/mockup-v2.png",
+      "bytes": 2301775,
+      "sha256": "9fd62fdeca0fea5ad5e479f532bdafe22c857e0a101f822719369fda08d1c3a5"
+    },
+    {
+      "path": "concepts/14-five-oclock/notes.md",
+      "bytes": 2790,
+      "sha256": "0d295498edbc014532b08519a621d296b6a81f0aae5b0f7c926e89695209bffb"
+    },
+    {
+      "path": "concepts/14-five-oclock/preview-bone.png",
+      "bytes": 54292,
+      "sha256": "f79dd61421c548fb655233bfcb7db347fef61900758a2938297b93be7c1f5604"
+    },
+    {
+      "path": "concepts/14-five-oclock/preview-spruce.png",
+      "bytes": 54098,
+      "sha256": "1e576f0728fcfe4b2d43ccb398ab4ceb801b9429bce232618d0ddf0660e24b70"
+    },
+    {
+      "path": "concepts/mark/final/the-o/logo-dark.svg",
+      "bytes": 11431,
+      "sha256": "97dfcd2f15841beda2de3c0b4ddaa23497ca2302426f18186d3fbb94d6af27f4"
+    },
+    {
+      "path": "concepts/mark/final/the-o/logo-light-cap6.6.svg",
+      "bytes": 11316,
+      "sha256": "9217b159d0f1b760cb0660dfa9594d2598b2d001b26a44af72574dd5bd40d8c2"
+    },
+    {
+      "path": "concepts/mark/final/the-o/logo-light-cap7.5.svg",
+      "bytes": 11525,
+      "sha256": "ce90b1fd2aa489cad6d86100094a09f3fde735e08003d9efbffdf7bcf5da7945"
+    },
+    {
+      "path": "concepts/mark/final/the-o/logo-light-cap7.svg",
+      "bytes": 11431,
+      "sha256": "c9271f97d4c831536889cfc15b7747969df9798647c11f99433b827f18afcbc9"
+    },
+    {
+      "path": "concepts/mark/final/the-o/logo-light.svg",
+      "bytes": 11431,
+      "sha256": "c9271f97d4c831536889cfc15b7747969df9798647c11f99433b827f18afcbc9"
+    },
+    {
+      "path": "concepts/mark/final/the-o/logo-one-colour-bone.svg",
+      "bytes": 11345,
+      "sha256": "2c3b41dffda2a7efe5c61607896bf4222caee22066742dd9be9788903045ceaf"
+    },
+    {
+      "path": "concepts/mark/final/the-o/logo-one-colour-ink.svg",
+      "bytes": 11345,
+      "sha256": "5b9220cf3b4b00bdb649f423ebea9df7e7ed7c69641539af0e869fdfdbf0072d"
+    },
+    {
+      "path": "concepts/mark/final/the-o/notes.md",
+      "bytes": 8057,
+      "sha256": "b8a0b28d00d717ce7be9406042e5f2ae16cbd47d9a3fa6822b98674a4f555d89"
+    },
+    {
+      "path": "concepts/mark/final/the-o/side-dark.svg",
+      "bytes": 625,
+      "sha256": "12df805b9abdd38758449e739f78697a778512e3c35d51eb4000774bee78a041"
+    },
+    {
+      "path": "concepts/mark/final/the-o/side-light.svg",
+      "bytes": 625,
+      "sha256": "bd9ea7b316bb7d3810770a66646d3073c29c74c4c7c1797453cd547c4e94444e"
+    },
+    {
+      "path": "concepts/mark/final/the-o/side-one-colour-bone.svg",
+      "bytes": 643,
+      "sha256": "cc99a941290184dc8ddbb471ea1c4898d2d3b7ce7e51a492a12e4a5c47702c7a"
+    },
+    {
+      "path": "concepts/mark/final/the-o/side-one-colour-ink.svg",
+      "bytes": 643,
+      "sha256": "c6f51558470afec7d1c3c572eb4e83dca91e5294d62fe5c5590811c9bbc25522"
+    },
+    {
+      "path": "concepts/mark/final/the-o/symbol-dark.svg",
+      "bytes": 695,
+      "sha256": "39105f94fe2198a355fd26336a4e3b8a63f8280bba2d0e93be88321c86a7fa32"
+    },
+    {
+      "path": "concepts/mark/final/the-o/symbol-light-19mm.svg",
+      "bytes": 686,
+      "sha256": "24d067e793f0323c0d52cec8bc6324065735000ec0ee3d5c854777dd2770dad8"
+    },
+    {
+      "path": "concepts/mark/final/the-o/symbol-light-25mm.svg",
+      "bytes": 695,
+      "sha256": "938ccb2ce5fa6ba345c28e995aa0f9143c4cee5a0a45cd3430f7307adcb07e05"
+    },
+    {
+      "path": "concepts/mark/final/the-o/symbol-light-40mm.svg",
+      "bytes": 691,
+      "sha256": "8e6537c37bf4368c7623f026e3e5426e9c226a84868d0f9c38fc54086b443d84"
+    },
+    {
+      "path": "concepts/mark/final/the-o/symbol-light.svg",
+      "bytes": 695,
+      "sha256": "938ccb2ce5fa6ba345c28e995aa0f9143c4cee5a0a45cd3430f7307adcb07e05"
+    },
+    {
+      "path": "concepts/mark/final/the-o/symbol-one-colour-bone.svg",
+      "bytes": 697,
+      "sha256": "2373c13bd6550153db65e7df17ef9fc90750370ce22e7b161951d7f055c4ef40"
+    },
+    {
+      "path": "concepts/mark/final/the-o/symbol-one-colour-ink.svg",
+      "bytes": 697,
+      "sha256": "d1660bd7b899e0b6e3745943deb564757cf503964a85300e5132ee14699b1abc"
+    },
+    {
+      "path": "fonts/Archivo-Bold.ttf",
+      "bytes": 121440,
+      "sha256": "4395e08b6a10efe4c33cc45d474f9d725e20cb58bf03fe348f1e73e243d2cf75"
+    },
+    {
+      "path": "fonts/Archivo-SemiBold.ttf",
+      "bytes": 121292,
+      "sha256": "e734d656fa6a8f72236374fdd730d3975b7b634a13b3106caa19b3678ac6ff7b"
+    },
+    {
+      "path": "fonts/OFL-Archivo.txt",
+      "bytes": 4481,
+      "sha256": "393a694c7dee6694a22c73049e95cea5d0808697a872c435862d33c0afc67091"
+    }
+  ],
+  "portableReferences": [
+    {
+      "path": "next-round-research.md",
+      "bytes": 7172,
+      "sha256": "fcd84bc6c1a85a7bae091f6ad5146b5ad1d136c0f5e9f327c67399768b564e7c"
+    },
+    {
+      "path": "concepts/next-round-research.md",
+      "bytes": 7163,
+      "sha256": "f6463a7608a0f3e194b83f226740212f3972aee91b5a8224f1abdde12888b6a7"
+    }
+  ],
+  "outputs": {
+    "index.html": {
+      "bytes": 14206386,
+      "sha256": "332194979ab07a73341c7853b7b49b83f5cae35ce38499fcc22f8658832d9bde"
+    },
+    "OFF-SHFT-Next-Round-Review.pdf": {
+      "bytes": 13628680,
+      "sha256": "4928ceb92c0779fe8feaa29ef00e6d63302a911d3becab42c6d943e5644f0631"
+    },
+    "contact-sheet.png": {
+      "bytes": 530581,
+      "sha256": "f3b483cbdb4b4d65a14a2f13ad9190dc07c81c5aa03d12b7df6f270c0a743ff7"
+    }
+  }
+}

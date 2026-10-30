@@ -1,0 +1,5 @@
+# Preserve exact upload bytes and their audit hashes across checkouts.
+production-uploads/** -text
+production-uploads/png/*.png binary
+# Some approved SVG sources use CRLF; keep those exact bytes without treating CR as trailing whitespace.
+production-uploads/svg/*.svg whitespace=cr-at-eol

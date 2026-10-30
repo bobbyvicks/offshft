@@ -1,0 +1,145 @@
+{
+  "storeId": 18982909,
+  "scope": "Only ten existing Pocket / White / S-2XL variants; preserve24 Heavyweight configurations, retail prices, populated SKUs and Shopify IDs. Record supplier-generated SKUs for completed targets whose original SKU was null/empty.",
+  "technique": "DTG",
+  "placement": "pocket",
+  "catalogueProductId": 593,
+  "printfileId": 191,
+  "fieldPixels": [
+    450,
+    300
+  ],
+  "fieldDpi": 150,
+  "physicalFieldInches": [
+    3,
+    2
+  ],
+  "canvasPixels": [
+    1800,
+    1200
+  ],
+  "canvasDpi": 600,
+  "supplierPlacementVerified": false,
+  "variants": [
+    {
+      "design": "logo",
+      "syncProductId": 487246205,
+      "shopifyProductId": "15476778631490",
+      "syncVariantId": 5605512017,
+      "shopifyVariantId": "67946096296258",
+      "catalogueVariantId": 15150,
+      "style": "Pocket",
+      "colour": "White",
+      "size": "S",
+      "name": "OFF SHFT Logo T-Shirt / Pocket / S / White"
+    },
+    {
+      "design": "logo",
+      "syncProductId": 487246205,
+      "shopifyProductId": "15476778631490",
+      "syncVariantId": 5605512018,
+      "shopifyVariantId": "67946096329026",
+      "catalogueVariantId": 15151,
+      "style": "Pocket",
+      "colour": "White",
+      "size": "M",
+      "name": "OFF SHFT Logo T-Shirt / Pocket / M / White"
+    },
+    {
+      "design": "logo",
+      "syncProductId": 487246205,
+      "shopifyProductId": "15476778631490",
+      "syncVariantId": 5605512019,
+      "shopifyVariantId": "67946096361794",
+      "catalogueVariantId": 15152,
+      "style": "Pocket",
+      "colour": "White",
+      "size": "L",
+      "name": "OFF SHFT Logo T-Shirt / Pocket / L / White"
+    },
+    {
+      "design": "logo",
+      "syncProductId": 487246205,
+      "shopifyProductId": "15476778631490",
+      "syncVariantId": 5605512020,
+      "shopifyVariantId": "67946096394562",
+      "catalogueVariantId": 15153,
+      "style": "Pocket",
+      "colour": "White",
+      "size": "XL",
+      "name": "OFF SHFT Logo T-Shirt / Pocket / XL / White"
+    },
+    {
+      "design": "logo",
+      "syncProductId": 487246205,
+      "shopifyProductId": "15476778631490",
+      "syncVariantId": 5605512021,
+      "shopifyVariantId": "67946096427330",
+      "catalogueVariantId": 15154,
+      "style": "Pocket",
+      "colour": "White",
+      "size": "2XL",
+      "name": "OFF SHFT Logo T-Shirt / Pocket / 2XL / White"
+    },
+    {
+      "design": "clock",
+      "syncProductId": 487246206,
+      "shopifyProductId": "15476778729794",
+      "syncVariantId": 5605512034,
+      "shopifyVariantId": "67946096689474",
+      "catalogueVariantId": 15150,
+      "style": "Pocket",
+      "colour": "White",
+      "size": "S",
+      "name": "The Clock T-Shirt / Pocket / S / White"
+    },
+    {
+      "design": "clock",
+      "syncProductId": 487246206,
+      "shopifyProductId": "15476778729794",
+      "syncVariantId": 5605512035,
+      "shopifyVariantId": "67946096722242",
+      "catalogueVariantId": 15151,
+      "style": "Pocket",
+      "colour": "White",
+      "size": "M",
+      "name": "The Clock T-Shirt / Pocket / M / White"
+    },
+    {
+      "design": "clock",
+      "syncProductId": 487246206,
+      "shopifyProductId": "15476778729794",
+      "syncVariantId": 5605512036,
+      "shopifyVariantId": "67946096755010",
+      "catalogueVariantId": 15152,
+      "style": "Pocket",
+      "colour": "White",
+      "size": "L",
+      "name": "The Clock T-Shirt / Pocket / L / White"
+    },
+    {
+      "design": "clock",
+      "syncProductId": 487246206,
+      "shopifyProductId": "15476778729794",
+      "syncVariantId": 5605512037,
+      "shopifyVariantId": "67946096787778",
+      "catalogueVariantId": 15153,
+      "style": "Pocket",
+      "colour": "White",
+      "size": "XL",
+      "name": "The Clock T-Shirt / Pocket / XL / White"
+    },
+    {
+      "design": "clock",
+      "syncProductId": 487246206,
+      "shopifyProductId": "15476778729794",
+      "syncVariantId": 5605512038,
+      "shopifyVariantId": "67946096820546",
+      "catalogueVariantId": 15154,
+      "style": "Pocket",
+      "colour": "White",
+      "size": "2XL",
+      "name": "The Clock T-Shirt / Pocket / 2XL / White"
+    }
+  ]
+}

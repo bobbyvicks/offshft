@@ -1,0 +1,165 @@
+{
+  "checkedAt": "2026-10-29T20:05:52.380Z",
+  "method": "Unauthenticated public HTTP GET; no browser, profile, cookies, credentials or authenticated endpoints. Redirects followed manually; no remote image downloads.",
+  "pages": [
+    {
+      "kind": "home",
+      "url": "https://offshft.myshopify.com/",
+      "status": 200,
+      "finalUrl": "https://offshft.myshopify.com/password",
+      "contentType": "text/html; charset=utf-8",
+      "title": "– Off Shft",
+      "passwordGateDetected": true,
+      "passwordEvidence": {
+        "passwordRoute": true,
+        "passwordForm": true,
+        "passwordInput": true,
+        "openingSoon": true
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://offshft.myshopify.com/",
+          "to": "https://offshft.myshopify.com/password"
+        }
+      ],
+      "publicNavigationLinks": [],
+      "catalogueDiscoveryLinks": [],
+      "checkedAt": "2026-10-29T20:05:52.380Z"
+    },
+    {
+      "kind": "catalogue",
+      "url": "https://offshft.myshopify.com/collections/all",
+      "status": 200,
+      "finalUrl": "https://offshft.myshopify.com/password",
+      "contentType": "text/html; charset=utf-8",
+      "title": "– Off Shft",
+      "passwordGateDetected": true,
+      "passwordEvidence": {
+        "passwordRoute": true,
+        "passwordForm": true,
+        "passwordInput": true,
+        "openingSoon": true
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://offshft.myshopify.com/collections/all",
+          "to": "https://offshft.myshopify.com/password"
+        }
+      ],
+      "publicNavigationLinks": [],
+      "catalogueDiscoveryLinks": [],
+      "checkedAt": "2026-10-29T20:05:52.286Z"
+    },
+    {
+      "kind": "new-product",
+      "title": "– Off Shft",
+      "handle": "time-well-earned-t-shirt",
+      "url": "https://offshft.myshopify.com/products/time-well-earned-t-shirt",
+      "status": 200,
+      "finalUrl": "https://offshft.myshopify.com/password",
+      "contentType": "text/html; charset=utf-8",
+      "passwordGateDetected": true,
+      "passwordEvidence": {
+        "passwordRoute": true,
+        "passwordForm": true,
+        "passwordInput": true,
+        "openingSoon": true
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://offshft.myshopify.com/products/time-well-earned-t-shirt",
+          "to": "https://offshft.myshopify.com/password"
+        }
+      ],
+      "publicNavigationLinks": [],
+      "catalogueDiscoveryLinks": [],
+      "checkedAt": "2026-10-29T20:05:52.376Z",
+      "intendedProductTitle": "Time Well Earned. T-Shirt"
+    },
+    {
+      "kind": "new-product",
+      "title": "– Off Shft",
+      "handle": "the-rest-is-ours-hoodie",
+      "url": "https://offshft.myshopify.com/products/the-rest-is-ours-hoodie",
+      "status": 200,
+      "finalUrl": "https://offshft.myshopify.com/password",
+      "contentType": "text/html; charset=utf-8",
+      "passwordGateDetected": true,
+      "passwordEvidence": {
+        "passwordRoute": true,
+        "passwordForm": true,
+        "passwordInput": true,
+        "openingSoon": true
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://offshft.myshopify.com/products/the-rest-is-ours-hoodie",
+          "to": "https://offshft.myshopify.com/password"
+        }
+      ],
+      "publicNavigationLinks": [],
+      "catalogueDiscoveryLinks": [],
+      "checkedAt": "2026-10-29T20:05:52.326Z",
+      "intendedProductTitle": "The Rest Is Ours. Hoodie"
+    },
+    {
+      "kind": "new-product",
+      "title": "– Off Shft",
+      "handle": "ours-to-spend-trucker-hat",
+      "url": "https://offshft.myshopify.com/products/ours-to-spend-trucker-hat",
+      "status": 200,
+      "finalUrl": "https://offshft.myshopify.com/password",
+      "contentType": "text/html; charset=utf-8",
+      "passwordGateDetected": true,
+      "passwordEvidence": {
+        "passwordRoute": true,
+        "passwordForm": true,
+        "passwordInput": true,
+        "openingSoon": true
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://offshft.myshopify.com/products/ours-to-spend-trucker-hat",
+          "to": "https://offshft.myshopify.com/password"
+        }
+      ],
+      "publicNavigationLinks": [],
+      "catalogueDiscoveryLinks": [],
+      "checkedAt": "2026-10-29T20:05:52.266Z",
+      "intendedProductTitle": "Ours to Spend. Trucker Hat"
+    },
+    {
+      "kind": "new-product",
+      "title": "– Off Shft",
+      "handle": "five-oclock-crewneck",
+      "url": "https://offshft.myshopify.com/products/five-oclock-crewneck",
+      "status": 200,
+      "finalUrl": "https://offshft.myshopify.com/password",
+      "contentType": "text/html; charset=utf-8",
+      "passwordGateDetected": true,
+      "passwordEvidence": {
+        "passwordRoute": true,
+        "passwordForm": true,
+        "passwordInput": true,
+        "openingSoon": true
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://offshft.myshopify.com/products/five-oclock-crewneck",
+          "to": "https://offshft.myshopify.com/password"
+        }
+      ],
+      "publicNavigationLinks": [],
+      "catalogueDiscoveryLinks": [],
+      "checkedAt": "2026-10-29T20:05:52.331Z",
+      "intendedProductTitle": "5:00 Crewneck"
+    }
+  ],
+  "finding": "Home, catalogue and all four new-product URLs redirect HTTP302 to the storefront password page, which returns HTTP200. Public catalogue navigation and product404 status cannot be verified behind this gate. No gate was bypassed."
+}

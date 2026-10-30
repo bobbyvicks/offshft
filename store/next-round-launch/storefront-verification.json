@@ -1,0 +1,29 @@
+{
+  "observedDate": "2026-10-29",
+  "method": "Native Brave UI through CUA, using the owner's existing authenticated storefront session. Each colour was selected using its visible label and the resulting image alt and disabled purchase control were read from fresh UI state. Screenshots additionally inspected each product and the Caramel cap/Espresso crewneck.",
+  "domain": "offshft.myshopify.com",
+  "products": [
+    {"handle": "time-well-earned-t-shirt", "priceCAD": "44.99", "coloursChecked": ["Blue Spruce", "Ivory", "Pepper", "Blue Jean"], "matchingImages": 4, "buyButton": "Sold out, disabled", "mockupNoticeVisible": true},
+    {"handle": "the-rest-is-ours-hoodie", "priceCAD": "89.99", "coloursChecked": ["Blue Jean", "Ivory", "Pepper", "Butter"], "matchingImages": 4, "buyButton": "Sold out, disabled", "mockupNoticeVisible": true, "imageView": "back"},
+    {"handle": "ours-to-spend-trucker-hat", "priceCAD": "34.99", "coloursChecked": ["Evergreen", "Navy", "Khaki", "Caramel"], "matchingImages": 4, "buyButton": "Sold out, disabled", "mockupNoticeVisible": true, "caramelArtwork": "Bone including period"},
+    {"handle": "five-oclock-crewneck", "priceCAD": "79.99", "coloursChecked": ["Ivory", "Blue Jean", "Pepper", "Espresso"], "matchingImages": 4, "buyButton": "Sold out, disabled", "mockupNoticeVisible": true, "espressoArtwork": "Bone including colon"}
+  ],
+  "catalogue": {
+    "url": "https://offshft.myshopify.com/collections/all",
+    "navigation": "Catalog link in the visible storefront header",
+    "displayedItemCount": 21,
+    "allFourNewProductLinksPresent": true
+  },
+  "capCollectionMembership": {
+    "source": "Fresh read-only Sidekick query after automated indexing completed, observed in admin UI",
+    "allHats": {"id": "527680078146", "member": true},
+    "textHats": {"id": "527680241986", "member": true, "collectionMembershipQueryAlsoConfirmed": true}
+  },
+  "collectionPageLimitation": {
+    "https://offshft.myshopify.com/collections/all-hats": "Page not found in authenticated storefront session",
+    "https://offshft.myshopify.com/collections/text-hats": "Page not found in authenticated storefront session",
+    "action": "No collection publication or navigation settings changed. All four new products remain reachable through the verified main Catalog route."
+  },
+  "publicAccess": "Separate unauthenticated HTTP checks in storefront-public-access.json redirect to the password page. Storefront password protection was not changed.",
+  "limitations": ["Preview observations are not a public-access claim.", "No physical sample, Printful sync, production cost or fulfilment setup is confirmed."]
+}

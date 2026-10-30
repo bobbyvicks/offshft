@@ -1,0 +1,355 @@
+{
+  "completedAt": "2026-10-29T23:34:10Z",
+  "scope": "Original17 product galleries only",
+  "action": "Remove existing media associations from product and Save; no Files library deletion",
+  "products": [
+    {
+      "productId": "15476769980738",
+      "title": "OFF SHFT Logo Hat",
+      "handle": "off-shft-logo-hat",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664459845954",
+          "filename": "offshft-trucker-6606-logo.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664459878722",
+          "filename": "offshft-five-panel-logo.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664459911490",
+          "filename": "offshft-dad-hat-logo.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664459944258",
+          "filename": "offshft-rope-cap-logo.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 5,
+      "saveVerified": true,
+      "verification": "Full native product reload verified exactly five finished photos, no drawings and no unsaved state."
+    },
+    {
+      "productId": "15476770046274",
+      "title": "The Clock Hat",
+      "handle": "the-clock-hat",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664460173634",
+          "filename": "offshft-trucker-6606-clock.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664460206402",
+          "filename": "offshft-five-panel-clock.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664460239170",
+          "filename": "offshft-dad-hat-clock.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664460271938",
+          "filename": "offshft-rope-cap-clock.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 5,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476770111810",
+      "title": "Punched Out. Hat",
+      "handle": "punched-out-hat",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664460304706",
+          "filename": "offshft-trucker-6606-punched-out.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664460337474",
+          "filename": "offshft-five-panel-punched-out.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664460370242",
+          "filename": "offshft-dad-hat-punched-out.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664460403010",
+          "filename": "offshft-rope-cap-punched-out.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 5,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476770144578",
+      "title": "OFF SHFT Logo Hoodie",
+      "handle": "off-shft-logo-hoodie",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664460435778",
+          "filename": "offshft-hoodie-5161-logo.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664460468546",
+          "filename": "offshft-hoodie-1567-logo.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 6,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476770210114",
+      "title": "The Clock Hoodie",
+      "handle": "the-clock-hoodie",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664460501314",
+          "filename": "offshft-hoodie-5161-clock.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664460534082",
+          "filename": "offshft-hoodie-1567-clock.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 6,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476770275650",
+      "title": "Punched Out. Hoodie",
+      "handle": "punched-out-hoodie",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664460927298",
+          "filename": "offshft-hoodie-5161-punched-out.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664460960066",
+          "filename": "offshft-hoodie-1567-punched-out.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 6,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476774764866",
+      "title": "OFF SHFT Logo Crewneck",
+      "handle": "off-shft-logo-crewneck",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664495497538",
+          "filename": "offshft-crew-1466-logo.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 2,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476774830402",
+      "title": "The Clock Crewneck",
+      "handle": "the-clock-crewneck",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664498020674",
+          "filename": "offshft-crew-1466-clock.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 2,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476774895938",
+      "title": "Punched Out. Crewneck",
+      "handle": "punched-out-crewneck",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664498446658",
+          "filename": "offshft-crew-1466-punched-out.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 2,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476774961474",
+      "title": "OFF SHFT Logo Sweatpants",
+      "handle": "off-shft-logo-sweatpants",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46665017131330",
+          "filename": "sweatpants-logo.png",
+          "reason": "obsolete Slate concept colour"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664498512194",
+          "filename": "offshft-pants-1469-logo.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 2,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476774994242",
+      "title": "The Clock Sweatpants",
+      "handle": "the-clock-sweatpants",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46665017360706",
+          "filename": "sweatpants-clock.png",
+          "reason": "obsolete Slate concept colour"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664498643266",
+          "filename": "offshft-pants-1469-clock.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 2,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476775059778",
+      "title": "Punched Out. Sweatpants",
+      "handle": "punched-out-sweatpants",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46665017098562",
+          "filename": "sweatpants-punched-out.png",
+          "reason": "obsolete Slate concept colour"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664499364162",
+          "filename": "offshft-pants-1469-punched-out.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 2,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476778631490",
+      "title": "OFF SHFT Logo T-Shirt",
+      "handle": "off-shft-logo-t-shirt",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664541765954",
+          "filename": "offshft-tee-1717-logo.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664541798722",
+          "filename": "offshft-tee-6030-logo.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 3,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476778729794",
+      "title": "The Clock T-Shirt",
+      "handle": "the-clock-t-shirt",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664542159170",
+          "filename": "offshft-tee-1717-clock.png",
+          "reason": "flat concept drawing"
+        },
+        {
+          "id": "gid://shopify/MediaImage/46664542191938",
+          "filename": "offshft-tee-6030-clock.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 3,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476778795330",
+      "title": "OFF SHFT Logo Jacket",
+      "handle": "off-shft-logo-jacket",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664542880066",
+          "filename": "offshft-jacket-co200-logo.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 2,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476778860866",
+      "title": "The Clock Jacket",
+      "handle": "the-clock-jacket",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664542912834",
+          "filename": "offshft-jacket-co200-clock.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 2,
+      "saveVerified": true,
+      "verification": "Native Shopify product gallery: intended drawing selectors absent; Save completed; no pending Save/Unsaved controls; navigated away without discarding changes."
+    },
+    {
+      "productId": "15476778926402",
+      "title": "Punched Out. Jacket",
+      "handle": "punched-out-jacket",
+      "removedMedia": [
+        {
+          "id": "gid://shopify/MediaImage/46664544256322",
+          "filename": "offshft-jacket-co200-punched-out.png",
+          "reason": "flat concept drawing"
+        }
+      ],
+      "retainedPhotoCount": 2,
+      "saveVerified": true,
+      "verification": "Full native product reload verified exactly two finished photos, no drawings and no unsaved state."
+    }
+  ],
+  "summary": {
+    "products": 17,
+    "flatDrawingsDetached": 31,
+    "obsoleteSlateMockupsDetached": 3,
+    "retainedFinishedPhotos": 57
+  },
+  "controlsChanged": "Media association controls only; no variant, price, inventory, publication or Printful controls used",
+  "note": "Shopify first Save often emitted success then restored Unsaved changes; second settled Save completed. LogoCrewneck navigation was canceled when unsaved guard appeared; no changes discarded. Independent storefront readback remains with root."
+}

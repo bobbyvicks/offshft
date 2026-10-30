@@ -1,0 +1,65 @@
+{
+  "completed": {
+    "5605512017": 1098409896,
+    "5605512034": 1098409983,
+    "5605512018": 1098409896,
+    "5605512019": 1098409896,
+    "5605512020": 1098409896,
+    "5605512021": 1098409896,
+    "5605512035": 1098409983,
+    "5605512036": 1098409983,
+    "5605512037": 1098409983,
+    "5605512038": 1098409983
+  },
+  "unchangedHeavyweightCount": 24,
+  "phase": "remaining",
+  "nativePlacementVerifiedByOperator": true,
+  "commit": "83b6f7ed5d6142d0083b25e0b65854bbc2cd971e",
+  "generatedSupplierSkus": [
+    {
+      "syncVariantId": 5605512017,
+      "shopifyVariantId": "67946096296258",
+      "sku": "6974850"
+    },
+    {
+      "syncVariantId": 5605512018,
+      "shopifyVariantId": "67946096329026",
+      "sku": "7250169"
+    },
+    {
+      "syncVariantId": 5605512019,
+      "shopifyVariantId": "67946096361794",
+      "sku": "8492006"
+    },
+    {
+      "syncVariantId": 5605512020,
+      "shopifyVariantId": "67946096394562",
+      "sku": "9361675"
+    },
+    {
+      "syncVariantId": 5605512021,
+      "shopifyVariantId": "67946096427330",
+      "sku": "2296520"
+    },
+    {
+      "syncVariantId": 5605512034,
+      "shopifyVariantId": "67946096689474",
+      "sku": "4516944"
+    },
+    {
+      "syncVariantId": 5605512035,
+      "shopifyVariantId": "67946096722242",
+      "sku": "2493846"
+    },
+    {
+      "syncVariantId": 5605512036,
+      "shopifyVariantId": "67946096755010",
+      "sku": "5300983"
+    },
+    {
+      "syncVariantId": 5605512037,
+      "shopifyVariantId": "67946096787778",
+      "sku": "3597328"
+    }
+  ]
+}

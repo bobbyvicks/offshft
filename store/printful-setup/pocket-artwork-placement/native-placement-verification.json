@@ -1,0 +1,28 @@
+{
+  "verifiedAt": "2026-10-30T03:37:29.218926+00:00",
+  "method": "Native persisted Printful variant Designer inspection; no design fields changed and no UI save performed.",
+  "placement": "Pocket",
+  "technique": "DTG",
+  "wholeCanvasInches": [
+    3,
+    2
+  ],
+  "transparentCanvasRetained": true,
+  "artwork": [
+    {
+      "design": "logo",
+      "syncVariantId": 5605512017,
+      "artworkWidthInches": 2,
+      "centeredOnActualPocket": true,
+      "proof": "../../pocket-artwork-placement/verification/logo-printful-pocket-placement.jpg"
+    },
+    {
+      "design": "clock",
+      "syncVariantId": 5605512034,
+      "artworkHeightInches": 1,
+      "centeredOnActualPocket": true,
+      "proof": "../../pocket-artwork-placement/verification/clock-printful-pocket-placement.jpg"
+    }
+  ],
+  "sizeBasis": "Native Transform width3.00/height2.00 retains the exact canonical SVG-generated3x2in canvas. Source viewport dimensions define artwork2in width/1in height, respectively."
+}
