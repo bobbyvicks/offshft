@@ -29,6 +29,11 @@ Owner picks which of these become the first 6–8 hats, and which fabric colour 
 
 Six short lines in the house voice, with previews and quick trademark notes: `designs/phrases/notes.md`. NOWHERE TO BE., SUN’S STILL UP., NO ALARM SET., BANKED TIME., NOT PICKING UP., PARKED. Status: drafted (production art in designs/15-20), listed in the store 30 Oct 2026 behind the password; cold read and sew-outs still to do.
 
+## Phrase ideas, round 2 (30 Oct 2026)
+
+Three more lines for the gaps (night shift, rotations away from home, retirement gifts), screened for trademarks:
+LAST SHIFT., DONE NIGHTS., HOME FOR A BIT. Status: idea (no art yet). `designs/phrases/round-2.md`.
+
 ## Backlog (drop 2 and later)
 
 | Hat | Hobby | Notes |

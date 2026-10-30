@@ -5,6 +5,10 @@
 - [ ] Search "OFF SHFT" on Instagram, TikTok, Etsy and the Canadian trademark database (CIPO). Stop and rethink if a clothing brand already uses it.
   - Owner decision, 29 Oct 2026: told about FIGS, Inc.'s US filing for OFF-SHIFT (serial 97169167, surgical scrubs including scrub hats, class 10) and chose to go ahead with OFF SHFT.
   - Owner decision, 29 Oct 2026, clothing: told that FIGS sells "Off-Shift" hoodies and crewnecks, and that its OFF-SHIFT filing or a sister ON-SHIFT filing may cover clothing in class 25 (store/apparel-copy.md, owner decision 1). The owner checked the USPTO record themselves and chose to go ahead with OFF SHFT on clothing too.
+  - Found 30 Oct 2026 and passed to the owner (search snippets only): SH/FT, US SN 88646754, class 25
+    including hats and hooded sweatshirts, filed 2019, "Opposition Pending" in 2021; the USPTO reads it as SHIFT. And
+    SHFT, US Reg. 4035582 (SHFT MEDIA, LLC), whose class 25 part looks cancelled (2020). [CONFIRM on TSDR and TTABVUE:
+    store/research/trademarks-round-2.md]
 - [ ] Buy offshft.com (and offshifthats.com as a backup that forwards to it)
 - [ ] Decide on the Shopify store: use the existing connected store or start a new one
 - [ ] Rename the store to OFF SHFT and connect the domain

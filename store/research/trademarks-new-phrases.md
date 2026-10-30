@@ -131,3 +131,7 @@ Also worth doing:
   - whether Goalhanger sells "The Rest Is" clothing.
 
 *This is a knock-out search done from search-engine results in October 2026. It is not a legal clearance and not legal advice.*
+
+## Later checks
+
+30 Oct 2026: LAST SHIFT., DONE NIGHTS., HOME FOR A BIT. and the owner's FOR A REASON., plus two filings that bear on the OFF SHFT name (SH/FT, SHFT): `trademarks-round-2.md`.

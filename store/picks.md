@@ -114,10 +114,20 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
   | Not Picking Up. Hoodie (big front) | Oversized, Garment-Dyed; S to 3XL | C$89.99 |
   | Parked. Trucker Hat (front, +1.95 mm) | Retro Trucker | C$34.99 |
 - Codex also added four listings on 29 Oct (5:00 Crewneck, Ours to Spend. Trucker Hat, The Rest Is Ours. Hoodie,
-  Time Well Earned. T-Shirt). Trademark knock-out search, 29 Oct (search results only):
-  store/research/trademarks-new-phrases.md. Time Well Earned., The Rest Is Ours. and Ours to Spend. look clear;
-  5:00 is a small risk (Margaritaville's "It's Five O'Clock Somewhere" and Jaya's "5 a 7" in Canada): keep it "5:00",
-  no "somewhere" or beach imagery. [CONFIRM: the official searches listed in the report]
+  Time Well Earned. T-Shirt), and the owner a fifth that evening: For a Reason. Hat (3D puff front; Charcoal and
+  Evergreen on the Yupoong 6606, Ivory on a Comfort Colors CCST0 trucker; C$34.99). Its knock-out screen (30 Oct):
+  small risk, check HERE FOR A REASON (US SN 98183164) first (store/research/trademarks-round-2.md). No Printful page
+  for the CCST0 turned up: check what the Ivory style is linked to.
+  - Stock (checked 30 Oct): For a Reason., Time Well Earned., The Rest Is Ours. and 5:00 track stock with nothing on
+    hand and don't sell when out, so they show sold out; so does Pocket / S / White on the logo and clock tees. Told the
+    owner, not changed (their listings).
+  - Trademark knock-out search for the first four, 29 Oct (search results only):
+    store/research/trademarks-new-phrases.md. Time Well Earned., The Rest Is Ours. and Ours to Spend. look clear;
+    5:00 is a small risk (Margaritaville's "It's Five O'Clock Somewhere" and Jaya's "5 a 7" in Canada): keep it "5:00",
+    no "somewhere" or beach imagery. [CONFIRM: the official searches listed in the report]
+- Ideas for what to add next, researched 30 Oct when the owner asked (nothing added yet): a full-zip hoodie, a
+  fisherman beanie, a corduroy cap, a long-sleeve tee, the side clock on the phrase hats, a gift card, the FAQ link and
+  the empty policies: store/research/next-adds.md. Three new lines: designs/phrases/round-2.md.
 
 ## Everything the owner sent
 

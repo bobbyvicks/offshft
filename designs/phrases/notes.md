@@ -72,3 +72,7 @@ Didn't make it: BOOTS OFF., because it's a Jon Pardi single from this year and w
   - Where: Trucker front, one line: about 55 mm at 6.6 mm caps, smaller than the logo. For the couch meaning, the left chest of a hoodie.
   - Why: Drivers are part of the brand's audience but had no line of their own. The same word also covers you, parked on the couch.
   - Risks: It's the same kind of one-word 'done' as Punched Out., so keep the two off the same piece. On its own it can look unfinished ('parked where?'), and 'parked' can also mean shelved. A quick web search found no PARKED clothing brand. USPTO and CIPO weren't checked.
+
+## Round 2
+
+Three more ideas, 30 Oct 2026 (LAST SHIFT., DONE NIGHTS., HOME FOR A BIT.): `round-2.md`.
