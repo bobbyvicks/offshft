@@ -82,7 +82,10 @@ header = read(BASE / "sections/header-group.json")
 announcement = header["sections"]["header_announcements_9jGBFp"]["blocks"]["announcement_BxgCk9"]["settings"]
 announcement.update({"text": "You put in the hours. This time is yours.", "link": "/collections/all"})
 hero_css = """.hero[id$=\"__offshft_hero\"]{min-height:50vw}.hero[id$=\"__offshft_hero\"] .hero__content-wrapper>.text-block{max-width:min(40vw,28rem)}.hero[id$=\"__offshft_hero\"] h1{font-size:clamp(1.5rem,3.2vw,3rem);line-height:1.15}.hero[id$=\"__offshft_hero\"] .hero__content-wrapper{justify-content:center;align-items:flex-start}@media(max-width:749px){.hero[id$=\"__offshft_hero\"]{min-height:150vw}.hero[id$=\"__offshft_hero\"] .hero__container{padding-block-start:24px;padding-block-end:24px}.hero[id$=\"__offshft_hero\"] .hero__content-wrapper{justify-content:flex-start;gap:14px}.hero[id$=\"__offshft_hero\"] .hero__content-wrapper>.text-block{max-width:100%}.hero[id$=\"__offshft_hero\"] h1{font-size:clamp(1.5rem,7.2vw,2rem);line-height:1.15}.hero[id$=\"__offshft_hero\"] .hero__content-wrapper p{font-size:1rem;line-height:1.35}}"""
-header["sections"]["custom_liquid_brand_css"]["settings"]["custom_liquid"] = "<style>html:root{--letter-spacing--heading-loose:.12em;--opacity-muted-text:.7}" + hero_css + "</style>"
+header["sections"]["custom_liquid_brand_css"]["settings"]["custom_liquid"] = (
+    "<style>html:root{--letter-spacing--heading-loose:.12em;--opacity-muted-text:.7}" + hero_css + "</style>\n\n"
+    + (REPO / "store/pocket-preview-fix/pocket-preview-snippet.liquid").read_text(encoding="utf-8").strip()
+)
 write(THEME / "sections/header-group.json", header)
 
 print("Prepared index, footer-group, password and header-group as minified JSON.")

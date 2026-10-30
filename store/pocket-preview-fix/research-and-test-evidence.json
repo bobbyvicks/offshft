@@ -1,0 +1,285 @@
+{
+  "createdAt": "2026-10-30T02:19:10.379924+00:00",
+  "scope": "Read-only evidence and isolated proposal; no native UI, live Shopify, Printful API or unrelated files used by this task.",
+  "observedCause": "Root native QA confirmed Heavyweight/S/Ivory -> Pocket preserves incompatible Ivory. Selecting White selects correct Pocket image and Add to cart. Historical assignments are present.",
+  "products": [
+    {
+      "productId": "gid://shopify/Product/15476778631490",
+      "handle": "off-shft-logo-t-shirt",
+      "pocketVariants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946096296258",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Pocket"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ],
+          "image": {
+            "id": "gid://shopify/ProductImage/54361323700546",
+            "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-logo.png?v=1793250385",
+            "altText": null
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67946096329026",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Pocket"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ],
+          "image": {
+            "id": "gid://shopify/ProductImage/54361323700546",
+            "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-logo.png?v=1793250385",
+            "altText": null
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67946096361794",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Pocket"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ],
+          "image": {
+            "id": "gid://shopify/ProductImage/54361323700546",
+            "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-logo.png?v=1793250385",
+            "altText": null
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67946096394562",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Pocket"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ],
+          "image": {
+            "id": "gid://shopify/ProductImage/54361323700546",
+            "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-logo.png?v=1793250385",
+            "altText": null
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67946096427330",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Pocket"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            },
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ],
+          "image": {
+            "id": "gid://shopify/ProductImage/54361323700546",
+            "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-logo.png?v=1793250385",
+            "altText": null
+          }
+        }
+      ],
+      "currentSnapshotGallery": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-logo.png?v=1793246578",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-1717-blue-spruce-logo.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-logo.png?v=1793250385"
+      ],
+      "existingMockup": "store/realistic-products/colour-expansion/images/tee-6030-white-logo.png"
+    },
+    {
+      "productId": "gid://shopify/Product/15476778729794",
+      "handle": "the-clock-t-shirt",
+      "pocketVariants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946096689474",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Pocket"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ],
+          "image": {
+            "id": "gid://shopify/ProductImage/54361323143490",
+            "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-clock.png?v=1793250385",
+            "altText": null
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67946096722242",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Pocket"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ],
+          "image": {
+            "id": "gid://shopify/ProductImage/54361323143490",
+            "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-clock.png?v=1793250385",
+            "altText": null
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67946096755010",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Pocket"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ],
+          "image": {
+            "id": "gid://shopify/ProductImage/54361323143490",
+            "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-clock.png?v=1793250385",
+            "altText": null
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67946096787778",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Pocket"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ],
+          "image": {
+            "id": "gid://shopify/ProductImage/54361323143490",
+            "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-clock.png?v=1793250385",
+            "altText": null
+          }
+        },
+        {
+          "id": "gid://shopify/ProductVariant/67946096820546",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Pocket"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            },
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ],
+          "image": {
+            "id": "gid://shopify/ProductImage/54361323143490",
+            "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-clock.png?v=1793250385",
+            "altText": null
+          }
+        }
+      ],
+      "currentSnapshotGallery": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-clock.png?v=1793246578",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-1717-blue-spruce-clock.png?v=1793250386",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-clock.png?v=1793250385"
+      ],
+      "existingMockup": "store/realistic-products/colour-expansion/images/tee-6030-white-clock.png"
+    }
+  ],
+  "officialTheme": {
+    "name": "Horizon",
+    "version": "4.3.0",
+    "commit": "dfad90d87be2408de52636315069fc998da28c9e",
+    "sources": {
+      "version": "https://raw.githubusercontent.com/Shopify/horizon/dfad90d87be2408de52636315069fc998da28c9e/config/settings_schema.json",
+      "picker": "https://raw.githubusercontent.com/Shopify/horizon/dfad90d87be2408de52636315069fc998da28c9e/assets/variant-picker.js",
+      "markup": "https://raw.githubusercontent.com/Shopify/horizon/dfad90d87be2408de52636315069fc998da28c9e/snippets/variant-main-picker.liquid"
+    },
+    "verifiedIntegration": "Native picker receives bubbling change, updates selected option, then builds option_values from checked inputs. Public updateSelectedOption preserves native radio bookkeeping. The Style input data-variant-id is read independently for URL changes, so the capture correction synchronizes it. No synthetic event or direct image/cart mutation is used."
+  },
+  "proposal": {
+    "combinedLiquid": "store/pocket-preview-fix/header-custom-liquid-proposed.liquid",
+    "combinedBytes": 6272,
+    "preservesBeforeBackupBytes": true,
+    "guardedProductIds": [
+      "15476778631490",
+      "15476778729794"
+    ],
+    "scope": "Current main-product-page radio pickers only; excludes product cards, quick-add dialogs and featured product sections.",
+    "sizePolicy": "Always preserve requested size. Unsupported Pocket/3XL selects the supported White colour but retains 3XL, leaves variant ID empty and explains missing size. Native unavailable/cart behavior remains authoritative.",
+    "stockPolicy": "Resolver matches variant existence, not available=true. Sold-out existing variants are not treated as missing combinations. No inventory changes.",
+    "frozenForRootDeployment": true
+  },
+  "tests": {
+    "command": "node --test store/pocket-preview-fix/pocket-preview.test.cjs",
+    "passed": 11,
+    "failed": 0,
+    "redPhase": "Initial eight matrix tests were executed against uncorrected selection behavior and all failed before implementation.",
+    "matrixCoverage": "Both actual17-variant tee records, every source variant and both target styles, plus sold-out vs missing distinction, remembered colour and size preservation.",
+    "integrationCoverage": "Focused native-picker boundary fixture checks capture registration, colour/URL metadata, unrelated product exclusion and manual colour preservation.",
+    "syntax": "node --check store/pocket-preview-fix/pocket-preview.js passed",
+    "limit": "Boundary fixture is not a browser DOM test. Root performs live Horizon media/cart/morph desktop/mobile checks. No repository-wide test script exists: tools/package.json exposes build only."
+  }
+}
