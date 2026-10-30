@@ -42,6 +42,10 @@ Facts so far: store/research/comfort-colors.md, the cap and AS Colour hoodie che
 
 ## In Shopify (29 Oct 2026)
 
+**Product photos are the owner's** (30 Oct 2026): they make them with their own tool (Astra), as with the studio
+mockups. Don't render or upload shop photos for new listings; create listings without images and leave the photos to
+the owner. The drawings in store/previews stay for the picker page.
+
 All 17 listings are active and on the Online Store, behind the store password (published 29 Oct 2026, on the owner's
 yes). Nobody can buy yet (see below). Each design on each kind of piece is one listing,
 with the styles as an option, so the 34 pairings fit in 17 listings. Admin: https://admin.shopify.com/store/offshft/products
