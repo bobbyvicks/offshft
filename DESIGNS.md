@@ -27,7 +27,7 @@ Owner picks which of these become the first 6–8 hats, and which fabric colour 
 
 ## Phrase ideas for the owner (29 Oct 2026)
 
-Six short lines in the house voice, with previews and quick trademark notes: `designs/phrases/notes.md`. NOWHERE TO BE., SUN’S STILL UP., NO ALARM SET., BANKED TIME., NOT PICKING UP., PARKED. Status: idea.
+Six short lines in the house voice, with previews and quick trademark notes: `designs/phrases/notes.md`. NOWHERE TO BE., SUN’S STILL UP., NO ALARM SET., BANKED TIME., NOT PICKING UP., PARKED. Status: drafted (production art in designs/15-20), listed in the store 30 Oct 2026 behind the password; cold read and sew-outs still to do.
 
 ## Backlog (drop 2 and later)
 

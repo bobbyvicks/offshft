@@ -1,0 +1,777 @@
+{
+ "query": "mutation Drop1c($p0: ProductSetInput!, $p1: ProductSetInput!, $p2: ProductSetInput!, $p3: ProductSetInput!, $p4: ProductSetInput!, $p5: ProductSetInput!) {\n  p0: productSet(synchronous: true, input: $p0) { product { id handle status variantsCount { count } } userErrors { field message code } }\n  p1: productSet(synchronous: true, input: $p1) { product { id handle status variantsCount { count } } userErrors { field message code } }\n  p2: productSet(synchronous: true, input: $p2) { product { id handle status variantsCount { count } } userErrors { field message code } }\n  p3: productSet(synchronous: true, input: $p3) { product { id handle status variantsCount { count } } userErrors { field message code } }\n  p4: productSet(synchronous: true, input: $p4) { product { id handle status variantsCount { count } } userErrors { field message code } }\n  p5: productSet(synchronous: true, input: $p5) { product { id handle status variantsCount { count } } userErrors { field message code } }\n}",
+ "variables": {
+  "p0": {
+   "title": "Nowhere To Be. Hoodie",
+   "handle": "nowhere-to-be-hoodie",
+   "descriptionHtml": "<p>No shift, no schedule, nobody waiting on you.</p><p>For the couch or the long way home.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: NOWHERE TO BE., embroidered on two lines, about 68 mm (2.7 in) wide</li><li>Styles: Oversized or Garment-Dyed</li><li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li><li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hoodie",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "nowhere-to-be",
+    "hoodie",
+    "phrase",
+    "drop-1c"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "Nowhere To Be. Embroidered Hoodie | OFF SHFT",
+    "description": "No shift, no schedule, nobody waiting on you. Nowhere To Be., embroidered on a hoodie made to order. For the couch or the long way home."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Oversized"
+      },
+      {
+       "name": "Garment-Dyed"
+      }
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ]
+  },
+  "p1": {
+   "title": "Sun’s Still Up. Hat",
+   "handle": "suns-still-up-hat",
+   "descriptionHtml": "<p>You're off work and there's still daylight left.</p><p>For a line in the water or a quick nine before dark.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: SUN’S STILL UP., embroidered on two lines, about 60 mm (2.4 in) wide</li><li>Styles: 5-Panel or Rope Cap</li><li>5-Panel: structured mid-profile cap. One-piece front with no centre seam, 65% polyester and 35% cotton twill, adjustable plastic snap closure</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "text-hat",
+    "suns-still-up",
+    "hat",
+    "phrase",
+    "drop-1c"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "Sun’s Still Up. Embroidered Hat | OFF SHFT",
+    "description": "You're off work and there's still daylight left. Sun’s Still Up., embroidered on a hat made to order. For a line in the water or a quick nine."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "5-Panel"
+      },
+      {
+       "name": "Rope Cap"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "5-Panel"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Rope Cap"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ]
+  },
+  "p2": {
+   "title": "No Alarm Set. Crewneck",
+   "handle": "no-alarm-set-crewneck",
+   "descriptionHtml": "<p>Tomorrow's yours, so no alarm tonight.</p><p>For the night before a day off, and the slow morning after.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: NO ALARM SET., embroidered on one line across the centre front, about 230 mm (9 in) wide</li><li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Fit: relaxed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Crewneck",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "no-alarm-set",
+    "crewneck",
+    "phrase",
+    "drop-1c"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "No Alarm Set. Embroidered Crewneck | OFF SHFT",
+    "description": "Tomorrow's yours, so no alarm tonight. No Alarm Set., embroidered big on the front of a crewneck made to order. For the night before a day off."
+   },
+   "productOptions": [
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "79.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ]
+  },
+  "p3": {
+   "title": "Banked Time. Hat",
+   "handle": "banked-time-hat",
+   "descriptionHtml": "<p>The overtime you saved up, taken as days off.</p><p>For a long stretch at the cottage or on the water.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: BANKED TIME., embroidered on one line, about 96 mm (3.8 in) wide</li><li>Styles: Dad Hat or Retro Trucker</li><li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "text-hat",
+    "banked-time",
+    "hat",
+    "phrase",
+    "drop-1c"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "Banked Time. Embroidered Hat | OFF SHFT",
+    "description": "The overtime you saved up, taken as days off. Banked Time., embroidered on a hat made to order. For a long stretch at the cottage."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Dad Hat"
+      },
+      {
+       "name": "Retro Trucker"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Dad Hat"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Retro Trucker"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ]
+  },
+  "p4": {
+   "title": "Not Picking Up. Hoodie",
+   "handle": "not-picking-up-hoodie",
+   "descriptionHtml": "<p>Off means off. No calls, no extra shifts.</p><p>For a day off with your phone on silent.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: NOT PICKING UP., embroidered on one line across the centre front, about 230 mm (9 in) wide</li><li>Styles: Oversized or Garment-Dyed</li><li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li><li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hoodie",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "not-picking-up",
+    "hoodie",
+    "phrase",
+    "drop-1c"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "Not Picking Up. Embroidered Hoodie | OFF SHFT",
+    "description": "Off means off. No calls, no extra shifts. Not Picking Up., embroidered big on the front of a hoodie made to order. For a day off, phone on silent."
+   },
+   "productOptions": [
+    {
+     "name": "Style",
+     "values": [
+      {
+       "name": "Oversized"
+      },
+      {
+       "name": "Garment-Dyed"
+      }
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      {
+       "name": "S"
+      },
+      {
+       "name": "M"
+      },
+      {
+       "name": "L"
+      },
+      {
+       "name": "XL"
+      },
+      {
+       "name": "2XL"
+      },
+      {
+       "name": "3XL"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Oversized"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "S"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "M"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "L"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "2XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Style",
+       "name": "Garment-Dyed"
+      },
+      {
+       "optionName": "Size",
+       "name": "3XL"
+      }
+     ],
+     "price": "89.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ]
+  },
+  "p5": {
+   "title": "Parked. Trucker Hat",
+   "handle": "parked-trucker-hat",
+   "descriptionHtml": "<p>The truck's parked for the night, and so are you.</p><p>For a lawn chair in the driveway.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: PARKED., embroidered, about 56 mm (2.2 in) wide</li><li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+   "productType": "Hat",
+   "vendor": "OFF SHFT",
+   "tags": [
+    "text-hat",
+    "parked",
+    "hat",
+    "phrase",
+    "drop-1c"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "Parked. Embroidered Trucker Hat | OFF SHFT",
+    "description": "The truck's parked for the night, and so are you. Parked., embroidered on a trucker hat made to order. For a lawn chair in the driveway."
+   },
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "34.99",
+     "inventoryItem": {
+      "tracked": false
+     }
+    }
+   ]
+  }
+ }
+}

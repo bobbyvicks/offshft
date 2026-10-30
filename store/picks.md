@@ -102,6 +102,17 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
   - The Cotton Pique may be made only in Latvia; the Performance polo's margin is thin on a 3XL that ships free.
   - Size & fit and the FAQ now say caps adjust and beanies and bucket hats don't; no quarter-zip or polo chart yet.
   - Every open question per listing is in its toConfirm notes in store/products/drop1b.json.
+- 6 phrase listings, added 30 Oct on the owner's "add them all" (ACTIVE, on the Online Store behind the password, no
+  photos: the owner adds them). Ids: store/apply/out/drop1c-ids.json. Copy: store/products/drop1c.json. Art:
+  designs/15-20 (built by designs/phrases/build.cjs; checks pass; cold read of the K and sew-outs still to do).
+  | Listing | Styles and sizes | Price set |
+  |---|---|---|
+  | Nowhere To Be. Hoodie (left chest, two lines) | Oversized, Garment-Dyed; S to 3XL | C$89.99 |
+  | Sun’s Still Up. Hat (front, two lines) | 5-Panel, Rope Cap | C$34.99 |
+  | No Alarm Set. Crewneck (big front) | 1466; S to 3XL | C$79.99 |
+  | Banked Time. Hat (front, one line, +1.94 mm on 6-panel) | Dad Hat, Retro Trucker | C$34.99 |
+  | Not Picking Up. Hoodie (big front) | Oversized, Garment-Dyed; S to 3XL | C$89.99 |
+  | Parked. Trucker Hat (front, +1.95 mm) | Retro Trucker | C$34.99 |
 - Codex also added four listings on 29 Oct (5:00 Crewneck, Ours to Spend. Trucker Hat, The Rest Is Ours. Hoodie,
   Time Well Earned. T-Shirt). Trademark knock-out search, 29 Oct (search results only):
   store/research/trademarks-new-phrases.md. Time Well Earned., The Rest Is Ours. and Ours to Spend. look clear;
