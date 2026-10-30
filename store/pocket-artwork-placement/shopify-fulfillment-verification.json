@@ -1,0 +1,236 @@
+{
+  "documentedAt": "2026-10-30T03:55:10.860270+00:00",
+  "scope": "Ten existing Logo/Clock Pocket / White variants, S through 2XL only",
+  "evidenceMethod": "Root native Shopify Edit locations save on each variant; refreshed active-theme preview in Canada/CAD; independent local screenshot and final Printful-record review.",
+  "sourcePrintfulVerification": "../printful-setup/pocket-artwork-placement/final-verification.json",
+  "market": "Canada",
+  "currency": "CAD",
+  "shopifyProductCount": 2,
+  "shopifyVariantCount": 10,
+  "rootCause": {
+    "description": "Printful inventory existed but Printful App was unchecked in Edit inventory locations for all ten variants. Shop location remained selected. App row showed Available9999/On hand9999 while total Available was0.",
+    "proof": "verification/logo-pocket-printful-location-inactive.jpg",
+    "officialGuidance": "https://help.shopify.com/en/manual/inventory-and-locations/setup/multi-managed-inventory"
+  },
+  "action": {
+    "method": "Checked only the Printful App fulfillment-location checkbox and saved each variant, beginning with Logo Pocket2XL.",
+    "quantitiesManuallyChanged": false,
+    "shopLocationSelectionChanged": false,
+    "inventoryTrackingChanged": false,
+    "continueSellingWhenOutOfStockEnabled": false,
+    "pricesChanged": false,
+    "heavyweightVariantsChanged": false,
+    "printfulAppStockIndicator": 9999
+  },
+  "variants": [
+    {
+      "design": "logo",
+      "shopifyProductId": "15476778631490",
+      "shopifyVariantId": "67946096296258",
+      "printfulSyncVariantId": 5605512017,
+      "catalogueVariantId": 15150,
+      "size": "S",
+      "colour": "White",
+      "printfulLocationSelectedBefore": false,
+      "printfulLocationSelectedAfter": true,
+      "nativeSaveConfirmedByRoot": true,
+      "storefrontSizeOptionAvailable": true
+    },
+    {
+      "design": "logo",
+      "shopifyProductId": "15476778631490",
+      "shopifyVariantId": "67946096329026",
+      "printfulSyncVariantId": 5605512018,
+      "catalogueVariantId": 15151,
+      "size": "M",
+      "colour": "White",
+      "printfulLocationSelectedBefore": false,
+      "printfulLocationSelectedAfter": true,
+      "nativeSaveConfirmedByRoot": true,
+      "storefrontSizeOptionAvailable": true
+    },
+    {
+      "design": "logo",
+      "shopifyProductId": "15476778631490",
+      "shopifyVariantId": "67946096361794",
+      "printfulSyncVariantId": 5605512019,
+      "catalogueVariantId": 15152,
+      "size": "L",
+      "colour": "White",
+      "printfulLocationSelectedBefore": false,
+      "printfulLocationSelectedAfter": true,
+      "nativeSaveConfirmedByRoot": true,
+      "storefrontSizeOptionAvailable": true
+    },
+    {
+      "design": "logo",
+      "shopifyProductId": "15476778631490",
+      "shopifyVariantId": "67946096394562",
+      "printfulSyncVariantId": 5605512020,
+      "catalogueVariantId": 15153,
+      "size": "XL",
+      "colour": "White",
+      "printfulLocationSelectedBefore": false,
+      "printfulLocationSelectedAfter": true,
+      "nativeSaveConfirmedByRoot": true,
+      "storefrontSizeOptionAvailable": true
+    },
+    {
+      "design": "logo",
+      "shopifyProductId": "15476778631490",
+      "shopifyVariantId": "67946096427330",
+      "printfulSyncVariantId": 5605512021,
+      "catalogueVariantId": 15154,
+      "size": "2XL",
+      "colour": "White",
+      "printfulLocationSelectedBefore": false,
+      "printfulLocationSelectedAfter": true,
+      "nativeSaveConfirmedByRoot": true,
+      "storefrontSizeOptionAvailable": true
+    },
+    {
+      "design": "clock",
+      "shopifyProductId": "15476778729794",
+      "shopifyVariantId": "67946096689474",
+      "printfulSyncVariantId": 5605512034,
+      "catalogueVariantId": 15150,
+      "size": "S",
+      "colour": "White",
+      "printfulLocationSelectedBefore": false,
+      "printfulLocationSelectedAfter": true,
+      "nativeSaveConfirmedByRoot": true,
+      "storefrontSizeOptionAvailable": true
+    },
+    {
+      "design": "clock",
+      "shopifyProductId": "15476778729794",
+      "shopifyVariantId": "67946096722242",
+      "printfulSyncVariantId": 5605512035,
+      "catalogueVariantId": 15151,
+      "size": "M",
+      "colour": "White",
+      "printfulLocationSelectedBefore": false,
+      "printfulLocationSelectedAfter": true,
+      "nativeSaveConfirmedByRoot": true,
+      "storefrontSizeOptionAvailable": true
+    },
+    {
+      "design": "clock",
+      "shopifyProductId": "15476778729794",
+      "shopifyVariantId": "67946096755010",
+      "printfulSyncVariantId": 5605512036,
+      "catalogueVariantId": 15152,
+      "size": "L",
+      "colour": "White",
+      "printfulLocationSelectedBefore": false,
+      "printfulLocationSelectedAfter": true,
+      "nativeSaveConfirmedByRoot": true,
+      "storefrontSizeOptionAvailable": true
+    },
+    {
+      "design": "clock",
+      "shopifyProductId": "15476778729794",
+      "shopifyVariantId": "67946096787778",
+      "printfulSyncVariantId": 5605512037,
+      "catalogueVariantId": 15153,
+      "size": "XL",
+      "colour": "White",
+      "printfulLocationSelectedBefore": false,
+      "printfulLocationSelectedAfter": true,
+      "nativeSaveConfirmedByRoot": true,
+      "storefrontSizeOptionAvailable": true
+    },
+    {
+      "design": "clock",
+      "shopifyProductId": "15476778729794",
+      "shopifyVariantId": "67946096820546",
+      "printfulSyncVariantId": 5605512038,
+      "catalogueVariantId": 15154,
+      "size": "2XL",
+      "colour": "White",
+      "printfulLocationSelectedBefore": false,
+      "printfulLocationSelectedAfter": true,
+      "nativeSaveConfirmedByRoot": true,
+      "storefrontSizeOptionAvailable": true
+    }
+  ],
+  "storefront": {
+    "activeThemeId": "195077472578",
+    "bothDesignsSupportedSizesAvailable": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "unsupported3XLUnavailable": true,
+    "pocketColour": "White",
+    "correctPocketImagesDisplayed": true,
+    "addToCartEnabled": true,
+    "unitPriceCAD": "44.99",
+    "proofs": [
+      "verification/logo-pocket-storefront-available.jpg",
+      "verification/logo-pocket-storefront-available.txt",
+      "verification/clock-pocket-storefront-available.jpg",
+      "verification/clock-pocket-storefront-available.txt"
+    ]
+  },
+  "cartTest": {
+    "passed": true,
+    "lines": [
+      {
+        "shopifyVariantId": "67946096427330",
+        "product": "OFF SHFT Logo T-Shirt",
+        "style": "Pocket",
+        "size": "2XL",
+        "colour": "White",
+        "quantity": 1,
+        "priceCAD": "44.99"
+      },
+      {
+        "shopifyVariantId": "67946096820546",
+        "product": "The Clock T-Shirt",
+        "style": "Pocket",
+        "size": "2XL",
+        "colour": "White",
+        "quantity": 1,
+        "priceCAD": "44.99"
+      }
+    ],
+    "itemCount": 2,
+    "displayedEstimatedTotalCAD": "89.98",
+    "shippingAndTaxesNotIncludedInVerifiedTotal": true,
+    "proofs": [
+      "verification/both-pocket-cart-verified.jpg",
+      "verification/both-pocket-cart-verified.txt"
+    ],
+    "cleanup": {
+      "status": "complete",
+      "method": "Root removed both own test lines; native AX confirmed Total items in cart:0, then closed drawer."
+    },
+    "checkoutSubmitted": false,
+    "orderSubmitted": false
+  },
+  "shipping": {
+    "existingOption": "Canada Printful CA Flat Rate",
+    "profile": "Printful: T-shirts (#PF-FRG1)",
+    "profileProductCount": 2,
+    "zone": "CA Zone",
+    "origin": "Printful",
+    "observedRateCAD": "8.59",
+    "active": true,
+    "changed": false,
+    "checkoutRateTested": false
+  },
+  "proofReview": {
+    "reviewedLocally": true,
+    "finalScreenshotsShowNoCredentialsOrCustomerPaymentDetails": true,
+    "jpgSignaturesValid": true,
+    "filteredTextHasNoCredentialMarkers": true
+  },
+  "limitations": [
+    "Storefront availability and cart addition verified in Canada/CAD active-theme preview.",
+    "No checkout, payment, billing readiness or order fulfillment test was performed.",
+    "Printful9999 is the app-managed in-stock indicator, not a claim of physical on-hand stock."
+  ]
+}

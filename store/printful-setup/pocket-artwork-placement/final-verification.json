@@ -1,0 +1,191 @@
+{
+  "verifiedAt": "2026-10-30T03:38:47.375404+00:00",
+  "storeId": 18982909,
+  "nativePlacementEvidence": "native-placement-verification.json",
+  "variantCount": 10,
+  "unchangedHeavyweightCount": 24,
+  "variants": [
+    {
+      "id": 5605512017,
+      "external_id": "67946096296258",
+      "name": "OFF SHFT Logo T-Shirt / Pocket / S / White",
+      "variant_id": 15150,
+      "synced": true,
+      "is_ignored": false,
+      "size": "S",
+      "color": "White",
+      "sku": "6974850",
+      "pocketFileId": 1098409896,
+      "fileStatus": "ok"
+    },
+    {
+      "id": 5605512018,
+      "external_id": "67946096329026",
+      "name": "OFF SHFT Logo T-Shirt / Pocket / M / White",
+      "variant_id": 15151,
+      "synced": true,
+      "is_ignored": false,
+      "size": "M",
+      "color": "White",
+      "sku": "7250169",
+      "pocketFileId": 1098409896,
+      "fileStatus": "ok"
+    },
+    {
+      "id": 5605512019,
+      "external_id": "67946096361794",
+      "name": "OFF SHFT Logo T-Shirt / Pocket / L / White",
+      "variant_id": 15152,
+      "synced": true,
+      "is_ignored": false,
+      "size": "L",
+      "color": "White",
+      "sku": "8492006",
+      "pocketFileId": 1098409896,
+      "fileStatus": "ok"
+    },
+    {
+      "id": 5605512020,
+      "external_id": "67946096394562",
+      "name": "OFF SHFT Logo T-Shirt / Pocket / XL / White",
+      "variant_id": 15153,
+      "synced": true,
+      "is_ignored": false,
+      "size": "XL",
+      "color": "White",
+      "sku": "9361675",
+      "pocketFileId": 1098409896,
+      "fileStatus": "ok"
+    },
+    {
+      "id": 5605512021,
+      "external_id": "67946096427330",
+      "name": "OFF SHFT Logo T-Shirt / Pocket / 2XL / White",
+      "variant_id": 15154,
+      "synced": true,
+      "is_ignored": false,
+      "size": "2XL",
+      "color": "White",
+      "sku": "2296520",
+      "pocketFileId": 1098409896,
+      "fileStatus": "ok"
+    },
+    {
+      "id": 5605512034,
+      "external_id": "67946096689474",
+      "name": "The Clock T-Shirt / Pocket / S / White",
+      "variant_id": 15150,
+      "synced": true,
+      "is_ignored": false,
+      "size": "S",
+      "color": "White",
+      "sku": "4516944",
+      "pocketFileId": 1098409983,
+      "fileStatus": "ok"
+    },
+    {
+      "id": 5605512035,
+      "external_id": "67946096722242",
+      "name": "The Clock T-Shirt / Pocket / M / White",
+      "variant_id": 15151,
+      "synced": true,
+      "is_ignored": false,
+      "size": "M",
+      "color": "White",
+      "sku": "2493846",
+      "pocketFileId": 1098409983,
+      "fileStatus": "ok"
+    },
+    {
+      "id": 5605512036,
+      "external_id": "67946096755010",
+      "name": "The Clock T-Shirt / Pocket / L / White",
+      "variant_id": 15152,
+      "synced": true,
+      "is_ignored": false,
+      "size": "L",
+      "color": "White",
+      "sku": "5300983",
+      "pocketFileId": 1098409983,
+      "fileStatus": "ok"
+    },
+    {
+      "id": 5605512037,
+      "external_id": "67946096787778",
+      "name": "The Clock T-Shirt / Pocket / XL / White",
+      "variant_id": 15153,
+      "synced": true,
+      "is_ignored": false,
+      "size": "XL",
+      "color": "White",
+      "sku": "3597328",
+      "pocketFileId": 1098409983,
+      "fileStatus": "ok"
+    },
+    {
+      "id": 5605512038,
+      "external_id": "67946096820546",
+      "name": "The Clock T-Shirt / Pocket / 2XL / White",
+      "variant_id": 15154,
+      "synced": true,
+      "is_ignored": false,
+      "size": "2XL",
+      "color": "White",
+      "sku": "9160590",
+      "pocketFileId": 1098409983,
+      "fileStatus": "ok"
+    }
+  ],
+  "generatedSupplierSkus": [
+    {
+      "syncVariantId": 5605512017,
+      "shopifyVariantId": "67946096296258",
+      "sku": "6974850"
+    },
+    {
+      "syncVariantId": 5605512018,
+      "shopifyVariantId": "67946096329026",
+      "sku": "7250169"
+    },
+    {
+      "syncVariantId": 5605512019,
+      "shopifyVariantId": "67946096361794",
+      "sku": "8492006"
+    },
+    {
+      "syncVariantId": 5605512020,
+      "shopifyVariantId": "67946096394562",
+      "sku": "9361675"
+    },
+    {
+      "syncVariantId": 5605512021,
+      "shopifyVariantId": "67946096427330",
+      "sku": "2296520"
+    },
+    {
+      "syncVariantId": 5605512034,
+      "shopifyVariantId": "67946096689474",
+      "sku": "4516944"
+    },
+    {
+      "syncVariantId": 5605512035,
+      "shopifyVariantId": "67946096722242",
+      "sku": "2493846"
+    },
+    {
+      "syncVariantId": 5605512036,
+      "shopifyVariantId": "67946096755010",
+      "sku": "5300983"
+    },
+    {
+      "syncVariantId": 5605512037,
+      "shopifyVariantId": "67946096787778",
+      "sku": "3597328"
+    },
+    {
+      "syncVariantId": 5605512038,
+      "shopifyVariantId": "67946096820546",
+      "sku": "9160590"
+    }
+  ]
+}

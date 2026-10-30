@@ -1,0 +1,11 @@
+																					47053 button Remove section
+																					47071 button Remove section
+																					47098 button Remove section
+																					47119 button Remove section
+																					47129 button Remove section
+																						47321 heading CART TOTAL ITEMS IN CART: 2 ID: cart-drawer-heading
+																									47364 item OFF SHFT Logo T-Shirt Style: Pocket, Size: 2XL, Colour: White Price $44.99
+																										47374 button Remove OFF SHFT Logo T-Shirt - Pocket / 2XL / White
+																									47337 item The Clock T-Shirt Style: Pocket, Size: 2XL, Colour: White Price $44.99
+																										47347 button Remove The Clock T-Shirt - Pocket / 2XL / White
+																							47353 button Check out ID: checkout
