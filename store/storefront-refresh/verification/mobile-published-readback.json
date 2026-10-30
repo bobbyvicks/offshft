@@ -1,0 +1,18 @@
+{
+  "hero": [
+    {
+      "alt": "",
+      "complete": true,
+      "rect": {
+        "h": 585,
+        "w": 380,
+        "x": 0,
+        "y": 93
+      },
+      "width": 389
+    }
+  ],
+  "scrollWidth": 380,
+  "title": "OFF SHFT | For the Hours You Earned",
+  "width": 390
+}

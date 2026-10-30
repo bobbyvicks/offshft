@@ -1,0 +1,104 @@
+{
+  "headings": [
+    {
+      "rect": {
+        "height": 1,
+        "width": 1,
+        "x": -1,
+        "y": 31
+      },
+      "text": "Off Shft"
+    },
+    {
+      "rect": {
+        "height": 1,
+        "width": 1,
+        "x": -332.9750061035156,
+        "y": 976.609375
+      },
+      "text": "Country/Region"
+    },
+    {
+      "rect": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "Country/Region"
+    },
+    {
+      "rect": {
+        "height": 64.5625,
+        "width": 348,
+        "x": 16,
+        "y": 117
+      },
+      "text": "For the hours you earned."
+    },
+    {
+      "rect": {
+        "height": 52.78125,
+        "width": 278.765625,
+        "x": 16,
+        "y": 722.796875
+      },
+      "text": "For your time off."
+    },
+    {
+      "rect": {
+        "height": 52.78125,
+        "width": 348,
+        "x": 16,
+        "y": 2009.09375
+      },
+      "text": "Everybody has a shift."
+    },
+    {
+      "rect": {
+        "height": 21.59375,
+        "width": 119.828125,
+        "x": 16,
+        "y": 2410.640625
+      },
+      "text": "Explore"
+    },
+    {
+      "rect": {
+        "height": 43.1875,
+        "width": 348,
+        "x": 16,
+        "y": 2585.015625
+      },
+      "text": "New designs, now and then."
+    },
+    {
+      "rect": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "\n        Your cart is empty\n      "
+    },
+    {
+      "rect": {
+        "height": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "text": "\n      Search\n    "
+    }
+  ],
+  "images": [
+    {
+      "loaded": true,
+      "naturalHeight": 584,
+      "naturalWidth": 389,
+      "src": "https://offshft.myshopify.com/cdn/shop/files/offshft-home-hero-mobile.png?v=1793317053&width=416"
+    }
+  ],
+  "scrollWidth": 380,
+  "width": 380
+}

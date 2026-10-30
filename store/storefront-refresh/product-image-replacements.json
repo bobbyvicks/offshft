@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "shopifyProductId": "15478605381954",
+      "handle": "punched-out-golf-shirt",
+      "title": "Punched Out. Golf Shirt",
+      "file": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\storefront-refresh\\media\\golf-shirt-punched-out-ivory.png",
+      "alt": "Studio mockup of Punched Out. Golf Shirt in ivory pique, with two-line chest embroidery and a clock on the left sleeve.",
+      "sha256": "e0f79c6dcf8ef21be489addd561ac3853a7a3a677e367f19efb216bcd9b77ed7",
+      "status": "uploaded-attached-drawings-detached-saved",
+      "note": "Primary listing mockup. Existing Style/Size options and variant data must remain unchanged.",
+      "verification": "Finished mockup and exact alt verified after reopening product; original description HTML preserved with one mockup disclosure paragraph; final Changes saved confirmed without Save or Unsaved controls.",
+      "descriptionMockupDisclosureAdded": true,
+      "recordedAt": "2026-10-29T23:36:36Z"
+    },
+    {
+      "shopifyProductId": "15478605316418",
+      "handle": "punched-out-quarter-zip",
+      "title": "Punched Out. Quarter-Zip",
+      "file": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\storefront-refresh\\media\\quarter-zip-punched-out-ivory.png",
+      "alt": "Studio mockup of Punched Out. Quarter-Zip in ivory with small two-line Ink lettering and Rust period.",
+      "sha256": "14fa0434bf0b5b02f2dc234b62eb1760881fc80f4110b973843e62f851fedfd8",
+      "status": "uploaded-attached-drawings-detached-saved",
+      "note": "Primary listing mockup. Existing Style/Size options and variant data must remain unchanged.",
+      "descriptionMockupDisclosureAdded": true,
+      "verification": "Exact mockup alt saved; drawing detached; original description HTML retained with one disclosure paragraph; second product save settled without pending changes."
+    },
+    {
+      "shopifyProductId": "15478605250882",
+      "handle": "the-clock-quarter-zip",
+      "title": "The Clock Quarter-Zip",
+      "file": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\storefront-refresh\\media\\quarter-zip-clock-ivory.png",
+      "alt": "Studio mockup of The Clock Quarter-Zip in ivory with a small Ink and Rust clock on the left chest.",
+      "sha256": "22c7b3205b0227a6d6e755b4982fa087514b0884f209400f3ed8696d90a2a1a5",
+      "status": "uploaded-attached-drawings-detached-saved",
+      "note": "Primary listing mockup. Existing Style/Size options and variant data must remain unchanged.",
+      "descriptionMockupDisclosureAdded": true,
+      "verification": "Exact mockup alt saved; drawing detached; original description HTML retained with disclosure paragraph; second product save submitted."
+    },
+    {
+      "shopifyProductId": "15478605218114",
+      "handle": "off-shft-logo-quarter-zip",
+      "title": "OFF SHFT Logo Quarter-Zip",
+      "file": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\storefront-refresh\\media\\quarter-zip-logo-ivory.png",
+      "alt": "Studio mockup of OFF SHFT Logo Quarter-Zip in ivory with small Ink and Rust chest embroidery.",
+      "sha256": "a989ed37a0cf32c44099c88f114e1ba5ab60903c09614c071c79b3966986c8ce",
+      "status": "uploaded-attached-drawings-detached-saved",
+      "note": "Primary listing mockup. Existing Style/Size options and variant data must remain unchanged.",
+      "descriptionMockupDisclosureAdded": true,
+      "verification": "Exact mockup alt saved; drawing detached; original description HTML retained with disclosure paragraph; second product save submitted."
+    },
+    {
+      "shopifyProductId": "15478605185346",
+      "handle": "punched-out-bucket-hat",
+      "title": "Punched Out. Bucket Hat",
+      "file": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\storefront-refresh\\media\\punched-out-bucket-hat-studio.png",
+      "alt": "Studio mockup of punched out bucket hat in Bone with Ink and Rust embroidery.",
+      "sha256": "7e870d2c162fb160a6dc6a7087aa1be391278942818ea060392c67ed2d014bb3",
+      "status": "uploaded-attached-drawings-detached-saved",
+      "note": "Primary listing mockup. Existing Style/Size options and variant data must remain unchanged.",
+      "descriptionMockupDisclosureAdded": true,
+      "verification": "Exact mockup alt saved; drawing detached; disclosure appended preserving original HTML; second product save completed."
+    },
+    {
+      "shopifyProductId": "15478605152578",
+      "handle": "the-clock-bucket-hat",
+      "title": "The Clock Bucket Hat",
+      "file": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\storefront-refresh\\media\\the-clock-bucket-hat-studio.png",
+      "alt": "Studio mockup of the clock bucket hat in Bone with Ink and Rust embroidery.",
+      "sha256": "820bad7316924010d2c9d4cc7da945f5a243c0a2aa6e11e315553ea9744f79c4",
+      "status": "uploaded-attached-drawings-detached-saved",
+      "note": "Primary listing mockup. Existing Style/Size options and variant data must remain unchanged.",
+      "descriptionMockupDisclosureAdded": true,
+      "verification": "Exact mockup alt saved; drawing detached; original description HTML retained with one disclosure; second product save completed."
+    },
+    {
+      "shopifyProductId": "15478605119810",
+      "handle": "off-shft-logo-bucket-hat",
+      "title": "OFF SHFT Logo Bucket Hat",
+      "file": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\storefront-refresh\\media\\off-shft-logo-bucket-hat-studio.png",
+      "alt": "Studio mockup of off shft logo bucket hat in Bone with Ink and Rust embroidery.",
+      "sha256": "f7389b8fc369f931ac79469d38df1dc17da11f30d44c8c95f9c51d7cd338531a",
+      "status": "uploaded-attached-drawings-detached-saved",
+      "note": "Primary listing mockup. Existing Style/Size options and variant data must remain unchanged.",
+      "descriptionMockupDisclosureAdded": true,
+      "verification": "Exact mockup alt saved; drawing detached; description HTML preserved with disclosure paragraph; second product save completed."
+    },
+    {
+      "shopifyProductId": "15478605087042",
+      "handle": "punched-out-beanie",
+      "title": "Punched Out. Beanie",
+      "file": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\storefront-refresh\\media\\punched-out-beanie-studio.png",
+      "alt": "Studio mockup of punched out beanie in Bone with Ink and Rust embroidery.",
+      "sha256": "e23ccc4c330dfa5e554c38ca6dfc72ed7346131e72b7958df035c0d9540099b4",
+      "status": "uploaded-attached-drawings-detached-saved",
+      "note": "Primary listing mockup. Existing Style/Size options and variant data must remain unchanged.",
+      "descriptionMockupDisclosureAdded": true,
+      "verification": "Exact mockup alt saved; drawing detached; description HTML retained with disclosure; second product save completed."
+    },
+    {
+      "shopifyProductId": "15478605054274",
+      "handle": "the-clock-beanie",
+      "title": "The Clock Beanie",
+      "file": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\storefront-refresh\\media\\the-clock-beanie-studio.png",
+      "alt": "Studio mockup of the clock beanie in Bone with Ink and Rust embroidery.",
+      "sha256": "00f7296518f7bbff2a9a3fbb9a9fba472eb5b238c9da5cd8fdcd7dde395fc0e4",
+      "status": "uploaded-attached-drawings-detached-saved",
+      "note": "Primary listing mockup. Existing Style/Size options and variant data must remain unchanged.",
+      "descriptionMockupDisclosureAdded": true,
+      "verification": "Exact mockup alt saved; drawing detached; original description HTML retained with disclosure; second product save completed."
+    },
+    {
+      "shopifyProductId": "15478604923202",
+      "handle": "off-shft-logo-beanie",
+      "title": "OFF SHFT Logo Beanie",
+      "file": "C:\\Users\\vicke\\OneDrive\\Documents\\ChatGPT\\New project\\offshft-brand-kit\\store\\storefront-refresh\\media\\off-shft-logo-beanie-studio.png",
+      "alt": "Studio mockup of off shft logo beanie in Bone with Ink and Rust embroidery.",
+      "sha256": "f37b653abec77678f74ea334cd5e4771f03904370fca022bcf4ba178c517e196",
+      "status": "uploaded-attached-drawings-detached-saved",
+      "note": "Primary listing mockup. Existing Style/Size options and variant data must remain unchanged.",
+      "descriptionMockupDisclosureAdded": true,
+      "verification": "Exact mockup alt saved; drawing detached; description HTML retained with disclosure; second product save completed."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen__imagegen",
+  "created": "2026-10-29",
+  "request": "Add another colour instead of one white and two blackish products.",
+  "userResponse": "better keep going",
+  "status": "Published on active OFF SHFT theme 195077472578; native editor Version 5; desktop and mobile visually verified",
+  "prompt": "Use case: precise-object-edit. Make ONE local change to image1: replace the charcoal colour of the FOR A REASON. cap with the exact rich Evergreen forest-green fabric colour of image2. Image2 is the existing selectable Evergreen product and is the colour/material reference only. Recolour the cap crown, brim, mesh, button and seams naturally to that visibly green shade, preserving the same lighting, highlights, shadows, fabric texture, cap shape, size, placement and angle. Keep the raised off-white puff text EXACTLY 'FOR A' over 'REASON.' and its gold period. Everything else in image1 must remain unchanged: ivory folded OFF SHFT hoodie with sleeves tucked away, folded Pepper Clock sweatpants with cream drawcords, logos, warm Bone background, shadows, empty text-overlay space, crop, dimensions and three-product composition. Do not make the green so dark it reads black; match the authentic Evergreen reference. No new objects, no text added, no other garment changes.",
+  "desktop": {
+    "output": "store/storefront-refresh/media/offshft-home-hero-evergreen.png",
+    "generatedPath": "C:/Users/vicke/.codex/generated_images/01a185b0-8e64-7bb3-b5c4-7d31c117d1a7/exec-87400568-5867-4a0d-a0e0-c8187283c358.png",
+    "framingPrompt": "Preserve the exact 1774x887 wide 2:1 desktop composition, with empty left headline area.",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "5b5e67998809b3053d135039b58883213ede7d8d41d9e6270b046589bdc1a532"
+  },
+  "mobile": {
+    "output": "store/storefront-refresh/media/offshft-home-hero-evergreen-mobile.png",
+    "generatedPath": "C:/Users/vicke/.codex/generated_images/01a185b0-8e64-7bb3-b5c4-7d31c117d1a7/exec-fd7a180f-e72d-4bdf-8443-15f03acbcabe.png",
+    "framingPrompt": "Preserve the exact 1024x1536 portrait 2:3 mobile composition, with empty upper half for headline.",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sha256": "cbd9a1830ba8653c766139f10cb6e2a95d1a7bf443ef18196736366f364bc4f9"
+  },
+  "references": [
+    "store/storefront-refresh/media/offshft-home-hero-three-products.png",
+    "store/storefront-refresh/media/offshft-home-hero-three-products-mobile.png",
+    "store/printful-setup/for-a-reason/media/for-a-reason-evergreen.png"
+  ],
+  "qa": [
+    "Evergreen colour matches the existing selectable For a Reason. Hat.",
+    "Ivory hoodie and Pepper sweatpants retained; hoodie's sleeves remain tucked away.",
+    "All products fit in the desktop and mobile compositions; headline space retained.",
+    "Images are generated mockups, not photographs of manufactured samples."
+  ],
+  "recovery": "Previous two-product and Charcoal three-product hero assets retained locally and in Shopify Files."
+}

@@ -57,7 +57,7 @@ const changes = {
   palette_secondary_button_background: P('background'),     // ships transparent here: fabric-coloured on the fabric band
   // Cart
   cart_type: 'drawer', auto_open_cart_drawer: true, show_cart_note: false, show_add_discount_code: false, show_installments: false,
-  show_accelerated_checkout_buttons: true, empty_cart_button_link: '/collections/all-hats',
+  show_accelerated_checkout_buttons: true, empty_cart_button_link: '/collections/all',
   // Drawers, icons, inputs, popovers (Oat lines = color2 in this store)
   drawer_border_color: P('color2'), icon_stroke: 'thin',
   palette_input_text: P('foreground'), palette_input_border: P('foreground'), input_border_width: 1, inputs_border_radius: 0,

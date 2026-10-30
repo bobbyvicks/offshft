@@ -1,0 +1,82 @@
+{
+  "updatedAt": "2026-10-30T00:16:39.645Z",
+  "themeId": "195077472578",
+  "themeName": "OFF SHFT",
+  "status": "published-current-theme",
+  "files": [
+    "templates/index.json",
+    "sections/footer-group.json",
+    "templates/password.json",
+    "sections/header-group.json",
+    "templates/product.json"
+  ],
+  "heroMedia": [
+    {
+      "file": "offshft-home-hero-evergreen.png",
+      "shopifyMediaId": "46676408402242"
+    },
+    {
+      "file": "offshft-home-hero-evergreen-mobile.png",
+      "shopifyMediaId": "46676408369474"
+    }
+  ],
+  "configPatch": {
+    "key": "current.empty_cart_button_link",
+    "before": "/collections/all-hats",
+    "after": "/collections/all"
+  },
+  "checks": {
+    "desktopHero": "Evergreen three-product image loaded; headline and CTA clear; complete products visible",
+    "mobileViewport": "390x844 requested;380px effective content width",
+    "mobileHero": "Evergreen portrait image loaded in Shopify mobile preview; headline and CTA clear; all three products complete",
+    "mobileFooter": "legible logo, Explore links and newsletter",
+    "emptyCart": "Continue shopping resolves /collections/all",
+    "productCopy": {
+      "Shipping": "Shipping Shipping options and costs are shown at checkout. See Shipping & returns for more information.",
+      "Returns": "Returns For return and replacement information, see Shipping & returns.",
+      "Size & fit": "Size & fit Fit varies by style. Check the Size & fit guide before choosing your size."
+    }
+  },
+  "publication": {
+    "result": "Theme published",
+    "currentThemeId": "195077472578",
+    "previousThemeId": "195010888002",
+    "previousThemeState": "Draft theme retained",
+    "storefrontVisibility": "Private",
+    "publicLaunchRequirement": "Select a Shopify plan"
+  },
+  "aboutPage": {
+    "id": "169848013122",
+    "status": "saved",
+    "seoTitle": "About OFF SHFT | For the Hours You Earned"
+  },
+  "displayStoreName": "OFF SHFT",
+  "homepageSeoTitle": "OFF SHFT | For the Hours You Earned",
+  "heroRevision": {
+    "status": "saved-and-visually-verified-on-active-theme",
+    "version": "Version 5",
+    "saveEvidence": [
+      "File Saved",
+      "No Problems",
+      "Active theme badge",
+      "Save disabled after reopening theme preview"
+    ],
+    "products": [
+      "Ivory OFF SHFT hoodie with sleeves tucked away",
+      "Pepper Clock sweatpants",
+      "Evergreen For a Reason. hat"
+    ],
+    "desktopProof": "verification/homepage-evergreen-desktop.jpg",
+    "mobileProof": "verification/homepage-evergreen-mobile.jpg",
+    "recoveryMedia": [
+      {
+        "file": "offshft-home-hero-three-products.png",
+        "shopifyMediaId": "46676351353154"
+      },
+      {
+        "file": "offshft-home-hero-three-products-mobile.png",
+        "shopifyMediaId": "46676356432194"
+      }
+    ]
+  }
+}

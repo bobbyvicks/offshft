@@ -1,0 +1,6243 @@
+{
+  "checkedAt": "2026-10-29T23:50:46.675Z",
+  "publishedHandles": [
+    "five-oclock-crewneck",
+    "for-a-reason-hat",
+    "off-shft-logo-beanie",
+    "off-shft-logo-bucket-hat",
+    "off-shft-logo-crewneck",
+    "off-shft-logo-hat",
+    "off-shft-logo-hoodie",
+    "off-shft-logo-jacket",
+    "off-shft-logo-quarter-zip",
+    "off-shft-logo-sweatpants",
+    "off-shft-logo-t-shirt",
+    "ours-to-spend-trucker-hat",
+    "punched-out-beanie",
+    "punched-out-bucket-hat",
+    "punched-out-crewneck",
+    "punched-out-golf-shirt",
+    "punched-out-hat",
+    "punched-out-hoodie",
+    "punched-out-jacket",
+    "punched-out-quarter-zip",
+    "punched-out-sweatpants",
+    "the-clock-beanie",
+    "the-clock-bucket-hat",
+    "the-clock-crewneck",
+    "the-clock-hat",
+    "the-clock-hoodie",
+    "the-clock-jacket",
+    "the-clock-quarter-zip",
+    "the-clock-sweatpants",
+    "the-clock-t-shirt",
+    "the-rest-is-ours-hoodie",
+    "time-well-earned-t-shirt"
+  ],
+  "products": [
+    {
+      "id": "gid://shopify/Product/15478492070210",
+      "title": "5:00 Crewneck",
+      "handle": "five-oclock-crewneck",
+      "url": "/products/five-oclock-crewneck",
+      "price_range": {
+        "min": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        },
+        "max": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-five-oclock-ivory.png?v=1793304572",
+      "available": false,
+      "variant_count": 24,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Ivory",
+            "Blue Jean",
+            "Pepper",
+            "Espresso"
+          ]
+        }
+      ],
+      "product_type": "Crewneck",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Quitting time.</p><p>5:00 embroidered across the chest of a relaxed, lightweight cotton crewneck. For the hours that are yours.</p><ul>\n<li>Comfort Colors 1466: relaxed fit in garment-dyed lightweight fleece</li>\n<li>100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li>\n<li>Ribbed collar, cuffs and waistband</li>\n<li>Centre-chest embroidery, approximately 115 mm wide</li>\n</ul><p>Coming soon. Product images are mockups.</p>"
+      },
+      "type": "Crewneck",
+      "tags": [
+        "14-five-oclock",
+        "crewneck",
+        "off-shft"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67956660633922",
+          "title": "S / Ivory",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Ivory"
+            }
+          ],
+          "price": {
+            "amount": 7999,
+            "currency": "CAD",
+            "display": "CA$79.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": false
+          },
+          "sku": "9010477"
+        }
+      ],
+      "available_options": [],
+      "available_options_count": 0,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-five-oclock-ivory.png?v=1793304572",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-five-oclock-blue-jean.png?v=1793304572",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-five-oclock-pepper.png?v=1793304572",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-five-oclock-espresso.png?v=1793304572"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478784098626",
+      "title": "For a Reason. Hat",
+      "handle": "for-a-reason-hat",
+      "url": "/products/for-a-reason-hat",
+      "price_range": {
+        "min": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        },
+        "max": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-charcoal.png?v=1793313509",
+      "available": false,
+      "variant_count": 3,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "One size"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Charcoal",
+            "Ivory",
+            "Evergreen"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>For whatever makes it worth it.</p><p>FOR A REASON. Made for the hours that are yours.</p><p>Made to order and shipped to you.</p><ul>\n<li>Front: FOR A REASON. in raised 3D puff embroidery</li>\n<li>Charcoal and Evergreen: Yupoong 6606 structured six-panel trucker, with a firm front, mesh back and curved visor</li>\n<li>Ivory: Comfort Colors CCST0 unstructured six-panel trucker, with a softer crown, soft mesh back and curved bill</li>\n<li>Ivory front: 100% cotton pigment-dyed twill with a heavy brushed finish</li>\n<li>One size, with an adjustable plastic snap closure</li>\n</ul><p>Product images are mockups. The crown shape and finish vary by colour as described above.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "for-a-reason",
+        "hat",
+        "off-shft",
+        "text-hat"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67958236119362",
+          "title": "One size / Charcoal",
+          "options": [
+            {
+              "name": "Size",
+              "value": "One size"
+            },
+            {
+              "name": "Colour",
+              "value": "Charcoal"
+            }
+          ],
+          "price": {
+            "amount": 3499,
+            "currency": "CAD",
+            "display": "CA$34.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": false
+          },
+          "sku": "5136137"
+        }
+      ],
+      "available_options": [],
+      "available_options_count": 0,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-charcoal.png?v=1793313509",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-ivory.png?v=1793313509",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/for-a-reason-evergreen.png?v=1793313508"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478604923202",
+      "title": "OFF SHFT Logo Beanie",
+      "handle": "off-shft-logo-beanie",
+      "url": "/products/off-shft-logo-beanie",
+      "price_range": {
+        "min": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        },
+        "max": {
+          "amount": 3999,
+          "currency": "CAD",
+          "display": "CA$39.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-logo-beanie-studio.png?v=1793317779",
+      "available": true,
+      "variant_count": 2,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Cuffed",
+            "Ribbed"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The rest of the day is your time.</p><p>Toque weather. For cold mornings on the water and the walk back to the truck.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Cuff: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide</li>\n<li>Styles: Cuffed or Ribbed</li>\n<li>Cuffed: 100% acrylic knit, 12 in (30 cm) long. Hand wash</li>\n<li>Ribbed: ribbed knit, with a turned-up cuff</li>\n<li>One size</li>\n</ul><p>Product images are mockups. Appearance may vary by style.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "beanie",
+        "drop-1b",
+        "logo",
+        "off-shft-logo"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67957131739458",
+          "title": "Cuffed",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Cuffed"
+            }
+          ],
+          "price": {
+            "amount": 3499,
+            "currency": "CAD",
+            "display": "CA$34.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Cuffed"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Ribbed"
+          }
+        ]
+      ],
+      "available_options_count": 2,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-logo-beanie-studio.png?v=1793317779"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605119810",
+      "title": "OFF SHFT Logo Bucket Hat",
+      "handle": "off-shft-logo-bucket-hat",
+      "url": "/products/off-shft-logo-bucket-hat",
+      "price_range": {
+        "min": {
+          "amount": 3999,
+          "currency": "CAD",
+          "display": "CA$39.99"
+        },
+        "max": {
+          "amount": 4499,
+          "currency": "CAD",
+          "display": "CA$44.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-logo-bucket-hat-studio.png?v=1793317596",
+      "available": true,
+      "variant_count": 2,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Organic",
+            "Classic"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The rest of the day is your time.</p><p>For the dock, the boat and a long afternoon at the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Front: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide</li>\n<li>Styles: Organic or Classic</li>\n<li>Organic: 100% organic cotton twill, with a high crown. Spot clean or hand wash</li>\n<li>Classic: 100% cotton twill, with sewn eyelets</li>\n<li>One size fits most</li>\n</ul><p>Product images are mockups. Appearance may vary by style.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "bucket-hat",
+        "drop-1b",
+        "logo",
+        "off-shft-logo"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67957132034370",
+          "title": "Organic",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Organic"
+            }
+          ],
+          "price": {
+            "amount": 4499,
+            "currency": "CAD",
+            "display": "CA$44.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Organic"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Classic"
+          }
+        ]
+      ],
+      "available_options_count": 2,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-logo-bucket-hat-studio.png?v=1793317596"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476774764866",
+      "title": "OFF SHFT Logo Crewneck",
+      "handle": "off-shft-logo-crewneck",
+      "url": "/products/off-shft-logo-crewneck",
+      "price_range": {
+        "min": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        },
+        "max": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-logo.png?v=1793246483",
+      "available": true,
+      "variant_count": 12,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Ivory",
+            "Blue Jean"
+          ]
+        }
+      ],
+      "product_type": "Crewneck",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The shift is done and the rest of the day is yours.</p><p>For the back deck, the boards and the drive up to the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Left chest: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide</li>\n<li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li>\n<li>Fit: relaxed</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Crewneck",
+      "tags": [
+        "crewneck",
+        "drop-1",
+        "logo",
+        "off-shft-logo"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946089906498",
+          "title": "S / Ivory",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Ivory"
+            }
+          ],
+          "price": {
+            "amount": 7999,
+            "currency": "CAD",
+            "display": "CA$79.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ]
+      ],
+      "available_options_count": 12,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-logo.png?v=1793246483",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-1466-blue-jean-logo.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476769980738",
+      "title": "OFF SHFT Logo Hat",
+      "handle": "off-shft-logo-hat",
+      "url": "/products/off-shft-logo-hat",
+      "price_range": {
+        "min": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        },
+        "max": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-logo.png?v=1793246534",
+      "available": true,
+      "variant_count": 5,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Retro Trucker",
+            "5-Panel",
+            "Dad Hat",
+            "Rope Cap"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Black",
+            "Black/White",
+            "Evergreen"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The shift is done and the rest of the day is yours.</p><p>That's the whole idea, on the front of a hat. Wear it on the water, on the course, at the cottage or out by the boards.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Front: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide</li>\n<li>Styles: Retro Trucker, 5-Panel, Dad Hat or Rope Cap</li>\n<li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li>\n<li>5-Panel: structured mid-profile cap. One-piece front with no centre seam, 65% polyester and 35% cotton twill, adjustable plastic snap closure</li>\n<li>Ships: made to order, usually ships in 2–5 business days</li>\n</ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "drop-1",
+        "hat",
+        "logo",
+        "off-shft-logo"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946082042178",
+          "title": "Retro Trucker / Black",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Retro Trucker"
+            },
+            {
+              "name": "Colour",
+              "value": "Black"
+            }
+          ],
+          "price": {
+            "amount": 3499,
+            "currency": "CAD",
+            "display": "CA$34.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Retro Trucker"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Retro Trucker"
+          },
+          {
+            "name": "Colour",
+            "value": "Evergreen"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "5-Panel"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Dad Hat"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Rope Cap"
+          },
+          {
+            "name": "Colour",
+            "value": "Black/White"
+          }
+        ]
+      ],
+      "available_options_count": 5,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-logo.png?v=1793246534",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6606-evergreen-logo.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-31-069-black-logo.png?v=1793250386",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6245cm-black-logo.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-ba671-black-white-logo.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476770144578",
+      "title": "OFF SHFT Logo Hoodie",
+      "handle": "off-shft-logo-hoodie",
+      "url": "/products/off-shft-logo-hoodie",
+      "price_range": {
+        "min": {
+          "amount": 8999,
+          "currency": "CAD",
+          "display": "CA$89.99"
+        },
+        "max": {
+          "amount": 8999,
+          "currency": "CAD",
+          "display": "CA$89.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-logo.png?v=1793246070",
+      "available": true,
+      "variant_count": 36,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Oversized",
+            "Garment-Dyed",
+            "Lightweight"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Bone",
+            "White",
+            "Ivory",
+            "Pine Green",
+            "Blue Spruce",
+            "Blue Jean"
+          ]
+        }
+      ],
+      "product_type": "Hoodie",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. Shift's over. Hood up.</p><p>For the couch, the dock and the drive home.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Left chest: the OFF SHFT logo, about 63 mm (2.5 in) wide, embroidered on all three styles</li>\n<li>Styles: Oversized, Garment-Dyed or Lightweight</li>\n<li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li>\n<li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing. Matching flat drawcords</li>\n<li>Lightweight: relaxed fit. Lightweight fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²), garment-dyed. Jersey-lined hood. Natural cream flat drawcords (White garments use white drawcords)</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Hoodie",
+      "tags": [
+        "drop-1",
+        "hoodie",
+        "logo",
+        "off-shft-logo"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946082435394",
+          "title": "Oversized / S / Bone",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Oversized"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Bone"
+            }
+          ],
+          "price": {
+            "amount": 8999,
+            "currency": "CAD",
+            "display": "CA$89.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ]
+      ],
+      "available_options_count": 36,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-logo.png?v=1793246070",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-5161-pine-green-logo.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-white-logo.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-blue-spruce-logo.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-ivory-logo.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-blue-jean-logo.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476778795330",
+      "title": "OFF SHFT Logo Jacket",
+      "handle": "off-shft-logo-jacket",
+      "url": "/products/off-shft-logo-jacket",
+      "price_range": {
+        "min": {
+          "amount": 9999,
+          "currency": "CAD",
+          "display": "CA$99.99"
+        },
+        "max": {
+          "amount": 9999,
+          "currency": "CAD",
+          "display": "CA$99.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-logo.png?v=1793246534",
+      "available": true,
+      "variant_count": 10,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Black",
+            "Light Blue"
+          ]
+        }
+      ],
+      "product_type": "Jacket",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The shift is done and the rest of the day is yours.</p><p>For the dock when the wind picks up.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Left chest: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide</li>\n<li>Packable anorak: a half-zip pullover with an adjustable bungee hood</li>\n<li>Fabric: 2.8 oz polyester micro poplin, wind and rain resistant</li>\n<li>Packs into its front pouch pocket</li>\n<li>Left sleeve: the jacket maker's own logo</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Jacket",
+      "tags": [
+        "drop-1",
+        "jacket",
+        "logo",
+        "off-shft-logo"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946096951618",
+          "title": "S / Black",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Black"
+            }
+          ],
+          "price": {
+            "amount": 9999,
+            "currency": "CAD",
+            "display": "CA$99.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ]
+      ],
+      "available_options_count": 10,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-logo.png?v=1793246534",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-co200-light-blue-logo.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605218114",
+      "title": "OFF SHFT Logo Quarter-Zip",
+      "handle": "off-shft-logo-quarter-zip",
+      "url": "/products/off-shft-logo-quarter-zip",
+      "price_range": {
+        "min": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        },
+        "max": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-logo-ivory.png?v=1793317440",
+      "available": true,
+      "variant_count": 6,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        }
+      ],
+      "product_type": "Quarter-Zip",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. The rest of the day is your time.</p><p>For an early round and the couch after.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Left chest: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide</li>\n<li>Unisex fleece, with a stand collar, rib cuffs and waistband</li>\n<li>Fit: relaxed</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p><p>Product images are mockups. Appearance may vary by style.</p>"
+      },
+      "type": "Quarter-Zip",
+      "tags": [
+        "drop-1b",
+        "logo",
+        "off-shft-logo",
+        "quarter-zip"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67957132230978",
+          "title": "S",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ],
+          "price": {
+            "amount": 7999,
+            "currency": "CAD",
+            "display": "CA$79.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "3XL"
+          }
+        ]
+      ],
+      "available_options_count": 6,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-logo-ivory.png?v=1793317440"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476774961474",
+      "title": "OFF SHFT Logo Sweatpants",
+      "handle": "off-shft-logo-sweatpants",
+      "url": "/products/off-shft-logo-sweatpants",
+      "price_range": {
+        "min": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        },
+        "max": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-logo.png?v=1793250385",
+      "available": true,
+      "variant_count": 10,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Pepper",
+            "Espresso"
+          ]
+        }
+      ],
+      "product_type": "Sweatpants",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. Off the clock, on the couch.</p><p>Nowhere to be and all day to get there.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Leg: the OFF SHFT logo, on the front of the left leg</li>\n<li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.5 oz/yd² (220 g/m²)</li>\n<li>Flat cord at the waist</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Sweatpants",
+      "tags": [
+        "drop-1",
+        "logo",
+        "off-shft-logo",
+        "sweatpants"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946090725698",
+          "title": "S / Pepper",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Pepper"
+            }
+          ],
+          "price": {
+            "amount": 7999,
+            "currency": "CAD",
+            "display": "CA$79.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ]
+      ],
+      "available_options_count": 10,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-logo.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-espresso-logo.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476778631490",
+      "title": "OFF SHFT Logo T-Shirt",
+      "handle": "off-shft-logo-t-shirt",
+      "url": "/products/off-shft-logo-t-shirt",
+      "price_range": {
+        "min": {
+          "amount": 4499,
+          "currency": "CAD",
+          "display": "CA$44.99"
+        },
+        "max": {
+          "amount": 4499,
+          "currency": "CAD",
+          "display": "CA$44.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-logo.png?v=1793246578",
+      "available": true,
+      "variant_count": 17,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Heavyweight",
+            "Pocket"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Ivory",
+            "White",
+            "Blue Spruce"
+          ]
+        }
+      ],
+      "product_type": "T-Shirt",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>The O in OFF is a clock. The hands say 5:00.</p><p>Quitting time. Shift's over. Tee's up.</p><p>For the dock, the deck and the first warm day off.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Styles: Heavyweight or Pocket</li>\n<li>Heavyweight: the OFF SHFT logo, embroidered on the left chest, about 63 mm (2.5 in) wide</li>\n<li>Pocket: the OFF SHFT logo, embroidered small on the centre front. The left-chest pocket stays plain.</li>\n<li>Both styles: relaxed fit. 100% ring-spun cotton, 6.1 oz/yd² (206.8 g/m²), garment-dyed</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "T-Shirt",
+      "tags": [
+        "drop-1",
+        "logo",
+        "off-shft-logo",
+        "t-shirt"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946096099650",
+          "title": "Heavyweight / S / Ivory",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Heavyweight"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Ivory"
+            }
+          ],
+          "price": {
+            "amount": 4499,
+            "currency": "CAD",
+            "display": "CA$44.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Pocket"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Pocket"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Pocket"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Pocket"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Pocket"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ]
+      ],
+      "available_options_count": 17,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-logo.png?v=1793246578",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-1717-blue-spruce-logo.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-logo.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478492037442",
+      "title": "Ours to Spend. Trucker Hat",
+      "handle": "ours-to-spend-trucker-hat",
+      "url": "/products/ours-to-spend-trucker-hat",
+      "price_range": {
+        "min": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        },
+        "max": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-evergreen.png?v=1793304572",
+      "available": true,
+      "variant_count": 4,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "One size"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Evergreen",
+            "Navy",
+            "Khaki",
+            "Caramel"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Your time. Spend it well.</p><p>OURS TO SPEND. embroidered on a structured trucker with a mesh back and adjustable snap closure.</p><ul>\n<li>Yupoong 6606: structured six-panel crown with a firm front</li>\n<li>Mesh back, pre-curved visor and adjustable plastic snap closure</li>\n<li>Front embroidery, approximately 85 mm wide</li>\n<li>One size, adjustable</li>\n</ul><p>Coming soon. Product images are mockups.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "13-ours-to-spend",
+        "hat",
+        "off-shft",
+        "text-hat"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67956660502850",
+          "title": "One size / Evergreen",
+          "options": [
+            {
+              "name": "Size",
+              "value": "One size"
+            },
+            {
+              "name": "Colour",
+              "value": "Evergreen"
+            }
+          ],
+          "price": {
+            "amount": 3499,
+            "currency": "CAD",
+            "display": "CA$34.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          },
+          "sku": "5904768"
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "One size"
+          },
+          {
+            "name": "Colour",
+            "value": "Evergreen"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "One size"
+          },
+          {
+            "name": "Colour",
+            "value": "Navy"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "One size"
+          },
+          {
+            "name": "Colour",
+            "value": "Khaki"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "One size"
+          },
+          {
+            "name": "Colour",
+            "value": "Caramel"
+          }
+        ]
+      ],
+      "available_options_count": 4,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-evergreen.png?v=1793304572",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-navy.png?v=1793304572",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-khaki.png?v=1793304572",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-ours-to-spend-caramel.png?v=1793304572"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605087042",
+      "title": "Punched Out. Beanie",
+      "handle": "punched-out-beanie",
+      "url": "/products/punched-out-beanie",
+      "price_range": {
+        "min": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        },
+        "max": {
+          "amount": 3999,
+          "currency": "CAD",
+          "display": "CA$39.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-studio.png?v=1793317662",
+      "available": true,
+      "variant_count": 2,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Cuffed",
+            "Ribbed"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Punched out.</p><p>Two words and a full stop. Nothing else to say.</p><p>Toque weather. For cold mornings on the water and the walk back to the truck.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Cuff: PUNCHED OUT., embroidered on two lines, about 64 mm (2.5 in) wide</li>\n<li>Styles: Cuffed or Ribbed</li>\n<li>Cuffed: 100% acrylic knit, 12 in (30 cm) long. Hand wash</li>\n<li>Ribbed: ribbed knit, with a turned-up cuff</li>\n<li>One size</li>\n</ul><p>Product images are mockups. Appearance may vary by style.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "beanie",
+        "drop-1b",
+        "punched-out",
+        "text-hat"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67957131968834",
+          "title": "Cuffed",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Cuffed"
+            }
+          ],
+          "price": {
+            "amount": 3499,
+            "currency": "CAD",
+            "display": "CA$34.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Cuffed"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Ribbed"
+          }
+        ]
+      ],
+      "available_options_count": 2,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-studio.png?v=1793317662"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605185346",
+      "title": "Punched Out. Bucket Hat",
+      "handle": "punched-out-bucket-hat",
+      "url": "/products/punched-out-bucket-hat",
+      "price_range": {
+        "min": {
+          "amount": 3999,
+          "currency": "CAD",
+          "display": "CA$39.99"
+        },
+        "max": {
+          "amount": 4499,
+          "currency": "CAD",
+          "display": "CA$44.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-bucket-hat-studio.png?v=1793317489",
+      "available": true,
+      "variant_count": 2,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Organic",
+            "Classic"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Punched out.</p><p>Two words and a full stop. Nothing else to say.</p><p>For the dock, the boat and a long afternoon at the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Front: PUNCHED OUT., embroidered on one line, about 97 mm (3.8 in) wide</li>\n<li>Styles: Organic or Classic</li>\n<li>Organic: 100% organic cotton twill, with a high crown. Spot clean or hand wash</li>\n<li>Classic: 100% cotton twill, with sewn eyelets</li>\n<li>One size fits most</li>\n</ul><p>Product images are mockups. Appearance may vary by style.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "bucket-hat",
+        "drop-1b",
+        "punched-out",
+        "text-hat"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67957132165442",
+          "title": "Organic",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Organic"
+            }
+          ],
+          "price": {
+            "amount": 4499,
+            "currency": "CAD",
+            "display": "CA$44.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Organic"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Classic"
+          }
+        ]
+      ],
+      "available_options_count": 2,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-bucket-hat-studio.png?v=1793317489"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476774895938",
+      "title": "Punched Out. Crewneck",
+      "handle": "punched-out-crewneck",
+      "url": "/products/punched-out-crewneck",
+      "price_range": {
+        "min": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        },
+        "max": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-punched-out.png?v=1793246535",
+      "available": true,
+      "variant_count": 12,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Ivory",
+            "Blue Jean"
+          ]
+        }
+      ],
+      "product_type": "Crewneck",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Punched out.</p><p>Two words and a full stop, big on the front. Nothing else to say.</p><p>The shift is done, and this crewneck says so from across the parking lot.</p><p>For the back deck, the boards and the drive up to the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Front: PUNCHED OUT., embroidered big on the centre front</li>\n<li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li>\n<li>Fit: relaxed</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Crewneck",
+      "tags": [
+        "crewneck",
+        "drop-1",
+        "punched-out"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946090529090",
+          "title": "S / Ivory",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Ivory"
+            }
+          ],
+          "price": {
+            "amount": 7999,
+            "currency": "CAD",
+            "display": "CA$79.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ]
+      ],
+      "available_options_count": 12,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-punched-out.png?v=1793246535",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-1466-blue-jean-punched-out.png?v=1793250386"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605381954",
+      "title": "Punched Out. Golf Shirt",
+      "handle": "punched-out-golf-shirt",
+      "url": "/products/punched-out-golf-shirt",
+      "price_range": {
+        "min": {
+          "amount": 5999,
+          "currency": "CAD",
+          "display": "CA$59.99"
+        },
+        "max": {
+          "amount": 8999,
+          "currency": "CAD",
+          "display": "CA$89.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-shirt-punched-out-ivory.png?v=1793316916",
+      "available": true,
+      "variant_count": 18,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Cotton Pique",
+            "Classic",
+            "Performance"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        }
+      ],
+      "product_type": "Polo",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Punched out.</p><p>Shift's over. Tee's up.</p><p>For nine holes after work, or eighteen on your day off.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Styles: Cotton Pique, Classic or Performance</li>\n<li>Left chest: PUNCHED OUT., embroidered on two lines, about 64 mm (2.5 in) wide</li>\n<li>Left sleeve: the clock, embroidered, about 25 mm (1 in) tall</li>\n<li>Cotton Pique: 6.2 oz/yd² (210 g/m²). Ribbed collar, three buttons, side slits</li>\n<li>Classic: 65% polyester, 35% cotton pique. Flat knit collar, side vents. Men's cut, relaxed fit that runs large</li>\n<li>Performance: 100% recycled polyester, 4.3 oz/yd² (146 g/m²). Relaxed fit. Right sleeve: the shirt maker's own logo</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p><p>Product images are mockups. Appearance may vary by style.</p>"
+      },
+      "type": "Polo",
+      "tags": [
+        "drop-1b",
+        "golf-shirt",
+        "punched-out"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67957132951874",
+          "title": "Cotton Pique / S",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Cotton Pique"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ],
+          "price": {
+            "amount": 5999,
+            "currency": "CAD",
+            "display": "CA$59.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Cotton Pique"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Cotton Pique"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Cotton Pique"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Cotton Pique"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Cotton Pique"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Cotton Pique"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Classic"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Classic"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Classic"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Classic"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Classic"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Classic"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Performance"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Performance"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Performance"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Performance"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Performance"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Performance"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          }
+        ]
+      ],
+      "available_options_count": 18,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-shirt-punched-out-ivory.png?v=1793316916"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476770111810",
+      "title": "Punched Out. Hat",
+      "handle": "punched-out-hat",
+      "url": "/products/punched-out-hat",
+      "price_range": {
+        "min": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        },
+        "max": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-punched-out.png?v=1793246535",
+      "available": true,
+      "variant_count": 5,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Retro Trucker",
+            "5-Panel",
+            "Dad Hat",
+            "Rope Cap"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Black",
+            "Black/White",
+            "Evergreen"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Punched out.</p><p>Two words and a full stop. Nothing else to say.</p><p>The shift is done. This hat says so without making a big deal of it.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Front: PUNCHED OUT., embroidered</li>\n<li>Styles: Retro Trucker, 5-Panel, Dad Hat or Rope Cap</li>\n<li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li>\n<li>5-Panel: structured mid-profile cap. One-piece front with no centre seam, 65% polyester and 35% cotton twill, adjustable plastic snap closure</li>\n<li>Ships: made to order, usually ships in 2–5 business days</li>\n</ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "drop-1",
+        "hat",
+        "punched-out",
+        "text-hat"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946082304322",
+          "title": "Retro Trucker / Black",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Retro Trucker"
+            },
+            {
+              "name": "Colour",
+              "value": "Black"
+            }
+          ],
+          "price": {
+            "amount": 3499,
+            "currency": "CAD",
+            "display": "CA$34.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Retro Trucker"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Retro Trucker"
+          },
+          {
+            "name": "Colour",
+            "value": "Evergreen"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "5-Panel"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Dad Hat"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Rope Cap"
+          },
+          {
+            "name": "Colour",
+            "value": "Black/White"
+          }
+        ]
+      ],
+      "available_options_count": 5,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-punched-out.png?v=1793246535",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6606-evergreen-punched-out.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-31-069-black-punched-out.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6245cm-black-punched-out.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-ba671-black-white-punched-out.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476770275650",
+      "title": "Punched Out. Hoodie",
+      "handle": "punched-out-hoodie",
+      "url": "/products/punched-out-hoodie",
+      "price_range": {
+        "min": {
+          "amount": 8999,
+          "currency": "CAD",
+          "display": "CA$89.99"
+        },
+        "max": {
+          "amount": 8999,
+          "currency": "CAD",
+          "display": "CA$89.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-punched-out.png?v=1793246535",
+      "available": true,
+      "variant_count": 36,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Oversized",
+            "Garment-Dyed",
+            "Lightweight"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Bone",
+            "White",
+            "Ivory",
+            "Pine Green",
+            "Blue Spruce",
+            "Blue Jean"
+          ]
+        }
+      ],
+      "product_type": "Hoodie",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Punched out.</p><p>Two words and a full stop, big on the front. Nothing else to say.</p><p>The shift is done, and this hoodie says so from across the parking lot.</p><p>For the couch, the dock and the drive home.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Front: PUNCHED OUT., big on the centre front, embroidered on all three styles</li>\n<li>Styles: Oversized, Garment-Dyed or Lightweight</li>\n<li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li>\n<li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing. Matching flat drawcords</li>\n<li>Lightweight: relaxed fit. Lightweight fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²), garment-dyed. Jersey-lined hood. Natural cream flat drawcords (White garments use white drawcords)</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Hoodie",
+      "tags": [
+        "drop-1",
+        "hoodie",
+        "punched-out"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946083615042",
+          "title": "Oversized / S / Bone",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Oversized"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Bone"
+            }
+          ],
+          "price": {
+            "amount": 8999,
+            "currency": "CAD",
+            "display": "CA$89.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ]
+      ],
+      "available_options_count": 36,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-punched-out.png?v=1793246535",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-5161-pine-green-punched-out.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-white-punched-out.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-blue-spruce-punched-out.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-ivory-punched-out.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-blue-jean-punched-out.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476778926402",
+      "title": "Punched Out. Jacket",
+      "handle": "punched-out-jacket",
+      "url": "/products/punched-out-jacket",
+      "price_range": {
+        "min": {
+          "amount": 9999,
+          "currency": "CAD",
+          "display": "CA$99.99"
+        },
+        "max": {
+          "amount": 9999,
+          "currency": "CAD",
+          "display": "CA$99.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-punched-out.png?v=1793246534",
+      "available": true,
+      "variant_count": 10,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Black",
+            "Light Blue"
+          ]
+        }
+      ],
+      "product_type": "Jacket",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Punched out.</p><p>Two words and a full stop, small on the chest. Nothing else to say.</p><p>The shift is done. This one says so without making a big deal of it.</p><p>For the dock when the wind picks up.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Left chest: PUNCHED OUT., embroidered small</li>\n<li>Packable anorak: a half-zip pullover with an adjustable bungee hood</li>\n<li>Fabric: 2.8 oz polyester micro poplin, wind and rain resistant</li>\n<li>Packs into its front pouch pocket</li>\n<li>Left sleeve: the jacket maker's own logo</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Jacket",
+      "tags": [
+        "drop-1",
+        "jacket",
+        "punched-out"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946097344834",
+          "title": "S / Black",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Black"
+            }
+          ],
+          "price": {
+            "amount": 9999,
+            "currency": "CAD",
+            "display": "CA$99.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ]
+      ],
+      "available_options_count": 10,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-punched-out.png?v=1793246534",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-co200-light-blue-punched-out.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605316418",
+      "title": "Punched Out. Quarter-Zip",
+      "handle": "punched-out-quarter-zip",
+      "url": "/products/punched-out-quarter-zip",
+      "price_range": {
+        "min": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        },
+        "max": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-punched-out-ivory.png?v=1793317316",
+      "available": true,
+      "variant_count": 6,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        }
+      ],
+      "product_type": "Quarter-Zip",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Punched out.</p><p>Two words and a full stop. Nothing else to say.</p><p>For an early round and the couch after.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Left chest: PUNCHED OUT., embroidered on two lines, about 64 mm (2.5 in) wide</li>\n<li>Unisex fleece, with a stand collar, rib cuffs and waistband</li>\n<li>Fit: relaxed</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p><p>Product images are mockups. Appearance may vary by style.</p>"
+      },
+      "type": "Quarter-Zip",
+      "tags": [
+        "drop-1b",
+        "punched-out",
+        "quarter-zip"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67957132722498",
+          "title": "S",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ],
+          "price": {
+            "amount": 7999,
+            "currency": "CAD",
+            "display": "CA$79.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "3XL"
+          }
+        ]
+      ],
+      "available_options_count": 6,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-punched-out-ivory.png?v=1793317316"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476775059778",
+      "title": "Punched Out. Sweatpants",
+      "handle": "punched-out-sweatpants",
+      "url": "/products/punched-out-sweatpants",
+      "price_range": {
+        "min": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        },
+        "max": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-punched-out.png?v=1793250385",
+      "available": true,
+      "variant_count": 10,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Pepper",
+            "Espresso"
+          ]
+        }
+      ],
+      "product_type": "Sweatpants",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>Punched out.</p><p>Two words and a full stop, on the leg. Nothing else to say.</p><p>Nowhere to be and all day to get there.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Leg: PUNCHED OUT., on the front of the left leg</li>\n<li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.5 oz/yd² (220 g/m²)</li>\n<li>Flat cord at the waist</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Sweatpants",
+      "tags": [
+        "drop-1",
+        "punched-out",
+        "sweatpants"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946091184450",
+          "title": "S / Pepper",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Pepper"
+            }
+          ],
+          "price": {
+            "amount": 7999,
+            "currency": "CAD",
+            "display": "CA$79.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ]
+      ],
+      "available_options_count": 10,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-punched-out.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-espresso-punched-out.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605054274",
+      "title": "The Clock Beanie",
+      "handle": "the-clock-beanie",
+      "url": "/products/the-clock-beanie",
+      "price_range": {
+        "min": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        },
+        "max": {
+          "amount": 3999,
+          "currency": "CAD",
+          "display": "CA$39.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/the-clock-beanie-studio.png?v=1793317715",
+      "available": true,
+      "variant_count": 2,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Cuffed",
+            "Ribbed"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own.</p><p>Toque weather. For cold mornings on the water and the walk back to the truck.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Cuff: the clock, embroidered, about 25 mm (1 in) tall</li>\n<li>Styles: Cuffed or Ribbed</li>\n<li>Cuffed: 100% acrylic knit, 12 in (30 cm) long. Hand wash</li>\n<li>Ribbed: ribbed knit, with a turned-up cuff</li>\n<li>One size</li>\n</ul><p>Product images are mockups. Appearance may vary by style.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "beanie",
+        "drop-1b",
+        "logo",
+        "the-clock"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67957131903298",
+          "title": "Cuffed",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Cuffed"
+            }
+          ],
+          "price": {
+            "amount": 3499,
+            "currency": "CAD",
+            "display": "CA$34.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Cuffed"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Ribbed"
+          }
+        ]
+      ],
+      "available_options_count": 2,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/the-clock-beanie-studio.png?v=1793317715"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605152578",
+      "title": "The Clock Bucket Hat",
+      "handle": "the-clock-bucket-hat",
+      "url": "/products/the-clock-bucket-hat",
+      "price_range": {
+        "min": {
+          "amount": 3999,
+          "currency": "CAD",
+          "display": "CA$39.99"
+        },
+        "max": {
+          "amount": 4499,
+          "currency": "CAD",
+          "display": "CA$44.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/the-clock-bucket-hat-studio.png?v=1793317538",
+      "available": true,
+      "variant_count": 2,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Organic",
+            "Classic"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own.</p><p>For the dock, the boat and a long afternoon at the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Front: the clock, embroidered, about 25 mm (1 in) tall</li>\n<li>Styles: Organic or Classic</li>\n<li>Organic: 100% organic cotton twill, with a high crown. Spot clean or hand wash</li>\n<li>Classic: 100% cotton twill, with sewn eyelets</li>\n<li>One size fits most</li>\n</ul><p>Product images are mockups. Appearance may vary by style.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "bucket-hat",
+        "drop-1b",
+        "logo",
+        "the-clock"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67957132099906",
+          "title": "Organic",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Organic"
+            }
+          ],
+          "price": {
+            "amount": 4499,
+            "currency": "CAD",
+            "display": "CA$44.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Organic"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Classic"
+          }
+        ]
+      ],
+      "available_options_count": 2,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/the-clock-bucket-hat-studio.png?v=1793317538"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476774830402",
+      "title": "The Clock Crewneck",
+      "handle": "the-clock-crewneck",
+      "url": "/products/the-clock-crewneck",
+      "price_range": {
+        "min": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        },
+        "max": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-clock.png?v=1793246483",
+      "available": true,
+      "variant_count": 12,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Ivory",
+            "Blue Jean"
+          ]
+        }
+      ],
+      "product_type": "Crewneck",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. No words needed.</p><p>For the back deck, the boards and the drive up to the cottage.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Left chest: the clock, embroidered, about 25 mm (1 in) tall</li>\n<li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li>\n<li>Fit: relaxed</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Crewneck",
+      "tags": [
+        "crewneck",
+        "drop-1",
+        "logo",
+        "the-clock"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946090103106",
+          "title": "S / Ivory",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Ivory"
+            }
+          ],
+          "price": {
+            "amount": 7999,
+            "currency": "CAD",
+            "display": "CA$79.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ]
+      ],
+      "available_options_count": 12,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-clock.png?v=1793246483",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/crewneck-1466-blue-jean-clock.png?v=1793250386"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476770046274",
+      "title": "The Clock Hat",
+      "handle": "the-clock-hat",
+      "url": "/products/the-clock-hat",
+      "price_range": {
+        "min": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        },
+        "max": {
+          "amount": 3499,
+          "currency": "CAD",
+          "display": "CA$34.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-clock.png?v=1793246534",
+      "available": true,
+      "variant_count": 5,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Retro Trucker",
+            "5-Panel",
+            "Dad Hat",
+            "Rope Cap"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Black",
+            "Black/White",
+            "Evergreen"
+          ]
+        }
+      ],
+      "product_type": "Hat",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. No words needed.</p><p>Wear it on the water, on the course, at the cottage or out by the boards.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Front: the clock, embroidered, about 40 mm (1.6 in) tall</li>\n<li>Styles: Retro Trucker, 5-Panel, Dad Hat or Rope Cap</li>\n<li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li>\n<li>5-Panel: structured mid-profile cap. One-piece front with no centre seam, 65% polyester and 35% cotton twill, adjustable plastic snap closure</li>\n<li>Ships: made to order, usually ships in 2–5 business days</li>\n</ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Hat",
+      "tags": [
+        "drop-1",
+        "hat",
+        "logo",
+        "the-clock"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946082173250",
+          "title": "Retro Trucker / Black",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Retro Trucker"
+            },
+            {
+              "name": "Colour",
+              "value": "Black"
+            }
+          ],
+          "price": {
+            "amount": 3499,
+            "currency": "CAD",
+            "display": "CA$34.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Retro Trucker"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Retro Trucker"
+          },
+          {
+            "name": "Colour",
+            "value": "Evergreen"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "5-Panel"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Dad Hat"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Rope Cap"
+          },
+          {
+            "name": "Colour",
+            "value": "Black/White"
+          }
+        ]
+      ],
+      "available_options_count": 5,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-clock.png?v=1793246534",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6606-evergreen-clock.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-31-069-black-clock.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-6245cm-black-clock.png?v=1793250386",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hat-ba671-black-white-clock.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476770210114",
+      "title": "The Clock Hoodie",
+      "handle": "the-clock-hoodie",
+      "url": "/products/the-clock-hoodie",
+      "price_range": {
+        "min": {
+          "amount": 8999,
+          "currency": "CAD",
+          "display": "CA$89.99"
+        },
+        "max": {
+          "amount": 8999,
+          "currency": "CAD",
+          "display": "CA$89.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-clock.png?v=1793246534",
+      "available": true,
+      "variant_count": 36,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Oversized",
+            "Garment-Dyed",
+            "Lightweight"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Bone",
+            "White",
+            "Ivory",
+            "Pine Green",
+            "Blue Spruce",
+            "Blue Jean"
+          ]
+        }
+      ],
+      "product_type": "Hoodie",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. Shift's over. Hood up.</p><p>For the couch, the dock and the drive home.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Left chest: the clock, about 25 mm (1 in) tall, embroidered on all three styles</li>\n<li>Styles: Oversized, Garment-Dyed or Lightweight</li>\n<li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li>\n<li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing. Matching flat drawcords</li>\n<li>Lightweight: relaxed fit. Lightweight fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²), garment-dyed. Jersey-lined hood. Natural cream flat drawcords (White garments use white drawcords)</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Hoodie",
+      "tags": [
+        "drop-1",
+        "hoodie",
+        "logo",
+        "the-clock"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946083025218",
+          "title": "Oversized / S / Bone",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Oversized"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Bone"
+            }
+          ],
+          "price": {
+            "amount": 8999,
+            "currency": "CAD",
+            "display": "CA$89.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Bone"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Oversized"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pine Green"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Garment-Dyed"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Lightweight"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Jean"
+          }
+        ]
+      ],
+      "available_options_count": 36,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-clock.png?v=1793246534",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-5161-pine-green-clock.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-white-clock.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1567-blue-spruce-clock.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-ivory-clock.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/hoodie-1467-blue-jean-clock.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476778860866",
+      "title": "The Clock Jacket",
+      "handle": "the-clock-jacket",
+      "url": "/products/the-clock-jacket",
+      "price_range": {
+        "min": {
+          "amount": 9999,
+          "currency": "CAD",
+          "display": "CA$99.99"
+        },
+        "max": {
+          "amount": 9999,
+          "currency": "CAD",
+          "display": "CA$99.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-clock.png?v=1793246534",
+      "available": true,
+      "variant_count": 10,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Black",
+            "Light Blue"
+          ]
+        }
+      ],
+      "product_type": "Jacket",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. No words needed.</p><p>For the dock when the wind picks up.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Left chest: the clock, embroidered, about 25 mm (1 in) tall</li>\n<li>Packable anorak: a half-zip pullover with an adjustable bungee hood</li>\n<li>Fabric: 2.8 oz polyester micro poplin, wind and rain resistant</li>\n<li>Packs into its front pouch pocket</li>\n<li>Left sleeve: the jacket maker's own logo</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Jacket",
+      "tags": [
+        "drop-1",
+        "jacket",
+        "logo",
+        "the-clock"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946097148226",
+          "title": "S / Black",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Black"
+            }
+          ],
+          "price": {
+            "amount": 9999,
+            "currency": "CAD",
+            "display": "CA$99.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Black"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Light Blue"
+          }
+        ]
+      ],
+      "available_options_count": 10,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-clock.png?v=1793246534",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/jacket-co200-light-blue-clock.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478605250882",
+      "title": "The Clock Quarter-Zip",
+      "handle": "the-clock-quarter-zip",
+      "url": "/products/the-clock-quarter-zip",
+      "price_range": {
+        "min": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        },
+        "max": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-clock-ivory.png?v=1793317384",
+      "available": true,
+      "variant_count": 6,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        }
+      ],
+      "product_type": "Quarter-Zip",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own.</p><p>For an early round and the couch after.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Left chest: the clock, embroidered, about 25 mm (1 in) tall</li>\n<li>Unisex fleece, with a stand collar, rib cuffs and waistband</li>\n<li>Fit: relaxed</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p><p>Product images are mockups. Appearance may vary by style.</p>"
+      },
+      "type": "Quarter-Zip",
+      "tags": [
+        "drop-1b",
+        "logo",
+        "quarter-zip",
+        "the-clock"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67957132493122",
+          "title": "S",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ],
+          "price": {
+            "amount": 7999,
+            "currency": "CAD",
+            "display": "CA$79.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "3XL"
+          }
+        ]
+      ],
+      "available_options_count": 6,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-clock-ivory.png?v=1793317384"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476774994242",
+      "title": "The Clock Sweatpants",
+      "handle": "the-clock-sweatpants",
+      "url": "/products/the-clock-sweatpants",
+      "price_range": {
+        "min": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        },
+        "max": {
+          "amount": 7999,
+          "currency": "CAD",
+          "display": "CA$79.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-clock.png?v=1793250385",
+      "available": true,
+      "variant_count": 10,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Pepper",
+            "Espresso"
+          ]
+        }
+      ],
+      "product_type": "Sweatpants",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. Off the clock, on the couch.</p><p>Nowhere to be and all day to get there.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Leg: the clock, on the front of the left leg, about 25 mm (1 in) tall</li>\n<li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.5 oz/yd² (220 g/m²)</li>\n<li>Flat cord at the waist</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "Sweatpants",
+      "tags": [
+        "drop-1",
+        "logo",
+        "sweatpants",
+        "the-clock"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946090922306",
+          "title": "S / Pepper",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Pepper"
+            }
+          ],
+          "price": {
+            "amount": 7999,
+            "currency": "CAD",
+            "display": "CA$79.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Pepper"
+          }
+        ],
+        [
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Espresso"
+          }
+        ]
+      ],
+      "available_options_count": 10,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-pepper-clock.png?v=1793250385",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/sweatpants-1469-espresso-clock.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15476778729794",
+      "title": "The Clock T-Shirt",
+      "handle": "the-clock-t-shirt",
+      "url": "/products/the-clock-t-shirt",
+      "price_range": {
+        "min": {
+          "amount": 4499,
+          "currency": "CAD",
+          "display": "CA$44.99"
+        },
+        "max": {
+          "amount": 4499,
+          "currency": "CAD",
+          "display": "CA$44.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-clock.png?v=1793246578",
+      "available": true,
+      "variant_count": 17,
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            "Heavyweight",
+            "Pocket"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Ivory",
+            "White",
+            "Blue Spruce"
+          ]
+        }
+      ],
+      "product_type": "T-Shirt",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>A clock with its hands at 5:00. Quitting time.</p><p>It's the clock from the OFF SHFT logo, on its own. Shift's over. Tee's up.</p><p>For the dock, the deck and the first warm day off.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul>\n<li>Styles: Heavyweight or Pocket</li>\n<li>Heavyweight: the clock, embroidered on the left chest, about 25 mm (1 in) tall</li>\n<li>Pocket: the clock, embroidered on the left sleeve, about 25 mm (1 in) tall. The left-chest pocket stays plain.</li>\n<li>Both styles: relaxed fit. 100% ring-spun cotton, 6.1 oz/yd² (206.8 g/m²), garment-dyed</li>\n</ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>"
+      },
+      "type": "T-Shirt",
+      "tags": [
+        "drop-1",
+        "logo",
+        "t-shirt",
+        "the-clock"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67946096492866",
+          "title": "Heavyweight / S / Ivory",
+          "options": [
+            {
+              "name": "Style",
+              "value": "Heavyweight"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Ivory"
+            }
+          ],
+          "price": {
+            "amount": 4499,
+            "currency": "CAD",
+            "display": "CA$44.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": true
+          }
+        }
+      ],
+      "available_options": [
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Ivory"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Heavyweight"
+          },
+          {
+            "name": "Size",
+            "value": "3XL"
+          },
+          {
+            "name": "Colour",
+            "value": "Blue Spruce"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Pocket"
+          },
+          {
+            "name": "Size",
+            "value": "S"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Pocket"
+          },
+          {
+            "name": "Size",
+            "value": "M"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Pocket"
+          },
+          {
+            "name": "Size",
+            "value": "L"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Pocket"
+          },
+          {
+            "name": "Size",
+            "value": "XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ],
+        [
+          {
+            "name": "Style",
+            "value": "Pocket"
+          },
+          {
+            "name": "Size",
+            "value": "2XL"
+          },
+          {
+            "name": "Colour",
+            "value": "White"
+          }
+        ]
+      ],
+      "available_options_count": 17,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-clock.png?v=1793246578",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-1717-blue-spruce-clock.png?v=1793250386",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/tee-6030-white-clock.png?v=1793250385"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478492004674",
+      "title": "The Rest Is Ours. Hoodie",
+      "handle": "the-rest-is-ours-hoodie",
+      "url": "/products/the-rest-is-ours-hoodie",
+      "price_range": {
+        "min": {
+          "amount": 8999,
+          "currency": "CAD",
+          "display": "CA$89.99"
+        },
+        "max": {
+          "amount": 8999,
+          "currency": "CAD",
+          "display": "CA$89.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-blue-jean.png?v=1793304572",
+      "available": false,
+      "variant_count": 24,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Blue Jean",
+            "Ivory",
+            "Pepper",
+            "Butter"
+          ]
+        }
+      ],
+      "product_type": "Hoodie",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>The shift is done. The rest is ours.</p><p>A relaxed, lightweight cotton hoodie with THE REST IS OURS. printed across the upper back and the OFF SHFT logo embroidered on the left chest.</p><ul>\n<li>Comfort Colors 1467: relaxed fit in garment-dyed lightweight fleece</li>\n<li>100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li>\n<li>Jersey-lined hood with natural cream flat drawcords in all four selected colours</li>\n<li>Upper-back print approximately 240 mm wide; front logo approximately 63 mm wide</li>\n</ul><p>Coming soon. Product images are mockups.</p>"
+      },
+      "type": "Hoodie",
+      "tags": [
+        "12-the-rest-is-ours",
+        "hoodie",
+        "off-shft"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67956659716418",
+          "title": "S / Blue Jean",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Blue Jean"
+            }
+          ],
+          "price": {
+            "amount": 8999,
+            "currency": "CAD",
+            "display": "CA$89.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": false
+          },
+          "sku": "4165087"
+        }
+      ],
+      "available_options": [],
+      "available_options_count": 0,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-blue-jean.png?v=1793304572",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-ivory.png?v=1793304571",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-pepper.png?v=1793304572",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-butter.png?v=1793304572"
+      ]
+    },
+    {
+      "id": "gid://shopify/Product/15478491971906",
+      "title": "Time Well Earned. T-Shirt",
+      "handle": "time-well-earned-t-shirt",
+      "url": "/products/time-well-earned-t-shirt",
+      "price_range": {
+        "min": {
+          "amount": 4499,
+          "currency": "CAD",
+          "display": "CA$44.99"
+        },
+        "max": {
+          "amount": 4499,
+          "currency": "CAD",
+          "display": "CA$44.99"
+        }
+      },
+      "image": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-time-well-earned-blue-spruce.png?v=1793304572",
+      "available": false,
+      "variant_count": 24,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL"
+          ]
+        },
+        {
+          "name": "Colour",
+          "values": [
+            "Blue Spruce",
+            "Ivory",
+            "Pepper",
+            "Blue Jean"
+          ]
+        }
+      ],
+      "product_type": "T-Shirt",
+      "vendor": "OFF SHFT",
+      "description": {
+        "html": "<p>You put in the hours. This time is yours.</p><p>TIME WELL EARNED. in three embroidered lines on a relaxed, heavyweight cotton tee.</p><ul>\n<li>Comfort Colors 1717: relaxed fit, short sleeves and no pocket</li>\n<li>Garment-dyed 100% ring-spun cotton, 6.1 oz/yd² (206.8 g/m²)</li>\n<li>Centre-chest embroidery, approximately 95 mm wide</li>\n</ul><p>Coming soon. Product images are mockups.</p>"
+      },
+      "type": "T-Shirt",
+      "tags": [
+        "11-time-well-earned",
+        "off-shft",
+        "t-shirt"
+      ],
+      "variants": [
+        {
+          "id": "gid://shopify/ProductVariant/67956658929986",
+          "title": "S / Blue Spruce",
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Colour",
+              "value": "Blue Spruce"
+            }
+          ],
+          "price": {
+            "amount": 4499,
+            "currency": "CAD",
+            "display": "CA$44.99"
+          },
+          "list_price": null,
+          "availability": {
+            "available": false
+          },
+          "sku": "7303018"
+        }
+      ],
+      "available_options": [],
+      "available_options_count": 0,
+      "available_options_truncated": false,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-time-well-earned-blue-spruce.png?v=1793304572",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-time-well-earned-ivory.png?v=1793304571",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-time-well-earned-pepper.png?v=1793304572",
+        "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-time-well-earned-blue-jean.png?v=1793304572"
+      ]
+    }
+  ]
+}

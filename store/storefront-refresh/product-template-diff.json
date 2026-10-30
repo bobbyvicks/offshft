@@ -1,0 +1,36 @@
+{
+  "source": "store/theme-files/out/templates/product.json",
+  "target": "store/storefront-refresh/theme/templates/product.json",
+  "changed_leaf_count": 4,
+  "changes": [
+    {
+      "path": "/sections/main/blocks/product-details/blocks/accordion_info/blocks/row_shipping/blocks/text_row_shipping/settings/text",
+      "before": "<p>Made to order, then shipped to you. You'll see the shipping cost at checkout before you pay. Times and costs: <a href=\"/pages/shipping-returns\">Shipping &amp; returns</a>.</p>",
+      "after": "<p>Shipping options and costs are shown at checkout. See <a href=\"/pages/shipping-returns\">Shipping &amp; returns</a> for more information.</p>"
+    },
+    {
+      "path": "/sections/main/blocks/product-details/blocks/accordion_info/blocks/row_returns/blocks/text_row_returns/settings/text",
+      "before": "<p>Each hat is made for your order. How returns and replacements work: <a href=\"/pages/shipping-returns\">Shipping &amp; returns</a>.</p>",
+      "after": "<p>For return and replacement information, see <a href=\"/pages/shipping-returns\">Shipping &amp; returns</a>.</p>"
+    },
+    {
+      "path": "/sections/main/blocks/product-details/blocks/accordion_info/blocks/row_size/blocks/text_row_size/settings/text",
+      "before": "<p>Measure around your head where a hat sits, then check the range for your style on the <a href=\"/pages/size-fit\">Size &amp; fit</a> page.</p>",
+      "after": "<p>Fit varies by style. Check the <a href=\"/pages/size-fit\">Size &amp; fit</a> guide before choosing your size.</p>"
+    },
+    {
+      "path": "/sections/product_recommendations_qggXJq/blocks/text_cbcgyb/settings/text",
+      "before": "<h2>More hats</h2>",
+      "after": "<h2>More for your time off.</h2>"
+    }
+  ],
+  "validation": [
+    "JSON parses and minified to one line.",
+    "Exactly four existing settings.text string leaves changed; all other values, keys, arrays and order preserved.",
+    "All changed blocks remain native text blocks; their text setting is richtext in official Horizon 4.3.0 schema.",
+    "Details remains native dynamic product-description.",
+    "Variants, add-to-cart, prices, quantity, media, checkout and UI settings unchanged.",
+    "Existing product recommendations disabled=true is preserved."
+  ],
+  "route_evidence": "Fresh native Shopify Pages admin inspection by root confirmed Size & fit, FAQ, and Shipping & returns are Visible with existing revised copy. Existing help-page routes are intentionally retained."
+}

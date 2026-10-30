@@ -1,0 +1,76 @@
+{
+  "created": "2026-10-29",
+  "tool": "built-in image_gen__imagegen",
+  "status": "AI product mockups, visual QA complete",
+  "basis": "Current Shopify technical drawings downloaded from known listing media. Supplier shortlist has not been approved. These are customer-facing polished mockups, not photographs of manufactured garments.",
+  "qa": [
+    "Exact spelling OFF SHFT / PUNCHED OUT. inspected.",
+    "Clock ring, rust dot and separate hands at12 and5 inspected.",
+    "Concept outlines, enlarged insets, callouts and measurement marks absent.",
+    "Main product entire garment contained within frame.",
+    "Left chest and left sleeve are wearer's left (viewer right).",
+    "Quarter-zip Clock symbol refined down to a discreet size.",
+    "Exact millimetre dimensions and final garment/thread colour are not established by mockup imagery."
+  ],
+  "assets": [
+    {
+      "handle": "off-shft-logo-quarter-zip",
+      "file": "quarter-zip-logo-ivory.png",
+      "generated": "exec-48bb6bdc-ed9f-4827-9bef-8074dae8a2f4.png",
+      "prompt": "Use case: sketch-to-render, e-commerce product mockup. Convert reference image 1's quarter-zip sweatshirt into a premium photorealistic studio product photograph. Reference 2 is the exact logo artwork only. Show a single warm ivory/bone relaxed fleece quarter-zip, mock-neck stand collar, closed tonal zipper to upper chest, set-in long sleeves, ribbed cuffs and hem, no pockets, no drawcords. Full garment front view centered, sleeves relaxed slightly outward, entire outline visible with generous margins, square composition on pale warm off-white seamless backdrop. Fine cotton knit surface, subtle natural folds, soft directional daylight, realistic textile depth and stitching. Exact small OFF SHFT embroidery on wearer's LEFT chest (viewer right), about 63 mm wide, same relative scale/position as drawing. Ink navy letters, rust orange clock hands and dot. Preserve the clock O and exact word spelling OFF SHFT (no I), typography, proportions, no distortions. The embroidery is small understated actual stitching, not a patch. Remove ALL concept-art features: callout circles, magnified panels, leader lines, schematic outlines, text captions and measurement labels. No props, person, hanger, brand tag, additional logo or watermark. This is a polished product mockup, not supplier verification. No illustration or 3D plastic rendering.",
+      "alt": "Studio mockup of OFF SHFT Logo Quarter-Zip in ivory with small Ink and Rust chest embroidery.",
+      "sourceOutput": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-48bb6bdc-ed9f-4827-9bef-8074dae8a2f4.png",
+      "output": "store/storefront-refresh/media/quarter-zip-logo-ivory.png",
+      "sha256": "a989ed37a0cf32c44099c88f114e1ba5ab60903c09614c071c79b3966986c8ce",
+      "pixelDimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "handle": "the-clock-quarter-zip",
+      "file": "quarter-zip-clock-ivory.png",
+      "generated": "exec-752715ed-fb77-401e-91dc-a7d83e9796e3.png",
+      "prompt": "Use case: precise-object-edit for a product mockup. Image 1 is the finished ivory quarter-zip sweatshirt photograph to preserve exactly: same garment, cut, collar, closed quarter zip, fabric, colour, folds, lighting, background, shadows, square framing and camera. Replace ONLY the small OFF SHFT chest embroidery with the stand-alone clock symbol shown in image 2 and the exact artwork in image 3. Place the symbol on the wearer's LEFT chest (viewer right), at the same centre location. Symbol about 25 mm tall at true product scale, significantly smaller/narrower than previous 63 mm wordmark. Exact navy ring with rust orange central dot, vertical rust hand above at 12 o'clock and slanted rust hand below toward5 o'clock, keep gaps and polygon tips. Fine embroidery thread on fabric, no patch. No wording anywhere on garment. Do NOT add drawing's circles, magnified details, outlines, labels or leaderlines. Retain realistic product photography.",
+      "refinementPrompt": "Precise single edit: in this photograph reduce the tiny clock embroidery on the viewer-right chest to exactly60 percent of its current width and height, keeping its centre fixed. It should be a very discreet25mm garment symbol, about48pixels high in the final1254-square photo. Preserve all symbol geometry and navy/rust colours, with navy circular ring, rust dot, rust upper and lower hands. Keep EVERY other pixel-like feature of the garment and composition unchanged: same ivory quarterzip, collar, zipper, stitching, cuffs, hem, folds, lighting, backdrop and crop. No new logos, words or callouts. Realistic textile embroidery.",
+      "intermediate": "exec-ce9f7bfa-f719-4746-bf9e-37c1404e02b0.png",
+      "alt": "Studio mockup of The Clock Quarter-Zip in ivory with a small Ink and Rust clock on the left chest.",
+      "sourceOutput": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-752715ed-fb77-401e-91dc-a7d83e9796e3.png",
+      "output": "store/storefront-refresh/media/quarter-zip-clock-ivory.png",
+      "sha256": "22c7b3205b0227a6d6e755b4982fa087514b0884f209400f3ed8696d90a2a1a5",
+      "pixelDimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "handle": "punched-out-quarter-zip",
+      "file": "quarter-zip-punched-out-ivory.png",
+      "generated": "exec-c10ac5d0-a8f2-4f7d-b3f9-544babd649d4.png",
+      "prompt": "Use case: precise-object-edit for e-commerce product mockup. Preserve image 1 EXACTLY as a photograph: ivory quarter-zip garment, cuts, seams, zipper, collar, cuffs, hem, fabric texture, all folds, lighting, pale offwhite background, positioning. Replace ONLY its small left-chest OFF SHFT wordmark with the exact two-line phrase shown in reference image 2. Text verbatim: first row 'PUNCHED', second row 'OUT.' centered below. Same heavy geometric lettering as reference, navy ink letters #1F2733, the final round period rust #B4552D. Fine realistic embroidery directly into fabric; no patch. Restrained small chest placement, total design width approximately one ninth of visible main torso width, around 75 pixels wide in a1254px square image. Wearer's left chest means viewer right. No logo anywhere else. Delete NO garment details. Do NOT include the drawing's magnification circles, dotted lines, schematic marks, or outlines. No caption or extra wording. Match the original studio product mockup exactly.",
+      "alt": "Studio mockup of Punched Out. Quarter-Zip in ivory with small two-line Ink lettering and Rust period.",
+      "sourceOutput": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-c10ac5d0-a8f2-4f7d-b3f9-544babd649d4.png",
+      "output": "store/storefront-refresh/media/quarter-zip-punched-out-ivory.png",
+      "sha256": "14fa0434bf0b5b02f2dc234b62eb1760881fc80f4110b973843e62f851fedfd8",
+      "pixelDimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "handle": "punched-out-golf-shirt",
+      "file": "golf-shirt-punched-out-ivory.png",
+      "generated": "exec-5026380f-8234-4f9e-959a-d02416eaab95.png",
+      "prompt": "Use case: sketch-to-render. Create a clean, premium photorealistic e-commerce product mockup replacing the technical drawings in images 1 and 2. Reference 1 establishes shirt construction and exact chest lettering; reference2 establishes the wearer's LEFT sleeve clock detail; reference3 is the exact clock symbol artwork; reference4 is only studio lighting/background style. One warm ivory/bone short-sleeve cotton-pique polo shirt, ribbed spread polo collar, three tonal buttons, tidy short sleeve hems, subtle side hem vents. Full front view with slight turn that shows wearer's left sleeve (viewer right), entire shirt including hem/sleeves visible with generous margins, square framing. Warm pale off-white seamless studio background, soft realistic shadows, tactile small pique knit texture, natural slight folds, sophisticated lighting like reference4. Tiny understated embroidery at wearer left chest: 'PUNCHED' on row1 and 'OUT.' row2 centred; Ink navy lettering, final period Rust orange. About64mm wide relative to shirt, no huge graphic. On wearer LEFT sleeve only: tiny25mm high clock symbol, Ink navy O/ring with Rust orange dot and separate orange hands up at12 and down-right5. Preserve these source designs. No other brand logo; no manufacturer claims, no new wording. Remove ALL reference drawing embellishments: no circles, no magnified insets, dotted leaders, outlines, labels, measuring marks or presentation board. No people, mannequins visible, props, hanger, watermark, tag or caption. Photographic product mockup, not illustration.",
+      "alt": "Studio mockup of Punched Out. Golf Shirt in ivory pique, with two-line chest embroidery and a clock on the left sleeve.",
+      "limitation": "Pique style representation only. Do not assign as exact Performance style photo or claim verified supplier colour.",
+      "sourceOutput": "C:/Users/vicke/.codex/generated_images/01a189f6-c9bc-7f03-9697-aaa8f7738108/exec-5026380f-8234-4f9e-959a-d02416eaab95.png",
+      "output": "store/storefront-refresh/media/golf-shirt-punched-out-ivory.png",
+      "sha256": "e0f79c6dcf8ef21be489addd561ac3853a7a3a677e367f19efb216bcd9b77ed7",
+      "pixelDimensions": [
+        1254,
+        1254
+      ]
+    }
+  ]
+}

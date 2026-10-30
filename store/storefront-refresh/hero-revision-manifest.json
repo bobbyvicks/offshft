@@ -1,0 +1,38 @@
+{
+  "tool": "built-in image_gen__imagegen",
+  "created": "2026-10-29",
+  "request": "Remove the hoodie sleeve crossing the main-page hero and fill that space with another product.",
+  "status": "Published as Version 4; superseded by Evergreen Version 5. Retained for recovery.",
+  "desktop": {
+    "output": "store/storefront-refresh/media/offshft-home-hero-three-products.png",
+    "generatedPath": "C:/Users/vicke/.codex/generated_images/01a185b0-8e64-7bb3-b5c4-7d31c117d1a7/exec-676de3d5-ade9-4999-925d-20b879c56a8d.png",
+    "prompt": "Use case: precise-object-edit / product-mockup. Edit image 1, the existing OFF SHFT desktop homepage hero. The owner dislikes the hoodie sleeve crossing the foreground. Tuck BOTH hoodie sleeves completely behind and beneath the folded hoodie so NO loose sleeve or long cuff crosses the front. Fill that former sleeve area with a separate neatly folded pair of Pepper charcoal OFF SHFT Clock sweatpants, using image 2 for the sweatpants colour, cut, waistband, cream drawcords and small clock embroidery ONLY. Fold the sweatpants into a compact retail stack in front-left of the hoodie, showing a real elastic waistband, short cream drawcords, pocket seam and the small Bone-and-gold clock on the upper thigh. Distinct waistband and folded leg layers must make them unambiguously trousers, not another sleeve. Move the folded hoodie slightly behind this stack as needed. Preserve the existing cap at front-right exactly: Charcoal mesh trucker with heavy off-white 3D puff 'FOR A' over 'REASON.' and gold period. Preserve the small Ink-and-Rust OFF SHFT chest logo and ordinary smooth ivory cotton fabric. ALL garment fabric must be plain, soft, fine cotton jersey exterior with no embossed maze pattern, jacquard, decorative squiggles, quilting or ornamental texture. Keep the same warm Bone seamless background, natural light and soft shadows. Keep the wide 2:1 landscape canvas, approximately 1774x887. Product group contained in right half with full margins: left 50% completely empty background for headline overlay. Three products only: folded hoodie, folded sweatpants, hat. No marketing text, no extra props, packaging, tags, model, watermark or invented manufacturer branding. Realistic studio photograph.",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sha256": "c548a613e458ade8cfce7b86fb95ee138733b4606e1bb1c18274d8c2af8fb59f"
+  },
+  "mobile": {
+    "output": "store/storefront-refresh/media/offshft-home-hero-three-products-mobile.png",
+    "generatedPath": "C:/Users/vicke/.codex/generated_images/01a185b0-8e64-7bb3-b5c4-7d31c117d1a7/exec-3c2d833a-b76d-441a-8723-f088ef95f2f4.png",
+    "prompt": "Use case: product-mockup. Recompose this exact three-product OFF SHFT photograph for a PORTRAIT mobile homepage hero at 1024x1536 (2:3), not a crop. The TOP 50% of entire canvas must remain clean empty warm Bone background for a headline and button added by the website. All THREE products grouped in the bottom 45%, fully inside the canvas with comfortable margins: folded ivory OFF SHFT hoodie behind, folded Pepper charcoal Clock sweatpants at front-left with elastic waistband, cream drawcords and small Bone/gold clock visible, and Charcoal FOR A REASON. trucker cap front-right. The hoodie's sleeves are completely tucked behind/beneath it: no sleeve laid across the front. Preserve exact small Ink/Rust OFF SHFT logo, cap's off-white raised puff lettering 'FOR A' over 'REASON.' with gold period, sweatpants colour, cream drawcords and embroidered clock. Keep ordinary plain smooth cotton cloth with fine natural grain only, no maze/jacquard/embossed patterns or decorative squiggles. Same natural window light, tactile folds, quiet shadows and warm Bone seamless surface. Photorealistic. No additional objects, marketing captions, packaging, tags, props, people or watermark. Preserve all garments and proportions as a coherent trio, not isolated cutouts. Leave the top half truly empty.",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sha256": "e408d50127766f8df5929cab3d5772a52f2868918e21d7217da54619dc434fed"
+  },
+  "references": [
+    "store/storefront-refresh/media/offshft-home-hero.png",
+    "store/realistic-products/colour-expansion/images/sweatpants-1469-pepper-clock.png"
+  ],
+  "qa": [
+    "Three distinct products: ivory OFF SHFT hoodie, folded Pepper Clock sweatpants, Charcoal For a Reason. hat.",
+    "Hoodie sleeves tucked behind; no sleeve crossing the foreground.",
+    "Original logo and phrase wording preserved.",
+    "Desktop headline area and mobile upper half retain empty Bone backdrop.",
+    "Images are generated mockups, not photographs of manufactured samples."
+  ],
+  "recovery": "Original two-product heroes remain in media/ and in Shopify Files. Original generation history remains in hero-generation-manifest.json."
+}
