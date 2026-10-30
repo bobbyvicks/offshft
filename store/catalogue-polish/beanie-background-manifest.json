@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-30T00:25:44.824Z",
+  "purpose": "Replace near-white beanie mockup backgrounds with consistent warm Bone studio backgrounds while preserving the existing products and embroidery.",
+  "generation": {
+    "tool": "built-in image_gen.imagegen",
+    "mode": "edit",
+    "useCase": "precise-object-edit",
+    "calls": 3,
+    "transparentBackground": false
+  },
+  "requestedBackground": {
+    "name": "Bone",
+    "hex": "#ECE5D3",
+    "rgb": [
+      236,
+      229,
+      211
+    ],
+    "surface": "Opaque edge-to-edge matte seamless studio surface with a soft natural contact shadow."
+  },
+  "qa": {
+    "inputImagesIndividuallyViewed": true,
+    "allOutputsVisuallyInspected": true,
+    "result": "Accepted for parent review/application",
+    "observations": [
+      "Square framing, hat silhouettes, cuff geometry, ivory fabric appearance, embroidery placement, logo geometry and wording visually preserved.",
+      "All three images have consistent warm backgrounds without white borders or visible white halos.",
+      "Source and output dimensions remain 1254 by 1254. Outputs are opaque RGB PNGs."
+    ],
+    "limitations": [
+      "Generative editing does not guarantee pixel-identical product regions; preservation was assessed visually.",
+      "The generated backdrop closely follows the warm Bone palette but is not an exact hexadecimal fill: sampled corner medians are RGB232-233,223-224,204-206, slightly darker than #ECE5D3.",
+      "These remain product mockups and do not establish supplier/material accuracy."
+    ]
+  },
+  "application": {
+    "status": "complete: six image replacements applied and visually verified",
+    "mode": "Shopify Content > Files > native Replace",
+    "shopifyChanged": true,
+    "uiUsed": true,
+    "performedBy": "root agent",
+    "reportedAt": "2026-10-30T00:56:07.119029+00:00",
+    "documentationProvenance": "Root reported the native Shopify actions and evidence; this documentation task used local files only.",
+    "existingFileIdsPreserved": true,
+    "existingFileUrlsPreserved": true,
+    "existingAltTextPreserved": true,
+    "existingProductReferencesPreserved": true,
+    "associationsRemoved": 0,
+    "newFilesUploadedAndAttached": false,
+    "previousContentStillInShopify": false,
+    "previousContentRecovery": "Unchanged local source PNGs retain the previous image content. Shopify now serves the replacement content from the existing file records.",
+    "fileProcessingStatus": "complete",
+    "fileVerification": "All six rows showed updated links, native file sizes and warm-background thumbnail readback. Explicit success toasts were observed for OFF SHFT Logo Beanie and Punched Out. Beanie.",
+    "productGridVerification": "Verified by root on desktop and mobile Headwear live previews: all six warmer images visible, with 11 Headwear product headings and existing file IDs/product references unchanged.",
+    "screenshot": "store/catalogue-polish/verification/six-hat-files-updated.jpg",
+    "files": [
+      {
+        "handle": "off-shft-logo-beanie",
+        "shopifyFileId": "46676185416002",
+        "displayedSizeMB": 2.51,
+        "successToastObserved": true,
+        "processingComplete": true,
+        "updatedLinkObserved": true,
+        "warmThumbnailObserved": true,
+        "productReferenceCount": 1,
+        "localRecoveryPath": "store/storefront-refresh/media/off-shft-logo-beanie-studio.png",
+        "localReplacementPath": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png"
+      },
+      {
+        "handle": "the-clock-beanie",
+        "shopifyFileId": "46676177682754",
+        "displayedSizeMB": 2.49,
+        "successToastObserved": false,
+        "processingComplete": true,
+        "updatedLinkObserved": true,
+        "warmThumbnailObserved": true,
+        "productReferenceCount": 1,
+        "localRecoveryPath": "store/storefront-refresh/media/the-clock-beanie-studio.png",
+        "localReplacementPath": "store/catalogue-polish/media/the-clock-beanie-studio-bone.png"
+      },
+      {
+        "handle": "punched-out-beanie",
+        "shopifyFileId": "46676164837698",
+        "displayedSizeMB": 2.45,
+        "successToastObserved": true,
+        "processingComplete": true,
+        "updatedLinkObserved": true,
+        "warmThumbnailObserved": true,
+        "productReferenceCount": 1,
+        "localRecoveryPath": "store/storefront-refresh/media/punched-out-beanie-studio.png",
+        "localReplacementPath": "store/catalogue-polish/media/punched-out-beanie-studio-bone.png"
+      }
+    ],
+    "productGridVerifiedAt": "2026-10-30T01:18:41.112902+00:00",
+    "productGridScreenshots": [
+      "store/catalogue-polish/verification/headwear-desktop.jpg",
+      "store/catalogue-polish/verification/headwear-mobile.jpg"
+    ],
+    "additionalClockBeanieScreenshot": "store/catalogue-polish/verification/homepage-mobile-grid.jpg",
+    "completionScope": "Image application only; no product fulfilment or ordering-readiness claim."
+  },
+  "assets": [
+    {
+      "productHandle": "off-shft-logo-beanie",
+      "source": "store/storefront-refresh/media/off-shft-logo-beanie-studio.png",
+      "sourceSha256": "f37b653abec77678f74ea334cd5e4771f03904370fca022bcf4ba178c517e196",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-7ec0643d-0bf5-484a-8ee0-11dfcf187aa5.png",
+      "output": "store/catalogue-polish/media/off-shft-logo-beanie-studio-bone.png",
+      "outputSha256": "2632e1105d384779ad67463531ecede8ea9608a0eab3eef50fe1c7ae4ea296c1",
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerSample": {
+        "method": "Per-channel medians from32×32pixel corner patches, ordered top-left/top-right/bottom-left/bottom-right.",
+        "rgb": [
+          [
+            232,
+            223,
+            204
+          ],
+          [
+            232,
+            223,
+            204
+          ],
+          [
+            232,
+            223,
+            204
+          ],
+          [
+            233,
+            224,
+            204
+          ]
+        ]
+      },
+      "prompt": "Use case: precise-object-edit.\nAsset type: square ecommerce product-photo background replacement.\nInput image 1 is the EDIT TARGET. Make one minimal change only: replace the pale near-white studio backdrop with consistent warm Bone #ECE5D3 (RGB236,229,211), filling the entire canvas edge-to-edge as a matte seamless studio surface. Keep the backdrop free of visible texture and horizon lines; retain a restrained soft natural contact shadow under the hat. The open background should closely match the requested Bone color, not white or near-white.\nPreserve the product exactly: the same ivory beanie silhouette, crown and cuff geometry, knit ribs, fabric color, fine fibers, lighting on the product, all embroidery, and the exact OFF SHFT lettering and its clock O, in Ink with Rust hands and pivot. Preserve exact logo placement, size, shape, wording, thread colors, camera view, centered composition, framing, crop, scale and square aspect ratio. Do not redraw, redesign, resize, recolor, sharpen or change the hat. No extra objects, extra text, white border, white halo, watermark, invented fabric texture, dramatic shadows, vignette or transparency. The only edited pixels should be the background and its natural ground shadow. Output one opaque image.",
+      "qa": "Visual inspection passed: same hat/design, consistent warm background, soft contact shadow, no visible white halo."
+    },
+    {
+      "productHandle": "the-clock-beanie",
+      "source": "store/storefront-refresh/media/the-clock-beanie-studio.png",
+      "sourceSha256": "00f7296518f7bbff2a9a3fbb9a9fba472eb5b238c9da5cd8fdcd7dde395fc0e4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-1d1c2572-e2ef-4a42-9221-e2cadd3bfb2c.png",
+      "output": "store/catalogue-polish/media/the-clock-beanie-studio-bone.png",
+      "outputSha256": "319151599702654ca2d38253e879818b455255499a3e5d552153eb7bbd3f4e5f",
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerSample": {
+        "method": "Per-channel medians from32×32pixel corner patches, ordered top-left/top-right/bottom-left/bottom-right.",
+        "rgb": [
+          [
+            233,
+            224,
+            205
+          ],
+          [
+            232,
+            224,
+            205
+          ],
+          [
+            232,
+            224,
+            205
+          ],
+          [
+            233,
+            224,
+            205
+          ]
+        ]
+      },
+      "prompt": "Use case: precise-object-edit.\nAsset type: square ecommerce product-photo background replacement.\nInput image 1 is the EDIT TARGET. Make one minimal change only: replace the pale near-white studio backdrop with consistent warm Bone #ECE5D3 (RGB236,229,211), filling the entire canvas edge-to-edge as a matte seamless studio surface. Keep the backdrop free of visible texture and horizon lines; retain a restrained soft natural contact shadow under the hat. The open background should closely match the requested Bone color, not white or near-white.\nPreserve the product exactly: the same ivory beanie silhouette, crown and cuff geometry, knit ribs, fabric color, fine fibers, lighting on the product, all embroidery, and the exact standalone clock O, in Ink with Rust hands and pivot. Preserve exact logo placement, size, shape, wording, thread colors, camera view, centered composition, framing, crop, scale and square aspect ratio. Do not redraw, redesign, resize, recolor, sharpen or change the hat. No extra objects, extra text, white border, white halo, watermark, invented fabric texture, dramatic shadows, vignette or transparency. The only edited pixels should be the background and its natural ground shadow. Output one opaque image.",
+      "qa": "Visual inspection passed: same hat/design, consistent warm background, soft contact shadow, no visible white halo."
+    },
+    {
+      "productHandle": "punched-out-beanie",
+      "source": "store/storefront-refresh/media/punched-out-beanie-studio.png",
+      "sourceSha256": "e23ccc4c330dfa5e554c38ca6dfc72ed7346131e72b7958df035c0d9540099b4",
+      "sourceDimensions": [
+        1254,
+        1254
+      ],
+      "generatedSource": "C:/Users/vicke/.codex/generated_images/01a189f6-b0de-7393-adc3-71dfa6bf0b2f/exec-02d493d8-9b64-4369-9009-5d1f57d6ac2d.png",
+      "output": "store/catalogue-polish/media/punched-out-beanie-studio-bone.png",
+      "outputSha256": "8dd7bf71e12732a03842482449c086eb90bd0fb0903bc72e5968d9e9968f615c",
+      "outputDimensions": [
+        1254,
+        1254
+      ],
+      "outputMode": "RGB",
+      "cornerSample": {
+        "method": "Per-channel medians from32×32pixel corner patches, ordered top-left/top-right/bottom-left/bottom-right.",
+        "rgb": [
+          [
+            233,
+            224,
+            205
+          ],
+          [
+            233,
+            224,
+            205
+          ],
+          [
+            233,
+            224,
+            206
+          ],
+          [
+            233,
+            224,
+            205
+          ]
+        ]
+      },
+      "prompt": "Use case: precise-object-edit.\nAsset type: square ecommerce product-photo background replacement.\nInput image 1 is the EDIT TARGET. Make one minimal change only: replace the pale near-white studio backdrop with consistent warm Bone #ECE5D3 (RGB236,229,211), filling the entire canvas edge-to-edge as a matte seamless studio surface. Keep the backdrop free of visible texture and horizon lines; retain a restrained soft natural contact shadow under the hat. The open background should closely match the requested Bone color, not white or near-white.\nPreserve the product exactly: the same ivory beanie silhouette, crown and cuff geometry, knit ribs, fabric color, fine fibers, lighting on the product, all embroidery, and the exact two-line PUNCHED / OUT. lettering, in Ink with a Rust period. Preserve exact logo placement, size, shape, wording, thread colors, camera view, centered composition, framing, crop, scale and square aspect ratio. Do not redraw, redesign, resize, recolor, sharpen or change the hat. No extra objects, extra text, white border, white halo, watermark, invented fabric texture, dramatic shadows, vignette or transparency. The only edited pixels should be the background and its natural ground shadow. Output one opaque image.",
+      "qa": "Visual inspection passed: same hat/design, consistent warm background, soft contact shadow, no visible white halo."
+    }
+  ]
+}

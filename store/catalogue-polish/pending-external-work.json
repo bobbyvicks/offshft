@@ -1,0 +1,230 @@
+{
+  "recordedAt": "2026-10-30T01:17:27.257104+00:00",
+  "status": "external copy complete; artwork review pending; six designs absent from Shopify",
+  "evidence": {
+    "source": "Root agent observation of the open Claude session",
+    "sessionTitle": "COG app monetization strategy",
+    "workflow": "offshft-six-phrases",
+    "reportedWorkflowState": "Fresh root AX readback: one agent running,four done. Artwork has one running and one done; copy has three done.",
+    "verification": "Reported by root; this local documentation task did not inspect or operate that session.",
+    "github": {
+      "source": "Root agent read through the GitHub connector",
+      "repository": "bobbyvicks/offshft",
+      "branch": "designs/drop-1",
+      "branchHead": "d2ccceaec521df609fec3008c9a76de7ecaa5b79",
+      "authoredAt": "2026-10-30T00:16:43Z",
+      "commitMessage": "WIP: six phrase designs (logo build export for the phrase generator; draft listing copy)",
+      "file": "store/products/drop1c.json",
+      "url": "https://github.com/bobbyvicks/offshft/blob/d2ccceaec521df609fec3008c9a76de7ecaa5b79/store/products/drop1c.json",
+      "draftCount": 6,
+      "readiness": {
+        "productionArtworkReady": false,
+        "colours": "later",
+        "fulfilmentMappings": "not configured"
+      },
+      "verification": "Root explicitly confirmed the six draft handles/types and readiness fields from this exact commit. This local documentation task did not fetch GitHub or inspect Shopify."
+    },
+    "taskCounts": {
+      "running": 1,
+      "done": 4,
+      "artwork": {
+        "running": 1,
+        "done": 1
+      },
+      "copy": {
+        "running": 0,
+        "done": 3
+      }
+    },
+    "copyStatus": "finished",
+    "artworkStatus": "review pending",
+    "shopifyStatus": "Root fresh Shopify Products UI shows32 current products; none of the six new titles found.",
+    "externalPlanningNote": "The external chat discusses adding the six without images for later Astra mockups. This is unexecuted planning evidence, not an instruction to this task and not publication proof.",
+    "latestObservedAt": "2026-10-30T01:17:27.257104+00:00"
+  },
+  "products": [
+    {
+      "title": "Nowhere To Be. Hoodie",
+      "productType": "Hoodie",
+      "styles": [
+        "Oversized",
+        "Garment-Dyed"
+      ],
+      "placement": "Left chest",
+      "layout": "Two lines",
+      "plannedPrice": {
+        "amount": 89.99,
+        "currency": "CAD"
+      },
+      "status": "copy complete; external artwork/review pending; no Shopify product verified",
+      "shopifyProductId": null,
+      "handle": "nowhere-to-be-hoodie",
+      "verifiedFiles": [],
+      "listingSource": {
+        "file": "store/products/drop1c.json",
+        "commit": "d2ccceaec521df609fec3008c9a76de7ecaa5b79",
+        "url": "https://github.com/bobbyvicks/offshft/blob/d2ccceaec521df609fec3008c9a76de7ecaa5b79/store/products/drop1c.json",
+        "status": "draft"
+      },
+      "productionReadiness": {
+        "productionArtworkReady": false,
+        "colours": "later",
+        "fulfilmentMappings": "not configured"
+      },
+      "shopifyAvailability": "not verified"
+    },
+    {
+      "title": "Sun\u2019s Still Up. Hat",
+      "productType": "Hat",
+      "styles": [
+        "5-Panel",
+        "Rope Cap"
+      ],
+      "placement": "Front",
+      "layout": "Two lines",
+      "plannedPrice": {
+        "amount": 34.99,
+        "currency": "CAD"
+      },
+      "status": "copy complete; external artwork/review pending; no Shopify product verified",
+      "shopifyProductId": null,
+      "handle": "suns-still-up-hat",
+      "verifiedFiles": [],
+      "listingSource": {
+        "file": "store/products/drop1c.json",
+        "commit": "d2ccceaec521df609fec3008c9a76de7ecaa5b79",
+        "url": "https://github.com/bobbyvicks/offshft/blob/d2ccceaec521df609fec3008c9a76de7ecaa5b79/store/products/drop1c.json",
+        "status": "draft"
+      },
+      "productionReadiness": {
+        "productionArtworkReady": false,
+        "colours": "later",
+        "fulfilmentMappings": "not configured"
+      },
+      "shopifyAvailability": "not verified"
+    },
+    {
+      "title": "No Alarm Set. Crewneck",
+      "productType": "Crewneck",
+      "styles": null,
+      "placement": "Big front",
+      "layout": null,
+      "plannedPrice": {
+        "amount": 79.99,
+        "currency": "CAD"
+      },
+      "status": "copy complete; external artwork/review pending; no Shopify product verified",
+      "shopifyProductId": null,
+      "handle": "no-alarm-set-crewneck",
+      "verifiedFiles": [],
+      "listingSource": {
+        "file": "store/products/drop1c.json",
+        "commit": "d2ccceaec521df609fec3008c9a76de7ecaa5b79",
+        "url": "https://github.com/bobbyvicks/offshft/blob/d2ccceaec521df609fec3008c9a76de7ecaa5b79/store/products/drop1c.json",
+        "status": "draft"
+      },
+      "productionReadiness": {
+        "productionArtworkReady": false,
+        "colours": "later",
+        "fulfilmentMappings": "not configured"
+      },
+      "shopifyAvailability": "not verified"
+    },
+    {
+      "title": "Banked Time. Hat",
+      "productType": "Hat",
+      "styles": [
+        "Dad Hat",
+        "Retro Trucker"
+      ],
+      "placement": "Front",
+      "layout": "One line",
+      "plannedPrice": {
+        "amount": 34.99,
+        "currency": "CAD"
+      },
+      "status": "copy complete; external artwork/review pending; no Shopify product verified",
+      "shopifyProductId": null,
+      "handle": "banked-time-hat",
+      "verifiedFiles": [],
+      "listingSource": {
+        "file": "store/products/drop1c.json",
+        "commit": "d2ccceaec521df609fec3008c9a76de7ecaa5b79",
+        "url": "https://github.com/bobbyvicks/offshft/blob/d2ccceaec521df609fec3008c9a76de7ecaa5b79/store/products/drop1c.json",
+        "status": "draft"
+      },
+      "productionReadiness": {
+        "productionArtworkReady": false,
+        "colours": "later",
+        "fulfilmentMappings": "not configured"
+      },
+      "shopifyAvailability": "not verified"
+    },
+    {
+      "title": "Not Picking Up. Hoodie",
+      "productType": "Hoodie",
+      "styles": [
+        "Oversized",
+        "Garment-Dyed"
+      ],
+      "placement": "Big front",
+      "layout": null,
+      "plannedPrice": {
+        "amount": 89.99,
+        "currency": "CAD"
+      },
+      "status": "copy complete; external artwork/review pending; no Shopify product verified",
+      "shopifyProductId": null,
+      "handle": "not-picking-up-hoodie",
+      "verifiedFiles": [],
+      "listingSource": {
+        "file": "store/products/drop1c.json",
+        "commit": "d2ccceaec521df609fec3008c9a76de7ecaa5b79",
+        "url": "https://github.com/bobbyvicks/offshft/blob/d2ccceaec521df609fec3008c9a76de7ecaa5b79/store/products/drop1c.json",
+        "status": "draft"
+      },
+      "productionReadiness": {
+        "productionArtworkReady": false,
+        "colours": "later",
+        "fulfilmentMappings": "not configured"
+      },
+      "shopifyAvailability": "not verified"
+    },
+    {
+      "title": "Parked. Trucker Hat",
+      "productType": "Hat",
+      "styles": [
+        "Retro Trucker"
+      ],
+      "placement": "Front",
+      "layout": null,
+      "plannedPrice": {
+        "amount": 34.99,
+        "currency": "CAD"
+      },
+      "status": "copy complete; external artwork/review pending; no Shopify product verified",
+      "shopifyProductId": null,
+      "handle": "parked-trucker-hat",
+      "verifiedFiles": [],
+      "listingSource": {
+        "file": "store/products/drop1c.json",
+        "commit": "d2ccceaec521df609fec3008c9a76de7ecaa5b79",
+        "url": "https://github.com/bobbyvicks/offshft/blob/d2ccceaec521df609fec3008c9a76de7ecaa5b79/store/products/drop1c.json",
+        "status": "draft"
+      },
+      "productionReadiness": {
+        "productionArtworkReady": false,
+        "colours": "later",
+        "fulfilmentMappings": "not configured"
+      },
+      "shopifyAvailability": "not verified"
+    }
+  ],
+  "constraints": [
+    "Do not count these six drafts as part of the 32 products evidenced in the prior Shopify snapshot.",
+    "Draft handles and product types are verified from the cited GitHub source. Shopify product IDs, production-artwork files and fulfilment mappings remain unverified or unconfigured; do not invent them.",
+    "The six GitHub entries are drafts: production artwork is not ready, colours are deferred, and fulfilment mappings are not configured. This record does not establish products available to order.",
+    "Styles, placements and planned prices retain their earlier external planning provenance; they are not live-price changes or publishing instructions.",
+    "Do not publish, duplicate, configure fulfilment or change unrelated Printful files from this record."
+  ]
+}

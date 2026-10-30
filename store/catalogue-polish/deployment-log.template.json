@@ -1,0 +1,25 @@
+{
+  "resourceType": null,
+  "shopifyId": null,
+  "title": null,
+  "handle": null,
+  "action": null,
+  "before": {},
+  "after": {},
+  "status": "pending",
+  "allowedStatusValues": [
+    "pending",
+    "attempted-unconfirmed",
+    "saved-confirmed-by-ui",
+    "verified-public-readback"
+  ],
+  "actionTime": null,
+  "recordedAt": null,
+  "evidence": {
+    "source": null,
+    "exactObservation": null,
+    "artifactPath": null
+  },
+  "publicReadbackVerified": false,
+  "notes": []
+}
