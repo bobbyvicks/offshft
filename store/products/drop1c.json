@@ -1,170 +1,173 @@
 [
-  {
-    "key": "nowhere-to-be-hoodie",
-    "handle": "nowhere-to-be-hoodie",
-    "title": "Nowhere To Be. Hoodie",
-    "productType": "Hoodie",
-    "tags": [
-      "nowhere-to-be",
-      "hoodie",
-      "phrase",
-      "drop-1c"
-    ],
-    "descriptionHtml": "<p>No shift, no schedule, nobody waiting on you.</p><p>For the couch or the long way home.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: NOWHERE TO BE., embroidered on two lines, about 68 mm (2.7 in) wide</li><li>Styles: Oversized or Garment-Dyed</li><li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li><li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
-    "seoTitle": "Nowhere To Be. Embroidered Hoodie | OFF SHFT",
-    "seoDescription": "No shift, no schedule, nobody waiting on you. Nowhere To Be., embroidered on a hoodie made to order. For the couch or the long way home.",
-    "styleNotes": {
-      "Oversized": "Relaxed fit with dropped shoulders, in 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²), with a lined hood and no drawcord.",
-      "Garment-Dyed": "Relaxed fit in 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing."
-    },
-    "toConfirm": [
-      "Before ordering samples, open the 2012 US record for NOWHERE TO BE (serial 85784193) on USPTO: it looks like a dead clerical entry. Then search the phrase on USPTO and CIPO for clothing, and on Etsy. So far it's web search only (designs/phrases/notes.md).",
-      "Never shorten it to NOWHERE: one company's NOWHERE mark covers hats and caps (search snippet only).",
-      "The three sweatpants listings say 'Nowhere to be and all day to get there.', and the Punched Out. sweatpants' meta description does too. Change that line now that it's a design, so they don't repeat this one. They're live, so it's your OK.",
-      "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). It needs its own build and checks before digitizing, like designs/09-punched-out/v3. Update the size on the listing if it changes.",
-      "Get a sew-out on both styles before selling. Samples cost money, so it's your call.",
-      "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
-      "The Lightweight hoodie (1467) is left out until Printful confirms it embroiders it. If it does, add it as a third style with its style note from store/products/drop1.json.",
-      "Still open from the first-drop hoodies (store/products/drop1.json): care instructions for each style and Printful's production time with embroidery."
-    ]
+ {
+  "key": "nowhere-to-be-hoodie",
+  "handle": "nowhere-to-be-hoodie",
+  "title": "Nowhere To Be. Hoodie",
+  "productType": "Hoodie",
+  "tags": [
+   "nowhere-to-be",
+   "hoodie",
+   "phrase",
+   "drop-1c"
+  ],
+  "descriptionHtml": "<p>No shift, no schedule, nobody waiting on you.</p><p>For the couch or the long way home.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Left chest: NOWHERE TO BE., embroidered on two lines, about 68 mm (2.7 in) wide</li><li>Styles: Oversized or Garment-Dyed</li><li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li><li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+  "seoTitle": "Nowhere To Be. Embroidered Hoodie | OFF SHFT",
+  "seoDescription": "No shift, no schedule, nobody waiting on you. Nowhere To Be., embroidered on a hoodie made to order. For the couch or the long way home.",
+  "styleNotes": {
+   "Oversized": "Relaxed fit with dropped shoulders, in 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²), with a lined hood and no drawcord.",
+   "Garment-Dyed": "Relaxed fit in 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing."
   },
-  {
-    "key": "suns-still-up-hat",
-    "handle": "suns-still-up-hat",
-    "title": "Sun’s Still Up. Hat",
-    "productType": "Hat",
-    "tags": [
-      "text-hat",
-      "suns-still-up",
-      "hat",
-      "phrase",
-      "drop-1c"
-    ],
-    "descriptionHtml": "<p>You're off work and there's still daylight left.</p><p>For a line in the water or a quick nine before dark.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: SUN’S STILL UP., embroidered on two lines, about 62 mm (2.4 in) wide</li><li>Styles: 5-Panel or Rope Cap</li><li>5-Panel: structured mid-profile cap. One-piece front with no centre seam, 65% polyester and 35% cotton twill, adjustable plastic snap closure</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
-    "seoTitle": "Sun’s Still Up. Embroidered Hat | OFF SHFT",
-    "seoDescription": "You're off work and there's still daylight left. Sun’s Still Up., embroidered on a hat made to order. For a line in the water or a quick nine.",
-    "styleNotes": {
-      "5-Panel": "Structured mid-profile cap in 65% polyester, 35% cotton twill, with a one-piece front (no centre seam) and an adjustable plastic snap closure.",
-      "Rope Cap": "A golf rope cap."
-    },
-    "toConfirm": [
-      "Before ordering samples, search SUN'S STILL UP, with and without the apostrophe, on USPTO and CIPO for clothing and hats. The nearest filing found is SUN'S OUT, BUNS OUT (US Reg. 4544740). So far it's web search only (designs/phrases/notes.md).",
-      "Keep the curly apostrophe (’) in the art and everywhere the name appears. Without it the line reads like a sports score.",
-      "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). It needs its own build and checks before digitizing, like designs/09-punched-out/v3, including the S trims. Update the size on the listing if it changes.",
-      "Get a sew-out on both styles before selling. The apostrophe and the S's are the small parts to watch, and Printful reviews of the Rope Cap mention wrinkling and stitches through the lining. Samples cost money, so it's your call.",
-      "Check the Rope Cap's front embroidery area on its File guidelines tab (it wasn't found); the stack is about the logo's size, 62 x 18 mm. Both fronts are seamless, so it stays centred on each.",
-      "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
-      "Still open from the first-drop hats (store/products/drop1.json): care for each style, and the Rope Cap's material, profile and closure from Printful's spec sheet, for a Details line of its own."
-    ]
+  "toConfirm": [
+   "Before ordering samples, open the 2012 US record for NOWHERE TO BE (serial 85784193) on USPTO: it looks like a dead clerical entry. Then search the phrase on USPTO and CIPO for clothing. So far it's web search only (designs/phrases/notes.md). Also search the exact phrase on Etsy, Amazon and Google Images (DESIGNS.md).",
+   "Never shorten it to NOWHERE: one company's NOWHERE mark covers hats and caps (search snippet only).",
+   "The three sweatpants listings say 'Nowhere to be and all day to get there.', and the Punched Out. sweatpants' meta description does too. So do the Sweats collection's description and meta description, if they went live as written in store/apparel-copy.md. Change that line now that it's a design, so they don't repeat this one. Check the live text before changing it. It's live, so it's your OK.",
+   "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). It needs its own build and checks before digitizing, like designs/09-punched-out/v3. Update the size on the listing if it changes.",
+   "Get a sew-out on both styles before selling. Samples and Printful's digitizing (US$6.50 per new design) cost money, so it's your call.",
+   "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
+   "The Lightweight hoodie (1467) is left out until Printful confirms it embroiders the left chest. If it does, add it as a third style with its style note from store/products/drop1.json.",
+   "Still open from the first-drop hoodies (store/products/drop1.json): care instructions for each style and Printful's production time with embroidery."
+  ]
+ },
+ {
+  "key": "suns-still-up-hat",
+  "handle": "suns-still-up-hat",
+  "title": "Sun’s Still Up. Hat",
+  "productType": "Hat",
+  "tags": [
+   "text-hat",
+   "suns-still-up",
+   "hat",
+   "phrase",
+   "drop-1c"
+  ],
+  "descriptionHtml": "<p>You're off work and there's still daylight left.</p><p>For a line in the water or a quick nine before dark.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: SUN’S STILL UP., embroidered on two lines, about 60 mm (2.4 in) wide</li><li>Styles: 5-Panel or Rope Cap</li><li>5-Panel: structured mid-profile cap. One-piece front with no centre seam, 65% polyester and 35% cotton twill, adjustable plastic snap closure</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+  "seoTitle": "Sun’s Still Up. Embroidered Hat | OFF SHFT",
+  "seoDescription": "You're off work and there's still daylight left. Sun’s Still Up., embroidered on a hat made to order. For a line in the water or a quick nine.",
+  "styleNotes": {
+   "5-Panel": "Structured mid-profile cap in 65% polyester, 35% cotton twill, with a one-piece front (no centre seam) and an adjustable plastic snap closure.",
+   "Rope Cap": "A golf rope cap."
   },
-  {
-    "key": "no-alarm-set-crewneck",
-    "handle": "no-alarm-set-crewneck",
-    "title": "No Alarm Set. Crewneck",
-    "productType": "Crewneck",
-    "tags": [
-      "no-alarm-set",
-      "crewneck",
-      "phrase",
-      "drop-1c"
-    ],
-    "descriptionHtml": "<p>Tomorrow's yours, so no alarm tonight.</p><p>For the night before a day off, and the slow morning after.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: NO ALARM SET., embroidered on one line across the centre front, about 230 mm (9 in) wide</li><li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Fit: relaxed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
-    "seoTitle": "No Alarm Set. Embroidered Crewneck | OFF SHFT",
-    "seoDescription": "Tomorrow's yours, so no alarm tonight. No Alarm Set., embroidered big on the front of a crewneck made to order. For the night before a day off.",
-    "styleNotes": {
-      "Lightweight": "Relaxed fit in lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)."
-    },
-    "toConfirm": [
-      "Before ordering samples, search NO ALARM SET on USPTO and CIPO for clothing, and on Etsy. The nearest filing found, NO ALARM (US serial 73382366), was abandoned. So far it's web search only (designs/phrases/notes.md).",
-      "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). Draw it at its own size for the big front, like Punched Out.'s one-line-large, not a cap-7 file scaled up. Update the size on the listing if it changes.",
-      "Get a sew-out on the crewneck before selling. Samples cost money, so it's your call.",
-      "Check Printful's price with Large front selected: a stitch-count charge may apply to large designs (store/research/caps-and-hoodie.md).",
-      "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
-      "Still open from the first-drop crewnecks (store/products/drop1.json): care instructions and Printful's production time with embroidery."
-    ]
+  "toConfirm": [
+   "Before ordering samples, search SUN'S STILL UP, with and without the apostrophe, on USPTO and CIPO for clothing and hats. The nearest filing found is SUN'S OUT, BUNS OUT (US Reg. 4544740). So far it's web search only (designs/phrases/notes.md). Also search the exact phrase on Etsy, Amazon and Google Images (DESIGNS.md).",
+   "Keep the curly apostrophe (’) in the art, the title and the copy. Without an apostrophe, the line reads like a sports score.",
+   "It's a summer line (designs/phrases/notes.md: Victoria Day to Labour Day; in December it's dark before 5). Your call whether it shows over the winter or waits for May.",
+   "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). It needs its own build and checks before digitizing, like designs/09-punched-out/v3, including the S trims. Update the size on the listing if it changes.",
+   "Get a sew-out on both styles before selling. The apostrophe and the S's are the small parts to watch, and Printful reviews of the Rope Cap mention wrinkling and stitches through the lining. Samples and Printful's digitizing (US$6.50 per new design) cost money, so it's your call.",
+   "The Rope Cap's front embroidery area wasn't found: check its File guidelines tab. The stack is about the logo's size (60 x 18 mm). Both fronts are seamless (Printful lists the Rope Cap as 5-panel with a lined front panel: store/previews/items/rope-cap.cjs), so it stays centred on each.",
+   "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
+   "Still open from the first-drop hats (store/products/drop1.json): care for each style, and the Rope Cap's material, profile and closure from Printful's spec sheet, for a Details line of its own."
+  ]
+ },
+ {
+  "key": "no-alarm-set-crewneck",
+  "handle": "no-alarm-set-crewneck",
+  "title": "No Alarm Set. Crewneck",
+  "productType": "Crewneck",
+  "tags": [
+   "no-alarm-set",
+   "crewneck",
+   "phrase",
+   "drop-1c"
+  ],
+  "descriptionHtml": "<p>Tomorrow's yours, so no alarm tonight.</p><p>For the night before a day off, and the slow morning after.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: NO ALARM SET., embroidered on one line across the centre front, about 230 mm (9 in) wide</li><li>Fabric: lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)</li><li>Fit: relaxed</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+  "seoTitle": "No Alarm Set. Embroidered Crewneck | OFF SHFT",
+  "seoDescription": "Tomorrow's yours, so no alarm tonight. No Alarm Set., embroidered big on the front of a crewneck made to order. For the night before a day off.",
+  "styleNotes": {
+   "Lightweight": "Relaxed fit in lightweight garment-dyed fleece, 100% ring-spun cotton, 6.4 oz/yd² (217 g/m²)."
   },
-  {
-    "key": "banked-time-hat",
-    "handle": "banked-time-hat",
-    "title": "Banked Time. Hat",
-    "productType": "Hat",
-    "tags": [
-      "text-hat",
-      "banked-time",
-      "hat",
-      "phrase",
-      "drop-1c"
-    ],
-    "descriptionHtml": "<p>The overtime you saved up, taken as days off.</p><p>For a long stretch at the cottage or on the water.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: BANKED TIME., embroidered on one line, about 97 mm (3.8 in) wide</li><li>Styles: Dad Hat or Retro Trucker</li><li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
-    "seoTitle": "Banked Time. Embroidered Hat | OFF SHFT",
-    "seoDescription": "The overtime you saved up, taken as days off. Banked Time., embroidered on a hat made to order. For a long stretch at the cottage.",
-    "styleNotes": {
-      "Dad Hat": "A classic dad hat.",
-      "Retro Trucker": "Structured six-panel cap with a hard buckram front, mesh back and adjustable plastic snap closure."
-    },
-    "toConfirm": [
-      "Before ordering samples, search BANKED TIME on USPTO and CIPO for clothing and hats. The nearest filing found, TIME BANK (US serial 87358423), is for financial services. So far it's web search only (designs/phrases/notes.md).",
-      "Both styles have a seam down the middle of the front, so the line moves sideways to put the seam in a gap. In the word space (4.9 mm wide) the line sits about 9.3 mm left of centre, which shows. The gap between the E and the D (2.1 mm) needs only 1.9 mm to the right. Pick one on the production art. As with the logo, it isn't confirmed that Printful keeps an offset: check its editor and the sample.",
-      "The Dad Hat's six-panel build comes from the preview drawing, not yet from Printful's page (store/products/drop1.json): confirm it before the line moves on that style.",
-      "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). It needs its own build and checks before digitizing, like designs/09-punched-out/v3. Update the size on the listing if it changes.",
-      "Get a sew-out on both styles before selling, with the seam where the art puts it. Samples cost money, so it's your call.",
-      "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
-      "Still open from the first-drop hats (store/products/drop1.json): care for each style, and the Dad Hat's material, profile and closure from Printful's spec sheet, for a Details line of its own."
-    ]
+  "toConfirm": [
+   "Before ordering samples, search NO ALARM SET on USPTO and CIPO for clothing. The nearest filing found, NO ALARM (US serial 73382366), was abandoned. So far it's web search only (designs/phrases/notes.md). Also search the exact phrase on Etsy, Amazon and Google Images (DESIGNS.md).",
+   "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). Draw it at its own size for the big front, like Punched Out.'s one-line-large, not a cap-7 file scaled up. Update the size on the listing if it changes.",
+   "Check the large front area on the crewneck's File guidelines tab: 230 mm assumes Printful's general 10 x 6 in.",
+   "Get a sew-out on the crewneck before selling. Samples and Printful's digitizing (US$6.50 per new design) cost money, so it's your call.",
+   "Check Printful's price with Large front selected: a stitch-count charge may apply to large designs (store/research/caps-and-hoodie.md).",
+   "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
+   "Still open from the first-drop crewnecks (store/products/drop1.json): care instructions and Printful's production time with embroidery."
+  ]
+ },
+ {
+  "key": "banked-time-hat",
+  "handle": "banked-time-hat",
+  "title": "Banked Time. Hat",
+  "productType": "Hat",
+  "tags": [
+   "text-hat",
+   "banked-time",
+   "hat",
+   "phrase",
+   "drop-1c"
+  ],
+  "descriptionHtml": "<p>The overtime you saved up, taken as days off.</p><p>For a long stretch at the cottage or on the water.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: BANKED TIME., embroidered on one line, about 96 mm (3.8 in) wide</li><li>Styles: Dad Hat or Retro Trucker</li><li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+  "seoTitle": "Banked Time. Embroidered Hat | OFF SHFT",
+  "seoDescription": "The overtime you saved up, taken as days off. Banked Time., embroidered on a hat made to order. For a long stretch at the cottage.",
+  "styleNotes": {
+   "Dad Hat": "A classic dad hat.",
+   "Retro Trucker": "Structured six-panel cap with a hard buckram front, mesh back and adjustable plastic snap closure."
   },
-  {
-    "key": "not-picking-up-hoodie",
-    "handle": "not-picking-up-hoodie",
-    "title": "Not Picking Up. Hoodie",
-    "productType": "Hoodie",
-    "tags": [
-      "not-picking-up",
-      "hoodie",
-      "phrase",
-      "drop-1c"
-    ],
-    "descriptionHtml": "<p>Off means off. You're not answering the phone, and you're not picking up an extra shift.</p><p>For a day off with your phone on silent.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: NOT PICKING UP., embroidered on one line across the centre front, about 230 mm (9 in) wide</li><li>Styles: Oversized or Garment-Dyed</li><li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li><li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
-    "seoTitle": "Not Picking Up. Embroidered Hoodie | OFF SHFT",
-    "seoDescription": "Off means off. No calls, no extra shifts. Not Picking Up., embroidered big on the front of a hoodie made to order.",
-    "styleNotes": {
-      "Oversized": "Relaxed fit with dropped shoulders, in 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²), with a lined hood and no drawcord.",
-      "Garment-Dyed": "Relaxed fit in 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing."
-    },
-    "toConfirm": [
-      "Before ordering samples, search NOT PICKING UP on USPTO and CIPO for clothing, and look on Etsy, where nurse shirts about extra shifts may use something close. The nearest filing found, DONT PICK UP NO MATTER WHAT! (US serial 86227812), was abandoned. So far it's web search only (designs/phrases/notes.md).",
-      "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). Draw it at its own size for the big front, like Punched Out.'s one-line-large, not a cap-7 file scaled up. Update the size on the listing if it changes.",
-      "Get a sew-out on both styles before selling. Samples cost money, so it's your call.",
-      "Check Printful's price with Large front selected on both styles: a stitch-count charge may apply to large designs (store/research/caps-and-hoodie.md).",
-      "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
-      "The Lightweight hoodie (1467) is left out until Printful confirms it embroiders it. If it does, add it as a third style with its style note from store/products/drop1.json.",
-      "Still open from the first-drop hoodies (store/products/drop1.json): care instructions for each style and Printful's production time with embroidery."
-    ]
+  "toConfirm": [
+   "Before ordering samples, search BANKED TIME on USPTO and CIPO for clothing and hats. The nearest filing found, TIME BANK (US serial 87358423), is for financial services. So far it's web search only (designs/phrases/notes.md). Also search the exact phrase on Etsy, Amazon and Google Images (DESIGNS.md).",
+   "The Retro Trucker has a seam down the middle of the front (the Dad Hat too, if it's six-panel), so the line moves sideways to put the seam in a gap. In the word space (4.9 mm) the line would sit 9.3 mm left of centre, and Punched Out.'s build allows at most 6 mm before a line looks off-centre. In the gap between the E and the D it moves only 1.94 mm right, but that gap is 2.24 mm, narrower than the 2.4 mm one Punched Out. uses. The production art picks one, and the sew-out checks it. As with the logo, it isn't confirmed that Printful keeps an offset: check its editor and the sample.",
+   "The Dad Hat's six-panel build isn't confirmed from Printful yet: only the logo notes' general rule (store/products/drop1.json) and the preview drawing (store/previews/items/dad-hat.cjs) say six-panel. Confirm it before the line moves on that style.",
+   "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). It needs its own build and checks before digitizing, like designs/09-punched-out/v3. Update the size on the listing if it changes.",
+   "Get a sew-out on both styles before selling, with the seam where the art puts it. Samples and Printful's digitizing (US$6.50 per new design) cost money, so it's your call.",
+   "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
+   "Still open from the first-drop hats (store/products/drop1.json): care for each style; the Dad Hat's material, profile and closure from Printful's spec sheet, for a Details line of its own; and the trucker's fabric, left out because the maker is changing the blend, so stock may be mixed."
+  ]
+ },
+ {
+  "key": "not-picking-up-hoodie",
+  "handle": "not-picking-up-hoodie",
+  "title": "Not Picking Up. Hoodie",
+  "productType": "Hoodie",
+  "tags": [
+   "not-picking-up",
+   "hoodie",
+   "phrase",
+   "drop-1c"
+  ],
+  "descriptionHtml": "<p>Off means off. No calls, no extra shifts.</p><p>For a day off with your phone on silent.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: NOT PICKING UP., embroidered on one line across the centre front, about 230 mm (9 in) wide</li><li>Styles: Oversized or Garment-Dyed</li><li>Oversized: relaxed fit, dropped shoulders. 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²). Lined hood with no drawcord, front kangaroo pocket</li><li>Garment-Dyed: relaxed fit. 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing</li></ul><p>Which size? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+  "seoTitle": "Not Picking Up. Embroidered Hoodie | OFF SHFT",
+  "seoDescription": "Off means off. No calls, no extra shifts. Not Picking Up., embroidered big on the front of a hoodie made to order. For a day off, phone on silent.",
+  "styleNotes": {
+   "Oversized": "Relaxed fit with dropped shoulders, in 80% cotton, 20% recycled polyester fleece, 9.4 oz/yd² (319 g/m²), with a lined hood and no drawcord.",
+   "Garment-Dyed": "Relaxed fit in 80% ring-spun cotton, 20% polyester, 9.5 oz/yd² (322 g/m²), garment-dyed after sewing."
   },
-  {
-    "key": "parked-trucker-hat",
-    "handle": "parked-trucker-hat",
-    "title": "Parked. Trucker Hat",
-    "productType": "Hat",
-    "tags": [
-      "text-hat",
-      "parked",
-      "hat",
-      "phrase",
-      "drop-1c"
-    ],
-    "descriptionHtml": "<p>The truck's parked for the night, and so are you.</p><p>For a lawn chair in the driveway.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: PARKED., embroidered, about 57 mm (2.2 in) wide</li><li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
-    "seoTitle": "Parked. Embroidered Trucker Hat | OFF SHFT",
-    "seoDescription": "The truck's parked for the night, and so are you. Parked., embroidered on a trucker hat made to order. For a lawn chair in the driveway.",
-    "styleNotes": {
-      "Retro Trucker": "Structured six-panel cap with a hard buckram front, mesh back and adjustable plastic snap closure."
-    },
-    "toConfirm": [
-      "Before ordering samples, search PARKED and NATIONALLY PARKED on USPTO and CIPO for clothing and hats (the Disc Golf Pro Tour sells Nationally Parked hats; no filing found). PARKE, a women's clothing brand that sells hats, is one letter off, so look at a mockup with that in mind. So far it's web search only (designs/phrases/notes.md).",
-      "The trucker has a seam down the middle of the front, so PARKED. moves about 1.7 mm right of centre to put the seam in the gap between the R and the K (2.0 mm, the gap nearest the middle). As with the logo, it isn't confirmed that Printful keeps an offset: check its editor and the sample.",
-      "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). It needs its own build and checks before digitizing, like designs/09-punched-out/v3. Update the size on the listing if it changes.",
-      "Get a sew-out on the trucker before selling: that 2.0 mm gap is narrower than the 2.4 mm one Punched Out. uses for the seam. Samples cost money, so it's your call.",
-      "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
-      "Still open from the first-drop hats (store/products/drop1.json): care, and the trucker's fabric, left out because the maker is changing the blend, so stock may be mixed."
-    ]
-  }
+  "toConfirm": [
+   "Before ordering samples, search NOT PICKING UP on USPTO and CIPO for clothing. The nearest filing found, DONT PICK UP NO MATTER WHAT! (US serial 86227812), was abandoned. So far it's web search only (designs/phrases/notes.md). Nurse shirts about turning down extra shifts are probably common on Etsy, and some may use something close. Also search the exact phrase on Etsy, Amazon and Google Images (DESIGNS.md).",
+   "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). Draw it at its own size for the big front, like Punched Out.'s one-line-large, not a cap-7 file scaled up. Update the size on the listing if it changes.",
+   "Check the large front area on each style's File guidelines tab: 230 mm assumes Printful's general 10 x 6 in.",
+   "Get a sew-out on both styles before selling. Samples and Printful's digitizing (US$6.50 per new design) cost money, so it's your call.",
+   "Check Printful's price with Large front selected on both styles: a stitch-count charge may apply to large designs (store/research/caps-and-hoodie.md).",
+   "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
+   "The Lightweight hoodie (1467) is left out until Printful confirms it embroiders the large front. If it does, add it as a third style with its style note from store/products/drop1.json.",
+   "Still open from the first-drop hoodies (store/products/drop1.json): care instructions for each style and Printful's production time with embroidery."
+  ]
+ },
+ {
+  "key": "parked-trucker-hat",
+  "handle": "parked-trucker-hat",
+  "title": "Parked. Trucker Hat",
+  "productType": "Hat",
+  "tags": [
+   "text-hat",
+   "parked",
+   "hat",
+   "phrase",
+   "drop-1c"
+  ],
+  "descriptionHtml": "<p>The truck's parked for the night, and so are you.</p><p>For a lawn chair in the driveway.</p><p>Made to order and shipped to you.</p><p><strong>Details</strong></p><ul><li>Front: PARKED., embroidered, about 56 mm (2.2 in) wide</li><li>Retro Trucker: structured six-panel cap. Hard buckram front, mesh back, pre-curved visor, adjustable plastic snap closure</li></ul><p>Fit questions? See <a href=\"/pages/size-fit\">Size &amp; fit</a>.</p>",
+  "seoTitle": "Parked. Embroidered Trucker Hat | OFF SHFT",
+  "seoDescription": "The truck's parked for the night, and so are you. Parked., embroidered on a trucker hat made to order. For a lawn chair in the driveway.",
+  "styleNotes": {
+   "Retro Trucker": "Structured six-panel cap with a hard buckram front, mesh back and adjustable plastic snap closure."
+  },
+  "toConfirm": [
+   "Before ordering samples, search PARKED and NATIONALLY PARKED on USPTO and CIPO for clothing and hats (the Disc Golf Pro Tour sells Nationally Parked hats; no filing found). PARKE, a women's clothing brand that sells hats, is one letter off, so look at a mockup with that in mind. So far it's web search only (designs/phrases/notes.md). Also search the exact phrase on Etsy, Amazon and Google Images (DESIGNS.md).",
+   "The trucker has a seam down the middle of the front, so PARKED. moves about 1.95 mm right of centre to put the seam in the gap between the R and the K (2.13 mm, the gap nearest the middle). As with the logo, it isn't confirmed that Printful keeps an offset: check its editor and the sample.",
+   "No production art yet: the size here is from the quick preview (designs/phrases/previews/sizes.json). It needs its own build and checks before digitizing, like designs/09-punched-out/v3. Update the size on the listing if it changes.",
+   "Get a sew-out on the trucker before selling: that 2.13 mm gap is narrower than the 2.4 mm one Punched Out. uses for the seam. Samples and Printful's digitizing (US$6.50 per new design) cost money, so it's your call.",
+   "Colours come later: you add them. Thread colours follow the fabric, once a sew-out on the real blank passes. Then each style gets linked to its Printful product and embroidery file, or orders won't reach Printful.",
+   "Still open from the first-drop hats (store/products/drop1.json): care, and the trucker's fabric, left out because the maker is changing the blend, so stock may be mixed."
+  ]
+ }
 ]

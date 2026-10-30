@@ -1,0 +1,690 @@
+[
+  {
+    "id": "nowhere-to-be",
+    "folder": "designs/15-nowhere-to-be",
+    "listing": "Nowhere To Be. Hoodie",
+    "text": "NOWHERE TO BE.",
+    "layout": "stacked-centred",
+    "files": {
+      "stacked-centred": {
+        "light": "designs/15-nowhere-to-be/design-light.svg",
+        "dark": "designs/15-nowhere-to-be/design-dark.svg"
+      }
+    },
+    "proofs": {
+      "light": "designs/15-nowhere-to-be/proof-light.png",
+      "dark": "designs/15-nowhere-to-be/proof-dark.png"
+    },
+    "notes": "designs/15-nowhere-to-be/notes.md",
+    "w": 67.66,
+    "h": 18,
+    "ink": {
+      "w": 67.66,
+      "h": 18
+    },
+    "cap": 7,
+    "placement": "Hoodies, left chest: Oversized (AS Colour 5161) and Garment-Dyed (Comfort Colors 1567), S to 3XL",
+    "sixPanelShift": null,
+    "sixPanelSeam": null,
+    "checks": {
+      "pass": true,
+      "items": [
+        {
+          "check": "cap height",
+          "value": 7,
+          "limit": ">= 6.6",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "thinnest stroke",
+          "value": 1.33,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the B"
+        },
+        {
+          "check": "smallest opening inside a letter",
+          "value": 1.36,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the E"
+        },
+        {
+          "check": "E slots",
+          "value": 1.36,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "B counters (upper / lower)",
+          "value": 1.39,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "full stop across",
+          "value": 2.15,
+          "limit": ">= 1.5",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "fabric round the full stop",
+          "value": 1.91,
+          "limit": ">= 1.3",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "tightest gap between letters",
+          "value": 1.51,
+          "limit": ">= 1.47",
+          "unit": "mm",
+          "pass": true,
+          "note": "T-O"
+        },
+        {
+          "check": "gap between the lines",
+          "value": 3.55,
+          "limit": ">= 1.47",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "fits the 101.6 x 101.6 mm left-chest square",
+          "value": 16.97,
+          "limit": ">= 0 spare each side",
+          "unit": "mm",
+          "pass": true,
+          "note": "spare on the tighter side"
+        }
+      ]
+    }
+  },
+  {
+    "id": "suns-still-up",
+    "folder": "designs/16-suns-still-up",
+    "listing": "Sun’s Still Up. Hat",
+    "text": "SUN’S STILL UP.",
+    "layout": "stacked-centred",
+    "files": {
+      "stacked-centred": {
+        "light": "designs/16-suns-still-up/design-light.svg",
+        "dark": "designs/16-suns-still-up/design-dark.svg"
+      }
+    },
+    "proofs": {
+      "light": "designs/16-suns-still-up/proof-light.png",
+      "dark": "designs/16-suns-still-up/proof-dark.png"
+    },
+    "notes": "designs/16-suns-still-up/notes.md",
+    "w": 63.23,
+    "h": 18,
+    "ink": {
+      "w": 60.39,
+      "h": 18
+    },
+    "cap": 7,
+    "placement": "Hat front, seamless: 5-Panel (Otto 31-069) and Rope Cap (Big Accessories BA671)",
+    "centring": "The file is 63.23 mm wide, 2.85 mm wider than the ink on the left, so its centre is the letters' centre (the full stop hangs past STILL UP): centre the file.",
+    "sixPanelShift": null,
+    "sixPanelSeam": null,
+    "checks": {
+      "pass": true,
+      "items": [
+        {
+          "check": "cap height",
+          "value": 7,
+          "limit": ">= 6.6",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "thinnest stroke",
+          "value": 1.3,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the S"
+        },
+        {
+          "check": "smallest opening inside a letter",
+          "value": 1.29,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the S"
+        },
+        {
+          "check": "S apertures (upper / lower)",
+          "value": 1.29,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "S counters, at their narrow ends (upper / lower)",
+          "value": 1.32,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "full stop across",
+          "value": 2.15,
+          "limit": ">= 1.5",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "fabric round the full stop",
+          "value": 2.02,
+          "limit": ">= 1.3",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "apostrophe across",
+          "value": 2.38,
+          "limit": ">= 1.5",
+          "unit": "mm",
+          "pass": true,
+          "note": "2.38 x 3.34 mm; its tail 1.32 mm at its narrowest"
+        },
+        {
+          "check": "tightest gap between letters",
+          "value": 1.5,
+          "limit": ">= 1.47",
+          "unit": "mm",
+          "pass": true,
+          "note": "’-S"
+        },
+        {
+          "check": "gap between the lines",
+          "value": 3.55,
+          "limit": ">= 1.47",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "fits the 140 x 50 mm hat front",
+          "value": 38.38,
+          "limit": ">= 0 spare each side",
+          "unit": "mm",
+          "pass": true,
+          "note": "spare on the tighter side"
+        }
+      ]
+    }
+  },
+  {
+    "id": "no-alarm-set",
+    "folder": "designs/17-no-alarm-set",
+    "listing": "No Alarm Set. Crewneck",
+    "text": "NO ALARM SET.",
+    "layout": "one-line-large",
+    "files": {
+      "one-line-large": {
+        "light": "designs/17-no-alarm-set/design-light.svg",
+        "dark": "designs/17-no-alarm-set/design-dark.svg"
+      }
+    },
+    "proofs": {
+      "light": "designs/17-no-alarm-set/proof-light.png",
+      "dark": "designs/17-no-alarm-set/proof-dark.png"
+    },
+    "notes": "designs/17-no-alarm-set/notes.md",
+    "w": 229.73,
+    "h": 16.27,
+    "ink": {
+      "w": 229.73,
+      "h": 16.27
+    },
+    "cap": 15.6,
+    "placement": "Crewneck, big centre front: Comfort Colors 1466, S to 3XL",
+    "sixPanelShift": null,
+    "sixPanelSeam": null,
+    "checks": {
+      "pass": true,
+      "items": [
+        {
+          "check": "cap height",
+          "value": 15.6,
+          "limit": ">= 6.6",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "thinnest stroke",
+          "value": 2.81,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the S"
+        },
+        {
+          "check": "smallest opening inside a letter",
+          "value": 2.51,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the S"
+        },
+        {
+          "check": "A counter (widest circle inside it)",
+          "value": 3.32,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "S apertures (upper / lower)",
+          "value": 2.51,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "S counters, at their narrow ends (upper / lower)",
+          "value": 2.6,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "E slots",
+          "value": 2.75,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "full stop across",
+          "value": 4.78,
+          "limit": ">= 1.5",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "fabric round the full stop",
+          "value": 6.91,
+          "limit": ">= 1.3",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "tightest gap between letters",
+          "value": 2.13,
+          "limit": ">= 1.47",
+          "unit": "mm",
+          "pass": true,
+          "note": "L-A"
+        },
+        {
+          "check": "fits the 230 x 90 mm big-front box",
+          "value": 0.14,
+          "limit": ">= 0 spare each side",
+          "unit": "mm",
+          "pass": true,
+          "note": "spare on the tighter side"
+        }
+      ]
+    }
+  },
+  {
+    "id": "banked-time",
+    "folder": "designs/18-banked-time",
+    "listing": "Banked Time. Hat",
+    "text": "BANKED TIME.",
+    "layout": "one-line",
+    "files": {
+      "one-line": {
+        "light": "designs/18-banked-time/design-light.svg",
+        "dark": "designs/18-banked-time/design-dark.svg"
+      }
+    },
+    "proofs": {
+      "light": "designs/18-banked-time/proof-light.png",
+      "dark": "designs/18-banked-time/proof-dark.png",
+      "seam": "designs/18-banked-time/seam-proof.png",
+      "seamWordSpace": "designs/18-banked-time/seam-proof-word-space.png"
+    },
+    "notes": "designs/18-banked-time/notes.md",
+    "w": 95.71,
+    "h": 7.09,
+    "ink": {
+      "w": 95.71,
+      "h": 7.09
+    },
+    "cap": 7,
+    "placement": "Hat front, 6-panel with a centre seam: Dad Hat (Yupoong 6245CM) and Retro Trucker (Yupoong 6606)",
+    "sixPanelShift": 1.94,
+    "sixPanelSeam": {
+      "between": [
+        "E",
+        "D"
+      ],
+      "gap": 2.24,
+      "inkCentreFromSeam": -0.53
+    },
+    "sixPanelWordSpace": {
+      "shift": -9.11,
+      "between": [
+        "D",
+        "T"
+      ],
+      "gap": 4.58,
+      "inkCentreFromSeam": -11.58,
+      "proof": "designs/18-banked-time/seam-proof-word-space.png",
+      "note": "not used: past the 6 mm limit, and the line would sit visibly off-centre; the owner's alternative"
+    },
+    "checks": {
+      "pass": true,
+      "items": [
+        {
+          "check": "cap height",
+          "value": 7,
+          "limit": ">= 6.6",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "thinnest stroke",
+          "value": 1.33,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the B"
+        },
+        {
+          "check": "smallest opening inside a letter",
+          "value": 1.36,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the E"
+        },
+        {
+          "check": "B counters (upper / lower)",
+          "value": 1.39,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "A counter (widest circle inside it)",
+          "value": 1.49,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "E slots",
+          "value": 1.36,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "full stop across",
+          "value": 2.15,
+          "limit": ">= 1.5",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "fabric round the full stop",
+          "value": 1.91,
+          "limit": ">= 1.3",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "tightest gap between letters",
+          "value": 1.61,
+          "limit": ">= 1.47",
+          "unit": "mm",
+          "pass": true,
+          "note": "B-A"
+        },
+        {
+          "check": "fits the 140 x 50 mm hat front",
+          "value": 20.2,
+          "limit": ">= 0 spare each side",
+          "unit": "mm",
+          "pass": true,
+          "note": "spare on the tighter side"
+        },
+        {
+          "check": "6-panel seam gap",
+          "value": 2.24,
+          "limit": ">= 1.9",
+          "unit": "mm",
+          "pass": true,
+          "note": "between the E and the D"
+        }
+      ]
+    }
+  },
+  {
+    "id": "not-picking-up",
+    "folder": "designs/19-not-picking-up",
+    "listing": "Not Picking Up. Hoodie",
+    "text": "NOT PICKING UP.",
+    "layout": "one-line-large",
+    "files": {
+      "one-line-large": {
+        "light": "designs/19-not-picking-up/design-light.svg",
+        "dark": "designs/19-not-picking-up/design-dark.svg"
+      }
+    },
+    "proofs": {
+      "light": "designs/19-not-picking-up/proof-light.png",
+      "dark": "designs/19-not-picking-up/proof-dark.png"
+    },
+    "notes": "designs/19-not-picking-up/notes.md",
+    "w": 229.85,
+    "h": 15.12,
+    "ink": {
+      "w": 229.85,
+      "h": 15.12
+    },
+    "cap": 14.5,
+    "placement": "Hoodies, big centre front: Oversized (AS Colour 5161) and Garment-Dyed (Comfort Colors 1567), S to 3XL",
+    "sixPanelShift": null,
+    "sixPanelSeam": null,
+    "checks": {
+      "pass": true,
+      "items": [
+        {
+          "check": "cap height",
+          "value": 14.5,
+          "limit": ">= 6.6",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "thinnest stroke",
+          "value": 2.45,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the G"
+        },
+        {
+          "check": "smallest opening inside a letter",
+          "value": 2.36,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the C"
+        },
+        {
+          "check": "C mouth",
+          "value": 2.36,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "G mouth",
+          "value": 2.36,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "full stop across",
+          "value": 4.45,
+          "limit": ">= 1.5",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "fabric round the full stop",
+          "value": 4.18,
+          "limit": ">= 1.3",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "tightest gap between letters",
+          "value": 3.13,
+          "limit": ">= 1.47",
+          "unit": "mm",
+          "pass": true,
+          "note": "O-T"
+        },
+        {
+          "check": "fits the 230 x 90 mm big-front box",
+          "value": 0.07,
+          "limit": ">= 0 spare each side",
+          "unit": "mm",
+          "pass": true,
+          "note": "spare on the tighter side"
+        }
+      ]
+    }
+  },
+  {
+    "id": "parked",
+    "folder": "designs/20-parked",
+    "listing": "Parked. Trucker Hat",
+    "text": "PARKED.",
+    "layout": "one-line",
+    "files": {
+      "one-line": {
+        "light": "designs/20-parked/design-light.svg",
+        "dark": "designs/20-parked/design-dark.svg"
+      }
+    },
+    "proofs": {
+      "light": "designs/20-parked/proof-light.png",
+      "dark": "designs/20-parked/proof-dark.png",
+      "seam": "designs/20-parked/seam-proof.png"
+    },
+    "notes": "designs/20-parked/notes.md",
+    "w": 56.08,
+    "h": 7.09,
+    "ink": {
+      "w": 56.08,
+      "h": 7.09
+    },
+    "cap": 7,
+    "placement": "Hat front, 6-panel with a centre seam: Retro Trucker (Yupoong 6606)",
+    "sixPanelShift": 1.95,
+    "sixPanelSeam": {
+      "between": [
+        "R",
+        "K"
+      ],
+      "gap": 2.13,
+      "inkCentreFromSeam": 0.66
+    },
+    "checks": {
+      "pass": true,
+      "items": [
+        {
+          "check": "cap height",
+          "value": 7,
+          "limit": ">= 6.6",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "thinnest stroke",
+          "value": 1.4,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the E"
+        },
+        {
+          "check": "smallest opening inside a letter",
+          "value": 1.36,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true,
+          "note": "in the E"
+        },
+        {
+          "check": "A counter (widest circle inside it)",
+          "value": 1.49,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "E slots",
+          "value": 1.36,
+          "limit": ">= 1.27",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "full stop across",
+          "value": 2.15,
+          "limit": ">= 1.5",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "fabric round the full stop",
+          "value": 1.99,
+          "limit": ">= 1.3",
+          "unit": "mm",
+          "pass": true
+        },
+        {
+          "check": "tightest gap between letters",
+          "value": 1.73,
+          "limit": ">= 1.47",
+          "unit": "mm",
+          "pass": true,
+          "note": "K-E"
+        },
+        {
+          "check": "fits the 140 x 50 mm hat front",
+          "value": 40.01,
+          "limit": ">= 0 spare each side",
+          "unit": "mm",
+          "pass": true,
+          "note": "spare on the tighter side"
+        },
+        {
+          "check": "6-panel seam gap",
+          "value": 2.13,
+          "limit": ">= 1.9",
+          "unit": "mm",
+          "pass": true,
+          "note": "between the R and the K"
+        }
+      ]
+    }
+  }
+]
