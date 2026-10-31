@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51mm" height="51mm" viewBox="0 0 51 51">
+<title>Technical guide — circular seal sticker</title>
+<desc>NON-PRINTING. Magenta: 45 mm diameter circular cut. Cyan: 3 mm safe inset.</desc>
+<circle cx="25.5" cy="25.5" r="22.5" fill="none" stroke="#FF00FF" stroke-width=".15"/><circle cx="25.5" cy="25.5" r="19.5" fill="none" stroke="#00A6C8" stroke-width=".12" stroke-dasharray="1.2 1.2"/>
+</svg>
