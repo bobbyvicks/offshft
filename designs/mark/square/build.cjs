@@ -98,11 +98,15 @@ const OPTIONS = [
   },
 ];
 
-// OFF over SHFT, left-aligned, the lockup's clock O (letter size, pivot dot) and the logo's kerning.
-function stacked(c) {
+// OFF over SHFT, left-aligned, the lockup's clock O (letter size, pivot dot) and the logo's kerning. The owner's pick
+// for every square and circle (31 Oct 2026). stackedParts() draws it around the ring centre in mm; stacked() places it
+// in the 100-unit tile, stackedArt() trims it to its own outline for logo files.
+function stackedParts(c, { oneColour = false } = {}) {
   const cap = 7, track = A.track;
   // Screen version: the one-colour lockup's 1.5 mm channel keeps the hands apart from the ring at avatar sizes.
-  const G = LOGO.geometry(A, cap, { dot: true, wallFactor: 0.82, channel: 1.5 });
+  // One colour: no pivot dot and a full-weight ring, as on the one-colour lockup.
+  const G = oneColour ? LOGO.geometry(A, cap, { oneColour: true, dot: false, channel: 1.5 })
+    : LOGO.geometry(A, cap, { dot: true, wallFactor: 0.82, channel: 1.5 });
   const ref = kit.text('OFF', { font: A.key, cap, track, x: 0, y: 0 });
   const O = ref.letters[0];
   const baseY = -(O.top + O.bottom) / 2;                        // baseline relative to the ring centre (y down)
@@ -124,17 +128,24 @@ function stacked(c) {
   const ff = word('FF', ffX, baseY), shft = word('SHFT', sx, line2Base);
   const ink = `<path fill="${c.text}" fill-rule="evenodd" d="${ff} ${shft}"/>`;
   const body = clock(G, 0, 0, c) + ink;
-  // Centred on the letters (top of OFF's caps to SHFT's baseline, ring edge to the widest line), so the minute hand
-  // rises toward the rim; then scaled until the outermost point of the drawing is 45 units from the centre, so it
-  // sits inside every circle crop.
   const sh = kit.text('SHFT', { font: A.key, cap, track, x: 0, y: 0 });
   const right = Math.max(sx + sh.width, ffX + kit.text('FF', { font: A.key, cap, track, x: 0, y: 0 }).width);
-  const cxL = (-G.R + right) / 2, cyL = (baseY - cap + line2Base) / 2;
   const pts = [...(ff + ' ' + shft).matchAll(/(-?[\d.]+) (-?[\d.]+)/g)].map((m) => [+m[1], +m[2]]);
-  pts.push([0, -e0.t], [e0.r, e0.b], [-G.R, 0]);
-  const far = Math.max(...pts.map(([x, y]) => Math.hypot(x - cxL, y - cyL)));
-  const k = 45 / far;
+  pts.push([0, -e0.t], [e0.r, e0.b], [-G.R, 0], [0, -G.R], [0, G.R]);
+  const bbox = { x0: Math.min(...pts.map((p) => p[0])), y0: Math.min(...pts.map((p) => p[1])), x1: Math.max(...pts.map((p) => p[0])), y1: Math.max(...pts.map((p) => p[1])) };
+  // centre of the letters: top of OFF's caps to SHFT's baseline, ring edge to the widest line
+  return { body, pts, bbox, cxL: (-G.R + right) / 2, cyL: (baseY - cap + line2Base) / 2, G };
+}
+// In the tile: centred on the letters, scaled until the outermost point is 45 units from the centre, so it sits
+// inside every circle crop.
+function stacked(c, o = {}) {
+  const { body, pts, cxL, cyL } = stackedParts(c, o);
+  const k = 45 / Math.max(...pts.map(([x, y]) => Math.hypot(x - cxL, y - cyL)));
   return `<g transform="translate(${n(S / 2 - cxL * k)} ${n(S / 2 - cyL * k)}) scale(${n(k)})">${body}</g>`;
+}
+function stackedArt(c, o = {}) {
+  const { body, bbox } = stackedParts(c, o);
+  return { w: bbox.x1 - bbox.x0, h: bbox.y1 - bbox.y0, body: `<g transform="translate(${n(-bbox.x0)} ${n(-bbox.y0)})">${body}</g>` };
 }
 
 // The clock face: an Ink ring as the dial, and the symbol's hands standing out of the pivot dot across an even channel,
@@ -242,4 +253,4 @@ if (require.main === module) (async () => {
   console.log('wrote', OPTIONS.length, 'options');
 })();
 
-module.exports = { OPTIONS, clock, extent, symbolG, tile, tabOutside, tabFace, LIGHT, DARK };
+module.exports = { OPTIONS, clock, extent, symbolG, tile, stacked, stackedArt, tabOutside, tabFace, LIGHT, DARK };
