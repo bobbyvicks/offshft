@@ -1,0 +1,27 @@
+[
+ {
+  "id": "0-as-is",
+  "title": "As it is now",
+  "note": "The current symbol fitted into the square. The hands set the scale, so the clock is about a third of the tile."
+ },
+ {
+  "id": "1-bleed",
+  "title": "Hands run off the edge",
+  "note": "Same drawing, bigger: the ring is half the tile and the hands run off the top and the bottom right, so the frame crops their tips. The clock itself never changes."
+ },
+ {
+  "id": "2-square-master",
+  "title": "Square version: shorter hands",
+  "note": "Its own drawing for squares, like the side-of-hat master: the same clock with the hands about a third shorter, so the whole clock fits and the ring is bigger."
+ },
+ {
+  "id": "3-clock-face",
+  "title": "Clock face",
+  "note": "The ring becomes the dial and the hands sit inside it, standing out of the pivot dot across the same gap they keep from the ring now. Fills the square and reads as a clock at 5:00 at any size."
+ },
+ {
+  "id": "4-stacked",
+  "title": "Stacked name",
+  "note": "OFF over SHFT with the clock O, the way the name fills a square. Says the name in avatars while nobody knows the symbol yet; the clock itself is small."
+ }
+]
