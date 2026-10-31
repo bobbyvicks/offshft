@@ -64,3 +64,19 @@ What it means:
   a big dot. Two called it a generic time or alert icon.
 - **The stacked name fills the square and says the name**, with the clock still seen in the O. It has the same Q-tail
   and SHIFT remarks as every lockup test.
+
+## Round 2: the clock face redrawn (31 Oct 2026)
+
+Smaller pivot dot (0.09 of the ring, was 0.13), bolder hands (0.058, was 0.05), and a broader, longer hour hand
+(1.4 x the minute hand's width, 0.6 of the dial, was 1.03 x and 0.56), as on a real watch. Same prompt, three new
+readers, working folder `/home/user` this time. Image: `blind/3-clock-face.png` as `/tmp/br/w6.png`.
+
+| Seen as | Sure | Also mistaken for |
+|---|---|---|
+| an analog clock showing 5:00 | 9 | small: a gauge, speedometer or timer; a power button; "!" from the upright hand over the dot; a tilted V |
+| an analog clock face showing five o'clock | 9 | "mostly a generic time, history or recent icon"; small: "!" in a circle; "it reads first as a clock" |
+| an analog clock face showing 5 o'clock | 9 | "a generic clock / time / recent-history UI icon or a default Clock app, so it may not read as a distinct brand"; small: "!" |
+
+Still 9 out of 10, 3 of 3. The "!" went from the main mix-up (round 1) to a faint one at the smallest size. What
+stays is the trade-off: two of three readers in each round called it a generic clock or time icon, which
+`../BRIEF.md` warned against (it must not look like a phone's clock app).
