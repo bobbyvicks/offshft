@@ -44,10 +44,17 @@ logo/offshft-logo-light-2400.png
 logo/offshft-logo-light-600.png
 logo/offshft-logo-light.pdf
 logo/offshft-logo-light.svg
+shopify/offshft-favicon-512.png
+social/offshft-clock-tile-dark.png
+social/offshft-clock-tile-dark.svg
+social/offshft-clock-tile-light.png
+social/offshft-clock-tile-light.svg
 social/offshft-profile-dark.png
 social/offshft-profile-dark.svg
 social/offshft-profile-light.png
 social/offshft-profile-light.svg
+social/offshft-share.png
+social/offshft-share.svg
 stacked/offshft-stacked-bone-1200.png
 stacked/offshft-stacked-bone-600.png
 stacked/offshft-stacked-bone.pdf

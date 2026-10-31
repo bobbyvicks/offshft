@@ -106,6 +106,22 @@ const SIZES = { logo: [600, 1200, 2400], stacked: [600, 1200], clock: [600, 1200
     }
   }
 
+  // The clock alone in a circle: a secondary square, for spots where the name is already beside it (a story highlight,
+  // a sticker sheet). Always small in a square, so never the main profile picture or app icon.
+  for (const way of ['light', 'dark']) {
+    const clockTile = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1080" height="1080"><rect width="100" height="100" fill="${TILE[way].bg}"/>${SQ.OPTIONS[0].draw(TILE[way])}</svg>\n`;
+    made.push(write(`social/offshft-clock-tile-${way}.svg`, clockTile));
+    made.push(await pngOfSvg(clockTile, path.join(OUT, `social/offshft-clock-tile-${way}.png`), 1080));
+  }
+
+  // Link previews (Shopify's social sharing image): 1200 x 628, the one-line logo on Bone.
+  {
+    const lg = ART.logo('light'), W = 120, H = 62.8, k = (W * 0.5) / lg.w;
+    const share = { w: W, h: H, body: `<rect width="${W}" height="${H}" fill="${T.bone}"/><g transform="translate(${n((W - lg.w * k) / 2)} ${n((H - lg.h * k) / 2)}) scale(${n(k)})">${lg.body}</g>` };
+    made.push(write('social/offshft-share.svg', svgDoc(share)));
+    made.push(await png(share, path.join(OUT, 'social/offshft-share.png'), 1200));
+  }
+
   // Browser tab: the hat clock drawn on the pixel grid at each size, never scaled.
   const fav = [];
   for (const px of [16, 32, 48]) {
@@ -116,6 +132,10 @@ const SIZES = { logo: [600, 1200, 2400], stacked: [600, 1200], clock: [600, 1200
   made.push(...fav);
   execFileSync('convert', [...fav, path.join(OUT, 'icons/favicon.ico')]);
   made.push(path.join(OUT, 'icons/favicon.ico'));
+  // The store's file. Shopify serves the Favicon at 32 x 32, and the same file is also the home page's 64 px clock on a
+  // fabric-Bone band, so it's the 32 px drawing rendered at 512 on a square of that band's colour: it shrinks back to
+  // the drawn pixels for the tab and its square disappears on the band.
+  made.push(await pngOfSvg(SQ.tabOutside(32, TILE.light, { bg: F.bone, rx: 0 }), path.join(OUT, 'shopify/offshft-favicon-512.png'), 512));
 
   await browser.close();
   // a list of every file, for the README and the checks

@@ -124,14 +124,18 @@ function stackedParts(c, { oneColour = false } = {}) {
   const ffX = G.R + gapAfterO - (ref.letters[1].x1 - ref.letters[1].x);
   const e0 = extent(G);
   const line2Base = e0.b + Math.max(1.9, G.stem) + cap;            // SHFT's caps clear the hour tip by a hand's width
-  const sx = -G.R;                                              // SHFT starts under the ring's left edge
+  // SHFT's S lines up with the ring's left edge by its ink, not its origin (the S has a 0.39 mm side bearing at cap 7).
+  const sInk = [...LOGO.glyphMM(A, 'S', 0, 0, cap).d.matchAll(/(-?[\d.]+) (-?[\d.]+)/g)].map((m) => +m[1]);
+  const sx = -G.R - Math.min(...sInk);
   const ff = word('FF', ffX, baseY), shft = word('SHFT', sx, line2Base);
   const ink = `<path fill="${c.text}" fill-rule="evenodd" d="${ff} ${shft}"/>`;
   const body = clock(G, 0, 0, c) + ink;
   const sh = kit.text('SHFT', { font: A.key, cap, track, x: 0, y: 0 });
   const right = Math.max(sx + sh.width, ffX + kit.text('FF', { font: A.key, cap, track, x: 0, y: 0 }).width);
   const pts = [...(ff + ' ' + shft).matchAll(/(-?[\d.]+) (-?[\d.]+)/g)].map((m) => [+m[1], +m[2]]);
-  pts.push([0, -e0.t], [e0.r, e0.b], [-G.R, 0], [0, -G.R], [0, G.R]);
+  // the minute hand's real corners (its flat tip and the shoulders of the point), the hour tip and the ring
+  pts.push([-0.3 * G.sM, -G.Lm], [0.3 * G.sM, -G.Lm], [-G.sM, -(G.Lm - 0.7 * G.sM)], [G.sM, -(G.Lm - 0.7 * G.sM)], [e0.r, e0.b]);
+  for (let a = 0; a < 360; a += 5) pts.push([G.R * Math.sin((a * Math.PI) / 180), -G.R * Math.cos((a * Math.PI) / 180)]);
   const bbox = { x0: Math.min(...pts.map((p) => p[0])), y0: Math.min(...pts.map((p) => p[1])), x1: Math.max(...pts.map((p) => p[0])), y1: Math.max(...pts.map((p) => p[1])) };
   // centre of the letters: top of OFF's caps to SHFT's baseline, ring edge to the widest line
   return { body, pts, bbox, cxL: (-G.R + right) / 2, cyL: (baseY - cap + line2Base) / 2, G };
@@ -166,18 +170,26 @@ function clockFace(c, { D = 80, wall = 0.11, disc = 0.1, chan = 0.03, hw = 0.07,
 // side-of-hat master is its own drawing (the critics' spec, 31 Oct 2026). On an opaque Bone tile with rounded corners
 // so it shows on light and dark tab bars.
 // Hands outside (the hat clock): ring, 1-2 px channel, flat-ended hands; the 16 px frame drops the pivot dot.
+// Refit 31 Oct after the kit check: the first fit let the hour hand run into the tile's bottom edge. Every hand corner
+// now sits at least half a pixel inside, the ring stays on whole pixels, and the 16 px frame is redrawn with a 1.5 px
+// gap at 5 o'clock so a whole Bone pixel survives between the ring and the hour hand.
 const TAB_OUT = {
-  16: { rx: 2.5, cx: 7, cy: 9, ro: 4, ri: 2, minute: [6, 1, 8, 4], hour: [5, 7.9, 2], dot: 0 },
-  32: { rx: 5, cx: 15.5, cy: 18.5, ro: 7.5, ri: 4.5, minute: [14, 2, 17, 9], hour: [9.5, 14.6, 3], dot: 3 },
-  48: { rx: 7, cx: 23, cy: 28, ro: 11, ri: 6.5, minute: [21, 3, 25, 14], hour: [14, 22, 4], dot: 4 },
+  16: { rx: 2.5, cx: 7, cy: 8, ro: 4, ri: 2, minute: [6, 1, 8, 3], hour: [5.5, 7.2, 2], dot: 0 },
+  32: { rx: 5, cx: 15.5, cy: 17.5, ro: 7.5, ri: 4.5, minute: [14, 1, 17, 8], hour: [9.5, 14.6, 3], dot: 3 },
+  48: { rx: 7, cx: 23, cy: 26, ro: 11, ri: 6.5, minute: [21, 1, 25, 12], hour: [14, 22, 4], dot: 4 },
 };
-function tabOutside(px, c) {
+// tile: { bg, rx } overrides the tile (the Shopify file sits on a square of the home page band's colour).
+function tabOutside(px, c, tile = {}) {
   const t = TAB_OUT[px], a = (150 * Math.PI) / 180, ux = Math.sin(a), uy = -Math.cos(a), nx = -uy, ny = ux;
   const [r0, r1, w] = t.hour, P = (r, k) => `${n(t.cx + ux * r + nx * k)} ${n(t.cy + uy * r + ny * k)}`;
   const [x0, y0, x1, y1] = t.minute;
-  const hands = `M${x0} ${y1} L${x0} ${y0} L${x1} ${y0} L${x1} ${y1} Z M${P(r0, -w / 2)} L${P(r1, -w / 2)} L${P(r1, w / 2)} L${P(r0, w / 2)} Z` +
-    (t.dot ? ` ${ellipse(t.cx, t.cy, t.dot / 2, t.dot / 2)}` : '');
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${px} ${px}" width="${px}" height="${px}"><rect width="${px}" height="${px}" rx="${t.rx}" fill="${c.bg}"/>` +
+  const poly = `M${x0} ${y1} L${x0} ${y0} L${x1} ${y0} L${x1} ${y1} Z M${P(r0, -w / 2)} L${P(r1, -w / 2)} L${P(r1, w / 2)} L${P(r0, w / 2)} Z`;
+  const hands = poly + (t.dot ? ` ${ellipse(t.cx, t.cy, t.dot / 2, t.dot / 2)}` : '');
+  for (const v of poly.matchAll(/(-?[\d.]+) (-?[\d.]+)/g)) {
+    if (+v[1] < 0.5 || +v[1] > px - 0.5 || +v[2] < 0.5 || +v[2] > px - 0.5) throw new Error(`tab ${px}: a hand corner at ${v[1]}, ${v[2]} is within half a pixel of the edge`);
+  }
+  const rx = tile.rx !== undefined ? tile.rx : t.rx, bg = tile.bg || c.bg;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${px} ${px}" width="${px}" height="${px}"><rect width="${px}" height="${px}" rx="${rx}" fill="${bg}"/>` +
     `<path fill="${c.ring}" fill-rule="evenodd" d="${ellipse(t.cx, t.cy, t.ro, t.ro)} ${ellipse(t.cx, t.cy, t.ri, t.ri)}"/><path fill="${c.hands}" d="${hands}"/></svg>\n`;
 }
 // Clock face, 16 px cut: heavier ring and hands joined at the pivot (the gap is under a pixel at this size).

@@ -130,6 +130,10 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
   32 px grid. The theme's Favicon setting and the home page's 64 px clock both use that file, so both changed and nothing
   else in the theme did (writes to the live theme are blocked for this connection anyway). Before: the 25 mm hat
   symbol on fabric Bone, which Shopify shrank to a smudge.
+  - Swapped again the same evening after the kit check: the first version's hour hand touched the tile's edge, and its
+    thread-Bone rounded tile showed as a lighter chip on the home page's fabric-Bone band. Now the hands sit inside
+    and the tile is a square of the band's colour (#E4DDCB), so on the home page only the clock shows. Cleaner later
+    (owner, theme editor): give the home page's icon block its own image and set the Favicon to brand/icons/favicon-32.png.
 - Ideas for what to add next, researched 30 Oct when the owner asked (nothing added yet): a full-zip hoodie, a
   fisherman beanie, a corduroy cap, a long-sleeve tee, the side clock on the phrase hats, a gift card, the FAQ link and
   the empty policies: store/research/next-adds.md. Three new lines: designs/phrases/round-2.md.
