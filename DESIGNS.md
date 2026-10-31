@@ -30,8 +30,9 @@ Owner picks which of these become the first 6–8 hats, and which fabric colour 
 The owner: the clock "looks bad when in a square because the arms force it to be super zoomed out". With the hands
 outside, the ring can't be more than about a third of a square. Five options drawn, blind-read (18 readers) and
 reviewed (3 critics): `designs/mark/square/` (RESULTS.md; page: https://claude.ai/artifact/6KwALY6jQMuxGDQfRHRryz).
-Status: owner to pick between keeping the hands outside (stacked OFF / SHFT in squares, a pixel-drawn hat clock in
-the browser tab) and a clock face on screens. The brand kit follows the pick.
+Status: **decided 31 Oct 2026** ("i like your pick, lets go w it"): the hands stay outside everywhere; squares get the
+stacked OFF / SHFT; the browser tab gets the clock drawn on the pixel grid. Brand kit: `brand/` (README there), rules in
+BRAND.md, one-page sheet: https://claude.ai/artifact/MhC159oJHjjhLRyGEvMGaA
 
 ## Phrase ideas for the owner (29 Oct 2026)
 

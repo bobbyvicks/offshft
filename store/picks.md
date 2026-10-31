@@ -125,6 +125,11 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
     store/research/trademarks-new-phrases.md. Time Well Earned., The Rest Is Ours. and Ours to Spend. look clear;
     5:00 is a small risk (Margaritaville's "It's Five O'Clock Somewhere" and Jaya's "5 a 7" in Canada): keep it "5:00",
     no "somewhere" or beach imagery. [CONFIRM: the official searches listed in the report]
+- Tab icon replaced 31 Oct 2026, on the owner's yes to the square plan: the file offshft-favicon.png in Files was
+  swapped in place (fileUpdate, same file and URL) for brand/shopify/offshft-favicon-512.png, the clock drawn on the
+  32 px grid. The theme's Favicon setting and the home page's 64 px clock both use that file, so both changed and nothing
+  else in the theme did (writes to the live theme are blocked for this connection anyway). Before: the 25 mm hat
+  symbol on fabric Bone, which Shopify shrank to a smudge.
 - Ideas for what to add next, researched 30 Oct when the owner asked (nothing added yet): a full-zip hoodie, a
   fisherman beanie, a corduroy cap, a long-sleeve tee, the side clock on the phrase hats, a gift card, the FAQ link and
   the empty policies: store/research/next-adds.md. Three new lines: designs/phrases/round-2.md.
