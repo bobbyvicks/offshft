@@ -133,10 +133,13 @@ function stacked(c) {
 
 // The clock face: an Ink ring as the dial, and the symbol's hands standing out of the pivot dot across an even channel,
 // with the same concave bases and pointed tips (the dot plays the part the O plays in the symbol).
-function clockFace(c, { D = 82, wall = 0.105, disc = 0.13, chan = 0.035, hw = 0.05, m = 0.8, h = 0.56 } = {}) {
+// Round 1 (dot 0.13 D, hands 0.05 D, hour 0.56 of the dial) read as a clock 9/10, but all three readers also saw a
+// "!" (the long hand floating over a big dot). Round 2: a smaller dot, bolder hands and a broader, longer hour hand,
+// as on a real watch, so it reads as two hands.
+function clockFace(c, { D = 82, wall = 0.105, disc = 0.09, chan = 0.03, hw = 0.058, hourW = 1.4, m = 0.78, h = 0.6 } = {}) {
   const R = D / 2, rIn = R - D * wall, rd = (D * disc) / 2, g = D * chan, s = (D * hw) / 2, cx = S / 2, cy = S / 2;
   let svg = `<path fill="${c.ring}" fill-rule="evenodd" d="${ellipse(cx, cy, R, R)} ${ellipse(cx, cy, rIn, rIn)}"/>`;
-  svg += `<path fill="${c.hands}" d="${ellipse(cx, cy, rd, rd)} ${hand(cx, cy, 0, rd + g, rIn * m, s)} ${hand(cx, cy, 150, rd + g, rIn * h, s * 1.03)}"/>`;
+  svg += `<path fill="${c.hands}" d="${ellipse(cx, cy, rd, rd)} ${hand(cx, cy, 0, rd + g, rIn * m, s)} ${hand(cx, cy, 150, rd + g, rIn * h, s * hourW)}"/>`;
   return svg;
 }
 
