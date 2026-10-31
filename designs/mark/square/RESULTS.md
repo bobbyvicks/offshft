@@ -10,7 +10,8 @@ and the ring ends up about a third of the tile. `build.cjs` draws the alternativ
 The same protocol as `../clean-reads/RESULTS.md`, adapted to a square: each reader was a separate fresh agent (Agent
 tool, not the Workflow tool, so no chat message was passed on) given one image and the prompt below, nothing else.
 Images: `blind/<id>.png`, copied to neutral file names (`/tmp/br/k2.png` and so on) so the file name gave nothing
-away. Each shows the light version as a 160 px and a 56 px profile circle and a 120 px app icon.
+away. The images as tested are in git: round 1 at commit b2ba948, round 2 (the redrawn clock face) at 04d0ed7;
+`blind/` now holds the current drawings, which have the critics' fixes. Each shows the light version as a 160 px and a 56 px profile circle and a 120 px app icon.
 
 Symbol prompt, word for word:
 
