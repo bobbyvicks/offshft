@@ -65,12 +65,12 @@ const place = (G, k, cx, cy, c, o) => `<g transform="translate(${n(cx)} ${n(cy)}
 
 const OPTIONS = [
   {
-    id: '0-as-is', title: 'As it is now', note: 'The current symbol fitted into the square. The hands set the scale, so the clock is about a third of the tile.',
+    id: '0-as-is', title: 'Hands outside: the hat clock', note: 'The clock from the hats, unchanged, centred on its ring and as big as a circle allows: the minute hand reaches the rim, so the ring is about a third of the tile. With the hands outside at their length, it can never be bigger.',
     draw(c) {
-      const G = symbolG(), e = extent(G), h = e.t + e.b, k = (S * 0.8) / h;
-      // centred on its box
-      const w = e.l + e.r;
-      return place(G, k, S / 2 - (w / 2 - e.l) * k, S / 2 - (h / 2 - e.t) * k, c);
+      // Round 1 tested this drawing fitted by its box at 80% of the tile (ring 32%); the critics' fit centres the ring
+      // and lets the minute tip reach 0.47 of the tile from the centre (ring 34%, concentric with circle crops).
+      const G = symbolG(), k = (S * 0.47) / G.Lm;
+      return place(G, k, S / 2, S / 2, c);
     },
   },
   {
@@ -101,7 +101,8 @@ const OPTIONS = [
 // OFF over SHFT, left-aligned, the lockup's clock O (letter size, pivot dot) and the logo's kerning.
 function stacked(c) {
   const cap = 7, track = A.track;
-  const G = LOGO.geometry(A, cap, { dot: true, wallFactor: 0.82 });
+  // Screen version: the one-colour lockup's 1.5 mm channel keeps the hands apart from the ring at avatar sizes.
+  const G = LOGO.geometry(A, cap, { dot: true, wallFactor: 0.82, channel: 1.5 });
   const ref = kit.text('OFF', { font: A.key, cap, track, x: 0, y: 0 });
   const O = ref.letters[0];
   const baseY = -(O.top + O.bottom) / 2;                        // baseline relative to the ring centre (y down)
@@ -117,30 +118,65 @@ function stacked(c) {
   };
   const gapAfterO = ref.letters[1].x1 - O.x2;
   const ffX = G.R + gapAfterO - (ref.letters[1].x1 - ref.letters[1].x);
-  const e = extent(G);
-  const line2Base = baseY + cap + 6.2;                          // clears the hour hand by about 1.8 mm
+  const e0 = extent(G);
+  const line2Base = e0.b + Math.max(1.9, G.stem) + cap;            // SHFT's caps clear the hour tip by a hand's width
   const sx = -G.R;                                              // SHFT starts under the ring's left edge
-  const ink = `<path fill="${c.text}" fill-rule="evenodd" d="${word('FF', ffX, baseY)} ${word('SHFT', sx, line2Base)}"/>`;
+  const ff = word('FF', ffX, baseY), shft = word('SHFT', sx, line2Base);
+  const ink = `<path fill="${c.text}" fill-rule="evenodd" d="${ff} ${shft}"/>`;
   const body = clock(G, 0, 0, c) + ink;
-  // fit: box from the minute tip to SHFT's baseline, ring left edge to the widest line's right edge
+  // Centred on the letters (top of OFF's caps to SHFT's baseline, ring edge to the widest line), so the minute hand
+  // rises toward the rim; then scaled until the outermost point of the drawing is 45 units from the centre, so it
+  // sits inside every circle crop.
   const sh = kit.text('SHFT', { font: A.key, cap, track, x: 0, y: 0 });
   const right = Math.max(sx + sh.width, ffX + kit.text('FF', { font: A.key, cap, track, x: 0, y: 0 }).width);
-  const box = { x0: -G.R, y0: -e.t, x1: right, y1: line2Base };
-  // Scaled so the block's corners sit inside a circle crop with room to spare (avatars are cut to a circle).
-  const w = box.x1 - box.x0, h = box.y1 - box.y0, k = (S * 0.43) / Math.hypot(w / 2, h / 2);
-  return `<g transform="translate(${n(S / 2 - (box.x0 + w / 2) * k)} ${n(S / 2 - (box.y0 + h / 2) * k)}) scale(${n(k)})">${body}</g>`;
+  const cxL = (-G.R + right) / 2, cyL = (baseY - cap + line2Base) / 2;
+  const pts = [...(ff + ' ' + shft).matchAll(/(-?[\d.]+) (-?[\d.]+)/g)].map((m) => [+m[1], +m[2]]);
+  pts.push([0, -e0.t], [e0.r, e0.b], [-G.R, 0]);
+  const far = Math.max(...pts.map(([x, y]) => Math.hypot(x - cxL, y - cyL)));
+  const k = 45 / far;
+  return `<g transform="translate(${n(S / 2 - cxL * k)} ${n(S / 2 - cyL * k)}) scale(${n(k)})">${body}</g>`;
 }
 
 // The clock face: an Ink ring as the dial, and the symbol's hands standing out of the pivot dot across an even channel,
 // with the same concave bases and pointed tips (the dot plays the part the O plays in the symbol).
 // Round 1 (dot 0.13 D, hands 0.05 D, hour 0.56 of the dial) read as a clock 9/10, but all three readers also saw a
 // "!" (the long hand floating over a big dot). Round 2: a smaller dot, bolder hands and a broader, longer hour hand,
-// as on a real watch, so it reads as two hands.
-function clockFace(c, { D = 82, wall = 0.105, disc = 0.09, chan = 0.03, hw = 0.058, hourW = 1.4, m = 0.78, h = 0.6 } = {}) {
+// as on a real watch, so it reads as two hands. After the critics: bolder hands still (0.07 of the dial, hour 1.25 x),
+// dot 0.1, dial 80 so a circle crop doesn't read as a second ring; the gap at the pivot stays (its one brand detail).
+function clockFace(c, { D = 80, wall = 0.11, disc = 0.1, chan = 0.03, hw = 0.07, hourW = 1.25, m = 0.8, h = 0.62 } = {}) {
   const R = D / 2, rIn = R - D * wall, rd = (D * disc) / 2, g = D * chan, s = (D * hw) / 2, cx = S / 2, cy = S / 2;
   let svg = `<path fill="${c.ring}" fill-rule="evenodd" d="${ellipse(cx, cy, R, R)} ${ellipse(cx, cy, rIn, rIn)}"/>`;
   svg += `<path fill="${c.hands}" d="${ellipse(cx, cy, rd, rd)} ${hand(cx, cy, 0, rd + g, rIn * m, s)} ${hand(cx, cy, 150, rd + g, rIn * h, s * hourW)}"/>`;
   return svg;
+}
+
+// ---------------------------------------------------------------- browser tab icons
+// Nothing survives being scaled down to 16 px, so each direction gets its own drawing on the pixel grid, the way the
+// side-of-hat master is its own drawing (the critics' spec, 31 Oct 2026). On an opaque Bone tile with rounded corners
+// so it shows on light and dark tab bars.
+// Hands outside (the hat clock): ring, 1-2 px channel, flat-ended hands; the 16 px frame drops the pivot dot.
+const TAB_OUT = {
+  16: { rx: 2.5, cx: 7, cy: 9, ro: 4, ri: 2, minute: [6, 1, 8, 4], hour: [5, 7.9, 2], dot: 0 },
+  32: { rx: 5, cx: 15.5, cy: 18.5, ro: 7.5, ri: 4.5, minute: [14, 2, 17, 9], hour: [9.5, 14.6, 3], dot: 3 },
+  48: { rx: 7, cx: 23, cy: 28, ro: 11, ri: 6.5, minute: [21, 3, 25, 14], hour: [14, 22, 4], dot: 4 },
+};
+function tabOutside(px, c) {
+  const t = TAB_OUT[px], a = (150 * Math.PI) / 180, ux = Math.sin(a), uy = -Math.cos(a), nx = -uy, ny = ux;
+  const [r0, r1, w] = t.hour, P = (r, k) => `${n(t.cx + ux * r + nx * k)} ${n(t.cy + uy * r + ny * k)}`;
+  const [x0, y0, x1, y1] = t.minute;
+  const hands = `M${x0} ${y1} L${x0} ${y0} L${x1} ${y0} L${x1} ${y1} Z M${P(r0, -w / 2)} L${P(r1, -w / 2)} L${P(r1, w / 2)} L${P(r0, w / 2)} Z` +
+    (t.dot ? ` ${ellipse(t.cx, t.cy, t.dot / 2, t.dot / 2)}` : '');
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${px} ${px}" width="${px}" height="${px}"><rect width="${px}" height="${px}" rx="${t.rx}" fill="${c.bg}"/>` +
+    `<path fill="${c.ring}" fill-rule="evenodd" d="${ellipse(t.cx, t.cy, t.ro, t.ro)} ${ellipse(t.cx, t.cy, t.ri, t.ri)}"/><path fill="${c.hands}" d="${hands}"/></svg>\n`;
+}
+// Clock face, 16 px cut: heavier ring and hands joined at the pivot (the gap is under a pixel at this size).
+function tabFace(c) {
+  const R = 47, rIn = R - 10.5, sM = 4.75, sH = 5.5;
+  const inner = `<path fill="${c.ring}" fill-rule="evenodd" d="${ellipse(50, 50, R, R)} ${ellipse(50, 50, rIn, rIn)}"/>` +
+    `<path fill="${c.hands}" d="${hand(50, 50, 0, 0, rIn * 0.86, sM, { fromCentre: true })}"/>` +
+    `<path fill="${c.hands}" d="${hand(50, 50, 150, 0, rIn * 0.58, sH, { fromCentre: true })}"/>` +
+    `<path fill="${c.hands}" d="${ellipse(50, 50, 6, 6)}"/>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="16" height="16"><rect width="100" height="100" rx="16" fill="${c.bg}"/>${inner}</svg>\n`;
 }
 
 const tile = (o, c) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${S} ${S}" width="${S}mm" height="${S}mm">
@@ -196,9 +232,14 @@ if (require.main === module) (async () => {
     fs.mkdirSync(path.join(OUT, 'blind'), { recursive: true });
     await blind(files.light, path.join(OUT, 'blind', `${o.id}.png`));
   }
+  fs.mkdirSync(path.join(OUT, 'tab'), { recursive: true });
+  for (const c of [LIGHT, DARK]) {
+    for (const px of [16, 32, 48]) fs.writeFileSync(path.join(OUT, 'tab', `outside-${px}-${c.name}.svg`), tabOutside(px, c));
+    fs.writeFileSync(path.join(OUT, 'tab', `face-16-${c.name}.svg`), tabFace(c));
+  }
   execFileSync('montage', [...shots, '-tile', '2x', '-geometry', '+10+10', '-background', '#DDDAD2', path.join(OUT, 'sheet.png')]);
   fs.writeFileSync(path.join(OUT, 'options.json'), JSON.stringify(OPTIONS.map(({ id, title, note }) => ({ id, title, note })), null, 1) + '\n');
   console.log('wrote', OPTIONS.length, 'options');
 })();
 
-module.exports = { OPTIONS, clock, extent, symbolG, tile, LIGHT, DARK };
+module.exports = { OPTIONS, clock, extent, symbolG, tile, tabOutside, tabFace, LIGHT, DARK };

@@ -25,6 +25,14 @@ Owner picks which of these become the first 6–8 hats, and which fabric colour 
 
 **Owner's call, 29 Oct 2026:** three designs are usable: the final OFF SHFT logo, the clock on its own, and Punched Out. The icon designs and Mulligan Monday are out. In the owner's words, they're "too AI" or not good enough. Avoid clip-art icons and badge layouts in new work.
 
+## The clock in a square (31 Oct 2026)
+
+The owner: the clock "looks bad when in a square because the arms force it to be super zoomed out". With the hands
+outside, the ring can't be more than about a third of a square. Five options drawn, blind-read (18 readers) and
+reviewed (3 critics): `designs/mark/square/` (RESULTS.md; page: https://claude.ai/artifact/6KwALY6jQMuxGDQfRHRryz).
+Status: owner to pick between keeping the hands outside (stacked OFF / SHFT in squares, a pixel-drawn hat clock in
+the browser tab) and a clock face on screens. The brand kit follows the pick.
+
 ## Phrase ideas for the owner (29 Oct 2026)
 
 Six short lines in the house voice, with previews and quick trademark notes: `designs/phrases/notes.md`. NOWHERE TO BE., SUN’S STILL UP., NO ALARM SET., BANKED TIME., NOT PICKING UP., PARKED. Status: drafted (production art in designs/15-20), listed in the store 30 Oct 2026 behind the password; cold read and sew-outs still to do.

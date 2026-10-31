@@ -61,7 +61,7 @@ What it means:
   as it is (4.7 and 5.7 against 6.3), and the magnifying glass, the Q and the target get stronger as it gets smaller.
   The hands standing out of the ring are what make it a clock; they're also what make it tall.
 - **The clock face reads best (9 out of 10, 3 of 3)** but all three readers also saw a "!": the long hand floats over
-  a big dot. Two called it a generic time or alert icon.
+  a big dot. One called it a generic time icon.
 - **The stacked name fills the square and says the name**, with the clock still seen in the O. It has the same Q-tail
   and SHIFT remarks as every lockup test.
 
@@ -78,5 +78,30 @@ readers, working folder `/home/user` this time. Image: `blind/3-clock-face.png` 
 | an analog clock face showing 5 o'clock | 9 | "a generic clock / time / recent-history UI icon or a default Clock app, so it may not read as a distinct brand"; small: "!" |
 
 Still 9 out of 10, 3 of 3. The "!" went from the main mix-up (round 1) to a faint one at the smallest size. What
-stays is the trade-off: two of three readers in each round called it a generic clock or time icon, which
-`../BRIEF.md` warned against (it must not look like a phone's clock app).
+stays is the trade-off: two of these three (and one in round 1, so 3 of 6) called it a generic clock icon or a
+phone's clock app, which `../BRIEF.md` warned against.
+
+## What the critics said (31 Oct 2026)
+
+Three reviewers with different briefs went through every option, measured them and rendered them at real pixel sizes
+(workflow run wf_6d5fa0f1-8af; their scratch work stayed in /tmp). Where they agreed:
+- **The ceiling.** With the hands outside at the symbol's lengths, the minute tip is 2.79 ring radii from the centre, so
+  the ring can never be more than about 36% of a circle (the old favicon placement was 32%). Every way past that
+  turns it into another object: cropped hands give a target, scope or tyre swing; short hands a stopwatch or magnifier.
+- **The browser tab needs its own drawing.** Nothing scaled down survives 16 px. The store's current favicon (the
+  25 mm symbol on fabric Bone, which Shopify serves at 32 px) is a grey smudge on a 1x screen.
+- **Screens use thread Bone #ECE5D3, not fabric Bone #E4DDCB**: Rust on it is 3.91:1 against 3.62:1.
+- **Drop options 1 and 2.**
+
+Where they split: the brand reviewer ranked the stacked name first and rejected the clock face for every job (it
+reads as a clock in general, not as OFF SHFT, and matches the standard UI clock icons); the small-size reviewer would
+keep a refitted hands-outside clock (ring about 41%) for avatars; the adversarial reviewer ranked the clock face first
+as the only option that really fixes the size, at the cost of looking stock. Their framing, which the owner's page
+uses: hands outside with a small O (the hat logo), or hands inside with a big O (a clock face), and the stacked name
+for squares if the hands stay outside.
+
+Applied from the reviews: option 0 now centres the ring and lets the minute tip reach the rim (ring 34%, concentric
+with circle crops); the stacked name is centred on its letters, fitted by its outline to a circle of radius 45, and
+uses a 1.5 mm channel in its O with SHFT a hand's width below the hour tip; the clock face has bolder hands (0.07 of
+the dial, hour 1.25 x) and a dial of 80; and `tab/` holds pixel-grid tab icons for both directions (hands outside at
+16, 32 and 48 px; the clock face's 16 px cut with the hands joined at the pivot).
