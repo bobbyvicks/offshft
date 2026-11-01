@@ -1,6 +1,6 @@
 {
- "readStartUTC": "2026-11-01T15:00:17Z",
- "readEndUTC": "2026-11-01T15:03:12Z",
+ "readStartUTC": "2026-11-01T20:41:14Z",
+ "readEndUTC": "2026-11-01T20:44:30Z",
  "printfulLocation": {
   "id": "gid://shopify/Location/119660609858",
   "name": "Printful",
@@ -20,28 +20,28 @@
    "id": "gid://shopify/DeliveryProfile/139656462658",
    "name": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)",
    "isDefault": false,
-   "variantCount": 21,
-   "shopifyReportedCount": "21"
+   "variantCount": 36,
+   "shopifyReportedCount": "36"
   },
   {
    "id": "gid://shopify/DeliveryProfile/139659870530",
    "name": "Printful: Snapbacks and Bucket hats (#PF-FRG96)",
    "isDefault": false,
-   "variantCount": 12,
-   "shopifyReportedCount": "12"
+   "variantCount": 27,
+   "shopifyReportedCount": "27"
   },
   {
    "id": "gid://shopify/DeliveryProfile/139667996994",
    "name": "Printful: Tshirts (#PF-FRG1)",
    "isDefault": false,
-   "variantCount": 82,
-   "shopifyReportedCount": "82"
+   "variantCount": 92,
+   "shopifyReportedCount": "92"
   },
   {
    "id": "gid://shopify/DeliveryProfile/139670815042",
    "name": "Printful: Hoodies (#PF-FRG2)",
    "isDefault": false,
-   "variantCount": 522,
+   "variantCount": 537,
    "shopifyReportedCount": "500 (AT_LEAST)"
   },
   {
@@ -62,15 +62,15 @@
    "id": "gid://shopify/DeliveryProfile/139692015938",
    "name": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG1042)",
    "isDefault": false,
-   "variantCount": 3,
-   "shopifyReportedCount": "3"
+   "variantCount": 9,
+   "shopifyReportedCount": "9"
   },
   {
    "id": "gid://shopify/DeliveryProfile/139692081474",
    "name": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG42)",
    "isDefault": false,
-   "variantCount": 3,
-   "shopifyReportedCount": "3"
+   "variantCount": 9,
+   "shopifyReportedCount": "9"
   }
  ],
  "products": [
@@ -79,7 +79,7 @@
    "title": "OFF SHFT Logo Hat",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 5,
+   "totalVariants": 11,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67946082042178",
@@ -145,6 +145,84 @@
      "storeLocationAvailable": 0,
      "otherLocations": [],
      "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985971085634",
+     "title": "Retro Trucker / Khaki",
+     "sku": "1433283-KHAKI",
+     "options": {
+      "Style": "Retro Trucker",
+      "Colour": "Khaki"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985971380546",
+     "title": "5-Panel / White",
+     "sku": "5157207-WHITE",
+     "options": {
+      "Style": "5-Panel",
+      "Colour": "White"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985971642690",
+     "title": "5-Panel / Dark Green/Natural",
+     "sku": "5157207-DARK-GREEN-NATURAL",
+     "options": {
+      "Style": "5-Panel",
+      "Colour": "Dark Green/Natural"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972396354",
+     "title": "Dad Hat / Stone",
+     "sku": "2707919-STONE",
+     "options": {
+      "Style": "Dad Hat",
+      "Colour": "Stone"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972429122",
+     "title": "Dad Hat / Spruce",
+     "sku": "2707919-SPRUCE",
+     "options": {
+      "Style": "Dad Hat",
+      "Colour": "Spruce"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972461890",
+     "title": "Rope Cap / Lt Gray/Navy",
+     "sku": "5600972-LT-GRAY-NAVY",
+     "options": {
+      "Style": "Rope Cap",
+      "Colour": "Lt Gray/Navy"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
     }
    ]
   },
@@ -153,7 +231,7 @@
    "title": "The Clock Hat",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 5,
+   "totalVariants": 11,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67946082173250",
@@ -219,6 +297,84 @@
      "storeLocationAvailable": 0,
      "otherLocations": [],
      "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972789570",
+     "title": "Retro Trucker / Khaki",
+     "sku": "4795021-KHAKI",
+     "options": {
+      "Style": "Retro Trucker",
+      "Colour": "Khaki"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972822338",
+     "title": "5-Panel / White",
+     "sku": "6891906-WHITE",
+     "options": {
+      "Style": "5-Panel",
+      "Colour": "White"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972855106",
+     "title": "5-Panel / Dark Green/Natural",
+     "sku": "6891906-DARK-GREEN-NATURAL",
+     "options": {
+      "Style": "5-Panel",
+      "Colour": "Dark Green/Natural"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972887874",
+     "title": "Dad Hat / Stone",
+     "sku": "9135492-STONE",
+     "options": {
+      "Style": "Dad Hat",
+      "Colour": "Stone"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972920642",
+     "title": "Dad Hat / Spruce",
+     "sku": "9135492-SPRUCE",
+     "options": {
+      "Style": "Dad Hat",
+      "Colour": "Spruce"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972953410",
+     "title": "Rope Cap / Lt Gray/Navy",
+     "sku": "9785611-LT-GRAY-NAVY",
+     "options": {
+      "Style": "Rope Cap",
+      "Colour": "Lt Gray/Navy"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
     }
    ]
   },
@@ -227,7 +383,7 @@
    "title": "Punched Out. Hat",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 5,
+   "totalVariants": 11,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67946082304322",
@@ -293,6 +449,84 @@
      "storeLocationAvailable": 0,
      "otherLocations": [],
      "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972494658",
+     "title": "Retro Trucker / Khaki",
+     "sku": "1084720-KHAKI",
+     "options": {
+      "Style": "Retro Trucker",
+      "Colour": "Khaki"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972560194",
+     "title": "5-Panel / White",
+     "sku": "4470861-WHITE",
+     "options": {
+      "Style": "5-Panel",
+      "Colour": "White"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972592962",
+     "title": "5-Panel / Dark Green/Natural",
+     "sku": "4470861-DARK-GREEN-NATURAL",
+     "options": {
+      "Style": "5-Panel",
+      "Colour": "Dark Green/Natural"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972625730",
+     "title": "Dad Hat / Stone",
+     "sku": "1248680-STONE",
+     "options": {
+      "Style": "Dad Hat",
+      "Colour": "Stone"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972658498",
+     "title": "Dad Hat / Spruce",
+     "sku": "1248680-SPRUCE",
+     "options": {
+      "Style": "Dad Hat",
+      "Colour": "Spruce"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985972691266",
+     "title": "Rope Cap / Lt Gray/Navy",
+     "sku": "8667685-LT-GRAY-NAVY",
+     "options": {
+      "Style": "Rope Cap",
+      "Colour": "Lt Gray/Navy"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
     }
    ]
   },
@@ -3847,7 +4081,7 @@
    "title": "OFF SHFT Logo Sweatpants",
    "status": "ACTIVE",
    "productType": "Sweatpants",
-   "totalVariants": 10,
+   "totalVariants": 15,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67946090725698",
@@ -3978,6 +4212,71 @@
      "storeLocationAvailable": 0,
      "otherLocations": [],
      "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985965154626",
+     "title": "S / Ivory",
+     "sku": "4712567-IVORY",
+     "options": {
+      "Size": "S",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985965187394",
+     "title": "M / Ivory",
+     "sku": "2319942-IVORY",
+     "options": {
+      "Size": "M",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985965220162",
+     "title": "L / Ivory",
+     "sku": "2542684-IVORY",
+     "options": {
+      "Size": "L",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985965252930",
+     "title": "XL / Ivory",
+     "sku": "4588078-IVORY",
+     "options": {
+      "Size": "XL",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985965285698",
+     "title": "2XL / Ivory",
+     "sku": "7708182-IVORY",
+     "options": {
+      "Size": "2XL",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
     }
    ]
   },
@@ -3986,7 +4285,7 @@
    "title": "The Clock Sweatpants",
    "status": "ACTIVE",
    "productType": "Sweatpants",
-   "totalVariants": 10,
+   "totalVariants": 15,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67946090922306",
@@ -4117,6 +4416,71 @@
      "storeLocationAvailable": 0,
      "otherLocations": [],
      "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985966399810",
+     "title": "S / Ivory",
+     "sku": "8043806-IVORY",
+     "options": {
+      "Size": "S",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985967481154",
+     "title": "M / Ivory",
+     "sku": "8621759-IVORY",
+     "options": {
+      "Size": "M",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985968562498",
+     "title": "L / Ivory",
+     "sku": "7701033-IVORY",
+     "options": {
+      "Size": "L",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985969971522",
+     "title": "XL / Ivory",
+     "sku": "8639909-IVORY",
+     "options": {
+      "Size": "XL",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985970004290",
+     "title": "2XL / Ivory",
+     "sku": "9695345-IVORY",
+     "options": {
+      "Size": "2XL",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
     }
    ]
   },
@@ -4125,7 +4489,7 @@
    "title": "Punched Out. Sweatpants",
    "status": "ACTIVE",
    "productType": "Sweatpants",
-   "totalVariants": 10,
+   "totalVariants": 15,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67946091184450",
@@ -4256,6 +4620,71 @@
      "storeLocationAvailable": 0,
      "otherLocations": [],
      "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985970069826",
+     "title": "S / Ivory",
+     "sku": "6437317-IVORY",
+     "options": {
+      "Size": "S",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985970102594",
+     "title": "M / Ivory",
+     "sku": "4797428-IVORY",
+     "options": {
+      "Size": "M",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985970135362",
+     "title": "L / Ivory",
+     "sku": "1055301-IVORY",
+     "options": {
+      "Size": "L",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985970233666",
+     "title": "XL / Ivory",
+     "sku": "3529394-IVORY",
+     "options": {
+      "Size": "XL",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985970331970",
+     "title": "2XL / Ivory",
+     "sku": "4627736-IVORY",
+     "options": {
+      "Size": "2XL",
+      "Colour": "Ivory"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hoodies (#PF-FRG2)"
     }
    ]
   },
@@ -4264,7 +4693,7 @@
    "title": "OFF SHFT Logo T-Shirt",
    "status": "ACTIVE",
    "productType": "T-Shirt",
-   "totalVariants": 17,
+   "totalVariants": 22,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67946096099650",
@@ -4503,6 +4932,76 @@
      "storeLocationAvailable": 0,
      "otherLocations": [],
      "profile": "Printful: Tshirts (#PF-FRG1001)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985943953730",
+     "title": "Pocket / S / Black",
+     "sku": "6974850-BLACK",
+     "options": {
+      "Style": "Pocket",
+      "Size": "S",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Tshirts (#PF-FRG1)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985957814594",
+     "title": "Pocket / M / Black",
+     "sku": "7250169-BLACK",
+     "options": {
+      "Style": "Pocket",
+      "Size": "M",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Tshirts (#PF-FRG1)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985958371650",
+     "title": "Pocket / L / Black",
+     "sku": "8492006-BLACK",
+     "options": {
+      "Style": "Pocket",
+      "Size": "L",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Tshirts (#PF-FRG1)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985960632642",
+     "title": "Pocket / XL / Black",
+     "sku": "9361675-BLACK",
+     "options": {
+      "Style": "Pocket",
+      "Size": "XL",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Tshirts (#PF-FRG1)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985961582914",
+     "title": "Pocket / 2XL / Black",
+     "sku": "2296520-BLACK",
+     "options": {
+      "Style": "Pocket",
+      "Size": "2XL",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Tshirts (#PF-FRG1)"
     }
    ]
   },
@@ -4511,7 +5010,7 @@
    "title": "The Clock T-Shirt",
    "status": "ACTIVE",
    "productType": "T-Shirt",
-   "totalVariants": 17,
+   "totalVariants": 22,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67946096492866",
@@ -4750,6 +5249,76 @@
      "storeLocationAvailable": 0,
      "otherLocations": [],
      "profile": "Printful: Tshirts (#PF-FRG1001)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985963450690",
+     "title": "Pocket / S / Black",
+     "sku": "4516944-BLACK",
+     "options": {
+      "Style": "Pocket",
+      "Size": "S",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Tshirts (#PF-FRG1)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985964106050",
+     "title": "Pocket / M / Black",
+     "sku": "2493846-BLACK",
+     "options": {
+      "Style": "Pocket",
+      "Size": "M",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Tshirts (#PF-FRG1)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985964171586",
+     "title": "Pocket / L / Black",
+     "sku": "5300983-BLACK",
+     "options": {
+      "Style": "Pocket",
+      "Size": "L",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Tshirts (#PF-FRG1)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985964859714",
+     "title": "Pocket / XL / Black",
+     "sku": "3597328-BLACK",
+     "options": {
+      "Style": "Pocket",
+      "Size": "XL",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Tshirts (#PF-FRG1)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985964892482",
+     "title": "Pocket / 2XL / Black",
+     "sku": "9160590-BLACK",
+     "options": {
+      "Style": "Pocket",
+      "Size": "2XL",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Tshirts (#PF-FRG1)"
     }
    ]
   },
@@ -6199,14 +6768,15 @@
    "title": "OFF SHFT Logo Beanie",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 2,
+   "totalVariants": 6,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67957131739458",
-     "title": "Cuffed",
+     "title": "Cuffed / White",
      "sku": "6755498",
      "options": {
-      "Style": "Cuffed"
+      "Style": "Cuffed",
+      "Colour": "White"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6215,10 +6785,63 @@
     },
     {
      "id": "gid://shopify/ProductVariant/67957131772226",
-     "title": "Ribbed",
+     "title": "Ribbed / Beige",
      "sku": "9780048",
      "options": {
-      "Style": "Ribbed"
+      "Style": "Ribbed",
+      "Colour": "Beige"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG42)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985975345474",
+     "title": "Cuffed / Black",
+     "sku": "6755498-BLACK",
+     "options": {
+      "Style": "Cuffed",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG1042)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985975378242",
+     "title": "Cuffed / Spruce",
+     "sku": "6755498-SPRUCE",
+     "options": {
+      "Style": "Cuffed",
+      "Colour": "Spruce"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG1042)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985976000834",
+     "title": "Ribbed / Black",
+     "sku": "9780048-BLACK",
+     "options": {
+      "Style": "Ribbed",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG42)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985976033602",
+     "title": "Ribbed / Olive",
+     "sku": "9780048-OLIVE",
+     "options": {
+      "Style": "Ribbed",
+      "Colour": "Olive"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6232,14 +6855,15 @@
    "title": "The Clock Beanie",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 2,
+   "totalVariants": 6,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67957131903298",
-     "title": "Cuffed",
+     "title": "Cuffed / White",
      "sku": "6003764",
      "options": {
-      "Style": "Cuffed"
+      "Style": "Cuffed",
+      "Colour": "White"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6248,10 +6872,63 @@
     },
     {
      "id": "gid://shopify/ProductVariant/67957131936066",
-     "title": "Ribbed",
+     "title": "Ribbed / Beige",
      "sku": "2055615",
      "options": {
-      "Style": "Ribbed"
+      "Style": "Ribbed",
+      "Colour": "Beige"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG42)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985981866306",
+     "title": "Cuffed / Black",
+     "sku": "6003764-BLACK",
+     "options": {
+      "Style": "Cuffed",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG1042)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985981931842",
+     "title": "Cuffed / Spruce",
+     "sku": "6003764-SPRUCE",
+     "options": {
+      "Style": "Cuffed",
+      "Colour": "Spruce"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG1042)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985981964610",
+     "title": "Ribbed / Black",
+     "sku": "2055615-BLACK",
+     "options": {
+      "Style": "Ribbed",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG42)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985981997378",
+     "title": "Ribbed / Olive",
+     "sku": "2055615-OLIVE",
+     "options": {
+      "Style": "Ribbed",
+      "Colour": "Olive"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6265,14 +6942,15 @@
    "title": "Punched Out. Beanie",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 2,
+   "totalVariants": 6,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67957131968834",
-     "title": "Cuffed",
+     "title": "Cuffed / White",
      "sku": "2131080",
      "options": {
-      "Style": "Cuffed"
+      "Style": "Cuffed",
+      "Colour": "White"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6281,10 +6959,63 @@
     },
     {
      "id": "gid://shopify/ProductVariant/67957132001602",
-     "title": "Ribbed",
+     "title": "Ribbed / Beige",
      "sku": "9057026",
      "options": {
-      "Style": "Ribbed"
+      "Style": "Ribbed",
+      "Colour": "Beige"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG42)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985978687810",
+     "title": "Cuffed / Black",
+     "sku": "2131080-BLACK",
+     "options": {
+      "Style": "Cuffed",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG1042)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985978720578",
+     "title": "Cuffed / Spruce",
+     "sku": "2131080-SPRUCE",
+     "options": {
+      "Style": "Cuffed",
+      "Colour": "Spruce"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG1042)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985978786114",
+     "title": "Ribbed / Black",
+     "sku": "9057026-BLACK",
+     "options": {
+      "Style": "Ribbed",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug (#PF-FRG42)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985978818882",
+     "title": "Ribbed / Olive",
+     "sku": "9057026-OLIVE",
+     "options": {
+      "Style": "Ribbed",
+      "Colour": "Olive"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6298,14 +7029,15 @@
    "title": "OFF SHFT Logo Bucket Hat",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 2,
+   "totalVariants": 4,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67957132034370",
-     "title": "Organic",
+     "title": "Organic / Stone",
      "sku": "9898748",
      "options": {
-      "Style": "Organic"
+      "Style": "Organic",
+      "Colour": "Stone"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6314,10 +7046,37 @@
     },
     {
      "id": "gid://shopify/ProductVariant/67957132067138",
-     "title": "Classic",
+     "title": "Classic / White",
      "sku": "4439611",
      "options": {
-      "Style": "Classic"
+      "Style": "Classic",
+      "Colour": "White"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985978556738",
+     "title": "Organic / Dill",
+     "sku": "9898748-DILL",
+     "options": {
+      "Style": "Organic",
+      "Colour": "Dill"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985978589506",
+     "title": "Classic / Black",
+     "sku": "4439611-BLACK",
+     "options": {
+      "Style": "Classic",
+      "Colour": "Black"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6331,14 +7090,15 @@
    "title": "The Clock Bucket Hat",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 2,
+   "totalVariants": 4,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67957132099906",
-     "title": "Organic",
+     "title": "Organic / Stone",
      "sku": "2043286",
      "options": {
-      "Style": "Organic"
+      "Style": "Organic",
+      "Colour": "Stone"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6347,10 +7107,37 @@
     },
     {
      "id": "gid://shopify/ProductVariant/67957132132674",
-     "title": "Classic",
+     "title": "Classic / White",
      "sku": "5781714",
      "options": {
-      "Style": "Classic"
+      "Style": "Classic",
+      "Colour": "White"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985988059458",
+     "title": "Organic / Dill",
+     "sku": "2043286-DILL",
+     "options": {
+      "Style": "Organic",
+      "Colour": "Dill"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985988223298",
+     "title": "Classic / Black",
+     "sku": "5781714-BLACK",
+     "options": {
+      "Style": "Classic",
+      "Colour": "Black"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6364,14 +7151,15 @@
    "title": "Punched Out. Bucket Hat",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 2,
+   "totalVariants": 4,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67957132165442",
-     "title": "Organic",
+     "title": "Organic / Stone",
      "sku": "5261451",
      "options": {
-      "Style": "Organic"
+      "Style": "Organic",
+      "Colour": "Stone"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -6380,10 +7168,37 @@
     },
     {
      "id": "gid://shopify/ProductVariant/67957132198210",
-     "title": "Classic",
+     "title": "Classic / White",
      "sku": "9030755",
      "options": {
-      "Style": "Classic"
+      "Style": "Classic",
+      "Colour": "White"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985980096834",
+     "title": "Organic / Dill",
+     "sku": "5261451-DILL",
+     "options": {
+      "Style": "Organic",
+      "Colour": "Dill"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985980129602",
+     "title": "Classic / Black",
+     "sku": "9030755-BLACK",
+     "options": {
+      "Style": "Classic",
+      "Colour": "Black"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -8974,14 +9789,15 @@
    "title": "Sun’s Still Up. Hat",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 2,
+   "totalVariants": 5,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67959693377858",
-     "title": "5-Panel",
+     "title": "5-Panel / Dark Green/Natural",
      "sku": "9866446",
      "options": {
-      "Style": "5-Panel"
+      "Style": "5-Panel",
+      "Colour": "Dark Green/Natural"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -8990,10 +9806,50 @@
     },
     {
      "id": "gid://shopify/ProductVariant/67959693410626",
-     "title": "Rope Cap",
+     "title": "Rope Cap / Black/White",
      "sku": "7966407",
      "options": {
-      "Style": "Rope Cap"
+      "Style": "Rope Cap",
+      "Colour": "Black/White"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985991172418",
+     "title": "5-Panel / Black",
+     "sku": "9866446-BLACK",
+     "options": {
+      "Style": "5-Panel",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985991270722",
+     "title": "5-Panel / White",
+     "sku": "9866446-WHITE",
+     "options": {
+      "Style": "5-Panel",
+      "Colour": "White"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG96)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985991401794",
+     "title": "Rope Cap / Lt Gray/Navy",
+     "sku": "7966407-LT-GRAY-NAVY",
+     "options": {
+      "Style": "Rope Cap",
+      "Colour": "Lt Gray/Navy"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -9172,14 +10028,15 @@
    "title": "Banked Time. Hat",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 2,
+   "totalVariants": 4,
    "variants": [
     {
      "id": "gid://shopify/ProductVariant/67959693640002",
-     "title": "Dad Hat",
+     "title": "Dad Hat / Spruce",
      "sku": "1596789",
      "options": {
-      "Style": "Dad Hat"
+      "Style": "Dad Hat",
+      "Colour": "Spruce"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -9188,10 +10045,37 @@
     },
     {
      "id": "gid://shopify/ProductVariant/67959693672770",
-     "title": "Retro Trucker",
+     "title": "Retro Trucker / Charcoal/ Black",
      "sku": "8300304",
      "options": {
-      "Style": "Retro Trucker"
+      "Style": "Retro Trucker",
+      "Colour": "Charcoal/ Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985973870914",
+     "title": "Dad Hat / Black",
+     "sku": "1596789-BLACK",
+     "options": {
+      "Style": "Dad Hat",
+      "Colour": "Black"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67985973903682",
+     "title": "Retro Trucker / Evergreen",
+     "sku": "8300304-EVERGREEN",
+     "options": {
+      "Style": "Retro Trucker",
+      "Colour": "Evergreen"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -10222,14 +11106,26 @@
    "title": "Parked. Trucker Hat",
    "status": "ACTIVE",
    "productType": "Hat",
-   "totalVariants": 1,
+   "totalVariants": 2,
    "variants": [
     {
-     "id": "gid://shopify/ProductVariant/67959694098754",
-     "title": "Default Title",
+     "id": "gid://shopify/ProductVariant/67985992220994",
+     "title": "Evergreen",
      "sku": "2378282",
      "options": {
-      "Title": "Default Title"
+      "Colour": "Evergreen"
+     },
+     "printfulAvailable": 9999,
+     "storeLocationAvailable": 0,
+     "otherLocations": [],
+     "profile": "Printful: Snapbacks and Bucket hats (#PF-FRG1096)"
+    },
+    {
+     "id": "gid://shopify/ProductVariant/67986000642370",
+     "title": "Black",
+     "sku": "2378282-BLACK",
+     "options": {
+      "Colour": "Black"
      },
      "printfulAvailable": 9999,
      "storeLocationAvailable": 0,
@@ -10242,11 +11138,12 @@
  "notes": [
   "Read-only Admin GraphQL (2026-10) queries against offshft.myshopify.com (shop OFF SHFT; internal myshopifyDomain k6gvbe-02.myshopify.com, primary domain offshft.myshopify.com). Nothing was written to the store.",
   "Locations: only 2 exist (checked with includeInactive and includeLegacy): the Printful fulfillment-service location and the store own location, called store location here (its real name is a street address and is left out on purpose). So otherLocations is empty for every variant.",
-  "All 721 variants are stocked at Printful with available 9999, and all 721 are stocked at the store location with available 0.",
-  "Single pass, 15:00:29Z-15:03:00Z: variants (15 pages of productVariants sorted by ID), the product list, then delivery profile items. productsCount 38 and productVariantsCount 721 at 15:00Z and 15:03Z, and no product or variant updatedAt changed during the read, so nothing needed a re-read.",
-  "Printful: Hoodies (#PF-FRG2) reports productVariantsCount 500 (AT_LEAST, capped), but walking its profileItems gives 522.",
-  "variantCount per profile counts the variants mapped to it via deliveryProfiles -> profileItems -> variants. Variants not listed under any non-default profile would get the default profile name (General profile); none were left over. shopifyReportedCount is DeliveryProfile.productVariantsCount at 15:03Z.",
+  "All 788 variants are stocked at Printful with available 9999, and all 788 are stocked at the store location with available 0.",
+  "Single pass, 20:41:14Z-20:44:30Z: variants (16 pages of productVariants sorted by ID), the product list, then delivery profile items. productsCount 38 and productVariantsCount 788 at 20:41Z and 20:44Z, and no product or variant updatedAt changed during the read, so nothing needed a re-read. Online Store password protection: off (enabled=false) at 20:41Z and 20:44Z.",
+  "Printful: Hoodies (#PF-FRG2) reports productVariantsCount 500 (AT_LEAST, capped), but walking its profileItems gives 537.",
+  "variantCount per profile counts the variants mapped to it via deliveryProfiles -> profileItems -> variants. Variants not listed under any non-default profile would get the default profile name (General profile); none were left over. shopifyReportedCount is DeliveryProfile.productVariantsCount at 20:44Z.",
   "Every variant was also checked against ProductVariant.deliveryProfile (read with the variant). None disagreed.",
-  "Changes since the 06:56Z snapshot (saved as /tmp/pfs/live-0656.json): no products or variants added or removed, and no option, SKU, variant title, status or store-stock changes. The 5 no-alarm-set-crewneck Pepper variants (M, L, XL, 2XL, 3XL) got Printful stock (9999) between 06:57:05Z and 07:01:30Z and moved from General profile to Printful: Hoodies (#PF-FRG2), so General profile is now empty. 16 other products show a later product updatedAt (07:49Z-12:12Z), but none of their variants or inventory levels were updated after 06:56Z, so the fields in this file are unaffected."
+  "Changes since the 15:00Z snapshot (saved as /tmp/pfs/live-1500.json): 68 variants added and 1 removed on 17 listings (721 -> 788); no products added or removed; no status, product title, SKU or stock change on any variant that existed at 15:00Z. The new variants were created 15:35Z-15:54Z, got Printful stock (9999) 15:49Z-16:15Z and sit in Printful profiles. parked-trucker-hat: its single Default Title variant (SKU 2378282) was deleted and replaced by Evergreen (SKU 2378282) and Black (2378282-BLACK). 16 existing variants on the beanies, bucket hats, Sun’s Still Up. and Banked Time. gained a Colour value, so their titles changed (e.g. Cuffed -> Cuffed / White).",
+  "30 products have updatedAt after 15:03Z (16:09Z-17:08Z). For each, the edit time matches image additions or image updates within seconds; descriptions, titles, types, statuses and tags are identical to /tmp/pfs/desc-check.json (15:18Z)."
  ]
 }

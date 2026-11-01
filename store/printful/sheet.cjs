@@ -49,11 +49,12 @@ const FLAGS = {
   'OK': ['ok', 'Colour found', "This colour name was seen in a copy of Printful's catalogue."],
   'Colour?': ['warn', 'Colour unconfirmed', "Printful's name for this colour wasn't confirmed. Check its colour picker."],
   'Check link': ['info', 'Check link', 'Printful has already filed this variant, so it is linked to something. Check what.'],
-  'Swatch?': ['info', 'Check swatch', 'A mid-tone fabric: check a swatch before choosing the light or dark file.'],
+  'Swatch?': ['info', 'Check swatch', 'Check a swatch: the card says which file to use if this colour reads lighter or darker than assumed.'],
+  'New': ['info', 'New', 'Added on 1 Nov, after this sheet was first made: check its link with extra care.'],
+  'Not linked': ['bad', 'Not linked', 'Some sizes in this row have no Printful link yet: an order for them would not reach Printful.'],
   'Embroidery?': ['warn', 'Embroidery unconfirmed', "Embroidery on this product wasn't confirmed."],
   'Puff?': ['warn', 'Puff promised', 'The listing promises 3D puff; the ready art is flat.'],
   'No art': ['bad', 'No art', 'There is no file for this yet.'],
-  'Pick a colour': ['warn', 'Pick a colour', 'The listing has no colour option: pick one Printful colour.'],
   'CA stock?': ['warn', 'Canada stock?', 'May be out of stock in Canada.'],
 };
 function flagChips(check) {
@@ -91,8 +92,8 @@ if (LIVE) {
       tot.n++; if (linked) tot.linked++;
       if (!hit) { unmatched.push(`${p.handle}: ${v.title}`); continue; }
       const k = `${p.handle}|${hit[0]}|${hit[1]}`;
-      const e = live.get(k) || { n: 0, linked: 0, profiles: new Set(), sizes: new Set() };
-      e.n++; if (linked) e.linked++;
+      const e = live.get(k) || { n: 0, linked: 0, profiles: new Set(), sizes: new Set(), unlinked: [] };
+      e.n++; if (linked) e.linked++; else e.unlinked.push(opt(v, 'Size') || 'one size');
       if (v.profile) e.profiles.add(v.profile);
       const size = opt(v, 'Size'); if (size) e.sizes.add(size);
       live.set(k, e);
@@ -103,8 +104,9 @@ if (LIVE) {
 const gaps = [];
 if (LIVE) for (const l of S.listings) l.groups.forEach((g, gi) => g.variants.forEach((r, ri) => {
   const e = live.get(`${l.handle}|${gi}|${ri}`);
-  if (e && e.linked < e.n) gaps.push({ title: l.title, style: g.style.replace(/^\(no Style option\)\s*/, ''), colour: rowColour(r), missing: e.n - e.linked, n: e.n });
+  if (e && e.linked < e.n) gaps.push({ title: l.title, style: g.style.replace(/^\(no Style option\)\s*/, ''), colour: rowColour(r), sizes: e.unlinked, n: e.n });
 }));
+const noArt = S.listings.filter((l) => l.groups.some((g) => /^(Back: )?[Aa]lready linked[:;] check which file the link uses/.test(g.artFile))).map((l) => l.title + (l.groups.every((g) => !/^Already linked/.test(g.artFile)) ? ' (back)' : ''));
 function liveCell(h, gi, ri) {
   if (!LIVE) return '<td class="live">-</td>';
   const e = live.get(`${h}|${gi}|${ri}`);
@@ -133,7 +135,7 @@ function fileCard(name, tech, big) {
 </div>`;
 }
 
-const threadSwatches = (s) => esc(s).replace(/\b(1801 White|1800 Black|1987 Orange|1672 Old Gold|1966 Navy|1839 Red)\b/g, (m) => {
+const threadSwatches = (s) => rich(s).replace(/\b(1801 White|1800 Black|1987 Orange|1672 Old Gold|1966 Navy|1839 Red)\b/g, (m) => {
   const hex = S.threads.standard.find(([n, nm]) => `${n} ${nm}` === m)[2];
   return `<span class="sw" style="--c:${hex}"></span>${m}`;
 });
@@ -142,12 +144,14 @@ function groupHTML(l, g, gi) {
   const tech = techOf(g);
   const id = `${l.handle}#${gi}`;
   const files = filesIn(g.artFile);
-  const product = g.printfulProduct.split(' | ');
-  const code = (product[1] || '').match(/\b([A-Z]*\d{3,}[A-Z]*|RIO)\b/);
+  const product = g.printfulProduct.split(/ \| | I (?=[A-Z])/);
+  const code = (product[1] || product[0] || '').match(/\b(\d{2}-\d{3}|[A-Z]*\d{3,}[A-Z]*|RIO)\b/);
   const rows = g.variants.map((v, ri) => {
     const sh = rowColour(v);
     const shopify = sh === g.style || sh === 'Default Title' ? 'one variant' : sh;
-    return `<tr><td>${esc(shopify)}</td><td>${esc(v.printfulColour)}</td><td class="sizes">${esc(v.printfulSize)}</td><td>${flagChips(v.check)}</td>${liveCell(l.handle, gi, ri)}</tr>`;
+    const e = live.get(`${l.handle}|${gi}|${ri}`);
+    const check = e && e.linked < e.n ? `${v.check ? v.check + '; ' : ''}Not linked` : v.check;
+    return `<tr><td>${esc(shopify)}</td><td data-label="Printful">${esc(v.printfulColour)}</td><td class="sizes" data-label="Sizes">${esc(v.printfulSize)}</td><td class="flags">${flagChips(check)}</td>${liveCell(l.handle, gi, ri)}</tr>`;
   }).join('');
   return `<section class="group" data-id="${esc(id)}">
   <div class="g-head">
@@ -195,6 +199,7 @@ const when = (iso) => {
   return `${d.getUTCDate()} ${['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()]}, ${String(d.getUTCHours()).padStart(2, '0')}:${String(d.getUTCMinutes()).padStart(2, '0')} UTC`;
 };
 const liveAt = LIVE ? when(LIVE.readEndUTC || LIVE.readStartUTC) : null;
+const LINKED = !liveTotals ? 'most variants look linked' : liveTotals.linked === liveTotals.n ? `all ${liveTotals.n} variants look linked` : `${liveTotals.linked} of ${liveTotals.n} variants look linked`;
 
 const catChips = `<button class="chip on" data-cat="all">All</button>${CATS.map(([c, label]) => `<button class="chip" data-cat="${c}">${label}</button>`).join('')}`;
 
@@ -210,7 +215,8 @@ const viewListings = `<section class="view" id="v-listings">
     <ul>${Object.entries(FLAGS).map(([, f]) => `<li><span class="flag ${f[0]}">${f[1]}</span> ${esc(f[2])}</li>`).join('')}
     <li><span class="dot all"></span><strong>Linked</strong>: how many of the row's variants are stocked at the Printful location. Printful does that when it links a variant; it doesn't say which product, file or placement the link uses. Read ${liveAt || '-'}.</li></ul>
   </details>
-  ${gaps.length ? `<p class="notice"><strong>Not linked yet:</strong> ${gaps.map((x) => `${esc(x.title)}${x.style ? `, ${esc(x.style)}` : ''}, ${esc(x.colour)} (${x.missing} of ${x.n} sizes)`).join('; ')}. These have no Printful stock and sit in your own shipping profile, so an order for one won't reach Printful until it's linked. Read ${liveAt}.</p>` : ''}
+  ${gaps.length ? `<p class="notice"><strong>Not linked yet:</strong> ${gaps.map((x) => `${esc(x.title)}${x.style ? `, ${esc(x.style)}` : ''}, ${esc(x.colour)} ${esc(x.sizes.join(', '))}`).join('; ')}. An order for these won't reach Printful until they're linked: link them (How to check, step 5); hiding them until then is your call. Read ${liveAt}.</p>` : ''}
+  ${noArt.length ? `<p class="notice"><strong>On sale with no art in this repo:</strong> ${noArt.map(esc).join(', ')}. Printful has linked them, so an order would be made with whatever file those links hold: check that file first. Hiding them until the art exists is your call.</p>` : ''}
   ${newProducts.length ? `<p class="notice">New in the store since this sheet was made, so not here yet: ${newProducts.map((p) => esc(p.title)).join(', ')}.</p>` : ''}
   <div class="list">${listings.map(listingHTML).join('\n')}</div>
   <p class="empty" hidden>Nothing matches.</p>
@@ -228,7 +234,7 @@ const viewFiles = `<section class="view" id="v-files" hidden>
 
 const viewHow = `<section class="view prose" id="v-how" hidden>
   <h2>How to check the links</h2>
-  <ol class="steps">${S.steps.map((s) => `<li>${rich(s)}</li>`).join('')}</ol>
+  <ol class="steps">${S.steps.map((s) => `<li>${rich(s.replace('{LINKED}', LINKED))}</li>`).join('')}</ol>
   <p class="muted">${esc(S.stepsNote)}</p>
   <h2>File rules</h2>
   <ul>${S.fileRules.map((s) => `<li>${rich(s)}</li>`).join('')}</ul>
@@ -236,7 +242,7 @@ const viewHow = `<section class="view prose" id="v-how" hidden>
 
 const viewCalls = `<section class="view prose" id="v-calls" hidden>
   <h2>Your calls</h2>
-  <p class="muted">Things this sheet can't settle for you. The first two affect what customers can buy and pay right now.</p>
+  <p class="muted">Things this sheet can't settle for you. The store is open (its password is off), so the first two affect what customers pay and get right now.</p>
   <ol class="calls">${S.decisions.map(([t, s]) => `<li><strong>${esc(t)}.</strong> ${rich(s)}</li>`).join('')}</ol>
 </section>`;
 
@@ -257,12 +263,27 @@ const viewThreads = `<section class="view prose" id="v-threads" hidden>
 </section>`;
 
 const C = S.costs;
+function profileContents(name) {
+  if (!LIVE) return '';
+  const by = new Map();
+  for (const p of LIVE.products) for (const v of p.variants) if (v.profile === name) {
+    const type = p.productType || 'Other', style = v.options && v.options.Style;
+    if (!by.has(type)) by.set(type, new Set());
+    const NICE = { Classic: 'Classic bucket', Organic: 'Organic bucket', Cuffed: 'Cuffed beanie', Ribbed: 'Ribbed beanie' };
+    if (style) by.get(type).add(NICE[style] || style.replace(/ — .*$/, ''));
+  }
+  if (!by.size) return 'nothing now';
+  return [...by].map(([t, st]) => `${t}${st.size ? ` (${[...st].join(', ')})` : ''}`).join('; ');
+}
 const viewCosts = `<section class="view prose" id="v-costs" hidden>
   <h2>Costs</h2>
   <p class="muted">${esc(C.note)}</p>
   <dl class="pairs">${C.items.map(([a, b]) => `<dt>${esc(a)}</dt><dd>${rich(b)}</dd>`).join('')}</dl>
   <h3>Base prices (US$, one placement)</h3>
   <div class="tablewrap"><table class="map"><tbody>${C.blanks.map(([a, b]) => `<tr><td>${esc(a)}</td><td class="num">${rich(b)}</td></tr>`).join('')}</tbody></table></div>
+  <h3>Shipping customers pay now</h3>
+  <p class="muted">${esc(C.profilesNote)}</p>
+  <div class="tablewrap"><table class="map"><thead><tr><th>Printful profile</th><th>What's in it</th><th class="num">Canada</th><th class="num">US</th><th class="num">US express</th></tr></thead><tbody>${C.profiles.map(([name, ca, us, ex]) => `<tr><td>${esc(name.replace(/^Printful: /, '').replace(/Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug/, 'Hats, bags and more'))}</td><td>${esc(profileContents(name))}</td><td class="num">${ca}</td><td class="num">${us}</td><td class="num">${ex || '-'}</td></tr>`).join('')}</tbody></table></div>
   <p>${esc(C.shipping)}</p>
 </section>`;
 
@@ -381,7 +402,7 @@ main { padding-block: 20px 56px; }
 .g-head { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
 .g-head h3 { font-size: 16px; font-weight: 680; }
 .tech { font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; padding: 3px 8px; border-radius: 5px; }
-.tech.embroidery { background: var(--accent-soft); color: var(--accent); }
+.tech.embroidery { background: var(--accent-soft); color: var(--bad); }
 .tech.print { background: var(--info-bg); color: var(--info); }
 .tech.both { background: var(--warn-bg); color: var(--warn); }
 .tick { margin-left: auto; display: inline-flex; gap: 7px; align-items: center; font-size: 14px; font-weight: 600; cursor: pointer; padding: 5px 10px; border: 1px solid var(--line-2); border-radius: 8px; background: var(--surface); }
@@ -463,6 +484,19 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   .l-head, .group { padding-left: 14px; padding-right: 14px; }
   .extra { margin-left: 14px; margin-right: 14px; }
   .tick { margin-left: 0; }
+  nav.tabs .wrap { flex-wrap: wrap; overflow-x: visible; }
+  nav.tabs a { padding: 9px 9px 7px; }
+  .variants thead { display: none; }
+  .variants, .variants tbody { display: block; width: 100%; }
+  .variants tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 10px; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  .variants tbody tr:last-child { border-bottom: 0; }
+  .variants td { display: block; border: 0; padding: 1px 0; white-space: normal; }
+  .variants td:nth-child(1) { grid-column: 1; grid-row: 1; }
+  .variants td:nth-child(5) { grid-column: 2; grid-row: 1; text-align: right; }
+  .variants td:nth-child(2), .variants td:nth-child(3), .variants td:nth-child(4) { grid-column: 1 / -1; }
+  .variants td[data-label]::before { content: attr(data-label) ": "; color: var(--muted); font-size: 12px; font-weight: 600; }
+  .variants td.live::after { content: " linked"; color: var(--muted); font-weight: 400; }
+  .tablewrap:has(.variants) { overflow-x: visible; }
 }
 </style>
 </head>
@@ -470,7 +504,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
 <header class="wrap top">
   <div class="brandrow">${logo}<span class="sep"></span><span class="kicker">Printful sheet</span></div>
   <h1>What every listing should be linked to</h1>
-  <p class="lede">Printful is already connected${liveTotals ? `, and ${liveTotals.linked} of ${liveTotals.n} variants look linked` : ' and most variants look linked'}. Shopify can't show what each link points to, so check each card against Printful, fix what differs, and tick it off.</p>
+  <p class="lede">Printful is already connected, and ${LINKED}. Shopify can't show what each link points to, so check each card against Printful, fix what differs, and tick it off.</p>
   <div class="stats">
     <div class="stat"><span class="label">Listings</span><strong>${S.listings.length}</strong><span class="muted">${nGroups} cards, one per product and technique</span></div>
     ${statusLive}
@@ -625,6 +659,11 @@ ${viewCosts}
 </html>
 `;
 fs.writeFileSync(path.join(DIR, 'sheet.html'), html);
+// the same page without its outer document, for hosts that wrap pages in their own (the Artifact publisher does)
+const cut = (h, part) => { if (h.split(part).length !== 2) die(`page shell: ${part.slice(0, 30)}`); return h.replace(part, ''); };
+let fragment = cut(html, '<!DOCTYPE html>\n<html lang="en-CA">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n');
+fragment = cut(cut(fragment, '</head>\n<body>\n'), '</body>\n</html>\n');
+fs.writeFileSync(path.join(DIR, 'sheet-artifact.html'), fragment);
 console.log(`sheet.html: ${(html.length / 1024).toFixed(0)} KB, ${S.listings.length} listings, ${nGroups} cards${LIVE ? `, live ${liveTotals.linked}/${liveTotals.n} linked, ${unmatched.length} unmatched` : ', no live.json'}`);
 if (unmatched.length) console.log('unmatched live variants:\n  ' + unmatched.slice(0, 40).join('\n  '));
 if (newProducts.length) console.log('products not in the sheet:', newProducts.map((p) => p.handle).join(', '));

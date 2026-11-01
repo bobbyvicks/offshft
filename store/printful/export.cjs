@@ -5,7 +5,10 @@
 //   print/<name>.png       brand colours, 300 dpi, transparent, at widthMM if given (print can scale).
 //   svg/<name>.svg         the drawing itself, brand colours.
 // Run: cd /home/user/offshft/tools && node ../store/printful/export.cjs
-// files.json: [{ name, source (repo-relative SVG in mm), widthMM? (print size, print only), printOnly? }]
+// files.json: [{ name, source (repo-relative SVG in mm), widthMM? (print size, print only), printOnly?, recolour? }]
+//   recolour: { "#from": "#to" } in brand colours, only where a drawing's one-colour version is the same artwork
+//   (Punched Out.: "one colour is the same artwork with the full stop in the letter thread", v3 notes). Never for the
+//   logo or the clock: their one-colour versions are their own drawings.
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -48,7 +51,16 @@ sizes.json   Every file's size in mm, inches and pixels.
     if (seen.has(f.name)) throw new Error(`duplicate name ${f.name}`);
     seen.add(f.name);
     const svgPath = path.join(ROOT, f.source);
-    const src = fs.readFileSync(svgPath, 'utf8');
+    let src = fs.readFileSync(svgPath, 'utf8');
+    if (f.recolour) {
+      if (/designs\/mark\//.test(f.source)) throw new Error(`${f.name}: the logo and clock have their own one-colour drawings; don't recolour them`);
+      for (const [from, to] of Object.entries(f.recolour)) {
+        if (!BRAND.includes(from) || !BRAND.includes(to)) throw new Error(`${f.name}: recolour must map brand colours`);
+        const re = new RegExp(from, 'gi');
+        if (!re.test(src)) throw new Error(`${f.name}: ${from} not in ${f.source}`);
+        src = src.replace(new RegExp(from, 'gi'), to);
+      }
+    }
     const hexes = [...new Set((src.match(/#[0-9A-Fa-f]{6}\b/g) || []).map((h) => h.toUpperCase()))];
     const odd = hexes.filter((h) => !BRAND.includes(h));
     if (odd.length) throw new Error(`${f.source}: colours outside the brand set: ${odd.join(', ')}`);
@@ -56,7 +68,7 @@ sizes.json   Every file's size in mm, inches and pixels.
     const vb = src.match(/viewBox="([^"]+)"/)[1].trim().split(/[\s,]+/).map(Number);
     const w = vb[2], h = vb[3];                                                    // mm (every drawing here is in mm)
     const inner = src.replace(/^[\s\S]*?<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '');
-    const row = { name: f.name, source: f.source, sha256: crypto.createHash('sha256').update(src).digest('hex').slice(0, 8),
+    const row = { name: f.name, source: f.source, ...(f.recolour ? { recolour: f.recolour } : {}), sha256: crypto.createHash('sha256').update(src).digest('hex').slice(0, 8),
       mm: `${w.toFixed(2)} x ${h.toFixed(2)}`, inches: `${(w / 25.4).toFixed(2)} x ${(h / 25.4).toFixed(2)}` };
     if (!f.printOnly) {
       const threadInner = inner.replace(/#[0-9A-Fa-f]{6}\b/g, (m) => THREAD[m.toUpperCase()]);
@@ -68,7 +80,7 @@ sizes.json   Every file's size in mm, inches and pixels.
     const pxW = Math.round((pw / 25.4) * DPI.print), pxH = Math.round((ph / 25.4) * DPI.print);
     await render(vb, inner, pxW, pxH, path.join(out, 'print', `${f.name}.png`), DPI.print);
     row.print = { mm: `${pw.toFixed(2)} x ${ph.toFixed(2)}`, inches: `${(pw / 25.4).toFixed(2)} x ${(ph / 25.4).toFixed(2)}`, px: `${pxW} x ${pxH}`, dpi: DPI.print };
-    fs.copyFileSync(svgPath, path.join(out, 'svg', `${f.name}.svg`));
+    fs.writeFileSync(path.join(out, 'svg', `${f.name}.svg`), src);
     report.push(row);
   }
   await b.close();
