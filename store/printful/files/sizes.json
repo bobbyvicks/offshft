@@ -463,6 +463,29 @@
   }
  },
  {
+  "name": "nowhere-to-be-bone-67.7mm",
+  "source": "designs/15-nowhere-to-be/design-dark.svg",
+  "recolour": {
+   "#D29B3C": "#ECE5D3"
+  },
+  "sha256": "ca1c45b4",
+  "mm": "67.66 x 18.00",
+  "inches": "2.66 x 0.71",
+  "embroidery": {
+   "px": "1598 x 425",
+   "dpi": 600,
+   "threads": [
+    "1801 White"
+   ]
+  },
+  "print": {
+   "mm": "67.66 x 18.00",
+   "inches": "2.66 x 0.71",
+   "px": "799 x 213",
+   "dpi": 300
+  }
+ },
+ {
   "name": "suns-still-up-dark-63.2mm",
   "source": "designs/16-suns-still-up/design-dark.svg",
   "sha256": "50821d3d",
@@ -621,6 +644,29 @@
    "threads": [
     "1801 White",
     "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "229.85 x 15.12",
+   "inches": "9.05 x 0.60",
+   "px": "2715 x 179",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "not-picking-up-bone-229.9mm",
+  "source": "designs/19-not-picking-up/design-dark.svg",
+  "recolour": {
+   "#D29B3C": "#ECE5D3"
+  },
+  "sha256": "25ca86a4",
+  "mm": "229.85 x 15.12",
+  "inches": "9.05 x 0.60",
+  "embroidery": {
+   "px": "5430 x 357",
+   "dpi": 600,
+   "threads": [
+    "1801 White"
    ]
   },
   "print": {

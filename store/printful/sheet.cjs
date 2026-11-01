@@ -48,8 +48,8 @@ const TECH_LABEL = { embroidery: 'Embroidery', print: 'Print', both: 'Not settle
 const FLAGS = {
   'OK': ['ok', 'Colour found', "This colour name was seen in a copy of Printful's catalogue."],
   'Colour?': ['warn', 'Colour unconfirmed', "Printful's name for this colour wasn't confirmed. Check its colour picker."],
-  'Check link': ['info', 'Check link', 'Printful has already filed this variant, so it is linked to something. Check what.'],
-  'Swatch?': ['info', 'Check swatch', 'Check a swatch: the card says which file to use if this colour reads lighter or darker than assumed.'],
+  'Check link': ['info', 'Check link', 'Printful has already linked this variant to something. Check what.'],
+  'Swatch?': ['info', 'Check swatch', 'Check a swatch: the card, or Your calls > Swatches, says which file to use if this colour reads lighter or darker than assumed.'],
   'New': ['info', 'New', 'Added on 1 Nov, after this sheet was first made: check its link with extra care.'],
   'Not linked': ['bad', 'Not linked', 'Some sizes in this row have no Printful link yet: an order for them would not reach Printful.'],
   'Embroidery?': ['warn', 'Embroidery unconfirmed', "Embroidery on this product wasn't confirmed."],
@@ -225,7 +225,7 @@ const viewListings = `<section class="view" id="v-listings">
 const viewFiles = `<section class="view" id="v-files" hidden>
   <div class="intro">
     <h2>Print files</h2>
-    <p>Every file the cards use, made from the same drawings as the hats. Embroidery PNGs are 600 dpi and coloured in Printful's own threads (black, orange, white, old gold), so its colour match picks the right ones. Print PNGs are 300 dpi in the brand colours. All are true size on a transparent background: set the width in Printful's editor to the inches shown.</p>
+    <p>Every file the cards use, made from the same drawings as the hats. Embroidery PNGs are 600 dpi and coloured in Printful's own threads (black, orange, white, old gold), so its colour match should pick the right ones; check them every time (How to check, step 6). Print PNGs are 300 dpi in the brand colours. All are true size on a transparent background: set the width in Printful's editor to the inches shown.</p>
     <p class="zipline"><button class="dl primary" id="zipall">Download everything (about ${kb(ZIP_BYTES)} ZIP)</button> <span class="muted" id="zipnote">${SIZES.length} designs: embroidery, print and SVG.</span></p>
     <p class="nodl" hidden>Downloads don't work in this view. Open the page on claude.ai, or take the files from the repo: <code>store/printful/files/</code>.</p>
   </div>
@@ -242,7 +242,7 @@ const viewHow = `<section class="view prose" id="v-how" hidden>
 
 const viewCalls = `<section class="view prose" id="v-calls" hidden>
   <h2>Your calls</h2>
-  <p class="muted">Things this sheet can't settle for you. The store is open (its password is off), so the first two affect what customers pay and get right now.</p>
+  <p class="muted">Things this sheet can't settle for you. The store is open (its password is off), so the first five affect what customers pay and get right now.</p>
   <ol class="calls">${S.decisions.map(([t, s]) => `<li><strong>${esc(t)}.</strong> ${rich(s)}</li>`).join('')}</ol>
 </section>`;
 
@@ -283,7 +283,7 @@ const viewCosts = `<section class="view prose" id="v-costs" hidden>
   <div class="tablewrap"><table class="map"><tbody>${C.blanks.map(([a, b]) => `<tr><td>${esc(a)}</td><td class="num">${rich(b)}</td></tr>`).join('')}</tbody></table></div>
   <h3>Shipping customers pay now</h3>
   <p class="muted">${esc(C.profilesNote)}</p>
-  <div class="tablewrap"><table class="map"><thead><tr><th>Printful profile</th><th>What's in it</th><th class="num">Canada</th><th class="num">US</th><th class="num">US express</th></tr></thead><tbody>${C.profiles.map(([name, ca, us, ex]) => `<tr><td>${esc(name.replace(/^Printful: /, '').replace(/Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug/, 'Hats, bags and more'))}</td><td>${esc(profileContents(name))}</td><td class="num">${ca}</td><td class="num">${us}</td><td class="num">${ex || '-'}</td></tr>`).join('')}</tbody></table></div>
+  <div class="tablewrap"><table class="map profiles"><thead><tr><th>Printful profile</th><th>What's in it</th><th class="num">Canada</th><th class="num">US</th><th class="num">US express</th></tr></thead><tbody>${C.profiles.map(([name, ca, us, ex]) => `<tr><td>${esc(name.replace(/^Printful: /, '').replace(/Hats, Bags, Pillowcases, All over prints, Socks, Aprons, Flip Flops, Camper mug/, 'Hats, bags and more'))}</td><td>${esc(profileContents(name))}</td><td class="num" data-label="Canada">${ca}</td><td class="num" data-label="US">${us}</td><td class="num" data-label="US express">${ex || '-'}</td></tr>`).join('')}</tbody></table></div>
   <p>${esc(C.shipping)}</p>
 </section>`;
 
@@ -498,6 +498,18 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   .variants td[data-label]::before { content: attr(data-label) ": "; color: var(--muted); font-size: 12px; font-weight: 600; }
   .variants td.live::after { content: " linked"; color: var(--muted); font-weight: 400; }
   .tablewrap:has(.variants) { overflow-x: visible; }
+  .cat { white-space: normal; }
+  .num { white-space: normal; }
+  .profiles thead { display: none; }
+  .profiles, .profiles tbody { display: block; width: 100%; }
+  .profiles tr { display: flex; flex-wrap: wrap; gap: 2px 14px; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  .profiles tbody tr:last-child { border-bottom: 0; }
+  .profiles td { display: block; border: 0; padding: 0; }
+  .profiles td:nth-child(1), .profiles td:nth-child(2) { flex: 1 1 100%; }
+  .profiles td:nth-child(1) { font-weight: 600; }
+  .profiles td:nth-child(2) { color: var(--muted); }
+  .profiles td[data-label]::before { content: attr(data-label) " "; color: var(--muted); font-size: 12px; font-weight: 600; }
+  .tablewrap:has(.profiles) { overflow-x: visible; }
 }
 </style>
 </head>
@@ -552,7 +564,12 @@ ${viewCosts}
     VIEWS.forEach((x) => { $('#v-' + x).hidden = x !== v; });
     $$('nav.tabs a').forEach((a) => { if (a.dataset.view === v) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
   }
-  addEventListener('hashchange', () => { show(); scrollTo(0, 0); });
+  // switching tabs lands on the tab's content, not back at the page header
+  addEventListener('hashchange', () => {
+    show();
+    const top = $('main').offsetTop - $('nav.tabs').offsetHeight;   // where the sticky tab bar sits in the page
+    if (scrollY > top) scrollTo(0, top);
+  });
   show();
 
   // ticks and filters

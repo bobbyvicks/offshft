@@ -42,6 +42,13 @@ Facts so far: store/research/comfort-colors.md, the cap and AS Colour hoodie che
 
 ## In Shopify (29 Oct 2026)
 
+**Update, 1 Nov 2026 (read from the store):** the store's password is off, so all 38 listings can be bought. Printful
+has been connected since 29 Oct and has linked all 788 variants: it stocks each at its own location and files it in its
+own shipping profiles, which now set what customers pay for shipping (flat US$ rates, no free shipping). The Printful
+sheet (https://claude.ai/artifact/DGDrj5W4UfxVqYEjp1u4fY; source in store/printful/) says what each variant should be
+linked to, for the owner to check in Printful; its "Your calls" tab lists the decisions this raised. The notes below
+are as of 29-30 Oct.
+
 **Product photos are the owner's** (30 Oct 2026): they make them with their own tool (Astra), as with the studio
 mockups. Don't render or upload shop photos for new listings; create listings without images and leave the photos to
 the owner. The drawings in store/previews stay for the picker page.
