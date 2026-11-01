@@ -32,6 +32,18 @@ svg/         The drawings (vector, brand colours), for anyone who needs the sour
 sizes.json   Every file's size in mm, inches and pixels.
 `;
 
+// ImageMagick writes date:create/modify/timestamp text chunks; drop them (and tIME) so exports are byte-stable
+function stripDates(file) {
+  const d = fs.readFileSync(file), out = [d.subarray(0, 8)];
+  for (let i = 8; i < d.length;) {
+    const n = d.readUInt32BE(i), type = d.toString('latin1', i + 4, i + 8), end = i + 12 + n;
+    const key = type === 'tEXt' ? d.toString('latin1', i + 8, i + 8 + Math.min(n, 15)) : '';
+    if (!(type === 'tIME' || (type === 'tEXt' && key.startsWith('date:')))) out.push(d.subarray(i, end));
+    i = end;
+  }
+  fs.writeFileSync(file, Buffer.concat(out));
+}
+
 (async () => {
   const list = JSON.parse(fs.readFileSync(path.join(DIR, 'files.json'), 'utf8'));
   const out = path.join(DIR, 'files');
@@ -43,7 +55,9 @@ sizes.json   Every file's size in mm, inches and pixels.
   const render = async (vb, inner, pxW, pxH, png, dpi) => {
     await p.setContent(`<html><body style="margin:0;background:transparent"><svg id="a" xmlns="http://www.w3.org/2000/svg" width="${pxW}" height="${pxH}" viewBox="${vb.join(' ')}" style="display:block">${inner}</svg></body></html>`);
     await (await p.$('#a')).screenshot({ path: png, omitBackground: true });
-    execFileSync('convert', [png, '-units', 'PixelsPerInch', '-density', String(dpi), png]);   // true size in the file
+    // true size in the file; no date chunks, so the same drawing always exports the same bytes
+    execFileSync('convert', [png, '-units', 'PixelsPerInch', '-density', String(dpi), png]);
+    stripDates(png);
   };
   const report = [];
   const seen = new Set();
