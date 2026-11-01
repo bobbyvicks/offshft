@@ -9,8 +9,8 @@ Every logo file, made from the same drawings as the hats. Rules and colours: `..
 |---|---|
 | Website header, packaging, anything wide | `logo/offshft-logo-light-1200.png` (dark backgrounds: `-dark-`) |
 | Instagram, TikTok, Facebook profile picture | `social/offshft-profile-light.png` (or `-dark`), 1080 x 1080. Upload the square; the app crops it to a circle |
-| Shopify square logo (Settings > Brand) | `social/offshft-profile-light.png` |
-| Link previews (Shopify: Online Store > Preferences > Social sharing image) | `social/offshft-share.png`, 1200 x 628 |
+| Shopify square logo (Settings > Brand) | `social/offshft-profile-light.png`, already in the store's Files under that name (1 Nov): pick it there |
+| Link previews (Shopify: Online Store > Preferences > Social sharing image) | `social/offshft-share.png`, 1200 x 628, also already in the store's Files |
 | Shopify tab icon | Already on the store (31 Oct): `shopify/offshft-favicon-512.png` replaced the file `offshft-favicon.png` in Shopify's Files. That one file is both the Favicon setting and the home page's 64 px clock, which is why it's 512 px on a square of the home band's colour. To give the home page its own clock, set its icon block to `clock/offshft-clock-light-600.png` and the Favicon to `icons/favicon-32.png` in the theme editor |
 | Any other website's tab icon | `icons/favicon.ico` (the 16, 32 and 48 px drawings in one file) |
 | Phone home screen | `icons/apple-touch-icon.png` (iPhone), `icons/icon-192.png` and `icon-512.png` (Android). Shopify has no setting for these; adding them is a theme code edit |

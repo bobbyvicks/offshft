@@ -134,6 +134,10 @@ with the styles as an option, so the 34 pairings fit in 17 listings. Admin: http
     thread-Bone rounded tile showed as a lighter chip on the home page's fabric-Bone band. Now the hands sit inside
     and the tile is a square of the band's colour (#E4DDCB), so on the home page only the clock shows. Cleaner later
     (owner, theme editor): give the home page's icon block its own image and set the Favicon to brand/icons/favicon-32.png.
+- Square logo (1 Nov 2026): the owner asked for the stacked logo as the store's profile picture. Shopify's Admin API
+  can't set Settings > Brand (no mutation for it), so brand/social/offshft-profile-light.png and
+  brand/social/offshft-share.png were uploaded to Files (offshft-profile-light.png, offshft-share.png) for the owner to
+  pick: Settings > Brand > Square logo, and Online Store > Preferences > Social sharing image.
 - Ideas for what to add next, researched 30 Oct when the owner asked (nothing added yet): a full-zip hoodie, a
   fisherman beanie, a corduroy cap, a long-sleeve tee, the side clock on the phrase hats, a gift card, the FAQ link and
   the empty policies: store/research/next-adds.md. Three new lines: designs/phrases/round-2.md.
