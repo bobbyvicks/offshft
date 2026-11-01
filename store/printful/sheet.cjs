@@ -100,6 +100,11 @@ if (LIVE) {
     liveListing.set(p.handle, tot);
   }
 }
+const gaps = [];
+if (LIVE) for (const l of S.listings) l.groups.forEach((g, gi) => g.variants.forEach((r, ri) => {
+  const e = live.get(`${l.handle}|${gi}|${ri}`);
+  if (e && e.linked < e.n) gaps.push({ title: l.title, style: g.style.replace(/^\(no Style option\)\s*/, ''), colour: rowColour(r), missing: e.n - e.linked, n: e.n });
+}));
 function liveCell(h, gi, ri) {
   if (!LIVE) return '<td class="live">-</td>';
   const e = live.get(`${h}|${gi}|${ri}`);
@@ -205,6 +210,7 @@ const viewListings = `<section class="view" id="v-listings">
     <ul>${Object.entries(FLAGS).map(([, f]) => `<li><span class="flag ${f[0]}">${f[1]}</span> ${esc(f[2])}</li>`).join('')}
     <li><span class="dot all"></span><strong>Linked</strong>: how many of the row's variants are stocked at the Printful location. Printful does that when it links a variant; it doesn't say which product, file or placement the link uses. Read ${liveAt || '-'}.</li></ul>
   </details>
+  ${gaps.length ? `<p class="notice"><strong>Not linked yet:</strong> ${gaps.map((x) => `${esc(x.title)}${x.style ? `, ${esc(x.style)}` : ''}, ${esc(x.colour)} (${x.missing} of ${x.n} sizes)`).join('; ')}. These have no Printful stock and sit in your own shipping profile, so an order for one won't reach Printful until it's linked. Read ${liveAt}.</p>` : ''}
   ${newProducts.length ? `<p class="notice">New in the store since this sheet was made, so not here yet: ${newProducts.map((p) => esc(p.title)).join(', ')}.</p>` : ''}
   <div class="list">${listings.map(listingHTML).join('\n')}</div>
   <p class="empty" hidden>Nothing matches.</p>
@@ -214,7 +220,7 @@ const viewFiles = `<section class="view" id="v-files" hidden>
   <div class="intro">
     <h2>Print files</h2>
     <p>Every file the cards use, made from the same drawings as the hats. Embroidery PNGs are 600 dpi and coloured in Printful's own threads (black, orange, white, old gold), so its colour match picks the right ones. Print PNGs are 300 dpi in the brand colours. All are true size on a transparent background: set the width in Printful's editor to the inches shown.</p>
-    <p class="zipline"><button class="dl primary" data-path="offshft-printful-files.zip" data-name="offshft-printful-files.zip">Download everything (${kb(ZIP_BYTES)} ZIP)</button> <span class="muted">${SIZES.length} designs: embroidery, print and SVG.</span></p>
+    <p class="zipline"><button class="dl primary" id="zipall">Download everything (about ${kb(ZIP_BYTES)} ZIP)</button> <span class="muted" id="zipnote">${SIZES.length} designs: embroidery, print and SVG.</span></p>
     <p class="nodl" hidden>Downloads don't work in this view. Open the page on claude.ai, or take the files from the repo: <code>store/printful/files/</code>.</p>
   </div>
   <div class="filegrid">${SIZES.map((f) => `<div class="fileitem">${fileCard(f.name, f.embroidery ? 'both' : 'print', true)}<p class="used"><span class="label">Used by</span> ${esc(S.printFiles.find((p) => p.name === f.name).usedBy.join(', '))}</p></div>`).join('')}</div>
@@ -389,7 +395,7 @@ main { padding-block: 20px 56px; }
 .ver { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
 .files { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 8px; margin-top: 8px; }
 .file { display: flex; gap: 10px; align-items: center; border: 1px solid var(--line); border-radius: 9px; padding: 8px; background: var(--surface); min-width: 0; }
-.thumb { flex: none; width: 76px; height: 50px; border-radius: 6px; padding: 6px; }
+.thumb { flex: none; width: 132px; height: 54px; border-radius: 6px; padding: 7px 9px; }
 .thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .fab-light { background: var(--fab-light); } .fab-dark { background: var(--fab-dark); } .fab-oat { background: var(--fab-oat); }
 .file-body { display: grid; gap: 4px; min-width: 0; }
@@ -464,7 +470,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
 <header class="wrap top">
   <div class="brandrow">${logo}<span class="sep"></span><span class="kicker">Printful sheet</span></div>
   <h1>What every listing should be linked to</h1>
-  <p class="lede">Printful is already connected and most variants look linked. Shopify can't show what each link points to, so check each card against Printful, fix what differs, and tick it off.</p>
+  <p class="lede">Printful is already connected${liveTotals ? `, and ${liveTotals.linked} of ${liveTotals.n} variants look linked` : ' and most variants look linked'}. Shopify can't show what each link points to, so check each card against Printful, fix what differs, and tick it off.</p>
   <div class="stats">
     <div class="stat"><span class="label">Listings</span><strong>${S.listings.length}</strong><span class="muted">${nGroups} cards, one per product and technique</span></div>
     ${statusLive}
@@ -489,6 +495,11 @@ ${viewCosts}
 </main>
 <footer class="wrap">Cards built from the live store (read-only) on 1 Nov 2026, checked against the repo's drawings and Printful's catalogue copies${LIVE ? `; links read ${liveAt}` : ''}. Printful's own pages couldn't be reached, so anything marked <span class="tag">unconfirmed</span> needs a look in Printful. Source: <code>store/printful/</code> in the repo.</footer>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script type="application/json" id="zipdata">${JSON.stringify({
+  readme: fs.readFileSync(path.join(DIR, 'files/README.txt'), 'utf8'),
+  sizes: fs.readFileSync(path.join(DIR, 'files/sizes.json'), 'utf8'),
+  files: SIZES.flatMap((f) => [...(f.embroidery ? [`embroidery/${f.name}.png`] : []), `print/${f.name}.png`, `svg/${f.name}.svg`]),
+}).replace(/</g, '\\u003c')}</script>
 <script>
 (() => {
   const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -550,8 +561,52 @@ ${viewCosts}
   // downloads, through the page's downloads capability
   const dlP = (window.claude && window.claude.use ? window.claude.use('downloads') : Promise.resolve(null)).catch(() => null);
   dlP.then((d) => { if (!d) { document.documentElement.classList.add('nodl-mode'); $$('.nodl').forEach((x) => { x.hidden = false; }); } });
+  // everything in one zip, built here from the published files (JSZip from cdnjs, loaded on first use)
+  const JSZIP_URLS = ['https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js', 'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js'];
+  const loadScript = (src) => new Promise((res, rej) => {
+    const sc = document.createElement('script');
+    sc.src = src;
+    sc.onload = () => (window.JSZip ? res(window.JSZip) : rej(new Error('no JSZip')));
+    sc.onerror = () => { sc.remove(); rej(new Error('JSZip did not load')); };
+    document.head.appendChild(sc);
+  });
+  const loadZip = async () => {
+    for (const u of JSZIP_URLS) { if (window.JSZip) break; try { await loadScript(u); } catch (e) {} }
+    if (!window.JSZip) throw new Error('JSZip did not load');
+    return window.JSZip;
+  };
+  let zipping = false;
+  $('#zipall').addEventListener('click', async () => {
+    if (zipping) return;
+    const d = await dlP;
+    if (!d) { toast("Downloads don't work in this view"); return; }
+    zipping = true;
+    const note = $('#zipnote'), was = note.textContent;
+    try {
+      const meta = JSON.parse($('#zipdata').textContent);
+      const JSZip = await loadZip();
+      const zip = new JSZip();
+      zip.file('README.txt', meta.readme);
+      zip.file('sizes.json', meta.sizes);
+      let n = 0;
+      await Promise.all(meta.files.map(async (f) => {
+        const r = await fetch('files/' + f);
+        if (!r.ok) throw { code: 'fetch' };
+        zip.file(f, await r.blob());
+        note.textContent = 'Gathering files: ' + (++n) + ' of ' + meta.files.length;
+      }));
+      note.textContent = 'Zipping...';
+      const blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE' });
+      note.textContent = was;
+      await d.save({ filename: 'offshft-printful-files.zip', data: blob });
+    } catch (err) {
+      note.textContent = was;
+      const c = err && err.code;
+      if (c !== 'declined') toast(c === 'rate_limited' ? 'Another save is still open' : c === 'fetch' ? "Couldn't load the files" : "Couldn't make the zip");
+    } finally { zipping = false; }
+  });
   document.addEventListener('click', async (e) => {
-    const b = e.target.closest('.dl'); if (!b) return;
+    const b = e.target.closest('.dl'); if (!b || b.id === 'zipall') return;
     const d = await dlP;
     if (!d) { toast("Downloads don't work in this view"); return; }
     try {

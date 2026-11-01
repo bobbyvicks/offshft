@@ -3452,7 +3452,7 @@
  "decisions": [
   [
    "Shipping",
-   "Printful made its own shipping profiles with its own flat rates, and most variants now sit in them instead of your profile (C$12, free over C$75). Keep Printful's rates, or move the variants back and add the Printful location to your profile? Then test a checkout to Canada and to the US."
+   "Printful made its own shipping profiles with its own flat rates, and most variants now sit in them instead of your profile (C$12, free from C$75). Keep Printful's rates, or move the variants back and add the Printful location to your profile? Then test a checkout to Canada and to the US."
   ],
   [
    "Coming soon",
