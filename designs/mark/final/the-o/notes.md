@@ -16,6 +16,7 @@ Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bo
 | `symbol-*.svg` | The clock O alone, 25 mm tall (patches, hat back, avatar) |
 | `side-*.svg` | Side-of-hat master, its own drawing (two colour and one colour) |
 | `logo-light-cap6.6/7/7.5.svg`, `symbol-light-19/25/40mm.svg` | True-size proofs |
+| `symbol-dark-40mm.svg` | The 40 mm clock for dark fabric (Bone ring, Sun hands, 1.5 mm channel): the clock hat's front on dark caps |
 | `fonts/` | The same logo in other wide faces (comparison only) |
 | `hands-centre/` | Tested and not adopted: hands running from the pivot over the O (cold reads: logo 8/10 with "QFF" mentions, against 9/10 with none for the main version) |
 

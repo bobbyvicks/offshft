@@ -1,0 +1,570 @@
+[
+ {
+  "name": "logo-light-62.6mm",
+  "source": "designs/mark/final/the-o/logo-light.svg",
+  "sha256": "f24ba5af",
+  "mm": "62.64 x 18.04",
+  "inches": "2.47 x 0.71",
+  "embroidery": {
+   "px": "1480 x 426",
+   "dpi": 600,
+   "threads": [
+    "1800 Black",
+    "1987 Orange"
+   ]
+  },
+  "print": {
+   "mm": "62.64 x 18.04",
+   "inches": "2.47 x 0.71",
+   "px": "740 x 213",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "logo-dark-62.6mm",
+  "source": "designs/mark/final/the-o/logo-dark.svg",
+  "sha256": "7256b6c9",
+  "mm": "62.64 x 18.04",
+  "inches": "2.47 x 0.71",
+  "embroidery": {
+   "px": "1480 x 426",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "62.64 x 18.04",
+   "inches": "2.47 x 0.71",
+   "px": "740 x 213",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "logo-bone-62.6mm",
+  "source": "designs/mark/final/the-o/logo-one-colour-bone.svg",
+  "sha256": "8f293be6",
+  "mm": "62.64 x 18.97",
+  "inches": "2.47 x 0.75",
+  "embroidery": {
+   "px": "1480 x 448",
+   "dpi": 600,
+   "threads": [
+    "1801 White"
+   ]
+  },
+  "print": {
+   "mm": "62.64 x 18.97",
+   "inches": "2.47 x 0.75",
+   "px": "740 x 224",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "logo-ink-62.6mm",
+  "source": "designs/mark/final/the-o/logo-one-colour-ink.svg",
+  "sha256": "97a72a13",
+  "mm": "62.64 x 18.97",
+  "inches": "2.47 x 0.75",
+  "embroidery": {
+   "px": "1480 x 448",
+   "dpi": 600,
+   "threads": [
+    "1800 Black"
+   ]
+  },
+  "print": {
+   "mm": "62.64 x 18.97",
+   "inches": "2.47 x 0.75",
+   "px": "740 x 224",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "clock-light-25mm",
+  "source": "designs/mark/final/the-o/symbol-light.svg",
+  "sha256": "623c7079",
+  "mm": "11.80 x 25.00",
+  "inches": "0.46 x 0.98",
+  "embroidery": {
+   "px": "279 x 591",
+   "dpi": 600,
+   "threads": [
+    "1800 Black",
+    "1987 Orange"
+   ]
+  },
+  "print": {
+   "mm": "11.80 x 25.00",
+   "inches": "0.46 x 0.98",
+   "px": "139 x 295",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "clock-dark-25mm",
+  "source": "designs/mark/final/the-o/symbol-dark.svg",
+  "sha256": "321610d7",
+  "mm": "11.80 x 25.00",
+  "inches": "0.46 x 0.98",
+  "embroidery": {
+   "px": "279 x 591",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "11.80 x 25.00",
+   "inches": "0.46 x 0.98",
+   "px": "139 x 295",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "clock-bone-25mm",
+  "source": "designs/mark/final/the-o/symbol-one-colour-bone.svg",
+  "sha256": "afc2b992",
+  "mm": "11.67 x 25.00",
+  "inches": "0.46 x 0.98",
+  "embroidery": {
+   "px": "276 x 591",
+   "dpi": 600,
+   "threads": [
+    "1801 White"
+   ]
+  },
+  "print": {
+   "mm": "11.67 x 25.00",
+   "inches": "0.46 x 0.98",
+   "px": "138 x 295",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "clock-ink-25mm",
+  "source": "designs/mark/final/the-o/symbol-one-colour-ink.svg",
+  "sha256": "24a53072",
+  "mm": "11.67 x 25.00",
+  "inches": "0.46 x 0.98",
+  "embroidery": {
+   "px": "276 x 591",
+   "dpi": 600,
+   "threads": [
+    "1800 Black"
+   ]
+  },
+  "print": {
+   "mm": "11.67 x 25.00",
+   "inches": "0.46 x 0.98",
+   "px": "138 x 295",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "clock-dark-40mm",
+  "source": "designs/mark/final/the-o/symbol-dark-40mm.svg",
+  "sha256": "fc0156df",
+  "mm": "19.05 x 40.00",
+  "inches": "0.75 x 1.57",
+  "embroidery": {
+   "px": "450 x 945",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "19.05 x 40.00",
+   "inches": "0.75 x 1.57",
+   "px": "225 x 472",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "punched-out-line-dark-97.5mm",
+  "source": "designs/09-punched-out/v3/one-line-dark.svg",
+  "sha256": "be1ce373",
+  "mm": "97.47 x 7.30",
+  "inches": "3.84 x 0.29",
+  "embroidery": {
+   "px": "2302 x 172",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "97.47 x 7.30",
+   "inches": "3.84 x 0.29",
+   "px": "1151 x 86",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "punched-out-large-light-229.8mm",
+  "source": "designs/09-punched-out/v3/one-line-large-light.svg",
+  "sha256": "6b64f980",
+  "mm": "229.75 x 17.20",
+  "inches": "9.05 x 0.68",
+  "embroidery": {
+   "px": "5427 x 406",
+   "dpi": 600,
+   "threads": [
+    "1800 Black",
+    "1987 Orange"
+   ]
+  },
+  "print": {
+   "mm": "229.75 x 17.20",
+   "inches": "9.05 x 0.68",
+   "px": "2714 x 203",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "punched-out-large-dark-229.8mm",
+  "source": "designs/09-punched-out/v3/one-line-large-dark.svg",
+  "sha256": "a4a27918",
+  "mm": "229.75 x 17.20",
+  "inches": "9.05 x 0.68",
+  "embroidery": {
+   "px": "5427 x 406",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "229.75 x 17.20",
+   "inches": "9.05 x 0.68",
+   "px": "2714 x 203",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "punched-out-stack-light-63.6mm",
+  "source": "designs/09-punched-out/v3/stacked-centred-light.svg",
+  "sha256": "9195e03c",
+  "mm": "63.59 x 18.00",
+  "inches": "2.50 x 0.71",
+  "embroidery": {
+   "px": "1502 x 425",
+   "dpi": 600,
+   "threads": [
+    "1800 Black",
+    "1987 Orange"
+   ]
+  },
+  "print": {
+   "mm": "63.59 x 18.00",
+   "inches": "2.50 x 0.71",
+   "px": "751 x 213",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "punched-out-stack-dark-63.6mm",
+  "source": "designs/09-punched-out/v3/stacked-centred-dark.svg",
+  "sha256": "11f43744",
+  "mm": "63.59 x 18.00",
+  "inches": "2.50 x 0.71",
+  "embroidery": {
+   "px": "1502 x 425",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "63.59 x 18.00",
+   "inches": "2.50 x 0.71",
+   "px": "751 x 213",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "nowhere-to-be-light-67.7mm",
+  "source": "designs/15-nowhere-to-be/design-light.svg",
+  "sha256": "bc207aab",
+  "mm": "67.66 x 18.00",
+  "inches": "2.66 x 0.71",
+  "embroidery": {
+   "px": "1598 x 425",
+   "dpi": 600,
+   "threads": [
+    "1800 Black",
+    "1987 Orange"
+   ]
+  },
+  "print": {
+   "mm": "67.66 x 18.00",
+   "inches": "2.66 x 0.71",
+   "px": "799 x 213",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "nowhere-to-be-dark-67.7mm",
+  "source": "designs/15-nowhere-to-be/design-dark.svg",
+  "sha256": "db29355a",
+  "mm": "67.66 x 18.00",
+  "inches": "2.66 x 0.71",
+  "embroidery": {
+   "px": "1598 x 425",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "67.66 x 18.00",
+   "inches": "2.66 x 0.71",
+   "px": "799 x 213",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "suns-still-up-dark-63.2mm",
+  "source": "designs/16-suns-still-up/design-dark.svg",
+  "sha256": "50821d3d",
+  "mm": "63.23 x 18.00",
+  "inches": "2.49 x 0.71",
+  "embroidery": {
+   "px": "1494 x 425",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "63.23 x 18.00",
+   "inches": "2.49 x 0.71",
+   "px": "747 x 213",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "suns-still-up-light-63.2mm",
+  "source": "designs/16-suns-still-up/design-light.svg",
+  "sha256": "06aa1d8a",
+  "mm": "63.23 x 18.00",
+  "inches": "2.49 x 0.71",
+  "embroidery": {
+   "px": "1494 x 425",
+   "dpi": 600,
+   "threads": [
+    "1800 Black",
+    "1987 Orange"
+   ]
+  },
+  "print": {
+   "mm": "63.23 x 18.00",
+   "inches": "2.49 x 0.71",
+   "px": "747 x 213",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "no-alarm-set-light-229.7mm",
+  "source": "designs/17-no-alarm-set/design-light.svg",
+  "sha256": "f7042229",
+  "mm": "229.73 x 16.27",
+  "inches": "9.04 x 0.64",
+  "embroidery": {
+   "px": "5427 x 384",
+   "dpi": 600,
+   "threads": [
+    "1800 Black",
+    "1987 Orange"
+   ]
+  },
+  "print": {
+   "mm": "229.73 x 16.27",
+   "inches": "9.04 x 0.64",
+   "px": "2713 x 192",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "no-alarm-set-dark-229.7mm",
+  "source": "designs/17-no-alarm-set/design-dark.svg",
+  "sha256": "e4409672",
+  "mm": "229.73 x 16.27",
+  "inches": "9.04 x 0.64",
+  "embroidery": {
+   "px": "5427 x 384",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "229.73 x 16.27",
+   "inches": "9.04 x 0.64",
+   "px": "2713 x 192",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "banked-time-dark-95.7mm",
+  "source": "designs/18-banked-time/design-dark.svg",
+  "sha256": "1f4f13ee",
+  "mm": "95.71 x 7.09",
+  "inches": "3.77 x 0.28",
+  "embroidery": {
+   "px": "2261 x 168",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "95.71 x 7.09",
+   "inches": "3.77 x 0.28",
+   "px": "1130 x 84",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "banked-time-light-95.7mm",
+  "source": "designs/18-banked-time/design-light.svg",
+  "sha256": "dca6a8dd",
+  "mm": "95.71 x 7.09",
+  "inches": "3.77 x 0.28",
+  "embroidery": {
+   "px": "2261 x 168",
+   "dpi": 600,
+   "threads": [
+    "1800 Black",
+    "1987 Orange"
+   ]
+  },
+  "print": {
+   "mm": "95.71 x 7.09",
+   "inches": "3.77 x 0.28",
+   "px": "1130 x 84",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "not-picking-up-light-229.9mm",
+  "source": "designs/19-not-picking-up/design-light.svg",
+  "sha256": "238e5e9d",
+  "mm": "229.85 x 15.12",
+  "inches": "9.05 x 0.60",
+  "embroidery": {
+   "px": "5430 x 357",
+   "dpi": 600,
+   "threads": [
+    "1800 Black",
+    "1987 Orange"
+   ]
+  },
+  "print": {
+   "mm": "229.85 x 15.12",
+   "inches": "9.05 x 0.60",
+   "px": "2715 x 179",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "not-picking-up-dark-229.9mm",
+  "source": "designs/19-not-picking-up/design-dark.svg",
+  "sha256": "0f76a760",
+  "mm": "229.85 x 15.12",
+  "inches": "9.05 x 0.60",
+  "embroidery": {
+   "px": "5430 x 357",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "229.85 x 15.12",
+   "inches": "9.05 x 0.60",
+   "px": "2715 x 179",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "parked-dark-56.1mm",
+  "source": "designs/20-parked/design-dark.svg",
+  "sha256": "f1fe7850",
+  "mm": "56.08 x 7.09",
+  "inches": "2.21 x 0.28",
+  "embroidery": {
+   "px": "1325 x 168",
+   "dpi": 600,
+   "threads": [
+    "1801 White",
+    "1672 Old Gold"
+   ]
+  },
+  "print": {
+   "mm": "56.08 x 7.09",
+   "inches": "2.21 x 0.28",
+   "px": "662 x 84",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "parked-light-56.1mm",
+  "source": "designs/20-parked/design-light.svg",
+  "sha256": "e988b3fe",
+  "mm": "56.08 x 7.09",
+  "inches": "2.21 x 0.28",
+  "embroidery": {
+   "px": "1325 x 168",
+   "dpi": 600,
+   "threads": [
+    "1800 Black",
+    "1987 Orange"
+   ]
+  },
+  "print": {
+   "mm": "56.08 x 7.09",
+   "inches": "2.21 x 0.28",
+   "px": "662 x 84",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "logo-light-75mm-print",
+  "source": "designs/mark/final/the-o/logo-light.svg",
+  "sha256": "f24ba5af",
+  "mm": "62.64 x 18.04",
+  "inches": "2.47 x 0.71",
+  "print": {
+   "mm": "75.00 x 21.60",
+   "inches": "2.95 x 0.85",
+   "px": "886 x 255",
+   "dpi": 300
+  }
+ },
+ {
+  "name": "logo-dark-75mm-print",
+  "source": "designs/mark/final/the-o/logo-dark.svg",
+  "sha256": "7256b6c9",
+  "mm": "62.64 x 18.04",
+  "inches": "2.47 x 0.71",
+  "print": {
+   "mm": "75.00 x 21.60",
+   "inches": "2.95 x 0.85",
+   "px": "886 x 255",
+   "dpi": 300
+  }
+ }
+]

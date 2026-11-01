@@ -319,6 +319,9 @@ if (require.main === module) (async () => {
     await kit.render(f, f.replace('.svg', '.png'), { bg: F.bone, tile: `${Math.ceil(h * 0.75) + 12}x${h + 12}`, px: 8 });
     proofs.push(f.replace('.svg', '.png'));
   }
+  // dark twin of the 40 mm clock (same 1.5 mm channel), for the clock on dark hats
+  const d40 = write('symbol-dark-40mm.svg', symbol(A, 40, DARK, { channel: symbolChannel(40) }));
+  await kit.render(d40, d40.replace('.svg', '.png'), { bg: DARK.bg, tile: '42x52', px: 8 });
   await kit.render(path.join(OUT, 'side-light.svg'), path.join(OUT, 'side-light-proof.png'), { bg: F.bone, tile: '22x28', px: 8 });
   proofs.unshift(path.join(OUT, 'side-light-proof.png'));
   // remove proofs from earlier size floors
@@ -381,6 +384,7 @@ Owner's picks: hands-only clock, W3 watch hands, "The O" placement, Unbounded Bo
 | \`symbol-*.svg\` | The clock O alone, 25 mm tall (patches, hat back, avatar) |
 | \`side-*.svg\` | Side-of-hat master, its own drawing (two colour and one colour) |
 | \`logo-light-cap6.6/7/7.5.svg\`, \`symbol-light-19/25/40mm.svg\` | True-size proofs |
+| \`symbol-dark-40mm.svg\` | The 40 mm clock for dark fabric (Bone ring, Sun hands, 1.5 mm channel): the clock hat's front on dark caps |
 | \`fonts/\` | The same logo in other wide faces (comparison only) |
 | \`hands-centre/\` | Tested and not adopted: hands running from the pivot over the O (cold reads: logo 8/10 with "QFF" mentions, against 9/10 with none for the main version) |
 

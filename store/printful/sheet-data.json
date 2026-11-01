@@ -1,0 +1,3518 @@
+{
+ "listings": [
+  {
+   "handle": "off-shft-logo-hat",
+   "title": "OFF SHFT Logo Hat",
+   "extra": "Live (31 Oct): 'Front: the OFF SHFT logo, in 3D puff embroidery, about 125 mm (4.9 in) wide'. Repo art is the flat cap-7 logo, 62.6 mm (drop1.json said ~63 mm). Owner decides: keep the ready flat logo and change the text, or have a heavier puff version drawn. Only 5 of 12 Style x Colour pairs exist. Each style is a different Printful product: link variant by variant; never 'apply to other variants' across blanks.",
+   "groups": [
+    {
+     "style": "Retro Trucker",
+     "printfulProduct": "Retro Trucker Hat | Yupoong 6606",
+     "catalogId": "252",
+     "placement": "Embroidery > Front: 5.9 x 2 in (150 x 51 mm); sides and back are mesh",
+     "artFile": "All colours dark: logo-dark-62.6mm.png (Bone + Sun). No 125 mm or puff file.",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready (flat): 62.64 x 18.04 mm (2.47 x 0.71 in). Live promise: ~125 x 36 mm (4.9 x 1.4 in) puff: not drawn.",
+     "position": "Centre, then 5.2 mm (0.20 in) to the viewer's right: seam in the OFF/SHFT word space; vertically centred. (A 125 mm version would move ~10.4 mm.)",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "LISTING SAYS 3D PUFF; art is flat. Puff needs 5-12.5 mm strokes (scaled art ~2.9-3.9 mm): new heavier drawing, ~+US$1.50 [UNVERIFIED]. Owner decides.",
+     "variants": [
+      {
+       "shopifyVariant": "Retro Trucker / Black",
+       "printfulColour": "Black",
+       "printfulSize": "One size",
+       "check": "OK; Puff?"
+      },
+      {
+       "shopifyVariant": "Retro Trucker / Evergreen",
+       "printfulColour": "Evergreen",
+       "printfulSize": "One size",
+       "check": "OK; Puff?"
+      }
+     ],
+     "checks": "Printful keeps the offset? (editor, first sample). Sew-out: hand tips 0.58 mm, channel 1.0 mm (< 1.27 mm)."
+    },
+    {
+     "style": "5-Panel",
+     "printfulProduct": "5 Panel Mid-Profile Baseball Cap | Otto Cap 31-069",
+     "catalogId": "952",
+     "placement": "Embroidery > Front (embroidery_front_large): 6.3 x 2.55 in (160 x 65 mm) [UNVERIFIED]; seamless",
+     "artFile": "logo-dark-62.6mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready (flat): 62.64 x 18.04 mm (2.47 x 0.71 in); live ~125 mm puff not drawn",
+     "position": "Centred, no shift (seamless; don't apply the dad-hat shift)",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "LISTING SAYS 3D PUFF; puff unconfirmed on the 31-069; art flat. Owner decides.",
+     "variants": [
+      {
+       "shopifyVariant": "5-Panel / Black",
+       "printfulColour": "Black",
+       "printfulSize": "One size",
+       "check": "OK; Puff?"
+      }
+     ],
+     "checks": "Sew-out (fine parts < 1.27 mm). Where made (Availability tab)."
+    },
+    {
+     "style": "Dad Hat",
+     "printfulProduct": "Classic Dad Hat | Yupoong 6245CM",
+     "catalogId": "206",
+     "placement": "Embroidery > Front (larger front): 5.5 x 2 in (140 x 51 mm)",
+     "artFile": "logo-dark-62.6mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready (flat): 62.64 x 18.04 mm (2.47 x 0.71 in); live ~125 mm puff not drawn",
+     "position": "Centre, then 5.2 mm (0.20 in) to the viewer's right: the seam falls in the OFF/SHFT word space. A 125 mm logo shifted the same way would not fit (72.9 mm of 69.9 mm).",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "LISTING SAYS 3D PUFF (offered on this front per API copies); art flat: owner decides.",
+     "variants": [
+      {
+       "shopifyVariant": "Dad Hat / Black",
+       "printfulColour": "Black",
+       "printfulSize": "One size",
+       "check": "OK; Puff?"
+      }
+     ],
+     "checks": "Does Printful keep the offset? Check in the editor and on the first sample. Sew-out."
+    },
+    {
+     "style": "Rope Cap",
+     "printfulProduct": "Golf Rope Cap | Big Accessories BA671",
+     "catalogId": "not found",
+     "placement": "Embroidery > Front: area not found (File guidelines tab); seamless lined front",
+     "artFile": "logo-dark-62.6mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready (flat): 62.64 x 18.04 mm (2.47 x 0.71 in); live ~125 mm puff not drawn",
+     "position": "Centred, no shift",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "LISTING SAYS 3D PUFF; unconfirmed on the BA671; art flat.",
+     "variants": [
+      {
+       "shopifyVariant": "Rope Cap / Black/White",
+       "printfulColour": "unknown",
+       "printfulSize": "One size",
+       "check": "Colour? (BA671's 5 colour names unread); Puff?"
+      }
+     ],
+     "checks": "Front area; lined front may wrinkle (reviews): sample first."
+    }
+   ]
+  },
+  {
+   "handle": "the-clock-hat",
+   "title": "The Clock Hat",
+   "extra": "Live: 'Front: the clock, embroidered, about 40 mm (1.6 in) tall' (flat; drop1.json's 25 mm superseded). All colours are dark: the dark 40 mm clock (drawn 1 Nov from the same build as the light one). Same 5 variants and per-variant linking as the Logo Hat.",
+   "groups": [
+    {
+     "style": "Retro Trucker",
+     "printfulProduct": "Retro Trucker Hat | Yupoong 6606",
+     "catalogId": "252",
+     "placement": "Embroidery > Front: 5.9 x 2 in (150 x 51 mm)",
+     "artFile": "clock-dark-40mm.png",
+     "artVersion": "The O, dark 40 mm clock drawn 1 Nov 2026 (same build as the light one)",
+     "size": "19.05 x 40.00 mm (0.75 x 1.57 in)",
+     "position": "Centre, then 11.1 mm (0.44 in) to the viewer's right: whole clock on the wearer's left panel, ~1.6 mm clear of the seam (the drawing rule; centring over the seam is the other option, your call). Vertically centred.",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "Retro Trucker / Black",
+       "printfulColour": "Black",
+       "printfulSize": "One size",
+       "check": "OK"
+      },
+      {
+       "shopifyVariant": "Retro Trucker / Evergreen",
+       "printfulColour": "Evergreen",
+       "printfulSize": "One size",
+       "check": "OK"
+      }
+     ],
+     "checks": "Offset kept? Sew-out: 40 mm hand tips ~1.17 mm."
+    },
+    {
+     "style": "5-Panel",
+     "printfulProduct": "5 Panel Mid-Profile Baseball Cap | Otto Cap 31-069",
+     "catalogId": "952",
+     "placement": "Embroidery > Front: 6.3 x 2.55 in [UNVERIFIED]; seamless",
+     "artFile": "clock-dark-40mm.png",
+     "artVersion": "The O, dark 40 mm clock drawn 1 Nov 2026 (same build as the light one)",
+     "size": "19.05 x 40.00 mm (0.75 x 1.57 in)",
+     "position": "Centred, upright, no shift",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "5-Panel / Black",
+       "printfulColour": "Black",
+       "printfulSize": "One size",
+       "check": "OK"
+      }
+     ],
+     "checks": "Sew-out."
+    },
+    {
+     "style": "Dad Hat",
+     "printfulProduct": "Classic Dad Hat | Yupoong 6245CM",
+     "catalogId": "206",
+     "placement": "Embroidery > Front (larger front): 5.5 x 2 in (140 x 51 mm)",
+     "artFile": "clock-dark-40mm.png",
+     "artVersion": "The O, dark 40 mm clock drawn 1 Nov 2026 (same build as the light one)",
+     "size": "19.05 x 40.00 mm (0.75 x 1.57 in)",
+     "position": "Centre, then 11.1 mm (0.44 in) to the viewer's right: the whole clock sits on the wearer's left panel, about 1.6 mm clear of the seam.",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "Dad Hat / Black",
+       "printfulColour": "Black",
+       "printfulSize": "One size",
+       "check": "OK"
+      }
+     ],
+     "checks": "Does Printful keep the offset? Sew-out: 40 mm hand tips ~1.17 mm."
+    },
+    {
+     "style": "Rope Cap",
+     "printfulProduct": "Golf Rope Cap | Big Accessories BA671",
+     "catalogId": "not found",
+     "placement": "Embroidery > Front: area not found; seamless lined front",
+     "artFile": "clock-dark-40mm.png",
+     "artVersion": "The O, dark 40 mm clock drawn 1 Nov 2026 (same build as the light one)",
+     "size": "19.05 x 40.00 mm (0.75 x 1.57 in)",
+     "position": "Centred, upright; needs a front >= ~45 mm tall",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "Rope Cap / Black/White",
+       "printfulColour": "unknown",
+       "printfulSize": "One size",
+       "check": "Colour?"
+      }
+     ],
+     "checks": "Front area; lining wrinkles: sample."
+    }
+   ]
+  },
+  {
+   "handle": "punched-out-hat",
+   "title": "Punched Out. Hat",
+   "extra": "Live: 'Front: PUNCHED OUT., embroidered' (no size): the repo's 97.5 mm one line. Option: the stack (punched-out-stack-dark-63.6mm.png), centred with no shift on every hat. Trademark: open POWER PUNCHOUT (US Reg. 5079893) first.",
+   "groups": [
+    {
+     "style": "Retro Trucker",
+     "printfulProduct": "Retro Trucker Hat | Yupoong 6606",
+     "catalogId": "252",
+     "placement": "Embroidery > Front: 5.9 x 2 in (150 x 51 mm)",
+     "artFile": "punched-out-line-dark-97.5mm.png (Bone letters, Sun stop)",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "97.47 x 7.30 mm (3.84 x 0.29 in), cap 7",
+     "position": "Centre, then 2.4 mm (0.09 in) to the viewer's right: seam in the 2.43 mm H-E gap",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "Retro Trucker / Black",
+       "printfulColour": "Black",
+       "printfulSize": "One size",
+       "check": "OK"
+      },
+      {
+       "shopifyVariant": "Retro Trucker / Evergreen",
+       "printfulColour": "Evergreen",
+       "printfulSize": "One size",
+       "check": "OK"
+      }
+     ],
+     "checks": "Offset kept? Sew-out: C mouth >= 0.9 mm, E slots >= 1.0 mm; straight E not cold-read."
+    },
+    {
+     "style": "5-Panel",
+     "printfulProduct": "5 Panel Mid-Profile Baseball Cap | Otto Cap 31-069",
+     "catalogId": "952",
+     "placement": "Embroidery > Front: 6.3 x 2.55 in [UNVERIFIED]; seamless",
+     "artFile": "punched-out-line-dark-97.5mm.png",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "97.47 x 7.30 mm (3.84 x 0.29 in)",
+     "position": "Centred, no shift",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "5-Panel / Black",
+       "printfulColour": "Black",
+       "printfulSize": "One size",
+       "check": "OK"
+      }
+     ],
+     "checks": "Sew-out."
+    },
+    {
+     "style": "Dad Hat",
+     "printfulProduct": "Classic Dad Hat | Yupoong 6245CM",
+     "catalogId": "206",
+     "placement": "Embroidery > Front (larger front): 5.5 x 2 in (140 x 51 mm)",
+     "artFile": "punched-out-line-dark-97.5mm.png",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "97.47 x 7.30 mm (3.84 x 0.29 in)",
+     "position": "Centre, then 2.4 mm (0.09 in) to the viewer's right: the seam falls in the H-E gap.",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "Dad Hat / Black",
+       "printfulColour": "Black",
+       "printfulSize": "One size",
+       "check": "OK"
+      }
+     ],
+     "checks": "Does Printful keep the offset? Sew-out."
+    },
+    {
+     "style": "Rope Cap",
+     "printfulProduct": "Golf Rope Cap | Big Accessories BA671",
+     "catalogId": "not found",
+     "placement": "Embroidery > Front: area not found; seamless lined front",
+     "artFile": "punched-out-line-dark-97.5mm.png",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "97.47 x 7.30 mm (3.84 x 0.29 in)",
+     "position": "Centred; needs a front >= ~100 mm wide",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "Rope Cap / Black/White",
+       "printfulColour": "unknown",
+       "printfulSize": "One size",
+       "check": "Colour?"
+      }
+     ],
+     "checks": "Front area; lining wrinkles: sample."
+    }
+   ]
+  },
+  {
+   "handle": "off-shft-logo-hoodie",
+   "title": "OFF SHFT Logo Hoodie",
+   "extra": "Live: 'Small left-chest OFF SHFT logo, approximately 63 mm (2.5 in) wide. Choose Printed or Embroidered.' Each Style value is its own setup (same blank, different technique). SKUs: plain = Embroidered, -P = Printed. CONFLICT: picks.md says everything embroidered.",
+   "groups": [
+    {
+     "style": "Oversized — Embroidered",
+     "printfulProduct": "Unisex Relax Hoodie | AS Colour 5161",
+     "catalogId": "734",
+     "placement": "Embroidery > Left chest: 4 x 4 in (101.6 mm)",
+     "artFile": "Bone: logo-light-62.6mm.png. Pine Green: logo-dark-62.6mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in)",
+     "position": "Centred in the left chest: 19.5 mm (0.77 in) each side",
+     "threads": "Bone: 1800 Black + 1987 Orange. Pine Green: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Bone",
+       "printfulColour": "Bone?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Pine Green",
+       "printfulColour": "Pine Green",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      }
+     ],
+     "checks": "Bone variants blocked. Sew-out with topping (hand tips 0.58 mm). Bone: the 5161 colours on file (Athletic Heather, Black, Cobalt, Pine Green) came from a blog post and two shops, not Printful's picker, and Printful has already filed the Bone variants. Check the existing link and the 5161 colour picker."
+    },
+    {
+     "style": "Oversized — Printed",
+     "printfulProduct": "Unisex Relax Hoodie | AS Colour 5161",
+     "catalogId": "734",
+     "placement": "Print (DTG/DTFlex), not embroidery: wearer's left chest",
+     "artFile": "Bone: logo-light-62.6mm.png. Pine Green: logo-dark-62.6mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in)",
+     "position": "As the embroidered version (drawing: ~95 mm from centre front, ~190 mm below the shoulder, size M)",
+     "threads": "None (printed in the brand colours)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Bone",
+       "printfulColour": "Bone?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Pine Green",
+       "printfulColour": "Pine Green",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      }
+     ],
+     "checks": "Mixed embroidered/printed linking in one listing [UNVERIFIED]. Bone: the 5161 colours on file (Athletic Heather, Black, Cobalt, Pine Green) came from a blog post and two shops, not Printful's picker, and Printful has already filed the Bone variants. Check the existing link and the 5161 colour picker."
+    },
+    {
+     "style": "Garment-Dyed — Embroidered",
+     "printfulProduct": "Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567",
+     "catalogId": "970",
+     "placement": "Embroidery > Left chest: 4 x 4 in (confirmed on the 1567)",
+     "artFile": "White: logo-light-62.6mm.png. Blue Spruce: logo-dark-62.6mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in)",
+     "position": "Centred in the left chest: 19.5 mm (0.77 in) each side",
+     "threads": "White: 1800 Black + 1987 Orange. Blue Spruce: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Swatch?"
+      }
+     ],
+     "checks": "1567 colour list and sizes unread. Sew-out with topping."
+    },
+    {
+     "style": "Garment-Dyed — Printed",
+     "printfulProduct": "Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567",
+     "catalogId": "970",
+     "placement": "Print (DTG/DTFlex): wearer's left chest",
+     "artFile": "White: logo-light-62.6mm.png. Blue Spruce: logo-dark-62.6mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in)",
+     "position": "As the embroidered version",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Swatch?"
+      }
+     ],
+     "checks": "Mixed linking [UNVERIFIED]."
+    },
+    {
+     "style": "Lightweight — Embroidered",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467",
+     "catalogId": "not found (969 per mockup names [UNVERIFIED])",
+     "placement": "Embroidery > Left chest ONLY IF Printful offers embroidery on the 1467 (unconfirmed)",
+     "artFile": "Ivory: logo-light-62.6mm.png. Blue Jean (mid-tone): logo-bone-62.6mm.png (one colour) [UNVERIFIED call; or logo-dark]",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in); one colour 62.64 x 18.97 mm (2.47 x 0.75 in)",
+     "position": "Centred in the left chest: 19.5 mm (0.77 in) each side",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Blue Jean: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Lightweight — Embroidered / S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Embroidery?"
+      },
+      {
+       "shopifyVariant": "Lightweight — Embroidered / S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Embroidery?"
+      }
+     ],
+     "checks": "If the 1467 can't be embroidered: drop or print these. Id and colours unconfirmed."
+    },
+    {
+     "style": "Lightweight — Printed",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467",
+     "catalogId": "not found",
+     "placement": "Print (DTG/DTFlex): wearer's left chest",
+     "artFile": "Ivory: logo-light-62.6mm.png. Blue Jean: logo-bone-62.6mm.png [UNVERIFIED call]",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in); one colour 62.64 x 18.97 mm",
+     "position": "As the embroidered version",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Lightweight — Printed / S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Lightweight — Printed / S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      }
+     ],
+     "checks": "1467 id and colours unconfirmed."
+    }
+   ]
+  },
+  {
+   "handle": "the-clock-hoodie",
+   "title": "The Clock Hoodie",
+   "extra": "Live: 'Small left-chest clock mark, approximately 25 mm (1 in) tall. Choose Printed or Embroidered.' Same six setups as the Logo Hoodie with the clock. SKUs: plain = Embroidered, -P = Printed. CONFLICT: picks.md says everything embroidered.",
+   "groups": [
+    {
+     "style": "Oversized — Embroidered",
+     "printfulProduct": "Unisex Relax Hoodie | AS Colour 5161",
+     "catalogId": "734",
+     "placement": "Embroidery > Left chest: 4 x 4 in (101.6 mm)",
+     "artFile": "Bone: clock-light-25mm.png. Pine Green: clock-dark-25mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "Centred, upright (12 o'clock up): 44.9 mm (1.77 in) each side",
+     "threads": "Bone: 1800 Black + 1987 Orange. Pine Green: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Bone",
+       "printfulColour": "Bone?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Pine Green",
+       "printfulColour": "Pine Green",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      }
+     ],
+     "checks": "Bone blocked. Sew-out: tips ~0.72 mm, 1.2 mm channel; topping. Bone: the 5161 colours on file (Athletic Heather, Black, Cobalt, Pine Green) came from a blog post and two shops, not Printful's picker, and Printful has already filed the Bone variants. Check the existing link and the 5161 colour picker."
+    },
+    {
+     "style": "Oversized — Printed",
+     "printfulProduct": "Unisex Relax Hoodie | AS Colour 5161",
+     "catalogId": "734",
+     "placement": "Print (DTG/DTFlex): wearer's left chest",
+     "artFile": "Bone: clock-light-25mm.png. Pine Green: clock-dark-25mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "As the embroidered version, upright",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Bone",
+       "printfulColour": "Bone?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Pine Green",
+       "printfulColour": "Pine Green",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      }
+     ],
+     "checks": "Mixed linking [UNVERIFIED]. Bone: the 5161 colours on file (Athletic Heather, Black, Cobalt, Pine Green) came from a blog post and two shops, not Printful's picker, and Printful has already filed the Bone variants. Check the existing link and the 5161 colour picker."
+    },
+    {
+     "style": "Garment-Dyed — Embroidered",
+     "printfulProduct": "Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567",
+     "catalogId": "970",
+     "placement": "Embroidery > Left chest: 4 x 4 in",
+     "artFile": "White: clock-light-25mm.png. Blue Spruce: clock-dark-25mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "Centred, upright: 44.9 mm (1.77 in) each side",
+     "threads": "White: 1800 Black + 1987 Orange. Blue Spruce: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Swatch?"
+      }
+     ],
+     "checks": "Sew-out with topping."
+    },
+    {
+     "style": "Garment-Dyed — Printed",
+     "printfulProduct": "Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567",
+     "catalogId": "970",
+     "placement": "Print (DTG/DTFlex): wearer's left chest",
+     "artFile": "White: clock-light-25mm.png. Blue Spruce: clock-dark-25mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "As the embroidered version",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Swatch?"
+      }
+     ],
+     "checks": "Mixed linking [UNVERIFIED]."
+    },
+    {
+     "style": "Lightweight — Embroidered",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467",
+     "catalogId": "not found",
+     "placement": "Embroidery > Left chest ONLY IF offered on the 1467 (unconfirmed)",
+     "artFile": "Ivory: clock-light-25mm.png. Blue Jean: clock-bone-25mm.png (one colour) [UNVERIFIED call]",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm (0.46 x 0.98 in); one colour 11.67 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "Centred, upright: 44.9 mm each side",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Blue Jean: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Lightweight — Embroidered / S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Embroidery?"
+      },
+      {
+       "shopifyVariant": "Lightweight — Embroidered / S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Embroidery?"
+      }
+     ],
+     "checks": "1467 embroidery unconfirmed."
+    },
+    {
+     "style": "Lightweight — Printed",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467",
+     "catalogId": "not found",
+     "placement": "Print (DTG/DTFlex): wearer's left chest",
+     "artFile": "Ivory: clock-light-25mm.png. Blue Jean: clock-bone-25mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm; one colour 11.67 x 25.00 mm",
+     "position": "As the embroidered version",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Lightweight — Printed / S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Lightweight — Printed / S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      }
+     ],
+     "checks": "1467 id and colours unconfirmed."
+    }
+   ]
+  },
+  {
+   "handle": "punched-out-hoodie",
+   "title": "Punched Out. Hoodie",
+   "extra": "Live: Printed = large centre front; Oversized Embroidered = a smaller one-line centre-chest design (~97 mm); Garment-Dyed and Lightweight Embroidered = large centre front. SKUs: Oversized plain = Printed, -E = Embroidered; elsewhere plain = Embroidered, -P = Printed. CONFLICTS: picks.md says everything embroidered and Punched Out. big on the front (this sheet uses the big front for every embroidered style). Trademark: POWER PUNCHOUT (US Reg. 5079893) first.",
+   "groups": [
+    {
+     "style": "Oversized — Printed",
+     "printfulProduct": "Unisex Relax Hoodie | AS Colour 5161",
+     "catalogId": "734",
+     "placement": "Print (DTG/DTFlex): Front, big centre design",
+     "artFile": "Bone: punched-out-large-light-229.8mm.png. Pine Green: punched-out-large-dark-229.8mm.png",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "229.75 x 17.20 mm (9.05 x 0.68 in) (no print size in the listing: 230 mm assumed)",
+     "position": "Centred left to right; height not set (drawings: level with a chest logo) [owner sets]",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Bone",
+       "printfulColour": "Bone?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Pine Green",
+       "printfulColour": "Pine Green",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      }
+     ],
+     "checks": "Bone blocked. Bone: the 5161 colours on file (Athletic Heather, Black, Cobalt, Pine Green) came from a blog post and two shops, not Printful's picker, and Printful has already filed the Bone variants. Check the existing link and the 5161 colour picker."
+    },
+    {
+     "style": "Oversized — Embroidered",
+     "printfulProduct": "Unisex Relax Hoodie | AS Colour 5161",
+     "catalogId": "734",
+     "placement": "Embroidery > Large front: 10 x 6 in (254 x 152 mm)",
+     "artFile": "Bone: punched-out-large-light-229.8mm.png. Pine Green: punched-out-large-dark-229.8mm.png",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "229.75 x 17.20 mm (9.05 x 0.68 in)",
+     "position": "Centred left to right: 12.1 mm (0.48 in) spare each side. Height: level with the other Punched Out. hoodies [owner sets].",
+     "threads": "Bone: 1800 Black + 1987 Orange. Pine Green: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Bone",
+       "printfulColour": "Bone?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Pine Green",
+       "printfulColour": "Pine Green",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      }
+     ],
+     "checks": "The listing promises a smaller one-line design (~97 mm) at the centre chest. That file isn't allowed on a chest: it leaves 2 mm each side (v3 notes). This card follows picks.md: the big front. For a small chest piece instead, use the stack (punched-out-stack, 63.6 mm, 19 mm spare each side) and change the listing text. Sew-out with topping."
+    },
+    {
+     "style": "Garment-Dyed — Embroidered",
+     "printfulProduct": "Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567",
+     "catalogId": "970",
+     "placement": "Embroidery > Large front: 10 x 6 in (254 x 152 mm), Design Maker only (confirmed on the 1567)",
+     "artFile": "White: punched-out-large-light-229.8mm.png. Blue Spruce: punched-out-large-dark-229.8mm.png",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "229.75 x 17.20 mm (9.05 x 0.68 in), cap 16.5",
+     "position": "Centred: 12.1 mm (0.48 in) each side; height not set (drawings: level with a chest logo)",
+     "threads": "White: 1800 Black + 1987 Orange. Blue Spruce: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Swatch?"
+      }
+     ],
+     "checks": "Stitch charge over 15,000 stitches. Topping; split satin if 4.4-4.6 mm stems look loose."
+    },
+    {
+     "style": "Garment-Dyed — Printed",
+     "printfulProduct": "Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567",
+     "catalogId": "970",
+     "placement": "Print (DTG/DTFlex): Front, big centre design",
+     "artFile": "White: punched-out-large-light-229.8mm.png. Blue Spruce: punched-out-large-dark-229.8mm.png",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "229.75 x 17.20 mm (9.05 x 0.68 in)",
+     "position": "Centred left to right; height not set",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Swatch?"
+      }
+     ],
+     "checks": "Mixed linking [UNVERIFIED]."
+    },
+    {
+     "style": "Lightweight — Embroidered",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467",
+     "catalogId": "not found",
+     "placement": "Embroidery > Large front ONLY IF offered on the 1467 (unconfirmed)",
+     "artFile": "Ivory: punched-out-large-light-229.8mm.png. Blue Jean: punched-out-large-dark-229.8mm.png with both threads 1801 White (one colour) [UNVERIFIED call]",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "229.75 x 17.20 mm (9.05 x 0.68 in)",
+     "position": "Centred: 12.1 mm each side; height not set",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Blue Jean: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Lightweight — Embroidered / S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Embroidery?"
+      },
+      {
+       "shopifyVariant": "Lightweight — Embroidered / S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Embroidery?"
+      }
+     ],
+     "checks": "1467 embroidery unconfirmed."
+    },
+    {
+     "style": "Lightweight — Printed",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467",
+     "catalogId": "not found",
+     "placement": "Print (DTG/DTFlex): Front, big centre design",
+     "artFile": "Ivory: punched-out-large-light-229.8mm.png. Blue Jean: punched-out-large-dark-229.8mm.png as is (no Bone-only print file)",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "229.75 x 17.20 mm (9.05 x 0.68 in)",
+     "position": "Centred left to right; height not set",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Lightweight — Printed / S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Lightweight — Printed / S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      }
+     ],
+     "checks": "1467 id and colours unconfirmed."
+    }
+   ]
+  },
+  {
+   "handle": "off-shft-logo-crewneck",
+   "title": "OFF SHFT Logo Crewneck",
+   "extra": "Live: 'Left chest: the OFF SHFT logo, embroidered, about 63 mm (2.5 in) wide'. Ivory and Blue Jean, S-3XL.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Crewneck Sweatshirt I Comfort Colors 1466",
+     "catalogId": "971 [UNVERIFIED: third-party copy]",
+     "placement": "Embroidery > Left chest: 4 x 4 in (confirmed on the 1466)",
+     "artFile": "Ivory: logo-light-62.6mm.png. Blue Jean (mid-tone): logo-bone-62.6mm.png [UNVERIFIED call; or logo-dark]",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in); one colour 62.64 x 18.97 mm (2.47 x 0.75 in)",
+     "position": "Centred in the left chest: 19.5 mm (0.77 in) each side",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Blue Jean: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK (in the owner's Printful link)"
+      }
+     ],
+     "checks": "Sew-out with topping."
+    }
+   ]
+  },
+  {
+   "handle": "the-clock-crewneck",
+   "title": "The Clock Crewneck",
+   "extra": "Live: 'Left chest: the clock, embroidered, about 25 mm (1 in) tall'. Ivory and Blue Jean, S-3XL.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Crewneck Sweatshirt I Comfort Colors 1466",
+     "catalogId": "971 [UNVERIFIED]",
+     "placement": "Embroidery > Left chest: 4 x 4 in",
+     "artFile": "Ivory: clock-light-25mm.png. Blue Jean: clock-bone-25mm.png [UNVERIFIED call]",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm (0.46 x 0.98 in); one colour 11.67 x 25.00 mm",
+     "position": "Centred, upright: 44.9 mm (1.77 in) each side",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Blue Jean: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      }
+     ],
+     "checks": "Sew-out with topping."
+    }
+   ]
+  },
+  {
+   "handle": "punched-out-crewneck",
+   "title": "Punched Out. Crewneck",
+   "extra": "Live: 'Front: PUNCHED OUT., embroidered big on the centre front' (no size). Trademark: POWER PUNCHOUT first.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Crewneck Sweatshirt I Comfort Colors 1466",
+     "catalogId": "971 [UNVERIFIED]",
+     "placement": "Embroidery > Large front: 10 x 6 in (254 x 152 mm), Design Maker only (confirmed on the 1466)",
+     "artFile": "Ivory: punched-out-large-light-229.8mm.png. Blue Jean: punched-out-large-dark-229.8mm.png, both threads 1801 White [UNVERIFIED call]",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "229.75 x 17.20 mm (9.05 x 0.68 in) (230 mm box assumed)",
+     "position": "Centred: 12.1 mm (0.48 in) each side; height not set",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Blue Jean: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      }
+     ],
+     "checks": "Stitch charge; topping; split satin if needed."
+    }
+   ]
+  },
+  {
+   "handle": "off-shft-logo-sweatpants",
+   "title": "OFF SHFT Logo Sweatpants",
+   "extra": "Live: front of the left leg; no size, technique not stated. Pepper and Espresso, S-2XL. Printful's 1469 embroidery and leg spot weren't confirmed, but Printful has already filed these variants: check which technique and spot they're linked to.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Garment-Dyed Fleece Sweatpants | Comfort Colors 1469",
+     "catalogId": "not found",
+     "placement": "Front of the wearer's left leg: no Printful leg spot or 1469 embroidery found; Embroidery if the editor offers it",
+     "artFile": "Pepper: logo-dark-62.6mm.png. Espresso (mid-tone #87634a): logo-bone-62.6mm.png [UNVERIFIED call]",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in) (leg size not set) [owner sets]",
+     "position": "Centred on the left leg, ~130 mm (5.1 in) below the waistband (drawings)",
+     "threads": "Pepper: 1801 White + 1672 Old Gold. Espresso: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?; Embroidery?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Espresso",
+       "printfulColour": "Espresso",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?; Embroidery?"
+      }
+     ],
+     "checks": "Sizes: listing S-2XL (Printful page S-3XL, CC sheet S-2XL). Topping."
+    }
+   ]
+  },
+  {
+   "handle": "the-clock-sweatpants",
+   "title": "The Clock Sweatpants",
+   "extra": "Live: the clock on the front of the left leg, ~25 mm tall; technique not stated. Pepper, Espresso, S-2XL. 1469 embroidery unconfirmed; Printful has already filed these variants, so check which technique and spot they're linked to.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Garment-Dyed Fleece Sweatpants | Comfort Colors 1469",
+     "catalogId": "not found",
+     "placement": "Front of the wearer's left leg (spot and embroidery unconfirmed)",
+     "artFile": "Pepper: clock-dark-25mm.png. Espresso: clock-bone-25mm.png [UNVERIFIED call]",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm (0.46 x 0.98 in); one colour 11.67 x 25.00 mm",
+     "position": "Upright, centred on the left leg, ~130 mm below the waistband",
+     "threads": "Pepper: 1801 White + 1672 Old Gold. Espresso: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?; Embroidery?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Espresso",
+       "printfulColour": "Espresso",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?; Embroidery?"
+      }
+     ],
+     "checks": "Topping; sew-out."
+    }
+   ]
+  },
+  {
+   "handle": "punched-out-sweatpants",
+   "title": "Punched Out. Sweatpants",
+   "extra": "Live: PUNCHED OUT. on the front of the left leg; no size, technique not stated. Pepper, Espresso, S-2XL. 1469 embroidery unconfirmed; Printful has already filed these variants, so check which technique and spot they're linked to. Trademark: POWER PUNCHOUT first.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Garment-Dyed Fleece Sweatpants | Comfort Colors 1469",
+     "catalogId": "not found",
+     "placement": "Front of the wearer's left leg (spot and embroidery unconfirmed)",
+     "artFile": "Pepper: punched-out-stack-dark-63.6mm.png. Espresso: same file, both threads 1801 White [UNVERIFIED call]. Not the one line.",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "63.59 x 18.00 mm (2.50 x 0.71 in), two lines",
+     "position": "Centred on the left leg, ~130 mm below the waistband",
+     "threads": "Pepper: 1801 White + 1672 Old Gold. Espresso: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?; Embroidery?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Espresso",
+       "printfulColour": "Espresso",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?; Embroidery?"
+      }
+     ],
+     "checks": "Topping; C mouth, E slots."
+    }
+   ]
+  },
+  {
+   "handle": "off-shft-logo-t-shirt",
+   "title": "OFF SHFT Logo T-Shirt",
+   "extra": "Live: Heavyweight = 'embroidered on the left chest, about 63 mm (2.5 in) wide'; Pocket = 'printed directly on the left-chest pocket'. CONFLICT: picks.md puts the 6030 logo EMBROIDERED on its Large center front and wants everything embroidered.",
+   "groups": [
+    {
+     "style": "Heavyweight",
+     "printfulProduct": "Unisex Garment-Dyed Heavyweight T-Shirt | Comfort Colors 1717",
+     "catalogId": "586",
+     "placement": "Embroidery > Left chest: 4 x 4 in (101.6 mm)",
+     "artFile": "Ivory: logo-light-62.6mm.png. Blue Spruce: logo-dark-62.6mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in)",
+     "position": "Centred in the left chest: 19.5 mm (0.77 in) each side",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Blue Spruce: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Heavyweight / S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      },
+      {
+       "shopifyVariant": "Heavyweight / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      }
+     ],
+     "checks": "Sew-out. 2XL US$17.60, 3XL US$19.60 vs 15.60."
+    },
+    {
+     "style": "Pocket",
+     "printfulProduct": "Unisex Garment-Dyed Pocket T-Shirt | Comfort Colors 6030",
+     "catalogId": "593",
+     "placement": "Print (DTG) on the left-chest pocket (the 6030 has no chest or pocket embroidery)",
+     "artFile": "White: logo-light-62.6mm.png, printed",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Not set: pocket print area unknown (master 62.64 x 18.04 mm, 2.47 x 0.71 in) [owner sets]",
+     "position": "Centred on the pocket [UNVERIFIED]",
+     "threads": "None (printed). If embroidered per picks.md: 1800 Black + 1987 Orange",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Pocket / S, M, L, XL, 2XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "OK"
+      }
+     ],
+     "checks": "Owner decides pocket print vs picks.md embroidery."
+    }
+   ]
+  },
+  {
+   "handle": "the-clock-t-shirt",
+   "title": "The Clock T-Shirt",
+   "extra": "Live: Heavyweight = 'embroidered on the left chest, about 25 mm (1 in) tall'; Pocket = 'printed directly on the left-chest pocket'. CONFLICT: picks.md puts the 6030 clock EMBROIDERED on the left sleeve top.",
+   "groups": [
+    {
+     "style": "Heavyweight",
+     "printfulProduct": "Unisex Garment-Dyed Heavyweight T-Shirt | Comfort Colors 1717",
+     "catalogId": "586",
+     "placement": "Embroidery > Left chest: 4 x 4 in",
+     "artFile": "Ivory: clock-light-25mm.png. Blue Spruce: clock-dark-25mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "Centred, upright: 44.9 mm (1.77 in) each side",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Blue Spruce: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Heavyweight / S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      },
+      {
+       "shopifyVariant": "Heavyweight / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      }
+     ],
+     "checks": "Sew-out."
+    },
+    {
+     "style": "Pocket",
+     "printfulProduct": "Unisex Garment-Dyed Pocket T-Shirt | Comfort Colors 6030",
+     "catalogId": "593",
+     "placement": "Print (DTG) on the left-chest pocket",
+     "artFile": "White: clock-light-25mm.png, printed",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Not set (master 11.80 x 25.00 mm, 0.46 x 0.98 in) [owner sets]",
+     "position": "Centred on the pocket, upright [UNVERIFIED]",
+     "threads": "None (printed). If embroidered on the sleeve per picks.md: 1800 Black + 1987 Orange",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Pocket / S, M, L, XL, 2XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "OK"
+      }
+     ],
+     "checks": "Owner decides pocket print vs sleeve embroidery."
+    }
+   ]
+  },
+  {
+   "handle": "off-shft-logo-jacket",
+   "title": "OFF SHFT Logo Jacket",
+   "extra": "Live: Black and Light Blue, S-2XL; left-chest logo ~63 mm. picks.md: Black and Dark Green (Champion's sheet); Printful API copy: Navy. Champion's C logo is on the left sleeve.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Champion Packable Anorak | CO200",
+     "catalogId": "399",
+     "placement": "Embroidery > Left chest, the only spot (size not read)",
+     "artFile": "Black: logo-dark-62.6mm.png. Light Blue: logo-light-62.6mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in)",
+     "position": "Centred in the left chest: 19.5 mm each side if 4 x 4 in",
+     "threads": "Black: 1801 White + 1672 Old Gold. Light Blue: 1800 Black + 1987 Orange",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Black",
+       "printfulColour": "Black",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Light Blue",
+       "printfulColour": "Light Blue?",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?; Check link"
+      }
+     ],
+     "checks": "Thin 2.8 oz poplin: sample. 'Unavailable in your region' seen once. Light Blue: Printful's CO200 colours weren't read (the maker's sheet lists Black and Dark Green; Champion does make a Light Blue), and Printful has already filed these variants. Check the existing link and the CO200 colour picker before changing or dropping the colour."
+    }
+   ]
+  },
+  {
+   "handle": "the-clock-jacket",
+   "title": "The Clock Jacket",
+   "extra": "Live: Black and Light Blue, S-2XL; left-chest clock ~25 mm. Same colour problem as the Logo Jacket.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Champion Packable Anorak | CO200",
+     "catalogId": "399",
+     "placement": "Embroidery > Left chest (size not read)",
+     "artFile": "Black: clock-dark-25mm.png. Light Blue: clock-light-25mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "Centred, upright",
+     "threads": "Black: 1801 White + 1672 Old Gold. Light Blue: 1800 Black + 1987 Orange",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Black",
+       "printfulColour": "Black",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Light Blue",
+       "printfulColour": "Light Blue?",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?; Check link"
+      }
+     ],
+     "checks": "Thin fabric: sample. Light Blue: Printful's CO200 colours weren't read (the maker's sheet lists Black and Dark Green; Champion does make a Light Blue), and Printful has already filed these variants. Check the existing link and the CO200 colour picker before changing or dropping the colour."
+    }
+   ]
+  },
+  {
+   "handle": "punched-out-jacket",
+   "title": "Punched Out. Jacket",
+   "extra": "Live: Black and Light Blue, S-2XL; 'Left chest: PUNCHED OUT., embroidered small' (no size). Trademark: POWER PUNCHOUT first.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Champion Packable Anorak | CO200",
+     "catalogId": "399",
+     "placement": "Embroidery > Left chest (size not read)",
+     "artFile": "Black: punched-out-stack-dark-63.6mm.png. Light Blue: punched-out-stack-light-63.6mm.png",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "63.59 x 18.00 mm (2.50 x 0.71 in), two lines",
+     "position": "Centred: 19.0 mm (0.75 in) each side if 4 x 4 in",
+     "threads": "Black: 1801 White + 1672 Old Gold. Light Blue: 1800 Black + 1987 Orange",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Black",
+       "printfulColour": "Black",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL / Light Blue",
+       "printfulColour": "Light Blue?",
+       "printfulSize": "S, M, L, XL, 2XL",
+       "check": "Colour?; Check link"
+      }
+     ],
+     "checks": "Thin fabric: sample. Light Blue: Printful's CO200 colours weren't read (the maker's sheet lists Black and Dark Green; Champion does make a Light Blue), and Printful has already filed these variants. Check the existing link and the CO200 colour picker before changing or dropping the colour."
+    }
+   ]
+  },
+  {
+   "handle": "time-well-earned-t-shirt",
+   "title": "Time Well Earned. T-Shirt",
+   "extra": "Codex listing (29 Oct): 'TIME WELL EARNED. in three embroidered lines', 'Centre-chest embroidery, approximately 95 mm wide', Comfort Colors 1717. Tag 11-time-well-earned. No art in the repo (AI mockups only). Trademark: open TIME WELL SPENT (US Reg. 3252699) first.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Garment-Dyed Heavyweight T-Shirt | Comfort Colors 1717",
+     "catalogId": "586",
+     "placement": "Embroidery > Center chest: 4 x 4 in (101.6 mm)",
+     "artFile": "NONE (to draw: light for Ivory; dark for Blue Spruce, Pepper; Bone one colour for Blue Jean)",
+     "artVersion": "Not built",
+     "size": "~95 mm (3.74 in) wide, three lines; height unknown",
+     "position": "Centred on the centre chest: ~3.3 mm each side",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Blue Spruce, Pepper: 1801 White + 1672 Old Gold. Blue Jean: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; No art; Swatch?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; No art"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; No art"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; No art"
+      }
+     ],
+     "checks": "Art first (designs/phrases/build.cjs, cap >= 6.6 mm)."
+    }
+   ]
+  },
+  {
+   "handle": "the-rest-is-ours-hoodie",
+   "title": "The Rest Is Ours. Hoodie",
+   "extra": "Codex listing: 'THE REST IS OURS.' printed across the upper back (~240 mm) and the OFF SHFT logo printed on the left chest (~63 mm), Comfort Colors 1467. CONFLICT: picks.md (owner, 29 Oct) says the front logo is EMBROIDERED. Tag 12-the-rest-is-ours.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467",
+     "catalogId": "not found (969 per mockup names [UNVERIFIED])",
+     "placement": "Back: print across the upper back. Front: wearer's left chest, printed (listing) or embroidered (picks.md; 1467 embroidery unconfirmed)",
+     "artFile": "Back: NONE (AI mockups only). Front: Ivory, Butter: logo-light-62.6mm.png; Pepper: logo-dark-62.6mm.png; Blue Jean: logo-bone-62.6mm.png [UNVERIFIED call]",
+     "artVersion": "Back not built; front The O, 30 Oct 2026",
+     "size": "Back ~240 mm (9.45 in) wide, height unknown. Front 62.64 x 18.04 mm (2.47 x 0.71 in)",
+     "position": "Back: centred; distance from the collar not set. Front: as the other hoodies' left chest",
+     "threads": "Printed: none. If the front is embroidered: Ivory, Butter 1800 Black + 1987 Orange; Pepper 1801 White + 1672 Old Gold; Blue Jean 1801 White",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; No art (back)"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; No art (back)"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; No art (back)"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Butter",
+       "printfulColour": "Butter",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; No art (back)"
+      }
+     ],
+     "checks": "Mixing a printed back with an embroidered front unconfirmed; all-printed is sure to link."
+    }
+   ]
+  },
+  {
+   "handle": "ours-to-spend-trucker-hat",
+   "title": "Ours to Spend. Trucker Hat",
+   "extra": "Codex listing: 'OURS TO SPEND. embroidered', ~85 mm, Yupoong 6606; says 'Coming soon.' Tag 13-ours-to-spend. No art (AI mockups only). Trademark looked clear (search only).",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Retro Trucker Hat | Yupoong 6606",
+     "catalogId": "252",
+     "placement": "Embroidery > Front: 5.9 x 2 in (150 x 51 mm)",
+     "artFile": "NONE (to draw: dark for Evergreen, Navy; Khaki Oat rule, Ink one colour; Caramel mid-tone [UNVERIFIED])",
+     "artVersion": "Not built",
+     "size": "~85 mm (3.35 in) wide; height unknown",
+     "position": "6-panel: needs a letter gap within ~6 mm of centre, then a measured shift",
+     "threads": "Evergreen, Navy: 1801 White + 1672 Old Gold. Khaki: 1800 Black only. Caramel: probably 1801 White only [UNVERIFIED]",
+     "puff": "No (flat or puff not stated)",
+     "variants": [
+      {
+       "shopifyVariant": "One size / Evergreen",
+       "printfulColour": "Evergreen",
+       "printfulSize": "One size",
+       "check": "OK; No art"
+      },
+      {
+       "shopifyVariant": "One size / Navy",
+       "printfulColour": "Navy",
+       "printfulSize": "One size",
+       "check": "OK; No art"
+      },
+      {
+       "shopifyVariant": "One size / Khaki",
+       "printfulColour": "Khaki",
+       "printfulSize": "One size",
+       "check": "OK; No art"
+      },
+      {
+       "shopifyVariant": "One size / Caramel",
+       "printfulColour": "Caramel",
+       "printfulSize": "One size",
+       "check": "OK; No art"
+      }
+     ],
+     "checks": "Art and seam placement first; offset kept?"
+    }
+   ]
+  },
+  {
+   "handle": "five-oclock-crewneck",
+   "title": "5:00 Crewneck",
+   "extra": "Codex listing: '5:00 embroidered across the chest', 'Centre-chest embroidery, approximately 115 mm wide', Comfort Colors 1466; says 'Coming soon.' Tag 14-five-oclock. No art. Trademark: keep '5:00', no 'somewhere' or beach imagery.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Crewneck Sweatshirt I Comfort Colors 1466",
+     "catalogId": "971 [UNVERIFIED]",
+     "placement": "Embroidery: 115 mm is wider than the 4 x 4 in Center chest, so the Large front (10 x 6 in) or a design <= 101.6 mm [inferred]",
+     "artFile": "NONE (to draw: light for Ivory; dark for Pepper; Bone one colour for Blue Jean, Espresso [UNVERIFIED])",
+     "artVersion": "Not built",
+     "size": "~115 mm (4.53 in) wide; height unknown",
+     "position": "Centred across the chest; height not set",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Pepper: 1801 White + 1672 Old Gold. Blue Jean, Espresso: 1801 White only",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; No art"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Blue Jean",
+       "printfulColour": "Blue Jean",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; No art"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; No art"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Espresso",
+       "printfulColour": "Espresso",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; No art"
+      }
+     ],
+     "checks": "Placement call and art first."
+    }
+   ]
+  },
+  {
+   "handle": "off-shft-logo-beanie",
+   "title": "OFF SHFT Logo Beanie",
+   "extra": "Live (31 Oct): 'Cuff: the OFF SHFT logo, in 3D puff embroidery, about 125 mm (4.9 in) wide'; 'Cuffed in White or Ribbed in Beige' (no Colour option). Repo (drop1b) planned flat 63 mm.",
+   "groups": [
+    {
+     "style": "Cuffed",
+     "printfulProduct": "Cuffed Beanie | Yupoong 1501KC",
+     "catalogId": "266",
+     "placement": "Embroidery > Front (cuff): 5 x 1.75 in (127 x 44.5 mm)",
+     "artFile": "White: logo-light-62.6mm.png (flat; only drawing)",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready (flat): 62.64 x 18.04 mm (2.47 x 0.71 in). Live ~125 x 36 mm (4.9 x 1.4 in) puff: not drawn, ~1 mm spare each side",
+     "position": "Centred on the cuff (knit, no seam)",
+     "threads": "White: 1800 Black + 1987 Orange",
+     "puff": "LISTING SAYS 3D PUFF; art too thin to puff (5 mm minimum). Puff listed for the 1501KC in API copies [UNVERIFIED]. Owner decides.",
+     "variants": [
+      {
+       "shopifyVariant": "Cuffed",
+       "printfulColour": "White",
+       "printfulSize": "One size",
+       "check": "OK; Puff?"
+      }
+     ],
+     "checks": "Sew-out on knit."
+    },
+    {
+     "style": "Ribbed",
+     "printfulProduct": "Ribbed Knit Beanie | Atlantis (model RIO)",
+     "catalogId": "519",
+     "placement": "Embroidery > Front (cuff): 5 x 1.75 in per an EU API read",
+     "artFile": "Beige: logo-light-62.6mm.png. Beige reads like Bone, so the light file; check a swatch. If it reads as Oat: logo-ink-62.6mm.png (one colour, 1800 Black).",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready (flat): 62.64 x 18.04 mm (2.47 x 0.71 in); live ~125 mm puff not drawn",
+     "position": "Centred on the cuff",
+     "threads": "Beige: 1800 Black + 1987 Orange (no unlimited colour on the RIO)",
+     "puff": "Listing says 3D puff. Puff on the RIO is unconfirmed (two catalogue copies disagree): check the embroidery type in the RIO editor (Canada, then US). The ready art is flat. Your call.",
+     "variants": [
+      {
+       "shopifyVariant": "Ribbed",
+       "printfulColour": "Beige",
+       "printfulSize": "One size",
+       "check": "OK; CA stock? (Mar 2026); Puff?; Swatch?"
+      }
+     ],
+     "checks": "Rib blurs fine lines; sew-out."
+    }
+   ]
+  },
+  {
+   "handle": "the-clock-beanie",
+   "title": "The Clock Beanie",
+   "extra": "Live (31 Oct): 'Cuff: the clock, in 3D puff embroidery, about 43 mm (1.7 in) tall'; Cuffed White, Ribbed Beige. Repo planned flat 25 mm (40 mm leaves 2.2 mm on a stretchy cuff).",
+   "groups": [
+    {
+     "style": "Cuffed",
+     "printfulProduct": "Cuffed Beanie | Yupoong 1501KC",
+     "catalogId": "266",
+     "placement": "Embroidery > Front (cuff): 5 x 1.75 in (127 x 44.5 mm)",
+     "artFile": "White: clock-light-25mm.png (flat)",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready: 11.80 x 25.00 mm (0.46 x 0.98 in). Live ~20.5 x 43 mm (0.8 x 1.7 in) puff: not drawn, ~0.7 mm above and below",
+     "position": "Centred, upright",
+     "threads": "White: 1800 Black + 1987 Orange",
+     "puff": "LISTING SAYS 3D PUFF; art flat. Owner decides.",
+     "variants": [
+      {
+       "shopifyVariant": "Cuffed",
+       "printfulColour": "White",
+       "printfulSize": "One size",
+       "check": "OK; Puff?"
+      }
+     ],
+     "checks": "Sew-out."
+    },
+    {
+     "style": "Ribbed",
+     "printfulProduct": "Ribbed Knit Beanie | Atlantis (model RIO)",
+     "catalogId": "519",
+     "placement": "Embroidery > Front (cuff): 5 x 1.75 in",
+     "artFile": "Beige: clock-light-25mm.png. Light fabric; check a swatch. If it reads as Oat: clock-ink-25mm.png (one colour, 1800 Black).",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready: 11.80 x 25.00 mm (0.46 x 0.98 in); live ~43 mm puff not drawn",
+     "position": "Centred, upright",
+     "threads": "Beige: 1800 Black + 1987 Orange",
+     "puff": "Listing says 3D puff. Puff on the RIO is unconfirmed (two catalogue copies disagree): check the embroidery type in the RIO editor (Canada, then US). The ready art is flat. Your call.",
+     "variants": [
+      {
+       "shopifyVariant": "Ribbed",
+       "printfulColour": "Beige",
+       "printfulSize": "One size",
+       "check": "OK; CA stock?; Puff?; Swatch?"
+      }
+     ],
+     "checks": "Rib blur; sew-out."
+    }
+   ]
+  },
+  {
+   "handle": "punched-out-beanie",
+   "title": "Punched Out. Beanie",
+   "extra": "Live (31 Oct): 'Cuff: PUNCHED OUT., 3D puff embroidery on two lines, about 125 mm (4.9 in) wide'; Cuffed White, Ribbed Beige. Repo planned the flat stack. Trademark: POWER PUNCHOUT first.",
+   "groups": [
+    {
+     "style": "Cuffed",
+     "printfulProduct": "Cuffed Beanie | Yupoong 1501KC",
+     "catalogId": "266",
+     "placement": "Embroidery > Front (cuff): 5 x 1.75 in (127 x 44.5 mm)",
+     "artFile": "White: punched-out-stack-light-63.6mm.png (flat, two lines)",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "Ready: 63.59 x 18.00 mm (2.50 x 0.71 in). Live ~125 x 35 mm (4.9 x 1.4 in) puff: not drawn",
+     "position": "Centred on the cuff",
+     "threads": "White: 1800 Black + 1987 Orange",
+     "puff": "LISTING SAYS 3D PUFF; art flat. Owner decides.",
+     "variants": [
+      {
+       "shopifyVariant": "Cuffed",
+       "printfulColour": "White",
+       "printfulSize": "One size",
+       "check": "OK; Puff?"
+      }
+     ],
+     "checks": "Sew-out."
+    },
+    {
+     "style": "Ribbed",
+     "printfulProduct": "Ribbed Knit Beanie | Atlantis (model RIO)",
+     "catalogId": "519",
+     "placement": "Embroidery > Front (cuff): 5 x 1.75 in",
+     "artFile": "Beige: punched-out-stack-light-63.6mm.png. Light fabric; check a swatch. If it reads as Oat: the same file with both threads 1800 Black.",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "Ready: 63.59 x 18.00 mm (2.50 x 0.71 in); live ~125 mm puff not drawn",
+     "position": "Centred on the cuff",
+     "threads": "Beige: 1800 Black + 1987 Orange",
+     "puff": "Listing says 3D puff. Puff on the RIO is unconfirmed (two catalogue copies disagree): check the embroidery type in the RIO editor (Canada, then US). The ready art is flat. Your call.",
+     "variants": [
+      {
+       "shopifyVariant": "Ribbed",
+       "printfulColour": "Beige",
+       "printfulSize": "One size",
+       "check": "OK; CA stock?; Puff?; Swatch?"
+      }
+     ],
+     "checks": "Rib blur; sew-out."
+    }
+   ]
+  },
+  {
+   "handle": "off-shft-logo-bucket-hat",
+   "title": "OFF SHFT Logo Bucket Hat",
+   "extra": "Live (31 Oct): 'Front: the OFF SHFT logo, in 3D puff embroidery, about 125 mm (4.9 in) wide'; 'Organic in Stone or Classic in White' (no Colour option). Repo planned flat.",
+   "groups": [
+    {
+     "style": "Organic",
+     "printfulProduct": "Organic Bucket Hat",
+     "catalogId": "547",
+     "placement": "Embroidery > Front of crown: area not found (~5 x 1.75 in assumed) [UNVERIFIED]",
+     "artFile": "Stone: logo-light-62.6mm.png (flat)",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready: 62.64 x 18.04 mm (2.47 x 0.71 in); live ~125 x 36 mm puff not drawn",
+     "position": "Centred; if photos show a centre-front seam: 5.2 mm (0.20 in) to the viewer's right",
+     "threads": "Stone: 1800 Black + 1987 Orange",
+     "puff": "LISTING SAYS 3D PUFF; puff on bucket hats unconfirmed; art flat.",
+     "variants": [
+      {
+       "shopifyVariant": "Organic",
+       "printfulColour": "Stone",
+       "printfulSize": "One size",
+       "check": "Colour?; Puff?"
+      }
+     ],
+     "checks": "Front area and seam unknown; sew-out."
+    },
+    {
+     "style": "Classic",
+     "printfulProduct": "Bucket Hat I Big Accessories BX003",
+     "catalogId": "379",
+     "placement": "Embroidery > Front of crown: 5.5 x 2 in (140 x 51 mm) per Printify's copy [UNVERIFIED]",
+     "artFile": "White: logo-light-62.6mm.png (flat)",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready: 62.64 x 18.04 mm (2.47 x 0.71 in); live ~125 mm puff not drawn",
+     "position": "Centred",
+     "threads": "White: 1800 Black + 1987 Orange",
+     "puff": "LISTING SAYS 3D PUFF; unconfirmed; art flat.",
+     "variants": [
+      {
+       "shopifyVariant": "Classic",
+       "printfulColour": "White",
+       "printfulSize": "One size",
+       "check": "OK; Puff?"
+      }
+     ],
+     "checks": "Sew-out."
+    }
+   ]
+  },
+  {
+   "handle": "the-clock-bucket-hat",
+   "title": "The Clock Bucket Hat",
+   "extra": "Live (31 Oct): 'Front: the clock, in 3D puff embroidery, about 43 mm (1.7 in) tall'; Organic Stone, Classic White. Repo planned flat 25 mm.",
+   "groups": [
+    {
+     "style": "Organic",
+     "printfulProduct": "Organic Bucket Hat",
+     "catalogId": "547",
+     "placement": "Embroidery > Front of crown: area not found [UNVERIFIED]",
+     "artFile": "Stone: clock-light-25mm.png (flat)",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready: 11.80 x 25.00 mm (0.46 x 0.98 in); live ~20.5 x 43 mm puff not drawn",
+     "position": "Centred, upright; if a centre seam shows: 7.4 mm (0.29 in) to the viewer's right",
+     "threads": "Stone: 1800 Black + 1987 Orange",
+     "puff": "LISTING SAYS 3D PUFF; art flat.",
+     "variants": [
+      {
+       "shopifyVariant": "Organic",
+       "printfulColour": "Stone",
+       "printfulSize": "One size",
+       "check": "Colour?; Puff?"
+      }
+     ],
+     "checks": "Area and seam; sew-out."
+    },
+    {
+     "style": "Classic",
+     "printfulProduct": "Bucket Hat I Big Accessories BX003",
+     "catalogId": "379",
+     "placement": "Embroidery > Front of crown: 5.5 x 2 in [UNVERIFIED]",
+     "artFile": "White: clock-light-25mm.png (flat)",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "Ready: 11.80 x 25.00 mm (0.46 x 0.98 in); live ~43 mm puff not drawn",
+     "position": "Centred, upright",
+     "threads": "White: 1800 Black + 1987 Orange",
+     "puff": "LISTING SAYS 3D PUFF; art flat.",
+     "variants": [
+      {
+       "shopifyVariant": "Classic",
+       "printfulColour": "White",
+       "printfulSize": "One size",
+       "check": "OK; Puff?"
+      }
+     ],
+     "checks": "Sew-out."
+    }
+   ]
+  },
+  {
+   "handle": "punched-out-bucket-hat",
+   "title": "Punched Out. Bucket Hat",
+   "extra": "Live (31 Oct): 'Front: PUNCHED OUT., 3D puff embroidery on two lines, about 125 mm (4.9 in) wide'; Organic Stone, Classic White. Repo (drop1b) picked the flat one line. Trademark: POWER PUNCHOUT first.",
+   "groups": [
+    {
+     "style": "Organic",
+     "printfulProduct": "Organic Bucket Hat",
+     "catalogId": "547",
+     "placement": "Embroidery > Front of crown: area not found [UNVERIFIED]",
+     "artFile": "Stone: punched-out-stack-light-63.6mm.png (flat, two lines as the listing says; the repo's first pick was the one line)",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "Ready: 63.59 x 18.00 mm (2.50 x 0.71 in); live ~125 x 35 mm puff not drawn",
+     "position": "Centred (the stack stays centred even over a seam)",
+     "threads": "Stone: 1800 Black + 1987 Orange",
+     "puff": "LISTING SAYS 3D PUFF; art flat.",
+     "variants": [
+      {
+       "shopifyVariant": "Organic",
+       "printfulColour": "Stone",
+       "printfulSize": "One size",
+       "check": "Colour?; Puff?"
+      }
+     ],
+     "checks": "Area; sew-out."
+    },
+    {
+     "style": "Classic",
+     "printfulProduct": "Bucket Hat I Big Accessories BX003",
+     "catalogId": "379",
+     "placement": "Embroidery > Front of crown: 5.5 x 2 in [UNVERIFIED]",
+     "artFile": "White: punched-out-stack-light-63.6mm.png",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "Ready: 63.59 x 18.00 mm (2.50 x 0.71 in); live ~125 mm puff not drawn",
+     "position": "Centred: 38.1 mm each side of 139.7 mm",
+     "threads": "White: 1800 Black + 1987 Orange",
+     "puff": "LISTING SAYS 3D PUFF; art flat.",
+     "variants": [
+      {
+       "shopifyVariant": "Classic",
+       "printfulColour": "White",
+       "printfulSize": "One size",
+       "check": "OK; Puff?"
+      }
+     ],
+     "checks": "Sew-out."
+    }
+   ]
+  },
+  {
+   "handle": "off-shft-logo-quarter-zip",
+   "title": "OFF SHFT Logo Quarter-Zip",
+   "extra": "Changed live 1 Nov (05:46 UTC; edited again to 06:18): Colour added, Sandshell and Smoke (12 variants). Smoke SKUs end -SMOKE. Description still says 'Unisex fleece, with a stand collar' (M2475). Sandshell is a Lane Seven LS14014 colour.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Fleece Pullover | Cotton Heritage M2475, or Lane Seven LS14014",
+     "catalogId": "674 (M2475); 1473 (LS14014, from a mirror [UNVERIFIED])",
+     "placement": "Embroidery > Left chest: 4 x 4 in, beside the zip (confirmed on the M2475)",
+     "artFile": "Sandshell: logo-light-62.6mm.png. Smoke (if dark [UNVERIFIED]): logo-dark-62.6mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "62.64 x 18.04 mm (2.47 x 0.71 in)",
+     "position": "Centred in the left chest: 19.5 mm (0.77 in) each side",
+     "threads": "Sandshell: 1800 Black + 1987 Orange. Smoke: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Sandshell",
+       "printfulColour": "Sandshell?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Smoke",
+       "printfulColour": "Smoke?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link; Swatch?"
+      }
+     ],
+     "checks": "Printful has already filed all these variants: check which blank and colour they're linked to. The M2475's colours on file are Black and Carbon Grey; Sandshell is a Lane Seven colour. Smoke: light or dark? The dark file is assumed; check a swatch."
+    }
+   ]
+  },
+  {
+   "handle": "the-clock-quarter-zip",
+   "title": "The Clock Quarter-Zip",
+   "extra": "Changed live 1 Nov (05:29, again 06:17 UTC): Colour added, Sandshell and Smoke. Same blank question as the Logo Quarter-Zip.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Fleece Pullover | Cotton Heritage M2475, or Lane Seven LS14014",
+     "catalogId": "674 (M2475); 1473 (LS14014, from a mirror [UNVERIFIED])",
+     "placement": "Embroidery > Left chest: 4 x 4 in",
+     "artFile": "Sandshell: clock-light-25mm.png. Smoke (if dark): clock-dark-25mm.png",
+     "artVersion": "The O, 30 Oct 2026",
+     "size": "11.80 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "Centred, upright: 44.9 mm (1.77 in) each side",
+     "threads": "Sandshell: 1800 Black + 1987 Orange. Smoke: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Sandshell",
+       "printfulColour": "Sandshell?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Smoke",
+       "printfulColour": "Smoke?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link; Swatch?"
+      }
+     ],
+     "checks": "Printful has already filed all these variants: check which blank and colour they're linked to. The M2475's colours on file are Black and Carbon Grey; Sandshell is a Lane Seven colour. Smoke: light or dark? The dark file is assumed; check a swatch."
+    }
+   ]
+  },
+  {
+   "handle": "punched-out-quarter-zip",
+   "title": "Punched Out. Quarter-Zip",
+   "extra": "Changed live 1 Nov (05:29, again 06:18 UTC): Colour added, Sandshell and Smoke. Live: 'Left chest: PUNCHED OUT., embroidered on two lines, about 64 mm'. Trademark: POWER PUNCHOUT first.",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Fleece Pullover | Cotton Heritage M2475, or Lane Seven LS14014",
+     "catalogId": "674 (M2475); 1473 (LS14014, from a mirror [UNVERIFIED])",
+     "placement": "Embroidery > Left chest: 4 x 4 in (no big front: zip)",
+     "artFile": "Sandshell: punched-out-stack-light-63.6mm.png. Smoke (if dark): punched-out-stack-dark-63.6mm.png",
+     "artVersion": "Punched Out. v3, 30 Oct 2026",
+     "size": "63.59 x 18.00 mm (2.50 x 0.71 in)",
+     "position": "Centred: 19.0 mm (0.75 in) each side",
+     "threads": "Sandshell: 1800 Black + 1987 Orange. Smoke: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Sandshell",
+       "printfulColour": "Sandshell?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Smoke",
+       "printfulColour": "Smoke?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link; Swatch?"
+      }
+     ],
+     "checks": "Printful has already filed all these variants: check which blank and colour they're linked to. The M2475's colours on file are Black and Carbon Grey; Sandshell is a Lane Seven colour. Smoke: light or dark? The dark file is assumed; check a swatch."
+    }
+   ]
+  },
+  {
+   "handle": "punched-out-golf-shirt",
+   "title": "Punched Out. Golf Shirt",
+   "extra": "Changed live 1 Nov (06:01 UTC; edited again 06:15): finish moved into Style and Colour added: White, plus Navy (Collegiate Navy on Performance); 72 variants; new colours have their own SKUs (colour suffix). Live: Embroidered = flat, left chest PUNCHED OUT. two lines (~63.6 mm) + left sleeve clock (~25 mm), plain back; Printed = the same printed plus an OFF SHFT logo below the back collar (~75 mm). CONFLICT: Printed finish and back logo not in picks.md. Trademark: POWER PUNCHOUT first.",
+   "groups": [
+    {
+     "style": "Cotton Pique — Embroidered",
+     "printfulProduct": "Unisex Premium Pique Polo Shirt | SOL'S 11362",
+     "catalogId": "810",
+     "placement": "Embroidery > Left chest (4 x 4 in) + Left sleeve top (2 x 3 in), second spot +US$2.95; plain back",
+     "artFile": "White: punched-out-stack-light-63.6mm.png + clock-light-25mm.png. Navy: punched-out-stack-dark-63.6mm.png + clock-dark-25mm.png",
+     "artVersion": "Punched Out. v3 + The O, 30 Oct 2026",
+     "size": "Chest 63.59 x 18.00 mm (2.50 x 0.71 in); sleeve 11.80 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "Chest centred (19.0 mm each side); clock centred on the left sleeve top, upright (19.5 mm each side)",
+     "threads": "White: 1800 Black + 1987 Orange. Navy: 1801 White + 1672 Old Gold",
+     "puff": "No (flat, as listed)",
+     "variants": [
+      {
+       "shopifyVariant": "Cotton Pique — Embroidered / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      },
+      {
+       "shopifyVariant": "Cotton Pique — Embroidered / S, M, L, XL, 2XL, 3XL / Navy",
+       "printfulColour": "Navy",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      }
+     ],
+     "checks": "Maybe made only in Latvia. Owner's ask (clock on the upper back) waits for Large back embroidery in CA/US."
+    },
+    {
+     "style": "Cotton Pique — Printed",
+     "printfulProduct": "Unisex Premium Pique Polo Shirt | SOL'S 11362",
+     "catalogId": "810",
+     "placement": "Print (DTG/DTFlex): left chest + left sleeve + below the back collar [back spot UNVERIFIED: back print or 3 x 3 in Outside label]",
+     "artFile": "White: punched-out-stack-light-63.6mm.png, clock-light-25mm.png, logo-light-75mm-print.png. Navy: punched-out-stack-dark-63.6mm.png, clock-dark-25mm.png, logo-dark-75mm-print.png",
+     "artVersion": "Punched Out. v3 + The O, 30 Oct; back logo brand kit, 31 Oct 2026",
+     "size": "Chest 63.59 x 18.00 mm (2.50 x 0.71 in); sleeve 11.80 x 25.00 mm (0.46 x 0.98 in); back logo 75.00 x 21.60 mm (2.95 x 0.85 in)",
+     "position": "As embroidered; back logo centred under the collar, distance not set (earlier back target: centre 45 mm below the neck seam)",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Cotton Pique — Printed / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      },
+      {
+       "shopifyVariant": "Cotton Pique — Printed / S, M, L, XL, 2XL, 3XL / Navy",
+       "printfulColour": "Navy",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      }
+     ],
+     "checks": "Back spot and size unconfirmed."
+    },
+    {
+     "style": "Classic — Embroidered",
+     "printfulProduct": "Men's Premium Polo Shirt | Port Authority K500",
+     "catalogId": "340 [UNVERIFIED]",
+     "placement": "Embroidery > Left chest (4 x 4 in) + Left sleeve top (2 x 3 in), +US$2.95; plain back",
+     "artFile": "White: punched-out-stack-light-63.6mm.png + clock-light-25mm.png. Navy: punched-out-stack-dark-63.6mm.png + clock-dark-25mm.png",
+     "artVersion": "Punched Out. v3 + The O, 30 Oct 2026",
+     "size": "Chest 63.59 x 18.00 mm (2.50 x 0.71 in); sleeve 11.80 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "As Cotton Pique",
+     "threads": "White: 1800 Black + 1987 Orange. Navy: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Classic — Embroidered / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Classic — Embroidered / S, M, L, XL, 2XL, 3XL / Navy",
+       "printfulColour": "Navy",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      }
+     ],
+     "checks": "K500's 7 colour names unread; sleeve spot per third-party data."
+    },
+    {
+     "style": "Classic — Printed",
+     "printfulProduct": "Men's Premium Polo Shirt | Port Authority K500",
+     "catalogId": "340 [UNVERIFIED]",
+     "placement": "Print: left chest + left sleeve + below the back collar [UNVERIFIED]",
+     "artFile": "White: punched-out-stack-light-63.6mm.png, clock-light-25mm.png, logo-light-75mm-print.png. Navy: punched-out-stack-dark-63.6mm.png, clock-dark-25mm.png, logo-dark-75mm-print.png",
+     "artVersion": "As Cotton Pique — Printed",
+     "size": "As Cotton Pique — Printed",
+     "position": "As Cotton Pique — Printed",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Classic — Printed / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Classic — Printed / S, M, L, XL, 2XL, 3XL / Navy",
+       "printfulColour": "Navy",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      }
+     ],
+     "checks": "Print spots unconfirmed."
+    },
+    {
+     "style": "Performance — Embroidered",
+     "printfulProduct": "Unisex Adidas Sport Polo Shirt | A430",
+     "catalogId": "not found",
+     "placement": "Embroidery > Left chest + LEFT sleeve top only (adidas logo on the right), +US$2.95; plain back",
+     "artFile": "White: punched-out-stack-light-63.6mm.png + clock-light-25mm.png. Collegiate Navy: punched-out-stack-dark-63.6mm.png + clock-dark-25mm.png",
+     "artVersion": "Punched Out. v3 + The O, 30 Oct 2026",
+     "size": "Chest 63.59 x 18.00 mm (2.50 x 0.71 in); sleeve 11.80 x 25.00 mm (0.46 x 0.98 in)",
+     "position": "As Cotton Pique",
+     "threads": "White: 1800 Black + 1987 Orange. Collegiate Navy: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Performance — Embroidered / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Performance — Embroidered / S, M, L, XL, 2XL, 3XL / Collegiate Navy",
+       "printfulColour": "Collegiate Navy",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      }
+     ],
+     "checks": "A review says it embroiders poorly: sample first. 5 colour names unread."
+    },
+    {
+     "style": "Performance — Printed",
+     "printfulProduct": "Unisex Adidas Sport Polo Shirt | A430",
+     "catalogId": "not found",
+     "placement": "Print: left chest + left sleeve + below the back collar [UNVERIFIED]",
+     "artFile": "White: punched-out-stack-light-63.6mm.png, clock-light-25mm.png, logo-light-75mm-print.png. Collegiate Navy: punched-out-stack-dark-63.6mm.png, clock-dark-25mm.png, logo-dark-75mm-print.png",
+     "artVersion": "As Cotton Pique — Printed",
+     "size": "As Cotton Pique — Printed",
+     "position": "As Cotton Pique — Printed",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Performance — Printed / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Performance — Printed / S, M, L, XL, 2XL, 3XL / Collegiate Navy",
+       "printfulColour": "Collegiate Navy",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      }
+     ],
+     "checks": "A430 print options [UNVERIFIED]."
+    }
+   ]
+  },
+  {
+   "handle": "for-a-reason-hat",
+   "title": "For a Reason. Hat",
+   "extra": "Owner's listing (29 Oct): 'FOR A REASON. in raised 3D puff embroidery'; Charcoal and Evergreen on the Yupoong 6606, Ivory on a Comfort Colors CCST0. Two groups because the colour decides the blank. No art. Trademark: check HERE FOR A REASON (US SN 98183164) first.",
+   "groups": [
+    {
+     "style": "(no Style option) Colour: Charcoal, Evergreen",
+     "printfulProduct": "Retro Trucker Hat | Yupoong 6606",
+     "catalogId": "252",
+     "placement": "Embroidery > Front: 5.9 x 2 in (150 x 51 mm), 3D puff per the listing",
+     "artFile": "NONE (owner's mockups only); dark file when drawn",
+     "artVersion": "Not built",
+     "size": "Not given; no file",
+     "position": "6-panel: letter gap near centre plus a measured shift, once drawn",
+     "threads": "1801 White + 1672 Old Gold (puff has its own thread list)",
+     "puff": "LISTING SAYS 3D PUFF: 5-12.5 mm strokes means ~19-25 mm caps, ~283 mm wide in Unbounded Bold: no hat front holds it. Flat, or a heavier shorter puff drawing; ~+US$1.50 [UNVERIFIED].",
+     "variants": [
+      {
+       "shopifyVariant": "One size / Charcoal",
+       "printfulColour": "Charcoal",
+       "printfulSize": "One size",
+       "check": "OK; No art"
+      },
+      {
+       "shopifyVariant": "One size / Evergreen",
+       "printfulColour": "Evergreen",
+       "printfulSize": "One size",
+       "check": "OK; No art"
+      }
+     ],
+     "checks": "Size, font, puff or flat first."
+    },
+    {
+     "style": "(no Style option) Colour: Ivory",
+     "printfulProduct": "Check the existing link: no Printful page was found for the Comfort Colors CCST0 the listing names",
+     "catalogId": "?",
+     "placement": "Depends on the blank it is linked to",
+     "artFile": "NONE; light file when drawn",
+     "artVersion": "Not built",
+     "size": "Not given",
+     "position": "Not set",
+     "threads": "1800 Black + 1987 Orange when drawn",
+     "puff": "Listing says 3D puff; no blank to check",
+     "variants": [
+      {
+       "shopifyVariant": "One size / Ivory",
+       "printfulColour": "?",
+       "printfulSize": "One size",
+       "check": "Check link; No art"
+      }
+     ],
+     "checks": "Printful has already filed this variant (with the 5-Panel, Rope Cap and Organic bucket hat), so it is linked to something: check what. Nearest found: the Comfort Colors CCWC0 Coastal Washed Cap, which has Ivory (print only per one copy [UNVERIFIED]). Then fix the listing text or drop Ivory."
+    }
+   ]
+  },
+  {
+   "handle": "nowhere-to-be-hoodie",
+   "title": "Nowhere To Be. Hoodie",
+   "extra": "Changed live 1 Nov (05:47, 06:08, again 06:14 UTC): finish moved into Style; Colour added: Oversized Bone, Black, Pine Green; Garment-Dyed White, Pepper, Blue Spruce (72 variants; new colours have their own SKUs (colour suffix)). Live: two lines at the left chest, ~68 mm. Trademark: open NOWHERE TO BE (US serial 85784193) first; never shorten to NOWHERE.",
+   "groups": [
+    {
+     "style": "Oversized — Embroidered",
+     "printfulProduct": "Unisex Relax Hoodie | AS Colour 5161",
+     "catalogId": "734",
+     "placement": "Embroidery > Left chest: 4 x 4 in (101.6 mm)",
+     "artFile": "Bone: nowhere-to-be-light-67.7mm.png. Black, Pine Green: nowhere-to-be-dark-67.7mm.png",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "67.66 x 18.00 mm (2.66 x 0.71 in), two lines, cap 7",
+     "position": "Centred in the left chest: 17.0 mm (0.67 in) each side",
+     "threads": "Bone: 1800 Black + 1987 Orange. Black, Pine Green: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Bone",
+       "printfulColour": "Bone?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Black",
+       "printfulColour": "Black",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      },
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Pine Green",
+       "printfulColour": "Pine Green",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      }
+     ],
+     "checks": "Not cold-read or sewn out (E slots 1.36, B counters 1.39 mm). Bone: the 5161 colours on file (Athletic Heather, Black, Cobalt, Pine Green) came from a blog post and two shops, not Printful's picker, and Printful has already filed the Bone variants. Check the existing link and the 5161 colour picker."
+    },
+    {
+     "style": "Oversized — Printed",
+     "printfulProduct": "Unisex Relax Hoodie | AS Colour 5161",
+     "catalogId": "734",
+     "placement": "Print (DTG/DTFlex): wearer's left chest",
+     "artFile": "Bone: nowhere-to-be-light-67.7mm.png. Black, Pine Green: nowhere-to-be-dark-67.7mm.png",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "67.66 x 18.00 mm (2.66 x 0.71 in)",
+     "position": "As the embroidered version",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Bone",
+       "printfulColour": "Bone?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Black",
+       "printfulColour": "Black",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      },
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Pine Green",
+       "printfulColour": "Pine Green",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      }
+     ],
+     "checks": "Printed vs picks.md. Bone: the 5161 colours on file (Athletic Heather, Black, Cobalt, Pine Green) came from a blog post and two shops, not Printful's picker, and Printful has already filed the Bone variants. Check the existing link and the 5161 colour picker."
+    },
+    {
+     "style": "Garment-Dyed — Embroidered",
+     "printfulProduct": "Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567",
+     "catalogId": "970",
+     "placement": "Embroidery > Left chest: 4 x 4 in",
+     "artFile": "White: nowhere-to-be-light-67.7mm.png. Pepper, Blue Spruce: nowhere-to-be-dark-67.7mm.png",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "67.66 x 18.00 mm (2.66 x 0.71 in)",
+     "position": "Centred: 17.0 mm (0.67 in) each side",
+     "threads": "White: 1800 Black + 1987 Orange. Pepper, Blue Spruce: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Swatch?"
+      }
+     ],
+     "checks": "Sew-out with topping."
+    },
+    {
+     "style": "Garment-Dyed — Printed",
+     "printfulProduct": "Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567",
+     "catalogId": "970",
+     "placement": "Print (DTG/DTFlex): wearer's left chest",
+     "artFile": "White: nowhere-to-be-light-67.7mm.png. Pepper, Blue Spruce: nowhere-to-be-dark-67.7mm.png",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "67.66 x 18.00 mm (2.66 x 0.71 in)",
+     "position": "As the embroidered version",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Swatch?"
+      }
+     ],
+     "checks": "Printed vs picks.md."
+    }
+   ]
+  },
+  {
+   "handle": "suns-still-up-hat",
+   "title": "Sun’s Still Up. Hat",
+   "extra": "Live: 'Front: SUN'S STILL UP., embroidered on two lines, about 60 mm (2.4 in) wide'. No Colour option. Summer line: owner's call over winter. Trademark: search SUN'S STILL UP with and without the apostrophe (nearest SUN'S OUT, BUNS OUT, US Reg. 4544740).",
+   "groups": [
+    {
+     "style": "5-Panel",
+     "printfulProduct": "5 Panel Mid-Profile Baseball Cap | Otto Cap 31-069",
+     "catalogId": "952",
+     "placement": "Embroidery > Front: 6.3 x 2.55 in [UNVERIFIED]; seamless",
+     "artFile": "Mockup cap dark: suns-still-up-dark-63.2mm.png (light cap: suns-still-up-light-63.2mm.png)",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "File 63.23 x 18.00 mm (2.49 x 0.71 in); ink 60.39 mm wide",
+     "position": "Centre the FILE, not the ink (2.85 mm empty left margin); no shift. Never on a 6-panel cap as drawn.",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "5-Panel",
+       "printfulColour": "none set (mockup: Dark Green/Natural)",
+       "printfulSize": "One size",
+       "check": "Pick a colour"
+      }
+     ],
+     "checks": "Cold read and sew-out (S apertures 1.29 mm)."
+    },
+    {
+     "style": "Rope Cap",
+     "printfulProduct": "Golf Rope Cap | Big Accessories BA671",
+     "catalogId": "not found",
+     "placement": "Embroidery > Front: area not found; seamless lined front",
+     "artFile": "suns-still-up-dark-63.2mm.png (light cap: suns-still-up-light-63.2mm.png)",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "File 63.23 x 18.00 mm (2.49 x 0.71 in)",
+     "position": "Centre the file; no shift",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "Rope Cap",
+       "printfulColour": "none set (mockup: Black/White)",
+       "printfulSize": "One size",
+       "check": "Pick a colour"
+      }
+     ],
+     "checks": "Front area; lining wrinkles: sample."
+    }
+   ]
+  },
+  {
+   "handle": "no-alarm-set-crewneck",
+   "title": "No Alarm Set. Crewneck",
+   "extra": "Changed live 1 Nov (05:35, again 06:03 UTC): Colour added, Ivory and Pepper (Pepper SKUs end -PEPPER). Live: one line across the centre front, ~230 mm. Trademark: search NO ALARM SET (nearest NO ALARM, US serial 73382366, abandoned).",
+   "groups": [
+    {
+     "style": "(no Style option)",
+     "printfulProduct": "Unisex Garment-Dyed Lightweight Fleece Crewneck Sweatshirt I Comfort Colors 1466",
+     "catalogId": "971 [UNVERIFIED]",
+     "placement": "Embroidery > Large front: 10 x 6 in (254 x 152 mm), Design Maker only",
+     "artFile": "Ivory: no-alarm-set-light-229.7mm.png. Pepper: no-alarm-set-dark-229.7mm.png",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "229.73 x 16.27 mm (9.04 x 0.64 in), cap 15.6",
+     "position": "Centred: 12.1 mm (0.48 in) each side; height not set",
+     "threads": "Ivory: 1800 Black + 1987 Orange. Pepper: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Ivory",
+       "printfulColour": "Ivory",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "S, M, L, XL, 2XL, 3XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      }
+     ],
+     "checks": "Stitch charge (est. 3,000-6,000 stitches [UNVERIFIED]). Sew-out (M crotches)."
+    }
+   ]
+  },
+  {
+   "handle": "banked-time-hat",
+   "title": "Banked Time. Hat",
+   "extra": "Live: 'Front: BANKED TIME., embroidered on one line, about 96 mm (3.8 in) wide'. No Colour option. Trademark: search BANKED TIME (nearest TIME BANK, US serial 87358423, finance).",
+   "groups": [
+    {
+     "style": "Dad Hat",
+     "printfulProduct": "Classic Dad Hat | Yupoong 6245CM",
+     "catalogId": "206",
+     "placement": "Embroidery > Front (larger front): 5.5 x 2 in (140 x 51 mm)",
+     "artFile": "Mockup cap dark: banked-time-dark-95.7mm.png (light cap: banked-time-light-95.7mm.png)",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "95.71 x 7.09 mm (3.77 x 0.28 in), cap 7",
+     "position": "Centre, then 1.94 mm (0.08 in) to the viewer's right: the seam falls in the 2.24 mm E-D gap.",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "Dad Hat",
+       "printfulColour": "none set (mockup: Spruce)",
+       "printfulSize": "One size",
+       "check": "Pick a colour"
+      }
+     ],
+     "checks": "Offset kept? Sew-out with the seam in the gap."
+    },
+    {
+     "style": "Retro Trucker",
+     "printfulProduct": "Retro Trucker Hat | Yupoong 6606",
+     "catalogId": "252",
+     "placement": "Embroidery > Front: 5.9 x 2 in (150 x 51 mm)",
+     "artFile": "banked-time-dark-95.7mm.png (light cap: banked-time-light-95.7mm.png)",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "95.71 x 7.09 mm (3.77 x 0.28 in)",
+     "position": "Centre, then 1.94 mm (0.08 in) to the viewer's right: seam in the E-D gap",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "Retro Trucker",
+       "printfulColour": "none set (mockup: Charcoal/Black)",
+       "printfulSize": "One size",
+       "check": "Pick a colour"
+      }
+     ],
+     "checks": "Offset kept? Sew-out."
+    }
+   ]
+  },
+  {
+   "handle": "not-picking-up-hoodie",
+   "title": "Not Picking Up. Hoodie",
+   "extra": "Changed live 1 Nov (05:42, 06:05, again 06:15 UTC): finish moved into Style; Colour added: Oversized Pine Green, Bone, Black; Garment-Dyed Pepper, White, Blue Spruce (72 variants; new colours have their own SKUs (colour suffix)). Live: Printed = one line ~230 mm; Oversized Embroidered = two lines at the centre chest ~100 mm (no art); Garment-Dyed Embroidered = the one line. Trademark: search NOT PICKING UP (nearest DONT PICK UP NO MATTER WHAT!, US serial 86227812, abandoned).",
+   "groups": [
+    {
+     "style": "Oversized — Printed",
+     "printfulProduct": "Unisex Relax Hoodie | AS Colour 5161",
+     "catalogId": "734",
+     "placement": "Print (DTG/DTFlex): Front, one line across the centre",
+     "artFile": "Bone: not-picking-up-light-229.9mm.png. Pine Green, Black: not-picking-up-dark-229.9mm.png",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "229.85 x 15.12 mm (9.05 x 0.60 in), cap 14.5",
+     "position": "Centred left to right; height not set",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Pine Green",
+       "printfulColour": "Pine Green",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; Swatch?"
+      },
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Bone",
+       "printfulColour": "Bone?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "Oversized — Printed / S, M, L, XL, 2XL, 3XL / Black",
+       "printfulColour": "Black",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK"
+      }
+     ],
+     "checks": "Printed vs picks.md. Bone: the 5161 colours on file (Athletic Heather, Black, Cobalt, Pine Green) came from a blog post and two shops, not Printful's picker, and Printful has already filed the Bone variants. Check the existing link and the 5161 colour picker."
+    },
+    {
+     "style": "Oversized — Embroidered",
+     "printfulProduct": "Unisex Relax Hoodie | AS Colour 5161",
+     "catalogId": "734",
+     "placement": "Embroidery > Center chest: 4 x 4 in (live: two centred lines, ~100 mm)",
+     "artFile": "No file yet: the two-line stack the listing describes (~100 mm at the centre chest) isn't drawn. Ready alternative: the one line on the 5161 Large front, as on the Printed version (Bone: not-picking-up-light-229.9mm.png; Black, Pine Green: not-picking-up-dark-229.9mm.png).",
+     "artVersion": "Not built",
+     "size": "~100 mm (3.9 in) wide, two lines: ~0.8 mm spare each side; height unknown",
+     "position": "Centred (once drawn)",
+     "threads": "Bone: 1800 Black + 1987 Orange. Pine Green, Black: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Pine Green",
+       "printfulColour": "Pine Green",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; No art; Swatch?"
+      },
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Bone",
+       "printfulColour": "Bone?",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Check link"
+      },
+      {
+       "shopifyVariant": "Oversized — Embroidered / S, M, L, XL, 2XL, 3XL / Black",
+       "printfulColour": "Black",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "OK; No art"
+      }
+     ],
+     "checks": "CONFLICT: designs/phrases/notes.md calls this stack lopsided: build and check it, or use the one line on the Large front. Bone: the 5161 colours on file (Athletic Heather, Black, Cobalt, Pine Green) came from a blog post and two shops, not Printful's picker, and Printful has already filed the Bone variants. Check the existing link and the 5161 colour picker."
+    },
+    {
+     "style": "Garment-Dyed — Embroidered",
+     "printfulProduct": "Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567",
+     "catalogId": "970",
+     "placement": "Embroidery > Large front: 10 x 6 in (254 x 152 mm), Design Maker only",
+     "artFile": "White: not-picking-up-light-229.9mm.png. Pepper, Blue Spruce: not-picking-up-dark-229.9mm.png",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "229.85 x 15.12 mm (9.05 x 0.60 in)",
+     "position": "Centred: 12.07 mm (0.48 in) each side; height not set",
+     "threads": "White: 1800 Black + 1987 Orange. Pepper, Blue Spruce: 1801 White + 1672 Old Gold",
+     "puff": "No",
+     "variants": [
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Embroidered / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Swatch?"
+      }
+     ],
+     "checks": "Stitch charge; sew-out (G and C mouths 2.36 mm)."
+    },
+    {
+     "style": "Garment-Dyed — Printed",
+     "printfulProduct": "Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567",
+     "catalogId": "970",
+     "placement": "Print (DTG/DTFlex): Front, one line across the centre",
+     "artFile": "White: not-picking-up-light-229.9mm.png. Pepper, Blue Spruce: not-picking-up-dark-229.9mm.png",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "229.85 x 15.12 mm (9.05 x 0.60 in)",
+     "position": "Centred left to right; height not set",
+     "threads": "None (printed)",
+     "puff": "No (printed)",
+     "variants": [
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / Pepper",
+       "printfulColour": "Pepper",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / White",
+       "printfulColour": "White",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?"
+      },
+      {
+       "shopifyVariant": "Garment-Dyed — Printed / S, M, L, XL, 2XL, 3XL / Blue Spruce",
+       "printfulColour": "Blue Spruce",
+       "printfulSize": "S, M, L, XL, 2XL, 3XL",
+       "check": "Colour?; Swatch?"
+      }
+     ],
+     "checks": "Printed vs picks.md."
+    }
+   ]
+  },
+  {
+   "handle": "parked-trucker-hat",
+   "title": "Parked. Trucker Hat",
+   "extra": "Live: 'Front: PARKED., embroidered, about 56 mm (2.2 in) wide', Retro Trucker; one Default Title variant. Link this one first as the test (note title, description, price, photos before and after). Trademark: search PARKED and NATIONALLY PARKED; PARKE (a women's brand selling hats) is one letter off.",
+   "groups": [
+    {
+     "style": "(no options: one Default Title variant)",
+     "printfulProduct": "Retro Trucker Hat | Yupoong 6606",
+     "catalogId": "252",
+     "placement": "Embroidery > Front: 5.9 x 2 in (150 x 51 mm)",
+     "artFile": "Mockup cap dark: parked-dark-56.1mm.png (light cap: parked-light-56.1mm.png)",
+     "artVersion": "Phrases, 30 Oct 2026",
+     "size": "56.08 x 7.09 mm (2.21 x 0.28 in), cap 7",
+     "position": "Centre, then 1.95 mm (0.08 in) to the viewer's right: seam in the 2.13 mm R-K gap",
+     "threads": "Dark: 1801 White + 1672 Old Gold",
+     "puff": "No (flat)",
+     "variants": [
+      {
+       "shopifyVariant": "Default Title",
+       "printfulColour": "none set (mockup: Evergreen)",
+       "printfulSize": "One size",
+       "check": "Pick a colour"
+      }
+     ],
+     "checks": "Offset kept? 2.13 mm gap: sew-out."
+    }
+   ]
+  }
+ ],
+ "printFiles": [
+  {
+   "name": "logo-light-62.6mm",
+   "source": "designs/mark/final/the-o/logo-light.svg",
+   "sha256": "f24ba5af",
+   "mm": "62.64 x 18.04",
+   "inches": "2.47 x 0.71",
+   "embroidery": {
+    "px": "1480 x 426",
+    "dpi": 600,
+    "threads": [
+     "1800 Black",
+     "1987 Orange"
+    ]
+   },
+   "print": {
+    "mm": "62.64 x 18.04",
+    "inches": "2.47 x 0.71",
+    "px": "740 x 213",
+    "dpi": 300
+   },
+   "usedBy": [
+    "OFF SHFT Logo Hoodie",
+    "OFF SHFT Logo Crewneck",
+    "OFF SHFT Logo T-Shirt",
+    "OFF SHFT Logo Jacket",
+    "The Rest Is Ours. Hoodie",
+    "OFF SHFT Logo Beanie",
+    "OFF SHFT Logo Bucket Hat",
+    "OFF SHFT Logo Quarter-Zip"
+   ]
+  },
+  {
+   "name": "logo-dark-62.6mm",
+   "source": "designs/mark/final/the-o/logo-dark.svg",
+   "sha256": "7256b6c9",
+   "mm": "62.64 x 18.04",
+   "inches": "2.47 x 0.71",
+   "embroidery": {
+    "px": "1480 x 426",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "62.64 x 18.04",
+    "inches": "2.47 x 0.71",
+    "px": "740 x 213",
+    "dpi": 300
+   },
+   "usedBy": [
+    "OFF SHFT Logo Hat",
+    "OFF SHFT Logo Hoodie",
+    "OFF SHFT Logo Sweatpants",
+    "OFF SHFT Logo T-Shirt",
+    "OFF SHFT Logo Jacket",
+    "The Rest Is Ours. Hoodie",
+    "OFF SHFT Logo Quarter-Zip"
+   ]
+  },
+  {
+   "name": "logo-bone-62.6mm",
+   "source": "designs/mark/final/the-o/logo-one-colour-bone.svg",
+   "sha256": "8f293be6",
+   "mm": "62.64 x 18.97",
+   "inches": "2.47 x 0.75",
+   "embroidery": {
+    "px": "1480 x 448",
+    "dpi": 600,
+    "threads": [
+     "1801 White"
+    ]
+   },
+   "print": {
+    "mm": "62.64 x 18.97",
+    "inches": "2.47 x 0.75",
+    "px": "740 x 224",
+    "dpi": 300
+   },
+   "usedBy": [
+    "OFF SHFT Logo Hoodie",
+    "OFF SHFT Logo Crewneck",
+    "OFF SHFT Logo Sweatpants",
+    "The Rest Is Ours. Hoodie"
+   ]
+  },
+  {
+   "name": "logo-ink-62.6mm",
+   "source": "designs/mark/final/the-o/logo-one-colour-ink.svg",
+   "sha256": "97a72a13",
+   "mm": "62.64 x 18.97",
+   "inches": "2.47 x 0.75",
+   "embroidery": {
+    "px": "1480 x 448",
+    "dpi": 600,
+    "threads": [
+     "1800 Black"
+    ]
+   },
+   "print": {
+    "mm": "62.64 x 18.97",
+    "inches": "2.47 x 0.75",
+    "px": "740 x 224",
+    "dpi": 300
+   },
+   "usedBy": [
+    "OFF SHFT Logo Beanie"
+   ]
+  },
+  {
+   "name": "clock-light-25mm",
+   "source": "designs/mark/final/the-o/symbol-light.svg",
+   "sha256": "623c7079",
+   "mm": "11.80 x 25.00",
+   "inches": "0.46 x 0.98",
+   "embroidery": {
+    "px": "279 x 591",
+    "dpi": 600,
+    "threads": [
+     "1800 Black",
+     "1987 Orange"
+    ]
+   },
+   "print": {
+    "mm": "11.80 x 25.00",
+    "inches": "0.46 x 0.98",
+    "px": "139 x 295",
+    "dpi": 300
+   },
+   "usedBy": [
+    "The Clock Hoodie",
+    "The Clock Crewneck",
+    "The Clock T-Shirt",
+    "The Clock Jacket",
+    "The Clock Beanie",
+    "The Clock Bucket Hat",
+    "The Clock Quarter-Zip",
+    "Punched Out. Golf Shirt"
+   ]
+  },
+  {
+   "name": "clock-dark-25mm",
+   "source": "designs/mark/final/the-o/symbol-dark.svg",
+   "sha256": "321610d7",
+   "mm": "11.80 x 25.00",
+   "inches": "0.46 x 0.98",
+   "embroidery": {
+    "px": "279 x 591",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "11.80 x 25.00",
+    "inches": "0.46 x 0.98",
+    "px": "139 x 295",
+    "dpi": 300
+   },
+   "usedBy": [
+    "The Clock Hoodie",
+    "The Clock Sweatpants",
+    "The Clock T-Shirt",
+    "The Clock Jacket",
+    "The Clock Quarter-Zip",
+    "Punched Out. Golf Shirt"
+   ]
+  },
+  {
+   "name": "clock-bone-25mm",
+   "source": "designs/mark/final/the-o/symbol-one-colour-bone.svg",
+   "sha256": "afc2b992",
+   "mm": "11.67 x 25.00",
+   "inches": "0.46 x 0.98",
+   "embroidery": {
+    "px": "276 x 591",
+    "dpi": 600,
+    "threads": [
+     "1801 White"
+    ]
+   },
+   "print": {
+    "mm": "11.67 x 25.00",
+    "inches": "0.46 x 0.98",
+    "px": "138 x 295",
+    "dpi": 300
+   },
+   "usedBy": [
+    "The Clock Hoodie",
+    "The Clock Crewneck",
+    "The Clock Sweatpants"
+   ]
+  },
+  {
+   "name": "clock-ink-25mm",
+   "source": "designs/mark/final/the-o/symbol-one-colour-ink.svg",
+   "sha256": "24a53072",
+   "mm": "11.67 x 25.00",
+   "inches": "0.46 x 0.98",
+   "embroidery": {
+    "px": "276 x 591",
+    "dpi": 600,
+    "threads": [
+     "1800 Black"
+    ]
+   },
+   "print": {
+    "mm": "11.67 x 25.00",
+    "inches": "0.46 x 0.98",
+    "px": "138 x 295",
+    "dpi": 300
+   },
+   "usedBy": [
+    "The Clock Beanie"
+   ]
+  },
+  {
+   "name": "clock-dark-40mm",
+   "source": "designs/mark/final/the-o/symbol-dark-40mm.svg",
+   "sha256": "fc0156df",
+   "mm": "19.05 x 40.00",
+   "inches": "0.75 x 1.57",
+   "embroidery": {
+    "px": "450 x 945",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "19.05 x 40.00",
+    "inches": "0.75 x 1.57",
+    "px": "225 x 472",
+    "dpi": 300
+   },
+   "usedBy": [
+    "The Clock Hat"
+   ]
+  },
+  {
+   "name": "punched-out-line-dark-97.5mm",
+   "source": "designs/09-punched-out/v3/one-line-dark.svg",
+   "sha256": "be1ce373",
+   "mm": "97.47 x 7.30",
+   "inches": "3.84 x 0.29",
+   "embroidery": {
+    "px": "2302 x 172",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "97.47 x 7.30",
+    "inches": "3.84 x 0.29",
+    "px": "1151 x 86",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Punched Out. Hat"
+   ]
+  },
+  {
+   "name": "punched-out-large-light-229.8mm",
+   "source": "designs/09-punched-out/v3/one-line-large-light.svg",
+   "sha256": "6b64f980",
+   "mm": "229.75 x 17.20",
+   "inches": "9.05 x 0.68",
+   "embroidery": {
+    "px": "5427 x 406",
+    "dpi": 600,
+    "threads": [
+     "1800 Black",
+     "1987 Orange"
+    ]
+   },
+   "print": {
+    "mm": "229.75 x 17.20",
+    "inches": "9.05 x 0.68",
+    "px": "2714 x 203",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Punched Out. Hoodie",
+    "Punched Out. Crewneck"
+   ]
+  },
+  {
+   "name": "punched-out-large-dark-229.8mm",
+   "source": "designs/09-punched-out/v3/one-line-large-dark.svg",
+   "sha256": "a4a27918",
+   "mm": "229.75 x 17.20",
+   "inches": "9.05 x 0.68",
+   "embroidery": {
+    "px": "5427 x 406",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "229.75 x 17.20",
+    "inches": "9.05 x 0.68",
+    "px": "2714 x 203",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Punched Out. Hoodie",
+    "Punched Out. Crewneck"
+   ]
+  },
+  {
+   "name": "punched-out-stack-light-63.6mm",
+   "source": "designs/09-punched-out/v3/stacked-centred-light.svg",
+   "sha256": "9195e03c",
+   "mm": "63.59 x 18.00",
+   "inches": "2.50 x 0.71",
+   "embroidery": {
+    "px": "1502 x 425",
+    "dpi": 600,
+    "threads": [
+     "1800 Black",
+     "1987 Orange"
+    ]
+   },
+   "print": {
+    "mm": "63.59 x 18.00",
+    "inches": "2.50 x 0.71",
+    "px": "751 x 213",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Punched Out. Jacket",
+    "Punched Out. Beanie",
+    "Punched Out. Bucket Hat",
+    "Punched Out. Quarter-Zip",
+    "Punched Out. Golf Shirt"
+   ]
+  },
+  {
+   "name": "punched-out-stack-dark-63.6mm",
+   "source": "designs/09-punched-out/v3/stacked-centred-dark.svg",
+   "sha256": "11f43744",
+   "mm": "63.59 x 18.00",
+   "inches": "2.50 x 0.71",
+   "embroidery": {
+    "px": "1502 x 425",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "63.59 x 18.00",
+    "inches": "2.50 x 0.71",
+    "px": "751 x 213",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Punched Out. Sweatpants",
+    "Punched Out. Jacket",
+    "Punched Out. Quarter-Zip",
+    "Punched Out. Golf Shirt"
+   ]
+  },
+  {
+   "name": "nowhere-to-be-light-67.7mm",
+   "source": "designs/15-nowhere-to-be/design-light.svg",
+   "sha256": "bc207aab",
+   "mm": "67.66 x 18.00",
+   "inches": "2.66 x 0.71",
+   "embroidery": {
+    "px": "1598 x 425",
+    "dpi": 600,
+    "threads": [
+     "1800 Black",
+     "1987 Orange"
+    ]
+   },
+   "print": {
+    "mm": "67.66 x 18.00",
+    "inches": "2.66 x 0.71",
+    "px": "799 x 213",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Nowhere To Be. Hoodie"
+   ]
+  },
+  {
+   "name": "nowhere-to-be-dark-67.7mm",
+   "source": "designs/15-nowhere-to-be/design-dark.svg",
+   "sha256": "db29355a",
+   "mm": "67.66 x 18.00",
+   "inches": "2.66 x 0.71",
+   "embroidery": {
+    "px": "1598 x 425",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "67.66 x 18.00",
+    "inches": "2.66 x 0.71",
+    "px": "799 x 213",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Nowhere To Be. Hoodie"
+   ]
+  },
+  {
+   "name": "suns-still-up-dark-63.2mm",
+   "source": "designs/16-suns-still-up/design-dark.svg",
+   "sha256": "50821d3d",
+   "mm": "63.23 x 18.00",
+   "inches": "2.49 x 0.71",
+   "embroidery": {
+    "px": "1494 x 425",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "63.23 x 18.00",
+    "inches": "2.49 x 0.71",
+    "px": "747 x 213",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Sun’s Still Up. Hat"
+   ]
+  },
+  {
+   "name": "suns-still-up-light-63.2mm",
+   "source": "designs/16-suns-still-up/design-light.svg",
+   "sha256": "06aa1d8a",
+   "mm": "63.23 x 18.00",
+   "inches": "2.49 x 0.71",
+   "embroidery": {
+    "px": "1494 x 425",
+    "dpi": 600,
+    "threads": [
+     "1800 Black",
+     "1987 Orange"
+    ]
+   },
+   "print": {
+    "mm": "63.23 x 18.00",
+    "inches": "2.49 x 0.71",
+    "px": "747 x 213",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Sun’s Still Up. Hat"
+   ]
+  },
+  {
+   "name": "no-alarm-set-light-229.7mm",
+   "source": "designs/17-no-alarm-set/design-light.svg",
+   "sha256": "f7042229",
+   "mm": "229.73 x 16.27",
+   "inches": "9.04 x 0.64",
+   "embroidery": {
+    "px": "5427 x 384",
+    "dpi": 600,
+    "threads": [
+     "1800 Black",
+     "1987 Orange"
+    ]
+   },
+   "print": {
+    "mm": "229.73 x 16.27",
+    "inches": "9.04 x 0.64",
+    "px": "2713 x 192",
+    "dpi": 300
+   },
+   "usedBy": [
+    "No Alarm Set. Crewneck"
+   ]
+  },
+  {
+   "name": "no-alarm-set-dark-229.7mm",
+   "source": "designs/17-no-alarm-set/design-dark.svg",
+   "sha256": "e4409672",
+   "mm": "229.73 x 16.27",
+   "inches": "9.04 x 0.64",
+   "embroidery": {
+    "px": "5427 x 384",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "229.73 x 16.27",
+    "inches": "9.04 x 0.64",
+    "px": "2713 x 192",
+    "dpi": 300
+   },
+   "usedBy": [
+    "No Alarm Set. Crewneck"
+   ]
+  },
+  {
+   "name": "banked-time-dark-95.7mm",
+   "source": "designs/18-banked-time/design-dark.svg",
+   "sha256": "1f4f13ee",
+   "mm": "95.71 x 7.09",
+   "inches": "3.77 x 0.28",
+   "embroidery": {
+    "px": "2261 x 168",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "95.71 x 7.09",
+    "inches": "3.77 x 0.28",
+    "px": "1130 x 84",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Banked Time. Hat"
+   ]
+  },
+  {
+   "name": "banked-time-light-95.7mm",
+   "source": "designs/18-banked-time/design-light.svg",
+   "sha256": "dca6a8dd",
+   "mm": "95.71 x 7.09",
+   "inches": "3.77 x 0.28",
+   "embroidery": {
+    "px": "2261 x 168",
+    "dpi": 600,
+    "threads": [
+     "1800 Black",
+     "1987 Orange"
+    ]
+   },
+   "print": {
+    "mm": "95.71 x 7.09",
+    "inches": "3.77 x 0.28",
+    "px": "1130 x 84",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Banked Time. Hat"
+   ]
+  },
+  {
+   "name": "not-picking-up-light-229.9mm",
+   "source": "designs/19-not-picking-up/design-light.svg",
+   "sha256": "238e5e9d",
+   "mm": "229.85 x 15.12",
+   "inches": "9.05 x 0.60",
+   "embroidery": {
+    "px": "5430 x 357",
+    "dpi": 600,
+    "threads": [
+     "1800 Black",
+     "1987 Orange"
+    ]
+   },
+   "print": {
+    "mm": "229.85 x 15.12",
+    "inches": "9.05 x 0.60",
+    "px": "2715 x 179",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Not Picking Up. Hoodie"
+   ]
+  },
+  {
+   "name": "not-picking-up-dark-229.9mm",
+   "source": "designs/19-not-picking-up/design-dark.svg",
+   "sha256": "0f76a760",
+   "mm": "229.85 x 15.12",
+   "inches": "9.05 x 0.60",
+   "embroidery": {
+    "px": "5430 x 357",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "229.85 x 15.12",
+    "inches": "9.05 x 0.60",
+    "px": "2715 x 179",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Not Picking Up. Hoodie"
+   ]
+  },
+  {
+   "name": "parked-dark-56.1mm",
+   "source": "designs/20-parked/design-dark.svg",
+   "sha256": "f1fe7850",
+   "mm": "56.08 x 7.09",
+   "inches": "2.21 x 0.28",
+   "embroidery": {
+    "px": "1325 x 168",
+    "dpi": 600,
+    "threads": [
+     "1801 White",
+     "1672 Old Gold"
+    ]
+   },
+   "print": {
+    "mm": "56.08 x 7.09",
+    "inches": "2.21 x 0.28",
+    "px": "662 x 84",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Parked. Trucker Hat"
+   ]
+  },
+  {
+   "name": "parked-light-56.1mm",
+   "source": "designs/20-parked/design-light.svg",
+   "sha256": "e988b3fe",
+   "mm": "56.08 x 7.09",
+   "inches": "2.21 x 0.28",
+   "embroidery": {
+    "px": "1325 x 168",
+    "dpi": 600,
+    "threads": [
+     "1800 Black",
+     "1987 Orange"
+    ]
+   },
+   "print": {
+    "mm": "56.08 x 7.09",
+    "inches": "2.21 x 0.28",
+    "px": "662 x 84",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Parked. Trucker Hat"
+   ]
+  },
+  {
+   "name": "logo-light-75mm-print",
+   "source": "designs/mark/final/the-o/logo-light.svg",
+   "sha256": "f24ba5af",
+   "mm": "62.64 x 18.04",
+   "inches": "2.47 x 0.71",
+   "print": {
+    "mm": "75.00 x 21.60",
+    "inches": "2.95 x 0.85",
+    "px": "886 x 255",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Punched Out. Golf Shirt"
+   ]
+  },
+  {
+   "name": "logo-dark-75mm-print",
+   "source": "designs/mark/final/the-o/logo-dark.svg",
+   "sha256": "7256b6c9",
+   "mm": "62.64 x 18.04",
+   "inches": "2.47 x 0.71",
+   "print": {
+    "mm": "75.00 x 21.60",
+    "inches": "2.95 x 0.85",
+    "px": "886 x 255",
+    "dpi": 300
+   },
+   "usedBy": [
+    "Punched Out. Golf Shirt"
+   ]
+  }
+ ],
+ "steps": [
+  "Printful is already connected to the store (since 29 Oct), and most variants look linked: they are stocked at the Printful location and sit in Printful's own shipping profiles. Shopify can't show which product, colour, file or placement each link uses, so check each one in Printful against its card here.",
+  "In Printful, open Stores and check the store shows as connected. In the store's settings, turn on \"Manually confirm all imported orders\" until every link is checked and the samples are approved.",
+  "Press \"Refresh data\". Each variant shows Synced, Not synced or Ignored.",
+  "Open a listing and go through its variants. For each one, compare the product, colour, size, technique, placement, file, width, position and threads with its card here. Fix anything that differs: Edit, then Choose product.",
+  "Link any variant that is \"Not synced\" the same way.",
+  "Check the threads every time. The embroidery files here use Printful's own thread colours, so its colour match should land on the right ones; on brand-colour files it picks Navy and Red.",
+  "\"Apply to other variants\" only inside one card. Never across hat styles, and never between Embroidered and Printed.",
+  "Don't let Printful push mockups or product text to Shopify: the photos and words on the store are yours.",
+  "Leave the stock alone: the 9,999 at the Printful location is how Printful marks a linked variant.",
+  "Tick each card when it's checked. Then order samples and sew-outs, and only then turn manual confirmation off."
+ ],
+ "fileRules": [
+  "Upload the PNG the card gives you. Embroidery: the 600 dpi file in Printful's thread colours. Print: the 300 dpi file in brand colours. Both are true size with a transparent background.",
+  "Set the width in inches from the card. Never resize an embroidery file to another size: each size is its own drawing. Print files can scale.",
+  "Printful digitizes the PNG itself; no stitch file needed. Up to 6 threads per placement, flat colours only.",
+  "Printful's minimums: text 6.35 mm tall, lines 1.27 mm; shapes closer than about 3 mm may merge. The logo's and clock's finest parts are under that: sew-out first.",
+  "3D puff: hat fronts only (catalogue copies also list the Cuffed Beanie; the RIO is disputed). Lines 5 to 12.5 mm, gaps at least 1.27 mm, and no flat stitching in the same placement.",
+  "Areas: 6245CM front 5.5 x 2 in; 6606 front 5.9 x 2 in; 31-069 front 6.3 x 2.55 in; hat side or back 2 x 1 in; beanie cuff 5 x 1.75 in; left or centre chest 4 x 4 in; sleeve 2 x 3 in; large front, centre or back 10 x 6 in. Each product's File guidelines tab has the final word."
+ ],
+ "threads": {
+  "standard": [
+   [
+    "1801",
+    "White",
+    "#FFFFFF"
+   ],
+   [
+    "1800",
+    "Black",
+    "#000000"
+   ],
+   [
+    "1718",
+    "Grey",
+    "#96A1A8"
+   ],
+   [
+    "1672",
+    "Old Gold",
+    "#A67843"
+   ],
+   [
+    "1951",
+    "Gold",
+    "#FFCC00"
+   ],
+   [
+    "1987",
+    "Orange",
+    "#E25C27"
+   ],
+   [
+    "1910",
+    "Flamingo",
+    "#CC3366"
+   ],
+   [
+    "1839",
+    "Red",
+    "#CC3333"
+   ],
+   [
+    "1784",
+    "Maroon",
+    "#660000"
+   ],
+   [
+    "1966",
+    "Navy",
+    "#333366"
+   ],
+   [
+    "1842",
+    "Royal",
+    "#005397"
+   ],
+   [
+    "1695",
+    "Aqua/Teal",
+    "#3399FF"
+   ],
+   [
+    "1832",
+    "Purple",
+    "#6B5294"
+   ],
+   [
+    "1751",
+    "Kelly Green",
+    "#01784E"
+   ],
+   [
+    "1848",
+    "Kiwi Green",
+    "#7BA35A"
+   ]
+  ],
+  "map": [
+   [
+    "Bone",
+    "#ECE5D3",
+    "1801 White",
+    "#FFFFFF",
+    "9.6"
+   ],
+   [
+    "Ink",
+    "#1F2733",
+    "1800 Black",
+    "#000000",
+    "12.0"
+   ],
+   [
+    "Rust",
+    "#B4552D",
+    "1987 Orange",
+    "#E25C27",
+    "9.9"
+   ],
+   [
+    "Sun",
+    "#D29B3C",
+    "1672 Old Gold",
+    "#A67843",
+    "13.9"
+   ],
+   [
+    "Sage",
+    "#9AA383",
+    "1848 Kiwi Green",
+    "#7BA35A",
+    "11.3"
+   ]
+  ],
+  "pairs": [
+   [
+    "Light files (Ink + Rust)",
+    "1800 Black + 1987 Orange"
+   ],
+   [
+    "Dark files (Bone + Sun)",
+    "1801 White + 1672 Old Gold"
+   ],
+   [
+    "Bone one colour",
+    "1801 White"
+   ],
+   [
+    "Ink one colour",
+    "1800 Black"
+   ]
+  ],
+  "fabrics": [
+   [
+    "Light fabric: the light file",
+    "Bone, White, Ivory, Butter, Stone, Sandshell, Beige, Light Blue"
+   ],
+   [
+    "Dark fabric: the dark file",
+    "Black, Evergreen, Pepper, Charcoal, Navy, Collegiate Navy; Pine Green and Blue Spruce (check a swatch)"
+   ],
+   [
+    "In between: Bone one colour",
+    "Blue Jean, Espresso, Caramel (check a swatch)"
+   ],
+   [
+    "Oat-like: Ink one colour",
+    "Khaki"
+   ],
+   [
+    "Not known yet",
+    "Smoke (the dark file is assumed)"
+   ]
+  ],
+  "notes": [
+   "None of the 15 standard threads matches the brand exactly; the distances above are CIEDE2000 (under 10 is close, over 12 is noticeable).",
+   "Unlimited colour (Coloreel) dyes white thread toward the brand colours, closer than the 15 standard threads; accuracy is unconfirmed until a sew-out. About +US$3.95 an item; made in Latvia, the US and Mexico, never Canada; not on the RIO.",
+   "Hats with 3D puff have their own thread list."
+  ]
+ },
+ "costs": {
+  "note": "US$ snapshots with one placement included. Read each in C$ with the region set to Canada and Embroidery selected.",
+  "items": [
+   [
+    "Extra embroidery placement",
+    "+US$2.95 (about C$4.19)"
+   ],
+   [
+    "Digitizing, once per design",
+    "US$6.50 (C$9.60); US$2.95 for hat sides and backs or reusing on another product type [UNVERIFIED]; maybe free with 25+ of one design in an order [UNVERIFIED]"
+   ],
+   [
+    "Digitizing the ready art",
+    "about US$84 if each drawing counts once, up to about US$220 [estimate]"
+   ],
+   [
+    "3D puff",
+    "about +US$1.50 [UNVERIFIED]"
+   ],
+   [
+    "Unlimited colour",
+    "+US$3.95"
+   ],
+   [
+    "Big designs",
+    "free up to 14,999 stitches; then US$3.95 (to 19,999), 6.95 (to 24,999), 9.95 (to 34,999), 13.50 (to 44,999), 16.95 (to 59,999), 19.95 (60,000+)"
+   ],
+   [
+    "Samples",
+    "20% off (25% on the Growth plan) [UNVERIFIED]"
+   ]
+  ],
+  "blanks": [
+   [
+    "Yupoong 6606 Retro Trucker",
+    "13.56"
+   ],
+   [
+    "Otto Cap 31-069 5-Panel",
+    "12.56"
+   ],
+   [
+    "Yupoong 6245CM Dad Hat",
+    "14.94"
+   ],
+   [
+    "Big Accessories BA671 Rope Cap",
+    "13.45 to 13.72"
+   ],
+   [
+    "Yupoong 1501KC Cuffed Beanie",
+    "13.05"
+   ],
+   [
+    "Atlantis RIO Ribbed Beanie",
+    "~16.75 [UNVERIFIED]"
+   ],
+   [
+    "Organic Bucket Hat",
+    "20.70 (C$29.50)"
+   ],
+   [
+    "Big Accessories BX003 Bucket Hat",
+    "15.86"
+   ],
+   [
+    "AS Colour 5161 Relax Hoodie",
+    "38.97 (C$55.50)"
+   ],
+   [
+    "Comfort Colors 1567 Hoodie",
+    "39.95 to 40.75"
+   ],
+   [
+    "Comfort Colors 1467 Lightweight Hoodie",
+    "29.95 to 30.55 (print)"
+   ],
+   [
+    "Comfort Colors 1466 Crewneck",
+    "28.51"
+   ],
+   [
+    "Comfort Colors 1469 Sweatpants",
+    "not found"
+   ],
+   [
+    "Comfort Colors 1717 Tee",
+    "15.60 (S to XL), 17.60 (2XL), 19.60 (3XL)"
+   ],
+   [
+    "Comfort Colors 6030 Pocket Tee",
+    "19.94"
+   ],
+   [
+    "Champion CO200 Anorak",
+    "43.42"
+   ],
+   [
+    "Cotton Heritage M2475 Pullover",
+    "22.85 (C$32.50)"
+   ],
+   [
+    "SOL'S 11362 Polo",
+    "18.31"
+   ],
+   [
+    "Port Authority K500 Polo",
+    "19.99 (C$28.50)"
+   ],
+   [
+    "Adidas A430 Polo",
+    "40.85 (C$57.50)"
+   ]
+  ],
+  "shipping": "US shipping from: hats 4.69 (+2.00 each extra), tees and the SOL'S polo 4.95, hoodies 8.49 to 8.79, the anorak 8.79."
+ },
+ "readAt": "2026-11-01T06:18Z",
+ "stepsNote": "Button names come from Printful's help pages and may differ slightly in the app.",
+ "decisions": [
+  [
+   "Shipping",
+   "Printful made its own shipping profiles with its own flat rates, and most variants now sit in them instead of your profile (C$12, free over C$75). Keep Printful's rates, or move the variants back and add the Printful location to your profile? Then test a checkout to Canada and to the US."
+  ],
+  [
+   "Coming soon",
+   "Ours to Spend. and 5:00 are live and can be bought, but their descriptions say \"Coming soon\" and there is no art for them. Hide them until the art exists?"
+  ],
+  [
+   "Puff or flat",
+   "The listings promise 3D puff on the Logo Hat (~125 mm), every beanie and bucket hat, and For a Reason. The ready art is flat. Puff needs bigger, heavier drawings, and a shifted 125 mm logo won't fit the Dad Hat. Change the text to flat embroidery, or have puff versions drawn."
+  ],
+  [
+   "Printed versions",
+   "Six listings sell a printed version next to the embroidered one (the Logo, Clock and Punched Out. hoodies, Nowhere To Be., Not Picking Up. and the golf shirt). picks.md says everything embroidered, with The Rest Is Ours. back as the only print. Keep both?"
+  ],
+  [
+   "Front logos",
+   "The Rest Is Ours.: front logo printed (the listing) or embroidered (picks.md)? Pocket tees: printed on the pocket (the listing), or the clock on the sleeve and the logo big on the front (picks.md)?"
+  ],
+  [
+   "Hoodie fronts",
+   "Punched Out. Hoodie, Oversized Embroidered: this sheet uses the big front (picks.md); the listing says a small chest piece. Not Picking Up., Oversized Embroidered: the two-line stack isn't drawn; use the one line on the big front, or have the stack drawn."
+  ],
+  [
+   "Golf shirt",
+   "The printed version adds a logo below the back collar, which isn't in picks.md. Printful's spot for it and the distance from the collar aren't confirmed. SOL'S may be made in Latvia only; the Adidas A430 embroiders poorly."
+  ],
+  [
+   "Missing art",
+   "Time Well Earned., The Rest Is Ours. back, Ours to Spend., 5:00 (wider than a chest spot) and For a Reason. were made outside this repo: their files need to come from whoever made them. Puff versions don't exist yet either."
+  ],
+  [
+   "Colours to pick",
+   "Sun's Still Up., Banked Time. and Parked. have no colour option. Their mockups show dark caps (dark files); the light files are ready too."
+  ],
+  [
+   "Sizes not set",
+   "Punched Out. Hat, Crewneck and Jacket; the sweatpants leg logo; the pocket prints; the big-front heights; back distances from the collar."
+  ],
+  [
+   "Swatches",
+   "Beige, Blue Jean, Espresso, Caramel, Blue Spruce, Pine Green and Smoke sit between light and dark. Check a swatch before samples: if the gold hands vanish, use the Bone one-colour file."
+  ],
+  [
+   "Sew-outs",
+   "The logo's hand tips (0.58 mm) and channel (1.0 mm) and the 25 mm clock's tips (~0.72 mm) are under Printful's 1.27 mm minimum. Sew-outs before going live; spending is your call."
+  ],
+  [
+   "Trademarks",
+   "Before samples: POWER PUNCHOUT (US Reg. 5079893), NOWHERE TO BE (85784193), TIME WELL SPENT (Reg. 3252699), HERE FOR A REASON (SN 98183164); and searches for SUN'S STILL UP, NO ALARM SET, BANKED TIME, NOT PICKING UP and PARKED. Keep 5:00 without \"somewhere\"."
+  ],
+  [
+   "Prices",
+   "The store prices were set before Printful's embroidered prices, extra placements (+US$2.95) and digitizing (US$6.50 a design). Check the margins in C$ with the region set to Canada."
+  ],
+  [
+   "Digitizing",
+   "Does one drawing in light and dark count once? If so, the one-time bill is closer to US$84 than US$220."
+  ],
+  [
+   "Still unconfirmed in Printful",
+   "Colour names on the 1567, 1467, 1466, 1469, Organic bucket, K500 and A430; embroidery on the 1467 and 1469; whether sideways offsets on six-panel caps survive; where each blank is made (Availability tab); RIO Beige stock in Canada."
+  ]
+ ]
+}
