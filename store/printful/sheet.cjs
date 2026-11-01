@@ -157,7 +157,7 @@ function groupHTML(l, g, gi) {
   <div class="g-head">
     <h3>${esc(g.style.replace(/^\(no Style option\)\s*/, '') || 'All variants').replace(/^Colour: /, '')}</h3>
     <span class="tech ${tech}">${TECH_LABEL[tech]}</span>
-    <label class="tick"><input type="checkbox" data-id="${esc(id)}"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-${esc(l.handle)}-${gi}" data-id="${esc(id)}"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">${rich(g.printfulProduct)}</span>${code ? ` <button class="copy small" data-copy="${esc(code[1])}" title="Copy the model number to search Printful">Copy ${esc(code[1])}</button>` : ''}${g.catalogId && g.catalogId !== '?' ? ` <span class="cat">catalogue ${rich(g.catalogId)}</span>` : ''}</dd>
@@ -476,6 +476,7 @@ tbody tr:last-child td { border-bottom: 0; }
 footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size: 13px; color: var(--muted); }
 .toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 9px 14px; border-radius: 9px; font-size: 14px; font-weight: 600; z-index: 20; max-width: calc(100% - 32px); }
 
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 @media (max-width: 640px) {
   .spec { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .spec dd { margin-bottom: 8px; }

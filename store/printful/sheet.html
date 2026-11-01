@@ -176,6 +176,7 @@ tbody tr:last-child td { border-bottom: 0; }
 footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size: 13px; color: var(--muted); }
 .toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 9px 14px; border-radius: 9px; font-size: 14px; font-weight: 600; z-index: 20; max-width: calc(100% - 32px); }
 
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 @media (max-width: 640px) {
   .spec { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .spec dd { margin-bottom: 8px; }
@@ -248,7 +249,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Retro Trucker</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-hat-0" data-id="off-shft-logo-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Retro Trucker Hat | Yupoong 6606</span> <button class="copy small" data-copy="6606" title="Copy the model number to search Printful">Copy 6606</button> <span class="cat">catalogue 252</span></dd>
@@ -283,7 +284,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>5-Panel</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-hat#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-hat-1" data-id="off-shft-logo-hat#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">5 Panel Mid-Profile Baseball Cap | Otto Cap 31-069</span> <button class="copy small" data-copy="31-069" title="Copy the model number to search Printful">Copy 31-069</button> <span class="cat">catalogue 952</span></dd>
@@ -318,7 +319,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Dad Hat</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-hat#2"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-hat-2" data-id="off-shft-logo-hat#2"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Classic Dad Hat | Yupoong 6245CM</span> <button class="copy small" data-copy="6245CM" title="Copy the model number to search Printful">Copy 6245CM</button> <span class="cat">catalogue 206</span></dd>
@@ -353,7 +354,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Rope Cap</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-hat#3"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-hat-3" data-id="off-shft-logo-hat#3"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Golf Rope Cap | Big Accessories BA671</span> <button class="copy small" data-copy="BA671" title="Copy the model number to search Printful">Copy BA671</button> <span class="cat">catalogue not found</span></dd>
@@ -395,7 +396,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Retro Trucker</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-hat-0" data-id="the-clock-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Retro Trucker Hat | Yupoong 6606</span> <button class="copy small" data-copy="6606" title="Copy the model number to search Printful">Copy 6606</button> <span class="cat">catalogue 252</span></dd>
@@ -430,7 +431,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>5-Panel</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-hat#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-hat-1" data-id="the-clock-hat#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">5 Panel Mid-Profile Baseball Cap | Otto Cap 31-069</span> <button class="copy small" data-copy="31-069" title="Copy the model number to search Printful">Copy 31-069</button> <span class="cat">catalogue 952</span></dd>
@@ -465,7 +466,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Dad Hat</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-hat#2"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-hat-2" data-id="the-clock-hat#2"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Classic Dad Hat | Yupoong 6245CM</span> <button class="copy small" data-copy="6245CM" title="Copy the model number to search Printful">Copy 6245CM</button> <span class="cat">catalogue 206</span></dd>
@@ -500,7 +501,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Rope Cap</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-hat#3"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-hat-3" data-id="the-clock-hat#3"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Golf Rope Cap | Big Accessories BA671</span> <button class="copy small" data-copy="BA671" title="Copy the model number to search Printful">Copy BA671</button> <span class="cat">catalogue not found</span></dd>
@@ -542,7 +543,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Retro Trucker</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-hat-0" data-id="punched-out-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Retro Trucker Hat | Yupoong 6606</span> <button class="copy small" data-copy="6606" title="Copy the model number to search Printful">Copy 6606</button> <span class="cat">catalogue 252</span></dd>
@@ -577,7 +578,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>5-Panel</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-hat#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-hat-1" data-id="punched-out-hat#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">5 Panel Mid-Profile Baseball Cap | Otto Cap 31-069</span> <button class="copy small" data-copy="31-069" title="Copy the model number to search Printful">Copy 31-069</button> <span class="cat">catalogue 952</span></dd>
@@ -612,7 +613,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Dad Hat</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-hat#2"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-hat-2" data-id="punched-out-hat#2"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Classic Dad Hat | Yupoong 6245CM</span> <button class="copy small" data-copy="6245CM" title="Copy the model number to search Printful">Copy 6245CM</button> <span class="cat">catalogue 206</span></dd>
@@ -647,7 +648,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Rope Cap</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-hat#3"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-hat-3" data-id="punched-out-hat#3"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Golf Rope Cap | Big Accessories BA671</span> <button class="copy small" data-copy="BA671" title="Copy the model number to search Printful">Copy BA671</button> <span class="cat">catalogue not found</span></dd>
@@ -689,7 +690,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="ours-to-spend-trucker-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-ours-to-spend-trucker-hat-0" data-id="ours-to-spend-trucker-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Retro Trucker Hat | Yupoong 6606</span> <button class="copy small" data-copy="6606" title="Copy the model number to search Printful">Copy 6606</button> <span class="cat">catalogue 252</span></dd>
@@ -717,7 +718,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Charcoal, Evergreen</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="for-a-reason-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-for-a-reason-hat-0" data-id="for-a-reason-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Retro Trucker Hat | Yupoong 6606</span> <button class="copy small" data-copy="6606" title="Copy the model number to search Printful">Copy 6606</button> <span class="cat">catalogue 252</span></dd>
@@ -738,7 +739,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Ivory</h3>
     <span class="tech both">Not settled</span>
-    <label class="tick"><input type="checkbox" data-id="for-a-reason-hat#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-for-a-reason-hat-1" data-id="for-a-reason-hat#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Check the existing link: no Printful page was found for the Comfort Colors CCST0 the listing names</span></dd>
@@ -766,7 +767,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>5-Panel</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="suns-still-up-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-suns-still-up-hat-0" data-id="suns-still-up-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">5 Panel Mid-Profile Baseball Cap | Otto Cap 31-069</span> <button class="copy small" data-copy="31-069" title="Copy the model number to search Printful">Copy 31-069</button> <span class="cat">catalogue 952</span></dd>
@@ -801,7 +802,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Rope Cap</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="suns-still-up-hat#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-suns-still-up-hat-1" data-id="suns-still-up-hat#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Golf Rope Cap | Big Accessories BA671</span> <button class="copy small" data-copy="BA671" title="Copy the model number to search Printful">Copy BA671</button> <span class="cat">catalogue not found</span></dd>
@@ -843,7 +844,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Dad Hat</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="banked-time-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-banked-time-hat-0" data-id="banked-time-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Classic Dad Hat | Yupoong 6245CM</span> <button class="copy small" data-copy="6245CM" title="Copy the model number to search Printful">Copy 6245CM</button> <span class="cat">catalogue 206</span></dd>
@@ -878,7 +879,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Retro Trucker</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="banked-time-hat#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-banked-time-hat-1" data-id="banked-time-hat#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Retro Trucker Hat | Yupoong 6606</span> <button class="copy small" data-copy="6606" title="Copy the model number to search Printful">Copy 6606</button> <span class="cat">catalogue 252</span></dd>
@@ -913,7 +914,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="parked-trucker-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-parked-trucker-hat-0" data-id="parked-trucker-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Retro Trucker Hat | Yupoong 6606</span> <button class="copy small" data-copy="6606" title="Copy the model number to search Printful">Copy 6606</button> <span class="cat">catalogue 252</span></dd>
@@ -955,7 +956,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Cuffed</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-beanie#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-beanie-0" data-id="off-shft-logo-beanie#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Cuffed Beanie | Yupoong 1501KC</span> <button class="copy small" data-copy="1501KC" title="Copy the model number to search Printful">Copy 1501KC</button> <span class="cat">catalogue 266</span></dd>
@@ -990,7 +991,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Ribbed</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-beanie#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-beanie-1" data-id="off-shft-logo-beanie#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Ribbed Knit Beanie | Atlantis (model RIO)</span> <button class="copy small" data-copy="RIO" title="Copy the model number to search Printful">Copy RIO</button> <span class="cat">catalogue 519</span></dd>
@@ -1046,7 +1047,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Cuffed</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-beanie#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-beanie-0" data-id="the-clock-beanie#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Cuffed Beanie | Yupoong 1501KC</span> <button class="copy small" data-copy="1501KC" title="Copy the model number to search Printful">Copy 1501KC</button> <span class="cat">catalogue 266</span></dd>
@@ -1081,7 +1082,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Ribbed</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-beanie#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-beanie-1" data-id="the-clock-beanie#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Ribbed Knit Beanie | Atlantis (model RIO)</span> <button class="copy small" data-copy="RIO" title="Copy the model number to search Printful">Copy RIO</button> <span class="cat">catalogue 519</span></dd>
@@ -1137,7 +1138,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Cuffed</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-beanie#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-beanie-0" data-id="punched-out-beanie#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Cuffed Beanie | Yupoong 1501KC</span> <button class="copy small" data-copy="1501KC" title="Copy the model number to search Printful">Copy 1501KC</button> <span class="cat">catalogue 266</span></dd>
@@ -1172,7 +1173,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Ribbed</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-beanie#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-beanie-1" data-id="punched-out-beanie#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Ribbed Knit Beanie | Atlantis (model RIO)</span> <button class="copy small" data-copy="RIO" title="Copy the model number to search Printful">Copy RIO</button> <span class="cat">catalogue 519</span></dd>
@@ -1221,7 +1222,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Organic</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-bucket-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-bucket-hat-0" data-id="off-shft-logo-bucket-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Organic Bucket Hat</span> <span class="cat">catalogue 547</span></dd>
@@ -1256,7 +1257,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Classic</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-bucket-hat#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-bucket-hat-1" data-id="off-shft-logo-bucket-hat#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Bucket Hat I Big Accessories BX003</span> <button class="copy small" data-copy="BX003" title="Copy the model number to search Printful">Copy BX003</button> <span class="cat">catalogue 379</span></dd>
@@ -1298,7 +1299,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Organic</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-bucket-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-bucket-hat-0" data-id="the-clock-bucket-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Organic Bucket Hat</span> <span class="cat">catalogue 547</span></dd>
@@ -1333,7 +1334,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Classic</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-bucket-hat#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-bucket-hat-1" data-id="the-clock-bucket-hat#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Bucket Hat I Big Accessories BX003</span> <button class="copy small" data-copy="BX003" title="Copy the model number to search Printful">Copy BX003</button> <span class="cat">catalogue 379</span></dd>
@@ -1375,7 +1376,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Organic</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-bucket-hat#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-bucket-hat-0" data-id="punched-out-bucket-hat#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Organic Bucket Hat</span> <span class="cat">catalogue 547</span></dd>
@@ -1410,7 +1411,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Classic</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-bucket-hat#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-bucket-hat-1" data-id="punched-out-bucket-hat#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Bucket Hat I Big Accessories BX003</span> <button class="copy small" data-copy="BX003" title="Copy the model number to search Printful">Copy BX003</button> <span class="cat">catalogue 379</span></dd>
@@ -1452,7 +1453,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Oversized — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-hoodie#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-hoodie-0" data-id="off-shft-logo-hoodie#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Relax Hoodie | AS Colour 5161</span> <button class="copy small" data-copy="5161" title="Copy the model number to search Printful">Copy 5161</button> <span class="cat">catalogue 734</span></dd>
@@ -1487,7 +1488,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Oversized — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-hoodie#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-hoodie-1" data-id="off-shft-logo-hoodie#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Relax Hoodie | AS Colour 5161</span> <button class="copy small" data-copy="5161" title="Copy the model number to search Printful">Copy 5161</button> <span class="cat">catalogue 734</span></dd>
@@ -1522,7 +1523,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Garment-Dyed — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-hoodie#2"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-hoodie-2" data-id="off-shft-logo-hoodie#2"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567</span> <button class="copy small" data-copy="1567" title="Copy the model number to search Printful">Copy 1567</button> <span class="cat">catalogue 970</span></dd>
@@ -1557,7 +1558,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Garment-Dyed — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-hoodie#3"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-hoodie-3" data-id="off-shft-logo-hoodie#3"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567</span> <button class="copy small" data-copy="1567" title="Copy the model number to search Printful">Copy 1567</button> <span class="cat">catalogue 970</span></dd>
@@ -1592,7 +1593,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Lightweight — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-hoodie#4"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-hoodie-4" data-id="off-shft-logo-hoodie#4"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467</span> <button class="copy small" data-copy="1467" title="Copy the model number to search Printful">Copy 1467</button> <span class="cat">catalogue not found (969 per mockup names <span class="tag">unconfirmed</span>)</span></dd>
@@ -1627,7 +1628,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Lightweight — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-hoodie#5"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-hoodie-5" data-id="off-shft-logo-hoodie#5"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467</span> <button class="copy small" data-copy="1467" title="Copy the model number to search Printful">Copy 1467</button> <span class="cat">catalogue not found</span></dd>
@@ -1669,7 +1670,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Oversized — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-hoodie#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-hoodie-0" data-id="the-clock-hoodie#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Relax Hoodie | AS Colour 5161</span> <button class="copy small" data-copy="5161" title="Copy the model number to search Printful">Copy 5161</button> <span class="cat">catalogue 734</span></dd>
@@ -1704,7 +1705,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Oversized — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-hoodie#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-hoodie-1" data-id="the-clock-hoodie#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Relax Hoodie | AS Colour 5161</span> <button class="copy small" data-copy="5161" title="Copy the model number to search Printful">Copy 5161</button> <span class="cat">catalogue 734</span></dd>
@@ -1739,7 +1740,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Garment-Dyed — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-hoodie#2"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-hoodie-2" data-id="the-clock-hoodie#2"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567</span> <button class="copy small" data-copy="1567" title="Copy the model number to search Printful">Copy 1567</button> <span class="cat">catalogue 970</span></dd>
@@ -1774,7 +1775,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Garment-Dyed — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-hoodie#3"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-hoodie-3" data-id="the-clock-hoodie#3"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567</span> <button class="copy small" data-copy="1567" title="Copy the model number to search Printful">Copy 1567</button> <span class="cat">catalogue 970</span></dd>
@@ -1809,7 +1810,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Lightweight — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-hoodie#4"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-hoodie-4" data-id="the-clock-hoodie#4"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467</span> <button class="copy small" data-copy="1467" title="Copy the model number to search Printful">Copy 1467</button> <span class="cat">catalogue not found</span></dd>
@@ -1844,7 +1845,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Lightweight — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-hoodie#5"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-hoodie-5" data-id="the-clock-hoodie#5"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467</span> <button class="copy small" data-copy="1467" title="Copy the model number to search Printful">Copy 1467</button> <span class="cat">catalogue not found</span></dd>
@@ -1886,7 +1887,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Oversized — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-hoodie#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-hoodie-0" data-id="punched-out-hoodie#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Relax Hoodie | AS Colour 5161</span> <button class="copy small" data-copy="5161" title="Copy the model number to search Printful">Copy 5161</button> <span class="cat">catalogue 734</span></dd>
@@ -1921,7 +1922,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Oversized — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-hoodie#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-hoodie-1" data-id="punched-out-hoodie#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Relax Hoodie | AS Colour 5161</span> <button class="copy small" data-copy="5161" title="Copy the model number to search Printful">Copy 5161</button> <span class="cat">catalogue 734</span></dd>
@@ -1956,7 +1957,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Garment-Dyed — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-hoodie#2"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-hoodie-2" data-id="punched-out-hoodie#2"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567</span> <button class="copy small" data-copy="1567" title="Copy the model number to search Printful">Copy 1567</button> <span class="cat">catalogue 970</span></dd>
@@ -1991,7 +1992,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Garment-Dyed — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-hoodie#3"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-hoodie-3" data-id="punched-out-hoodie#3"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567</span> <button class="copy small" data-copy="1567" title="Copy the model number to search Printful">Copy 1567</button> <span class="cat">catalogue 970</span></dd>
@@ -2026,7 +2027,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Lightweight — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-hoodie#4"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-hoodie-4" data-id="punched-out-hoodie#4"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467</span> <button class="copy small" data-copy="1467" title="Copy the model number to search Printful">Copy 1467</button> <span class="cat">catalogue not found</span></dd>
@@ -2061,7 +2062,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Lightweight — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-hoodie#5"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-hoodie-5" data-id="punched-out-hoodie#5"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467</span> <button class="copy small" data-copy="1467" title="Copy the model number to search Printful">Copy 1467</button> <span class="cat">catalogue not found</span></dd>
@@ -2103,7 +2104,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech both">Not settled</span>
-    <label class="tick"><input type="checkbox" data-id="the-rest-is-ours-hoodie#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-rest-is-ours-hoodie-0" data-id="the-rest-is-ours-hoodie#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Hooded Sweatshirt I Comfort Colors 1467</span> <button class="copy small" data-copy="1467" title="Copy the model number to search Printful">Copy 1467</button> <span class="cat">catalogue not found (969 per mockup names <span class="tag">unconfirmed</span>)</span></dd>
@@ -2152,7 +2153,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Oversized — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="nowhere-to-be-hoodie#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-nowhere-to-be-hoodie-0" data-id="nowhere-to-be-hoodie#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Relax Hoodie | AS Colour 5161</span> <button class="copy small" data-copy="5161" title="Copy the model number to search Printful">Copy 5161</button> <span class="cat">catalogue 734</span></dd>
@@ -2187,7 +2188,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Oversized — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="nowhere-to-be-hoodie#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-nowhere-to-be-hoodie-1" data-id="nowhere-to-be-hoodie#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Relax Hoodie | AS Colour 5161</span> <button class="copy small" data-copy="5161" title="Copy the model number to search Printful">Copy 5161</button> <span class="cat">catalogue 734</span></dd>
@@ -2222,7 +2223,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Garment-Dyed — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="nowhere-to-be-hoodie#2"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-nowhere-to-be-hoodie-2" data-id="nowhere-to-be-hoodie#2"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567</span> <button class="copy small" data-copy="1567" title="Copy the model number to search Printful">Copy 1567</button> <span class="cat">catalogue 970</span></dd>
@@ -2257,7 +2258,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Garment-Dyed — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="nowhere-to-be-hoodie#3"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-nowhere-to-be-hoodie-3" data-id="nowhere-to-be-hoodie#3"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567</span> <button class="copy small" data-copy="1567" title="Copy the model number to search Printful">Copy 1567</button> <span class="cat">catalogue 970</span></dd>
@@ -2299,7 +2300,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Oversized — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="not-picking-up-hoodie#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-not-picking-up-hoodie-0" data-id="not-picking-up-hoodie#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Relax Hoodie | AS Colour 5161</span> <button class="copy small" data-copy="5161" title="Copy the model number to search Printful">Copy 5161</button> <span class="cat">catalogue 734</span></dd>
@@ -2334,7 +2335,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Oversized — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="not-picking-up-hoodie#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-not-picking-up-hoodie-1" data-id="not-picking-up-hoodie#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Relax Hoodie | AS Colour 5161</span> <button class="copy small" data-copy="5161" title="Copy the model number to search Printful">Copy 5161</button> <span class="cat">catalogue 734</span></dd>
@@ -2369,7 +2370,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Garment-Dyed — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="not-picking-up-hoodie#2"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-not-picking-up-hoodie-2" data-id="not-picking-up-hoodie#2"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567</span> <button class="copy small" data-copy="1567" title="Copy the model number to search Printful">Copy 1567</button> <span class="cat">catalogue 970</span></dd>
@@ -2404,7 +2405,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Garment-Dyed — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="not-picking-up-hoodie#3"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-not-picking-up-hoodie-3" data-id="not-picking-up-hoodie#3"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Hooded Sweatshirt I Comfort Colors 1567</span> <button class="copy small" data-copy="1567" title="Copy the model number to search Printful">Copy 1567</button> <span class="cat">catalogue 970</span></dd>
@@ -2446,7 +2447,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-crewneck#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-crewneck-0" data-id="off-shft-logo-crewneck#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Crewneck Sweatshirt I Comfort Colors 1466</span> <button class="copy small" data-copy="1466" title="Copy the model number to search Printful">Copy 1466</button> <span class="cat">catalogue 971 <span class="tag">unconfirmed</span></span></dd>
@@ -2488,7 +2489,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-crewneck#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-crewneck-0" data-id="the-clock-crewneck#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Crewneck Sweatshirt I Comfort Colors 1466</span> <button class="copy small" data-copy="1466" title="Copy the model number to search Printful">Copy 1466</button> <span class="cat">catalogue 971 <span class="tag">unconfirmed</span></span></dd>
@@ -2530,7 +2531,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-crewneck#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-crewneck-0" data-id="punched-out-crewneck#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Crewneck Sweatshirt I Comfort Colors 1466</span> <button class="copy small" data-copy="1466" title="Copy the model number to search Printful">Copy 1466</button> <span class="cat">catalogue 971 <span class="tag">unconfirmed</span></span></dd>
@@ -2572,7 +2573,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="five-oclock-crewneck#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-five-oclock-crewneck-0" data-id="five-oclock-crewneck#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Crewneck Sweatshirt I Comfort Colors 1466</span> <button class="copy small" data-copy="1466" title="Copy the model number to search Printful">Copy 1466</button> <span class="cat">catalogue 971 <span class="tag">unconfirmed</span></span></dd>
@@ -2600,7 +2601,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="no-alarm-set-crewneck#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-no-alarm-set-crewneck-0" data-id="no-alarm-set-crewneck#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Lightweight Fleece Crewneck Sweatshirt I Comfort Colors 1466</span> <button class="copy small" data-copy="1466" title="Copy the model number to search Printful">Copy 1466</button> <span class="cat">catalogue 971 <span class="tag">unconfirmed</span></span></dd>
@@ -2642,7 +2643,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Heavyweight</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-t-shirt#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-t-shirt-0" data-id="off-shft-logo-t-shirt#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Heavyweight T-Shirt | Comfort Colors 1717</span> <button class="copy small" data-copy="1717" title="Copy the model number to search Printful">Copy 1717</button> <span class="cat">catalogue 586</span></dd>
@@ -2677,7 +2678,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Pocket</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-t-shirt#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-t-shirt-1" data-id="off-shft-logo-t-shirt#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Pocket T-Shirt | Comfort Colors 6030</span> <button class="copy small" data-copy="6030" title="Copy the model number to search Printful">Copy 6030</button> <span class="cat">catalogue 593</span></dd>
@@ -2719,7 +2720,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Heavyweight</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-t-shirt#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-t-shirt-0" data-id="the-clock-t-shirt#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Heavyweight T-Shirt | Comfort Colors 1717</span> <button class="copy small" data-copy="1717" title="Copy the model number to search Printful">Copy 1717</button> <span class="cat">catalogue 586</span></dd>
@@ -2754,7 +2755,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Pocket</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-t-shirt#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-t-shirt-1" data-id="the-clock-t-shirt#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Pocket T-Shirt | Comfort Colors 6030</span> <button class="copy small" data-copy="6030" title="Copy the model number to search Printful">Copy 6030</button> <span class="cat">catalogue 593</span></dd>
@@ -2796,7 +2797,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="time-well-earned-t-shirt#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-time-well-earned-t-shirt-0" data-id="time-well-earned-t-shirt#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Heavyweight T-Shirt | Comfort Colors 1717</span> <button class="copy small" data-copy="1717" title="Copy the model number to search Printful">Copy 1717</button> <span class="cat">catalogue 586</span></dd>
@@ -2824,7 +2825,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech both">Not settled</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-sweatpants#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-sweatpants-0" data-id="off-shft-logo-sweatpants#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Fleece Sweatpants | Comfort Colors 1469</span> <button class="copy small" data-copy="1469" title="Copy the model number to search Printful">Copy 1469</button> <span class="cat">catalogue not found</span></dd>
@@ -2873,7 +2874,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech both">Not settled</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-sweatpants#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-sweatpants-0" data-id="the-clock-sweatpants#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Fleece Sweatpants | Comfort Colors 1469</span> <button class="copy small" data-copy="1469" title="Copy the model number to search Printful">Copy 1469</button> <span class="cat">catalogue not found</span></dd>
@@ -2922,7 +2923,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech both">Not settled</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-sweatpants#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-sweatpants-0" data-id="punched-out-sweatpants#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Garment-Dyed Fleece Sweatpants | Comfort Colors 1469</span> <button class="copy small" data-copy="1469" title="Copy the model number to search Printful">Copy 1469</button> <span class="cat">catalogue not found</span></dd>
@@ -2971,7 +2972,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-quarter-zip#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-quarter-zip-0" data-id="off-shft-logo-quarter-zip#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Fleece Pullover | Cotton Heritage M2475, or Lane Seven LS14014</span> <button class="copy small" data-copy="M2475" title="Copy the model number to search Printful">Copy M2475</button> <span class="cat">catalogue 674 (M2475); 1473 (LS14014, from a mirror <span class="tag">unconfirmed</span>)</span></dd>
@@ -3013,7 +3014,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-quarter-zip#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-quarter-zip-0" data-id="the-clock-quarter-zip#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Fleece Pullover | Cotton Heritage M2475, or Lane Seven LS14014</span> <button class="copy small" data-copy="M2475" title="Copy the model number to search Printful">Copy M2475</button> <span class="cat">catalogue 674 (M2475); 1473 (LS14014, from a mirror <span class="tag">unconfirmed</span>)</span></dd>
@@ -3055,7 +3056,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-quarter-zip#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-quarter-zip-0" data-id="punched-out-quarter-zip#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Fleece Pullover | Cotton Heritage M2475, or Lane Seven LS14014</span> <button class="copy small" data-copy="M2475" title="Copy the model number to search Printful">Copy M2475</button> <span class="cat">catalogue 674 (M2475); 1473 (LS14014, from a mirror <span class="tag">unconfirmed</span>)</span></dd>
@@ -3097,7 +3098,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="off-shft-logo-jacket#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-off-shft-logo-jacket-0" data-id="off-shft-logo-jacket#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Champion Packable Anorak | CO200</span> <button class="copy small" data-copy="CO200" title="Copy the model number to search Printful">Copy CO200</button> <span class="cat">catalogue 399</span></dd>
@@ -3139,7 +3140,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="the-clock-jacket#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-the-clock-jacket-0" data-id="the-clock-jacket#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Champion Packable Anorak | CO200</span> <button class="copy small" data-copy="CO200" title="Copy the model number to search Printful">Copy CO200</button> <span class="cat">catalogue 399</span></dd>
@@ -3181,7 +3182,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>All variants</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-jacket#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-jacket-0" data-id="punched-out-jacket#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Champion Packable Anorak | CO200</span> <button class="copy small" data-copy="CO200" title="Copy the model number to search Printful">Copy CO200</button> <span class="cat">catalogue 399</span></dd>
@@ -3223,7 +3224,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Cotton Pique — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-golf-shirt#0"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-golf-shirt-0" data-id="punched-out-golf-shirt#0"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Premium Pique Polo Shirt | SOL'S 11362</span> <button class="copy small" data-copy="11362" title="Copy the model number to search Printful">Copy 11362</button> <span class="cat">catalogue 810</span></dd>
@@ -3272,7 +3273,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Cotton Pique — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-golf-shirt#1"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-golf-shirt-1" data-id="punched-out-golf-shirt#1"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Premium Pique Polo Shirt | SOL'S 11362</span> <button class="copy small" data-copy="11362" title="Copy the model number to search Printful">Copy 11362</button> <span class="cat">catalogue 810</span></dd>
@@ -3335,7 +3336,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Classic — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-golf-shirt#2"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-golf-shirt-2" data-id="punched-out-golf-shirt#2"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Men's Premium Polo Shirt | Port Authority K500</span> <button class="copy small" data-copy="K500" title="Copy the model number to search Printful">Copy K500</button> <span class="cat">catalogue 340 <span class="tag">unconfirmed</span></span></dd>
@@ -3384,7 +3385,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Classic — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-golf-shirt#3"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-golf-shirt-3" data-id="punched-out-golf-shirt#3"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Men's Premium Polo Shirt | Port Authority K500</span> <button class="copy small" data-copy="K500" title="Copy the model number to search Printful">Copy K500</button> <span class="cat">catalogue 340 <span class="tag">unconfirmed</span></span></dd>
@@ -3447,7 +3448,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Performance — Embroidered</h3>
     <span class="tech embroidery">Embroidery</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-golf-shirt#4"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-golf-shirt-4" data-id="punched-out-golf-shirt#4"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Adidas Sport Polo Shirt | A430</span> <button class="copy small" data-copy="A430" title="Copy the model number to search Printful">Copy A430</button> <span class="cat">catalogue not found</span></dd>
@@ -3496,7 +3497,7 @@ footer { border-top: 1px solid var(--line); padding-block: 18px 32px; font-size:
   <div class="g-head">
     <h3>Performance — Printed</h3>
     <span class="tech print">Print</span>
-    <label class="tick"><input type="checkbox" data-id="punched-out-golf-shirt#5"><span>Checked in Printful</span></label>
+    <label class="tick"><input type="checkbox" id="tick-punched-out-golf-shirt-5" data-id="punched-out-golf-shirt#5"><span>Checked in Printful</span></label>
   </div>
   <dl class="spec">
     <dt>Printful product</dt><dd><span class="prod">Unisex Adidas Sport Polo Shirt | A430</span> <button class="copy small" data-copy="A430" title="Copy the model number to search Printful">Copy A430</button> <span class="cat">catalogue not found</span></dd>
