@@ -49,6 +49,16 @@ sheet (https://claude.ai/artifact/DGDrj5W4UfxVqYEjp1u4fY; source in store/printf
 linked to, for the owner to check in Printful; its "Your calls" tab lists the decisions this raised. The notes below
 are as of 29-30 Oct.
 
+**Update, 2 Nov 2026 (the owner asked for these):** shipping is back on the store's rates (C$12, free from C$75, Canada
+and the US; Printful's eight profiles were removed and every product is in the General profile, which now includes the
+Printful location). Ten listings were made true to what can be made: flat embroidery at the real sizes instead of 3D
+puff (Logo Hat, three beanies, three bucket hats, For a Reason.), the Punched Out. Hoodie's Oversized embroidery as the
+two-line stack at the chest, Not Picking Up.'s as the one line on the big front, and the beanies' and bucket hats'
+colours listed. Every clothing listing has a size chart in its `custom.size_chart` metafield (store/theme/size-charts.cjs)
+and the Size & fit page has charts for the quarter-zips and golf shirts. The Footer menu lists the help pages. Still the
+owner's: the three product-page rows, the two policies and the footer block (store/theme/product-page-rows.md). Art for
+the five listings made outside this repo is being drawn with the phrases generator (designs/phrases/).
+
 **Product photos are the owner's** (30 Oct 2026): they make them with their own tool (Astra), as with the studio
 mockups. Don't render or upload shop photos for new listings; create listings without images and leave the photos to
 the owner. The drawings in store/previews stay for the picker page.
