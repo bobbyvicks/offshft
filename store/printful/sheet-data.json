@@ -2743,11 +2743,11 @@
   {
    "name": "logo-light-62.6mm",
    "source": "designs/mark/final/block/logo-light.svg",
-   "sha256": "f24ba5af",
-   "mm": "62.64 x 18.04",
-   "inches": "2.47 x 0.71",
+   "sha256": "a065ccdc",
+   "mm": "62.60 x 21.76",
+   "inches": "2.46 x 0.86",
    "embroidery": {
-    "px": "1480 x 426",
+    "px": "1479 x 514",
     "dpi": 600,
     "threads": [
      "1800 Black",
@@ -2755,9 +2755,9 @@
     ]
    },
    "print": {
-    "mm": "62.64 x 18.04",
-    "inches": "2.47 x 0.71",
-    "px": "740 x 213",
+    "mm": "62.60 x 21.76",
+    "inches": "2.46 x 0.86",
+    "px": "739 x 257",
     "dpi": 300
    },
    "usedBy": [
@@ -2776,11 +2776,11 @@
   {
    "name": "logo-dark-62.6mm",
    "source": "designs/mark/final/block/logo-dark.svg",
-   "sha256": "7256b6c9",
-   "mm": "62.64 x 18.04",
-   "inches": "2.47 x 0.71",
+   "sha256": "28c87baf",
+   "mm": "62.60 x 21.76",
+   "inches": "2.46 x 0.86",
    "embroidery": {
-    "px": "1480 x 426",
+    "px": "1479 x 514",
     "dpi": 600,
     "threads": [
      "1801 White",
@@ -2788,9 +2788,9 @@
     ]
    },
    "print": {
-    "mm": "62.64 x 18.04",
-    "inches": "2.47 x 0.71",
-    "px": "740 x 213",
+    "mm": "62.60 x 21.76",
+    "inches": "2.46 x 0.86",
+    "px": "739 x 257",
     "dpi": 300
    },
    "usedBy": [
@@ -2808,20 +2808,20 @@
   {
    "name": "logo-bone-62.6mm",
    "source": "designs/mark/final/block/logo-one-colour-bone.svg",
-   "sha256": "8f293be6",
-   "mm": "62.64 x 18.97",
-   "inches": "2.47 x 0.75",
+   "sha256": "2158806e",
+   "mm": "62.60 x 22.69",
+   "inches": "2.46 x 0.89",
    "embroidery": {
-    "px": "1480 x 448",
+    "px": "1479 x 536",
     "dpi": 600,
     "threads": [
      "1801 White"
     ]
    },
    "print": {
-    "mm": "62.64 x 18.97",
-    "inches": "2.47 x 0.75",
-    "px": "740 x 224",
+    "mm": "62.60 x 22.69",
+    "inches": "2.46 x 0.89",
+    "px": "739 x 268",
     "dpi": 300
    },
    "usedBy": [
@@ -2837,20 +2837,20 @@
   {
    "name": "logo-ink-62.6mm",
    "source": "designs/mark/final/block/logo-one-colour-ink.svg",
-   "sha256": "97a72a13",
-   "mm": "62.64 x 18.97",
-   "inches": "2.47 x 0.75",
+   "sha256": "0e1ae4e0",
+   "mm": "62.60 x 22.69",
+   "inches": "2.46 x 0.89",
    "embroidery": {
-    "px": "1480 x 448",
+    "px": "1479 x 536",
     "dpi": 600,
     "threads": [
      "1800 Black"
     ]
    },
    "print": {
-    "mm": "62.64 x 18.97",
-    "inches": "2.47 x 0.75",
-    "px": "740 x 224",
+    "mm": "62.60 x 22.69",
+    "inches": "2.46 x 0.89",
+    "px": "739 x 268",
     "dpi": 300
    },
    "usedBy": [
@@ -2861,11 +2861,11 @@
   {
    "name": "clock-light-25mm",
    "source": "designs/mark/final/block/symbol-light.svg",
-   "sha256": "623c7079",
-   "mm": "11.80 x 25.00",
-   "inches": "0.46 x 0.98",
+   "sha256": "081e2225",
+   "mm": "12.86 x 25.00",
+   "inches": "0.51 x 0.98",
    "embroidery": {
-    "px": "279 x 591",
+    "px": "304 x 591",
     "dpi": 600,
     "threads": [
      "1800 Black",
@@ -2873,9 +2873,9 @@
     ]
    },
    "print": {
-    "mm": "11.80 x 25.00",
-    "inches": "0.46 x 0.98",
-    "px": "139 x 295",
+    "mm": "12.86 x 25.00",
+    "inches": "0.51 x 0.98",
+    "px": "152 x 295",
     "dpi": 300
    },
    "usedBy": [
@@ -2893,11 +2893,11 @@
   {
    "name": "clock-dark-25mm",
    "source": "designs/mark/final/block/symbol-dark.svg",
-   "sha256": "321610d7",
-   "mm": "11.80 x 25.00",
-   "inches": "0.46 x 0.98",
+   "sha256": "dd264eb9",
+   "mm": "12.86 x 25.00",
+   "inches": "0.51 x 0.98",
    "embroidery": {
-    "px": "279 x 591",
+    "px": "304 x 591",
     "dpi": 600,
     "threads": [
      "1801 White",
@@ -2905,9 +2905,9 @@
     ]
    },
    "print": {
-    "mm": "11.80 x 25.00",
-    "inches": "0.46 x 0.98",
-    "px": "139 x 295",
+    "mm": "12.86 x 25.00",
+    "inches": "0.51 x 0.98",
+    "px": "152 x 295",
     "dpi": 300
    },
    "usedBy": [
@@ -2924,20 +2924,20 @@
   {
    "name": "clock-bone-25mm",
    "source": "designs/mark/final/block/symbol-one-colour-bone.svg",
-   "sha256": "afc2b992",
-   "mm": "11.67 x 25.00",
-   "inches": "0.46 x 0.98",
+   "sha256": "7b695434",
+   "mm": "12.71 x 25.00",
+   "inches": "0.50 x 0.98",
    "embroidery": {
-    "px": "276 x 591",
+    "px": "300 x 591",
     "dpi": 600,
     "threads": [
      "1801 White"
     ]
    },
    "print": {
-    "mm": "11.67 x 25.00",
-    "inches": "0.46 x 0.98",
-    "px": "138 x 295",
+    "mm": "12.71 x 25.00",
+    "inches": "0.50 x 0.98",
+    "px": "150 x 295",
     "dpi": 300
    },
    "usedBy": [
@@ -2952,20 +2952,20 @@
   {
    "name": "clock-ink-25mm",
    "source": "designs/mark/final/block/symbol-one-colour-ink.svg",
-   "sha256": "24a53072",
-   "mm": "11.67 x 25.00",
-   "inches": "0.46 x 0.98",
+   "sha256": "f1313dd1",
+   "mm": "12.71 x 25.00",
+   "inches": "0.50 x 0.98",
    "embroidery": {
-    "px": "276 x 591",
+    "px": "300 x 591",
     "dpi": 600,
     "threads": [
      "1800 Black"
     ]
    },
    "print": {
-    "mm": "11.67 x 25.00",
-    "inches": "0.46 x 0.98",
-    "px": "138 x 295",
+    "mm": "12.71 x 25.00",
+    "inches": "0.50 x 0.98",
+    "px": "150 x 295",
     "dpi": 300
    },
    "usedBy": [
@@ -2975,11 +2975,11 @@
   {
    "name": "clock-dark-40mm",
    "source": "designs/mark/final/block/symbol-dark-40mm.svg",
-   "sha256": "fc0156df",
-   "mm": "19.05 x 40.00",
-   "inches": "0.75 x 1.57",
+   "sha256": "c9d85cef",
+   "mm": "20.80 x 40.00",
+   "inches": "0.82 x 1.57",
    "embroidery": {
-    "px": "450 x 945",
+    "px": "491 x 945",
     "dpi": 600,
     "threads": [
      "1801 White",
@@ -2987,9 +2987,9 @@
     ]
    },
    "print": {
-    "mm": "19.05 x 40.00",
-    "inches": "0.75 x 1.57",
-    "px": "225 x 472",
+    "mm": "20.80 x 40.00",
+    "inches": "0.82 x 1.57",
+    "px": "246 x 472",
     "dpi": 300
    },
    "usedBy": [
@@ -2999,11 +2999,11 @@
   {
    "name": "clock-light-40mm",
    "source": "designs/mark/final/block/symbol-light-40mm.svg",
-   "sha256": "8ad2fa50",
-   "mm": "19.05 x 40.00",
-   "inches": "0.75 x 1.57",
+   "sha256": "4a1af024",
+   "mm": "20.80 x 40.00",
+   "inches": "0.82 x 1.57",
    "embroidery": {
-    "px": "450 x 945",
+    "px": "491 x 945",
     "dpi": 600,
     "threads": [
      "1800 Black",
@@ -3011,9 +3011,9 @@
     ]
    },
    "print": {
-    "mm": "19.05 x 40.00",
-    "inches": "0.75 x 1.57",
-    "px": "225 x 472",
+    "mm": "20.80 x 40.00",
+    "inches": "0.82 x 1.57",
+    "px": "246 x 472",
     "dpi": 300
    },
    "usedBy": [
@@ -3023,20 +3023,20 @@
   {
    "name": "clock-ink-40mm",
    "source": "designs/mark/final/block/symbol-one-colour-ink-40mm.svg",
-   "sha256": "41ccf472",
-   "mm": "19.05 x 40.00",
-   "inches": "0.75 x 1.57",
+   "sha256": "ffb75ac4",
+   "mm": "20.80 x 40.00",
+   "inches": "0.82 x 1.57",
    "embroidery": {
-    "px": "450 x 945",
+    "px": "491 x 945",
     "dpi": 600,
     "threads": [
      "1800 Black"
     ]
    },
    "print": {
-    "mm": "19.05 x 40.00",
-    "inches": "0.75 x 1.57",
-    "px": "225 x 472",
+    "mm": "20.80 x 40.00",
+    "inches": "0.82 x 1.57",
+    "px": "246 x 472",
     "dpi": 300
    },
    "usedBy": [
@@ -3625,13 +3625,13 @@
   {
    "name": "logo-light-75mm-print",
    "source": "designs/mark/final/block/logo-light.svg",
-   "sha256": "f24ba5af",
-   "mm": "62.64 x 18.04",
-   "inches": "2.47 x 0.71",
+   "sha256": "a065ccdc",
+   "mm": "62.60 x 21.76",
+   "inches": "2.46 x 0.86",
    "print": {
-    "mm": "75.00 x 21.60",
-    "inches": "2.95 x 0.85",
-    "px": "886 x 255",
+    "mm": "75.00 x 26.07",
+    "inches": "2.95 x 1.03",
+    "px": "886 x 308",
     "dpi": 300
    },
    "usedBy": [
@@ -3641,13 +3641,13 @@
   {
    "name": "logo-dark-75mm-print",
    "source": "designs/mark/final/block/logo-dark.svg",
-   "sha256": "7256b6c9",
-   "mm": "62.64 x 18.04",
-   "inches": "2.47 x 0.71",
+   "sha256": "28c87baf",
+   "mm": "62.60 x 21.76",
+   "inches": "2.46 x 0.86",
    "print": {
-    "mm": "75.00 x 21.60",
-    "inches": "2.95 x 0.85",
-    "px": "886 x 255",
+    "mm": "75.00 x 26.07",
+    "inches": "2.95 x 1.03",
+    "px": "886 x 308",
     "dpi": 300
    },
    "usedBy": [
