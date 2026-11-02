@@ -1,0 +1,182 @@
+[
+  {
+    "key": "golf-club",
+    "title": "OFF SHFT GOLF CLUB",
+    "palette": "light",
+    "technique": "embroidered",
+    "artworkMm": [
+      75,
+      17.069
+    ],
+    "capHeightMm": 6.635,
+    "fieldInches": 4,
+    "dpi": 600,
+    "pixels": 2400,
+    "file": "store/printful-setup/golf-series/canvases/golf-club-light-embroidered-chest.png"
+  },
+  {
+    "key": "golf-club",
+    "title": "OFF SHFT GOLF CLUB",
+    "palette": "light",
+    "technique": "printed",
+    "artworkMm": [
+      75,
+      17.069
+    ],
+    "capHeightMm": 6.635,
+    "fieldInches": 3.0000000000000004,
+    "dpi": 300,
+    "pixels": 900,
+    "file": "store/printful-setup/golf-series/canvases/golf-club-light-printed-chest.png"
+  },
+  {
+    "key": "golf-club",
+    "title": "OFF SHFT GOLF CLUB",
+    "palette": "dark",
+    "technique": "embroidered",
+    "artworkMm": [
+      75,
+      17.069
+    ],
+    "capHeightMm": 6.635,
+    "fieldInches": 4,
+    "dpi": 600,
+    "pixels": 2400,
+    "file": "store/printful-setup/golf-series/canvases/golf-club-dark-embroidered-chest.png"
+  },
+  {
+    "key": "golf-club",
+    "title": "OFF SHFT GOLF CLUB",
+    "palette": "dark",
+    "technique": "printed",
+    "artworkMm": [
+      75,
+      17.069
+    ],
+    "capHeightMm": 6.635,
+    "fieldInches": 3.0000000000000004,
+    "dpi": 300,
+    "pixels": 900,
+    "file": "store/printful-setup/golf-series/canvases/golf-club-dark-printed-chest.png"
+  },
+  {
+    "key": "out-of-office",
+    "title": "OUT OF OFFICE.",
+    "palette": "light",
+    "technique": "embroidered",
+    "artworkMm": [
+      63.6,
+      22.191
+    ],
+    "capHeightMm": 8.626,
+    "fieldInches": 4,
+    "dpi": 600,
+    "pixels": 2400,
+    "file": "store/printful-setup/golf-series/canvases/out-of-office-light-embroidered-chest.png"
+  },
+  {
+    "key": "out-of-office",
+    "title": "OUT OF OFFICE.",
+    "palette": "light",
+    "technique": "printed",
+    "artworkMm": [
+      63.6,
+      22.191
+    ],
+    "capHeightMm": 8.626,
+    "fieldInches": 3.0000000000000004,
+    "dpi": 300,
+    "pixels": 900,
+    "file": "store/printful-setup/golf-series/canvases/out-of-office-light-printed-chest.png"
+  },
+  {
+    "key": "out-of-office",
+    "title": "OUT OF OFFICE.",
+    "palette": "dark",
+    "technique": "embroidered",
+    "artworkMm": [
+      63.6,
+      22.191
+    ],
+    "capHeightMm": 8.626,
+    "fieldInches": 4,
+    "dpi": 600,
+    "pixels": 2400,
+    "file": "store/printful-setup/golf-series/canvases/out-of-office-dark-embroidered-chest.png"
+  },
+  {
+    "key": "out-of-office",
+    "title": "OUT OF OFFICE.",
+    "palette": "dark",
+    "technique": "printed",
+    "artworkMm": [
+      63.6,
+      22.191
+    ],
+    "capHeightMm": 8.626,
+    "fieldInches": 3.0000000000000004,
+    "dpi": 300,
+    "pixels": 900,
+    "file": "store/printful-setup/golf-series/canvases/out-of-office-dark-printed-chest.png"
+  },
+  {
+    "key": "time-well-spent",
+    "title": "TIME WELL SPENT.",
+    "palette": "light",
+    "technique": "embroidered",
+    "artworkMm": [
+      75,
+      17.834
+    ],
+    "capHeightMm": 6.99,
+    "fieldInches": 4,
+    "dpi": 600,
+    "pixels": 2400,
+    "file": "store/printful-setup/golf-series/canvases/time-well-spent-light-embroidered-chest.png"
+  },
+  {
+    "key": "time-well-spent",
+    "title": "TIME WELL SPENT.",
+    "palette": "light",
+    "technique": "printed",
+    "artworkMm": [
+      75,
+      17.834
+    ],
+    "capHeightMm": 6.99,
+    "fieldInches": 3.0000000000000004,
+    "dpi": 300,
+    "pixels": 900,
+    "file": "store/printful-setup/golf-series/canvases/time-well-spent-light-printed-chest.png"
+  },
+  {
+    "key": "time-well-spent",
+    "title": "TIME WELL SPENT.",
+    "palette": "dark",
+    "technique": "embroidered",
+    "artworkMm": [
+      75,
+      17.834
+    ],
+    "capHeightMm": 6.99,
+    "fieldInches": 4,
+    "dpi": 600,
+    "pixels": 2400,
+    "file": "store/printful-setup/golf-series/canvases/time-well-spent-dark-embroidered-chest.png"
+  },
+  {
+    "key": "time-well-spent",
+    "title": "TIME WELL SPENT.",
+    "palette": "dark",
+    "technique": "printed",
+    "artworkMm": [
+      75,
+      17.834
+    ],
+    "capHeightMm": 6.99,
+    "fieldInches": 3.0000000000000004,
+    "dpi": 300,
+    "pixels": 900,
+    "file": "store/printful-setup/golf-series/canvases/time-well-spent-dark-printed-chest.png"
+  }
+]
