@@ -73,6 +73,22 @@ every variant checked available in the admin (813 of 813, 9999 at Printful) whil
 all 38 products were re-saved (seo title) at 04:46 UTC to refresh the storefront, to be confirmed by the owner. Still drawing the rounded logo, on purpose: the picker previews (store/previews) and the apparel
 placement renders (store/apparel), both 29 Oct records that the store no longer uses.
 
+**Update, 2 Nov 2026, night: the "sold out" cause and fix.** The storefront counts a variant's stock only at locations
+that sit in the variant's own shipping profile. The General profile had lost the Printful location again (Printful's
+app pulled it back into its own profiles when it linked the new Blue Jean and True Navy variants at 03:48 UTC), so
+every variant in General saw only the store location's zero and read "Sold out", while the 25 new variants in Printful's
+profiles read in stock. Seen directly: a diagnostic page on the unpublished "OFF SHFT" theme printed Liquid's own
+`product.available` and `inventory_quantity` for all 47 live products. Fix, so it can't happen again: every Printful
+variant now lives in Printful's two profiles ("Printful: Hoodies (#PF-FRG2)" for hoodies, crewnecks, sweatpants,
+quarter-zips and jackets; "Printful: Tshirts (#PF-FRG1)" for tees, the golf shirt and all headwear) and those profiles'
+Canada and US zones carry the store's rates (Standard C$12, free from C$75, Express C$20 in Canada; Printful's other
+zones were left as they were and the store only sells to Canada and the US). Checked at checkout: hat to Toronto
+Standard C$12 / Express C$20; hoodie to Buffalo free. The General profile keeps the store location and the same rates
+for anything not made by Printful. If Printful ever rewrites its profiles' rates, put the store's rates back in them.
+Codex has since added three combined golf-shirt listings (100 variants each, unpublished) and nine published ones
+(Classic, Cotton Pique, Performance for OFF SHFT Golf Club, Out of Office and Time Well Spent); their variants were
+left where Printful filed them.
+
 **Product photos are the owner's** (30 Oct 2026): they make them with their own tool (Astra), as with the studio
 mockups. Don't render or upload shop photos for new listings; create listings without images and leave the photos to
 the owner. The drawings in store/previews stay for the picker page.
