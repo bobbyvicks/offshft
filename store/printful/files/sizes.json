@@ -2,7 +2,7 @@
  {
   "name": "logo-light-62.6mm",
   "source": "designs/mark/final/block/logo-light.svg",
-  "sha256": "e7e5e539",
+  "sha256": "a065ccdc",
   "mm": "62.60 x 21.76",
   "inches": "2.46 x 0.86",
   "embroidery": {
@@ -23,7 +23,7 @@
  {
   "name": "logo-dark-62.6mm",
   "source": "designs/mark/final/block/logo-dark.svg",
-  "sha256": "f094658e",
+  "sha256": "28c87baf",
   "mm": "62.60 x 21.76",
   "inches": "2.46 x 0.86",
   "embroidery": {
@@ -44,7 +44,7 @@
  {
   "name": "logo-bone-62.6mm",
   "source": "designs/mark/final/block/logo-one-colour-bone.svg",
-  "sha256": "dfba2682",
+  "sha256": "2158806e",
   "mm": "62.60 x 22.69",
   "inches": "2.46 x 0.89",
   "embroidery": {
@@ -64,7 +64,7 @@
  {
   "name": "logo-ink-62.6mm",
   "source": "designs/mark/final/block/logo-one-colour-ink.svg",
-  "sha256": "d33df191",
+  "sha256": "0e1ae4e0",
   "mm": "62.60 x 22.69",
   "inches": "2.46 x 0.89",
   "embroidery": {
@@ -84,7 +84,7 @@
  {
   "name": "clock-light-25mm",
   "source": "designs/mark/final/block/symbol-light.svg",
-  "sha256": "be35f5b9",
+  "sha256": "081e2225",
   "mm": "12.86 x 25.00",
   "inches": "0.51 x 0.98",
   "embroidery": {
@@ -105,7 +105,7 @@
  {
   "name": "clock-dark-25mm",
   "source": "designs/mark/final/block/symbol-dark.svg",
-  "sha256": "f2972e01",
+  "sha256": "dd264eb9",
   "mm": "12.86 x 25.00",
   "inches": "0.51 x 0.98",
   "embroidery": {
@@ -166,7 +166,7 @@
  {
   "name": "clock-dark-40mm",
   "source": "designs/mark/final/block/symbol-dark-40mm.svg",
-  "sha256": "a5fc5aa8",
+  "sha256": "c9d85cef",
   "mm": "20.80 x 40.00",
   "inches": "0.82 x 1.57",
   "embroidery": {
@@ -187,7 +187,7 @@
  {
   "name": "clock-light-40mm",
   "source": "designs/mark/final/block/symbol-light-40mm.svg",
-  "sha256": "86c33291",
+  "sha256": "4a1af024",
   "mm": "20.80 x 40.00",
   "inches": "0.82 x 1.57",
   "embroidery": {
@@ -208,7 +208,7 @@
  {
   "name": "clock-ink-40mm",
   "source": "designs/mark/final/block/symbol-one-colour-ink-40mm.svg",
-  "sha256": "97a283ae",
+  "sha256": "ffb75ac4",
   "mm": "20.80 x 40.00",
   "inches": "0.82 x 1.57",
   "embroidery": {
@@ -721,7 +721,7 @@
  {
   "name": "logo-light-75mm-print",
   "source": "designs/mark/final/block/logo-light.svg",
-  "sha256": "e7e5e539",
+  "sha256": "a065ccdc",
   "mm": "62.60 x 21.76",
   "inches": "2.46 x 0.86",
   "print": {
@@ -734,7 +734,7 @@
  {
   "name": "logo-dark-75mm-print",
   "source": "designs/mark/final/block/logo-dark.svg",
-  "sha256": "f094658e",
+  "sha256": "28c87baf",
   "mm": "62.60 x 21.76",
   "inches": "2.46 x 0.86",
   "print": {

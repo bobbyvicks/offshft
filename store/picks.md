@@ -69,7 +69,8 @@ names and sizes: 62.6 mm lockup, 25 and 40 mm clocks) and the Printful sheet (ve
 (it was already drawn with square hands). Not changed: the phrase designs (Punched Out. and the rest) are still in
 Unbounded, pending the owner's word; Codex's hat mockups for those phrases also use a hard-edged face. Also today:
 every variant checked available in the admin (813 of 813, 9999 at Printful) while the storefront showed "Sold out";
-all 38 products were re-saved (seo title) at 04:46 UTC to refresh the storefront, to be confirmed by the owner.
+all 38 products were re-saved (seo title) at 04:46 UTC to refresh the storefront, to be confirmed by the owner. Still drawing the rounded logo, on purpose: the picker previews (store/previews) and the apparel
+placement renders (store/apparel), both 29 Oct records that the store no longer uses.
 
 **Product photos are the owner's** (30 Oct 2026): they make them with their own tool (Astra), as with the studio
 mockups. Don't render or upload shop photos for new listings; create listings without images and leave the photos to

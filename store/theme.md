@@ -169,7 +169,7 @@ Both fonts are in Shopify's font library. Shopify's font list (shopify.dev) has 
 | **Subheading** | Archivo | Semibold (600) | `archivo_n6` |
 | **Body** | Archivo | Regular (400) | `archivo_n4` |
 
-- Unbounded Bold is the logo's typeface (BRAND.md). It's used only for headings.
+- Unbounded Bold is the typeface of the phrase designs (BRAND.md; the logo's own letters are drawn, since 2 Nov 2026). It's used only for headings.
 - Archivo is plain and reads well at small sizes. The logo was set in Archivo before the owner picked Unbounded (designs/mark/BRIEF.md), so it already belongs to the brand.
 - Accent matches Heading. Horizon loads each font once, so this adds no download, and anything set to Accent stays on brand.
 

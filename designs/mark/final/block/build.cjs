@@ -10,7 +10,9 @@
 // Embroidery floors (the same rules the Unbounded logo had, designs/mark/final/the-o/notes.md):
 //   channel >= 1.0 mm two colours, 1.2 mm one colour (1.5 mm from 7 mm caps and on the 40 mm clock);
 //   pivot dot >= 1.5 mm with >= 1.3 mm of fabric to the ring (1.5 one colour), else left out (one colour: always out);
-//   the F's slot and the S's mouths >= 1.0 mm (the slot moves the crossbar down, the mouths trim the terminals).
+//   the F's slot and the S's mouths >= 1.0 mm (the slot moves the crossbar down; the S's mouths are opened once, in the
+//   drawing, so they are 1.0 mm at the floor). Floor: letters 10 mm (the lockup 58.5 mm wide): below that the S's enclosed
+//   counters are under 1.0 mm whatever the mouths, so no smaller lockup is drawn.
 //
 // Exports mirror ../the-o/build.cjs so the brand kit, the store assets and the Printful export need only the require.
 // Run: cd /home/user/offshft/tools && node ../designs/mark/final/block/build.cjs      (writes the files and notes.md)
@@ -71,7 +73,7 @@ function crossingsY(poly, x) {
 function letterF(x, y, cap) {
   const s = REF.stem * cap, a = REF.arm * cap;
   const slot = Math.max(REF.F.barTop * cap - a, FLOOR.slot);               // the slot opens to 1.0 mm at small sizes
-  const barTop = y + a + slot, barBottom = y + REF.F.barBottom * cap;
+  const barTop = y + a + slot, barBottom = barTop + (REF.F.barBottom - REF.F.barTop) * cap;   // the bar moves whole
   const paths = clip(ClipperLib.ClipType.ctUnion, [rect(x, y, x + s, y + cap), rect(x, y, x + REF.F.w * cap, y + a), rect(x, barTop, x + REF.F.barW * cap, barBottom)]);
   return { paths, slot, bar: barBottom - barTop };
 }
@@ -84,37 +86,30 @@ function letterT(x, y, cap) {
   const w = REF.T.w * cap, s = REF.T.stem * cap;
   return { paths: clip(ClipperLib.ClipType.ctUnion, [rect(x, y, x + w, y + REF.T.barH * cap), rect(x + (w - s) / 2, y, x + (w + s) / 2, y + cap)]) };
 }
-// The S: the measured outline, scaled; its mouths opened to the floor by trimming the terminal faces (the way the
-// Unbounded logo trims its S). Mouths are measured 1.0 mm in from each terminal's tip.
+// The S: the measured outline, scaled. Its mouths (each terminal's flat face to the spine's flat face: 1.64 mm at the
+// source's cap 21.40, 0.077 cap) are opened once, in the source, so they are 1.0 mm at the 10 mm floor: each terminal's
+// face moves 0.50 mm (source) away from the spine along the flat part of the terminal. Below 10 mm letters the S's
+// enclosed counters (0.10-0.11 cap) are under 1.0 mm whatever the mouths, hence the floor.
+const S_FACES = { upperFace: 6.639, upperSpine: 8.279, lowerSpine: 12.070, lowerFace: 13.710 };   // source mm, y down from the cap line
+const S_MIN_CAP = 10;
+const S_OPEN = FLOOR.mouth * (S_SRC.cap / S_MIN_CAP) - (S_FACES.upperSpine - S_FACES.upperFace);   // 0.50 mm at the source
+const S_POLY = (() => {
+  const w = Math.max(...S_SRC.points.map((p) => p[0]));
+  const src = clip(ClipperLib.ClipType.ctUnion, [S_SRC.points.map(([px, py]) => P(px, py))]);
+  const cuts = [rect(0.35 * w, S_FACES.upperFace - S_OPEN, w + 1, S_FACES.upperFace + 0.002), rect(-1, S_FACES.lowerFace - 0.002, 0.65 * w, S_FACES.lowerFace + S_OPEN)];
+  const paths = clip(ClipperLib.ClipType.ctDifference, src, cuts);
+  if (paths.length !== 1) throw new Error(`S outline: expected one contour after opening the mouths, got ${paths.length}`);
+  return { pts: paths[0].map(({ X, Y }) => [X / SC, Y / SC]), w };
+})();
 function letterS(x, y, cap) {
   const k = cap / S_SRC.cap;
-  const poly = S_SRC.points.map(([px, py]) => [x + px * k, y + py * k]);
-  const w = Math.max(...poly.map((p) => p[0])) - x;
-  let paths = clip(ClipperLib.ClipType.ctUnion, [poly.map(([px, py]) => P(px, py))]);
-  const trims = { upper: 0, lower: 0 };
-  // upper terminal: top right. Its underside and the spine below it, 1.0 mm in from the tip.
-  const tipR = x + w, xu = tipR - 1.0;
-  const cu = crossingsY(poly, xu).filter((v) => v > y - 0.1 * cap && v < y + 0.6 * cap);
-  const mouthU = cu.length >= 3 ? cu[2] - cu[1] : Infinity;
-  if (mouthU < FLOOR.mouth) {
-    trims.upper = FLOOR.mouth - mouthU;
-    const zone = tipR - 3.0;                                               // the terminal's last 3 mm
-    let low = -Infinity;
-    for (let xx = zone; xx <= tipR - 0.05; xx += 0.05) { const c = crossingsY(poly, xx).filter((v) => v < y + 0.45 * cap); if (c.length >= 2) low = Math.max(low, c[1]); }
-    paths = clip(ClipperLib.ClipType.ctDifference, paths, [rect(zone, low - trims.upper, tipR + 1, low + 0.01)]);
-  }
-  // lower terminal: bottom left. Its top face and the spine above it.
-  const tipL = x + Math.min(...poly.filter((p) => p[1] > y + 0.6 * cap).map((p) => p[0])) - x, xl = tipL + 1.0;
-  const cl = crossingsY(poly, xl).filter((v) => v > y + 0.4 * cap && v < y + 1.1 * cap);
-  const mouthL = cl.length >= 2 ? cl[cl.length - 2] - cl[cl.length - 3] : Infinity;
-  if (mouthL < FLOOR.mouth) {
-    trims.lower = FLOOR.mouth - mouthL;
-    const zone = tipL + 3.0;
-    let high = Infinity;
-    for (let xx = tipL + 0.05; xx <= zone; xx += 0.05) { const c = crossingsY(poly, xx).filter((v) => v > y + 0.55 * cap); if (c.length >= 2) high = Math.min(high, c[c.length - 2]); }
-    paths = clip(ClipperLib.ClipType.ctDifference, paths, [rect(x - 1, high - 0.01, zone, high + trims.lower)]);
-  }
-  return { paths, w, trims, mouths: { upper: mouthU, lower: mouthL } };
+  const poly = S_POLY.pts.map(([px, py]) => [x + px * k, y + py * k]);
+  const w = S_POLY.w * k;
+  // mouths at the flats (upper terminal at 0.75 w, lower at 0.22 w) and the enclosed counters at their middles
+  const gap = (xx, lo, hi, fromEnd) => { const c = crossingsY(poly, xx).filter((v) => v > y + lo * cap && v < y + hi * cap); if (c.length < 3) return NaN; return fromEnd ? c[c.length - 2] - c[c.length - 3] : c[2] - c[1]; };
+  const mouths = { upper: gap(x + 0.75 * w, -0.1, 0.6, false), lower: gap(x + 0.22 * w, 0.4, 1.1, true) };
+  const counters = { upper: gap(x + 0.5 * w, -0.1, 0.55, false), lower: gap(x + 0.48 * w, 0.45, 1.1, true) };
+  return { paths: [poly.map(([px, py]) => P(px, py))], w, mouths, counters };
 }
 
 // ---------------------------------------------------------------- the clock (ring, bar hands, dot)
@@ -128,7 +123,8 @@ function geometry(cap, { oneColour = false, channel, dot: wantDot = true } = {})
   if (dot < FLOOR.dot || !wantDot || oneColour) dot = 0;
   return { cap, R, r, wall: R - r, g, dot, handW, Lm: REF.hand.minute * cap, Lh: REF.hand.hour * cap, oneColour, fabric: dot ? r - dot / 2 : null };
 }
-const ellipse = (cx, cy, rx, ry) => `M${n(cx - rx)} ${n(cy)} a${n(rx)} ${n(ry)} 0 1 0 ${n(2 * rx)} 0 a${n(rx)} ${n(ry)} 0 1 0 ${n(-2 * rx)} 0 Z`;
+// radii rounded first and the chord taken from the rounded radius, so the two arcs are exact semicircles
+const ellipse = (cx, cy, rx, ry) => { const r1 = +n(rx), r2 = +n(ry); return `M${n(cx - r1)} ${n(cy)} a${r1} ${r2} 0 1 0 ${n(2 * r1)} 0 a${r1} ${r2} 0 1 0 ${n(-2 * r1)} 0 Z`; };
 // A bar hand: width w, from distance t0 to t1 along the clock angle deg, square ends.
 function bar(cx, cy, deg, t0, t1, w) {
   const a = (deg * Math.PI) / 180, ux = Math.sin(a), uy = -Math.cos(a), nx = -uy, ny = ux, s = w / 2;
@@ -163,7 +159,7 @@ function lockup(cap, colours, opts = {}) {
   const b = union(c.box, { x0: ink[0].x0, y0: capLine - 0.04 * cap, x1: ink[ink.length - 1].x1, y1: capLine + cap + 0.01 * cap });
   const bb = { x0: b.x0, y0: Math.min(b.y0, capLine), x1: b.x1, y1: Math.max(b.y1, capLine + cap) };
   const seamShift = (ink[1].x1 + ink[2].x0) / 2 - (bb.x0 + bb.x1) / 2;   // word space centre, from the lockup's centre
-  return { w: bb.x1 - bb.x0, h: bb.y1 - bb.y0, body: `<g transform="translate(${n(-bb.x0)} ${n(-bb.y0)})">${c.svg}${word}</g>`, G, dot: G.dot, cap, ink: ink.map((q) => ({ ...q, x0: q.x0 - bb.x0, x1: q.x1 - bb.x0 })), seamShift, slot: f1.slot, hCounter: h.counter, sTrims: s.trims, sMouths: s.mouths };
+  return { w: bb.x1 - bb.x0, h: bb.y1 - bb.y0, body: `<g transform="translate(${n(-bb.x0)} ${n(-bb.y0)})">${c.svg}${word}</g>`, G, dot: G.dot, cap, ink: ink.map((q) => ({ ...q, x0: q.x0 - bb.x0, x1: q.x1 - bb.x0 })), seamShift, slot: f1.slot, hCounter: h.counter, sMouths: s.mouths, sCounters: s.counters };
 }
 // The cap height that gives the lockup a width (the Printful and store files are sized by width)
 function capForWidth(width, colours = LIGHT, opts = {}) {
@@ -175,7 +171,7 @@ function capForWidth(width, colours = LIGHT, opts = {}) {
 function symbol(height, colours, opts0 = {}) {
   const opts = { ...opts0 };
   let lo = 1, hi = 80;
-  const hOf = (cap) => { const G = geometry(cap, opts); const c = clock(G, 0, 0, colours); return c.box.y1 - c.box.y0; };
+  const hOf = (cap) => { const G = geometry(cap, opts); const c = clock(G, 0, 0, { ring: colours.letters, hands: colours.hands }); return c.box.y1 - c.box.y0; };
   for (let i = 0; i < 50; i++) { const mid = (lo + hi) / 2; if (hOf(mid) < height) lo = mid; else hi = mid; }
   const G = geometry(lo, opts);
   const c = clock(G, 0, 0, { ring: colours.letters, hands: colours.hands });
@@ -234,7 +230,7 @@ const ONE_BONE = { letters: T.bone, hands: T.bone, bg: F.spruce, name: 'one-colo
 const LOCKUP_WIDTH = 62.6;                                                  // the hat-front and chest file, as before
 const symbolChannel = (h) => (h >= 35 ? 1.5 : h >= 25 ? 1.2 : undefined);
 
-module.exports = { REF, FLOOR, geometry, lockup, capForWidth, symbol, smallMaster, stackedArt, stacked, clockTile, clock, letterF, letterH, letterT, letterS, LIGHT, DARK, ONE_INK, ONE_BONE, LOCKUP_WIDTH, symbolChannel };
+module.exports = { REF, FLOOR, S_MIN_CAP, geometry, lockup, capForWidth, symbol, smallMaster, stackedArt, stacked, clockTile, clock, letterF, letterH, letterT, letterS, LIGHT, DARK, ONE_INK, ONE_BONE, LOCKUP_WIDTH, symbolChannel };
 
 // ---------------------------------------------------------------- outputs
 if (require.main === module) (async () => {
@@ -250,7 +246,8 @@ if (require.main === module) (async () => {
     await kit.render(sm, sm.replace('.svg', '.png'), { bg: c.bg, tile: '40x30', px: 10 });
     sheet.push(lk.replace('.svg', '.png'), sy.replace('.svg', '.png'), sm.replace('.svg', '.png'));
   }
-  const caps = [7, 8.5, CAP];
+  const caps = [S_MIN_CAP, 12, CAP];
+  for (const old of ['logo-light-cap7', 'logo-light-cap8.5']) for (const ext of ['.svg', '.png']) fs.rmSync(path.join(OUT, old + ext), { force: true });
   for (const cap of caps) {
     const f = write(`logo-light-cap${n(Math.round(cap * 10) / 10)}.svg`, lockup(cap, LIGHT));
     await kit.render(f, f.replace('.svg', '.png'), { bg: F.bone, tile: '110x32', px: 8 });
@@ -274,11 +271,11 @@ if (require.main === module) (async () => {
   montage(caps.map((c) => path.join(OUT, `logo-light-cap${n(Math.round(c * 10) / 10)}.png`)), 'sizes-lockup.png', '+6+6', '1x');
   montage([...proofs, st.replace('.svg', '.png')], 'sizes-symbol.png', '+12+12', `${proofs.length + 1}x1`);
 
-  const L = lockup(CAP, LIGHT), L1 = lockup(CAP, ONE_INK, { oneColour: true }), L7 = lockup(7, LIGHT), G = L.G;
+  const L = lockup(CAP, LIGHT), L1 = lockup(CAP, ONE_INK, { oneColour: true }), L10 = lockup(S_MIN_CAP, LIGHT), G = L.G;
   const S25 = symbol(25, LIGHT, { channel: 1.2 }), S40 = symbol(40, LIGHT, { channel: 1.5 }), S19 = symbol(19, LIGHT), SM = smallMaster(LIGHT);
   const num = { cap: CAP, lockupW: L.w, lockupH: L.h, oneH: L1.h, ring: 2 * G.R, wall: G.wall, counter: 2 * G.r, channel: G.g, channelOne: L1.G.g, dot: G.dot, fabric: G.fabric, handW: G.handW, minute: G.Lm, hour: G.Lh,
-    stem: REF.stem * CAP, arm: REF.arm * CAP, slot: L.slot, hCounter: L.hCounter, sMouths: L.sMouths, sTrims: L.sTrims, seam: L.seamShift,
-    cap7: { w: L7.w, h: L7.h, dot: L7.dot, slot: L7.slot, hCounter: L7.hCounter, sTrims: L7.sTrims, sMouths: L7.sMouths },
+    stem: REF.stem * CAP, arm: REF.arm * CAP, slot: L.slot, hCounter: L.hCounter, sMouths: L.sMouths, sCounters: L.sCounters, seam: L.seamShift,
+    cap10: { w: L10.w, h: L10.h, dot: L10.dot, slot: L10.slot, hCounter: L10.hCounter, sMouths: L10.sMouths, sCounters: L10.sCounters },
     s25: { w: S25.w, h: S25.h, ring: 2 * S25.G.R, dot: S25.dot, fabric: S25.G.fabric, channel: S25.G.g }, s40: { ring: 2 * S40.G.R, dot: S40.dot, fabric: S40.G.fabric, wall: S40.G.wall, hand: S40.G.handW }, s19: { ring: 2 * S19.G.R, dot: S19.dot, channel: S19.G.g },
     side: [SM.w, SM.h] };
   console.log(JSON.stringify(num, (k, v) => (typeof v === 'number' ? +v.toFixed(3) : v)));
@@ -303,14 +300,14 @@ The O in OFF is a clock at 5:00 (quitting time): a heavy ring with a pivot dot, 
 | \`symbol-*.svg\` | The clock alone, 25 mm tall (patches, hat back, avatar); \`symbol-light-19/25/40mm.svg\`, \`symbol-dark-40mm.svg\`, \`symbol-one-colour-ink-40mm.svg\` as before |
 | \`side-*.svg\` | Side-of-hat master, its own small drawing (7.4 mm ring) |
 | \`stacked-light.svg\` | OFF over SHFT, for squares (the brand kit draws the colourways) |
-| \`logo-light-cap7/8.5/${f(m.cap, 1)}.svg\` | Size proofs |
+| \`logo-light-cap10/12/${f(m.cap, 1)}.svg\` | Size proofs (10 mm letters is the floor) |
 
 ## Construction (fractions of the letter height; at the ${f(m.lockupW, 1)} mm lockup, letters ${f(m.cap, 2)} mm)
 
 | Part | Rule | Here |
 |---|---|---|
-| F, H, T | Blocks. Stem 0.271 cap; F top arm 0.299 cap, crossbar 0.300 cap starting 0.383 cap down; H bar 0.330 cap starting 0.328 down; T bar 0.330 cap. Widths F 0.623, H 0.726, T 0.712 cap | stem ${f(m.stem)} mm, arm ${f(m.arm)} mm, F slot ${f(m.slot)} mm, H counter ${f(m.hCounter)} mm |
-| S | Measured outline (\`s-outline.json\`), 1.016 cap wide; mouths opened to 1.0 mm by trimming the terminal faces where needed | mouths ${f(m.sMouths.upper)} / ${f(m.sMouths.lower)} mm, trims ${f(m.sTrims.upper)} / ${f(m.sTrims.lower)} mm |
+| F, H, T | Blocks. Stem 0.271 cap; F top arm 0.299 cap, crossbar 0.300 cap starting 0.383 cap down (or 1.0 mm below the arm where that is more: the bar moves whole); H bar 0.330 cap starting 0.328 down; T bar 0.330 cap. Widths F 0.623, H 0.726, T 0.712 cap | stem ${f(m.stem)} mm, arm ${f(m.arm)} mm, F slot ${f(m.slot)} mm, H counter ${f(m.hCounter)} mm |
+| S | Measured outline (\`s-outline.json\`), 1.016 cap wide. Its mouths (terminal face to spine face) are opened in the drawing from 0.077 to 0.100 cap, so they are 1.0 mm at the 10 mm floor | mouths ${f(m.sMouths.upper)} / ${f(m.sMouths.lower)} mm; enclosed counters ${f(m.sCounters.upper)} / ${f(m.sCounters.lower)} mm |
 | Ring | Outer 0.944 cap across, wall 0.257 cap, centred 0.469 cap below the cap line (top of the ring on the cap line) | ${f(m.ring)} mm across, wall ${f(m.wall)} mm, counter ${f(m.counter)} mm |
 | Hands | Bars 0.248 cap wide with square ends. Minute: 0.594 cap long at 12. Hour: 0.374 cap at 150 degrees. Both start 0.075 cap off the ring (floor: 1.0 mm two colours, 1.2 one colour, 1.5 from 7 mm caps) | ${f(m.handW)} wide; minute ${f(m.minute)}, hour ${f(m.hour)} mm; channel ${f(m.channel)} mm |
 | Pivot dot | Hand colour, 0.271 cap, no more than leaves 1.3 mm of fabric to the ring; left out under 1.5 mm and in one colour | ${m.dot ? `${f(m.dot)} mm, ${f(m.fabric)} mm of fabric` : 'left out'} |
@@ -321,13 +318,13 @@ The O in OFF is a clock at 5:00 (quitting time): a heavy ring with a pivot dot, 
 
 | Drawing | Numbers |
 |---|---|
-| Lockup at cap 7 (the old floor) | ${f(m.cap7.w, 1)} x ${f(m.cap7.h, 1)} mm, ${m.cap7.dot ? `dot ${f(m.cap7.dot)} mm` : 'no dot'}, F slot ${f(m.cap7.slot)} mm, H counter ${f(m.cap7.hCounter)} mm, S trims ${f(m.cap7.sTrims.upper)} / ${f(m.cap7.sTrims.lower)} mm |
+| Lockup at cap 10 (the floor) | ${f(m.cap10.w, 1)} x ${f(m.cap10.h, 1)} mm, ${m.cap10.dot ? `dot ${f(m.cap10.dot)} mm` : 'no dot'}, F slot ${f(m.cap10.slot)} mm, H counter ${f(m.cap10.hCounter)} mm, S mouths ${f(m.cap10.sMouths.upper)} / ${f(m.cap10.sMouths.lower)} mm, S counters ${f(m.cap10.sCounters.upper)} / ${f(m.cap10.sCounters.lower)} mm |
 | 25 mm clock | ring ${f(m.s25.ring, 1)} mm, channel ${f(m.s25.channel)} mm, ${m.s25.dot ? `dot ${f(m.s25.dot)} mm with ${f(m.s25.fabric)} mm of fabric` : 'no dot'} |
 | 40 mm clock | ring ${f(m.s40.ring, 1)} mm, wall ${f(m.s40.wall)} mm, hands ${f(m.s40.hand)} mm wide, ${m.s40.dot ? `dot ${f(m.s40.dot)} mm with ${f(m.s40.fabric)} mm of fabric` : 'no dot'} |
 | 19 mm clock | ring ${f(m.s19.ring, 1)} mm, channel ${f(m.s19.channel)} mm, ${m.s19.dot ? `dot ${f(m.s19.dot)} mm` : 'no dot'} |
 | Side-of-hat master | ${f(m.side[0], 1)} x ${f(m.side[1], 1)} mm |
 
-Floors: the pivot dot needs letters of about 9.5 mm (1.5 mm dot with 1.3 mm of fabric inside a 0.215 cap counter), so the ${f(m.lockupW, 1)} mm lockup has it and a cap-7 lockup doesn't. Satin: nothing here is wider than 12 mm below a 45 mm clock (the ring wall is 0.257 cap, the hands 0.248 cap).
+Floors: letters at least 10 mm, so the lockup at least 58.5 mm wide: below that the S's enclosed counters go under 1.0 mm whatever the mouths. The pivot dot needs letters of about 9.5 mm (1.5 mm dot with 1.3 mm of fabric inside a 0.215 cap counter), so the ${f(m.lockupW, 1)} mm lockup has it. Satin: nothing here is wider than 12 mm below a 45 mm clock (the ring wall is 0.257 cap, the hands 0.248 cap).
 
 ## Colourways
 
