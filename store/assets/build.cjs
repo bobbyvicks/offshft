@@ -3,17 +3,16 @@
 //
 // logo-ink.png    header logo for light backgrounds: Ink letters, Rust hands, transparent, 1200 px wide
 // logo-bone.png   header logo for dark backgrounds: Bone letters, Sun hands, transparent, 1200 px wide
-// logo.svg        the light logo as a vector (same file as designs/mark/final/the-o/logo-light.svg)
+// logo.svg        the light logo as a vector (same file as designs/mark/final/block/logo-light.svg)
 // favicon.png     512 x 512: the clock symbol on a Bone square, so it shows on light and dark browser tabs
 // social-share.png 1200 x 628: the logo on Bone, the image shown when a store link is shared
 'use strict';
 const fs = require('fs');
 const path = require('path');
 const kit = require('/home/user/offshft/tools/kit/kit.cjs');
-const B = require('/home/user/offshft/designs/mark/final/the-o/build.cjs');
+const B = require('/home/user/offshft/designs/mark/final/block/build.cjs');
 
 const OUT = __dirname;
-const A = B.FONTS.unbounded;
 const n = (v) => (Math.round(v * 1000) / 1000).toString();
 
 let browserP = null;
@@ -34,14 +33,15 @@ async function png(file, design, W, H, { fill = 1, bg = null } = {}) {
 }
 
 (async () => {
-  const light = B.lockup(A, 7, B.LIGHT);
-  const dark = B.lockup(A, 7, B.DARK);
+  const cap = B.capForWidth(B.LOCKUP_WIDTH);                 // 62.6 mm wide, as the hat front and chest files
+  const light = B.lockup(cap, B.LIGHT);
+  const dark = B.lockup(cap, B.DARK);
   const W = 1200, H = Math.round((W * light.h) / light.w);
   await png('logo-ink.png', light, W, H);
   await png('logo-bone.png', dark, W, H);
   kit.writeSvg(path.join(OUT, 'logo.svg'), light);
-  // the stand-alone symbol (bigger O, longer hands, pivot dot), as on the logo page
-  await png('favicon.png', B.symbol(A, 25, B.LIGHT, { channel: 1.2 }), 512, 512, { fill: 0.84, bg: kit.F.bone });
+  // the clock alone, as on the hats
+  await png('favicon.png', B.symbol(25, B.LIGHT, { channel: 1.2 }), 512, 512, { fill: 0.84, bg: kit.F.bone });
   await png('social-share.png', light, 1200, 628, { fill: 0.6, bg: kit.F.bone });
   await (await browser()).close();
   for (const f of fs.readdirSync(OUT).filter((f) => /\.(png|svg)$/.test(f))) console.log(f, fs.statSync(path.join(OUT, f)).size, 'bytes');

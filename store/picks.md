@@ -59,6 +59,18 @@ and the Size & fit page has charts for the quarter-zips and golf shirts. The Foo
 owner's: the three product-page rows, the two policies and the footer block (store/theme/product-page-rows.md). Art for
 the five listings made outside this repo is being drawn with the phrases generator (designs/phrases/).
 
+**Update, 2 Nov 2026, later: the hard-edged logo.** The owner compared the site with the merch photos and picked the
+hard-edged lettering Codex drew for the hat mockups (the live theme's artwork, titled "puff adaptation") over the
+rounded Unbounded logo. Rebuilt from that drawing as `designs/mark/final/block/build.cjs` (block F, H, T; the thickened
+S; heavy ring; bar hands; same proportions at every size, with the embroidery floors kept). Everything downstream was
+regenerated from it: the brand kit and brand sheet, the store's header logo files, share images and square logo
+(replaced in Shopify's Files with the same ids, so the theme picked them up), the Printful logo and clock files (same
+names and sizes: 62.6 mm lockup, 25 and 40 mm clocks) and the Printful sheet (version 4). The tab icon didn't change
+(it was already drawn with square hands). Not changed: the phrase designs (Punched Out. and the rest) are still in
+Unbounded, pending the owner's word; Codex's hat mockups for those phrases also use a hard-edged face. Also today:
+every variant checked available in the admin (813 of 813, 9999 at Printful) while the storefront showed "Sold out";
+all 38 products were re-saved (seo title) at 04:46 UTC to refresh the storefront, to be confirmed by the owner.
+
 **Product photos are the owner's** (30 Oct 2026): they make them with their own tool (Astra), as with the studio
 mockups. Don't render or upload shop photos for new listings; create listings without images and leave the photos to
 the owner. The drawings in store/previews stay for the picker page.

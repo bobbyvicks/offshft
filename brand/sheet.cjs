@@ -119,12 +119,12 @@ ${LOGOS.map((L) => `      <div class="card"><div class="art${L.dark ? (L.col ? '
   </section>
 
   <section class="lower">
-    <div class="type"><h2>Type</h2><p class="u">OFF SHFT</p><p><b>Unbounded Bold</b>, capitals, letter-spacing 0.12 em: the logo, headings and every phrase on a hat. Embroidered letters at least 6.6 mm tall, with the S trims: phrases are set with the build, never typed.</p><p class="a">Archivo for website text and labels.</p><p class="small">Both are free Google Fonts.</p></div>
+    <div class="type"><h2>Type</h2><p class="u">PUNCHED OUT.</p><p><b>Unbounded Bold</b>, capitals, letter-spacing 0.12 em: headings and the phrases on hats; the logo's letters are drawn, not typed. Embroidered letters at least 6.6 mm tall, with the S trims: phrases are set with the build, never typed.</p><p class="a">Archivo for website text and labels.</p><p class="small">Both are free Google Fonts.</p></div>
     <div><h2>Space around it</h2><div class="space"><div><img src="${uri('logo/offshft-logo-light.svg')}" alt=""></div></div><p class="small">Around the one-line logo, and the stacked logo on a square: at least the height of the letters, measured from the tips of the hands. In circles the stacked logo fills 90% of the radius on purpose.</p></div>
     <div><h2>Don't</h2><ul>${DONT.map((d) => `<li>${d}</li>`).join('')}</ul></div>
   </section>
 
-  <footer>Thread colours are targets. On Printful's standard threads they come out as the nearest thread above; Printful's unlimited-colour embroidery (about US$3.95 more a hat) matches the hex. Approve every colourway from a sew-out. Which file to use: brand/README.md. Embroidery drawings for every size, with stitch notes: designs/mark/final/the-o.</footer>
+  <footer>Thread colours are targets. On Printful's standard threads they come out as the nearest thread above; Printful's unlimited-colour embroidery (about US$3.95 more a hat) matches the hex. Approve every colourway from a sew-out. Which file to use: brand/README.md. Embroidery drawings for every size, with stitch notes: designs/mark/final/block.</footer>
 </main>
 </body>
 </html>

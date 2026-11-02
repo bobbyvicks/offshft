@@ -1,8 +1,8 @@
 // OFF SHFT brand kit: every logo file, generated from the same drawings as the hats.
 //   cd /home/user/offshft/tools && node ../brand/build.cjs
-// Sources: designs/mark/final/the-o/build.cjs (the one-line logo and the clock symbol) and designs/mark/square/build.cjs
-// (the stacked logo for squares and the pixel-drawn tab icons; the owner's pick, 31 Oct 2026). Nothing here is drawn by
-// hand, so a change to either build flows through by running this again.
+// Sources: designs/mark/final/block/build.cjs (the one-line logo, the clock symbol, the stacked logo and the clock tile;
+// the hard-edged lettering the owner picked on 2 Nov 2026) and designs/mark/square/build.cjs (the pixel-drawn tab
+// icons). Nothing here is drawn by hand, so a change to either build flows through by running this again.
 //
 // Colourways: light = Ink with Rust hands, for light backgrounds; dark = Bone with Sun hands, for dark backgrounds;
 // ink and bone = one colour (no pivot dot and a wider gap, as the embroidery rules have it).
@@ -13,11 +13,10 @@ const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 const kit = require('/home/user/offshft/tools/kit/kit.cjs');
-const LOGO = require('/home/user/offshft/designs/mark/final/the-o/build.cjs');
+const LOGO = require('/home/user/offshft/designs/mark/final/block/build.cjs');
 const SQ = require('/home/user/offshft/designs/mark/square/build.cjs');
 
 const OUT = __dirname;
-const A = LOGO.FONTS.unbounded;
 const T = kit.T, F = kit.F;
 const n = (v) => (Math.round(v * 1000) / 1000).toString();
 
@@ -74,12 +73,12 @@ async function pdf(art, file) {
 
 // ---------------------------------------------------------------- the drawings
 const ART = {
-  // the one-line logo at cap 7 mm, the hat-front size (62.6 mm wide)
-  logo: (way) => LOGO.lockup(A, 7, WAYS[way].logo, { oneColour: WAYS[way].one }),
-  // the stacked logo, letters at cap 7 mm like the one-line logo
-  stacked: (way) => SQ.stackedArt(WAYS[way].sq, { oneColour: WAYS[way].one }),
+  // the one-line logo at the hat-front and chest size (62.6 mm wide, letters 10.7 mm)
+  logo: (way) => LOGO.lockup(LOGO.capForWidth(LOGO.LOCKUP_WIDTH), WAYS[way].logo, { oneColour: WAYS[way].one }),
+  // the stacked logo (OFF over SHFT), the same lettering
+  stacked: (way) => LOGO.stackedArt(WAYS[way].logo, { oneColour: WAYS[way].one }),
   // the clock symbol at 25 mm tall, as on the hats (1.2 mm gap; 1.5 mm in one colour)
-  clock: (way) => LOGO.symbol(A, 25, WAYS[way].logo, { oneColour: WAYS[way].one, channel: WAYS[way].one ? 1.5 : 1.2 }),
+  clock: (way) => LOGO.symbol(25, WAYS[way].logo, { oneColour: WAYS[way].one, channel: WAYS[way].one ? 1.5 : 1.2 }),
 };
 const SIZES = { logo: [600, 1200, 2400], stacked: [600, 1200], clock: [600, 1200] };   // PNG widths (clock: heights)
 
@@ -96,7 +95,7 @@ const SIZES = { logo: [600, 1200, 2400], stacked: [600, 1200], clock: [600, 1200
 
   // Squares: the stacked logo on its tile (profile pictures, app icons, the Shopify square logo).
   for (const way of ['light', 'dark']) {
-    const tileSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1080" height="1080"><rect width="100" height="100" fill="${TILE[way].bg}"/>${SQ.stacked(TILE[way])}</svg>\n`;
+    const tileSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1080" height="1080"><rect width="100" height="100" fill="${TILE[way].bg}"/>${LOGO.stacked({ letters: TILE[way].text, hands: TILE[way].hands })}</svg>\n`;
     made.push(write(`social/offshft-profile-${way}.svg`, tileSvg));
     made.push(await pngOfSvg(tileSvg, path.join(OUT, `social/offshft-profile-${way}.png`), 1080));
     if (way === 'light') {
@@ -109,7 +108,7 @@ const SIZES = { logo: [600, 1200, 2400], stacked: [600, 1200], clock: [600, 1200
   // The clock alone in a circle: a secondary square, for spots where the name is already beside it (a story highlight,
   // a sticker sheet). Always small in a square, so never the main profile picture or app icon.
   for (const way of ['light', 'dark']) {
-    const clockTile = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1080" height="1080"><rect width="100" height="100" fill="${TILE[way].bg}"/>${SQ.OPTIONS[0].draw(TILE[way])}</svg>\n`;
+    const clockTile = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1080" height="1080"><rect width="100" height="100" fill="${TILE[way].bg}"/>${LOGO.clockTile({ letters: TILE[way].text, hands: TILE[way].hands })}</svg>\n`;
     made.push(write(`social/offshft-clock-tile-${way}.svg`, clockTile));
     made.push(await pngOfSvg(clockTile, path.join(OUT, `social/offshft-clock-tile-${way}.png`), 1080));
   }

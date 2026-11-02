@@ -8,8 +8,8 @@ Status key: `idea` → `drafted` → `approved` → `sample ordered` → `live`
 
 | # | Design | Group | What it is | Status |
 |---|---|---|---|---|
-| 01 | The Clock | Brand | Clock stopped at 5:00, single line. The brand symbol. | replaced by the final clock symbol (designs/mark/final/the-o/) |
-| 02 | Clock + Name | Brand | Clock beside OFF SHFT. Main logo. | replaced by the final logo (designs/mark/final/the-o/) |
+| 01 | The Clock | Brand | Clock stopped at 5:00, single line. The brand symbol. | replaced by the final clock symbol (designs/mark/final/block/ since 2 Nov 2026) |
+| 02 | Clock + Name | Brand | Clock beside OFF SHFT. Main logo. | replaced by the final logo: hard-edged lettering since 2 Nov 2026 (designs/mark/final/block/); the rounded Unbounded version is kept in designs/mark/final/the-o/ |
 | 03 | Stacked | Brand | OFF over SHFT, clock tucked after OFF. | dropped: the final logo replaced it |
 | 04 | After Hours | Time off | Sun setting on the water + AFTER HOURS. | dropped by owner, 29 Oct 2026 |
 | 05 | Lines In | Fishing | Single-line fish + LINES IN. | dropped by owner, 29 Oct 2026 |
