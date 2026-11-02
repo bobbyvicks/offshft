@@ -1,5 +1,9 @@
-// OFF SHFT: production artwork for the six phrase designs the owner added on 29 Oct 2026 ("add them all"): NOWHERE TO
-// BE., SUN’S STILL UP., NO ALARM SET., BANKED TIME., NOT PICKING UP. and PARKED. (shortlist: designs/phrases/notes.md).
+// OFF SHFT: production artwork for the phrase designs. The six the owner added on 29 Oct 2026 ("add them all"): NOWHERE
+// TO BE., SUN’S STILL UP., NO ALARM SET., BANKED TIME., NOT PICKING UP. and PARKED. (shortlist: designs/phrases/notes.md);
+// and, since 2 Nov 2026, the five listings made outside this repo, which had mockups but no art: TIME WELL EARNED. (three
+// lines on the 1717 tee's centre chest), THE REST IS OURS. (one big line, printed on the 1467 hoodie's upper back), OURS
+// TO SPEND. and FOR A REASON. (one line on 6-panel truckers) and 5:00 (big on the 1466 crewneck's centre chest, with a
+// colon for its accent). Folder numbers follow DESIGNS.md: 11-14 are the four phrases made outside this repo, 21 is new.
 // Built the way Punched Out. v3 was (designs/09-punched-out/v3/build.cjs, "PO" below): the logo's type, Unbounded Bold
 // caps at 0.12 em, each letter one merged outline from the logo's glyphMM, PO's straight E and its C/E trims, PO's
 // kerning, Ink letters with a Rust full stop (Bone with a Sun stop on dark fabric). Nothing is drawn by hand: every
@@ -20,8 +24,11 @@
 //   (opentype.js 1.3.4 can't read the font's extension lookups, so kit.text drops all of it; PO put back the one pair
 //   it needed, T-period), plus PO's optical kerns where a pair is in PO.KERN (P-U, C-H, E-D, U-T, D-space), plus
 //   EXTRA_KERN (this set's own, judged on the true-size proofs and on the white between each pair; see the table), plus
-//   a design's own `kern` (the pair a 6-panel seam runs through, opened a little). For Punched Out. that is exactly
-//   PO's spacing (its other pairs have no font kerning and none of this set's pairs).
+//   a design's own `kern`: the pair a 6-panel seam runs through, opened a little, or (Ours to Spend.) a word space
+//   closed in that design only, because the set's pair is already used by an earlier design and can't change without
+//   changing it (`kernWhy` gives the notes the reason). For Punched Out. that is exactly PO's spacing (its other pairs
+//   have no font kerning and none of this set's pairs). The pairs added for the five designs of 2 Nov are combinations
+//   the first six don't have, so those six keep the spacing they had.
 // - Letters: PO's letterEdits (straight E at every size; E slot and C mouth trims below cap 7.75 / 8.6), and:
 //     B  straight stem, as PO's E: Unbounded bends the B's stem the same way it bends the E's (left edge 47 -> 105 ->
 //        47 font units). Rebuilt with the F/H stem (x 70-277) and the counters' left edges straight at x 277. Its
@@ -48,16 +55,33 @@
 //        30 font units wider each side (the font's: x 48-146 at y 402); the left side parallel to the font's, up into
 //        the head; the right side the tangent from the end to the head, so it joins the head's curve. The font's tail
 //        is 0.83 mm at cap 7; the widening fades to nothing by cap 11.3.
+//     F  its slot (between the top arm and the middle arm) opened as PO opens the E's: 132 font units as the font
+//        draws it (1.23 mm at cap 7, under the 1.27 mm floor), so the top arm's underside is raised by PO's E-slot
+//        trim (14 units at cap 7, none from cap 7.75), making the slot 146 units (1.36 mm) and the arm 161 (1.50 mm).
+//        The logo keeps the font's F and holds compensation back on the slot's faces instead (its notes.md).
+//     The digits and the colon (5:00) are the font's own: at the cap the centre chest gives them, nothing is near a
+//     floor (checked all the same).
 //   All edits are passed to the logo's glyphMM as its per-letter table (draw / add / cut shapes in font units), so the
 //   logo itself is unchanged.
-// - Stacks: PO's line gap (3.7 mm at cap 7, baseline to cap line, so the block is the logo's 18 mm), both lines
-//   centred on one axis by their letters; the full stop hangs. Where the stop hangs past the widest line, the file
-//   gets the same width of empty margin on the other side, so centring the file centres the letters.
+// - Stacks: PO's line gap (3.7 mm at cap 7, baseline to cap line), every line centred on one axis by its letters; the
+//   full stop hangs. Two lines at cap 7 make the logo's 18 mm block; TIME WELL EARNED. is three lines, at the cap its
+//   centre chest gives it (below). Where the stop hangs past the widest line, the file gets the same width of empty
+//   margin on the other side, so centring the file centres the letters.
 // - Big centre fronts: the one line at the largest cap (in 0.1 mm steps) that fits the 230 mm box the store uses for
 //   the tops' big front (Punched Out.'s one-line-large: 229.75 mm at cap 16.5). Its own drawing: the cap-7 trims
-//   shrink with size, as in PO (the S's and the G's cuts are part of their drawing and stay).
+//   shrink with size, as in PO (the S's and the G's cuts are part of their drawing and stay). THE REST IS OURS. takes
+//   the same drawing for the 1467 hoodie's upper back, where the listing has it printed (the owner's call: the back
+//   can't be embroidered); it is drawn to the embroidery floors all the same, so the file can be embroidered later.
+// - Centre chests (cap 'fit': TIME WELL EARNED., 5:00): the largest cap (in 0.1 mm steps) at which the file fits FIT
+//   below, 95 x 95 mm, so at least 3 mm is spare each side of Printful's 4 x 4 in square (the listings say about 95 mm
+//   wide). A short line gets a big cap there (5:00: cap 21.8), so these are also checked for satin: no stroke wider
+//   than 12 mm, Printful's satin limit, measured as the largest circle inside the ink.
+// - The accent: the full stop, or 5:00's colon, in the accent thread (Rust on light, Sun on dark) on its own path
+//   (`full-stop` or `colon`); the colon's two dots are held to the full stop's floors, and the fabric between them
+//   too. A design without a full stop gets no full-stop checks or notes.
 // - 6-panel caps (centre seam): the design moves sideways so the seam runs down the middle of a gap clear of every
-//   letter: the word space where it is within 6 mm of centre, otherwise the widest letter gap that is.
+//   letter: the word space where it is within 6 mm of centre (Ours to Spend.), otherwise the widest letter gap that is
+//   (Banked Time., Parked., For a Reason.).
 
 'use strict';
 const fs = require('fs');
@@ -74,18 +98,26 @@ const FONT_FILE = path.join(REPO, 'tools/fonts', kit.FONT_FILES[U.key]);
 const UPC = kit.font(U.key).tables.os2.sCapHeight;   // font units per cap height (750)
 const CAP = 7;                                       // the logo's cap height: hats and chest
 const BIG = { w: 230, step: 0.1 };                   // big centre front: the store's box (PO's one-line-large)
+const FIT = { w: 95, h: 95, step: 0.1 };            // centre chest, Printful's 4 x 4 in square: the listings made outside this repo say
+                                                     // "about 95 mm wide", and 95 leaves 3.3 mm spare each side of 101.6; the cap is the
+                                                     // largest (in 0.1 mm steps) at which the file fits this box
 const SEAM_MAX_SHIFT = 6;                            // mm, as PO: the logo moves 5.2 mm; much more looks off-centre
 const COLOURS = {
   light: { letters: LOGO.LIGHT.letters, accent: LOGO.LIGHT.hands, bg: kit.F.bone, fabric: 'Bone' },   // Ink + Rust
   dark: { letters: LOGO.DARK.letters, accent: LOGO.DARK.hands, bg: kit.F.slate, fabric: 'Slate' },    // Bone + Sun
 };
-// Placement areas (mm), as PO: hat fronts 140 x 50, the 4 in left-chest square, the big front's box.
-const AREAS = { hat: [140, 50], chest: [101.6, 101.6], big: [BIG.w, 90] };
+// The accent: one character per design, sewn in the accent thread on its own path. The full stop, or 5:00's colon.
+const ACCENTS = { '.': { id: 'full-stop', name: 'full stop' }, ':': { id: 'colon', name: 'colon' } };
+// Placement areas (mm), as PO: hat fronts 140 x 50, the 4 in left-chest square (the same square on the centre chest), the
+// big front's box (also the width the 1467 hoodie's printed upper back takes).
+const AREAS = { hat: [140, 50], chest: [101.6, 101.6], centreChest: [101.6, 101.6], big: [BIG.w, 90] };
 // Floors, at any size (the task's, the logo's and PO's)
 const MIN = {
   cap: 6.6,          // any embroidered Unbounded Bold text (the logo's notes.md)
   opening: 1.27,     // every opening inside a letter, as drawn: 0.05 in (Printful's minimum gap)
   stroke: 1.27,      // every stroke: 0.05 in (Printful's minimum line)
+  satin: 12,         // no satin stroke wider than 12 mm (Printful's satin limit): the largest circle inside the ink. Checked where
+                     // the cap is picked to fill a width (cap 'fit'), since a short line like 5:00 gets a big cap there
   dot: 1.5,          // full stop and apostrophe: at least 1.5 mm across (the logo's pivot-dot rule)
   dotFabric: 1.3,    // fabric round the full stop (the pivot-dot rule)
   letters: 1.47,     // tightest gap between two letters in the logo (F arm to T bar), as PO
@@ -98,7 +130,7 @@ const f1 = (v) => Number(v).toFixed(1);
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 const snap = (u) => Math.round(u * 64) / 64;         // clipper works in 1/64 font units
 
-// ---------------------------------------------------------------- the six designs
+// ---------------------------------------------------------------- the designs
 const DESIGNS = [
   {
     nn: 15, id: 'nowhere-to-be', text: 'NOWHERE TO BE.', lines: ['NOWHERE', 'TO BE.'], layout: 'stacked-centred', cap: CAP,
@@ -137,6 +169,41 @@ const DESIGNS = [
     kern: { RK: 0.02 },                                   // the seam runs between the R and the K
     where: 'Hat front, 6-panel with a centre seam: Retro Trucker (Yupoong 6606)', styles: ['Retro Trucker (Yupoong 6606)'],
   },
+  // The five listings made outside this repo (DESIGNS.md numbers 11-14; 21 is new), drawn 2 Nov 2026. batch 'five' only
+  // changes a line of the notes (the first six keep their wording, so their files stay byte for byte as they were).
+  // Prices and styles are the live store's (read 2 Nov 2026).
+  {
+    nn: 11, id: 'time-well-earned', text: 'TIME WELL EARNED.', lines: ['TIME', 'WELL', 'EARNED.'], layout: 'stacked-centred', cap: 'fit', batch: 'five',
+    listing: 'Time Well Earned. T-Shirt', price: 'C$44.99', area: 'centreChest', margin: 3,   // margin: mm spare each side, a floor
+    where: 'T-shirt, centre chest: Heavyweight (Comfort Colors 1717), S to 3XL', styles: ['Heavyweight (Comfort Colors 1717)'],
+  },
+  {
+    nn: 12, id: 'the-rest-is-ours', text: 'THE REST IS OURS.', lines: ['THE REST IS OURS.'], layout: 'one-line-large', cap: 'big', batch: 'five',
+    listing: 'The Rest Is Ours. Hoodie', price: 'C$89.99', area: 'big', spot: 'upper back', printed: true,
+    where: 'Hoodie, upper back (printed): Lightweight (Comfort Colors 1467), S to 3XL', styles: ['Lightweight (Comfort Colors 1467)'], fleece: true,
+  },
+  {
+    nn: 13, id: 'ours-to-spend', text: 'OURS TO SPEND.', lines: ['OURS TO SPEND.'], layout: 'one-line', cap: CAP, batch: 'five',
+    listing: 'Ours to Spend. Trucker Hat', price: 'C$34.99', area: 'hat', sixPanel: 'word-space',
+    // the seam runs in the word space between TO and SPEND. (4.7 mm off centre). The word space before the S is closed in
+    // this design only: space-S is already set at the font's spacing in NO ALARM SET., and O-space in NOWHERE TO BE. and
+    // NO ALARM SET., so neither can change at set level (the word space after an S is the set's own, 'S ' in EXTRA_KERN)
+    kern: { ' S': -0.04 },
+    kernWhy: { ' S': 'this design’s own: the word space between TO and SPEND. closed to match the one between OURS and TO, 0.94 cap of white as the font spaces it against the set’s 0.88-0.91; space-S and O-space stay at the font’s spacing in the earlier designs, so the pair is closed here only' },
+    where: 'Hat front, 6-panel with a centre seam: Retro Trucker (Yupoong 6606)', styles: ['Retro Trucker (Yupoong 6606)'],
+  },
+  {
+    nn: 14, id: 'five-oclock', text: '5:00', lines: ['5:00'], layout: 'one-line', cap: 'fit', batch: 'five',
+    listing: '5:00 Crewneck', price: 'C$79.99', area: 'centreChest', margin: 3,
+    where: 'Crewneck, centre chest: Comfort Colors 1466, S to 3XL', styles: ['Comfort Colors 1466'], fleece: true,
+  },
+  {
+    nn: 21, id: 'for-a-reason', text: 'FOR A REASON.', lines: ['FOR A REASON.'], layout: 'one-line', cap: CAP, batch: 'five',
+    listing: 'For a Reason. Hat', price: 'C$34.99', area: 'hat', sixPanel: 'letter-gap',
+    kern: { RE: 0.02 },                                   // the seam runs between the R and the E (the word spaces are 9.7 and 23 mm off centre)
+    where: 'Hat front, 6-panel with a centre seam: Retro Trucker (Yupoong 6606) in Charcoal and Evergreen; Ivory is on a Comfort Colors CCST0 trucker, also 6-panel',
+    styles: ['Retro Trucker (Yupoong 6606)', 'Comfort Colors CCST0 trucker'],
+  },
 ];
 
 // The quick trademark screen for each phrase (designs/phrases/notes.md: search results only, not a legal search).
@@ -147,6 +214,18 @@ const TRADEMARK = {
   'banked-time': 'looks clear: the nearest filing is TIME BANK (US serial 87358423), for financial services.',
   'not-picking-up': 'looks clear: the nearest filing is an abandoned DONT PICK UP NO MATTER WHAT! (US serial 86227812).',
   'parked': 'small risk: no PARKED filing for clothing, but it is one letter off PARKE, a women’s clothing brand that sells hats.',
+  // the five of 2 Nov 2026: store/research/trademarks-new-phrases.md (29 Oct) and trademarks-round-2.md (30 Oct)
+  'time-well-earned': 'looks clear: no filing or seller found; the nearest live registration, TIME WELL SPENT (US Reg. 3252699), has unknown goods, so open that record first.',
+  'the-rest-is-ours': 'looks clear: no filing or seller found; the nearest mark is Goalhanger’s THE REST IS (EUTM 018886979, EU only, podcasts), not shown for clothing.',
+  'ours-to-spend': 'looks clear: no filing, seller or web page with the phrase; many clothing owners use OURS alone (H:OURS, US Reg. 6195575, covers caps), none TO SPEND. Never shorten it to OURS.',
+  'five-oclock': 'small risk: nothing is filed for 5:00 itself, but Margaritaville has sued sellers of “It’s Five O’Clock Somewhere” apparel, and two clothing marks sit nearby: MISS 5 O’CLOCK (US Reg. 5210586, may have lapsed) and Jaya’s 5 À 7 (CIPO TMA1058634, live). Keep it “5:00”, never “5 O’Clock”, with no “somewhere” and no beach imagery.',
+  'for-a-reason': 'small risk: nothing filed for the phrase on its own, but HERE FOR A REASON (US SN 98183164, filed about September 2023) lists hats and caps and its status is unknown, and Reason Brand has filed REASON (US SN 90770562): never shorten the hat to REASON. Keep “everything happens”, “here for a reason” and the two songs (Karan Aujla’s “For A Reason”, Warren Zeiders’ “You For A Reason”) out of the title, tags and copy.',
+};
+// Where each screen is written up (the first six: designs/phrases/notes.md).
+const TRADEMARK_FROM = {
+  'time-well-earned': 'store/research/trademarks-new-phrases.md', 'the-rest-is-ours': 'store/research/trademarks-new-phrases.md',
+  'ours-to-spend': 'store/research/trademarks-new-phrases.md', 'five-oclock': 'store/research/trademarks-new-phrases.md',
+  'for-a-reason': 'store/research/trademarks-round-2.md',
 };
 
 // ---------------------------------------------------------------- kerning
@@ -214,10 +293,25 @@ const EXTRA_KERN = {
   SU: -0.02,                  // SUN’S: 0.42 cap
   LL: -0.02, TI: -0.02,       // STILL, TIME: 0.43 cap
   OT: -0.02, TO: -0.02,       // NOT, TO BE.: 0.43 cap, on top of the font's own -31 units (the two kept alike)
+  // The five designs of 2 Nov 2026, judged the same way (the probe that measures the white is the one described above, run
+  // on each new line at cap 7). Each is a pair the first six designs don't have, so their spacing is unchanged.
+  TH: -0.02,                  // THE: 0.43 cap
+  ES: -0.055,                 // REST: 0.47 cap, the E's open right side facing the S's rounded left (as PO's E-D, further)
+  RS: -0.04,                  // OURS: 0.45 cap (the font's own R-S kern is only -4 units)
+  FO: -0.035,                 // FOR: 0.45 cap (the font's own -7 units): the F's empty lower right
+  AS: -0.02,                  // REASON: 0.42 cap, on top of the font's own -37 units
+  SO: -0.03,                  // REASON: 0.44 cap
+  EA: 0.01,                   // EARNED., REASON.: opened, not closed. The white is 0.45 cap (wide, as the logo's F-T at 0.47), but the
+                              // E's bottom arm and the A's foot sit 1.465 mm apart at cap 7 as the font spaces them (its own -14 units),
+                              // under the 1.47 mm floor; 0.01 cap puts them 1.54 mm apart. Closer would crowd the feet, as L-A
+  '00': -0.02,                // 5:00: 0.43 cap between the two zeros
+  'S ': -0.04,                // a word space after an S (OURS TO, IS OURS): 0.93-0.94 cap of white against the set's 0.88-0.91, since
+                              // the S's upper terminal ends well short of its lower bowl; as PO's D-space (-0.03, "the D is rounder")
 };
 const poKern = (a, b) => PO.KERN[a + b] || 0;                                      // PO's setLine, exactly
 const kernOf = (a, b) => (PO.KERN[a + b] !== undefined ? PO.KERN[a + b] : fontKern(a, b) / UPC) + (EXTRA_KERN[a + b] || 0);
-// a design's kerning: the set's, plus its own (the 6-panel seam's pair, opened)
+// a design's kerning: the set's, plus its own (the 6-panel seam's pair, opened; or a word space closed in that design only,
+// with its reason in the design's kernWhy)
 const kernFor = (d) => (a, b) => kernOf(a, b) + ((d.kern && d.kern[a + b]) || 0);
 
 // ---------------------------------------------------------------- letters
@@ -278,6 +372,8 @@ const FONT_S = { upperFace: 519, lowerFace: 246, axis: 420, spine: { centre: [42
 const FONT_G = { face: 471, bar: 388, cMouth: 436 - 314 };
 // ’: its tail's flat end (x 48-146 at y 402) and left side (through (48, 402) and (148, 612)); its head above y 537
 const FONT_APOS = { end: 402, endX: [48, 146], left: [100, 210], head: 537 };
+// F: the stem (the E's, x 70-277), the top arm's underside (y 575) and the middle arm (y 268-443): the slot is 132 units
+const FONT_F = { stem: [70, 277], topArm: 575, middleArm: [268, 443] };
 // The edits at cap 7, and the caps from which each is no longer needed (they shrink linearly in between, as PO's trims
 // shrink with size).
 const B_NECK = { x: 718, capNone: 7.64 };   // notch filled to x 718: the neck 142 units (the B's middle bar: 1.33 mm at cap 7)
@@ -362,6 +458,9 @@ function letterEdits(cap) {
   // ’: the tail widened with straight sides (small sizes)
   const wa = APOS.d * fade(cap, APOS.capNone);
   if (wa) { edits['’'] = { add: aposTail(wa) }; applied.apos = { w: wa, mm: wa * k }; } else applied.apos = null;
+  // F: the slot opened by PO's E-slot trim (the top arm's underside raised), so it matches the E's slots at every size
+  edits.F = { cut: po.trims.e ? [[FONT_F.stem[1], FONT_F.topArm, 2000, snap(FONT_F.topArm + po.trims.e)]] : [] };
+  applied.F = { slot: po.trims.e, mm: po.trims.eMM };
   const out = { edits, applied };
   editCache.set(cap, out);
   return out;
@@ -385,13 +484,13 @@ function setText(str, x, baseY, cap, edits, kern = kernOf) {
 }
 const boxOf = (pts) => ({ x0: Math.min(...pts.map((p) => p[0])), y0: Math.min(...pts.map((p) => p[1])), x1: Math.max(...pts.map((p) => p[0])), y1: Math.max(...pts.map((p) => p[1])) });
 const boxOfAll = (gs) => ({ x0: Math.min(...gs.map((g) => g.box.x0)), y0: Math.min(...gs.map((g) => g.box.y0)), x1: Math.max(...gs.map((g) => g.box.x1)), y1: Math.max(...gs.map((g) => g.box.y1)) });
-const isStop = (g) => g.ch === '.';
-const lettersOnly = (gs) => gs.filter((g) => !isStop(g));
+const isAccent = (g) => g.ch in ACCENTS;            // the full stop, or 5:00's colon
+const lettersOnly = (gs) => gs.filter((g) => !isAccent(g));
 
 function layout(d, cap) {
   const { edits } = letterEdits(cap), kern = kernFor(d);
   if (d.lines.length === 1) return [setText(d.lines[0], 0, 0, cap, edits, kern)];
-  // stacked: both lines centred on one axis by their letters (the stop hangs), PO's line gap
+  // stacked (two or three lines): every line centred on one axis by its letters (the stop hangs), PO's line gap
   const probe = d.lines.map((s) => boxOfAll(lettersOnly(setText(s, 0, 0, cap, edits, kern))));
   const widest = Math.max(...probe.map((b) => b.x1 - b.x0));
   return d.lines.map((s, i) => setText(s, (widest - (probe[i].x1 - probe[i].x0)) / 2 - probe[i].x0, i * (PO.LINE_GAP * cap + cap), cap, edits, kern));
@@ -404,21 +503,22 @@ function fileBox(lines) {
   const l = boxOfAll(lettersOnly(lines.flat())), axis = (l.x0 + l.x1) / 2;
   return { ...b, x0: Math.min(b.x0, 2 * axis - b.x1), x1: Math.max(b.x1, 2 * axis - b.x0) };
 }
-// The big front's cap: the largest, in 0.1 mm steps, at which the one line fits the box's width.
-function bigCap(d) {
-  const w10 = (() => { const b = boxOfAll(layout(d, 10).flat()); return b.x1 - b.x0; })();
-  let cap = Math.floor(((BIG.w / w10) * 10) / BIG.step + 1e-9) * BIG.step;
+// A box's cap: the largest, in the box's steps, at which the design's file fits it (the big front's 230 mm, or the centre
+// chest's 95 x 95). Widths grow with the cap, so the estimate from cap 10 is stepped down until the file fits.
+function fitCap(d, box) {
+  const size = (cap) => { const b = fileBox(layout(d, cap)); return { w: b.x1 - b.x0, h: b.y1 - b.y0 }; };
+  let cap = Math.floor(((box.w / size(10).w) * 10) / box.step + 1e-9) * box.step;
   cap = +cap.toFixed(1);
-  for (;;) { const b = boxOfAll(layout(d, cap).flat()); if (b.x1 - b.x0 <= BIG.w) return cap; cap = +(cap - BIG.step).toFixed(1); }
+  for (;;) { const s = size(cap); if (s.w <= box.w && (box.h === undefined || s.h <= box.h)) return cap; cap = +(cap - box.step).toFixed(1); }
 }
 
 function svgBody(lines, c) {
   const all = lines.flat(), b = fileBox(lines);
-  const ink = all.filter((g) => !isStop(g)).map((g) => g.d).join(' ');
-  const stop = all.filter(isStop).map((g) => g.d).join(' ');
+  const ink = all.filter((g) => !isAccent(g)).map((g) => g.d).join(' ');
+  const acc = all.find(isAccent), stop = all.filter(isAccent).map((g) => g.d).join(' ');
   return {
     w: b.x1 - b.x0, h: b.y1 - b.y0,
-    body: `<g transform="translate(${n(-b.x0)} ${n(-b.y0)})"><path id="letters" fill="${c.letters}" fill-rule="evenodd" d="${ink}"/><path id="full-stop" fill="${c.accent}" d="${stop}"/></g>`,
+    body: `<g transform="translate(${n(-b.x0)} ${n(-b.y0)})"><path id="letters" fill="${c.letters}" fill-rule="evenodd" d="${ink}"/><path id="${acc ? ACCENTS[acc.ch].id : 'full-stop'}" fill="${c.accent}" d="${stop}"/></g>`,
   };
 }
 
@@ -562,6 +662,20 @@ function inscribed(P) {
   }
   return 2 * best;
 }
+// The widest satin stroke in a set of glyphs: the largest circle inside the ink (a stroke's width where it is widest, or a
+// junction's), by a grid as inscribed() uses, then a finer grid round the best point. Says which glyph it is in.
+function widestStroke(glyphs) {
+  let best = { w: 0, ch: null, at: null };
+  for (const g of glyphs) {
+    const b = g.box, coarse = Math.max(b.x1 - b.x0, b.y1 - b.y0) / 200;
+    const at = (x, y) => { if (!inside(g, x, y)) return 0; let d = Infinity; for (const P of g.polys) for (let i = 0; i < P.length; i++) d = Math.min(d, segDist([x, y], [x, y], P[i], P[(i + 1) % P.length])); return 2 * d; };
+    let local = { w: 0, at: null };
+    for (let x = b.x0; x <= b.x1; x += coarse) for (let y = b.y0; y <= b.y1; y += coarse) { const w = at(x, y); if (w > local.w) local = { w, at: [x, y] }; }
+    if (local.at) for (let x = local.at[0] - coarse; x <= local.at[0] + coarse; x += coarse / 10) for (let y = local.at[1] - coarse; y <= local.at[1] + coarse; y += coarse / 10) { const w = at(x, y); if (w > local.w) local = { w, at: [x, y] }; }
+    if (local.w > best.w) best = { w: local.w, ch: g.ch, at: local.at };
+  }
+  return best;
+}
 // Vertical channels clear of every line's letters (letter boxes): where a 6-panel cap's centre seam can run without
 // crossing a letter. Each is [x0, x1, 'A|B' per line].
 function channels(lines, b) {
@@ -591,7 +705,8 @@ const orderText = (o) => o.map((l) => `${o.length > 1 ? `${l.word}: ` : ''}${l.r
 
 // Vertical stems, from horizontal cuts at a height where each stem stands clear (PO's table, extended): the first ink
 // run, or the first and last.
-const STEM_AT = { P: [0.22, 1], U: [0.6, 2], N: [0.6, 2], H: [0.22, 2], E: [0.3, 1], D: [0.5, 1], T: [0.3, 1], B: [0.22, 1], I: [0.5, 1], K: [0.75, 1], L: [0.6, 1], M: [0.6, 2], R: [0.22, 1] };
+// The 5's stem stands clear above its bowl (its only vertical); the 0 has two sides, cut at mid-height.
+const STEM_AT = { P: [0.22, 1], U: [0.6, 2], N: [0.6, 2], H: [0.22, 2], E: [0.3, 1], D: [0.5, 1], T: [0.3, 1], B: [0.22, 1], I: [0.5, 1], K: [0.75, 1], L: [0.6, 1], M: [0.6, 2], R: [0.22, 1], F: [0.22, 1], 5: [0.75, 1], 0: [0.5, 2] };
 // Named openings for the letters whose openings are narrow, measured with cuts like PO's.
 function namedOpenings(g, gi, sc, crotches) {
   const cap = g.cap, k = cap / UPC, w = g.box.x1 - g.box.x0, cx = (g.box.x0 + g.box.x1) / 2, cy = (g.box.y0 + g.box.y1) / 2;
@@ -600,6 +715,7 @@ function namedOpenings(g, gi, sc, crotches) {
   const mid = (q) => [(q.at[0] + q.to[0]) / 2, (q.at[1] + q.to[1]) / 2];
   switch (g.ch) {
     case 'E': { const r = runs(cross(g, { x: g.box.x0 + 0.62 * w })); return [{ name: 'slots', values: [r[1], r[3]] }]; }
+    case 'F': { const r = runs(cross(g, { x: g.box.x0 + 0.62 * w })); return [{ name: 'slot', values: [r[1]] }]; }
     case 'C': case 'G': { const r = runs(cross(g, { x: g.box.x1 - (0.5 * cap) / CAP })); return [{ name: 'mouth', values: [r[1]] }]; }
     case 'B': { const r = runs(cross(g, { x: g.box.x0 + 0.4 * w })); return [{ name: 'counters (upper / lower)', values: [r[1], r[3]] }]; }   // the cut runs top down
     case 'S': return [
@@ -629,7 +745,7 @@ function measure(v) {
   const sc = scan(all), crotches = acuteCorners(all);
   // strokes: thinnest per letter (in reading order), and every vertical stem
   const thinnest = {};
-  sc.strokes.forEach((s, i) => { const ch = all[i].ch; if (!isStop(all[i]) && !(ch in thinnest && thinnest[ch].w <= s.w)) thinnest[ch] = { w: s.w, at: s.at }; });
+  sc.strokes.forEach((s, i) => { const ch = all[i].ch; if (!isAccent(all[i]) && !(ch in thinnest && thinnest[ch].w <= s.w)) thinnest[ch] = { w: s.w, at: s.at }; });
   const thinnestAll = Object.entries(thinnest).sort((p, q) => p[1].w - q[1].w)[0];
   const stems = [];
   for (const g of letters) {
@@ -641,7 +757,7 @@ function measure(v) {
   // openings: gaps inside one letter that aren't a crotch's tip; per letter, and the named ones
   const openings = {}, openingAt = {};
   sc.gaps.forEach((q) => {
-    if (q.a !== q.b || isStop(all[q.a]) || inCrotch(q, crotches)) return;
+    if (q.a !== q.b || isAccent(all[q.a]) || inCrotch(q, crotches)) return;
     const ch = all[q.a].ch;
     if (!(ch in openings) || q.w < openings[ch]) { openings[ch] = q.w; openingAt[ch] = { at: q.at, to: q.to, g: all[q.a] }; }
   });
@@ -663,12 +779,16 @@ function measure(v) {
   for (const line of v.lines) for (let i = 0; i + 1 < line.length; i++) {
     const a = line[i], z = line[i + 1], w = closest(a, z);
     if (z.at - a.at > 1) spaces.push({ p: a.ch + z.ch, w, channel: z.box.x0 - a.box.x1 });   // channel: clear vertically
-    else if (!isStop(a) && !isStop(z)) pairs.push({ p: a.ch + z.ch, w });
+    else if (!isAccent(a) && !isAccent(z)) pairs.push({ p: a.ch + z.ch, w });
   }
   pairs.sort((p, q) => p.w - q.w);
-  const lineGap = v.lines.length === 2 ? Math.min(...v.lines[0].flatMap((g) => v.lines[1].map((h) => closest(g, h)))) : null;
-  const dot = all.find(isStop), before = all[all.indexOf(dot) - 1];
-  const dotInk = Math.min(...all.filter((g) => g !== dot).map((g) => closest(dot, g)));
+  const lineGap = v.lines.length > 1 ? Math.min(...v.lines.slice(1).map((line, i) => Math.min(...v.lines[i].flatMap((g) => line.map((h) => closest(g, h)))))) : null;
+  // the accent: the full stop (one dot) or the colon (two): each dot's size, the fabric to the letters, and between the dots
+  const dot = all.find(isAccent), before = dot && all[all.indexOf(dot) - 1], next = dot && all[all.indexOf(dot) + 1];
+  const dotInk = dot ? Math.min(...all.filter((g) => g !== dot).map((g) => closest(dot, g))) : null;
+  const dots = dot ? dot.polys.map((P) => boxOf(P)).sort((p, q) => p.y0 - q.y0).map((q) => ({ w: q.x1 - q.x0, h: q.y1 - q.y0, box: q })) : [];
+  const between = dots.length > 1 ? Math.min(...dots.slice(1).map((q, i) => q.box.y0 - dots[i].box.y1)) : null;
+  const widest = v.satin ? widestStroke(all) : null;
   const ap = all.find((g) => g.ch === '’');
   const apos = ap ? { w: ap.box.x1 - ap.box.x0, h: ap.box.y1 - ap.box.y0, stroke: thinnest['’'].w, gaps: v.lines.flatMap((line) => line.filter((g, i) => line[i + 1] === ap || line[i - 1] === ap).map((g) => ({ ch: g.ch, w: closest(g, ap) }))) } : null;
   // 6-panel: the gaps a centre seam can run down, measured from the file's centre (where the design is centred)
@@ -679,7 +799,8 @@ function measure(v) {
     thinnest, thinnestAll, stems: { min: Math.min(...stems.map((s) => s.w)), max: Math.max(...stems.map((s) => s.w)), letters: [...new Set(stems.map((s) => s.ch))] },
     openings, openingAt, smallest, named, rNotch: R ? rNotch(R) : null, sStrokes: S ? sStrokes(S) : null, crotches: crotchList, crotchPoints: crotches,
     pairs, spaces, lineGap,
-    dot: { w: dot.box.x1 - dot.box.x0, h: dot.box.y1 - dot.box.y0, ink: dotInk, after: before.ch, pastPrev: dot.box.x0 - before.box.x1 },
+    dot: dot ? { ch: dot.ch, name: ACCENTS[dot.ch].name, w: dot.box.x1 - dot.box.x0, h: dot.box.y1 - dot.box.y0, across: Math.min(...dots.map((q) => Math.min(q.w, q.h))), dots, between, toLetters: dotInk, ink: Math.min(dotInk, between === null ? Infinity : between), after: before.ch, next: next ? next.ch : null, toPrev: closest(dot, before), toNext: next ? closest(dot, next) : null, pastPrev: dot.box.x0 - before.box.x1 } : null,
+    widest,
     apos, ink: { area: ink.area, x: ink.x, dx: ink.x - cx, dy: ink.y - (b.y0 + b.y1) / 2 },
     channels: ch6,
   };
@@ -707,19 +828,23 @@ function checks(d, m, seam) {
   add('cap height', m.cap, `>= ${MIN.cap}`, m.cap >= MIN.cap);
   const st = m.thinnestAll;
   add('thinnest stroke', st[1].w, `>= ${MIN.stroke}`, st[1].w >= MIN.stroke, 'mm', `in the ${st[0]}`);
+  if (m.widest) add('widest satin stroke', m.widest.w, `<= ${MIN.satin}`, m.widest.w <= MIN.satin, 'mm', `in the ${inkName(m.widest.ch)}`);
   const op = m.smallest;
   add('smallest opening inside a letter', op[1], `>= ${MIN.opening}`, op[1] >= MIN.opening, 'mm', `in the ${op[0]}`);
   for (const [ch, list] of Object.entries(m.named)) for (const o of list) {
     const v = Math.min(...o.values.filter((x) => x !== null));
     add(`${ch} ${o.name}`, v, `>= ${MIN.opening}`, v >= MIN.opening);
   }
-  add('full stop across', Math.min(m.dot.w, m.dot.h), `>= ${MIN.dot}`, Math.min(m.dot.w, m.dot.h) >= MIN.dot);
-  add('fabric round the full stop', m.dot.ink, `>= ${MIN.dotFabric}`, m.dot.ink >= MIN.dotFabric);
+  if (m.dot) {                                        // the full stop, or the colon's two dots (and the fabric between them)
+    const colon = m.dot.between !== null;
+    add(colon ? 'colon dots across' : 'full stop across', m.dot.across, `>= ${MIN.dot}`, m.dot.across >= MIN.dot, 'mm', colon ? `${f2(m.dot.dots[0].w)} x ${f2(m.dot.dots[0].h)} mm each` : undefined);
+    add(`fabric round the ${m.dot.name}`, m.dot.ink, `>= ${MIN.dotFabric}`, m.dot.ink >= MIN.dotFabric, 'mm', colon ? `${f2(m.dot.between)} mm between its dots, ${f2(m.dot.toLetters)} mm to the digits` : undefined);
+  }
   if (m.apos) add('apostrophe across', m.apos.w, `>= ${MIN.dot}`, m.apos.w >= MIN.dot, 'mm', `${f2(m.apos.w)} x ${f2(m.apos.h)} mm; its tail ${f2(m.apos.stroke)} mm at its narrowest`);
   add('tightest gap between letters', m.pairs[0].w, `>= ${MIN.letters}`, m.pairs[0].w >= MIN.letters, 'mm', `${m.pairs[0].p[0]}-${m.pairs[0].p[1]}`);
   if (m.lineGap !== null) add('gap between the lines', m.lineGap, `>= ${MIN.letters}`, m.lineGap >= MIN.letters);
-  const [W, H] = AREAS[d.area], ext = m.fileW / 2 + (seam && !seam.none ? Math.abs(seam.shiftDesign) : 0);
-  add(`fits the ${W} x ${H} mm ${d.area === 'hat' ? 'hat front' : d.area === 'chest' ? 'left-chest square' : 'big-front box'}`, W / 2 - ext, '>= 0 spare each side', ext <= W / 2 && m.h <= H, 'mm', 'spare on the tighter side');
+  const [W, H] = AREAS[d.area], ext = m.fileW / 2 + (seam && !seam.none ? Math.abs(seam.shiftDesign) : 0), margin = d.margin || 0;
+  add(`fits the ${W} x ${H} mm ${spotName(d)}`, W / 2 - ext, `>= ${margin} spare each side`, ext <= W / 2 - margin && m.h <= H - 2 * margin, 'mm', 'spare on the tighter side');
   if (seam) add('6-panel seam gap', seam.none ? 0 : seam.width, `>= ${MIN.seam}`, !seam.none && seam.width >= MIN.seam, 'mm', seam.none ? 'no gap near the centre' : `between the ${seam.between[0]} and the ${seam.between[1]}`);
   return { pass: out.every((c) => c.pass), items: out };
 }
@@ -748,7 +873,9 @@ function selfTest() {
 const relp = (f) => path.relative(REPO, f).split(path.sep).join('/');
 const spare = (m, area, shift = 0) => AREAS[area][0] / 2 - m.fileW / 2 - Math.abs(shift);
 const pairName = (p) => `${p[0]}-${p[1]}`;
-const nm = (c) => (c === '.' ? 'the full stop' : c === '’' ? 'the apostrophe' : `the ${c}`);
+const nm = (c) => (c === '.' ? 'the full stop' : c === ':' ? 'the colon' : c === '’' ? 'the apostrophe' : `the ${c}`);
+const inkName = (c) => (c === ':' ? 'colon’s dots' : c === '.' ? 'full stop' : c);         // "in the ..."
+const spotName = (d) => (d.area === 'hat' ? 'hat front' : d.area === 'chest' ? 'left-chest square' : d.area === 'centreChest' ? 'centre-chest square' : d.spot === 'upper back' ? 'upper-back box' : 'big-front box');
 
 // A 6-panel proof: the light file on the 140 x 50 mm hat front, moved by shift (+ = viewer's right), with the seam.
 async function seamProof(out, lines, m, shift, text) {
@@ -771,9 +898,9 @@ if (require.main === module) (async () => {
   const art = [];
   let failed = false;
   for (const d of DESIGNS) {
-    const cap = d.cap === 'big' ? bigCap(d) : d.cap;
+    const cap = d.cap === 'big' ? fitCap(d, BIG) : d.cap === 'fit' ? fitCap(d, FIT) : d.cap;
     const lines = layout(d, cap);
-    const v = { cap, lines };
+    const v = { cap, lines, satin: d.cap === 'fit' };    // satin: measure the widest stroke too (MIN.satin)
     const m = measure(v);
     const seam = seamFor(d, m);
     const c = checks(d, m, seam);
@@ -813,6 +940,9 @@ if (require.main === module) (async () => {
       proofs: Object.fromEntries(Object.entries(proofs).map(([k2, f]) => [k2, relp(f)])), notes: relp(path.join(folder, 'notes.md')),
       w: +f2(m.fileW), h: +f2(m.fileH), ink: { w: +f2(m.w), h: +f2(m.h) }, cap: +f2(cap), placement: d.where,
       ...(m.fileW - m.w > 0.005 ? { centring: `The file is ${f2(m.fileW)} mm wide, ${f2(m.fileW - m.w)} mm wider than the ink on the left, so its centre is the letters' centre (the full stop hangs past ${d.lines[d.lines.length - 1].replace(/\.$/, '')}): centre the file.` } : {}),
+      ...(m.dot && m.dot.ch !== '.' ? { accent: m.dot.name } : {}),
+      ...(d.printed ? { printed: true } : {}),
+      ...(d.cap === 'fit' ? { fit: { w: FIT.w, h: FIT.h, spareEachSide: +f2(spare(m, d.area)), widestSatin: +f2(m.widest.w) } } : {}),
       sixPanelShift: seam && !seam.none ? +f2(seam.shiftDesign) : null,
       sixPanelSeam: seam && !seam.none ? { between: seam.between, gap: +f2(seam.width), inkCentreFromSeam: +f2(seam.inkFromSeam) } : null,
       ...(seam && seam.wordSpace ? { sixPanelWordSpace: { shift: +f2(seam.wordSpace.shiftDesign), between: seam.wordSpace.between, gap: +f2(seam.wordSpace.width), inkCentreFromSeam: +f2(seam.wordSpace.inkFromSeam), proof: relp(proofs.seamWordSpace), note: `not used: past the ${SEAM_MAX_SHIFT} mm limit, and the line would sit visibly off-centre; the owner's alternative` } } : {}),
@@ -834,8 +964,8 @@ function report({ d, cap, m, seam, checks: c, edits }) {
   for (const [ch, list] of Object.entries(m.named)) console.log(`    ${ch}: ${list.map((o) => `${o.name} ${o.values.map((x) => (x === null ? '-' : f2(x))).join(' / ')}`).join('; ')}`);
   console.log(`  crotches: ${m.crotches.map((q) => `${q.ch} ${f1(q.angle)} deg x${q.count}`).join(', ') || 'none'}`);
   console.log(`  letter gaps: ${m.pairs.slice(0, 4).map((p) => `${pairName(p.p)} ${f2(p.w)}`).join(', ')}${m.spaces.length ? `; word spaces ${m.spaces.map((s) => `${pairName(s.p)} ${f2(s.w)} (channel ${f2(s.channel)})`).join(', ')}` : ''}${m.lineGap !== null ? `; line gap ${f2(m.lineGap)}` : ''}`);
-  console.log(`  full stop ${f2(m.dot.w)} mm, ${f2(m.dot.ink)} mm from ${nm(m.dot.after)}${m.apos ? `; apostrophe ${f2(m.apos.w)} x ${f2(m.apos.h)}, tail ${f2(m.apos.stroke)}, gaps ${m.apos.gaps.map((q) => `${q.ch} ${f2(q.w)}`).join(' / ')}` : ''}`);
-  console.log(`  edits: B neck fill ${f2(edits.B.neckFill)} mm; S faces +${f2(edits.S.upperMM)} / -${f2(edits.S.lowerMM)} mm, inside ${f2(edits.S.epsMM)} mm; G face +${f2(edits.G.mm)} mm${edits.apos ? `; apostrophe end +${f2(edits.apos.mm)} mm a side` : ''}; PO trims C ${f2(edits.po.cMM)} E ${f2(edits.po.eMM)}`);
+  console.log(`  ${m.dot ? `${m.dot.name} ${f2(m.dot.across)} mm, ${f2(m.dot.ink)} mm from ${nm(m.dot.after)}` : 'no accent'}${m.widest ? `; widest satin ${f2(m.widest.w)} in the ${inkName(m.widest.ch)}` : ''}${m.apos ? `; apostrophe ${f2(m.apos.w)} x ${f2(m.apos.h)}, tail ${f2(m.apos.stroke)}, gaps ${m.apos.gaps.map((q) => `${q.ch} ${f2(q.w)}`).join(' / ')}` : ''}`);
+  console.log(`  edits: B neck fill ${f2(edits.B.neckFill)} mm; F slot +${f2(edits.F.mm)} mm; S faces +${f2(edits.S.upperMM)} / -${f2(edits.S.lowerMM)} mm, inside ${f2(edits.S.epsMM)} mm; G face +${f2(edits.G.mm)} mm${edits.apos ? `; apostrophe end +${f2(edits.apos.mm)} mm a side` : ''}; PO trims C ${f2(edits.po.cMM)} E ${f2(edits.po.eMM)}`);
   console.log(`  6-panel channels: ${m.channels.map((q) => `${f2(q.width)} at ${f2(q.shift)} (${q.where.join(' / ')})`).join('; ')}`);
   if (seam) console.log(`  seam: ${seam.none ? 'none' : `move ${f2(seam.shiftDesign)} mm (+ = viewer's right); gap ${f2(seam.width)} between ${seam.between.join(' and ')}; ink centre ${f2(seam.inkFromSeam)} mm from the seam`}`);
   console.log(`  checks: ${c.pass ? 'all pass' : 'FAILED: ' + c.items.filter((q) => !q.pass).map((q) => `${q.check} ${q.value}`).join('; ')}`);
@@ -872,7 +1002,7 @@ function kernNote(d) {
       if (po !== undefined) parts.push(font ? 'the font’s own, as Punched Out.' : 'Punched Out.’s');
       else if (font) parts.push(set || own ? `the font’s own ${font} units` : `the font’s own: ${font} units`);
       if (set) parts.push(parts.length ? `this set’s ${sgn(set)}` : 'this set’s');
-      if (own) parts.push(parts.length ? `${sgn(own)} to widen the 6-panel seam’s gap` : 'opened to widen the 6-panel seam’s gap');
+      if (own) parts.push(d.kernWhy && d.kernWhy[pair] ? `${parts.length ? `${sgn(own)} ` : ''}${d.kernWhy[pair]}` : parts.length ? `${sgn(own)} to widen the 6-panel seam’s gap` : 'opened to widen the 6-panel seam’s gap');
     }
     out.push({ label, text: `${label} ${sgn(kern(a, b))} (${parts.join(' and ')})` });
   }
@@ -885,7 +1015,7 @@ function notes(ctx) {
   const { d, cap, m, seam, checks: c, edits, lines } = ctx;
   const big = d.area === 'big', k = cap / UPC, has = (ch) => d.text.includes(ch), sz = `${f2(m.w)} x ${f2(m.h)} mm`;
   const [W, H] = AREAS[d.area];
-  const stack = lines.length === 2;
+  const stack = lines.length > 1, back = d.spot === 'upper back', fit = d.cap === 'fit';
   const cx = m.cx, centreX = seam && !seam.none ? seam.mid : cx;      // the file's centre: where it is centred
   const order = orderText(stitchOrder(lines, centreX, d.lines));
   const crotchOf = (ch) => m.crotches.filter((q) => q.ch === ch);
@@ -893,8 +1023,17 @@ function notes(ctx) {
   const each = (q) => q.count / [...d.text].filter((ch) => ch === q.ch).length;      // per letter
   const crotchName = (q) => `${q.ch} ${f1(q.angle)} deg${each(q) > 1 ? ` (${word(each(q))} in ${[...d.text].filter((ch) => ch === q.ch).length > 1 ? 'each' : 'the'} ${q.ch})` : ''}`;
   const padded = m.fileW - m.w > 0.005;
+  const allLines = lines.length === 2 ? 'both lines' : `all ${word(lines.length)} lines`;
+  const accName = m.dot ? m.dot.name : 'accent', accId = m.dot ? ACCENTS[m.dot.ch].id : 'full-stop';
+  // the opening sentence's sizing: the big front (or the printed upper back), the centre chest's fit, or the logo's cap 7
+  const sizing = big
+    ? `drawn for the ${back ? 'upper back' : 'big centre front'} at cap ${f1(cap)} mm, so the line is ${f2(m.w)} mm wide: the largest cap (in 0.1 mm steps) that fits the 230 mm box the store uses for the tops’ big front, as Punched Out.’s one-line-large (229.75 mm at cap 16.5)${back ? '; the listing has it printed there, and it is drawn to the embroidery floors all the same' : ''}`
+    : fit ? `drawn for the centre chest at cap ${f1(cap)} mm: the largest cap (in ${FIT.step} mm steps) at which the ${padded ? 'file' : 'line'} fits ${FIT.w} mm, so the ${stack ? 'block' : 'line'} is ${f2(m.w)} mm wide${padded ? ` (the file ${f2(m.fileW)} mm)` : ''} and at least ${d.margin} mm is spare each side of Printful’s 4 x 4 in square`
+    : 'at the logo’s cap height of 7 mm, so its strokes are the logo’s strokes';
+  const accentIntro = !m.dot ? 'There is no accent.' : m.dot.ch === '.' ? 'The only accent is the full stop, in the logo’s accent thread: Rust on light fabric, Sun on dark, as on Punched Out.' : 'The only accent is the colon, in the logo’s accent thread: Rust on light fabric, Sun on dark, the way the full stop is on Punched Out.; the digits are in the letter thread.';
   const narrow = [];                          // narrow openings, for the compensation note: [name, mm]
   if (m.named.E) narrow.push(['the E’s slots', Math.min(...m.named.E[0].values)]);
+  if (m.named.F) narrow.push(['the F’s slot', m.named.F[0].values[0]]);
   if (m.named.C) narrow.push(['the C’s mouth', m.named.C[0].values[0]]);
   if (m.named.G) narrow.push(['the G’s mouth', m.named.G[0].values[0]]);
   if (m.named.B) narrow.push(['the B’s upper counter', Math.min(...m.named.B[0].values)]);
@@ -917,14 +1056,22 @@ function notes(ctx) {
   if (d.area === 'chest') {
     placeRow = `| ${d.where.replace(/, S to 3XL$/, '')} | Centred in Printful’s 4 x 4 in (101.6 mm) left-chest square: ${f1(spare(m, 'chest'))} mm spare each side, ${f1((H - m.h) / 2)} mm above and below |`;
     placeNotes.push(`- The block is the logo’s height (18.0 mm) and close to its width (62.6 mm), as Punched Out.’s chest stack (63.59 x 18.00 mm).`);
+  } else if (d.area === 'centreChest') {
+    const next = (() => { const b = fileBox(layout(d, +(cap + FIT.step).toFixed(1))); return b.x1 - b.x0; })();
+    placeRow = `| ${d.where.replace(/, S to 3XL$/, '')} | Centred in Printful’s 4 x 4 in (101.6 mm) centre-chest square: ${f1(spare(m, 'centreChest'))} mm spare each side, ${f1((H - m.h) / 2)} mm above and below |`;
+    placeNotes.push(`- Sized to the square: cap ${f2(cap)} mm is the largest, in ${FIT.step} mm steps, at which the ${padded ? 'file' : 'line'} fits ${FIT.w} mm (the listing says about 95 mm wide, and 95 leaves ${f1((W - FIT.w) / 2)} mm each side, over the ${d.margin} mm floor); at cap ${f1(cap + FIT.step)} it would be ${f2(next)} mm.`);
+    if (padded) placeNotes.push(`- Centre the file. It is ${f2(m.fileW)} mm wide: ${f2(m.fileW - m.w)} mm of it is empty margin on the left, the width the full stop hangs past ${d.lines[d.lines.length - 1].replace(/\.$/, '')}, so the file’s centre is the letters’ centre. Centring the ink instead would put the letters ${f2((m.fileW - m.w) / 2)} mm to the wearer’s right of centre.`);
   } else if (d.area === 'big') {
-    placeRow = `| ${d.where.replace(/, S to 3XL$/, '')} | Centred on Printful’s large front: ${f1(spare(m, 'big'))} mm spare each side of the store’s 230 mm box (Printful’s large-front limit is 10 x 6 in, 254 x 152 mm) |`;
-    placeNotes.push(`- The owner’s call for the tops (store/picks.md): big on the centre front, as Punched Out. goes there.`);
+    placeRow = back
+      ? `| ${d.where.replace(/, S to 3XL$/, '')} | Centred across the upper back, printed: ${f1(spare(m, 'big'))} mm spare each side of the 230 mm box the store uses for the tops’ big front, so it is the size of Punched Out.’s and No Alarm Set.’s fronts; check the back print area Printful offers on the 1467 when the file is linked |`
+      : `| ${d.where.replace(/, S to 3XL$/, '')} | Centred on Printful’s large front: ${f1(spare(m, 'big'))} mm spare each side of the store’s 230 mm box (Printful’s large-front limit is 10 x 6 in, 254 x 152 mm) |`;
+    if (back) placeNotes.push(`- Printed, not embroidered: the owner’s call (29 Oct 2026, store/picks.md) is that everything is embroidered except this back, which can’t be, so the listing has it printed on the upper back with the logo on the left chest. It is drawn to the embroidery floors all the same (every check below), so the same file can be embroidered without a redraw if Printful ever offers a large back.`);
+    else placeNotes.push(`- The owner’s call for the tops (store/picks.md): big on the centre front, as Punched Out. goes there.`);
     if (m.w * 15 / cap > BIG.w + 0.01) placeNotes.push(`- At 230 mm this line gets cap ${f1(cap)}, not 15-16.5: it is ${d.text.length} characters long. At cap 15 it would be ${f1((m.w * 15) / cap)} mm wide, past the box (it would still fit Printful’s 254 mm, at cap ${f1(Math.min(capAt(254), 16.5))} at most).`);
   } else if (!seam) {
     placeRow = `| ${d.where} | Centred: ${f1(spare(m, 'hat'))} mm spare each side of the ${W} mm front area, ${f1((H - m.h) / 2)} mm above and below its ${H} mm |`;
     if (padded) placeNotes.push(`- Centre the file. It is ${f2(m.fileW)} mm wide: ${f2(m.fileW - m.w)} mm of it is empty margin on the left, the width the full stop hangs past ${d.lines[d.lines.length - 1].replace(/\.$/, '')}, so the file’s centre is the letters’ centre. Centring the ink instead would put the letters ${f2((m.fileW - m.w) / 2)} mm to the wearer’s right of centre.`);
-    placeNotes.push(`- Both are seamless fronts, so no shift. Not for a 6-panel cap as drawn: ${widestNear ? `the widest gap clear of ${stack ? 'both lines' : 'the letters'} within ${SEAM_MAX_SHIFT} mm of centre is ${f2(widestNear.width)} mm, too narrow to aim a seam at` : `no gap runs clear through ${stack ? 'both lines' : 'the letters'} within ${SEAM_MAX_SHIFT} mm of centre`}, and centred, the seam would run ${list(crossAtCentre)}.`);
+    placeNotes.push(`- Both are seamless fronts, so no shift. Not for a 6-panel cap as drawn: ${widestNear ? `the widest gap clear of ${stack ? allLines : 'the letters'} within ${SEAM_MAX_SHIFT} mm of centre is ${f2(widestNear.width)} mm, too narrow to aim a seam at` : `no gap runs clear through ${stack ? allLines : 'the letters'} within ${SEAM_MAX_SHIFT} mm of centre`}, and centred, the seam would run ${list(crossAtCentre)}.`);
   } else {
     const dir = seam.shiftDesign > 0 ? 'wearer’s left (the viewer’s right)' : 'wearer’s right (the viewer’s left)';
     // the seam's gap, height by height (it is narrowest where the letters' boxes are)
@@ -942,12 +1089,13 @@ function notes(ctx) {
     }
     placeRow = `| ${d.where} | **${f2(Math.abs(seam.shiftDesign))} mm to the ${dir}** of centre, so the seam runs down the middle of the ${f2(seam.width)} mm gap between the ${seam.between[0]} and the ${seam.between[1]}, ${f2(seam.width / 2)} mm from ${sideR(seam.between[0])} and from ${sideL(seam.between[1])}${profile.length ? ` (the gap is ${list(profile.map(([v, w]) => `${f2(v)} mm ${w}`))})` : ''}. The ink’s centre then lands ${f2(Math.abs(seam.inkFromSeam))} mm from the seam, and ${f1(spare(m, 'hat', seam.shiftDesign))} mm is still spare on that side of the ${W} mm front |`;
     const others = m.channels.filter((q) => Math.abs(q.shift) <= SEAM_MAX_SHIFT && Math.abs(q.mid - seam.mid) > 1e-6).map((q) => `${f2(q.width)} mm between the ${q.where[0].split('|')[0]} and the ${q.where[0].split('|')[1]} (${f2(-q.shift)} mm)`);
-    placeNotes.push(`- ${seam.usesWordSpace ? 'The seam sits in the word space.' : `Gaps clear of the letters within ${SEAM_MAX_SHIFT} mm of centre (the limit Punched Out. uses: the logo moves 5.2 mm, and much more looks off-centre): this one${others.length ? `, and ${list(others)}` : ' only'}.`}`);
+    const nearLetter = m.channels.filter((q) => Math.abs(q.shift) <= SEAM_MAX_SHIFT && !m.spaces.some((s) => q.where[0] === `${s.p[0]}|${s.p[1]}`)).sort((p, q) => q.width - p.width)[0];
+    placeNotes.push(`- ${seam.usesWordSpace ? `The seam sits in the word space, as the logo’s does: it is ${f2(Math.abs(seam.shift))} mm from the centre, within the ${SEAM_MAX_SHIFT} mm limit Punched Out. uses (the logo moves 5.2 mm, and much more looks off-centre; Banked Time.’s word space sits further off, so it took a letter gap), and ${nearLetter ? `the widest letter gap within that limit, ${f2(nearLetter.width)} mm between the ${nearLetter.where[0].split('|')[0]} and the ${nearLetter.where[0].split('|')[1]}, is under the ${MIN.seam} mm a seam needs` : 'no letter gap runs clear within that limit'}.` : `Gaps clear of the letters within ${SEAM_MAX_SHIFT} mm of centre (the limit Punched Out. uses: the logo moves 5.2 mm, and much more looks off-centre): this one${others.length ? `, and ${list(others)}` : ' only'}.`}`);
     const opened = Object.entries(d.kern || {}).find(([pr]) => pr === seam.between.join(''));
     if (opened) placeNotes.push(`- The ${seam.between.join('-')} pair is spaced ${f2(opened[1] * cap)} mm (${opened[1]} cap) wider than the rest of the set would space it${PO.KERN[opened[0]] !== undefined ? ' (Punched Out.’s kern for it left out)' : ''}, so the seam’s gap is ${f2(seam.width)} mm.`);
     if (seam.wordSpace) placeNotes.push(`- Not the word space, though it is the widest gap (a ${f2(seam.wordSpace.width)} mm clear channel between the ${seam.wordSpace.between[0]} and the ${seam.wordSpace.between[1]}): putting the seam there means moving the line ${f1(Math.abs(seam.wordSpace.shiftDesign))} mm the other way, to the ${seam.wordSpace.shiftDesign > 0 ? 'wearer’s left' : 'wearer’s right'}, and the ink’s centre would sit ${f1(Math.abs(seam.wordSpace.inkFromSeam))} mm off the seam: visibly off-centre, with ${f1(spare(m, 'hat', seam.wordSpace.shiftDesign))} mm spare on one side of the ${W} mm front and ${f1(W - m.fileW - spare(m, 'hat', seam.wordSpace.shiftDesign))} mm on the other. If the owner prefers the word break on the seam anyway, shift ${f2(seam.wordSpace.shiftDesign)} mm instead: \`seam-proof-word-space.png\` shows it.`);
     placeNotes.push(`- Centred instead, the seam would run ${list(crossAtCentre)}. \`seam-proof.png\` shows the shift on a ${W} x ${H} mm front at true size.`);
-    placeNotes.push(`- Set the shift when placing the design: Printful’s guide describes designs on 6-panel caps as centred across the two front panels, so whether it keeps an offset is unconfirmed (store/research/caps-and-hoodie.md); check the first sample. The logo (5.2 mm right) and Punched Out. (2.4 mm right) shift the same way.`);
+    placeNotes.push(`- Set the shift when placing the design: Printful’s guide describes designs on 6-panel caps as centred across the two front panels, so whether it keeps an offset is unconfirmed (store/research/caps-and-hoodie.md); check the first sample. The logo (5.2 mm right) and Punched Out. (2.4 mm right) shift ${seam.shiftDesign > 0 ? 'the same way' : 'the other way'}.`);
   }
 
   // ---- construction rows
@@ -959,7 +1107,9 @@ function notes(ctx) {
     ['Thinnest stroke in each letter', Object.entries(m.thinnest).map(([ch, s]) => `${ch} ${f2(s.w)}`).join(', ')],
     ['Narrowest opening in each letter that has one', `${Object.entries(m.openings).map(([ch, w]) => `${ch} ${f2(w)}`).join(', ')} (crotch tips aside)`],
   ];
+  if (m.widest) rows.push(['Widest satin stroke', `${f2(m.widest.w)} mm, in the ${inkName(m.widest.ch)} (the largest circle that fits inside the ink; Printful’s satin limit is ${MIN.satin} mm)`]);
   if (m.named.E) rows.push(['E slots', `${m.named.E[0].values.map(f2).join(' / ')} mm`]);
+  if (m.named.F) rows.push(['F slot', `${f2(m.named.F[0].values[0])} mm`]);
   if (m.named.C) rows.push(['C mouth', `${f2(m.named.C[0].values[0])} mm`]);
   if (m.named.G) rows.push(['G mouth', `${f2(m.named.G[0].values[0])} mm`]);
   if (m.named.B) rows.push(['B counters (upper / lower)', `${m.named.B[0].values.map(f2).join(' / ')} mm`]);
@@ -970,7 +1120,9 @@ function notes(ctx) {
   rows.push(['Tightest letter gaps', m.pairs.slice(0, 3).map((p) => `${pairName(p.p)} ${f2(p.w)}`).join(', ') + ' mm']);
   if (m.spaces.length) rows.push([m.spaces.length > 1 ? 'Word spaces' : 'Word space', m.spaces.map((s) => `${pairName(s.p)} ${f2(s.w)} mm at the closest, a ${f2(s.channel)} mm clear channel from top to bottom`).join('; ')]);
   if (m.lineGap !== null) rows.push(['Line gap', `${f2(m.lineGap)} mm`]);
-  rows.push(['Full stop', `${f2(m.dot.w)} mm round, ${f2(m.dot.ink)} mm from ${nm(m.dot.after)}`]);
+  if (m.dot) rows.push(m.dot.between === null
+    ? ['Full stop', `${f2(m.dot.w)} mm round, ${f2(m.dot.ink)} mm from ${nm(m.dot.after)}`]
+    : ['Colon', `two dots ${f2(m.dot.dots[0].w)} x ${f2(m.dot.dots[0].h)} mm, ${f2(m.dot.between)} mm apart; ${f2(m.dot.toPrev)} mm from ${nm(m.dot.after)} and ${f2(m.dot.toNext)} mm from ${nm(m.dot.next)}`]);
   if (m.apos) rows.push(['Apostrophe', `${f2(m.apos.w)} x ${f2(m.apos.h)} mm, its tail ${f2(m.apos.stroke)} mm at its narrowest; ${m.apos.gaps.map((q) => `${f2(q.w)} mm to the ${q.ch}`).join(', ')}`]);
   rows.push(['Ink', `${f1(m.ink.area)} mm²`]);
 
@@ -979,6 +1131,13 @@ function notes(ctx) {
   if (has('E')) changes.push(`- **E, straight stem** (Punched Out.’s): the F’s and H’s stem with the E’s own arms and bar, so its stem matches the other letters’. Unbounded bends it; Punched Out.’s cold readers all flagged the bent one. ${edits.po.e ? `Slots: the top arm’s underside raised and the bottom arm’s top lowered ${f2(edits.po.eMM)} mm, so each slot is ${f2(m.named.E[0].values[0])} mm (Punched Out.’s cap-7 trim).` : `No slot trim at this size: the slots are ${f2(m.named.E[0].values[0])} mm as the font draws them.`}`);
   if (has('B')) changes.push(`- **B, straight stem**, for the same reason: Unbounded bends the B’s stem as it does the E’s (left edge 47 -> 105 -> 47 font units). Rebuilt with the F/H stem (x 70-277) and the counters’ left edges straight. ${edits.B.neckFill ? `The notch between the bowls is filled ${f2(edits.B.neckFill)} mm at its tip, so the lower bowl’s neck beside it is as thick as the B’s middle bar (1.21 mm as the font draws it, under the 1.27 mm floor).` : ''}`);
   if (has('C')) changes.push(`- C: ${edits.po.c ? `mouth trimmed ${f2(edits.po.cMM)} mm per face (Punched Out.’s), so it is ${f2(m.named.C[0].values[0])} mm.` : `no trim at this size: the mouth is ${f2(m.named.C[0].values[0])} mm as the font draws it.`}`);
+  if (has('F')) {
+    const pf = plain('F', cap), arm = (g) => runs(cross(g, { x: g.box.x0 + 0.62 * (g.box.x1 - g.box.x0) }))[0];   // the top arm, from the E's cut
+    const Fg = lines.flat().find((g) => g.ch === 'F'), Eg = lines.flat().find((g) => g.ch === 'E');
+    changes.push(edits.F.slot
+      ? `- **F, its slot opened** as Punched Out.’s E slots are: the top arm’s underside is raised ${f2(edits.F.mm)} mm (the same trim), so the slot between its arms is ${f2(m.named.F[0].values[0])} mm, against ${f2(pf.named.F[0].values[0])} mm as the font draws it, under the 1.27 mm floor. The top arm is ${f2(arm(Fg))} mm${Eg ? ` (the E’s ${f2(arm(Eg))})` : ''}; the middle arm and the stem are the font’s. The logo keeps the font’s F and holds compensation back on the slot’s faces instead (designs/mark/final/the-o/notes.md); this set trims it, as it trims the E, so the slot is over the floor as drawn.`
+      : `- F: no slot trim at this size: the slot is ${f2(m.named.F[0].values[0])} mm as the font draws it.`);
+  }
   if (has('S')) {
     const ps = plain('S', cap), ap = m.named.S[0].values, ct = m.named.S[1].values, st = m.sStrokes, pst = ps.sStrokes, pap = ps.named.S[0].values;
     // where its thinnest stroke is: a terminal's end (where the flat cut meets the outer curve), or elsewhere
@@ -1000,14 +1159,16 @@ function notes(ctx) {
 
   // ---- digitizer notes
   const dz = [];
+  if (d.printed) dz.push(`- The listing has this one printed (${d.where.replace(/, S to 3XL$/, '')}): the SVG is the print file as it stands, letters and ${accName} in the same two colours. The notes below are for an embroidered version, which the floors and checks allow.`);
   const keep = [has('S') && 'the S’s shorter terminals', has('G') && 'the G’s opened mouth'].filter(Boolean), many = keep.length > 1 || has('S');
   dz.push(`- Digitize each size on its own and never scale a stitch file.${big ? ` This is its own drawing at cap ${f1(cap)}, not a cap-7 file scaled up (the cap-7 trims shrink with size and are none here${keep.length ? `; ${list(keep)} ${many ? 'are' : 'is'} part of the letters’ drawing and ${many ? 'stay' : 'stays'}` : ''}).` : ''}`);
-  dz.push(`- Satin throughout, ${f2(m.stems.min)}-${f2(m.stems.max)} mm stems. One colour change: the letters${m.apos ? ' (the apostrophe with them)' : ''}, then the full stop.`);
-  dz.push(`- Stitch order, centre out${seam && !seam.none ? ' from the seam' : ''}${stack ? ' (bottom line first, as caps sew centre out and bottom up)' : ''}, then the colour change and the full stop: ${order}.`);
+  dz.push(`- Satin throughout, ${f2(m.stems.min)}-${f2(m.stems.max)} mm stems. ${m.dot ? `One colour change: the letters${m.apos ? ' (the apostrophe with them)' : ''}, then the ${accName}.` : 'One colour.'}`);
+  dz.push(`- Stitch order, centre out${seam && !seam.none ? ' from the seam' : ''}${stack ? ' (bottom line first, as caps sew centre out and bottom up)' : ''}, then the colour change and the ${accName}: ${order}.`);
   dz.push(tight.length
     ? `- Pull compensation: 0.15-0.18 mm per edge (0.30-0.35 mm total), plus 0.05 mm per edge where stitches run horizontally (the stems), as for the logo. Only 0.05 mm per edge on the faces of ${list(tight.map(([nm2]) => nm2))}, so ${plural ? 'they finish' : 'it finishes'} at about ${list(tight.map(([nm2, w]) => `${f2(w - 0.1)}`))} mm (with full compensation ${plural ? 'they’d' : 'it’d'} close to about ${list(tight.map(([, w]) => f2(w - 0.36)))} mm).`
     : `- Pull compensation: 0.15-0.18 mm per edge (0.30-0.35 mm total), plus 0.05 mm per edge where stitches run horizontally (the stems), as for the logo. Standard compensation everywhere: the narrowest opening is ${f2(m.smallest[1])} mm (the ${m.smallest[0]}).`);
   if (has('E') && edits.po.e) dz.push(`- E: the artwork already includes the slot trims.`);
+  if (has('F') && edits.F.slot) dz.push(`- F: the artwork already includes the slot trim.`);
   if (has('B')) dz.push(`- B: the stem is straight (as the E’s); sew it as one column. ${edits.B.neckFill ? `The notch between the bowls is blunted in the artwork; keep it that way rather than re-pointing it, so the lower bowl’s neck keeps its ${f2(m.thinnest.B.w)} mm.` : ''}`);
   if (has('S')) dz.push(`- S: the artwork already includes the shorter terminals${edits.S.eps ? ' and the moved-back inside edges' : ''}. Pull both terminal ends back 0.2 mm with no end compensation, as for the logo’s S.`);
   if (has('’')) dz.push(`- ’: one satin shape in the letter thread, sewn with the letters; 0.10 mm compensation, as for the full stop. It sits ${list(m.apos.gaps.map((q) => `${f2(q.w)} mm from the ${q.ch}`))}.`);
@@ -1023,16 +1184,21 @@ function notes(ctx) {
   if (has('G')) { const g = crotchOf('G').sort((p, q) => q.angle - p.angle); dz.push(`- G: its mouth is ${f2(m.named.G[0].values[0])} mm, opened in the artwork, so standard compensation suits it. The pocket under its bar narrows to a ${g[0] ? f1(g[0].angle) : ''}-degree point and the slit between the bowl and the spur at the bottom right to a ${g[1] ? f1(g[1].angle) : ''}-degree one: stop the bar’s underside 0.3 mm short of the bowl at the pocket’s point, no compensation on either point’s faces.`); }
   const tBars = m.pairs.filter((p) => p.p.includes('T') && p.w < 1.8);
   if (tBars.length) dz.push(`- T: its bar’s end faces ${list(tBars.map((p) => `the ${p.p[0] === 'T' ? p.p[1] : p.p[0]} (${f2(p.w)} mm)`))}, as the logo’s F-T faces 1.47 mm. Pull that end back 0.15 mm with no end compensation.`);
-  dz.push(`- Full stop: ${big ? `${f2(m.dot.w)} mm across: satin, or a fill if it looks loose; ` : 'satin dot with 0.10 mm compensation, '}straight after the colour change. It has ${f2(m.dot.ink)} mm of fabric to ${nm(m.dot.after)}.`);
+  if (m.dot && m.dot.between === null) dz.push(`- Full stop: ${big ? `${f2(m.dot.w)} mm across: satin, or a fill if it looks loose; ` : 'satin dot with 0.10 mm compensation, '}straight after the colour change. It has ${f2(m.dot.ink)} mm of fabric to ${nm(m.dot.after)}.`);
+  else if (m.dot) dz.push(`- Colon: two ${f2(m.dot.dots[0].w)} x ${f2(m.dot.dots[0].h)} mm dots, ${f2(m.dot.between)} mm apart, straight after the colour change: satin with 0.10 mm compensation, or a fill if they look loose, as the big front’s full stop. They have ${f2(m.dot.toPrev)} mm of fabric to ${nm(m.dot.after)} and ${f2(m.dot.toNext)} mm to ${nm(m.dot.next)}.`);
   if (d.fleece) dz.push(`- Fleece: water-soluble topping, so the loft doesn’t swallow the openings and the crotches.`);
   if (seam && !seam.none) dz.push(`- 6-panel caps: ${f2(seam.shiftDesign)} mm (to the ${seam.shiftDesign > 0 ? 'wearer’s left' : 'wearer’s right'}); see “Where it goes”.`);
   else if (d.area === 'hat') dz.push(`- Seamless fronts: centred.`);
-  if (big) {
+  if (big || m.stems.max > 4.4) {
     const in2 = m.ink.area / 645.16, lo = Math.round((in2 * 1200) / 500) * 500, hi = Math.round((in2 * 2400) / 500) * 500;
-    dz.push(`- Big front: stems ${f2(m.stems.min)}-${f2(m.stems.max)} mm, under the 4.4 mm columns the logo sews in plain satin (its 45 mm symbol), so plain satin should hold; split the stems if the sew-out shows long, loose stitches. A rough stitch count from the ink area (${f1(m.ink.area)} mm², ${f2(in2)} sq in at 1,200-2,400 stitches per square inch of satin): about ${cm2(lo)}-${cm2(hi)}, under the 15,000 at which Printful’s large-embroidery stitch charge starts (store/research/caps-and-hoodie.md).`);
+    const count = `A rough stitch count from the ink area (${f1(m.ink.area)} mm², ${f2(in2)} sq in at 1,200-2,400 stitches per square inch of satin): about ${cm2(lo)}-${cm2(hi)}, under the 15,000 at which Printful’s large-embroidery stitch charge starts (store/research/caps-and-hoodie.md).`;
+    dz.push(big
+      ? `- ${back ? 'Upper back' : 'Big front'}: stems ${f2(m.stems.min)}-${f2(m.stems.max)} mm, under the 4.4 mm columns the logo sews in plain satin (its 45 mm symbol), so plain satin should hold; split the stems if the sew-out shows long, loose stitches. ${count}`
+      : `- Big letters: stems ${f2(m.stems.min)}-${f2(m.stems.max)} mm, over the 4.4 mm columns the logo sews in plain satin (its 45 mm symbol) but under Printful’s ${MIN.satin} mm satin limit (the widest stroke is ${f2(m.widest.w)} mm, in the ${inkName(m.widest.ch)}), so plain satin should hold; split the stems if the sew-out shows long, loose stitches. ${count}`);
   }
   const approve = [];
   if (has('E')) approve.push('both E slots at least 1.0 mm open');
+  if (has('F')) approve.push('the F’s slot at least 1.0 mm open');
   if (has('B')) approve.push('both B counters open');
   if (has('S')) approve.push('both S apertures at least 1.0 mm open and its counters open');
   if (wedges.length) approve.push(wedges.length === 1 && crotchOf(wedges[0]).reduce((a, q) => a + q.count, 0) === 1 ? `the ${wedges[0]}’s crotch open` : `the crotches of the ${list(wedges)} open`);
@@ -1040,11 +1206,12 @@ function notes(ctx) {
   if (has('C')) approve.push('the C’s mouth open');
   if (has('G')) approve.push('the G’s mouth open');
   if (has('’')) approve.push('the apostrophe’s tail clear, so it reads as an apostrophe, not a dot');
+  if (!approve.length) approve.push(`every stroke sewn as one even satin column (the widest is ${f2(m.widest ? m.widest.w : m.stems.max)} mm)${m.dot && m.dot.between !== null ? ' and the colon’s two dots round' : ''}`);
   dz.push(`- Approve only after a sew-out on the actual blank shows ${list(approve)}.`);
 
   const checkRows = c.items.map((q) => `| ${q.check}${q.note ? ` (${q.note})` : ''} | ${f2(q.value)} ${q.unit} | ${q.limit} | ${q.pass ? 'pass' : '**fail**'} |`);
   const files = [
-    `| \`design-light.svg\`, \`design-dark.svg\` | ${d.text} ${stack ? `as ${d.lines[0]} over ${d.lines[1]}, centred` : big ? 'on one line, drawn for the big centre front' : 'on one line'}, ${sz}${padded ? ` (the file ${f2(m.fileW)} mm wide, centred on the letters)` : ''} |`,
+    `| \`design-light.svg\`, \`design-dark.svg\` | ${d.text} ${stack ? `as ${d.lines.join(' over ')}, centred` : big ? `on one line, drawn for the ${back ? 'upper back' : 'big centre front'}` : fit ? 'on one line, drawn for the centre chest' : 'on one line'}, ${sz}${padded ? ` (the file ${f2(m.fileW)} mm wide, centred on the letters)` : ''} |`,
     `| \`proof-light.png\`, \`proof-dark.png\` | True-size proofs: the light file on Bone, the dark file on Slate |`,
     ...(seam && !seam.none ? [`| \`seam-proof.png\` | The light file on a ${W} x ${H} mm 6-panel front, moved for the centre seam, at true size |`] : []),
     ...(seam && seam.wordSpace ? [`| \`seam-proof-word-space.png\` | The same front with the seam in the word space instead (not used; for the owner to compare) |`] : []),
@@ -1052,9 +1219,9 @@ function notes(ctx) {
 
   return `# ${d.text} (${d.listing})
 
-${d.text} in the logo’s type: Unbounded Bold, all caps, letter-spacing 0.12 em, ${big ? `drawn for the big centre front at cap ${f1(cap)} mm, so the line is ${f2(m.w)} mm wide: the largest cap (in 0.1 mm steps) that fits the 230 mm box the store uses for the tops’ big front, as Punched Out.’s one-line-large (229.75 mm at cap 16.5)` : 'at the logo’s cap height of 7 mm, so its strokes are the logo’s strokes'}. ${stack ? `Stacked ${d.lines[0]} over ${d.lines[1]}, both lines centred on their letters, with the full stop hanging past the line, at Punched Out.’s line gap, so the block is the logo’s 18 mm tall.` : 'On one line.'} The only accent is the full stop, in the logo’s accent thread: Rust on light fabric, Sun on dark, as on Punched Out. For the ${d.listing} (${d.price}): ${d.where}.
+${d.text} in the logo’s type: Unbounded Bold, all caps, letter-spacing 0.12 em, ${sizing}. ${stack ? `Stacked ${d.lines.join(' over ')}, ${allLines} centred on their letters, with the full stop hanging past the line, at Punched Out.’s line gap, so the block is ${lines.length === 2 && cap === CAP ? 'the logo’s 18 mm' : `${f2(m.h)} mm`} tall.` : 'On one line.'} ${accentIntro} For the ${d.listing} (${d.price}): ${d.where}.
 
-**This file is written by \`designs/phrases/build.cjs\`** (one build for all six phrase designs). Every number below is measured from the generated artwork. Change the build and rebuild (\`cd tools && node ../designs/phrases/build.cjs\`); don’t edit this file by hand.
+**This file is written by \`designs/phrases/build.cjs\`** (${d.batch === 'five' ? 'one build for the phrase designs: the six of 30 Oct 2026 and the five added 2 Nov 2026 for the listings made outside this repo' : 'one build for all six phrase designs'}). Every number below is measured from the generated artwork. Change the build and rebuild (\`cd tools && node ../designs/phrases/build.cjs\`); don’t edit this file by hand.
 
 ## Files
 
@@ -1062,7 +1229,7 @@ ${d.text} in the logo’s type: Unbounded Bold, all caps, letter-spacing 0.12 em
 |---|---|
 ${files.join('\n')}
 
-Light files: Ink #1F2733 letters, Rust #B4552D full stop. Dark files: Bone #ECE5D3 letters, Sun #D29B3C full stop. Each file has two paths, \`letters\` and \`full-stop\`.
+Light files: Ink #1F2733 letters, Rust #B4552D ${accName}. Dark files: Bone #ECE5D3 letters, Sun #D29B3C ${accName}. Each file has two paths, \`letters\` and \`${accId}\`.
 
 ## Where it goes
 
@@ -1090,7 +1257,7 @@ ${changes.join('\n')}
 |---|---|---|---|
 ${checkRows.join('\n')}
 
-Floors: cap 6.6 mm (any embroidered Unbounded Bold, the logo’s rule); every opening inside a letter and every stroke at least 1.27 mm as drawn (0.05 in: Printful’s minimum gap and line); the full stop${m.apos ? ' and the apostrophe' : ''} at least 1.5 mm across with 1.3 mm of fabric round the stop (the logo’s pivot-dot rule); letters at least 1.47 mm apart (the logo’s F-T)${seam ? `; a 6-panel seam’s gap at least ${MIN.seam} mm (about 0.95 mm of fabric each side of the seam’s line; Punched Out.’s is 2.43 mm, and its review called 1.58 mm too narrow)` : ''}. Crotches (where two strokes meet in a point, as the N’s) are listed above, not counted as openings, as for Punched Out.
+Floors: cap 6.6 mm (any embroidered Unbounded Bold, the logo’s rule); every opening inside a letter and every stroke at least 1.27 mm as drawn (0.05 in: Printful’s minimum gap and line); ${m.dot && m.dot.between !== null ? 'the colon’s dots at least 1.5 mm across with 1.3 mm of fabric round each, between them too' : `the full stop${m.apos ? ' and the apostrophe' : ''} at least 1.5 mm across with 1.3 mm of fabric round the stop`} (the logo’s pivot-dot rule); letters at least 1.47 mm apart (the logo’s F-T)${seam ? `; a 6-panel seam’s gap at least ${MIN.seam} mm (about 0.95 mm of fabric each side of the seam’s line; Punched Out.’s is 2.43 mm, and its review called 1.58 mm too narrow)` : ''}${m.widest ? `; no satin stroke wider than ${MIN.satin} mm (Printful’s satin limit, measured as the largest circle inside the ink)` : ''}${d.margin ? `; at least ${d.margin} mm spare each side of the ${W} mm square` : ''}. Crotches (where two strokes meet in a point, as the N’s) are listed above, not counted as openings, as for Punched Out.
 
 ## Colourways
 
@@ -1101,7 +1268,7 @@ Floors: cap 6.6 mm (any embroidered Unbounded Bold, the logo’s rule); every op
 | Oat | Ink + Rust only if a sew-out passes; otherwise Ink in one colour |
 | Moss, Rust | Bone in one colour |
 
-One colour is the same artwork with the full stop in the letter thread; nothing else changes. The hex values are targets: match each to the nearest colour on a physical thread card (for example Isacord 40 or Madeira Polyneon 40) and approve from a sew-out on the real blank. The fabric colours come later (the owner adds them).
+One colour is the same artwork with the ${accName} in the letter thread; nothing else changes. The hex values are targets: match each to the nearest colour on a physical thread card (for example Isacord 40 or Madeira Polyneon 40) and approve from a sew-out on the real blank. The fabric colours come later (the owner adds them).
 
 ## Notes for the digitizer
 
@@ -1109,8 +1276,8 @@ ${dz.join('\n')}
 
 ## Review
 
-- Not cold-read and not sewn out yet. ${(() => { const changed = [has('E') && 'Punched Out.’s straight E (not cold-read yet either)', has('B') && 'the straight-stem B', has('S') && 'this set’s S', has('G') && 'the G with its mouth opened', has('’') && 'the wider apostrophe'].filter(Boolean); return changed.length ? `Cold-read the proofs before ordering samples, for the letters changed from the font: ${list(changed)}.` : 'Its letters are the font’s own at this size.'; })()}${has('K') ? ` And for the K: it is Unbounded’s own drawing, which the brand has never shown. Its arm starts at the foot of its stem, so its lower left is a solid wedge: the same kind of quirk as the bent E that all four of Punched Out.’s cold readers flagged. If readers flag it, redraw it as the E was.` : ''}
-- Trademark (a quick web screen, designs/phrases/notes.md, not a legal search): ${TRADEMARK[d.id]} Check USPTO and CIPO before ordering samples.
+- Not cold-read and not sewn out yet. ${(() => { const changed = [has('E') && 'Punched Out.’s straight E (not cold-read yet either)', has('B') && 'the straight-stem B', has('S') && 'this set’s S', has('F') && edits.F.slot && 'the F with its slot opened', has('G') && 'the G with its mouth opened', has('’') && 'the wider apostrophe'].filter(Boolean); return changed.length ? `Cold-read the proofs before ordering samples, for the letters changed from the font: ${list(changed)}.` : 'Its letters are the font’s own at this size.'; })()}${has('K') ? ` And for the K: it is Unbounded’s own drawing, which the brand has never shown. Its arm starts at the foot of its stem, so its lower left is a solid wedge: the same kind of quirk as the bent E that all four of Punched Out.’s cold readers flagged. If readers flag it, redraw it as the E was.` : ''}${has('5') ? ' And for the digits and the colon: Unbounded’s own drawings, which the brand has never shown (its clock says 5:00 with hands).' : ''}
+- Trademark (a quick web screen, ${TRADEMARK_FROM[d.id] || 'designs/phrases/notes.md'}, not a legal search): ${TRADEMARK[d.id]} Check USPTO and CIPO before ordering samples.
 `;
 }
 function rAngle() { const [[x0, y0], [x1, y1]] = FONT_NOTES.rLeg; return (Math.atan2(x0 - x1, y1 - y0) * 180) / Math.PI; }
