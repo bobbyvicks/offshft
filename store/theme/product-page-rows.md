@@ -1,8 +1,8 @@
 # Product page rows, policies and footer: the pastes
 
-Written 2 Nov 2026. The live theme ("OFF SHFT — Complete Catalogue") can't be edited from the agent's connection (only
-draft themes can), and the Policies settings need a permission it doesn't have. So these three things are pastes for the
-owner. Everything else from the same pass is already live: the size charts on every clothing listing (product metafield
+Written 2 Nov 2026; the owner did all three pastes the same day (checked from the theme and policy data at 04:28 UTC).
+Kept as the record of what went in. The live theme ("OFF SHFT — Complete Catalogue") can't be edited from the agent's
+connection (only draft themes can), and the Policies settings need a permission it doesn't have, so these were pastes. Everything else from the same pass is already live: the size charts on every clothing listing (product metafield
 `custom.size_chart`, from `size-charts.cjs`), the Size & fit page with charts for every style, the footer menu, the
 listing text, and the shipping rates (your General profile covers Canada and the US at C$12, free from C$75).
 
