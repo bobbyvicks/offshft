@@ -4,14 +4,15 @@
 // Bold's S thickened with its terminals cut flat (its outline is kept in s-outline.json, measured from that artwork),
 // the O is a heavy ring (wall 0.257 cap) with a pivot dot, and the hands are plain bars with square ends: minute 0.59 cap
 // long at 12, hour 0.37 cap at 150 degrees (5:00), standing off the ring across an even channel. Letters sit 0.07 cap
-// apart, the word space is 0.14 cap, the ring 0.166 cap before the first F. Every number is a fraction of the cap
-// height, so the drawing is the same at every size; the only departures are the embroidery floors below.
+// apart, the ring 0.166 cap before the first F. The word space is the original logo's, 0.7057 cap (the owner's
+// call, 2 Nov 2026: the hat drawing's 0.14 cap ran OFF and SHFT together). Every number is a fraction of the cap height,
+// so the drawing is the same at every size; the only departures are the embroidery floors below.
 //
 // Embroidery floors (the same rules the Unbounded logo had, designs/mark/final/the-o/notes.md):
 //   channel >= 1.0 mm two colours, 1.2 mm one colour (1.5 mm from 7 mm caps and on the 40 mm clock);
 //   pivot dot >= 1.5 mm with >= 1.3 mm of fabric to the ring (1.5 one colour), else left out (one colour: always out);
 //   the F's slot and the S's mouths >= 1.0 mm (the slot moves the crossbar down; the S's mouths are opened once, in the
-//   drawing). Floor: the 62.6 mm lockup itself (letters 10.7 mm), where every gap in the S is at least 1.0 mm at its
+//   drawing). Floor: the main lockup itself (letters 10.7 mm), where every gap in the S is at least 1.0 mm at its
 //   narrowest; smaller, the S's enclosed counters close up whatever the mouths, so no smaller lockup is drawn.
 //
 // Exports mirror ../the-o/build.cjs so the brand kit, the store assets and the Printful export need only the require.
@@ -38,7 +39,7 @@ const REF = {
   ring: { R: 10.10 / 21.40, r: 4.60 / 21.40, cy: 10.03 / 21.40 },   // cy: centre below the cap line
   hand: { w: 5.30 / 21.40, minute: 12.70 / 21.40, hour: 8.00 / 21.40, channel: 1.60 / 21.40 },
   dot: 5.80 / 21.40,
-  gap: { ringToF: 3.55 / 21.40, letter: 1.50 / 21.40, word: 3.00 / 21.40 },
+  gap: { ringToF: 3.55 / 21.40, letter: 1.50 / 21.40, word: 0.7057 },   // word: the original logo's space (the hat drawing: 3.00 / 21.40)
 };
 const S_SRC = JSON.parse(fs.readFileSync(path.join(__dirname, 's-outline.json'), 'utf8'));
 const FLOOR = { channel: 1.0, channelOne: 1.2, channelOneBig: 1.5, dot: 1.5, fabric: 1.3, fabricOne: 1.5, slot: 1.0, mouth: 1.0 };
@@ -228,15 +229,18 @@ const LIGHT = { letters: T.ink, hands: T.rust, bg: F.bone, name: 'light' };
 const DARK = { letters: T.bone, hands: T.sun, bg: F.slate, name: 'dark' };
 const ONE_INK = { letters: T.ink, hands: T.ink, bg: F.oat, name: 'one-colour-ink', one: true };
 const ONE_BONE = { letters: T.bone, hands: T.bone, bg: F.spruce, name: 'one-colour-bone', one: true };
-const LOCKUP_WIDTH = 62.6;                                                  // the hat-front and chest file, as before
+// The main file (hat front and chest): letters 10.694 mm, the size the 62.6 mm lockup of 2 Nov had before the word space
+// was widened, and the floor. Its width follows from the drawing.
+const LOCKUP_CAP = 10.694;
+const LOCKUP_WIDTH = +lockup(LOCKUP_CAP, LIGHT).w.toFixed(1);
 const symbolChannel = (h) => (h >= 35 ? 1.5 : h >= 25 ? 1.2 : undefined);
 
-module.exports = { REF, FLOOR, geometry, lockup, capForWidth, symbol, smallMaster, stackedArt, stacked, clockTile, clock, letterF, letterH, letterT, letterS, LIGHT, DARK, ONE_INK, ONE_BONE, LOCKUP_WIDTH, symbolChannel };
+module.exports = { REF, FLOOR, geometry, lockup, capForWidth, symbol, smallMaster, stackedArt, stacked, clockTile, clock, letterF, letterH, letterT, letterS, LIGHT, DARK, ONE_INK, ONE_BONE, LOCKUP_CAP, LOCKUP_WIDTH, symbolChannel };
 
 // ---------------------------------------------------------------- outputs
 if (require.main === module) (async () => {
   const write = (name, d) => { const f = path.join(OUT, name); kit.writeSvg(f, d); return f; };
-  const CAP = capForWidth(LOCKUP_WIDTH);
+  const CAP = LOCKUP_CAP;
   const sheet = [];
   for (const c of [LIGHT, DARK, ONE_INK, ONE_BONE]) {
     const lk = write(`logo-${c.name}.svg`, lockup(CAP, c, { oneColour: !!c.one }));
@@ -295,7 +299,7 @@ The O in OFF is a clock at 5:00 (quitting time): a heavy ring with a pivot dot, 
 
 | File | What it is |
 |---|---|
-| \`logo-light.svg\` | Main lockup for light fabric: Ink letters and ring, Rust hands and dot. ${f(m.lockupW, 1)} mm wide (the hat-front and chest size, as before), letters ${f(m.cap, 1)} mm |
+| \`logo-light.svg\` | Main lockup for light fabric: Ink letters and ring, Rust hands and dot. ${f(m.lockupW, 1)} mm wide (the hat-front and chest file), letters ${f(m.cap, 1)} mm |
 | \`logo-dark.svg\` | Main lockup for dark fabric: Bone letters and ring, Sun hands and dot |
 | \`logo-one-colour-ink.svg\`, \`logo-one-colour-bone.svg\` | One thread only: no dot, ${f(m.channelOne, 1)} mm channel |
 | \`symbol-*.svg\` | The clock alone, 25 mm tall (patches, hat back, avatar); \`symbol-light-19/25/40mm.svg\`, \`symbol-dark-40mm.svg\`, \`symbol-one-colour-ink-40mm.svg\` as before |
@@ -312,7 +316,7 @@ The O in OFF is a clock at 5:00 (quitting time): a heavy ring with a pivot dot, 
 | Ring | Outer 0.944 cap across, wall 0.257 cap, centred 0.469 cap below the cap line (top of the ring on the cap line) | ${f(m.ring)} mm across, wall ${f(m.wall)} mm, counter ${f(m.counter)} mm |
 | Hands | Bars 0.248 cap wide with square ends. Minute: 0.594 cap long at 12. Hour: 0.374 cap at 150 degrees. Both start 0.075 cap off the ring (floor: 1.0 mm two colours, 1.2 one colour, 1.5 from 7 mm caps) | ${f(m.handW)} wide; minute ${f(m.minute)}, hour ${f(m.hour)} mm; channel ${f(m.channel)} mm |
 | Pivot dot | Hand colour, 0.271 cap, no more than leaves 1.3 mm of fabric to the ring; left out under 1.5 mm and in one colour | ${m.dot ? `${f(m.dot)} mm, ${f(m.fabric)} mm of fabric` : 'left out'} |
-| Spacing | Ring to F 0.166 cap; between letters 0.070 cap; word space 0.140 cap | seam (word-space centre) ${f(m.seam)} mm from the centre |
+| Spacing | Ring to F 0.166 cap; between letters 0.070 cap; word space 0.7057 cap, the original logo's (the hat drawing had 0.140) | seam (word-space centre) ${f(m.seam)} mm from the centre |
 | Overall | | ${f(m.lockupW, 1)} x ${f(m.lockupH, 1)} mm (one colour ${f(m.oneH, 1)} mm tall) |
 
 ## Sizes

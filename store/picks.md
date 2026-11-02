@@ -64,8 +64,9 @@ hard-edged lettering Codex drew for the hat mockups (the live theme's artwork, t
 rounded Unbounded logo. Rebuilt from that drawing as `designs/mark/final/block/build.cjs` (block F, H, T; the thickened
 S; heavy ring; bar hands; same proportions at every size, with the embroidery floors kept). Everything downstream was
 regenerated from it: the brand kit and brand sheet, the store's header logo files, share images and square logo
-(replaced in Shopify's Files with the same ids, so the theme picked them up), the Printful logo and clock files (same
-names and sizes: 62.6 mm lockup, 25 and 40 mm clocks) and the Printful sheet (version 4). The tab icon didn't change
+(replaced in Shopify's Files with the same ids, so the theme picked them up), the Printful logo and clock files and the Printful sheet. The word space is the original logo's (the owner's
+call that evening: the hat drawing ran OFF and SHFT together), so the lockup is 68.6 mm wide with the same 10.7 mm
+letters; the clocks are 25 and 40 mm as before. The tab icon didn't change
 (it was already drawn with square hands). Not changed: the phrase designs (Punched Out. and the rest) are still in
 Unbounded, pending the owner's word; Codex's hat mockups for those phrases also use a hard-edged face. Also today:
 every variant checked available in the admin (813 of 813, 9999 at Printful) while the storefront showed "Sold out";

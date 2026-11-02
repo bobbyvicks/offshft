@@ -33,7 +33,7 @@ async function png(file, design, W, H, { fill = 1, bg = null } = {}) {
 }
 
 (async () => {
-  const cap = B.capForWidth(B.LOCKUP_WIDTH);                 // 62.6 mm wide, as the hat front and chest files
+  const cap = B.LOCKUP_CAP;                                  // the hat-front and chest file's letters
   const light = B.lockup(cap, B.LIGHT);
   const dark = B.lockup(cap, B.DARK);
   const W = 1200, H = Math.round((W * light.h) / light.w);

@@ -1,8 +1,8 @@
 [
- {"name": "logo-light-62.6mm", "source": "designs/mark/final/block/logo-light.svg"},
- {"name": "logo-dark-62.6mm", "source": "designs/mark/final/block/logo-dark.svg"},
- {"name": "logo-bone-62.6mm", "source": "designs/mark/final/block/logo-one-colour-bone.svg"},
- {"name": "logo-ink-62.6mm", "source": "designs/mark/final/block/logo-one-colour-ink.svg"},
+ {"name": "logo-light-68.6mm", "source": "designs/mark/final/block/logo-light.svg"},
+ {"name": "logo-dark-68.6mm", "source": "designs/mark/final/block/logo-dark.svg"},
+ {"name": "logo-bone-68.6mm", "source": "designs/mark/final/block/logo-one-colour-bone.svg"},
+ {"name": "logo-ink-68.6mm", "source": "designs/mark/final/block/logo-one-colour-ink.svg"},
  {"name": "clock-light-25mm", "source": "designs/mark/final/block/symbol-light.svg"},
  {"name": "clock-dark-25mm", "source": "designs/mark/final/block/symbol-dark.svg"},
  {"name": "clock-bone-25mm", "source": "designs/mark/final/block/symbol-one-colour-bone.svg"},

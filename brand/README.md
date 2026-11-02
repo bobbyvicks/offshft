@@ -20,7 +20,7 @@ lettering from the hat mockups), drawn by `../designs/mark/final/block/build.cjs
 | The clock alone in a circle (a story highlight, a sticker sheet) | `social/offshft-clock-tile-light.png` (or `-dark`). Never the main profile picture or app icon: in a square the clock is always small |
 | Side or back of a hat | not in this kit: the side-of-hat master, `../designs/mark/final/block/side-*.svg` (8.2 x 16.1 mm) |
 | Printers and sign makers | the `.pdf` or `.svg` of the logo you need: vector, scales to any size on paper or signs |
-| Embroiderers | `logo/` and `clock/` SVG or PDF at their true size only: the logo 62.6 mm wide (letters 10.7 mm), the clock 25 mm tall. Other sizes have their own drawings in `../designs/mark/final/block/` (logo at cap 7 and 8.5, clock at 19 and 40 mm, the side master), with the stitch notes there. Never scale an embroidery file; never send a PNG |
+| Embroiderers | `logo/` and `clock/` SVG or PDF at their true size only: the logo 68.6 mm wide (letters 10.7 mm), the clock 25 mm tall. Other sizes have their own drawings in `../designs/mark/final/block/` (logo at cap 7 and 8.5, clock at 19 and 40 mm, the side master), with the stitch notes there. Never scale an embroidery file; never send a PNG |
 
 ## What's in each folder
 

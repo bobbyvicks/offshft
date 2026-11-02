@@ -73,8 +73,8 @@ async function pdf(art, file) {
 
 // ---------------------------------------------------------------- the drawings
 const ART = {
-  // the one-line logo at the hat-front and chest size (62.6 mm wide, letters 10.7 mm)
-  logo: (way) => LOGO.lockup(LOGO.capForWidth(LOGO.LOCKUP_WIDTH), WAYS[way].logo, { oneColour: WAYS[way].one }),
+  // the one-line logo at the hat-front and chest size (letters 10.7 mm)
+  logo: (way) => LOGO.lockup(LOGO.LOCKUP_CAP, WAYS[way].logo, { oneColour: WAYS[way].one }),
   // the stacked logo (OFF over SHFT), the same lettering
   stacked: (way) => LOGO.stackedArt(WAYS[way].logo, { oneColour: WAYS[way].one }),
   // the clock symbol at 25 mm tall, as on the hats (1.2 mm gap; 1.5 mm in one colour)
