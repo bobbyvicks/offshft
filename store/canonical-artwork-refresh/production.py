@@ -38,9 +38,10 @@ def upload():
   save(receipt,{'state':'INFLIGHT','source':r['publishedPath']})
   response=pf.mutate('POST','/files',{'url':url,'filename':r['filename'],'visible':True});save(receipt,response)
   print('Uploaded',r['key'],response['result']['id'],flush=True)
-def prepare():
+def prepare(headwear_only=False):
+ selected=[r for r in records if r['headwear']] if headwear_only else records
  ids={}
- for r in records:
+ for r in selected:
   receipt=OUT/f'upload-{r["key"]}.json';fid=load(receipt)['result']['id'];f=pf.get('/files/'+str(fid))['result']
   assert f['status']=='ok' and f['hash']==hashlib.md5((R/r['publishedPath']).read_bytes()).hexdigest()
   assert [f['width'],f['height'],f['dpi']]==[r['width'],r['height'],r['dpi']]
@@ -48,7 +49,7 @@ def prepare():
  jobs=[]
  for p in load(H/'private/fresh-before/manifest.json')['products']:
   for v in load(H/f'private/fresh-before/product-{p["printfulId"]}.json')['result']['sync_variants']:
-   relevant=[r for r in records if v['id'] in r['variants']]
+   relevant=[r for r in selected if v['id'] in r['variants']]
    if not relevant:continue
    replacements={r['oldFileId']:ids[r['key']] for r in relevant}
    assert len(replacements)==len(relevant)
@@ -56,9 +57,9 @@ def prepare():
    headwear=any(r['headwear'] for r in relevant)
    options=flat_options(v['options']) if headwear else v['options']
    jobs.append({'handle':p['handle'],'productId':p['printfulId'],'id':v['id'],'externalId':v['external_id'],'before':v,'headwear':headwear,'payload':{'files':ff,'options':options}})
- assert len(jobs)==847
+ assert len(jobs)==(81 if headwear_only else 823)
  jobs.sort(key=lambda j:(not j['headwear'],j['handle'],j['id']))
- save(OUT/'plan.json',jobs);save(OUT/'file-map.json',ids);print('Prepared 847 updates; 81 approved flat embroidery conversions.',flush=True)
+ save(OUT/'plan.json',jobs);save(OUT/'file-map.json',ids);print(f'Prepared {len(jobs)} updates; 81 approved flat embroidery conversions.',flush=True)
 def check(v,j):
  assert signature(v,False)==signature(j['before'],False),'Protected variant metadata drift'
  assert normalize(v['options'])==normalize(j['payload']['options']),'Finish/thread options drift'
@@ -99,6 +100,7 @@ def verify():
  report={'status':'FAIL' if issues else 'PASS','products':len(summary),'variants':sum(p['variants'] for p in summary),'changedVariants':len(jobs),'flatHeadwearVariants':sum(j['headwear'] for j in jobs.values()),'issues':issues}
  save(H/'production-verification.json',report);assert not issues,issues;print(json.dumps(report),flush=True)
 if __name__=='__main__':
- parser=argparse.ArgumentParser();parser.add_argument('action',choices=['upload','prepare','apply','verify']);parser.add_argument('--limit',type=int);a=parser.parse_args()
+ parser=argparse.ArgumentParser();parser.add_argument('action',choices=['upload','prepare','apply','verify']);parser.add_argument('--limit',type=int);parser.add_argument('--headwear-only',action='store_true');a=parser.parse_args()
  if a.action=='apply':apply(a.limit)
+ elif a.action=='prepare':prepare(a.headwear_only)
  else:globals()[a.action]()

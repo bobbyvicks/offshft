@@ -1,9 +1,9 @@
 {
   "status": "PASS",
-  "productionCanvases": 67,
+  "productionCanvases": 65,
   "canonicalSources": 18,
-  "variants": 847,
-  "products": 38,
+  "variants": 823,
+  "products": 37,
   "checks": [
     "source SHA-256",
     "unchanged embedded vector",

@@ -17,7 +17,8 @@ for p in load(H/'private/fresh-before/manifest.json')['products']:
 rows=[]
 for fid,q in files.items():
  name=q['file']['filename']; headwear=all(h.endswith(('-hat','-beanie')) for h in q['handles'])
- is_brand='logo' in name or 'clock' in name or name in ['front-ink-rust-12x16-300dpi.png','front-bone-sun-12x16-300dpi.png']
+ if 'five-oclock' in name:continue  # 5:00 is a phrase, not the clock symbol.
+ is_brand='logo' in name or 'clock' in name or 'off-shft-back' in name or name in ['front-ink-rust-12x16-300dpi.png','front-bone-sun-12x16-300dpi.png']
  if not headwear and not is_brand:continue
  # Golf Club is a distinct phrase, not a logo file.
  if name.startswith('golf-club-'):continue

@@ -33,7 +33,9 @@ draw.text((35,25),'OFF SHFT — canonical artwork / flat embroidery',fill='#1F27
 draw.text((35,61),'Exact vector outlines, shown enlarged for inspection. No puff expansion or width compression.',fill='#1F2733',font=small)
 for i,r in enumerate(selected):
  y=110+i*160;im=Image.open(R/r['publishedPath']);im=im.crop(im.getchannel('A').getbbox());im.thumbnail((780,115),Image.Resampling.LANCZOS)
- bg=Image.new('RGB',(820,130),'#27303D' if sum(im.convert('RGB').resize((1,1)).getpixel((0,0)))>420 else '#ECE5D3')
+ opaque=[p[:3] for p in im.getdata() if p[3]>200]
+ bright=sum(sum(p) for p in opaque)/len(opaque)>420
+ bg=Image.new('RGB',(820,130),'#27303D' if bright else '#ECE5D3')
  bg.paste(im,((820-im.width)//2,(130-im.height)//2),im);canvas.paste(bg,(545,y))
  draw.text((35,y+25),r['handles'][0].replace('-',' '),fill='#1F2733',font=font)
  draw.text((35,y+61),' × '.join(str(round(x,2)) for x in r['physicalArtMm'])+' mm — true-size master',fill='#1F2733',font=small)
