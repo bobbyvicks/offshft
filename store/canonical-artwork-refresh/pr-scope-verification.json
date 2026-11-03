@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files": 199,
+  "privateArtifacts": 0,
+  "baseRefName": "designs/drop-1",
+  "headRefName": "codex/canonical-artwork-refresh-20261102",
+  "isDraft": true,
+  "url": "https://github.com/bobbyvicks/offshft/pull/9"
+}

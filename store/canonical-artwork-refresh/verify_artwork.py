@@ -1,10 +1,22 @@
 """Production preflight: unchanged canonical payload, physical fields, transparency."""
-import json,hashlib,xml.etree.ElementTree as ET
+import json,hashlib,subprocess,xml.etree.ElementTree as ET
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 H=Path(__file__).parent;R=H.parents[1]
 load=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
-records=load(H/'artwork-manifest.json')['records']
+manifest=load(H/'artwork-manifest.json');records=manifest['records']
+commit=(H/'source-ref.txt').read_text(encoding='utf-8-sig').strip()
+assert manifest['canonicalCommit']==commit
+canonical_sources=set()
+for name in {r['source'] for r in records}:
+ path=(R/name).resolve()
+ if path.is_relative_to((H/'masters').resolve()):
+  relative=path.relative_to((H/'masters').resolve()).as_posix()
+  original=subprocess.check_output(['git','show',commit+':'+relative],cwd=R)
+  assert path.read_bytes()==original,('Canonical source provenance drift',name)
+  canonical_sources.add(name)
+ else:
+  assert name in {'designs/21-for-a-reason/design-light.svg','designs/21-for-a-reason/design-dark.svg'},('Unapproved source outside pinned masters',name)
 for r in records:
  source=(R/r['source']).read_bytes();assert hashlib.sha256(source).hexdigest()==r['sourceSha256']
  s=source.decode().lstrip('\ufeff').strip()
@@ -22,7 +34,7 @@ for r in records:
  assert im.getpixel((0,0))[3]==0
  if r['headwear']:assert r['printScale']==1
  if not r['printed']:assert r['printScale']==1
-report={'status':'PASS','productionCanvases':len(records),'canonicalSources':len({r['source'] for r in records}),'variants':len({v for r in records for v in r['variants']}),'products':len({h for r in records for h in r['handles']}),'checks':['source SHA-256','unchanged embedded vector','full placement bounds','transparent corners','physical DPI and canvas dimensions','no embroidery scaling']}
+report={'status':'PASS','productionCanvases':len(records),'canonicalSources':len({r['source'] for r in records}),'pinnedMastersCompared':len(canonical_sources),'approvedNewMasters':2,'variants':len({v for r in records for v in r['variants']}),'products':len({h for r in records for h in r['handles']}),'checks':['pinned Git source bytes','source SHA-256','unchanged embedded vector','full placement bounds','transparent corners','physical DPI and canvas dimensions','no embroidery scaling']}
 (H/'artwork-verification.json').write_text(json.dumps(report,indent=2)+'\n')
 selected=[]
 for text in ['logo-bucket','clock-hat','punched-out-hat','banked-time','parked-trucker','suns-still','ours-to-spend','for-a-reason']:

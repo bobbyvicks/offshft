@@ -32,7 +32,9 @@ colour values only. PNGs are exact platform exports from those vectors.
 
 ## Verification and rollout
 
-`verify_artwork.py` checks source hashes, unchanged vector payloads, physical
+`verify_artwork.py` compares all 16 copied masters directly with the pinned Git
+blobs and permits only the two approved new For a Reason masters outside that
+set. It checks source hashes, unchanged vector payloads, physical
 canvas/DPI, independent raster bounds, transparency and no embroidery scaling.
 `test_guards.py` checks protected metadata and thread palettes. Supplier writes
 are paced, resumable, and stop on drift. Private receipts remain local.
@@ -45,8 +47,9 @@ save. Different RGB values or unrelated metadata changes stop the process.
 Public-media and live-theme reports pass. All 335 public images have transparent
 corners; the 279 replacements match supplier pixels exactly. All 1,153 Shopify
 variants retain their options, prices and image associations. The 81 headwear
-variants independently pass their supplier read-back. Clothing production
-rollout remains in progress, followed by a complete 1,153-variant supplier check.
+variants independently pass their supplier read-back. The completed supplier
+rollout passes a fresh check of all 47 products and 1,153 variants, including
+all 823 corrected mappings and the original fulfilment holds.
 Mockups do not constitute a sew-out.
 
 To reproduce the artwork in a fresh checkout, run
