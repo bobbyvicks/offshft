@@ -1,0 +1,19 @@
+{
+  "before": [
+    "Dad Hat",
+    "Black"
+  ],
+  "after": {
+    "images": [
+      "https://offshft.myshopify.com/cdn/shop/files/punched-out-hat-dad-hat-black.png?v=1793664225&width=832",
+      "https://offshft.myshopify.com/cdn/shop/files/punched-out-hat-dad-hat-black.png?v=1793664225&width=832",
+      "https://offshft.myshopify.com/cdn/shop/files/punched-out-hat-dad-hat-black.png?v=1793664225&width=3840"
+    ],
+    "selected": [
+      "Dad Hat",
+      "Black"
+    ],
+    "url": "https://offshft.myshopify.com/products/punched-out-hat?variant=67946082369858"
+  },
+  "keptBaseAndColour": true
+}

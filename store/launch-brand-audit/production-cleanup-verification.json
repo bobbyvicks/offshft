@@ -1,0 +1,245 @@
+{
+  "status": "PASS",
+  "changedVariants": 169,
+  "allVariantsVerified": 1153,
+  "issues": [],
+  "products": [
+    {
+      "handle": "time-well-spent-performance-golf-shirt",
+      "variants": 36,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "time-well-spent-classic-golf-shirt",
+      "variants": 36,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "time-well-spent-cotton-pique-golf-shirt",
+      "variants": 34,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "out-of-office-performance-golf-shirt",
+      "variants": 36,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "out-of-office-classic-golf-shirt",
+      "variants": 36,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "out-of-office-cotton-pique-golf-shirt",
+      "variants": 34,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-golf-club-performance-golf-shirt",
+      "variants": 36,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-golf-club-classic-golf-shirt",
+      "variants": 36,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-golf-club-cotton-pique-golf-shirt",
+      "variants": 34,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "parked-trucker-hat",
+      "variants": 2,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "not-picking-up-hoodie",
+      "variants": 72,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "banked-time-hat",
+      "variants": 4,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "no-alarm-set-crewneck",
+      "variants": 12,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "suns-still-up-hat",
+      "variants": 5,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "nowhere-to-be-hoodie",
+      "variants": 72,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "for-a-reason-hat",
+      "variants": 3,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "punched-out-golf-shirt",
+      "variants": 94,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "punched-out-quarter-zip",
+      "variants": 12,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "the-clock-quarter-zip",
+      "variants": 12,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-logo-quarter-zip",
+      "variants": 12,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "punched-out-bucket-hat",
+      "variants": 4,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "the-clock-bucket-hat",
+      "variants": 4,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-logo-bucket-hat",
+      "variants": 4,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "punched-out-beanie",
+      "variants": 6,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "the-clock-beanie",
+      "variants": 6,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-logo-beanie",
+      "variants": 6,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "five-oclock-crewneck",
+      "variants": 24,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "ours-to-spend-trucker-hat",
+      "variants": 4,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "the-rest-is-ours-hoodie",
+      "variants": 24,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "time-well-earned-t-shirt",
+      "variants": 24,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "punched-out-jacket",
+      "variants": 10,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "the-clock-jacket",
+      "variants": 10,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-logo-jacket",
+      "variants": 10,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "the-clock-t-shirt",
+      "variants": 27,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-logo-t-shirt",
+      "variants": 27,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "punched-out-sweatpants",
+      "variants": 20,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "the-clock-sweatpants",
+      "variants": 20,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-logo-sweatpants",
+      "variants": 20,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "punched-out-crewneck",
+      "variants": 12,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "the-clock-crewneck",
+      "variants": 12,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-logo-crewneck",
+      "variants": 12,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "punched-out-hoodie",
+      "variants": 72,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "the-clock-hoodie",
+      "variants": 72,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-logo-hoodie",
+      "variants": 72,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "punched-out-hat",
+      "variants": 11,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "the-clock-hat",
+      "variants": 11,
+      "allProtectedFieldsUnchanged": true
+    },
+    {
+      "handle": "off-shft-logo-hat",
+      "variants": 11,
+      "allProtectedFieldsUnchanged": true
+    }
+  ],
+  "headwearPuffVariants": 81,
+  "existingStockHoldsRetained": 8
+}
