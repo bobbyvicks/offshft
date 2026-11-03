@@ -3,7 +3,7 @@
 // canvas sets position; uniform scaling is permitted for printed placements.
 const fs=require('fs'),path=require('path'),crypto=require('crypto'),Module=require('module');
 const H=__dirname,R=path.resolve(H,'../..'),M=path.join(H,'masters');
-const sharp=require('C:/Users/vicke/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=require(require.resolve('sharp',{paths:[path.join(R,'tools'),path.join(require('os').homedir(),'.cache/codex-runtimes/codex-primary-runtime/dependencies/node')]}));
 const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
 const read=p=>fs.readFileSync(p,'utf8').replace(/^\uFEFF/,'');
 const load=p=>JSON.parse(read(p));const n=x=>+x.toFixed(6);
@@ -26,7 +26,9 @@ function makeReason(){
  const out=path.join(R,'designs/21-for-a-reason');fs.mkdirSync(out,{recursive:true});
  for(const [tone,letters,accent] of [['light','#1F2733','#B4552D'],['dark','#ECE5D3','#D29B3C']]){
   const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${n(b.x1-b.x0)}mm" height="${n(b.y1-b.y0)}mm" viewBox="0 0 ${n(b.x1-b.x0)} ${n(b.y1-b.y0)}">\n<g transform="translate(${n(-b.x0)} ${n(-b.y0)})"><path id="letters" fill="${letters}" fill-rule="evenodd" d="${ink.map(g=>g.d).join(' ')}"/><path id="full-stop" fill="${accent}" d="${dots.map(g=>g.d).join(' ')}"/></g>\n</svg>\n`;
-  fs.writeFileSync(path.join(out,`design-${tone}.svg`),svg);
+  const target=path.join(out,`design-${tone}.svg`);
+  if(fs.existsSync(target)&&read(target)!==svg)throw Error('Approved For a Reason master changed; preserve owner edits');
+  fs.writeFileSync(target,svg);
  }
  fs.writeFileSync(path.join(out,'notes.md'),'# FOR A / REASON.\n\nOwner-approved two-line Unbounded Bold master, 7 mm cap height, tracking 0.12 em. Uses the pinned canonical phrase builder and its shared glyph/kerning rules; no width compression, stroke expansion or hand-redrawing. Lines centred on the letters; punctuation hangs. Flat embroidery preserves the master.\n\nBuilt by `store/canonical-artwork-refresh/build_artwork.cjs` from canonical commit '+read(path.join(H,'source-ref.txt')).trim()+'.\n');
  return out;
@@ -53,7 +55,7 @@ function source(row){
  return {svg,source:path.relative(R,path.join(base,rel)).replaceAll('\\','/'),sourceSha256:sha(fs.readFileSync(path.join(base,rel))),colorVariant};
 }
 async function main(){
- makeReason();const rows=load(path.join(H,'inventory.json')),records=[];
+ makeReason();const rows=load(path.join(H,fs.existsSync(path.join(H,'build-inputs.json'))?'build-inputs.json':'inventory.json')),records=[];
  const out=path.join(R,'store/printful-setup/canonical-v1');fs.mkdirSync(out,{recursive:true});
  for(const row of rows){
   const a=source(row),f=row.file,b=row.oldAudit,svg=a.svg;

@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "products": 9,
+  "variants": 318,
+  "chestFiles": 12,
+  "scope": "Newer golf chest artwork; sleeve clocks and printed back logos corrected separately",
+  "files": [
+    {
+      "fileId": 1100745647,
+      "filename": "time-well-spent-light-embroidered-chest.png",
+      "master": "designs/16-time-well-spent/design-light.svg",
+      "masterSha256": "6ca220c730b6c313829267cc7847744cdb3cabaa85e53b6b84334ca47ee3505b",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745742,
+      "filename": "time-well-spent-dark-embroidered-chest.png",
+      "master": "designs/16-time-well-spent/design-dark.svg",
+      "masterSha256": "2479bab1cfb06538098c6c39d740ded21d9f2cd1a1cd1c75565e8f0a64a32f78",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745703,
+      "filename": "time-well-spent-light-printed-chest.png",
+      "master": "designs/16-time-well-spent/design-light.svg",
+      "masterSha256": "6ca220c730b6c313829267cc7847744cdb3cabaa85e53b6b84334ca47ee3505b",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745777,
+      "filename": "time-well-spent-dark-printed-chest.png",
+      "master": "designs/16-time-well-spent/design-dark.svg",
+      "masterSha256": "2479bab1cfb06538098c6c39d740ded21d9f2cd1a1cd1c75565e8f0a64a32f78",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745275,
+      "filename": "out-of-office-light-embroidered-chest.png",
+      "master": "designs/07-out-of-office/golf-shirt/design-light.svg",
+      "masterSha256": "bfcd4340d350d5651fec8f0eb4942c247626d8070476e3048a5f08619db0edd8",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745488,
+      "filename": "out-of-office-dark-embroidered-chest.png",
+      "master": "designs/07-out-of-office/golf-shirt/design-dark.svg",
+      "masterSha256": "18478a6efe818c808b2d33dd6c1dba665cde29fb0538286448df5b4020978741",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745428,
+      "filename": "out-of-office-light-printed-chest.png",
+      "master": "designs/07-out-of-office/golf-shirt/design-light.svg",
+      "masterSha256": "bfcd4340d350d5651fec8f0eb4942c247626d8070476e3048a5f08619db0edd8",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745563,
+      "filename": "out-of-office-dark-printed-chest.png",
+      "master": "designs/07-out-of-office/golf-shirt/design-dark.svg",
+      "masterSha256": "18478a6efe818c808b2d33dd6c1dba665cde29fb0538286448df5b4020978741",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745034,
+      "filename": "golf-club-light-embroidered-chest.png",
+      "master": "designs/15-off-shft-golf-club/design-light.svg",
+      "masterSha256": "0474019e8acb90661f033b87dd53eac8640d716094c1578e64b7ecae3c683924",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745136,
+      "filename": "golf-club-dark-embroidered-chest.png",
+      "master": "designs/15-off-shft-golf-club/design-dark.svg",
+      "masterSha256": "a7368226e3c445b62b5ef707bbc309d2b58557e2a1f0cbbd18e04b0e28fb24ef",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745104,
+      "filename": "golf-club-light-printed-chest.png",
+      "master": "designs/15-off-shft-golf-club/design-light.svg",
+      "masterSha256": "0474019e8acb90661f033b87dd53eac8640d716094c1578e64b7ecae3c683924",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    },
+    {
+      "fileId": 1100745186,
+      "filename": "golf-club-dark-printed-chest.png",
+      "master": "designs/15-off-shft-golf-club/design-dark.svg",
+      "masterSha256": "a7368226e3c445b62b5ef707bbc309d2b58557e2a1f0cbbd18e04b0e28fb24ef",
+      "productionPngMd5Matches": true,
+      "glyphPayloadUnchanged": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "offshft_hero section only",
+  "source": "Exact supplier mockups already independently pixel-verified on Shopify",
+  "images": [
+    {
+      "role": "hoodie",
+      "filename": "hoodie-1467-ivory-logo.png",
+      "alt": "OFF SHFT lightweight hoodie in Ivory"
+    },
+    {
+      "role": "sweats",
+      "filename": "the-clock-sweatpants-pepper-uniform.png",
+      "alt": "The Clock sweatpants in Pepper"
+    },
+    {
+      "role": "hat",
+      "filename": "for-a-reason-evergreen.png",
+      "alt": "For a Reason trucker hat in Evergreen"
+    }
+  ],
+  "allOtherHomepageSectionsUnchanged": true,
+  "websiteHeadlineFont": "Existing Archivo web font; no altered font glyphs",
+  "copyAndDestinationUnchanged": true
+}

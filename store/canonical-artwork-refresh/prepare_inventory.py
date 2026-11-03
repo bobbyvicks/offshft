@@ -33,4 +33,8 @@ for fid,q in files.items():
    rows.append(s)
  else:q['key']=str(fid);rows.append(q)
 (H/'inventory.json').write_text(json.dumps(rows,indent=2)+'\n')
+public=[]
+for row in rows:
+ public.append({**{k:row[k] for k in ['key','headwear','pids','roles','handles','variants']},'file':{k:row['file'][k] for k in ['id','filename','width','height','dpi']},'oldAudit':{k:row['oldAudit'][k] for k in ['alphaBounds','visibleMm']}})
+(H/'build-inputs.json').write_text(json.dumps(public,indent=2)+'\n')
 print(json.dumps({'files':len(rows),'variants':len({v for r in rows for v in r['variants']}),'products':len({h for r in rows for h in r['handles']}),'headwearVariants':len({v for r in rows if r['headwear'] for v in r['variants']})}))

@@ -1,0 +1,3386 @@
+[
+  {
+    "key": "1098470107",
+    "headwear": false,
+    "pids": [
+      767,
+      340,
+      810
+    ],
+    "roles": [
+      "embroidery_sleeve_left_top"
+    ],
+    "handles": [
+      "time-well-spent-performance-golf-shirt",
+      "time-well-spent-classic-golf-shirt",
+      "time-well-spent-cotton-pique-golf-shirt",
+      "out-of-office-performance-golf-shirt",
+      "out-of-office-classic-golf-shirt",
+      "out-of-office-cotton-pique-golf-shirt",
+      "off-shft-golf-club-performance-golf-shirt",
+      "off-shft-golf-club-classic-golf-shirt",
+      "off-shft-golf-club-cotton-pique-golf-shirt",
+      "punched-out-golf-shirt"
+    ],
+    "variants": [
+      5612582636,
+      5612582637,
+      5612582638,
+      5612582639,
+      5612582640,
+      5612582641,
+      5612582648,
+      5612582649,
+      5612582650,
+      5612582651,
+      5612582652,
+      5612582653,
+      5612582599,
+      5612582600,
+      5612582601,
+      5612582602,
+      5612582603,
+      5612582604,
+      5612582611,
+      5612582612,
+      5612582613,
+      5612582614,
+      5612582615,
+      5612582616,
+      5612582485,
+      5612582486,
+      5612582487,
+      5612582488,
+      5612582489,
+      5612582490,
+      5612582497,
+      5612582498,
+      5612582499,
+      5612582500,
+      5612582501,
+      5612582437,
+      5612582438,
+      5612582439,
+      5612582440,
+      5612582441,
+      5612582442,
+      5612582450,
+      5612582451,
+      5612582452,
+      5612582453,
+      5612582454,
+      5612582455,
+      5612582374,
+      5612582375,
+      5612582376,
+      5612582377,
+      5612582378,
+      5612582379,
+      5612582386,
+      5612582387,
+      5612582388,
+      5612582389,
+      5612582390,
+      5612582391,
+      5612582314,
+      5612582315,
+      5612582316,
+      5612582317,
+      5612582318,
+      5612582319,
+      5612582326,
+      5612582328,
+      5612582329,
+      5612582330,
+      5612582331,
+      5612582268,
+      5612582269,
+      5612582270,
+      5612582271,
+      5612582272,
+      5612582273,
+      5612582280,
+      5612582281,
+      5612582282,
+      5612582283,
+      5612582284,
+      5612582285,
+      5612582232,
+      5612582233,
+      5612582234,
+      5612582235,
+      5612582236,
+      5612582237,
+      5612582244,
+      5612582245,
+      5612582246,
+      5612582247,
+      5612582248,
+      5612582249,
+      5612582190,
+      5612582191,
+      5612582192,
+      5612582193,
+      5612582194,
+      5612582195,
+      5612582202,
+      5612582203,
+      5612582204,
+      5612582205,
+      5612582206,
+      5605618726,
+      5605618727,
+      5605618728,
+      5605618729,
+      5605618730,
+      5605618731,
+      5605618732,
+      5605618733,
+      5605618734,
+      5605618735,
+      5605618736,
+      5605618737,
+      5605618738,
+      5605618739,
+      5605618740,
+      5605618741,
+      5605618742,
+      5605618743,
+      5612587569,
+      5612587570,
+      5612587571,
+      5612587572,
+      5612587573,
+      5612590835,
+      5612590836,
+      5612590837,
+      5612590838,
+      5612590839,
+      5612590840
+    ],
+    "file": {
+      "id": 1098470107,
+      "filename": "clock-50.8x76.2mm.png",
+      "width": 1200,
+      "height": 1800,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        460,
+        604,
+        740,
+        1196
+      ],
+      "visibleMm": [
+        11.853,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1099970181",
+    "headwear": false,
+    "pids": [
+      767,
+      340,
+      810
+    ],
+    "roles": [
+      "embroidery_sleeve_left_top"
+    ],
+    "handles": [
+      "time-well-spent-performance-golf-shirt",
+      "time-well-spent-classic-golf-shirt",
+      "time-well-spent-cotton-pique-golf-shirt",
+      "out-of-office-performance-golf-shirt",
+      "out-of-office-classic-golf-shirt",
+      "out-of-office-cotton-pique-golf-shirt",
+      "off-shft-golf-club-performance-golf-shirt",
+      "off-shft-golf-club-classic-golf-shirt",
+      "off-shft-golf-club-cotton-pique-golf-shirt",
+      "punched-out-golf-shirt"
+    ],
+    "variants": [
+      5612582642,
+      5612582643,
+      5612582644,
+      5612582645,
+      5612582646,
+      5612582647,
+      5612582605,
+      5612582606,
+      5612582607,
+      5612582608,
+      5612582609,
+      5612582610,
+      5612582491,
+      5612582492,
+      5612582493,
+      5612582494,
+      5612582495,
+      5612582496,
+      5612582443,
+      5612582444,
+      5612582446,
+      5612582447,
+      5612582448,
+      5612582449,
+      5612582380,
+      5612582381,
+      5612582382,
+      5612582383,
+      5612582384,
+      5612582385,
+      5612582320,
+      5612582321,
+      5612582322,
+      5612582323,
+      5612582324,
+      5612582325,
+      5612582274,
+      5612582275,
+      5612582276,
+      5612582277,
+      5612582278,
+      5612582279,
+      5612582238,
+      5612582239,
+      5612582240,
+      5612582241,
+      5612582242,
+      5612582243,
+      5612582196,
+      5612582197,
+      5612582198,
+      5612582199,
+      5612582200,
+      5612582201,
+      5610538045,
+      5610538047,
+      5610538049,
+      5610538051,
+      5610538053,
+      5610538055,
+      5610538057,
+      5610538059,
+      5610538061,
+      5610538063,
+      5610538065,
+      5610538067,
+      5610539572,
+      5610539574,
+      5610539576,
+      5610539578,
+      5610539580,
+      5610539582
+    ],
+    "file": {
+      "id": 1099970181,
+      "filename": "golf-clock-dark-sleeve-2x3in-600dpi.png",
+      "width": 1200,
+      "height": 1800,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        460,
+        604,
+        740,
+        1196
+      ],
+      "visibleMm": [
+        11.853,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1099811322",
+    "headwear": false,
+    "pids": [
+      767,
+      340,
+      810
+    ],
+    "roles": [
+      "short_sleeve_left_dtf"
+    ],
+    "handles": [
+      "time-well-spent-performance-golf-shirt",
+      "time-well-spent-classic-golf-shirt",
+      "time-well-spent-cotton-pique-golf-shirt",
+      "out-of-office-performance-golf-shirt",
+      "out-of-office-classic-golf-shirt",
+      "out-of-office-cotton-pique-golf-shirt",
+      "off-shft-golf-club-performance-golf-shirt",
+      "off-shft-golf-club-classic-golf-shirt",
+      "off-shft-golf-club-cotton-pique-golf-shirt",
+      "punched-out-golf-shirt"
+    ],
+    "variants": [
+      5612582654,
+      5612582655,
+      5612582656,
+      5612582657,
+      5612582658,
+      5612582659,
+      5612582666,
+      5612582667,
+      5612582668,
+      5612582669,
+      5612582670,
+      5612582671,
+      5612582617,
+      5612582618,
+      5612582619,
+      5612582620,
+      5612582621,
+      5612582622,
+      5612582629,
+      5612582630,
+      5612582631,
+      5612582632,
+      5612582633,
+      5612582634,
+      5612582502,
+      5612582503,
+      5612582504,
+      5612582505,
+      5612582506,
+      5612582507,
+      5612582514,
+      5612582515,
+      5612582516,
+      5612582517,
+      5612582518,
+      5612582457,
+      5612582458,
+      5612582459,
+      5612582460,
+      5612582461,
+      5612582462,
+      5612582470,
+      5612582471,
+      5612582472,
+      5612582473,
+      5612582474,
+      5612582475,
+      5612582392,
+      5612582393,
+      5612582394,
+      5612582395,
+      5612582396,
+      5612582397,
+      5612582404,
+      5612582405,
+      5612582406,
+      5612582407,
+      5612582408,
+      5612582409,
+      5612582332,
+      5612582333,
+      5612582334,
+      5612582335,
+      5612582336,
+      5612582337,
+      5612582345,
+      5612582346,
+      5612582347,
+      5612582348,
+      5612582349,
+      5612582286,
+      5612582287,
+      5612582288,
+      5612582289,
+      5612582290,
+      5612582291,
+      5612582298,
+      5612582299,
+      5612582300,
+      5612582301,
+      5612582302,
+      5612582303,
+      5612582250,
+      5612582251,
+      5612582252,
+      5612582253,
+      5612582254,
+      5612582255,
+      5612582262,
+      5612582263,
+      5612582264,
+      5612582265,
+      5612582266,
+      5612582267,
+      5612582207,
+      5612582208,
+      5612582209,
+      5612582210,
+      5612582211,
+      5612582212,
+      5612582219,
+      5612582220,
+      5612582221,
+      5612582222,
+      5612582223,
+      5609995405,
+      5609995406,
+      5609995407,
+      5609995408,
+      5609995409,
+      5609995410,
+      5609995411,
+      5609995412,
+      5609995413,
+      5609995414,
+      5609995415,
+      5609995416,
+      5609995417,
+      5609995418,
+      5609995419,
+      5609995420,
+      5609995421,
+      5609995422,
+      5612590029,
+      5612590030,
+      5612590031,
+      5612590032,
+      5612590033,
+      5612592216,
+      5612592217,
+      5612592218,
+      5612592219,
+      5612592220,
+      5612592221
+    ],
+    "file": {
+      "id": 1099811322,
+      "filename": "golf-clock-sleeve-4x3.5in-300dpi.png",
+      "width": 1200,
+      "height": 1050,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        530,
+        377,
+        670,
+        673
+      ],
+      "visibleMm": [
+        11.853,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1099811321",
+    "headwear": false,
+    "pids": [
+      767,
+      340,
+      810
+    ],
+    "roles": [
+      "back_large_dtf"
+    ],
+    "handles": [
+      "time-well-spent-performance-golf-shirt",
+      "time-well-spent-classic-golf-shirt",
+      "time-well-spent-cotton-pique-golf-shirt",
+      "out-of-office-performance-golf-shirt",
+      "out-of-office-classic-golf-shirt",
+      "out-of-office-cotton-pique-golf-shirt",
+      "off-shft-golf-club-performance-golf-shirt",
+      "off-shft-golf-club-classic-golf-shirt",
+      "off-shft-golf-club-cotton-pique-golf-shirt",
+      "punched-out-golf-shirt"
+    ],
+    "variants": [
+      5612582654,
+      5612582655,
+      5612582656,
+      5612582657,
+      5612582658,
+      5612582659,
+      5612582666,
+      5612582667,
+      5612582668,
+      5612582669,
+      5612582670,
+      5612582671,
+      5612582617,
+      5612582618,
+      5612582619,
+      5612582620,
+      5612582621,
+      5612582622,
+      5612582629,
+      5612582630,
+      5612582631,
+      5612582632,
+      5612582633,
+      5612582634,
+      5612582502,
+      5612582503,
+      5612582504,
+      5612582505,
+      5612582506,
+      5612582507,
+      5612582514,
+      5612582515,
+      5612582516,
+      5612582517,
+      5612582518,
+      5612582457,
+      5612582458,
+      5612582459,
+      5612582460,
+      5612582461,
+      5612582462,
+      5612582470,
+      5612582471,
+      5612582472,
+      5612582473,
+      5612582474,
+      5612582475,
+      5612582392,
+      5612582393,
+      5612582394,
+      5612582395,
+      5612582396,
+      5612582397,
+      5612582404,
+      5612582405,
+      5612582406,
+      5612582407,
+      5612582408,
+      5612582409,
+      5612582332,
+      5612582333,
+      5612582334,
+      5612582335,
+      5612582336,
+      5612582337,
+      5612582345,
+      5612582346,
+      5612582347,
+      5612582348,
+      5612582349,
+      5612582286,
+      5612582287,
+      5612582288,
+      5612582289,
+      5612582290,
+      5612582291,
+      5612582298,
+      5612582299,
+      5612582300,
+      5612582301,
+      5612582302,
+      5612582303,
+      5612582250,
+      5612582251,
+      5612582252,
+      5612582253,
+      5612582254,
+      5612582255,
+      5612582262,
+      5612582263,
+      5612582264,
+      5612582265,
+      5612582266,
+      5612582267,
+      5612582207,
+      5612582208,
+      5612582209,
+      5612582210,
+      5612582211,
+      5612582212,
+      5612582219,
+      5612582220,
+      5612582221,
+      5612582222,
+      5612582223,
+      5609995405,
+      5609995406,
+      5609995407,
+      5609995408,
+      5609995409,
+      5609995410,
+      5609995411,
+      5609995412,
+      5609995413,
+      5609995414,
+      5609995415,
+      5609995416,
+      5609995417,
+      5609995418,
+      5609995419,
+      5609995420,
+      5609995421,
+      5609995422,
+      5612590029,
+      5612590030,
+      5612590031,
+      5612590032,
+      5612590033,
+      5612592216,
+      5612592217,
+      5612592218,
+      5612592219,
+      5612592220,
+      5612592221
+    ],
+    "file": {
+      "id": 1099811321,
+      "filename": "golf-off-shft-back-15x18in-75mm-top0.1in-300dpi.png",
+      "width": 4500,
+      "height": 5400,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1807,
+        30,
+        2693,
+        286
+      ],
+      "visibleMm": [
+        75.015,
+        21.675
+      ]
+    }
+  },
+  {
+    "key": "1099970100",
+    "headwear": false,
+    "pids": [
+      767,
+      340,
+      810
+    ],
+    "roles": [
+      "short_sleeve_left_dtf"
+    ],
+    "handles": [
+      "time-well-spent-performance-golf-shirt",
+      "time-well-spent-classic-golf-shirt",
+      "time-well-spent-cotton-pique-golf-shirt",
+      "out-of-office-performance-golf-shirt",
+      "out-of-office-classic-golf-shirt",
+      "out-of-office-cotton-pique-golf-shirt",
+      "off-shft-golf-club-performance-golf-shirt",
+      "off-shft-golf-club-classic-golf-shirt",
+      "off-shft-golf-club-cotton-pique-golf-shirt",
+      "punched-out-golf-shirt"
+    ],
+    "variants": [
+      5612582660,
+      5612582661,
+      5612582662,
+      5612582663,
+      5612582664,
+      5612582665,
+      5612582623,
+      5612582624,
+      5612582625,
+      5612582626,
+      5612582627,
+      5612582628,
+      5612582508,
+      5612582509,
+      5612582510,
+      5612582511,
+      5612582512,
+      5612582513,
+      5612582463,
+      5612582464,
+      5612582465,
+      5612582466,
+      5612582468,
+      5612582469,
+      5612582398,
+      5612582399,
+      5612582400,
+      5612582401,
+      5612582402,
+      5612582403,
+      5612582338,
+      5612582339,
+      5612582340,
+      5612582341,
+      5612582342,
+      5612582343,
+      5612582292,
+      5612582293,
+      5612582294,
+      5612582295,
+      5612582296,
+      5612582297,
+      5612582256,
+      5612582257,
+      5612582258,
+      5612582259,
+      5612582260,
+      5612582261,
+      5612582213,
+      5612582214,
+      5612582215,
+      5612582216,
+      5612582217,
+      5612582218,
+      5610538046,
+      5610538048,
+      5610538050,
+      5610538052,
+      5610538054,
+      5610538056,
+      5610538058,
+      5610538060,
+      5610538062,
+      5610538064,
+      5610538066,
+      5610538068,
+      5610539573,
+      5610539575,
+      5610539577,
+      5610539579,
+      5610539581,
+      5610539583
+    ],
+    "file": {
+      "id": 1099970100,
+      "filename": "golf-clock-dark-sleeve-4x3.5in-300dpi.png",
+      "width": 1200,
+      "height": 1050,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        530,
+        377,
+        670,
+        673
+      ],
+      "visibleMm": [
+        11.853,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1099970133",
+    "headwear": false,
+    "pids": [
+      767,
+      340,
+      810
+    ],
+    "roles": [
+      "back_large_dtf"
+    ],
+    "handles": [
+      "time-well-spent-performance-golf-shirt",
+      "time-well-spent-classic-golf-shirt",
+      "time-well-spent-cotton-pique-golf-shirt",
+      "out-of-office-performance-golf-shirt",
+      "out-of-office-classic-golf-shirt",
+      "out-of-office-cotton-pique-golf-shirt",
+      "off-shft-golf-club-performance-golf-shirt",
+      "off-shft-golf-club-classic-golf-shirt",
+      "off-shft-golf-club-cotton-pique-golf-shirt",
+      "punched-out-golf-shirt"
+    ],
+    "variants": [
+      5612582660,
+      5612582661,
+      5612582662,
+      5612582663,
+      5612582664,
+      5612582665,
+      5612582623,
+      5612582624,
+      5612582625,
+      5612582626,
+      5612582627,
+      5612582628,
+      5612582508,
+      5612582509,
+      5612582510,
+      5612582511,
+      5612582512,
+      5612582513,
+      5612582463,
+      5612582464,
+      5612582465,
+      5612582466,
+      5612582468,
+      5612582469,
+      5612582398,
+      5612582399,
+      5612582400,
+      5612582401,
+      5612582402,
+      5612582403,
+      5612582338,
+      5612582339,
+      5612582340,
+      5612582341,
+      5612582342,
+      5612582343,
+      5612582292,
+      5612582293,
+      5612582294,
+      5612582295,
+      5612582296,
+      5612582297,
+      5612582256,
+      5612582257,
+      5612582258,
+      5612582259,
+      5612582260,
+      5612582261,
+      5612582213,
+      5612582214,
+      5612582215,
+      5612582216,
+      5612582217,
+      5612582218,
+      5610538046,
+      5610538048,
+      5610538050,
+      5610538052,
+      5610538054,
+      5610538056,
+      5610538058,
+      5610538060,
+      5610538062,
+      5610538064,
+      5610538066,
+      5610538068,
+      5610539573,
+      5610539575,
+      5610539577,
+      5610539579,
+      5610539581,
+      5610539583
+    ],
+    "file": {
+      "id": 1099970133,
+      "filename": "golf-logo-dark-back-15x18in-300dpi.png",
+      "width": 4500,
+      "height": 5400,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1807,
+        30,
+        2693,
+        286
+      ],
+      "visibleMm": [
+        75.015,
+        21.675
+      ]
+    }
+  },
+  {
+    "key": "1101365707",
+    "headwear": true,
+    "pids": [
+      252
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "parked-trucker-hat"
+    ],
+    "variants": [
+      5611157931,
+      5611160031
+    ],
+    "file": {
+      "id": 1101365707,
+      "filename": "clean-type-v1-parked-bone-sun-field-522.png",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        110,
+        347,
+        3430,
+        853
+      ],
+      "visibleMm": [
+        140.547,
+        21.421
+      ]
+    }
+  },
+  {
+    "key": "1101365778",
+    "headwear": true,
+    "pids": [
+      206
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "banked-time-hat"
+    ],
+    "variants": [
+      5606255742,
+      5611147260
+    ],
+    "file": {
+      "id": 1101365778,
+      "filename": "clean-type-v1-banked-time-stacked-option-bone-sun-field-75.png",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        42,
+        74,
+        3258,
+        1126
+      ],
+      "visibleMm": [
+        136.144,
+        44.535
+      ]
+    }
+  },
+  {
+    "key": "1101365856",
+    "headwear": true,
+    "pids": [
+      252
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "banked-time-hat"
+    ],
+    "variants": [
+      5606255743,
+      5611147365
+    ],
+    "file": {
+      "id": 1101365856,
+      "filename": "clean-type-v1-banked-time-stacked-option-bone-sun-field-522.png",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        162,
+        74,
+        3378,
+        1126
+      ],
+      "visibleMm": [
+        136.144,
+        44.535
+      ]
+    }
+  },
+  {
+    "key": "1098756035",
+    "headwear": true,
+    "pids": [
+      952
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "suns-still-up-hat"
+    ],
+    "variants": [
+      5606255732,
+      5611157325
+    ],
+    "file": {
+      "id": 1098756035,
+      "filename": "suns-still-up-ink-rust-field-478.png",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        172,
+        214,
+        3608,
+        1316
+      ],
+      "visibleMm": [
+        145.457,
+        46.651
+      ]
+    }
+  },
+  {
+    "key": "1098756182",
+    "headwear": true,
+    "pids": [
+      807
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "suns-still-up-hat"
+    ],
+    "variants": [
+      5606255733
+    ],
+    "file": {
+      "id": 1098756182,
+      "filename": "suns-still-up-bone-sun-field-522.png",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        52,
+        49,
+        3488,
+        1151
+      ],
+      "visibleMm": [
+        145.457,
+        46.651
+      ]
+    }
+  },
+  {
+    "key": "1100232623",
+    "headwear": true,
+    "pids": [
+      952
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "suns-still-up-hat"
+    ],
+    "variants": [
+      5611157207
+    ],
+    "file": {
+      "id": 1100232623,
+      "filename": "suns-still-up-bone-sun-field-478.png",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        172,
+        214,
+        3608,
+        1316
+      ],
+      "visibleMm": [
+        145.457,
+        46.651
+      ]
+    }
+  },
+  {
+    "key": "1100232732",
+    "headwear": true,
+    "pids": [
+      807
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "suns-still-up-hat"
+    ],
+    "variants": [
+      5611157338
+    ],
+    "file": {
+      "id": 1100232732,
+      "filename": "suns-still-up-ink-rust-field-522.png",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        52,
+        49,
+        3488,
+        1151
+      ],
+      "visibleMm": [
+        145.457,
+        46.651
+      ]
+    }
+  },
+  {
+    "key": "1098275040",
+    "headwear": true,
+    "pids": [
+      252
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "for-a-reason-hat"
+    ],
+    "variants": [
+      5605789837,
+      5605789839
+    ],
+    "file": {
+      "id": 1098275040,
+      "filename": "for-a-reason-bone-sun-puff-117mm.png",
+      "width": 2765,
+      "height": 1127,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        0,
+        0,
+        2765,
+        1127
+      ],
+      "visibleMm": [
+        117.052,
+        47.71
+      ]
+    }
+  },
+  {
+    "key": "1098275128",
+    "headwear": true,
+    "pids": [
+      1678
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "for-a-reason-hat"
+    ],
+    "variants": [
+      5605789838
+    ],
+    "file": {
+      "id": 1098275128,
+      "filename": "for-a-reason-ink-rust-puff-117mm.png",
+      "width": 2765,
+      "height": 1127,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        0,
+        0,
+        2765,
+        1127
+      ],
+      "visibleMm": [
+        117.052,
+        47.71
+      ]
+    }
+  },
+  {
+    "key": "1098470247",
+    "headwear": false,
+    "pids": [
+      1473
+    ],
+    "roles": [
+      "embroidery_chest_left"
+    ],
+    "handles": [
+      "the-clock-quarter-zip"
+    ],
+    "variants": [
+      5605618714,
+      5605618715,
+      5605618716,
+      5605618717,
+      5605618718,
+      5605618719
+    ],
+    "file": {
+      "id": 1098470247,
+      "filename": "clock-101.6x101.6mm.png",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1060,
+        904,
+        1340,
+        1496
+      ],
+      "visibleMm": [
+        11.853,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1099967219",
+    "headwear": false,
+    "pids": [
+      1473
+    ],
+    "roles": [
+      "embroidery_chest_left"
+    ],
+    "handles": [
+      "the-clock-quarter-zip"
+    ],
+    "variants": [
+      5610506779,
+      5610506780,
+      5610506781,
+      5610506782,
+      5610506783,
+      5610506784
+    ],
+    "file": {
+      "id": 1099967219,
+      "filename": "quarter-zip-clock-smoke-4in-600dpi.png",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1060,
+        904,
+        1340,
+        1496
+      ],
+      "visibleMm": [
+        11.853,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1098470355",
+    "headwear": false,
+    "pids": [
+      1473
+    ],
+    "roles": [
+      "embroidery_chest_left"
+    ],
+    "handles": [
+      "off-shft-logo-quarter-zip"
+    ],
+    "variants": [
+      5605618707,
+      5605618708,
+      5605618709,
+      5605618710,
+      5605618711,
+      5605618712
+    ],
+    "file": {
+      "id": 1098470355,
+      "filename": "logo-101.6x101.6mm.png",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        460,
+        986,
+        1940,
+        1414
+      ],
+      "visibleMm": [
+        62.653,
+        18.119
+      ]
+    }
+  },
+  {
+    "key": "1099967171",
+    "headwear": false,
+    "pids": [
+      1473
+    ],
+    "roles": [
+      "embroidery_chest_left"
+    ],
+    "handles": [
+      "off-shft-logo-quarter-zip"
+    ],
+    "variants": [
+      5610505311,
+      5610505312,
+      5610505313,
+      5610505314,
+      5610505315,
+      5610505316
+    ],
+    "file": {
+      "id": 1099967171,
+      "filename": "quarter-zip-logo-smoke-4in-600dpi.png",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        460,
+        986,
+        1940,
+        1414
+      ],
+      "visibleMm": [
+        62.653,
+        18.119
+      ]
+    }
+  },
+  {
+    "key": "1101366264",
+    "headwear": true,
+    "pids": [
+      547,
+      379,
+      206
+    ],
+    "roles": [
+      "default",
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "punched-out-bucket-hat",
+      "punched-out-hat"
+    ],
+    "variants": [
+      5605618704,
+      5605618705,
+      5611144126
+    ],
+    "file": {
+      "id": 1101366264,
+      "filename": "clean-type-v1-punched-stacked-ink-rust-field-75.png",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        169,
+        95,
+        3131,
+        1105
+      ],
+      "visibleMm": [
+        125.391,
+        42.757
+      ]
+    }
+  },
+  {
+    "key": "1101366323",
+    "headwear": true,
+    "pids": [
+      547,
+      379,
+      206
+    ],
+    "roles": [
+      "default",
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "punched-out-bucket-hat",
+      "punched-out-hat"
+    ],
+    "variants": [
+      5611152980,
+      5611153129,
+      5605511895,
+      5611144305
+    ],
+    "file": {
+      "id": 1101366323,
+      "filename": "clean-type-v1-punched-stacked-bone-sun-field-75.png",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        169,
+        95,
+        3131,
+        1105
+      ],
+      "visibleMm": [
+        125.391,
+        42.757
+      ]
+    }
+  },
+  {
+    "key": "1098770030",
+    "headwear": true,
+    "pids": [
+      547,
+      379,
+      206
+    ],
+    "roles": [
+      "default",
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "the-clock-bucket-hat",
+      "the-clock-hat"
+    ],
+    "variants": [
+      5605618668,
+      5605618669,
+      5611145183
+    ],
+    "file": {
+      "id": 1098770030,
+      "filename": "clock-ink-rust-field-75.png",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1387,
+        94,
+        1913,
+        1106
+      ],
+      "visibleMm": [
+        22.267,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1098754943",
+    "headwear": true,
+    "pids": [
+      547,
+      379,
+      206
+    ],
+    "roles": [
+      "default",
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "the-clock-bucket-hat",
+      "the-clock-hat"
+    ],
+    "variants": [
+      5611155056,
+      5611155100,
+      5605511866,
+      5611145267
+    ],
+    "file": {
+      "id": 1098754943,
+      "filename": "clock-bone-sun-field-75.png",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1387,
+        94,
+        1913,
+        1106
+      ],
+      "visibleMm": [
+        22.267,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1098770297-seam",
+    "headwear": true,
+    "pids": [
+      206
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "off-shft-logo-hat"
+    ],
+    "variants": [
+      5611143476
+    ],
+    "file": {
+      "id": 1098770297,
+      "filename": "logo-ink-rust-field-75.png",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        170,
+        94,
+        3130,
+        1106
+      ],
+      "visibleMm": [
+        125.307,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1098770297-centre",
+    "headwear": true,
+    "pids": [
+      547,
+      379
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-bucket-hat"
+    ],
+    "variants": [
+      5605618666,
+      5605618667
+    ],
+    "file": {
+      "id": 1098770297,
+      "filename": "logo-ink-rust-field-75.png",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        170,
+        94,
+        3130,
+        1106
+      ],
+      "visibleMm": [
+        125.307,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1098755428-seam",
+    "headwear": true,
+    "pids": [
+      206
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "off-shft-logo-hat"
+    ],
+    "variants": [
+      5605511855,
+      5611143567
+    ],
+    "file": {
+      "id": 1098755428,
+      "filename": "logo-bone-sun-field-75.png",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        170,
+        94,
+        3130,
+        1106
+      ],
+      "visibleMm": [
+        125.307,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1098755428-centre",
+    "headwear": true,
+    "pids": [
+      547,
+      379
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-bucket-hat"
+    ],
+    "variants": [
+      5611151217,
+      5611151244
+    ],
+    "file": {
+      "id": 1098755428,
+      "filename": "logo-bone-sun-field-75.png",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        170,
+        94,
+        3130,
+        1106
+      ],
+      "visibleMm": [
+        125.307,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1101366370",
+    "headwear": true,
+    "pids": [
+      266,
+      519
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "punched-out-beanie"
+    ],
+    "variants": [
+      5605618664,
+      5605618665
+    ],
+    "file": {
+      "id": 1101366370,
+      "filename": "clean-type-v1-punched-stacked-ink-rust-field-74.png",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        19,
+        20,
+        2981,
+        1030
+      ],
+      "visibleMm": [
+        125.391,
+        42.757
+      ]
+    }
+  },
+  {
+    "key": "1101366428",
+    "headwear": true,
+    "pids": [
+      266,
+      519
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "punched-out-beanie"
+    ],
+    "variants": [
+      5611151997,
+      5611152136,
+      5611152239,
+      5611152429
+    ],
+    "file": {
+      "id": 1101366428,
+      "filename": "clean-type-v1-punched-stacked-bone-sun-field-74.png",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        19,
+        20,
+        2981,
+        1030
+      ],
+      "visibleMm": [
+        125.391,
+        42.757
+      ]
+    }
+  },
+  {
+    "key": "1098770679",
+    "headwear": true,
+    "pids": [
+      266,
+      519
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "the-clock-beanie"
+    ],
+    "variants": [
+      5605618661,
+      5605618662
+    ],
+    "file": {
+      "id": 1098770679,
+      "filename": "clock-ink-rust-field-74.png",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1237,
+        19,
+        1763,
+        1031
+      ],
+      "visibleMm": [
+        22.267,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1100231950",
+    "headwear": true,
+    "pids": [
+      266,
+      519
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "the-clock-beanie"
+    ],
+    "variants": [
+      5611153795,
+      5611153927,
+      5611154008,
+      5611154026
+    ],
+    "file": {
+      "id": 1100231950,
+      "filename": "clock-bone-sun-field-74.png",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1237,
+        19,
+        1763,
+        1031
+      ],
+      "visibleMm": [
+        22.267,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1098770836",
+    "headwear": true,
+    "pids": [
+      266,
+      519
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-beanie"
+    ],
+    "variants": [
+      5605618563,
+      5605618564
+    ],
+    "file": {
+      "id": 1098770836,
+      "filename": "logo-ink-rust-field-74.png",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        20,
+        19,
+        2980,
+        1031
+      ],
+      "visibleMm": [
+        125.307,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1100231884",
+    "headwear": true,
+    "pids": [
+      266,
+      519
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-beanie"
+    ],
+    "variants": [
+      5611150085,
+      5611150156,
+      5611150348,
+      5611150406
+    ],
+    "file": {
+      "id": 1100231884,
+      "filename": "logo-bone-sun-field-74.png",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        20,
+        19,
+        2980,
+        1031
+      ],
+      "visibleMm": [
+        125.307,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1098257641",
+    "headwear": true,
+    "pids": [
+      252
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "ours-to-spend-trucker-hat"
+    ],
+    "variants": [
+      5605512107,
+      5605512108
+    ],
+    "file": {
+      "id": 1098257641,
+      "filename": "off-shft-ours-to-spend-puff-bone-sun-148mm.png",
+      "width": 3499,
+      "height": 1138,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        0,
+        0,
+        3499,
+        1138
+      ],
+      "visibleMm": [
+        148.124,
+        48.175
+      ]
+    }
+  },
+  {
+    "key": "1098257724",
+    "headwear": true,
+    "pids": [
+      252
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "ours-to-spend-trucker-hat"
+    ],
+    "variants": [
+      5605512109
+    ],
+    "file": {
+      "id": 1098257724,
+      "filename": "off-shft-ours-to-spend-puff-ink-rust-148mm.png",
+      "width": 3499,
+      "height": 1138,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        0,
+        0,
+        3499,
+        1138
+      ],
+      "visibleMm": [
+        148.124,
+        48.175
+      ]
+    }
+  },
+  {
+    "key": "1098257825",
+    "headwear": true,
+    "pids": [
+      252
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "ours-to-spend-trucker-hat"
+    ],
+    "variants": [
+      5605512110
+    ],
+    "file": {
+      "id": 1098257825,
+      "filename": "off-shft-ours-to-spend-puff-bone-148mm.png",
+      "width": 3499,
+      "height": 1138,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        0,
+        0,
+        3499,
+        1138
+      ],
+      "visibleMm": [
+        148.124,
+        48.175
+      ]
+    }
+  },
+  {
+    "key": "1098471392",
+    "headwear": false,
+    "pids": [
+      969
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "the-rest-is-ours-hoodie",
+      "off-shft-logo-hoodie"
+    ],
+    "variants": [
+      5605512082,
+      5605512083,
+      5605512084,
+      5605512085,
+      5605512086,
+      5605512087,
+      5605512088,
+      5605512089,
+      5605512090,
+      5605512091,
+      5605512092,
+      5605512093,
+      5605512100,
+      5605512101,
+      5605512102,
+      5605512103,
+      5605512104,
+      5605512105,
+      5609647852,
+      5609647853,
+      5609647854,
+      5609647855,
+      5609647856,
+      5609647857,
+      5609647858,
+      5609647859,
+      5609647860,
+      5609647861,
+      5609647862,
+      5609647863
+    ],
+    "file": {
+      "id": 1098471392,
+      "filename": "front-ink-rust-12x16-300dpi.png",
+      "width": 3600,
+      "height": 4800,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        2346,
+        602,
+        3087,
+        816
+      ],
+      "visibleMm": [
+        62.738,
+        18.119
+      ]
+    }
+  },
+  {
+    "key": "1098485690",
+    "headwear": false,
+    "pids": [
+      969
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "the-rest-is-ours-hoodie"
+    ],
+    "variants": [
+      5605512094,
+      5605512095,
+      5605512096,
+      5605512097,
+      5605512098,
+      5605512099
+    ],
+    "file": {
+      "id": 1098485690,
+      "filename": "front-bone-sun-12x16-300dpi.png",
+      "width": 3600,
+      "height": 4800,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        2346,
+        602,
+        3087,
+        816
+      ],
+      "visibleMm": [
+        62.738,
+        18.119
+      ]
+    }
+  },
+  {
+    "key": "1098479971",
+    "headwear": false,
+    "pids": [
+      399,
+      586,
+      898,
+      734,
+      970
+    ],
+    "roles": [
+      "embroidery_chest_left",
+      "default"
+    ],
+    "handles": [
+      "the-clock-jacket",
+      "the-clock-t-shirt",
+      "the-clock-sweatpants",
+      "the-clock-hoodie"
+    ],
+    "variants": [
+      5605511836,
+      5605511837,
+      5605511838,
+      5605511839,
+      5605511840,
+      5605512039,
+      5605512040,
+      5605512041,
+      5605512042,
+      5605512043,
+      5605512044,
+      5605511978,
+      5605511979,
+      5605511980,
+      5605511981,
+      5605511982,
+      5612467043,
+      5612467044,
+      5612467045,
+      5612467046,
+      5612467047,
+      5605511763,
+      5605511764,
+      5605511765,
+      5605511766,
+      5605511767,
+      5605511768,
+      5605511769,
+      5605511770,
+      5605511771,
+      5605511772,
+      5605511773,
+      5605511774
+    ],
+    "file": {
+      "id": 1098479971,
+      "filename": "clock-bone-sun-25mm-high--field-136--600dpi.png",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1060,
+        904,
+        1340,
+        1496
+      ],
+      "visibleMm": [
+        11.853,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1098458744",
+    "headwear": false,
+    "pids": [
+      399,
+      586,
+      898,
+      971,
+      734,
+      970,
+      969
+    ],
+    "roles": [
+      "embroidery_chest_left",
+      "default"
+    ],
+    "handles": [
+      "the-clock-jacket",
+      "the-clock-t-shirt",
+      "the-clock-sweatpants",
+      "the-clock-crewneck",
+      "the-clock-hoodie"
+    ],
+    "variants": [
+      5605511841,
+      5605511842,
+      5605511843,
+      5605511844,
+      5605511845,
+      5605512028,
+      5605512029,
+      5605512030,
+      5605512031,
+      5605512032,
+      5605512033,
+      5611140734,
+      5611140942,
+      5611141107,
+      5611141304,
+      5611141337,
+      5605511781,
+      5605511782,
+      5605511783,
+      5605511784,
+      5605511785,
+      5605511786,
+      5605511787,
+      5605511788,
+      5605511789,
+      5605511790,
+      5605511791,
+      5605511792,
+      5605511745,
+      5605511746,
+      5605511747,
+      5605511748,
+      5605511749,
+      5605511750,
+      5605511751,
+      5605511752,
+      5605511753,
+      5605511754,
+      5605511755,
+      5605511756,
+      5605511757,
+      5605511758,
+      5605511759,
+      5605511760,
+      5605511761,
+      5605511762,
+      5605511775,
+      5605511776,
+      5605511777,
+      5605511778,
+      5605511779,
+      5605511780
+    ],
+    "file": {
+      "id": 1098458744,
+      "filename": "clock-ink-rust-25mm-high--field-136--600dpi.png",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1060,
+        904,
+        1340,
+        1496
+      ],
+      "visibleMm": [
+        11.853,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1098483779",
+    "headwear": false,
+    "pids": [
+      399,
+      586,
+      898,
+      734,
+      970
+    ],
+    "roles": [
+      "embroidery_chest_left",
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-jacket",
+      "off-shft-logo-t-shirt",
+      "off-shft-logo-sweatpants",
+      "off-shft-logo-hoodie"
+    ],
+    "variants": [
+      5605511821,
+      5605511822,
+      5605511823,
+      5605511824,
+      5605511825,
+      5605512022,
+      5605512023,
+      5605512024,
+      5605512025,
+      5605512026,
+      5605512027,
+      5605511965,
+      5605511966,
+      5605511967,
+      5605511968,
+      5605511969,
+      5612463613,
+      5612463614,
+      5612463615,
+      5612463616,
+      5612463617,
+      5605511722,
+      5605511723,
+      5605511724,
+      5605511725,
+      5605511726,
+      5605511727,
+      5605511728,
+      5605511729,
+      5605511730,
+      5605511731,
+      5605511732,
+      5605511733
+    ],
+    "file": {
+      "id": 1098483779,
+      "filename": "off-shft-front-logo-bone-sun-62.64mm--field-136--600dpi.png",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        460,
+        986,
+        1940,
+        1414
+      ],
+      "visibleMm": [
+        62.653,
+        18.119
+      ]
+    }
+  },
+  {
+    "key": "1098470840",
+    "headwear": false,
+    "pids": [
+      399,
+      586,
+      898,
+      971,
+      734,
+      970,
+      969
+    ],
+    "roles": [
+      "embroidery_chest_left",
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-jacket",
+      "off-shft-logo-t-shirt",
+      "off-shft-logo-sweatpants",
+      "off-shft-logo-crewneck",
+      "off-shft-logo-hoodie"
+    ],
+    "variants": [
+      5605511826,
+      5605511827,
+      5605511828,
+      5605511829,
+      5605511830,
+      5605512011,
+      5605512012,
+      5605512013,
+      5605512014,
+      5605512015,
+      5605512016,
+      5611140265,
+      5611140291,
+      5611140305,
+      5611140452,
+      5611140522,
+      5605511800,
+      5605511801,
+      5605511803,
+      5605511804,
+      5605511805,
+      5605511806,
+      5605511807,
+      5605511808,
+      5605511809,
+      5605511810,
+      5605511811,
+      5605511812,
+      5605511703,
+      5605511704,
+      5605511706,
+      5605511707,
+      5605511708,
+      5605511709,
+      5605511710,
+      5605511711,
+      5605511712,
+      5605511713,
+      5605511714,
+      5605511715,
+      5605511716,
+      5605511717,
+      5605511718,
+      5605511719,
+      5605511720,
+      5605511721,
+      5605511734,
+      5605511735,
+      5605511736,
+      5605511737,
+      5605511738,
+      5605511739
+    ],
+    "file": {
+      "id": 1098470840,
+      "filename": "off-shft-front-logo-ink-rust-62.64mm--field-136--600dpi.png",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        460,
+        986,
+        1940,
+        1414
+      ],
+      "visibleMm": [
+        62.653,
+        18.119
+      ]
+    }
+  },
+  {
+    "key": "1098409983",
+    "headwear": false,
+    "pids": [
+      593
+    ],
+    "roles": [
+      "pocket"
+    ],
+    "handles": [
+      "the-clock-t-shirt"
+    ],
+    "variants": [
+      5605512034,
+      5605512035,
+      5605512036,
+      5605512037,
+      5605512038
+    ],
+    "file": {
+      "id": 1098409983,
+      "filename": "clock-pocket-1in.png",
+      "width": 1800,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        758,
+        300,
+        1042,
+        900
+      ],
+      "visibleMm": [
+        12.023,
+        25.4
+      ]
+    }
+  },
+  {
+    "key": "1100232911",
+    "headwear": false,
+    "pids": [
+      593
+    ],
+    "roles": [
+      "pocket"
+    ],
+    "handles": [
+      "the-clock-t-shirt"
+    ],
+    "variants": [
+      5611139743,
+      5611139757,
+      5611139787,
+      5611140049,
+      5611140058,
+      5612488446,
+      5612489236,
+      5612489432,
+      5612489697,
+      5612489742
+    ],
+    "file": {
+      "id": 1100232911,
+      "filename": "clock-pocket-1in-bone-sun-field-3x2in-600dpi.png",
+      "width": 1800,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        758,
+        300,
+        1042,
+        900
+      ],
+      "visibleMm": [
+        12.023,
+        25.4
+      ]
+    }
+  },
+  {
+    "key": "1098409896",
+    "headwear": false,
+    "pids": [
+      593
+    ],
+    "roles": [
+      "pocket"
+    ],
+    "handles": [
+      "off-shft-logo-t-shirt"
+    ],
+    "variants": [
+      5605512017,
+      5605512018,
+      5605512019,
+      5605512020,
+      5605512021
+    ],
+    "file": {
+      "id": 1098409896,
+      "filename": "logo-pocket-2in.png",
+      "width": 1800,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        300,
+        427,
+        1500,
+        773
+      ],
+      "visibleMm": [
+        50.8,
+        14.647
+      ]
+    }
+  },
+  {
+    "key": "1100232806",
+    "headwear": false,
+    "pids": [
+      593
+    ],
+    "roles": [
+      "pocket"
+    ],
+    "handles": [
+      "off-shft-logo-t-shirt"
+    ],
+    "variants": [
+      5611137911,
+      5611139274,
+      5611139309,
+      5611139535,
+      5611139591,
+      5612485233,
+      5612485942,
+      5612486582,
+      5612486627,
+      5612486705
+    ],
+    "file": {
+      "id": 1100232806,
+      "filename": "logo-pocket-2in-bone-sun-field-3x2in-600dpi.png",
+      "width": 1800,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        300,
+        427,
+        1500,
+        773
+      ],
+      "visibleMm": [
+        50.8,
+        14.647
+      ]
+    }
+  },
+  {
+    "key": "1098484010",
+    "headwear": false,
+    "pids": [
+      898
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "the-clock-sweatpants"
+    ],
+    "variants": [
+      5605511983,
+      5605511984,
+      5605511985,
+      5605511986,
+      5605511987
+    ],
+    "file": {
+      "id": 1098484010,
+      "filename": "clock-bone-25mm-high--field-136--600dpi.png",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1062,
+        904,
+        1338,
+        1496
+      ],
+      "visibleMm": [
+        11.684,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1098484110",
+    "headwear": false,
+    "pids": [
+      898
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-sweatpants"
+    ],
+    "variants": [
+      5605511970,
+      5605511971,
+      5605511972,
+      5605511974,
+      5605511975
+    ],
+    "file": {
+      "id": 1098484110,
+      "filename": "off-shft-logo-bone-62.64mm--field-136--600dpi.png",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        460,
+        975,
+        1940,
+        1425
+      ],
+      "visibleMm": [
+        62.653,
+        19.05
+      ]
+    }
+  },
+  {
+    "key": "1099710331",
+    "headwear": false,
+    "pids": [
+      734,
+      970
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "the-clock-hoodie"
+    ],
+    "variants": [
+      5609658785,
+      5609658786,
+      5609658787,
+      5609658788,
+      5609658789,
+      5609658790,
+      5609659020,
+      5609659021,
+      5609659022,
+      5609659023,
+      5609659024,
+      5609659025
+    ],
+    "file": {
+      "id": 1099710331,
+      "filename": "clock-light-front-field139-candidate-300dpi.png",
+      "width": 4200,
+      "height": 4200,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        3087,
+        1214,
+        3227,
+        1510
+      ],
+      "visibleMm": [
+        11.853,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1099710411",
+    "headwear": false,
+    "pids": [
+      734,
+      970
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "the-clock-hoodie"
+    ],
+    "variants": [
+      5609658791,
+      5609658792,
+      5609658793,
+      5609658794,
+      5609658795,
+      5609658796,
+      5609659026,
+      5609659027,
+      5609659028,
+      5609659029,
+      5609659030,
+      5609659031
+    ],
+    "file": {
+      "id": 1099710411,
+      "filename": "clock-dark-front-field139-candidate-300dpi.png",
+      "width": 4200,
+      "height": 4200,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        3087,
+        1214,
+        3227,
+        1510
+      ],
+      "visibleMm": [
+        11.853,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1099710570",
+    "headwear": false,
+    "pids": [
+      969
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "the-clock-hoodie"
+    ],
+    "variants": [
+      5609661111,
+      5609661112,
+      5609661113,
+      5609661114,
+      5609661115,
+      5609661116,
+      5609661117,
+      5609661118,
+      5609661119,
+      5609661120,
+      5609661121,
+      5609661122
+    ],
+    "file": {
+      "id": 1099710570,
+      "filename": "clock-light-front-field1-candidate-300dpi.png",
+      "width": 3600,
+      "height": 4800,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        2646,
+        561,
+        2787,
+        857
+      ],
+      "visibleMm": [
+        11.938,
+        25.061
+      ]
+    }
+  },
+  {
+    "key": "1099706920",
+    "headwear": false,
+    "pids": [
+      734,
+      970
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-hoodie"
+    ],
+    "variants": [
+      5609625977,
+      5609625978,
+      5609625979,
+      5609625980,
+      5609625981,
+      5609625982,
+      5609629745,
+      5609629746,
+      5609629747,
+      5609629748,
+      5609629749,
+      5609629750
+    ],
+    "file": {
+      "id": 1099706920,
+      "filename": "off-shft-logo-light-front-field139-native-candidate-300dpi.png",
+      "width": 4200,
+      "height": 4200,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        2787,
+        1255,
+        3528,
+        1469
+      ],
+      "visibleMm": [
+        62.738,
+        18.119
+      ]
+    }
+  },
+  {
+    "key": "1099710281",
+    "headwear": false,
+    "pids": [
+      734,
+      970
+    ],
+    "roles": [
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-hoodie"
+    ],
+    "variants": [
+      5609625983,
+      5609625984,
+      5609625985,
+      5609625986,
+      5609625987,
+      5609625988,
+      5609629751,
+      5609629752,
+      5609629753,
+      5609629754,
+      5609629755,
+      5609629756
+    ],
+    "file": {
+      "id": 1099710281,
+      "filename": "off-shft-logo-dark-front-field139-candidate-300dpi.png",
+      "width": 4200,
+      "height": 4200,
+      "dpi": 300
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        2787,
+        1255,
+        3528,
+        1469
+      ],
+      "visibleMm": [
+        62.738,
+        18.119
+      ]
+    }
+  },
+  {
+    "key": "1101366751",
+    "headwear": true,
+    "pids": [
+      252,
+      807
+    ],
+    "roles": [
+      "embroidery_front_large",
+      "default"
+    ],
+    "handles": [
+      "punched-out-hat"
+    ],
+    "variants": [
+      5605511893,
+      5605511896,
+      5605511897
+    ],
+    "file": {
+      "id": 1101366751,
+      "filename": "clean-type-v1-punched-stacked-bone-sun-field-522.png",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        289,
+        95,
+        3251,
+        1105
+      ],
+      "visibleMm": [
+        125.391,
+        42.757
+      ]
+    }
+  },
+  {
+    "key": "1101366823",
+    "headwear": true,
+    "pids": [
+      952
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "punched-out-hat"
+    ],
+    "variants": [
+      5605511894
+    ],
+    "file": {
+      "id": 1101366823,
+      "filename": "clean-type-v1-punched-stacked-bone-sun-field-478.png",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        409,
+        260,
+        3371,
+        1270
+      ],
+      "visibleMm": [
+        125.391,
+        42.757
+      ]
+    }
+  },
+  {
+    "key": "1101366885",
+    "headwear": true,
+    "pids": [
+      252,
+      807
+    ],
+    "roles": [
+      "embroidery_front_large",
+      "default"
+    ],
+    "handles": [
+      "punched-out-hat"
+    ],
+    "variants": [
+      5611143800,
+      5611144333
+    ],
+    "file": {
+      "id": 1101366885,
+      "filename": "clean-type-v1-punched-stacked-ink-rust-field-522.png",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        289,
+        95,
+        3251,
+        1105
+      ],
+      "visibleMm": [
+        125.391,
+        42.757
+      ]
+    }
+  },
+  {
+    "key": "1101366974",
+    "headwear": true,
+    "pids": [
+      952
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "punched-out-hat"
+    ],
+    "variants": [
+      5611143918,
+      5611143949
+    ],
+    "file": {
+      "id": 1101366974,
+      "filename": "clean-type-v1-punched-stacked-ink-rust-field-478.png",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        409,
+        260,
+        3371,
+        1270
+      ],
+      "visibleMm": [
+        125.391,
+        42.757
+      ]
+    }
+  },
+  {
+    "key": "1098750740",
+    "headwear": true,
+    "pids": [
+      252,
+      807
+    ],
+    "roles": [
+      "embroidery_front_large",
+      "default"
+    ],
+    "handles": [
+      "the-clock-hat"
+    ],
+    "variants": [
+      5605511864,
+      5605511867,
+      5605511868
+    ],
+    "file": {
+      "id": 1098750740,
+      "filename": "clock-bone-sun-field-522.png",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1507,
+        94,
+        2033,
+        1106
+      ],
+      "visibleMm": [
+        22.267,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1098754819",
+    "headwear": true,
+    "pids": [
+      952
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "the-clock-hat"
+    ],
+    "variants": [
+      5605511865
+    ],
+    "file": {
+      "id": 1098754819,
+      "filename": "clock-bone-sun-field-478.png",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1627,
+        259,
+        2153,
+        1271
+      ],
+      "visibleMm": [
+        22.267,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1100232252",
+    "headwear": true,
+    "pids": [
+      252,
+      807
+    ],
+    "roles": [
+      "embroidery_front_large",
+      "default"
+    ],
+    "handles": [
+      "the-clock-hat"
+    ],
+    "variants": [
+      5611144700,
+      5611145307
+    ],
+    "file": {
+      "id": 1100232252,
+      "filename": "clock-ink-rust-field-522.png",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1507,
+        94,
+        2033,
+        1106
+      ],
+      "visibleMm": [
+        22.267,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1100232316",
+    "headwear": true,
+    "pids": [
+      952
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "the-clock-hat"
+    ],
+    "variants": [
+      5611144774,
+      5611144817
+    ],
+    "file": {
+      "id": 1100232316,
+      "filename": "clock-ink-rust-field-478.png",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        1627,
+        259,
+        2153,
+        1271
+      ],
+      "visibleMm": [
+        22.267,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1098755095",
+    "headwear": true,
+    "pids": [
+      252,
+      807
+    ],
+    "roles": [
+      "embroidery_front_large",
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-hat"
+    ],
+    "variants": [
+      5605511853,
+      5605511856,
+      5605511857
+    ],
+    "file": {
+      "id": 1098755095,
+      "filename": "logo-bone-sun-field-522.png",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        290,
+        94,
+        3250,
+        1106
+      ],
+      "visibleMm": [
+        125.307,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1098755196",
+    "headwear": true,
+    "pids": [
+      952
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "off-shft-logo-hat"
+    ],
+    "variants": [
+      5605511854
+    ],
+    "file": {
+      "id": 1098755196,
+      "filename": "logo-bone-sun-field-478.png",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        410,
+        259,
+        3370,
+        1271
+      ],
+      "visibleMm": [
+        125.307,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1100232092",
+    "headwear": true,
+    "pids": [
+      252,
+      807
+    ],
+    "roles": [
+      "embroidery_front_large",
+      "default"
+    ],
+    "handles": [
+      "off-shft-logo-hat"
+    ],
+    "variants": [
+      5611143213,
+      5611143634
+    ],
+    "file": {
+      "id": 1100232092,
+      "filename": "logo-ink-rust-field-522.png",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        290,
+        94,
+        3250,
+        1106
+      ],
+      "visibleMm": [
+        125.307,
+        42.841
+      ]
+    }
+  },
+  {
+    "key": "1100232162",
+    "headwear": true,
+    "pids": [
+      952
+    ],
+    "roles": [
+      "embroidery_front_large"
+    ],
+    "handles": [
+      "off-shft-logo-hat"
+    ],
+    "variants": [
+      5611143299,
+      5611143355
+    ],
+    "file": {
+      "id": 1100232162,
+      "filename": "logo-ink-rust-field-478.png",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600
+    },
+    "oldAudit": {
+      "alphaBounds": [
+        410,
+        259,
+        3370,
+        1271
+      ],
+      "visibleMm": [
+        125.307,
+        42.841
+      ]
+    }
+  }
+]

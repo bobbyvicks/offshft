@@ -1,5 +1,5 @@
 """Guarded canonical artwork replacement. No orders, prices or variant creation."""
-import json,sys,copy,re,hashlib,urllib.request,argparse
+import json,sys,copy,re,hashlib,urllib.request,argparse,time
 from pathlib import Path
 H=Path(__file__).parent;R=H.parents[1]
 sys.path.insert(0,str(R/'store/printful-setup'));import printful_client as pf
@@ -27,7 +27,7 @@ def flat_options(options):
    if target not in byid:byid[target]={'id':target,'value':[]};result.append(byid[target])
    byid[target]['value']=o['value'];o['value']=[]
  assert any(o['id'].startswith('thread_colors') and '3d' not in o['id'] and o['value'] for o in result)
- return result
+ return normalize(result)
 def upload():
  commit=(H/'artwork-commit.txt').read_text().strip();assert len(commit)==40
  for r in sorted(records,key=lambda r:not r['headwear']):
@@ -46,6 +46,7 @@ def prepare(headwear_only=False):
   assert f['status']=='ok' and f['hash']==hashlib.md5((R/r['publishedPath']).read_bytes()).hexdigest()
   assert [f['width'],f['height'],f['dpi']]==[r['width'],r['height'],r['dpi']]
   ids[r['key']]=fid
+  time.sleep(.65)
  jobs=[]
  for p in load(H/'private/fresh-before/manifest.json')['products']:
   for v in load(H/f'private/fresh-before/product-{p["printfulId"]}.json')['result']['sync_variants']:
@@ -64,6 +65,12 @@ def check(v,j):
  assert signature(v,False)==signature(j['before'],False),'Protected variant metadata drift'
  assert normalize(v['options'])==normalize(j['payload']['options']),'Finish/thread options drift'
  assert {(f['id'],f['type']) for f in v['files'] if f['type']!='preview'}=={(f['id'],f['type']) for f in j['payload']['files']},'File assignment drift'
+def needs_palette_resend(v,j):
+ if not j['headwear'] or signature(v,False)!=signature(j['before'],False):return False
+ if {(f['id'],f['type']) for f in v['files'] if f['type']!='preview'}!={(f['id'],f['type']) for f in j['payload']['files']}:return False
+ expected={o['id']:o['value'] for o in normalize(j['payload']['options'])};actual={o['id']:o['value'] for o in normalize(v['options'])}
+ changed=[k for k in expected.keys()|actual.keys() if expected.get(k)!=actual.get(k)]
+ return bool(changed) and all(k.startswith('thread_colors') and '3d' not in k and expected.get(k) and actual.get(k)==[] for k in changed)
 def apply(limit=None):
  jobs=load(OUT/'plan.json');done=0
  for i,j in enumerate(jobs,1):
@@ -78,7 +85,14 @@ def apply(limit=None):
    for f in payload['files']:
     if f['type']=='default':f['type']='front'
   response=pf.mutate('PUT','/sync/variant/'+str(j['id']),payload)
-  v=response['result'].get('sync_variant',response['result']);check(v,j)
+  v=response['result'].get('sync_variant',response['result'])
+  if needs_palette_resend(v,j):
+   # Some legacy puff configurations discard the flat palette on the finish
+   # transition. Only an empty expected thread array permits this one resend.
+   save(OUT/f'initial-{j["id"]}.json',response)
+   response=pf.mutate('PUT','/sync/variant/'+str(j['id']),{'options':payload['options']})
+   v=response['result'].get('sync_variant',response['result'])
+  check(v,j)
   save(receipt,{'state':'VERIFIED','jobId':j['id'],'response':response})
   print(f'Updated {i}/{len(jobs)}: {j["handle"]} / {j["externalId"]}',flush=True);done+=1
   if limit and done>=limit:break
