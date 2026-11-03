@@ -1,0 +1,241 @@
+{
+  "status": "PASS",
+  "products": 47,
+  "changedThisPass": 46,
+  "alreadyClean": 1,
+  "variantsPreserved": 1153,
+  "imagesPreserved": 335,
+  "handlesAndDescriptionsAndOptionsUnchanged": true,
+  "changes": [
+    {
+      "handle": "time-well-spent-performance-golf-shirt",
+      "before": "Time Well Spent. Golf Shirt \u00e2\u20ac\u201d Performance",
+      "after": "Time Well Spent."
+    },
+    {
+      "handle": "time-well-spent-classic-golf-shirt",
+      "before": "Time Well Spent. Golf Shirt \u00e2\u20ac\u201d Classic",
+      "after": "Time Well Spent."
+    },
+    {
+      "handle": "time-well-spent-cotton-pique-golf-shirt",
+      "before": "Time Well Spent. Golf Shirt \u00e2\u20ac\u201d Cotton Pique",
+      "after": "Time Well Spent."
+    },
+    {
+      "handle": "out-of-office-performance-golf-shirt",
+      "before": "Out of Office. Golf Shirt \u00e2\u20ac\u201d Performance",
+      "after": "Out of Office."
+    },
+    {
+      "handle": "out-of-office-classic-golf-shirt",
+      "before": "Out of Office. Golf Shirt \u00e2\u20ac\u201d Classic",
+      "after": "Out of Office."
+    },
+    {
+      "handle": "out-of-office-cotton-pique-golf-shirt",
+      "before": "Out of Office. Golf Shirt \u00e2\u20ac\u201d Cotton Pique",
+      "after": "Out of Office."
+    },
+    {
+      "handle": "off-shft-golf-club-performance-golf-shirt",
+      "before": "OFF SHFT Golf Club Polo \u00e2\u20ac\u201d Performance",
+      "after": "OFF SHFT Golf Club"
+    },
+    {
+      "handle": "off-shft-golf-club-classic-golf-shirt",
+      "before": "OFF SHFT Golf Club Polo \u00e2\u20ac\u201d Classic",
+      "after": "OFF SHFT Golf Club"
+    },
+    {
+      "handle": "off-shft-golf-club-cotton-pique-golf-shirt",
+      "before": "OFF SHFT Golf Club Polo \u00e2\u20ac\u201d Cotton Pique",
+      "after": "OFF SHFT Golf Club"
+    },
+    {
+      "handle": "parked-trucker-hat",
+      "before": "Parked. Trucker Hat",
+      "after": "Parked."
+    },
+    {
+      "handle": "not-picking-up-hoodie",
+      "before": "Not Picking Up. Hoodie",
+      "after": "Not Picking Up."
+    },
+    {
+      "handle": "no-alarm-set-crewneck",
+      "before": "No Alarm Set. Crewneck",
+      "after": "No Alarm Set."
+    },
+    {
+      "handle": "suns-still-up-hat",
+      "before": "Sun\u00e2\u20ac\u2122s Still Up. Hat",
+      "after": "Sun\u00e2\u20ac\u2122s Still Up."
+    },
+    {
+      "handle": "nowhere-to-be-hoodie",
+      "before": "Nowhere To Be. Hoodie",
+      "after": "Nowhere To Be."
+    },
+    {
+      "handle": "for-a-reason-hat",
+      "before": "For a Reason. Hat",
+      "after": "For a Reason."
+    },
+    {
+      "handle": "punched-out-golf-shirt",
+      "before": "Punched Out. Golf Shirt",
+      "after": "Punched Out."
+    },
+    {
+      "handle": "punched-out-quarter-zip",
+      "before": "Punched Out. Quarter-Zip",
+      "after": "Punched Out."
+    },
+    {
+      "handle": "the-clock-quarter-zip",
+      "before": "The Clock Quarter-Zip",
+      "after": "The Clock"
+    },
+    {
+      "handle": "off-shft-logo-quarter-zip",
+      "before": "OFF SHFT Logo Quarter-Zip",
+      "after": "OFF SHFT Logo"
+    },
+    {
+      "handle": "punched-out-bucket-hat",
+      "before": "Punched Out. Bucket Hat",
+      "after": "Punched Out."
+    },
+    {
+      "handle": "the-clock-bucket-hat",
+      "before": "The Clock Bucket Hat",
+      "after": "The Clock"
+    },
+    {
+      "handle": "off-shft-logo-bucket-hat",
+      "before": "OFF SHFT Logo Bucket Hat",
+      "after": "OFF SHFT Logo"
+    },
+    {
+      "handle": "punched-out-beanie",
+      "before": "Punched Out. Beanie",
+      "after": "Punched Out."
+    },
+    {
+      "handle": "the-clock-beanie",
+      "before": "The Clock Beanie",
+      "after": "The Clock"
+    },
+    {
+      "handle": "off-shft-logo-beanie",
+      "before": "OFF SHFT Logo Beanie",
+      "after": "OFF SHFT Logo"
+    },
+    {
+      "handle": "five-oclock-crewneck",
+      "before": "5:00 Crewneck",
+      "after": "5:00"
+    },
+    {
+      "handle": "ours-to-spend-trucker-hat",
+      "before": "Ours to Spend. Trucker Hat",
+      "after": "Ours to Spend."
+    },
+    {
+      "handle": "the-rest-is-ours-hoodie",
+      "before": "The Rest Is Ours. Hoodie",
+      "after": "The Rest Is Ours."
+    },
+    {
+      "handle": "time-well-earned-t-shirt",
+      "before": "Time Well Earned. T-Shirt",
+      "after": "Time Well Earned."
+    },
+    {
+      "handle": "punched-out-jacket",
+      "before": "Punched Out. Jacket",
+      "after": "Punched Out."
+    },
+    {
+      "handle": "the-clock-jacket",
+      "before": "The Clock Jacket",
+      "after": "The Clock"
+    },
+    {
+      "handle": "off-shft-logo-jacket",
+      "before": "OFF SHFT Logo Jacket",
+      "after": "OFF SHFT Logo"
+    },
+    {
+      "handle": "the-clock-t-shirt",
+      "before": "The Clock T-Shirt",
+      "after": "The Clock"
+    },
+    {
+      "handle": "off-shft-logo-t-shirt",
+      "before": "OFF SHFT Logo T-Shirt",
+      "after": "OFF SHFT Logo"
+    },
+    {
+      "handle": "punched-out-sweatpants",
+      "before": "Punched Out. Sweatpants",
+      "after": "Punched Out."
+    },
+    {
+      "handle": "the-clock-sweatpants",
+      "before": "The Clock Sweatpants",
+      "after": "The Clock"
+    },
+    {
+      "handle": "off-shft-logo-sweatpants",
+      "before": "OFF SHFT Logo Sweatpants",
+      "after": "OFF SHFT Logo"
+    },
+    {
+      "handle": "punched-out-crewneck",
+      "before": "Punched Out. Crewneck",
+      "after": "Punched Out."
+    },
+    {
+      "handle": "the-clock-crewneck",
+      "before": "The Clock Crewneck",
+      "after": "The Clock"
+    },
+    {
+      "handle": "off-shft-logo-crewneck",
+      "before": "OFF SHFT Logo Crewneck",
+      "after": "OFF SHFT Logo"
+    },
+    {
+      "handle": "punched-out-hoodie",
+      "before": "Punched Out. Hoodie",
+      "after": "Punched Out."
+    },
+    {
+      "handle": "the-clock-hoodie",
+      "before": "The Clock Hoodie",
+      "after": "The Clock"
+    },
+    {
+      "handle": "off-shft-logo-hoodie",
+      "before": "OFF SHFT Logo Hoodie",
+      "after": "OFF SHFT Logo"
+    },
+    {
+      "handle": "punched-out-hat",
+      "before": "Punched Out. Hat",
+      "after": "Punched Out."
+    },
+    {
+      "handle": "the-clock-hat",
+      "before": "The Clock Hat",
+      "after": "The Clock"
+    },
+    {
+      "handle": "off-shft-logo-hat",
+      "before": "OFF SHFT Logo Hat",
+      "after": "OFF SHFT Logo"
+    }
+  ]
+}
