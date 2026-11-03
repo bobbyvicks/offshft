@@ -1,0 +1,420 @@
+{
+  "status": "PASS",
+  "products": 47,
+  "variants": 1153,
+  "images": 335,
+  "protectedVariantDataUnchanged": true,
+  "allMediaIdentitiesAndOrderUnchanged": true,
+  "changedImages": 51,
+  "correctedDescriptions": 13,
+  "imagesVerified": [
+    {
+      "imageId": 54406702104898,
+      "filename": "parked-trucker-evergreen-uniform.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/parked-trucker-evergreen-uniform.png?v=1793664135",
+      "sha256": "3fb7b566a8a4dc24e5077dce1ba95d3eef29a5663385187cc7ffb53b4cc1cfdc",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438398460226,
+      "filename": "parked-trucker-hat-retro-trucker-black-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/parked-trucker-hat-retro-trucker-black-front-supplier.png?v=1793664138",
+      "sha256": "8aa031906c7121b76f7076e8c6d5313dfd601e121344ff44e5c4101849564fc4",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54406676545858,
+      "filename": "banked-time-dad-spruce-uniform.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/banked-time-dad-spruce-uniform.png?v=1793663623",
+      "sha256": "fd2d09f07c9f937be69b520b23fede0dd0a37ab477e064aae5add8c446cbc11c",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54406676578626,
+      "filename": "banked-time-trucker-charcoal-black-uniform.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/banked-time-trucker-charcoal-black-uniform.png?v=1793664126",
+      "sha256": "9525e455c39f60ecb9db7cf50685f86d91ef26faa6d9bf2999a4d509a1e5e8a1",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438396854594,
+      "filename": "banked-time-hat-dad-hat-black-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/banked-time-hat-dad-hat-black-front-supplier.png?v=1793664129",
+      "sha256": "c8ef70e0f1308d0d68afe93400f37f0d19c1faf99f59f40fc6759494c4c0dd72",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438396952898,
+      "filename": "banked-time-hat-retro-trucker-evergreen-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/banked-time-hat-retro-trucker-evergreen-front-supplier.png?v=1793664130",
+      "sha256": "4a86941b9f72ddb75f8b1bdc19290889ba0c7cf30f836206714039e1846c5559",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54427542061378,
+      "filename": "golf-cotton-pique-white-front-m-l-xl-2xl-3xl.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-cotton-pique-white-front-m-l-xl-2xl-3xl.png?v=1793664161",
+      "sha256": "c7572dce02165d0f489ac8c9d56cdb1e7af569b2e0d1edc8770f20a873cde4b0",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54427550351682,
+      "filename": "golf-classic-white-front-m-l-xl-2xl-3xl.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-classic-white-front-m-l-xl-2xl-3xl.png?v=1793664164",
+      "sha256": "146af7c5f92e2647cc4bcdd691489af84b671ebb28938a63c5fd4fcc4d451c7e",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54427557167426,
+      "filename": "golf-performance-white-front-m-l-xl-2xl-3xl.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-performance-white-front-m-l-xl-2xl-3xl.png?v=1793664164",
+      "sha256": "ea8bdd765655642820b3f2f7e664f8c363375fcdc8a1a495a3a6099659ca0727",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54428568355138,
+      "filename": "golf-cotton-pique-white-printed-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-cotton-pique-white-printed-front-supplier.png?v=1793664164",
+      "sha256": "aaa77057bd185583a32833ad4e885efd8ab7ee25292aac1be2536172871d1b79",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54428568322370,
+      "filename": "golf-classic-white-printed-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-classic-white-printed-front-supplier.png?v=1793664167",
+      "sha256": "daa918d5a28002213553721a31b372a8f77b142e30d94a51b5730b8dc80260b6",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54428568224066,
+      "filename": "golf-performance-white-printed-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-performance-white-printed-front-supplier.png?v=1793664167",
+      "sha256": "81e35fe58e0580e887924db93dcee2775dc563eef549307bac360f5ebdb6a5a2",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54434688303426,
+      "filename": "golf-cotton-pique-navy-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-cotton-pique-navy-front-supplier.png?v=1793664055",
+      "sha256": "033939cfa4c1afcb31dbdf5e2b3bc3a8a51d3ee698ea110a57e3b2ac83f3e8f5",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54434688270658,
+      "filename": "golf-cotton-pique-navy-printed-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-cotton-pique-navy-printed-front-supplier.png?v=1793664083",
+      "sha256": "471b4d31789e0ebb371f3038cf4506c37369dbfd9deef185fdfcca7681345292",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54434688336194,
+      "filename": "golf-classic-navy-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-classic-navy-front-supplier.png?v=1793664095",
+      "sha256": "19b6809a3a1849e7b565beb09d2ba3fac247a22a7055de6030401bc8d1f74fd2",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54434688237890,
+      "filename": "golf-classic-navy-printed-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-classic-navy-printed-front-supplier.png?v=1793664097",
+      "sha256": "da30d2ffedbfe4fc4fb022cafa55baf07d73aaf3188153cf5f2f939d8b42be64",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54434688074050,
+      "filename": "golf-performance-collegiate-navy-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-performance-collegiate-navy-front-supplier.png?v=1793664167",
+      "sha256": "2f989efa10981c10e0e3d1fb71544213a38d92fbf9c4c07e86fc77afc69dccf2",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54434688434498,
+      "filename": "golf-performance-collegiate-navy-printed-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-performance-collegiate-navy-printed-front-supplier.png?v=1793664170",
+      "sha256": "ae7e087deeb6412591fed5f72bd4c9c3d7449dc93754d87edb73091a360096aa",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54446818427202,
+      "filename": "golf-cotton-pique-sand-front-punched-out-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-cotton-pique-sand-front-punched-out-supplier.png?v=1793664183",
+      "sha256": "41da6742427f7b7af28238b8b70a518580ca201f0f968a60ac29306d121ef874",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54446818492738,
+      "filename": "golf-cotton-pique-sand-printed-front-punched-out-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-cotton-pique-sand-printed-front-punched-out-supplier.png?v=1793664186",
+      "sha256": "fa1ac7ade188da81d5c95b5621344d72c7126759a53c22fe2ab54b09c53f3809",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54446818558274,
+      "filename": "golf-classic-stone-front-punched-out-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-classic-stone-front-punched-out-supplier.png?v=1793664186",
+      "sha256": "972bc1a4fbe1ad2b783a828b1b409feecdd29afa101b14e363a470620af17b3e",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54446818623810,
+      "filename": "golf-classic-stone-printed-front-punched-out-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/golf-classic-stone-printed-front-punched-out-supplier.png?v=1793664186",
+      "sha256": "60df19167524c3c42708e6f48a4ed28e2fae81b8ac3ac92d97f0dbbf4160ad14",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54371969794370,
+      "filename": "quarter-zip-punched-out-ivory.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-punched-out-ivory.png?v=1793664217",
+      "sha256": "5637614ac0cc47c2e9e08e402a3e3a245ff0407da6b748c8a6fbec308ff9ff2b",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54434306588994,
+      "filename": "quarter-zip-punched-smoke-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/quarter-zip-punched-smoke-front-supplier.png?v=1793664189",
+      "sha256": "292a44dd3f591c46dc8275d1c53a31a319e1d02dade936f3a66d70f8ee224781",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54424554209602,
+      "filename": "punched-out-bucket-hat-organic-stone.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-bucket-hat-organic-stone.png?v=1793664220",
+      "sha256": "4e83bc990c44e873dc4150f806177ca892c66ec633a1cce9aec29d1438128ae6",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54424553718082,
+      "filename": "punched-out-bucket-hat-classic-white.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-bucket-hat-classic-white.png?v=1793664220",
+      "sha256": "3458b82f1c8c83b3a987140f160e64e1c5d5f268077c55ae352911ef5f440dd6",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438248382786,
+      "filename": "punched-out-bucket-hat-organic-dill-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-bucket-hat-organic-dill-front-supplier.png?v=1793664189",
+      "sha256": "536f6371ff8d552438d93b3bc13e1fe0807ee5cbd910090005abc9d02a94d74f",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438249103682,
+      "filename": "punched-out-bucket-hat-classic-black-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-bucket-hat-classic-black-front-supplier.png?v=1793664189",
+      "sha256": "20f963a3d085d6e798a164a7525adffe4c828e99f5d7d236b4cf931831603458",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54424498405698,
+      "filename": "punched-out-beanie-cuffed-white.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-cuffed-white.png?v=1793664223",
+      "sha256": "a4df85e225f7cae493f920ed7becbcd0599db1ef28c66fb5cb9a3fc99a959788",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54424498438466,
+      "filename": "punched-out-beanie-ribbed-beige.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-ribbed-beige.png?v=1793664226",
+      "sha256": "5d412b06dbadfbbd55d42ab9ebb210d29057f88633a10f7bf593a9dfcf431c2a",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438235570498,
+      "filename": "punched-out-beanie-cuffed-black-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-cuffed-black-front-supplier.png?v=1793664191",
+      "sha256": "436ab1ccaef193ff688fb56de7fd14962d494359ad5c9640332abb9945986a4d",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438235636034,
+      "filename": "punched-out-beanie-cuffed-spruce-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-cuffed-spruce-front-supplier.png?v=1793664195",
+      "sha256": "f8752085814d924fa6ad55d026184e352d5f02c91b68d39ae21a4527158fa6ca",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438235799874,
+      "filename": "punched-out-beanie-ribbed-black-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-ribbed-black-front-supplier.png?v=1793664198",
+      "sha256": "c4942fc23eddb909d45de82237cef77425b61cbf59a8aeb2c0c6cddb4c912886",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438235865410,
+      "filename": "punched-out-beanie-ribbed-olive-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-beanie-ribbed-olive-front-supplier.png?v=1793664198",
+      "sha256": "2bb865c6ff79dd800b810d304550d9d02e43894b37f3ee943a1a6e2c4bd7339e",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54369671250242,
+      "filename": "off-shft-the-rest-is-ours-blue-jean.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-blue-jean.png?v=1793664113",
+      "sha256": "9c914be22216c91b66e61aeb7695d219b04b7d1b36b3e6ad224609a10868b16f",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54369671283010,
+      "filename": "off-shft-the-rest-is-ours-ivory.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-ivory.png?v=1793664113",
+      "sha256": "94a589a21daf090cfc0ba03a04abf036b834ad1b738145c0ca08ed52b2d43fc8",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54369671315778,
+      "filename": "off-shft-the-rest-is-ours-pepper.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-pepper.png?v=1793664116",
+      "sha256": "44fa961ecff2945e5c7b2a792a6d16450edf9de0d6e7e9df28b2153ff248cfe8",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54369671348546,
+      "filename": "off-shft-the-rest-is-ours-butter.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/off-shft-the-rest-is-ours-butter.png?v=1793664116",
+      "sha256": "95e7143a2d8ca42aa4a5e243eda848cefc2fce1231d947c17f15d2c6d440d878",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54426797998402,
+      "filename": "punched-out-hoodie-734-embroidered-bone.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hoodie-734-embroidered-bone.png?v=1793664198",
+      "sha256": "f7279ba292649085d97207b9fcfd50f7b34c2180014259a9dbb7d8a019db0deb",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54426805305666,
+      "filename": "punched-out-hoodie-734-embroidered-pine-green.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hoodie-734-embroidered-pine-green.png?v=1793664198",
+      "sha256": "4da65a6bf70f6afdc2ddda876a657d3ac7efe53c2d7f70d84751a1a305535af4",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54424553881922,
+      "filename": "punched-out-hat-retro-trucker-black.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-retro-trucker-black.png?v=1793664225",
+      "sha256": "8fe843f10469b76f870318f6f5b2ad1094884e7292e476dc33cf63acd72029b4",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54424553849154,
+      "filename": "punched-out-hat-5-panel-black.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-5-panel-black.png?v=1793664223",
+      "sha256": "0b983092a39dc30177b8fe02c28b7b42fe0072b4c5f8774ed4ab4d0f43a8db1f",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54424553914690,
+      "filename": "punched-out-hat-dad-hat-black.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-dad-hat-black.png?v=1793664225",
+      "sha256": "0babe2130a1a49b1486884a43efff711423c62c06d519003472e77be8701ffd0",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54424554045762,
+      "filename": "punched-out-hat-rope-cap-black-white.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-rope-cap-black-white.png?v=1793664241",
+      "sha256": "0eb45fabf34812eb73d7ddb9fb91650495d7edd2e75f9c9766786189fe8a4cc0",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54424554602818,
+      "filename": "punched-out-hat-retro-trucker-evergreen.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-retro-trucker-evergreen.png?v=1793664246",
+      "sha256": "bd4a57260e521c88bc5c29497241821529fa313f349cf99980d06668f3414bb9",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438331089218,
+      "filename": "punched-out-hat-retro-trucker-khaki-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-retro-trucker-khaki-front-supplier.png?v=1793664201",
+      "sha256": "cfce81c5d8142d291933a1a23ed4449b5f40d87ed06830d81d7f6b36cf8ffab0",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438331318594,
+      "filename": "punched-out-hat-5-panel-white-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-5-panel-white-front-supplier.png?v=1793664200",
+      "sha256": "b58acc9a44fc79fc7cb43a6e7f495ef671eaedfd3d7e379706dfa59949172414",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438331449666,
+      "filename": "punched-out-hat-5-panel-dark-green-natural-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-5-panel-dark-green-natural-front-supplier.png?v=1793664201",
+      "sha256": "500e38ddd0bf4771b27124e67cd8b9244a06f17f7ed9e2ae9add653e4cfe8d87",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438333284674,
+      "filename": "punched-out-hat-dad-hat-stone-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-dad-hat-stone-front-supplier.png?v=1793664208",
+      "sha256": "8c54d01671d1905b79af40d18729cfdaa74d62ad43fc532d2f2a84d8d5f3cd08",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438333382978,
+      "filename": "punched-out-hat-dad-hat-spruce-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-dad-hat-spruce-front-supplier.png?v=1793664208",
+      "sha256": "29172884e73ffd503ee6e329a96a3a822f7e849d274719165136b7007427c4c2",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    },
+    {
+      "imageId": 54438396166466,
+      "filename": "punched-out-hat-rope-cap-lt-gray-navy-front-supplier.png",
+      "url": "https://cdn.shopify.com/s/files/1/1044/0563/1298/files/punched-out-hat-rope-cap-lt-gray-navy-front-supplier.png?v=1793664212",
+      "sha256": "be2262ec1d5453c0f3ade3b66e10d960d9c85540a6a8527328ef2393b3f6348b",
+      "supplierPixelsMatch": true,
+      "transparentCorners": true
+    }
+  ]
+}
