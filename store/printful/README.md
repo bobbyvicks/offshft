@@ -23,6 +23,7 @@ cd tools && node ../store/printful/export.cjs && node ../store/printful/sheet.cj
 ```
 
 Rules the files follow (from `BRAND.md` and the drawing notes): never resize an embroidery file, since each size is
-its own drawing; regenerate drawings with their `build.cjs`, never by hand. The dark and one-colour Ink 40 mm clocks for the clock hat
-(`symbol-dark-40mm.svg`, `symbol-one-colour-ink-40mm.svg`, now in `designs/mark/final/block/`) were added to the logo build on
-1 Nov for this sheet; every other output of that build stayed byte-identical.
+its own drawing; regenerate drawings with their `build.cjs`, never by hand. The logo and clock files come from
+`designs/mark/final/the-o/build.cjs` (the logo typed in Unbounded Bold, the owner's call of 2 Nov 2026): the logo files
+are 62.6 mm wide (letters 7 mm), the clocks 25 and 40 mm. The dark and one-colour Ink 40 mm clocks for the clock hat
+(`symbol-dark-40mm.svg`, `symbol-one-colour-ink-40mm.svg`) were added to the logo build on 1 Nov for this sheet.

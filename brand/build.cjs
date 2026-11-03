@@ -1,8 +1,9 @@
 // OFF SHFT brand kit: every logo file, generated from the same drawings as the hats.
 //   cd /home/user/offshft/tools && node ../brand/build.cjs
-// Sources: designs/mark/final/block/build.cjs (the one-line logo, the clock symbol, the stacked logo and the clock tile;
-// the hard-edged lettering the owner picked on 2 Nov 2026) and designs/mark/square/build.cjs (the pixel-drawn tab
-// icons). Nothing here is drawn by hand, so a change to either build flows through by running this again.
+// Sources: designs/mark/final/the-o/build.cjs (the one-line logo, the clock symbol, the stacked logo and the clock tile:
+// OFF SHFT typed in Unbounded Bold, the font the owner chose, with the O as the clock and bar hands with square ends;
+// the owner's call of 2 Nov 2026) and designs/mark/square/build.cjs (the pixel-drawn tab icons). Nothing here is drawn
+// by hand, so a change to either build flows through by running this again.
 //
 // Colourways: light = Ink with Rust hands, for light backgrounds; dark = Bone with Sun hands, for dark backgrounds;
 // ink and bone = one colour (no pivot dot and a wider gap, as the embroidery rules have it).
@@ -13,7 +14,7 @@ const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 const kit = require('/home/user/offshft/tools/kit/kit.cjs');
-const LOGO = require('/home/user/offshft/designs/mark/final/block/build.cjs');
+const LOGO = require('/home/user/offshft/designs/mark/final/the-o/build.cjs');
 const SQ = require('/home/user/offshft/designs/mark/square/build.cjs');
 
 const OUT = __dirname;
@@ -68,12 +69,18 @@ async function pdf(art, file) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
   await p.pdf({ path: file, width: `${n(W)}mm`, height: `${n(H)}mm`, printBackground: false, pageRanges: '1' });
   await p.close();
+  // Chromium stamps the time of the build into /CreationDate and /ModDate; replace both with a constant of the same
+  // length (so the xref offsets stay valid) and the same drawing always gives the same bytes.
+  const pdfBytes = fs.readFileSync(file);
+  const stamped = pdfBytes.toString('latin1').replace(/\/(CreationDate|ModDate) \(D:\d{14}[^)]*\)/g, (m, key) => `/${key} (D:20000101000000+00'00')`.padEnd(m.length));
+  if (stamped.length !== pdfBytes.length) throw new Error(`pdf date stamp: length changed in ${file}`);
+  fs.writeFileSync(file, Buffer.from(stamped, 'latin1'));
   return file;
 }
 
 // ---------------------------------------------------------------- the drawings
 const ART = {
-  // the one-line logo at the hat-front and chest size (letters 10.7 mm)
+  // the one-line logo at the hat-front and chest size (LOCKUP_CAP: letters 7 mm, the smallest size with the pivot dot)
   logo: (way) => LOGO.lockup(LOGO.LOCKUP_CAP, WAYS[way].logo, { oneColour: WAYS[way].one }),
   // the stacked logo (OFF over SHFT), the same lettering
   stacked: (way) => LOGO.stackedArt(WAYS[way].logo, { oneColour: WAYS[way].one }),

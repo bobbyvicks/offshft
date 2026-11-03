@@ -3,7 +3,7 @@
 - **SEO title (29 characters):** OFF SHFT Logo Embroidered Hat
 - **Meta description (106 characters):** The O in OFF is a clock set to 5:00. Quitting time. The OFF SHFT logo, embroidered on a hat made to order.
 
-Built from store/products/_template.md. The logo is final (designs/mark/final/block/notes.md). Status: Draft until the owner publishes it, after the sample passes.
+Built from store/products/_template.md. The logo is final (designs/mark/final/the-o/notes.md; the brand sheet's logo). Status: Draft until the owner publishes it, after the sample passes.
 
 ## Fields
 
@@ -47,7 +47,7 @@ Fit questions? See [Size & fit](/pages/size-fit).
 
 ## Variants
 
-| Style | Colour | Front artwork (designs/mark/final/block/) | Thread | Price (CAD) |
+| Style | Colour | Front artwork (designs/mark/final/the-o/) | Thread | Price (CAD) |
 |---|---|---|---|---|
 | Dad hat | Bone | logo-light.svg | Ink letters, Rust hands | 34.99 |
 | Dad hat | Slate | logo-dark.svg | Bone letters, Sun hands | 34.99 |
@@ -80,9 +80,9 @@ Fit questions? See [Size & fit](/pages/size-fit).
 
 ## Setting it up at the partner
 
-From designs/mark/final/block/notes.md. Read the full digitizer notes there before ordering.
+From designs/mark/final/the-o/notes.md. Read the full digitizer notes there before ordering.
 
-- Artwork: logo-light.svg on Bone, logo-dark.svg on Slate and Spruce. Hat fronts use cap height 7 mm: 62.6 × 16.5 mm. That fits Printful's front areas (dad hat 5.5 × 2 in, 6089M snapback 6.3 × 2.56 in) and Printify's (4 × 2.25 in on caps).
+- Artwork: logo-light.svg on Bone, logo-dark.svg on Slate and Spruce. Hat fronts use cap height 7 mm: 62.6 × 16.3 mm. That fits Printful's front areas (dad hat 5.5 × 2 in, 6089M snapback 6.3 × 2.56 in) and Printify's (4 × 2.25 in on caps).
 - Text size: the letters are 7 mm tall, above Printful's minimum of 0.25 in (6.35 mm). Printify's embroidery guide asks for 0.3 in (7.6 mm) capitals, though its help centre says 0.25 in. Check that before using Printify.
 - Dad hats and structured snapbacks are 6-panel caps. Shift the logo 5.2 mm right so the centre seam falls in the space between OFF and SHFT instead of through the S. [CONFIRM: the partner's placement tool allows this offset]
 - Thread: the hex values are targets. Both partners use the same 15 standard Madeira threads. The nearest are Black (1800) for Ink, a fair match, and Orange (1987) for Rust, White (1801) for Bone and Old Gold (1672) for Sun, none of them a good match. With those, the logo is Black and Orange on Bone, and White and Old Gold on Slate and Spruce. The only way found to get closer is Printful's unlimited colour embroidery, at +US$3.95 a hat, and it needs a sew-out. [CONFIRM: owner's call: standard threads, or a sample with unlimited colour] If the result lands far from the targets, update the Thread line in the description.

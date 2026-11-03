@@ -1,16 +1,17 @@
-// Logo files for the Shopify store, generated from the final logo build so they never drift from it.
+// Logo files for the Shopify store, generated from the final logo build (designs/mark/final/the-o/build.cjs: OFF SHFT
+// typed in Unbounded Bold with the O as the clock, the owner's call of 2 Nov 2026) so they never drift from it.
 // Run: node /home/user/offshft/store/assets/build.cjs
 //
 // logo-ink.png    header logo for light backgrounds: Ink letters, Rust hands, transparent, 1200 px wide
 // logo-bone.png   header logo for dark backgrounds: Bone letters, Sun hands, transparent, 1200 px wide
-// logo.svg        the light logo as a vector (same file as designs/mark/final/block/logo-light.svg)
+// logo.svg        the light logo as a vector (same file as designs/mark/final/the-o/logo-light.svg)
 // favicon.png     512 x 512: the clock symbol on a Bone square, so it shows on light and dark browser tabs
 // social-share.png 1200 x 628: the logo on Bone, the image shown when a store link is shared
 'use strict';
 const fs = require('fs');
 const path = require('path');
 const kit = require('/home/user/offshft/tools/kit/kit.cjs');
-const B = require('/home/user/offshft/designs/mark/final/block/build.cjs');
+const B = require('/home/user/offshft/designs/mark/final/the-o/build.cjs');
 
 const OUT = __dirname;
 const n = (v) => (Math.round(v * 1000) / 1000).toString();

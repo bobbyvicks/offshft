@@ -23,7 +23,7 @@ would make room for them. Both were drawn (`build.cjs`, options `wallFactor` and
 Decision: no ticks; keep the thick O (side walls = letter stem). A ring with four inward ticks and a centre
 dot reads as a rifle-scope reticle, which is the wrong association for the brand.
 
-Also tested and not adopted: hands running from the centre over the O (`../final/the-o/hands-centre/`):
+Also tested and not adopted: hands running from the centre over the O (`../final/the-o/hands-centre/` (removed 2 Nov 2026; in git history)):
 lockup 8/10 with "QFF" mentions against 9/10 with none.
 
 The symbol's remaining "magnifying glass" reading comes from the hour hand outside the O at lower right,

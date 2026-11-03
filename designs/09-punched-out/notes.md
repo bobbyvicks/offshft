@@ -1,3 +1,5 @@
+The art is in v3/ (the owner's pick, 29 Oct 2026); this file is the 27 Oct draft's record.
+
 # Punched Out.
 
 Status: drafted (style v2: minimal)

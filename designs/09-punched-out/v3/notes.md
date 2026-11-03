@@ -9,7 +9,7 @@ PUNCHED OUT. in the logo's type: Unbounded Bold, all caps, letter-spacing 0.12 e
 | File | What it is |
 |---|---|
 | `one-line-light.svg`, `one-line-dark.svg` | PUNCHED OUT. on one line, 97.47 x 7.30 mm |
-| `stacked-centred-light.svg`, `stacked-centred-dark.svg` | PUNCHED over OUT., centred, 63.59 x 18.00 mm (the logo: 62.64 x 18.04 mm) |
+| `stacked-centred-light.svg`, `stacked-centred-dark.svg` | PUNCHED over OUT., centred, 63.59 x 18.00 mm (the logo: 62.64 x 16.26 mm) |
 | `one-line-large-light.svg`, `one-line-large-dark.svg` | The one line drawn for the big centre front of the tops, 229.75 x 17.20 mm (cap 16.5) |
 | `*-proof.png`, `*-proof-dark.png` | True-size proofs: the light files on Bone, the dark files on Slate |
 | `e-compare.png` | PUNCHED as the font draws it, over PUNCHED as drawn here (straight E), at true size |

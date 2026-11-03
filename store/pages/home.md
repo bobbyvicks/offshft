@@ -14,12 +14,12 @@ Theme: Horizon, the live theme. Section names are the ones Horizon shows under "
 
 ## Images
 
-All four are already in store/assets/, made by store/assets/build.cjs from the final logo build in designs/mark/final/block/. Never redraw or retype the logo.
+All four are already in store/assets/, made by store/assets/build.cjs from the final logo build in designs/mark/final/the-o/ (the brand sheet's logo: Unbounded Bold with the clock as the O). Never redraw or retype the logo.
 
 | File in store/assets/ | What it is | Used in |
 |---|---|---|
-| logo-ink.png | The logo for light backgrounds: Ink letters, Rust hands, transparent, 1200 × 315 px | Header. Theme settings → Logo and favicon → Default logo |
-| logo-bone.png | The logo for dark backgrounds: Bone letters, Sun hands, transparent, 1200 × 315 px | Footer. Theme settings → Logo and favicon → Inverse logo |
+| logo-ink.png | The logo for light backgrounds: Ink letters, Rust hands, transparent, 1200 × 311 px | Header. Theme settings → Logo and favicon → Default logo |
+| logo-bone.png | The logo for dark backgrounds: Bone letters, Sun hands, transparent, 1200 × 311 px | Footer. Theme settings → Logo and favicon → Inverse logo |
 | favicon.png | The clock symbol on its own, on a Bone #E4DDCB square, 512 × 512 px | Theme settings → Logo and favicon → Favicon. Also section 4: on the page's own Bone, the square doesn't show. |
 | social-share.png | The logo on Bone, 1200 × 628 px | Online Store → Preferences → Social sharing image (shown when someone shares a link to the store) |
 
@@ -30,7 +30,7 @@ All from BRAND.md.
 - Page background Bone #E4DDCB, the same Bone as the favicon and share image. Text Ink #1F2733. Buttons Ink with Bone text.
 - Dark bands (announcement bar, hero, footer): Slate #27303D background, light Bone #ECE5D3 text.
 - Rust #B4552D and Sun #D29B3C: small accents only. Rust on Bone is 3.6:1, below the 4.5:1 small text needs, so no Rust body text or links.
-- Headings in Unbounded, the phrases' face (the logo's letters are drawn), all caps with wide spacing. [CONFIRM: Unbounded is in Horizon's font picker; if not, use a plain sans] Body text in a plain sans.
+- Headings in Unbounded, the logo's and the phrases' face, all caps with wide spacing. [CONFIRM: Unbounded is in Horizon's font picker; if not, use a plain sans] Body text in a plain sans.
 
 ## Sections, top to bottom
 

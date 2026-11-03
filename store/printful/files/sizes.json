@@ -1,12 +1,12 @@
 [
  {
-  "name": "logo-light-68.6mm",
-  "source": "designs/mark/final/block/logo-light.svg",
-  "sha256": "2c860717",
-  "mm": "68.64 x 21.75",
-  "inches": "2.70 x 0.86",
+  "name": "logo-light-62.6mm",
+  "source": "designs/mark/final/the-o/logo-light.svg",
+  "sha256": "6343942b",
+  "mm": "62.64 x 16.26",
+  "inches": "2.47 x 0.64",
   "embroidery": {
-   "px": "1622 x 514",
+   "px": "1480 x 384",
    "dpi": 600,
    "threads": [
     "1800 Black",
@@ -14,20 +14,20 @@
    ]
   },
   "print": {
-   "mm": "68.64 x 21.75",
-   "inches": "2.70 x 0.86",
-   "px": "811 x 257",
+   "mm": "62.64 x 16.26",
+   "inches": "2.47 x 0.64",
+   "px": "740 x 192",
    "dpi": 300
   }
  },
  {
-  "name": "logo-dark-68.6mm",
-  "source": "designs/mark/final/block/logo-dark.svg",
-  "sha256": "dd13e899",
-  "mm": "68.64 x 21.75",
-  "inches": "2.70 x 0.86",
+  "name": "logo-dark-62.6mm",
+  "source": "designs/mark/final/the-o/logo-dark.svg",
+  "sha256": "9c12b5b6",
+  "mm": "62.64 x 16.26",
+  "inches": "2.47 x 0.64",
   "embroidery": {
-   "px": "1622 x 514",
+   "px": "1480 x 384",
    "dpi": 600,
    "threads": [
     "1801 White",
@@ -35,56 +35,56 @@
    ]
   },
   "print": {
-   "mm": "68.64 x 21.75",
-   "inches": "2.70 x 0.86",
-   "px": "811 x 257",
+   "mm": "62.64 x 16.26",
+   "inches": "2.47 x 0.64",
+   "px": "740 x 192",
    "dpi": 300
   }
  },
  {
-  "name": "logo-bone-68.6mm",
-  "source": "designs/mark/final/block/logo-one-colour-bone.svg",
-  "sha256": "cdd9970f",
-  "mm": "68.64 x 22.69",
-  "inches": "2.70 x 0.89",
+  "name": "logo-bone-62.6mm",
+  "source": "designs/mark/final/the-o/logo-one-colour-bone.svg",
+  "sha256": "4fd54540",
+  "mm": "62.64 x 17.19",
+  "inches": "2.47 x 0.68",
   "embroidery": {
-   "px": "1622 x 536",
+   "px": "1480 x 406",
    "dpi": 600,
    "threads": [
     "1801 White"
    ]
   },
   "print": {
-   "mm": "68.64 x 22.69",
-   "inches": "2.70 x 0.89",
-   "px": "811 x 268",
+   "mm": "62.64 x 17.19",
+   "inches": "2.47 x 0.68",
+   "px": "740 x 203",
    "dpi": 300
   }
  },
  {
-  "name": "logo-ink-68.6mm",
-  "source": "designs/mark/final/block/logo-one-colour-ink.svg",
-  "sha256": "f12cb4b3",
-  "mm": "68.64 x 22.69",
-  "inches": "2.70 x 0.89",
+  "name": "logo-ink-62.6mm",
+  "source": "designs/mark/final/the-o/logo-one-colour-ink.svg",
+  "sha256": "27c1d1d7",
+  "mm": "62.64 x 17.19",
+  "inches": "2.47 x 0.68",
   "embroidery": {
-   "px": "1622 x 536",
+   "px": "1480 x 406",
    "dpi": 600,
    "threads": [
     "1800 Black"
    ]
   },
   "print": {
-   "mm": "68.64 x 22.69",
-   "inches": "2.70 x 0.89",
-   "px": "811 x 268",
+   "mm": "62.64 x 17.19",
+   "inches": "2.47 x 0.68",
+   "px": "740 x 203",
    "dpi": 300
   }
  },
  {
   "name": "clock-light-25mm",
-  "source": "designs/mark/final/block/symbol-light.svg",
-  "sha256": "081e2225",
+  "source": "designs/mark/final/the-o/symbol-light.svg",
+  "sha256": "602a721d",
   "mm": "12.86 x 25.00",
   "inches": "0.51 x 0.98",
   "embroidery": {
@@ -104,8 +104,8 @@
  },
  {
   "name": "clock-dark-25mm",
-  "source": "designs/mark/final/block/symbol-dark.svg",
-  "sha256": "dd264eb9",
+  "source": "designs/mark/final/the-o/symbol-dark.svg",
+  "sha256": "bf369217",
   "mm": "12.86 x 25.00",
   "inches": "0.51 x 0.98",
   "embroidery": {
@@ -125,8 +125,8 @@
  },
  {
   "name": "clock-bone-25mm",
-  "source": "designs/mark/final/block/symbol-one-colour-bone.svg",
-  "sha256": "7b695434",
+  "source": "designs/mark/final/the-o/symbol-one-colour-bone.svg",
+  "sha256": "db905dd9",
   "mm": "12.71 x 25.00",
   "inches": "0.50 x 0.98",
   "embroidery": {
@@ -145,8 +145,8 @@
  },
  {
   "name": "clock-ink-25mm",
-  "source": "designs/mark/final/block/symbol-one-colour-ink.svg",
-  "sha256": "f1313dd1",
+  "source": "designs/mark/final/the-o/symbol-one-colour-ink.svg",
+  "sha256": "8d6f24b9",
   "mm": "12.71 x 25.00",
   "inches": "0.50 x 0.98",
   "embroidery": {
@@ -165,9 +165,9 @@
  },
  {
   "name": "clock-dark-40mm",
-  "source": "designs/mark/final/block/symbol-dark-40mm.svg",
-  "sha256": "c9d85cef",
-  "mm": "20.80 x 40.00",
+  "source": "designs/mark/final/the-o/symbol-dark-40mm.svg",
+  "sha256": "60ca7be3",
+  "mm": "20.79 x 40.00",
   "inches": "0.82 x 1.57",
   "embroidery": {
    "px": "491 x 945",
@@ -178,7 +178,7 @@
    ]
   },
   "print": {
-   "mm": "20.80 x 40.00",
+   "mm": "20.79 x 40.00",
    "inches": "0.82 x 1.57",
    "px": "246 x 472",
    "dpi": 300
@@ -186,9 +186,9 @@
  },
  {
   "name": "clock-light-40mm",
-  "source": "designs/mark/final/block/symbol-light-40mm.svg",
-  "sha256": "4a1af024",
-  "mm": "20.80 x 40.00",
+  "source": "designs/mark/final/the-o/symbol-light-40mm.svg",
+  "sha256": "e87b4815",
+  "mm": "20.79 x 40.00",
   "inches": "0.82 x 1.57",
   "embroidery": {
    "px": "491 x 945",
@@ -199,7 +199,7 @@
    ]
   },
   "print": {
-   "mm": "20.80 x 40.00",
+   "mm": "20.79 x 40.00",
    "inches": "0.82 x 1.57",
    "px": "246 x 472",
    "dpi": 300
@@ -207,9 +207,9 @@
  },
  {
   "name": "clock-ink-40mm",
-  "source": "designs/mark/final/block/symbol-one-colour-ink-40mm.svg",
-  "sha256": "ffb75ac4",
-  "mm": "20.80 x 40.00",
+  "source": "designs/mark/final/the-o/symbol-one-colour-ink-40mm.svg",
+  "sha256": "3e1822a4",
+  "mm": "20.79 x 40.00",
   "inches": "0.82 x 1.57",
   "embroidery": {
    "px": "491 x 945",
@@ -219,7 +219,7 @@
    ]
   },
   "print": {
-   "mm": "20.80 x 40.00",
+   "mm": "20.79 x 40.00",
    "inches": "0.82 x 1.57",
    "px": "246 x 472",
    "dpi": 300
@@ -720,27 +720,27 @@
  },
  {
   "name": "logo-light-75mm-print",
-  "source": "designs/mark/final/block/logo-light.svg",
-  "sha256": "2c860717",
-  "mm": "68.64 x 21.75",
-  "inches": "2.70 x 0.86",
+  "source": "designs/mark/final/the-o/logo-light.svg",
+  "sha256": "6343942b",
+  "mm": "62.64 x 16.26",
+  "inches": "2.47 x 0.64",
   "print": {
-   "mm": "75.00 x 23.77",
-   "inches": "2.95 x 0.94",
-   "px": "886 x 281",
+   "mm": "75.00 x 19.46",
+   "inches": "2.95 x 0.77",
+   "px": "886 x 230",
    "dpi": 300
   }
  },
  {
   "name": "logo-dark-75mm-print",
-  "source": "designs/mark/final/block/logo-dark.svg",
-  "sha256": "dd13e899",
-  "mm": "68.64 x 21.75",
-  "inches": "2.70 x 0.86",
+  "source": "designs/mark/final/the-o/logo-dark.svg",
+  "sha256": "9c12b5b6",
+  "mm": "62.64 x 16.26",
+  "inches": "2.47 x 0.64",
   "print": {
-   "mm": "75.00 x 23.77",
-   "inches": "2.95 x 0.94",
-   "px": "886 x 281",
+   "mm": "75.00 x 19.46",
+   "inches": "2.95 x 0.77",
+   "px": "886 x 230",
    "dpi": 300
   }
  }

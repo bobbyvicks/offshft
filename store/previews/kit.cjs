@@ -38,7 +38,7 @@ function strokes(scale) {
   };
 }
 
-// The real artwork, read from the final logo build. kind: 'lockup' (62.6 x 18.0 mm) or 'symbol' (11.8 x 25.0 mm).
+// The real artwork, read from the final logo build. kind: 'lockup' or 'symbol'; the sizes are read from the SVGs.
 const LOGO_FILES = { lockup: 'logo-light.svg', symbol: 'symbol-light-25mm.svg' };
 function logo(kind) {
   const src = fs.readFileSync(path.join(LOGO_DIR, LOGO_FILES[kind]), 'utf8');

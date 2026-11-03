@@ -40,8 +40,8 @@
 //   S trim they depend on the cap height: they shrink above cap 7 and are 0 from cap 7.75 (E) and 8.6 (C).
 // - Full stop: Unbounded's own round period, 2.15 mm across at cap 7 (the logo's dot rule: at least 1.5 mm), in the
 //   accent thread: Rust on light fabric, Sun on dark. It's the only accent.
-// - Stacked: line gap 3.7 mm at cap 7 (PUNCHED's baseline to OUT.'s cap line), so the block is the logo's height
-//   (18.0 mm). OUT is centred on PUNCHED by its letters; the full stop hangs, as punctuation does.
+// - Stacked: line gap 3.7 mm at cap 7 (PUNCHED's baseline to OUT.'s cap line), so the block is 18.0 mm, the height
+//   of the logo as it was drawn in October (the logo is 16.3 mm tall since 2 Nov 2026; the stack was not redrawn). OUT is centred on PUNCHED by its letters; the full stop hangs, as punctuation does.
 //
 // Run from /home/user/offshft/tools:  node ../designs/09-punched-out/v3/build.cjs
 // Writes <id>-light.svg and <id>-dark.svg (true size, mm), <id>-proof.png (light, on Bone) and <id>-proof-dark.png
@@ -143,7 +143,7 @@ const MASTERS = [
   }),
   variant('stacked-centred', CAP, stackedCentred, {
     name: 'Stacked, centred',
-    description: 'PUNCHED over OUT., centred, with the full stop hanging past OUT. The logo\'s height and almost its width, for the left chest and the sweatpants leg, or a hat front as a block.',
+    description: 'PUNCHED over OUT., centred, with the full stop hanging past OUT. 18.0 mm, the height of the logo as it was drawn in October (the logo is 16.3 mm tall since 2 Nov 2026; the stack was not redrawn), and almost its width, for the left chest and the sweatpants leg, or a hat front as a block.',
   }),
 ];
 const LARGE = variant('one-line-large', LARGE_CAP, oneLine);

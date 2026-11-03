@@ -18,7 +18,7 @@ The exact theme setup for OFF SHFT. Follow it top to bottom and you won't need t
 
 ### What must exist first
 
-- **Images:** upload these from store/assets/ to Content → Files: logo-ink.png, logo-bone.png, favicon.png, social-share.png. The theme doesn't use logo.svg. In this store the first three are already there as offshft-logo-ink.png, offshft-logo-bone.png and offshft-favicon.png (store/theme-files/build.cjs), and the appendix uses those names. [CONFIRM: the names Content → Files shows, including social-share.png's]
+- **Images:** upload these from store/assets/ to Content → Files: logo-ink.png, logo-bone.png, favicon.png, social-share.png. The theme doesn't use logo.svg. In this store the first three are already there as offshft-logo-ink.png, offshft-logo-bone.png and offshft-favicon.png (store/theme-files/build.cjs), and the appendix uses those names; offshft-logo-ink.png, offshft-logo-bone.png and offshft-social-share.png were replaced with this version on 3 Nov 2026. [CONFIRM: the names Content → Files shows, including social-share.png's]
 - **Pages** the menus link to: About, FAQ, Size & fit, Shipping & returns (store/pages/), plus the Contact page the store already has. [CONFIRM: the existing Contact page's handle is contact]
 - **Collections** from store/collections.md: all-hats, fishing, golf, cottage, cornhole, text-hats.
 - **Store name:** OFF SHFT (owner's call, Settings → General). The footer copyright prints it.
@@ -169,7 +169,7 @@ Both fonts are in Shopify's font library. Shopify's font list (shopify.dev) has 
 | **Subheading** | Archivo | Semibold (600) | `archivo_n6` |
 | **Body** | Archivo | Regular (400) | `archivo_n4` |
 
-- Unbounded Bold is the typeface of the phrase designs (BRAND.md; the logo's own letters are drawn, since 2 Nov 2026). It's used only for headings.
+- Unbounded Bold is the typeface of the logo's letters and the phrase designs (BRAND.md). It's used only for headings.
 - Archivo is plain and reads well at small sizes. The logo was set in Archivo before the owner picked Unbounded (designs/mark/BRIEF.md), so it already belongs to the brand.
 - Accent matches Heading. Horizon loads each font once, so this adds no download, and anything set to Accent stays on brand.
 
@@ -223,13 +223,13 @@ Theme settings → Logo and favicon:
 
 | Setting | Value | ID |
 |---|---|---|
-| **Default logo** | logo-ink.png (Ink letters, Rust hands, transparent, 1200 × 315 px) | `logo` |
-| **Inverse logo** | logo-bone.png (Bone letters, Sun hands, transparent, 1200 × 315 px) | `logo_inverse` |
-| **Desktop height** | 32 px, so the logo shows about 122 px wide | `logo_height` |
-| **Mobile height** | 24 px, so about 91 px wide | `logo_height_mobile` |
+| **Default logo** | logo-ink.png (Ink letters, Rust hands, transparent, 1200 × 311 px) | `logo` |
+| **Inverse logo** | logo-bone.png (Bone letters, Sun hands, transparent, 1200 × 311 px) | `logo_inverse` |
+| **Desktop height** | 32 px, so the logo shows about 123 px wide | `logo_height` |
+| **Mobile height** | 24 px, so about 92 px wide | `logo_height_mobile` |
 | **Favicon** | favicon.png (the clock symbol on a Bone fabric square, 512 × 512 px). Shopify shrinks it to 32 × 32 px. | `favicon` |
 
-- 32 px tall puts the letters about 13.6 px high, so the logo reads clearly and still stays small.
+- 32 px tall puts the letters about 13.8 px high, so the logo reads clearly and still stays small.
 - The 1200 px files are sharp at three times these sizes, so they stay crisp on high-density screens.
 - **Social sharing image:** social-share.png (1200 × 628 px). It isn't a theme setting. It goes in Online Store → Preferences → Social sharing image. That's a store setting, so the owner approves it.
 - Never redraw or retype the logo. All four files come from store/assets/build.cjs.
@@ -623,7 +623,7 @@ The store sits behind this page until launch.
 
 | Block | Setting | Value |
 |---|---|---|
-| Logo (`logo`) | **Unit** / **Height** (`unit`, `pixel_height`) | Pixel / 40 px (about 152 px wide) |
+| Logo (`logo`) | **Unit** / **Height** (`unit`, `pixel_height`) | Pixel / 40 px (about 154 px wide) |
 | Text (`text`) | **Text** (`text`) | Opening soon (as it ships, Heading 3) |
 | Text (`text`) | **Text** (`text`) | Hats for the hours you earned. Leave your email and we'll let you know when we open. Unsubscribe any time. |
 | Email signup (`email-signup`) | **Label** / Submit button **Style** (`label`, `style_class`) | Sign up / Primary |

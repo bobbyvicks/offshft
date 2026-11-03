@@ -10,9 +10,9 @@ const hex2rgb = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16)).joi
 const THREAD = [['Ink', '#1F2733', 'Letters and ring. Printful standard: Black 1800, a fair match'], ['Bone', '#ECE5D3', 'Letters on dark; screen background. Printful standard: White 1801, no close match'], ['Rust', '#B4552D', 'Hands and dot on light. Printful standard: Orange 1987, no close match'], ['Sun', '#D29B3C', 'Hands and dot on dark. Printful standard: Old Gold 1672, no close match'], ['Sage', '#9AA383', 'Spare accent. Printful standard: Kiwi Green 1848, no close match']];
 const FABRIC = [['Bone', '#E4DDCB', 'Ink + Rust'], ['Oat', '#C7B48E', 'Ink + Rust after a sew-out, or Ink'], ['Moss', '#5A5F40', 'Bone, one colour'], ['Spruce', '#2E3D35', 'Bone + Sun'], ['Slate', '#27303D', 'Bone + Sun'], ['Rust', '#8E4426', 'Bone, one colour']];
 const LOGOS = [
-  { name: 'One-line logo', file: 'logo/offshft-logo-light.svg', dark: 'logo/offshft-logo-dark.svg', col: true, use: 'Hat fronts, the website header, packaging, anything wide.', min: 'Embroidered: 68.6 mm wide (letters 10.7 mm, the smallest size), from the drawing made for that size. Screens: 80 px wide.' },
+  { name: 'One-line logo', file: 'logo/offshft-logo-light.svg', dark: 'logo/offshft-logo-dark.svg', col: true, use: 'Hat fronts, the website header, packaging, anything wide.', min: 'Embroidered: 62.6 mm wide (letters 7 mm, the smallest size with the pivot dot), from the drawing made for that size. Screens: 80 px wide.' },
   { name: 'Stacked logo', file: 'stacked/offshft-stacked-light.svg', dark: 'stacked/offshft-stacked-dark.svg', use: 'Every square or circle: profile pictures, app icon, Shopify square logo, round patches and stickers.', min: 'Drawn for 40 px and up. Smaller, the app shows the name beside it.' },
-  { name: 'Clock', file: 'clock/offshft-clock-light.svg', dark: 'clock/offshft-clock-dark.svg', use: 'Hat backs and sides (the side master there), patches and stickers cut to its outline. Not the main profile picture.', min: 'Embroidered: 19 mm tall in two colours, 20.5 mm in one, each from the drawing made for that size. Screens: 48 px tall.' },
+  { name: 'Clock', file: 'clock/offshft-clock-light.svg', dark: 'clock/offshft-clock-dark.svg', use: 'Hat backs and sides (the side master there), patches and stickers cut to its outline. Not the main profile picture.', min: 'Embroidered: 25 mm tall (this file); smallest 19 mm, two colours or one (one colour has no dot). Screens: 48 px tall.' },
   { name: 'Tab icon', file: 'icons/favicon-48.svg', dark: null, use: 'The browser tab only. Redrawn on the pixel grid at 16, 32 and 48 px (shown at 48).', min: 'Use the size it was drawn for; never scale it.', pixel: true },
 ];
 const DONT = [
@@ -119,12 +119,12 @@ ${LOGOS.map((L) => `      <div class="card"><div class="art${L.dark ? (L.col ? '
   </section>
 
   <section class="lower">
-    <div class="type"><h2>Type</h2><p class="u">PUNCHED OUT.</p><p><b>Unbounded Bold</b>, capitals, letter-spacing 0.12 em: headings and the phrases on hats; the logo's letters are drawn, not typed. Embroidered letters at least 6.6 mm tall, with the S trims: phrases are set with the build, never typed.</p><p class="a">Archivo for website text and labels.</p><p class="small">Both are free Google Fonts.</p></div>
+    <div class="type"><h2>Type</h2><p class="u">PUNCHED OUT.</p><p><b>Unbounded Bold</b>, capitals, letter-spacing 0.12 em: the logo's letters are typed in it (three small kerns), as are headings and the phrases on hats. Embroidered letters at least 6.6 mm tall, with the S trims: set by the builds, never by hand.</p><p class="a">Archivo for website text and labels.</p><p class="small">Both are free Google Fonts.</p></div>
     <div><h2>Space around it</h2><div class="space"><div><img src="${uri('logo/offshft-logo-light.svg')}" alt=""></div></div><p class="small">Around the one-line logo, and the stacked logo on a square: at least the height of the letters, measured from the tips of the hands. In circles the stacked logo fills 90% of the radius on purpose.</p></div>
     <div><h2>Don't</h2><ul>${DONT.map((d) => `<li>${d}</li>`).join('')}</ul></div>
   </section>
 
-  <footer>Thread colours are targets. On Printful's standard threads they come out as the nearest thread above; Printful's unlimited-colour embroidery (about US$3.95 more a hat) matches the hex. Approve every colourway from a sew-out. Which file to use: brand/README.md. Embroidery drawings for every size, with stitch notes: designs/mark/final/block.</footer>
+  <footer>Thread colours are targets. On Printful's standard threads they come out as the nearest thread above; Printful's unlimited-colour embroidery (about US$3.95 more a hat) matches the hex. Approve every colourway from a sew-out. Which file to use: brand/README.md. Embroidery drawings for every size, with stitch notes: designs/mark/final/the-o.</footer>
 </main>
 </body>
 </html>
@@ -137,6 +137,14 @@ fs.writeFileSync(path.join(DIR, 'sheet.html'), html);
   await p.goto('file://' + path.join(DIR, 'sheet.html'));
   await p.waitForTimeout(1200);
   await p.pdf({ path: path.join(DIR, 'offshft-brand-sheet.pdf'), format: 'Letter', printBackground: true, preferCSSPageSize: true });
+  // As brand/build.cjs: Chromium stamps the build time into /CreationDate and /ModDate; replace both with a constant of
+  // the same length so the same sheet always gives the same bytes.
+  {
+    const pdfFile = path.join(DIR, 'offshft-brand-sheet.pdf'), pdfBytes = fs.readFileSync(pdfFile);
+    const stamped = pdfBytes.toString('latin1').replace(/\/(CreationDate|ModDate) \(D:\d{14}[^)]*\)/g, (m, key) => `/${key} (D:20000101000000+00'00')`.padEnd(m.length));
+    if (stamped.length !== pdfBytes.length) throw new Error('pdf date stamp: length changed');
+    fs.writeFileSync(pdfFile, Buffer.from(stamped, 'latin1'));
+  }
   for (const [w, name] of [[1100, 'desk'], [400, 'phone']]) {
     const q = await b.newPage({ viewport: { width: w, height: 900 } });
     await q.goto('file://' + path.join(DIR, 'sheet.html'));

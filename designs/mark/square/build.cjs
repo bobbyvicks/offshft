@@ -22,9 +22,11 @@ const n = (v) => (Math.round(v * 1000) / 1000).toString();
 const LIGHT = { name: 'light', bg: T.bone, ring: T.ink, hands: T.rust, text: T.ink };
 const DARK = { name: 'dark', bg: F.slate, ring: T.bone, hands: T.sun, text: T.bone };
 
-// ---------------------------------------------------------------- the clock, drawn like the final symbol
-// Same construction as clockO() in the final build: ring with thinner top and bottom walls, hands with concave bases
-// across an even channel (outside) or from the pivot (inside), 90 degree points ending in a flat 0.3 x the hand width.
+// ---------------------------------------------------------------- the clock, drawn like the final symbol was on 31 Oct
+// The hand() here is this study's own drawing (31 Oct): ring with thinner top and bottom walls, hands with concave
+// bases across an even channel (outside) or from the pivot (inside), 90 degree points ending in a flat 0.3 x the hand
+// width. The final build's hands are plain bars with square ends since 2 Nov 2026, and its clockO() is now clock();
+// this study's drawing stays as it was, so the tab icons do not change.
 function hand(cx, cy, deg, rho, L, s, { fromCentre = false } = {}) {
   const a = (deg * Math.PI) / 180;
   const ux = Math.sin(a), uy = -Math.cos(a), nx = -uy, ny = ux;
@@ -152,8 +154,9 @@ function stackedArt(c, o = {}) {
   return { w: bbox.x1 - bbox.x0, h: bbox.y1 - bbox.y0, body: `<g transform="translate(${n(-bbox.x0)} ${n(-bbox.y0)})">${body}</g>` };
 }
 
-// The clock face: an Ink ring as the dial, and the symbol's hands standing out of the pivot dot across an even channel,
-// with the same concave bases and pointed tips (the dot plays the part the O plays in the symbol).
+// The clock face: an Ink ring as the dial, and this study's hands (pointed tips, concave bases: the final symbol's have
+// been bars with square ends since 2 Nov 2026) standing out of the pivot dot across an even channel (the dot plays the
+// part the O plays in the symbol).
 // Round 1 (dot 0.13 D, hands 0.05 D, hour 0.56 of the dial) read as a clock 9/10, but all three readers also saw a
 // "!" (the long hand floating over a big dot). Round 2: a smaller dot, bolder hands and a broader, longer hour hand,
 // as on a real watch, so it reads as two hands. After the critics: bolder hands still (0.07 of the dial, hour 1.25 x),

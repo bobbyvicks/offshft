@@ -41,8 +41,8 @@ Each piece carries one small embroidered mark. The chest gets the full logo, the
 | Fabric and fit | Oversized. 10 oz (339 g/m²) fleece, 60/40 cotton/poly. Double hood, no drawcord, one front pocket [1]. The maker is moving it to 65/35 [34]. |
 | Sizes | XS–4XL from the maker [29]. [CONFIRM: Printful's size range] |
 | Colours | Bone (Printful's Dust), Spruce (Forest), Navy. See Colours below. |
-| Left chest | The lockup, embroidered. Cap height 7 mm: 62.6 × 18.0 mm (2.46 × 0.71 in), measured |
-| Left wrist | The symbol, embroidered. 25.0 mm tall: 11.8 × 25.0 mm (0.46 × 0.98 in), measured |
+| Left chest | The lockup, embroidered. Cap height 7 mm: 62.6 × 16.3 mm (2.47 × 0.64 in), measured |
+| Left wrist | The symbol, embroidered. 25.0 mm tall: 12.9 × 25.0 mm (0.51 × 0.98 in), measured |
 | Placements Printful offers | Embroidery: left chest, centre chest, left wrist, right wrist. The back takes a print only [1]. |
 
 ### Sweatpants: Bella + Canvas 4737
@@ -53,7 +53,7 @@ Each piece carries one small embroidered mark. The chest gets the full logo, the
 | Fabric and fit | Relaxed. 10 oz (339 g/m²) fleece, 60/40. Side pockets, inside drawcord, elastic cuffs [3]. |
 | Sizes | S–3XL [4] |
 | Colours | Bone (Dust) and Navy. No Spruce: the maker doesn't make this one in Forest [31]. |
-| Front left leg | The symbol, embroidered, 25.0 mm tall (11.8 × 25.0 mm), the same as the wrist. Option: 40 mm (19.1 × 40.0 mm). Both measured. |
+| Front left leg | The symbol, embroidered, 25.0 mm tall (12.9 × 25.0 mm), the same as the wrist. Option: 40 mm (20.8 × 40.0 mm). Both measured. |
 | Placements Printful offers | Embroidery: front left leg, front right leg, back left leg, back right leg. One embroidery placement is included in the price [3]. |
 
 25 mm is the default. It matches the wrist, it's the quietest choice, and the same design can serve both (Printful charges US$2.95 to reuse a design on another product [6]). The 40 mm option reads better from a distance but is taller than the chest logo, so it would be the loudest mark in the set. Compare them in `leg-bone.png` and `leg-40mm-bone.png`.
@@ -87,16 +87,16 @@ Each piece carries one small embroidered mark. The chest gets the full logo, the
 
 | Use | Artwork (designs/mark/final/the-o/) | Size, measured | Floor (notes.md) | Printful's limit | OK |
 |---|---|---|---|---|---|
-| Chest, hoodie and crewneck | logo-light.svg on Bone, logo-dark.svg on Spruce and Navy | Cap 7: 62.6 × 18.0 mm, pivot dot 1.53 mm | Cap 6.6 mm minimum; cap 7 keeps the pivot dot | Left chest 4 × 4 in (101.6 mm) [10]. Text at least 0.25 in (6.35 mm) [7] | Yes |
-| Wrist, hoodie and crewneck | symbol-light.svg, symbol-dark.svg | 11.8 × 25.0 mm, 1.2 mm channel | 19 mm tall minimum | Sleeve top 2 × 3 in (50.8 × 76.2 mm) [11]. [CONFIRM: the wrist area, in each product's File guidelines tab] | Yes |
-| Leg, sweatpants | symbol-light.svg, symbol-dark.svg | 11.8 × 25.0 mm | 19 mm | [CONFIRM: the leg area's size, and where on the leg it sits] | Yes |
-| Leg option | symbol-light-40mm.svg. The dark 40 mm file doesn't exist yet | 19.1 × 40.0 mm, 1.5 mm channel | From 35 mm, a 1.5 mm channel; plain satin up to 45 mm | [CONFIRM] | Yes |
+| Chest, hoodie and crewneck | logo-light.svg on Bone, logo-dark.svg on Spruce and Navy | Cap 7: 62.6 × 16.3 mm, pivot dot 1.53 mm | Cap 6.6 mm minimum; cap 7 keeps the pivot dot | Left chest 4 × 4 in (101.6 mm) [10]. Text at least 0.25 in (6.35 mm) [7] | Yes |
+| Wrist, hoodie and crewneck | symbol-light.svg, symbol-dark.svg | 12.9 × 25.0 mm, 1.2 mm channel | 19 mm tall minimum | Sleeve top 2 × 3 in (50.8 × 76.2 mm) [11]. [CONFIRM: the wrist area, in each product's File guidelines tab] | Yes |
+| Leg, sweatpants | symbol-light.svg, symbol-dark.svg | 12.9 × 25.0 mm | 19 mm | [CONFIRM: the leg area's size, and where on the leg it sits] | Yes |
+| Leg option | symbol-light-40mm.svg, symbol-dark-40mm.svg | 20.8 × 40.0 mm, 1.5 mm channel | From 35 mm, a 1.5 mm channel; plain satin up to 45 mm | [CONFIRM] | Yes |
 
-- Thinnest strokes: the lockup ring's top and bottom are 1.43 mm and the F arms 1.63 mm (notes.md). Printful's thinnest line is 0.05 in (1.27 mm) [7]. The 25 mm symbol's thinnest stroke is 2.13 mm (measured).
+- Thinnest strokes: the lockup ring's top and bottom are 1.43 mm and the F arms 1.63 mm (notes.md). Printful's thinnest line is 0.05 in (1.27 mm) [7]. The 25 mm symbol's thinnest stroke is its ring wall, 2.51 mm (notes.md).
 - Gaps: the channel between ring and hands is 1.0 mm in the lockup and 1.2 mm in the symbol. The S openings are 1.0 mm (notes.md). Printful may join shapes closer than 3 mm with connecting stitches [9]. The sample decides. This is fleece, not hat twill, so check those gaps closely.
 - The side-of-hat master isn't used. It's only for spaces under 19 mm (notes.md), and every placement here has room for the full symbol.
 - The 5.2 mm shift in notes.md is for the centre seam on 6-panel caps. It doesn't apply here.
-- If the 62.6 mm chest logo looks too small on the oversized cut, cap 7.5 is 67.1 × 19.3 mm (measured) and has a light proof in the-o/ (logo-light-cap7.5.svg). The dark one would be built first. It would be digitized as its own size.
+- If the 62.6 mm chest logo looks too small on the oversized cut, cap 7.5 would be drawn with lockup(7.5) first (67.1 × 17.4 mm from the build); no proof is kept; it would be digitized as its own size.
 
 ### Not in this drop
 
@@ -264,8 +264,8 @@ Pairs with the OFF SHFT Logo Sweatpants. Which size? See [Size & fit](/pages/siz
 **Setting it up at Printful**
 
 - Product: Unisex Oversized Heavyweight Hoodie, Bella + Canvas 4719 [1]. Technique: embroidery.
-- Left chest: logo-light.svg or logo-dark.svg at 100%, 62.6 × 18.0 mm. [CONFIRM: the editor keeps it at 62.6 mm and doesn't stretch it to fill the 4 in area]
-- Left wrist: symbol-light.svg or symbol-dark.svg at 100%, 11.8 × 25.0 mm. The minute hand points up the arm, toward the shoulder. [CONFIRM: how the wrist placement is turned in the design maker]
+- Left chest: logo-light.svg or logo-dark.svg at 100%, 62.6 × 16.3 mm. [CONFIRM: the editor keeps it at 62.6 mm and doesn't stretch it to fill the 4 in area]
+- Left wrist: symbol-light.svg or symbol-dark.svg at 100%, 12.9 × 25.0 mm. The minute hand points up the arm, toward the shoulder. [CONFIRM: how the wrist placement is turned in the design maker]
 - Threads: Black + Orange on Bone, White + Old Gold on Spruce and Navy, or unlimited colour (owner's call).
 - Approve only after a sew-out on the real hoodie shows both channels at least 0.8 mm open, the O's counter open, both S openings open and the symbol's pivot centred within 0.2 mm (notes.md).
 
@@ -334,7 +334,7 @@ Pairs with the OFF SHFT Logo Hoodie. Which size? See [Size & fit](/pages/size-fi
 **Setting it up at Printful**
 
 - Product: Unisex Heavyweight Sweatpants, Bella + Canvas 4737 [3]. Technique: embroidery. Placement: front left leg.
-- symbol-light.svg or symbol-dark.svg at 100%, 11.8 × 25.0 mm, minute hand pointing up. [CONFIRM: the leg area's size, and that the design sits on the upper thigh]
+- symbol-light.svg or symbol-dark.svg at 100%, 12.9 × 25.0 mm, minute hand pointing up. [CONFIRM: the leg area's size, and that the design sits on the upper thigh]
 - One reviewer's embroidered pair had a loose leg seam [3]. Check it on the sample.
 - Same sew-out checks as the hoodie.
 
@@ -446,10 +446,10 @@ Notes
 
 | File in store/apparel/ | Shows | Size |
 |---|---|---|
-| chest-bone.png, chest-spruce.png, chest-navy.png | The lockup, left chest of the hoodie and crewneck | 62.6 × 18.0 mm |
-| wrist-bone.png, wrist-spruce.png, wrist-navy.png | The symbol, left wrist of the hoodie and crewneck | 11.8 × 25.0 mm |
-| leg-bone.png, leg-navy.png | The symbol, front left leg of the sweatpants | 11.8 × 25.0 mm |
-| leg-40mm-bone.png, leg-40mm-navy.png | The larger leg option | 19.1 × 40.0 mm |
+| chest-bone.png, chest-spruce.png, chest-navy.png | The lockup, left chest of the hoodie and crewneck | 62.6 × 16.3 mm |
+| wrist-bone.png, wrist-spruce.png, wrist-navy.png | The symbol, left wrist of the hoodie and crewneck | 12.9 × 25.0 mm |
+| leg-bone.png, leg-navy.png | The symbol, front left leg of the sweatpants | 12.9 × 25.0 mm |
+| leg-40mm-bone.png, leg-40mm-navy.png | The larger leg option | 20.8 × 40.0 mm |
 | sheet.png | All ten, labelled | |
 
 - The swatches are the brand fabrics the blanks stand in for: Bone #E4DDCB, Spruce #2E3D35 and Slate #27303D. They aren't Printful's real colours, which nobody has seen. The real Navy is bluer.

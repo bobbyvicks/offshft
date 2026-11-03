@@ -520,8 +520,8 @@ New:
 
 > ## Design rules for garments
 >
-> - **One mark on the front, small, on the left chest.** The lockup at hat-front size: cap 7 mm and 62.6 mm wide, the smallest size that keeps the pivot dot. Or the symbol, at least 19 mm tall in two colours (20.5 mm in one). Both from `designs/mark/final/the-o/notes.md`. [CONFIRM: the left-chest area the partner offers on each blank]
-> - **At most one second mark:** the symbol, on the sleeve near the cuff, the back of the neck or the upper left leg of the sweats. Under 19 mm, use the side master (8.4 × 16.6 mm), never a scaled-down symbol (notes.md).
+> - **One mark on the front, small, on the left chest.** The lockup at hat-front size: cap 7 mm and 62.6 mm wide, the smallest size that keeps the pivot dot. Or the symbol, at least 19 mm tall, in two colours or one. Both from `designs/mark/final/the-o/notes.md`. [CONFIRM: the left-chest area the partner offers on each blank]
+> - **At most one second mark:** the symbol, on the sleeve near the cuff, the back of the neck or the upper left leg of the sweats. Under 19 mm, use the side master (8.2 × 16.1 mm; one colour 8.3 × 16.7 mm), never a scaled-down symbol (notes.md).
 > - **No big prints.** Nothing across the chest or the back. Nothing on the hood, the pocket or the seat.
 > - **Hobby designs:** icon and label at about hat-front size, on the left chest. The logo moves to the sleeve or the back of the neck.
 > - **Words:** Unbounded Bold, cap 6.6 mm or more when embroidered (notes.md). Printed: [CONFIRM: the partner's smallest text and line for the print method].

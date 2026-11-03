@@ -103,6 +103,11 @@ function stripDates(file) {
   fs.writeFileSync(path.join(out, 'README.txt'), README);
   const zip = path.join(DIR, 'offshft-printful-files.zip');
   fs.rmSync(zip, { force: true });
+  // zip stores each file's mtime; set a constant one on everything under the output folder, so the same inputs give
+  // the same zip bytes
+  const EPOCH = new Date('2000-01-01T00:00:00Z');
+  const stamp = (dir) => { for (const e of fs.readdirSync(dir, { withFileTypes: true })) { const f = path.join(dir, e.name); if (e.isDirectory()) stamp(f); fs.utimesSync(f, EPOCH, EPOCH); } };
+  stamp(out); fs.utimesSync(out, EPOCH, EPOCH);
   execFileSync('zip', ['-q', '-X', '-r', zip, 'README.txt', 'sizes.json', 'embroidery', 'print', 'svg'], { cwd: out, stdio: 'inherit' });
   console.log(`exported ${report.length} designs (${report.filter((r) => r.embroidery).length} embroidery, ${report.length} print)`);
 })().catch((e) => { console.error(e); process.exit(1); });

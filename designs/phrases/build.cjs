@@ -64,7 +64,8 @@
 //   All edits are passed to the logo's glyphMM as its per-letter table (draw / add / cut shapes in font units), so the
 //   logo itself is unchanged.
 // - Stacks: PO's line gap (3.7 mm at cap 7, baseline to cap line), every line centred on one axis by its letters; the
-//   full stop hangs. Two lines at cap 7 make the logo's 18 mm block; TIME WELL EARNED. is three lines, at the cap its
+//   full stop hangs. Two lines at cap 7 make an 18.0 mm block, the height of the logo as it was drawn in October (the
+//   logo is 16.3 mm tall since 2 Nov 2026; the stack was not redrawn); TIME WELL EARNED. is three lines, at the cap its
 //   centre chest gives it (below). Where the stop hangs past the widest line, the file gets the same width of empty
 //   margin on the other side, so centring the file centres the letters.
 // - Big centre fronts: the one line at the largest cap (in 0.1 mm steps) that fits the 230 mm box the store uses for
@@ -1055,7 +1056,7 @@ function notes(ctx) {
   let placeRow, placeNotes = [];
   if (d.area === 'chest') {
     placeRow = `| ${d.where.replace(/, S to 3XL$/, '')} | Centred in Printful’s 4 x 4 in (101.6 mm) left-chest square: ${f1(spare(m, 'chest'))} mm spare each side, ${f1((H - m.h) / 2)} mm above and below |`;
-    placeNotes.push(`- The block is the logo’s height (18.0 mm) and close to its width (62.6 mm), as Punched Out.’s chest stack (63.59 x 18.00 mm).`);
+    placeNotes.push(`- The block is 18.0 mm tall, the height of the logo as it was drawn in October (the logo is 16.3 mm tall since 2 Nov 2026; the stack was not redrawn), and close to its width (62.6 mm), as Punched Out.’s chest stack (63.59 x 18.00 mm).`);
   } else if (d.area === 'centreChest') {
     const next = (() => { const b = fileBox(layout(d, +(cap + FIT.step).toFixed(1))); return b.x1 - b.x0; })();
     placeRow = `| ${d.where.replace(/, S to 3XL$/, '')} | Centred in Printful’s 4 x 4 in (101.6 mm) centre-chest square: ${f1(spare(m, 'centreChest'))} mm spare each side, ${f1((H - m.h) / 2)} mm above and below |`;

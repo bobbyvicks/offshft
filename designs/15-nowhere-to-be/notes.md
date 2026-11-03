@@ -19,7 +19,7 @@ Light files: Ink #1F2733 letters, Rust #B4552D full stop. Dark files: Bone #ECE5
 |---|---|
 | Hoodies, left chest: Oversized (AS Colour 5161) and Garment-Dyed (Comfort Colors 1567) | Centred in Printful’s 4 x 4 in (101.6 mm) left-chest square: 17.0 mm spare each side, 41.8 mm above and below |
 
-- The block is the logo’s height (18.0 mm) and close to its width (62.6 mm), as Punched Out.’s chest stack (63.59 x 18.00 mm).
+- The block is 18.0 mm tall, the height of the logo as it was drawn in October (the logo is 16.3 mm tall since 2 Nov 2026; the stack was not redrawn), and close to its width (62.6 mm), as Punched Out.’s chest stack (63.59 x 18.00 mm).
 
 ## Construction (measured)
 

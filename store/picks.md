@@ -71,7 +71,8 @@ letters; the clocks are 25 and 40 mm as before. The tab icon didn't change
 Unbounded, pending the owner's word; Codex's hat mockups for those phrases also use a hard-edged face. Also today:
 every variant checked available in the admin (813 of 813, 9999 at Printful) while the storefront showed "Sold out";
 all 38 products were re-saved (seo title) at 04:46 UTC to refresh the storefront, to be confirmed by the owner. Still drawing the rounded logo, on purpose: the picker previews (store/previews) and the apparel
-placement renders (store/apparel), both 29 Oct records that the store no longer uses.
+placement renders (store/apparel), both 29 Oct records that the store no longer uses. (Superseded the same night: see the
+late update below; the block folder is gone.)
 
 **Update, 2 Nov 2026, night: the "sold out" cause and fix.** The storefront counts a variant's stock only at locations
 that sit in the variant's own shipping profile. The General profile had lost the Printful location again (Printful's
@@ -88,6 +89,18 @@ for anything not made by Printful. If Printful ever rewrites its profiles' rates
 Codex has since added three combined golf-shirt listings (100 variants each, unpublished) and nine published ones
 (Classic, Cotton Pique, Performance for OFF SHFT Golf Club, Out of Office and Time Well Spent); their variants were
 left where Printful filed them.
+
+**Update, 2 Nov 2026, late: the logo's letters are the real font again.** The owner saw the hard-edged lettering was
+ripped from a hat mockup (the stitching showed on the S, a traced outline, not a real font) and said to use the font
+they had chosen: Unbounded Bold, letter-spacing 0.12 em, as `designs/mark/final/the-o/build.cjs` always set it. What
+they liked about the hat version, the clock's bar hands with square ends, stays. The-o is the one logo generator again
+and the block folder is gone. The main file is back at 7 mm letters: 62.6 x 16.3 mm, the smallest size that keeps the
+pivot dot (6.6 mm is the floor without it); the clocks are 25 and 40 mm as before. Everything downstream was
+regenerated from it: the brand kit and brand sheet, the store's header logo files, share image and square logo
+(store/assets and brand/, not yet re-uploaded to Shopify's Files), the Printful logo and clock files (now
+`logo-*-62.6mm`) and the Printful sheet. The phrase designs didn't change: they were in Unbounded all along, so the
+logo and the phrases are now one font. From here the brand sheet (brand/offshft-brand-sheet.pdf) and brand/ are the only
+logo files; anything else is an old variant and gets replaced (AGENTS.md, "One logo, one source").
 
 **Product photos are the owner's** (30 Oct 2026): they make them with their own tool (Astra), as with the studio
 mockups. Don't render or upload shop photos for new listings; create listings without images and leave the photos to
