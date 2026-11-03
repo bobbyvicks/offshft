@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "productionCanvases": 67,
+  "canonicalSources": 18,
+  "variants": 847,
+  "products": 38,
+  "checks": [
+    "source SHA-256",
+    "unchanged embedded vector",
+    "full placement bounds",
+    "transparent corners",
+    "physical DPI and canvas dimensions",
+    "no embroidery scaling"
+  ]
+}

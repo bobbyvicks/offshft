@@ -1,0 +1,3333 @@
+{
+  "canonicalCommit": "9318d12727e27c604ad6a7979219467b30688664",
+  "records": [
+    {
+      "key": "1098470107",
+      "oldFileId": 1098470107,
+      "filename": "canonical-v1-1098470107.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098470107.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098470107.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-light.svg",
+      "sourceSha256": "b58c7082c819f17726bc1a93f586bdab6143275afd9dcfbd10e16a7169ee1cd0",
+      "colorVariant": null,
+      "pngSha256": "56e902e9abefa129d329a6843e914294ef6e41834ad1f430da86dd5ee37e85f5",
+      "width": 1200,
+      "height": 1800,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        12.864,
+        25
+      ],
+      "expectedInkMm": [
+        12.907524,
+        25.053292
+      ],
+      "placementMm": [
+        18.968,
+        25.6
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "time-well-spent-performance-golf-shirt",
+        "time-well-spent-classic-golf-shirt",
+        "time-well-spent-cotton-pique-golf-shirt",
+        "out-of-office-performance-golf-shirt",
+        "out-of-office-classic-golf-shirt",
+        "out-of-office-cotton-pique-golf-shirt",
+        "off-shft-golf-club-performance-golf-shirt",
+        "off-shft-golf-club-classic-golf-shirt",
+        "off-shft-golf-club-cotton-pique-golf-shirt",
+        "punched-out-golf-shirt"
+      ],
+      "variants": [
+        5612582636,
+        5612582637,
+        5612582638,
+        5612582639,
+        5612582640,
+        5612582641,
+        5612582648,
+        5612582649,
+        5612582650,
+        5612582651,
+        5612582652,
+        5612582653,
+        5612582599,
+        5612582600,
+        5612582601,
+        5612582602,
+        5612582603,
+        5612582604,
+        5612582611,
+        5612582612,
+        5612582613,
+        5612582614,
+        5612582615,
+        5612582616,
+        5612582485,
+        5612582486,
+        5612582487,
+        5612582488,
+        5612582489,
+        5612582490,
+        5612582497,
+        5612582498,
+        5612582499,
+        5612582500,
+        5612582501,
+        5612582437,
+        5612582438,
+        5612582439,
+        5612582440,
+        5612582441,
+        5612582442,
+        5612582450,
+        5612582451,
+        5612582452,
+        5612582453,
+        5612582454,
+        5612582455,
+        5612582374,
+        5612582375,
+        5612582376,
+        5612582377,
+        5612582378,
+        5612582379,
+        5612582386,
+        5612582387,
+        5612582388,
+        5612582389,
+        5612582390,
+        5612582391,
+        5612582314,
+        5612582315,
+        5612582316,
+        5612582317,
+        5612582318,
+        5612582319,
+        5612582326,
+        5612582328,
+        5612582329,
+        5612582330,
+        5612582331,
+        5612582268,
+        5612582269,
+        5612582270,
+        5612582271,
+        5612582272,
+        5612582273,
+        5612582280,
+        5612582281,
+        5612582282,
+        5612582283,
+        5612582284,
+        5612582285,
+        5612582232,
+        5612582233,
+        5612582234,
+        5612582235,
+        5612582236,
+        5612582237,
+        5612582244,
+        5612582245,
+        5612582246,
+        5612582247,
+        5612582248,
+        5612582249,
+        5612582190,
+        5612582191,
+        5612582192,
+        5612582193,
+        5612582194,
+        5612582195,
+        5612582202,
+        5612582203,
+        5612582204,
+        5612582205,
+        5612582206,
+        5605618726,
+        5605618727,
+        5605618728,
+        5605618729,
+        5605618730,
+        5605618731,
+        5605618732,
+        5605618733,
+        5605618734,
+        5605618735,
+        5605618736,
+        5605618737,
+        5605618738,
+        5605618739,
+        5605618740,
+        5605618741,
+        5605618742,
+        5605618743,
+        5612587569,
+        5612587570,
+        5612587571,
+        5612587572,
+        5612587573,
+        5612590835,
+        5612590836,
+        5612590837,
+        5612590838,
+        5612590839,
+        5612590840
+      ]
+    },
+    {
+      "key": "1099970181",
+      "oldFileId": 1099970181,
+      "filename": "canonical-v1-1099970181.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099970181.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099970181.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-dark.svg",
+      "sourceSha256": "85b01fa30f48adaf6aa8b31e74476a1cde34f95658635aeb955ef2efc1464ff2",
+      "colorVariant": null,
+      "pngSha256": "3dfd732d99561c9134a93e5b48387e539baf8217e28cc2e43fa85de2eb4fc837",
+      "width": 1200,
+      "height": 1800,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        12.864,
+        25
+      ],
+      "expectedInkMm": [
+        12.907524,
+        25.053292
+      ],
+      "placementMm": [
+        18.968,
+        25.6
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "time-well-spent-performance-golf-shirt",
+        "time-well-spent-classic-golf-shirt",
+        "time-well-spent-cotton-pique-golf-shirt",
+        "out-of-office-performance-golf-shirt",
+        "out-of-office-classic-golf-shirt",
+        "out-of-office-cotton-pique-golf-shirt",
+        "off-shft-golf-club-performance-golf-shirt",
+        "off-shft-golf-club-classic-golf-shirt",
+        "off-shft-golf-club-cotton-pique-golf-shirt",
+        "punched-out-golf-shirt"
+      ],
+      "variants": [
+        5612582642,
+        5612582643,
+        5612582644,
+        5612582645,
+        5612582646,
+        5612582647,
+        5612582605,
+        5612582606,
+        5612582607,
+        5612582608,
+        5612582609,
+        5612582610,
+        5612582491,
+        5612582492,
+        5612582493,
+        5612582494,
+        5612582495,
+        5612582496,
+        5612582443,
+        5612582444,
+        5612582446,
+        5612582447,
+        5612582448,
+        5612582449,
+        5612582380,
+        5612582381,
+        5612582382,
+        5612582383,
+        5612582384,
+        5612582385,
+        5612582320,
+        5612582321,
+        5612582322,
+        5612582323,
+        5612582324,
+        5612582325,
+        5612582274,
+        5612582275,
+        5612582276,
+        5612582277,
+        5612582278,
+        5612582279,
+        5612582238,
+        5612582239,
+        5612582240,
+        5612582241,
+        5612582242,
+        5612582243,
+        5612582196,
+        5612582197,
+        5612582198,
+        5612582199,
+        5612582200,
+        5612582201,
+        5610538045,
+        5610538047,
+        5610538049,
+        5610538051,
+        5610538053,
+        5610538055,
+        5610538057,
+        5610538059,
+        5610538061,
+        5610538063,
+        5610538065,
+        5610538067,
+        5610539572,
+        5610539574,
+        5610539576,
+        5610539578,
+        5610539580,
+        5610539582
+      ]
+    },
+    {
+      "key": "1099811322",
+      "oldFileId": 1099811322,
+      "filename": "canonical-v1-1099811322.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099811322.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099811322.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-light.svg",
+      "sourceSha256": "b58c7082c819f17726bc1a93f586bdab6143275afd9dcfbd10e16a7169ee1cd0",
+      "colorVariant": null,
+      "pngSha256": "218f7705859439658e50e64ea6baef88bea5d4e95bf2ff780037f0da8d9ba081",
+      "width": 1200,
+      "height": 1050,
+      "dpi": 300,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        12.895388,
+        25.061
+      ],
+      "expectedInkMm": [
+        12.981441,
+        25.199268
+      ],
+      "placementMm": [
+        44.352306,
+        31.9195
+      ],
+      "printScale": 1.00244,
+      "seamShiftMm": 0,
+      "handles": [
+        "time-well-spent-performance-golf-shirt",
+        "time-well-spent-classic-golf-shirt",
+        "time-well-spent-cotton-pique-golf-shirt",
+        "out-of-office-performance-golf-shirt",
+        "out-of-office-classic-golf-shirt",
+        "out-of-office-cotton-pique-golf-shirt",
+        "off-shft-golf-club-performance-golf-shirt",
+        "off-shft-golf-club-classic-golf-shirt",
+        "off-shft-golf-club-cotton-pique-golf-shirt",
+        "punched-out-golf-shirt"
+      ],
+      "variants": [
+        5612582654,
+        5612582655,
+        5612582656,
+        5612582657,
+        5612582658,
+        5612582659,
+        5612582666,
+        5612582667,
+        5612582668,
+        5612582669,
+        5612582670,
+        5612582671,
+        5612582617,
+        5612582618,
+        5612582619,
+        5612582620,
+        5612582621,
+        5612582622,
+        5612582629,
+        5612582630,
+        5612582631,
+        5612582632,
+        5612582633,
+        5612582634,
+        5612582502,
+        5612582503,
+        5612582504,
+        5612582505,
+        5612582506,
+        5612582507,
+        5612582514,
+        5612582515,
+        5612582516,
+        5612582517,
+        5612582518,
+        5612582457,
+        5612582458,
+        5612582459,
+        5612582460,
+        5612582461,
+        5612582462,
+        5612582470,
+        5612582471,
+        5612582472,
+        5612582473,
+        5612582474,
+        5612582475,
+        5612582392,
+        5612582393,
+        5612582394,
+        5612582395,
+        5612582396,
+        5612582397,
+        5612582404,
+        5612582405,
+        5612582406,
+        5612582407,
+        5612582408,
+        5612582409,
+        5612582332,
+        5612582333,
+        5612582334,
+        5612582335,
+        5612582336,
+        5612582337,
+        5612582345,
+        5612582346,
+        5612582347,
+        5612582348,
+        5612582349,
+        5612582286,
+        5612582287,
+        5612582288,
+        5612582289,
+        5612582290,
+        5612582291,
+        5612582298,
+        5612582299,
+        5612582300,
+        5612582301,
+        5612582302,
+        5612582303,
+        5612582250,
+        5612582251,
+        5612582252,
+        5612582253,
+        5612582254,
+        5612582255,
+        5612582262,
+        5612582263,
+        5612582264,
+        5612582265,
+        5612582266,
+        5612582267,
+        5612582207,
+        5612582208,
+        5612582209,
+        5612582210,
+        5612582211,
+        5612582212,
+        5612582219,
+        5612582220,
+        5612582221,
+        5612582222,
+        5612582223,
+        5609995405,
+        5609995406,
+        5609995407,
+        5609995408,
+        5609995409,
+        5609995410,
+        5609995411,
+        5609995412,
+        5609995413,
+        5609995414,
+        5609995415,
+        5609995416,
+        5609995417,
+        5609995418,
+        5609995419,
+        5609995420,
+        5609995421,
+        5609995422,
+        5612590029,
+        5612590030,
+        5612590031,
+        5612590032,
+        5612590033,
+        5612592216,
+        5612592217,
+        5612592218,
+        5612592219,
+        5612592220,
+        5612592221
+      ]
+    },
+    {
+      "key": "1099970100",
+      "oldFileId": 1099970100,
+      "filename": "canonical-v1-1099970100.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099970100.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099970100.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-dark.svg",
+      "sourceSha256": "85b01fa30f48adaf6aa8b31e74476a1cde34f95658635aeb955ef2efc1464ff2",
+      "colorVariant": null,
+      "pngSha256": "2cd24aa4a4cafd7d7c0bba10d72e94d6a49648bd7faca6ae32cb03554d078bd5",
+      "width": 1200,
+      "height": 1050,
+      "dpi": 300,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        12.895388,
+        25.061
+      ],
+      "expectedInkMm": [
+        12.981441,
+        25.199268
+      ],
+      "placementMm": [
+        44.352306,
+        31.9195
+      ],
+      "printScale": 1.00244,
+      "seamShiftMm": 0,
+      "handles": [
+        "time-well-spent-performance-golf-shirt",
+        "time-well-spent-classic-golf-shirt",
+        "time-well-spent-cotton-pique-golf-shirt",
+        "out-of-office-performance-golf-shirt",
+        "out-of-office-classic-golf-shirt",
+        "out-of-office-cotton-pique-golf-shirt",
+        "off-shft-golf-club-performance-golf-shirt",
+        "off-shft-golf-club-classic-golf-shirt",
+        "off-shft-golf-club-cotton-pique-golf-shirt",
+        "punched-out-golf-shirt"
+      ],
+      "variants": [
+        5612582660,
+        5612582661,
+        5612582662,
+        5612582663,
+        5612582664,
+        5612582665,
+        5612582623,
+        5612582624,
+        5612582625,
+        5612582626,
+        5612582627,
+        5612582628,
+        5612582508,
+        5612582509,
+        5612582510,
+        5612582511,
+        5612582512,
+        5612582513,
+        5612582463,
+        5612582464,
+        5612582465,
+        5612582466,
+        5612582468,
+        5612582469,
+        5612582398,
+        5612582399,
+        5612582400,
+        5612582401,
+        5612582402,
+        5612582403,
+        5612582338,
+        5612582339,
+        5612582340,
+        5612582341,
+        5612582342,
+        5612582343,
+        5612582292,
+        5612582293,
+        5612582294,
+        5612582295,
+        5612582296,
+        5612582297,
+        5612582256,
+        5612582257,
+        5612582258,
+        5612582259,
+        5612582260,
+        5612582261,
+        5612582213,
+        5612582214,
+        5612582215,
+        5612582216,
+        5612582217,
+        5612582218,
+        5610538046,
+        5610538048,
+        5610538050,
+        5610538052,
+        5610538054,
+        5610538056,
+        5610538058,
+        5610538060,
+        5610538062,
+        5610538064,
+        5610538066,
+        5610538068,
+        5610539573,
+        5610539575,
+        5610539577,
+        5610539579,
+        5610539581,
+        5610539583
+      ]
+    },
+    {
+      "key": "1099970133",
+      "oldFileId": 1099970133,
+      "filename": "canonical-v1-1099970133.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099970133.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099970133.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-dark.svg",
+      "sourceSha256": "e17000eb7943b9432b776e3cb0ec52885c38f3fcc239eb1d5cf22f8bdec11670",
+      "colorVariant": null,
+      "pngSha256": "9f937f228724f23cbecaf815dafcbd146a4f3243a1b5d6132cefc37d0a2783c9",
+      "width": 4500,
+      "height": 5400,
+      "dpi": 300,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        75.015,
+        19.467183
+      ],
+      "expectedInkMm": [
+        75.103431,
+        19.561352
+      ],
+      "placementMm": [
+        152.9925,
+        3.643742
+      ],
+      "printScale": 1.1975383534745614,
+      "seamShiftMm": 0,
+      "handles": [
+        "time-well-spent-performance-golf-shirt",
+        "time-well-spent-classic-golf-shirt",
+        "time-well-spent-cotton-pique-golf-shirt",
+        "out-of-office-performance-golf-shirt",
+        "out-of-office-classic-golf-shirt",
+        "out-of-office-cotton-pique-golf-shirt",
+        "off-shft-golf-club-performance-golf-shirt",
+        "off-shft-golf-club-classic-golf-shirt",
+        "off-shft-golf-club-cotton-pique-golf-shirt",
+        "punched-out-golf-shirt"
+      ],
+      "variants": [
+        5612582660,
+        5612582661,
+        5612582662,
+        5612582663,
+        5612582664,
+        5612582665,
+        5612582623,
+        5612582624,
+        5612582625,
+        5612582626,
+        5612582627,
+        5612582628,
+        5612582508,
+        5612582509,
+        5612582510,
+        5612582511,
+        5612582512,
+        5612582513,
+        5612582463,
+        5612582464,
+        5612582465,
+        5612582466,
+        5612582468,
+        5612582469,
+        5612582398,
+        5612582399,
+        5612582400,
+        5612582401,
+        5612582402,
+        5612582403,
+        5612582338,
+        5612582339,
+        5612582340,
+        5612582341,
+        5612582342,
+        5612582343,
+        5612582292,
+        5612582293,
+        5612582294,
+        5612582295,
+        5612582296,
+        5612582297,
+        5612582256,
+        5612582257,
+        5612582258,
+        5612582259,
+        5612582260,
+        5612582261,
+        5612582213,
+        5612582214,
+        5612582215,
+        5612582216,
+        5612582217,
+        5612582218,
+        5610538046,
+        5610538048,
+        5610538050,
+        5610538052,
+        5610538054,
+        5610538056,
+        5610538058,
+        5610538060,
+        5610538062,
+        5610538064,
+        5610538066,
+        5610538068,
+        5610539573,
+        5610539575,
+        5610539577,
+        5610539579,
+        5610539581,
+        5610539583
+      ]
+    },
+    {
+      "key": "1101365707",
+      "oldFileId": 1101365707,
+      "filename": "canonical-v1-1101365707.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101365707.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101365707.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/20-parked/design-dark.svg",
+      "sourceSha256": "f1fe7850fe5986c42a2d9948ac0100b1e56b98beeb3824b5c9b09b1fa0fcfe45",
+      "colorVariant": null,
+      "pngSha256": "aaf668727cbdb64b9951d195d0e90ebcf0dac9b031c7a0a10ce608592c92eeb3",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        56.084,
+        7.093
+      ],
+      "expectedInkMm": [
+        56.121951,
+        7.152798
+      ],
+      "placementMm": [
+        48.838,
+        21.8535
+      ],
+      "printScale": 1,
+      "seamShiftMm": 1.95,
+      "handles": [
+        "parked-trucker-hat"
+      ],
+      "variants": [
+        5611157931,
+        5611160031
+      ]
+    },
+    {
+      "key": "1101365778",
+      "oldFileId": 1101365778,
+      "filename": "canonical-v1-1101365778.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101365778.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101365778.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/18-banked-time/design-dark.svg",
+      "sourceSha256": "1f4f13eeea3f42e6797f4a7323b168a2442b69acc5ac408030f135603503aa62",
+      "colorVariant": null,
+      "pngSha256": "4b36de9a76cf45a483817a8436f66bdf83c9d94b7d0c5ddc41f7267477dd0e3f",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        95.709,
+        7.093
+      ],
+      "expectedInkMm": [
+        95.756371,
+        7.154212
+      ],
+      "placementMm": [
+        23.9355,
+        21.8535
+      ],
+      "printScale": 1,
+      "seamShiftMm": 1.94,
+      "handles": [
+        "banked-time-hat"
+      ],
+      "variants": [
+        5606255742,
+        5611147260
+      ]
+    },
+    {
+      "key": "1101365856",
+      "oldFileId": 1101365856,
+      "filename": "canonical-v1-1101365856.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101365856.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101365856.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/18-banked-time/design-dark.svg",
+      "sourceSha256": "1f4f13eeea3f42e6797f4a7323b168a2442b69acc5ac408030f135603503aa62",
+      "colorVariant": null,
+      "pngSha256": "32a09965c70e8e2d9cf2fe26808756309c56828168e29b237d128c7202c9dcce",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        95.709,
+        7.093
+      ],
+      "expectedInkMm": [
+        95.756371,
+        7.154212
+      ],
+      "placementMm": [
+        29.0155,
+        21.8535
+      ],
+      "printScale": 1,
+      "seamShiftMm": 1.94,
+      "handles": [
+        "banked-time-hat"
+      ],
+      "variants": [
+        5606255743,
+        5611147365
+      ]
+    },
+    {
+      "key": "1098756035",
+      "oldFileId": 1098756035,
+      "filename": "canonical-v1-1098756035.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098756035.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098756035.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/16-suns-still-up/design-light.svg",
+      "sourceSha256": "06aa1d8aa7b9bfd60661a2317d6b166c1a8881d49d0fe3568ecbe018783755fe",
+      "colorVariant": null,
+      "pngSha256": "84ad9b9de4c569706993d94544e38e159f0c9b9d5b1b330f03b09344773b2f14",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.233,
+        17.998
+      ],
+      "expectedInkMm": [
+        60.457692,
+        18.065385
+      ],
+      "placementMm": [
+        48.3935,
+        23.386
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "suns-still-up-hat"
+      ],
+      "variants": [
+        5606255732,
+        5611157325
+      ]
+    },
+    {
+      "key": "1098756182",
+      "oldFileId": 1098756182,
+      "filename": "canonical-v1-1098756182.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098756182.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098756182.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/16-suns-still-up/design-dark.svg",
+      "sourceSha256": "50821d3d6b98271b6ee9ba8a84e08d89b78e4f64882a3b424a4fcc5acf622c13",
+      "colorVariant": null,
+      "pngSha256": "da1809d4ae2aa190ca230891afc59d9e791665811d3e4bda960a7aaf98ad6736",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.233,
+        17.998
+      ],
+      "expectedInkMm": [
+        60.457692,
+        18.065385
+      ],
+      "placementMm": [
+        43.3135,
+        16.401
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "suns-still-up-hat"
+      ],
+      "variants": [
+        5606255733
+      ]
+    },
+    {
+      "key": "1100232623",
+      "oldFileId": 1100232623,
+      "filename": "canonical-v1-1100232623.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1100232623.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1100232623.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/16-suns-still-up/design-dark.svg",
+      "sourceSha256": "50821d3d6b98271b6ee9ba8a84e08d89b78e4f64882a3b424a4fcc5acf622c13",
+      "colorVariant": null,
+      "pngSha256": "df28e1e9ef643c0edbd88a7054afa5857b3a5575670c0440b7ac6454083dd5e1",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.233,
+        17.998
+      ],
+      "expectedInkMm": [
+        60.457692,
+        18.065385
+      ],
+      "placementMm": [
+        48.3935,
+        23.386
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "suns-still-up-hat"
+      ],
+      "variants": [
+        5611157207
+      ]
+    },
+    {
+      "key": "1100232732",
+      "oldFileId": 1100232732,
+      "filename": "canonical-v1-1100232732.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1100232732.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1100232732.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/16-suns-still-up/design-light.svg",
+      "sourceSha256": "06aa1d8aa7b9bfd60661a2317d6b166c1a8881d49d0fe3568ecbe018783755fe",
+      "colorVariant": null,
+      "pngSha256": "6edfb8a55e39f5370e481603fd531d11421acdfdaf7d93ab2e03f05a097eb059",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.233,
+        17.998
+      ],
+      "expectedInkMm": [
+        60.457692,
+        18.065385
+      ],
+      "placementMm": [
+        43.3135,
+        16.401
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "suns-still-up-hat"
+      ],
+      "variants": [
+        5611157338
+      ]
+    },
+    {
+      "key": "1098275040",
+      "oldFileId": 1098275040,
+      "filename": "canonical-v1-1098275040.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098275040.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098275040.svg",
+      "source": "designs/21-for-a-reason/design-dark.svg",
+      "sourceSha256": "3b5f8f82cb918e70e93a5418e287082ceed6dfef6c64b2cf58d1d72a83d10481",
+      "colorVariant": null,
+      "pngSha256": "78e2486068bc882b89ec0b8da0c4fb0ad608ee4a7d20e6130f0027085ed4665f",
+      "width": 2765,
+      "height": 1127,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.393333,
+        17.998667
+      ],
+      "expectedInkMm": [
+        58.229167,
+        18.027344
+      ],
+      "placementMm": [
+        27.329167,
+        14.8555
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "for-a-reason-hat"
+      ],
+      "variants": [
+        5605789837,
+        5605789839
+      ]
+    },
+    {
+      "key": "1098275128",
+      "oldFileId": 1098275128,
+      "filename": "canonical-v1-1098275128.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098275128.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098275128.svg",
+      "source": "designs/21-for-a-reason/design-light.svg",
+      "sourceSha256": "5245f74c816c5664b712461cfa1702b0b0d69d24961866485cda1dc7ff6a9f89",
+      "colorVariant": null,
+      "pngSha256": "ec1bdf90889ef9e59b20863372ede502361d0064f9a2f6150e39d06f198755ac",
+      "width": 2765,
+      "height": 1127,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.393333,
+        17.998667
+      ],
+      "expectedInkMm": [
+        58.229167,
+        18.027344
+      ],
+      "placementMm": [
+        27.329167,
+        14.8555
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "for-a-reason-hat"
+      ],
+      "variants": [
+        5605789838
+      ]
+    },
+    {
+      "key": "1098470247",
+      "oldFileId": 1098470247,
+      "filename": "canonical-v1-1098470247.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098470247.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098470247.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-light.svg",
+      "sourceSha256": "b58c7082c819f17726bc1a93f586bdab6143275afd9dcfbd10e16a7169ee1cd0",
+      "colorVariant": null,
+      "pngSha256": "f986d06bbf7ff1567de69e53c2c1b8ace682ec4193ba4e3b14fc5b5f69f6b91e",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        12.864,
+        25
+      ],
+      "expectedInkMm": [
+        12.907524,
+        25.053292
+      ],
+      "placementMm": [
+        44.368,
+        38.3
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-quarter-zip"
+      ],
+      "variants": [
+        5605618714,
+        5605618715,
+        5605618716,
+        5605618717,
+        5605618718,
+        5605618719
+      ]
+    },
+    {
+      "key": "1099967219",
+      "oldFileId": 1099967219,
+      "filename": "canonical-v1-1099967219.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099967219.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099967219.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-light.svg",
+      "sourceSha256": "b58c7082c819f17726bc1a93f586bdab6143275afd9dcfbd10e16a7169ee1cd0",
+      "colorVariant": null,
+      "pngSha256": "f986d06bbf7ff1567de69e53c2c1b8ace682ec4193ba4e3b14fc5b5f69f6b91e",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        12.864,
+        25
+      ],
+      "expectedInkMm": [
+        12.907524,
+        25.053292
+      ],
+      "placementMm": [
+        44.368,
+        38.3
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-quarter-zip"
+      ],
+      "variants": [
+        5610506779,
+        5610506780,
+        5610506781,
+        5610506782,
+        5610506783,
+        5610506784
+      ]
+    },
+    {
+      "key": "1098470355",
+      "oldFileId": 1098470355,
+      "filename": "canonical-v1-1098470355.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098470355.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098470355.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "4e11923ac7f8558241879679404b6e4e62806d1151190b79722c89c996b635a7",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        19.4795,
+        42.672
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-quarter-zip"
+      ],
+      "variants": [
+        5605618707,
+        5605618708,
+        5605618709,
+        5605618710,
+        5605618711,
+        5605618712
+      ]
+    },
+    {
+      "key": "1099967171",
+      "oldFileId": 1099967171,
+      "filename": "canonical-v1-1099967171.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099967171.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099967171.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "4e11923ac7f8558241879679404b6e4e62806d1151190b79722c89c996b635a7",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        19.4795,
+        42.672
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-quarter-zip"
+      ],
+      "variants": [
+        5610505311,
+        5610505312,
+        5610505313,
+        5610505314,
+        5610505315,
+        5610505316
+      ]
+    },
+    {
+      "key": "1101366264",
+      "oldFileId": 1101366264,
+      "filename": "canonical-v1-1101366264.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101366264.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101366264.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/09-punched-out/v3/stacked-centred-light.svg",
+      "sourceSha256": "9195e03c2a96f60551f21e586ce782cd6b870fac151e475752611a568bf5adb8",
+      "colorVariant": null,
+      "pngSha256": "c8229d96d4d7727f62951584b8a6f6a39d6d6874a12492a4ede4f6f2e4e4fec3",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.586,
+        17.999
+      ],
+      "expectedInkMm": [
+        63.630769,
+        18.065385
+      ],
+      "placementMm": [
+        38.057,
+        16.4005
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "punched-out-bucket-hat",
+        "punched-out-hat"
+      ],
+      "variants": [
+        5605618704,
+        5605618705,
+        5611144126
+      ]
+    },
+    {
+      "key": "1101366323",
+      "oldFileId": 1101366323,
+      "filename": "canonical-v1-1101366323.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101366323.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101366323.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/09-punched-out/v3/stacked-centred-dark.svg",
+      "sourceSha256": "11f4374403a31bed15556df872107dbd17024436fc36d184d91da4588da5ada6",
+      "colorVariant": null,
+      "pngSha256": "16257bd997307e41a8e830c1bf252026a854151ffa94e5944b02f4998eb5794c",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.586,
+        17.999
+      ],
+      "expectedInkMm": [
+        63.630769,
+        18.065385
+      ],
+      "placementMm": [
+        38.057,
+        16.4005
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "punched-out-bucket-hat",
+        "punched-out-hat"
+      ],
+      "variants": [
+        5611152980,
+        5611153129,
+        5605511895,
+        5611144305
+      ]
+    },
+    {
+      "key": "1098770030",
+      "oldFileId": 1098770030,
+      "filename": "canonical-v1-1098770030.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098770030.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098770030.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/mark/final/the-o/symbol-light-40mm.svg",
+      "sourceSha256": "e87b481506f00ee196862f7415c87e966efd53f439cab3bb6b9090616696a3a6",
+      "colorVariant": null,
+      "pngSha256": "24076cbf1dc7b6e11300e72120005ce01120d56fb4cafdad095faa99b386b858",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        20.794,
+        40
+      ],
+      "expectedInkMm": [
+        20.851964,
+        40.054381
+      ],
+      "placementMm": [
+        59.453,
+        5.4
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-bucket-hat",
+        "the-clock-hat"
+      ],
+      "variants": [
+        5605618668,
+        5605618669,
+        5611145183
+      ]
+    },
+    {
+      "key": "1098754943",
+      "oldFileId": 1098754943,
+      "filename": "canonical-v1-1098754943.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098754943.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098754943.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/mark/final/the-o/symbol-dark-40mm.svg",
+      "sourceSha256": "60ca7be367cd0a58210679e62757ed518333c855bbcd41f5b2a93a3f85ef9602",
+      "colorVariant": null,
+      "pngSha256": "011e4ce208b91544b66e7c0ad066bd17cd66b8d60702ada0c3d8824a002ec47a",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        20.794,
+        40
+      ],
+      "expectedInkMm": [
+        20.851964,
+        40.054381
+      ],
+      "placementMm": [
+        59.453,
+        5.4
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-bucket-hat",
+        "the-clock-hat"
+      ],
+      "variants": [
+        5611155056,
+        5611155100,
+        5605511866,
+        5611145267
+      ]
+    },
+    {
+      "key": "1098770297-seam",
+      "oldFileId": 1098770297,
+      "filename": "canonical-v1-1098770297-seam.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098770297-seam.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098770297-seam.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "858ca87d658c06212a2cb94794fa5a27c695b612c6e8e4f983702016811f4419",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        43.7295,
+        17.272
+      ],
+      "printScale": 1,
+      "seamShiftMm": 5.2,
+      "handles": [
+        "off-shft-logo-hat"
+      ],
+      "variants": [
+        5611143476
+      ]
+    },
+    {
+      "key": "1098770297-centre",
+      "oldFileId": 1098770297,
+      "filename": "canonical-v1-1098770297-centre.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098770297-centre.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098770297-centre.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "210cbeece50e1073ef872c42e9a04278f60572c6d5ff4f7c809cc15df9bc361b",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        38.5295,
+        17.272
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-bucket-hat"
+      ],
+      "variants": [
+        5605618666,
+        5605618667
+      ]
+    },
+    {
+      "key": "1098755428-seam",
+      "oldFileId": 1098755428,
+      "filename": "canonical-v1-1098755428-seam.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098755428-seam.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098755428-seam.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-dark.svg",
+      "sourceSha256": "e17000eb7943b9432b776e3cb0ec52885c38f3fcc239eb1d5cf22f8bdec11670",
+      "colorVariant": null,
+      "pngSha256": "6c51cd9aed99a3938e1629941b3ebf12c916822e95fe3e0df73e554089b5af35",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        43.7295,
+        17.272
+      ],
+      "printScale": 1,
+      "seamShiftMm": 5.2,
+      "handles": [
+        "off-shft-logo-hat"
+      ],
+      "variants": [
+        5605511855,
+        5611143567
+      ]
+    },
+    {
+      "key": "1098755428-centre",
+      "oldFileId": 1098755428,
+      "filename": "canonical-v1-1098755428-centre.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098755428-centre.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098755428-centre.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-dark.svg",
+      "sourceSha256": "e17000eb7943b9432b776e3cb0ec52885c38f3fcc239eb1d5cf22f8bdec11670",
+      "colorVariant": null,
+      "pngSha256": "c4f2b3e85e2a2e8f4b409712679bf11df4c45dc1b706f29432a921b0556e875f",
+      "width": 3300,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        38.5295,
+        17.272
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-bucket-hat"
+      ],
+      "variants": [
+        5611151217,
+        5611151244
+      ]
+    },
+    {
+      "key": "1101366370",
+      "oldFileId": 1101366370,
+      "filename": "canonical-v1-1101366370.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101366370.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101366370.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/09-punched-out/v3/stacked-centred-light.svg",
+      "sourceSha256": "9195e03c2a96f60551f21e586ce782cd6b870fac151e475752611a568bf5adb8",
+      "colorVariant": null,
+      "pngSha256": "bcc5b1a4885360b9a9aeccafd80fc610398218f6c19592ed990fe765b764e6fb",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.586,
+        17.999
+      ],
+      "expectedInkMm": [
+        63.630769,
+        18.065385
+      ],
+      "placementMm": [
+        31.707,
+        13.2255
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "punched-out-beanie"
+      ],
+      "variants": [
+        5605618664,
+        5605618665
+      ]
+    },
+    {
+      "key": "1101366428",
+      "oldFileId": 1101366428,
+      "filename": "canonical-v1-1101366428.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101366428.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101366428.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/09-punched-out/v3/stacked-centred-dark.svg",
+      "sourceSha256": "11f4374403a31bed15556df872107dbd17024436fc36d184d91da4588da5ada6",
+      "colorVariant": null,
+      "pngSha256": "2be7fdfe3d70f6160d1aada9f1f19b57467880e4fb3341e5db5d0d5e5ffbefe0",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.586,
+        17.999
+      ],
+      "expectedInkMm": [
+        63.630769,
+        18.065385
+      ],
+      "placementMm": [
+        31.707,
+        13.2255
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "punched-out-beanie"
+      ],
+      "variants": [
+        5611151997,
+        5611152136,
+        5611152239,
+        5611152429
+      ]
+    },
+    {
+      "key": "1098770679",
+      "oldFileId": 1098770679,
+      "filename": "canonical-v1-1098770679.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098770679.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098770679.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/mark/final/the-o/symbol-light-40mm.svg",
+      "sourceSha256": "e87b481506f00ee196862f7415c87e966efd53f439cab3bb6b9090616696a3a6",
+      "colorVariant": null,
+      "pngSha256": "1ed914a4e3729c230b50dfaebd1be2944e26ba7ae3d7873ff05e6c9041af8842",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        20.794,
+        40
+      ],
+      "expectedInkMm": [
+        20.851964,
+        40.054381
+      ],
+      "placementMm": [
+        53.103,
+        2.225
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-beanie"
+      ],
+      "variants": [
+        5605618661,
+        5605618662
+      ]
+    },
+    {
+      "key": "1100231950",
+      "oldFileId": 1100231950,
+      "filename": "canonical-v1-1100231950.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1100231950.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1100231950.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/mark/final/the-o/symbol-dark-40mm.svg",
+      "sourceSha256": "60ca7be367cd0a58210679e62757ed518333c855bbcd41f5b2a93a3f85ef9602",
+      "colorVariant": null,
+      "pngSha256": "670d07fc47eedfe7e8b3546dfcc65a90c890e2758c1a89b453bde13335aad374",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        20.794,
+        40
+      ],
+      "expectedInkMm": [
+        20.851964,
+        40.054381
+      ],
+      "placementMm": [
+        53.103,
+        2.225
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-beanie"
+      ],
+      "variants": [
+        5611153795,
+        5611153927,
+        5611154008,
+        5611154026
+      ]
+    },
+    {
+      "key": "1098770836",
+      "oldFileId": 1098770836,
+      "filename": "canonical-v1-1098770836.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098770836.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098770836.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "ba268595e36b2656f346df9de460ea96c0ae8db348a25be5356e2e4b78d2f424",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        32.1795,
+        14.097
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-beanie"
+      ],
+      "variants": [
+        5605618563,
+        5605618564
+      ]
+    },
+    {
+      "key": "1100231884",
+      "oldFileId": 1100231884,
+      "filename": "canonical-v1-1100231884.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1100231884.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1100231884.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-dark.svg",
+      "sourceSha256": "e17000eb7943b9432b776e3cb0ec52885c38f3fcc239eb1d5cf22f8bdec11670",
+      "colorVariant": null,
+      "pngSha256": "4da92a8ab83dbf21373823ecc25367f2156c743122f857d75288dc125fe0d296",
+      "width": 3000,
+      "height": 1050,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        32.1795,
+        14.097
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-beanie"
+      ],
+      "variants": [
+        5611150085,
+        5611150156,
+        5611150348,
+        5611150406
+      ]
+    },
+    {
+      "key": "1098773855",
+      "oldFileId": 1098773855,
+      "filename": "canonical-v1-1098773855.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098773855.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098773855.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-light.svg",
+      "sourceSha256": "b58c7082c819f17726bc1a93f586bdab6143275afd9dcfbd10e16a7169ee1cd0",
+      "colorVariant": null,
+      "pngSha256": "5ea4c96b8dd6b42b644dd6d1f694bfae8849d5fd2fb70a39ba8e32b49f5a41b0",
+      "width": 6000,
+      "height": 3600,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        12.864,
+        25
+      ],
+      "expectedInkMm": [
+        12.907524,
+        25.053292
+      ],
+      "placementMm": [
+        120.568,
+        63.7
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "five-oclock-crewneck"
+      ],
+      "variants": [
+        5605512111,
+        5605512112,
+        5605512113,
+        5605512114,
+        5605512115,
+        5605512116,
+        5605512117,
+        5605512118,
+        5605512119,
+        5605512120,
+        5605512121,
+        5605512122
+      ]
+    },
+    {
+      "key": "1098773926",
+      "oldFileId": 1098773926,
+      "filename": "canonical-v1-1098773926.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098773926.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098773926.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-dark.svg",
+      "sourceSha256": "85b01fa30f48adaf6aa8b31e74476a1cde34f95658635aeb955ef2efc1464ff2",
+      "colorVariant": null,
+      "pngSha256": "54211258f57e7efeef839716cfdfbbfff661d5a2d7425d725dfe827c99f3d24f",
+      "width": 6000,
+      "height": 3600,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        12.864,
+        25
+      ],
+      "expectedInkMm": [
+        12.907524,
+        25.053292
+      ],
+      "placementMm": [
+        120.568,
+        63.7
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "five-oclock-crewneck"
+      ],
+      "variants": [
+        5605512123,
+        5605512124,
+        5605512125,
+        5605512126,
+        5605512127,
+        5605512128
+      ]
+    },
+    {
+      "key": "1098774050",
+      "oldFileId": 1098774050,
+      "filename": "canonical-v1-1098774050.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098774050.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098774050.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-bone.svg",
+      "sourceSha256": "c0a864f02f879ef6dd0d6ba74988293facdeb9f3787bba1274155b1e538ae382",
+      "colorVariant": null,
+      "pngSha256": "cdc3768dab108ff14d1b98286a2656accef16b0f177ad7b8c8d4061afea378de",
+      "width": 6000,
+      "height": 3600,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        12.712,
+        25
+      ],
+      "expectedInkMm": [
+        12.738245,
+        25.053292
+      ],
+      "placementMm": [
+        120.644,
+        63.7
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "five-oclock-crewneck"
+      ],
+      "variants": [
+        5605512129,
+        5605512130,
+        5605512131,
+        5605512132,
+        5605512133,
+        5605512134
+      ]
+    },
+    {
+      "key": "1098257641",
+      "oldFileId": 1098257641,
+      "filename": "canonical-v1-1098257641.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098257641.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098257641.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/13-ours-to-spend/design-dark.svg",
+      "sourceSha256": "d95039dae5ff180cf0183768656c141b868b864f8577903107308680049642e1",
+      "colorVariant": null,
+      "pngSha256": "eb2cdf5ee5b89346edf1303a521f5c0d9bea7fe3ccc0a629363770e7f2007222",
+      "width": 3499,
+      "height": 1138,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        109.639,
+        7.299
+      ],
+      "expectedInkMm": [
+        109.671958,
+        7.365079
+      ],
+      "placementMm": [
+        14.872667,
+        20.438167
+      ],
+      "printScale": 1,
+      "seamShiftMm": -4.37,
+      "handles": [
+        "ours-to-spend-trucker-hat"
+      ],
+      "variants": [
+        5605512107,
+        5605512108
+      ]
+    },
+    {
+      "key": "1098257724",
+      "oldFileId": 1098257724,
+      "filename": "canonical-v1-1098257724.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098257724.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098257724.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/13-ours-to-spend/design-light.svg",
+      "sourceSha256": "d196205615368993713c65c3e2549903b89837a8096a95fecda829c2507519ca",
+      "colorVariant": null,
+      "pngSha256": "517c34f62f434415ed8b51d1f97fbb01a68419e099fe1a3f09c7e30066a89a1b",
+      "width": 3499,
+      "height": 1138,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        109.639,
+        7.299
+      ],
+      "expectedInkMm": [
+        109.671958,
+        7.365079
+      ],
+      "placementMm": [
+        14.872667,
+        20.438167
+      ],
+      "printScale": 1,
+      "seamShiftMm": -4.37,
+      "handles": [
+        "ours-to-spend-trucker-hat"
+      ],
+      "variants": [
+        5605512109
+      ]
+    },
+    {
+      "key": "1098257825",
+      "oldFileId": 1098257825,
+      "filename": "canonical-v1-1098257825.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098257825.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098257825.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/13-ours-to-spend/design-dark.svg",
+      "sourceSha256": "d95039dae5ff180cf0183768656c141b868b864f8577903107308680049642e1",
+      "colorVariant": "existing one-thread Bone",
+      "pngSha256": "c865dc6d43ae8d5beac324505d34a13b266ebf41ecbd7d199ed2eb9ab358c888",
+      "width": 3499,
+      "height": 1138,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        109.639,
+        7.299
+      ],
+      "expectedInkMm": [
+        109.671958,
+        7.365079
+      ],
+      "placementMm": [
+        14.872667,
+        20.438167
+      ],
+      "printScale": 1,
+      "seamShiftMm": -4.37,
+      "handles": [
+        "ours-to-spend-trucker-hat"
+      ],
+      "variants": [
+        5605512110
+      ]
+    },
+    {
+      "key": "1098471392",
+      "oldFileId": 1098471392,
+      "filename": "canonical-v1-1098471392.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098471392.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098471392.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "60e11b6f37c82589d6d3773c0831a2cad74707824528c4bbcfebc7fd1be34013",
+      "width": 3600,
+      "height": 4800,
+      "dpi": 300,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        62.738,
+        16.281173
+      ],
+      "expectedInkMm": [
+        62.811958,
+        16.35993
+      ],
+      "placementMm": [
+        198.628,
+        51.88808
+      ],
+      "printScale": 1.00154850656918,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-rest-is-ours-hoodie",
+        "off-shft-logo-hoodie"
+      ],
+      "variants": [
+        5605512082,
+        5605512083,
+        5605512084,
+        5605512085,
+        5605512086,
+        5605512087,
+        5605512088,
+        5605512089,
+        5605512090,
+        5605512091,
+        5605512092,
+        5605512093,
+        5605512100,
+        5605512101,
+        5605512102,
+        5605512103,
+        5605512104,
+        5605512105,
+        5609647852,
+        5609647853,
+        5609647854,
+        5609647855,
+        5609647856,
+        5609647857,
+        5609647858,
+        5609647859,
+        5609647860,
+        5609647861,
+        5609647862,
+        5609647863
+      ]
+    },
+    {
+      "key": "1098485690",
+      "oldFileId": 1098485690,
+      "filename": "canonical-v1-1098485690.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098485690.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098485690.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-dark.svg",
+      "sourceSha256": "e17000eb7943b9432b776e3cb0ec52885c38f3fcc239eb1d5cf22f8bdec11670",
+      "colorVariant": null,
+      "pngSha256": "569b2e29ee9a0a69f0db1012e14ec7e14c0ced0f4e78267cbf004c5a901ba406",
+      "width": 3600,
+      "height": 4800,
+      "dpi": 300,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        62.738,
+        16.281173
+      ],
+      "expectedInkMm": [
+        62.811958,
+        16.35993
+      ],
+      "placementMm": [
+        198.628,
+        51.88808
+      ],
+      "printScale": 1.00154850656918,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-rest-is-ours-hoodie"
+      ],
+      "variants": [
+        5605512094,
+        5605512095,
+        5605512096,
+        5605512097,
+        5605512098,
+        5605512099
+      ]
+    },
+    {
+      "key": "1098479971",
+      "oldFileId": 1098479971,
+      "filename": "canonical-v1-1098479971.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098479971.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098479971.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-dark.svg",
+      "sourceSha256": "85b01fa30f48adaf6aa8b31e74476a1cde34f95658635aeb955ef2efc1464ff2",
+      "colorVariant": null,
+      "pngSha256": "f989dbefb97ba41f8aa237fb0beae9deaf25c3da041554aa4dcaf2813c2f716d",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        12.864,
+        25
+      ],
+      "expectedInkMm": [
+        12.907524,
+        25.053292
+      ],
+      "placementMm": [
+        44.368,
+        38.3
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-jacket",
+        "the-clock-t-shirt",
+        "the-clock-sweatpants",
+        "the-clock-hoodie"
+      ],
+      "variants": [
+        5605511836,
+        5605511837,
+        5605511838,
+        5605511839,
+        5605511840,
+        5605512039,
+        5605512040,
+        5605512041,
+        5605512042,
+        5605512043,
+        5605512044,
+        5605511978,
+        5605511979,
+        5605511980,
+        5605511981,
+        5605511982,
+        5612467043,
+        5612467044,
+        5612467045,
+        5612467046,
+        5612467047,
+        5605511763,
+        5605511764,
+        5605511765,
+        5605511766,
+        5605511767,
+        5605511768,
+        5605511769,
+        5605511770,
+        5605511771,
+        5605511772,
+        5605511773,
+        5605511774
+      ]
+    },
+    {
+      "key": "1098458744",
+      "oldFileId": 1098458744,
+      "filename": "canonical-v1-1098458744.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098458744.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098458744.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-light.svg",
+      "sourceSha256": "b58c7082c819f17726bc1a93f586bdab6143275afd9dcfbd10e16a7169ee1cd0",
+      "colorVariant": null,
+      "pngSha256": "f986d06bbf7ff1567de69e53c2c1b8ace682ec4193ba4e3b14fc5b5f69f6b91e",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        12.864,
+        25
+      ],
+      "expectedInkMm": [
+        12.907524,
+        25.053292
+      ],
+      "placementMm": [
+        44.368,
+        38.3
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-jacket",
+        "the-clock-t-shirt",
+        "the-clock-sweatpants",
+        "the-clock-crewneck",
+        "the-clock-hoodie"
+      ],
+      "variants": [
+        5605511841,
+        5605511842,
+        5605511843,
+        5605511844,
+        5605511845,
+        5605512028,
+        5605512029,
+        5605512030,
+        5605512031,
+        5605512032,
+        5605512033,
+        5611140734,
+        5611140942,
+        5611141107,
+        5611141304,
+        5611141337,
+        5605511781,
+        5605511782,
+        5605511783,
+        5605511784,
+        5605511785,
+        5605511786,
+        5605511787,
+        5605511788,
+        5605511789,
+        5605511790,
+        5605511791,
+        5605511792,
+        5605511745,
+        5605511746,
+        5605511747,
+        5605511748,
+        5605511749,
+        5605511750,
+        5605511751,
+        5605511752,
+        5605511753,
+        5605511754,
+        5605511755,
+        5605511756,
+        5605511757,
+        5605511758,
+        5605511759,
+        5605511760,
+        5605511761,
+        5605511762,
+        5605511775,
+        5605511776,
+        5605511777,
+        5605511778,
+        5605511779,
+        5605511780
+      ]
+    },
+    {
+      "key": "1098483779",
+      "oldFileId": 1098483779,
+      "filename": "canonical-v1-1098483779.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098483779.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098483779.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-dark.svg",
+      "sourceSha256": "e17000eb7943b9432b776e3cb0ec52885c38f3fcc239eb1d5cf22f8bdec11670",
+      "colorVariant": null,
+      "pngSha256": "4f8f1de6358119dbce3752b717dd1558e59e998c36e78212a27b10bf7409d5a1",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        19.4795,
+        42.672
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-jacket",
+        "off-shft-logo-t-shirt",
+        "off-shft-logo-sweatpants",
+        "off-shft-logo-hoodie"
+      ],
+      "variants": [
+        5605511821,
+        5605511822,
+        5605511823,
+        5605511824,
+        5605511825,
+        5605512022,
+        5605512023,
+        5605512024,
+        5605512025,
+        5605512026,
+        5605512027,
+        5605511965,
+        5605511966,
+        5605511967,
+        5605511968,
+        5605511969,
+        5612463613,
+        5612463614,
+        5612463615,
+        5612463616,
+        5612463617,
+        5605511722,
+        5605511723,
+        5605511724,
+        5605511725,
+        5605511726,
+        5605511727,
+        5605511728,
+        5605511729,
+        5605511730,
+        5605511731,
+        5605511732,
+        5605511733
+      ]
+    },
+    {
+      "key": "1098470840",
+      "oldFileId": 1098470840,
+      "filename": "canonical-v1-1098470840.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098470840.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098470840.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "4e11923ac7f8558241879679404b6e4e62806d1151190b79722c89c996b635a7",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        19.4795,
+        42.672
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-jacket",
+        "off-shft-logo-t-shirt",
+        "off-shft-logo-sweatpants",
+        "off-shft-logo-crewneck",
+        "off-shft-logo-hoodie"
+      ],
+      "variants": [
+        5605511826,
+        5605511827,
+        5605511828,
+        5605511829,
+        5605511830,
+        5605512011,
+        5605512012,
+        5605512013,
+        5605512014,
+        5605512015,
+        5605512016,
+        5611140265,
+        5611140291,
+        5611140305,
+        5611140452,
+        5611140522,
+        5605511800,
+        5605511801,
+        5605511803,
+        5605511804,
+        5605511805,
+        5605511806,
+        5605511807,
+        5605511808,
+        5605511809,
+        5605511810,
+        5605511811,
+        5605511812,
+        5605511703,
+        5605511704,
+        5605511706,
+        5605511707,
+        5605511708,
+        5605511709,
+        5605511710,
+        5605511711,
+        5605511712,
+        5605511713,
+        5605511714,
+        5605511715,
+        5605511716,
+        5605511717,
+        5605511718,
+        5605511719,
+        5605511720,
+        5605511721,
+        5605511734,
+        5605511735,
+        5605511736,
+        5605511737,
+        5605511738,
+        5605511739
+      ]
+    },
+    {
+      "key": "1098409983",
+      "oldFileId": 1098409983,
+      "filename": "canonical-v1-1098409983.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098409983.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098409983.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-light.svg",
+      "sourceSha256": "b58c7082c819f17726bc1a93f586bdab6143275afd9dcfbd10e16a7169ee1cd0",
+      "colorVariant": null,
+      "pngSha256": "86789356f019dc0178a9d623f0d387fbaa202cb641acfe4c544e7f51c1d3419f",
+      "width": 1800,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        13.069824,
+        25.4
+      ],
+      "expectedInkMm": [
+        13.114044,
+        25.454144
+      ],
+      "placementMm": [
+        31.565088,
+        12.7
+      ],
+      "printScale": 1.016,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-t-shirt"
+      ],
+      "variants": [
+        5605512034,
+        5605512035,
+        5605512036,
+        5605512037,
+        5605512038
+      ]
+    },
+    {
+      "key": "1100232911",
+      "oldFileId": 1100232911,
+      "filename": "canonical-v1-1100232911.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1100232911.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1100232911.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-dark.svg",
+      "sourceSha256": "85b01fa30f48adaf6aa8b31e74476a1cde34f95658635aeb955ef2efc1464ff2",
+      "colorVariant": null,
+      "pngSha256": "a332a1f5a0db05fd9cd04c72d14146750447fbb628e5773dfab9863e49ba83fc",
+      "width": 1800,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        13.069824,
+        25.4
+      ],
+      "expectedInkMm": [
+        13.114044,
+        25.454144
+      ],
+      "placementMm": [
+        31.565088,
+        12.7
+      ],
+      "printScale": 1.016,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-t-shirt"
+      ],
+      "variants": [
+        5611139743,
+        5611139757,
+        5611139787,
+        5611140049,
+        5611140058,
+        5612488446,
+        5612489236,
+        5612489432,
+        5612489697,
+        5612489742
+      ]
+    },
+    {
+      "key": "1098409896",
+      "oldFileId": 1098409896,
+      "filename": "canonical-v1-1098409896.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098409896.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098409896.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "53c16f58cca691904435c0758fce08fefc122eb3ce2f135399e77c6abe9fdee1",
+      "width": 1800,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        50.8,
+        13.183136
+      ],
+      "expectedInkMm": [
+        50.825567,
+        13.212588
+      ],
+      "placementMm": [
+        12.7,
+        18.808432
+      ],
+      "printScale": 0.8109704506633035,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-t-shirt"
+      ],
+      "variants": [
+        5605512017,
+        5605512018,
+        5605512019,
+        5605512020,
+        5605512021
+      ]
+    },
+    {
+      "key": "1100232806",
+      "oldFileId": 1100232806,
+      "filename": "canonical-v1-1100232806.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1100232806.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1100232806.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-dark.svg",
+      "sourceSha256": "e17000eb7943b9432b776e3cb0ec52885c38f3fcc239eb1d5cf22f8bdec11670",
+      "colorVariant": null,
+      "pngSha256": "a6d2e829a0756eab96e961e7f47af9755cde1b3012a06fb8671176b259cedc55",
+      "width": 1800,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        50.8,
+        13.183136
+      ],
+      "expectedInkMm": [
+        50.825567,
+        13.212588
+      ],
+      "placementMm": [
+        12.7,
+        18.808432
+      ],
+      "printScale": 0.8109704506633035,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-t-shirt"
+      ],
+      "variants": [
+        5611137911,
+        5611139274,
+        5611139309,
+        5611139535,
+        5611139591,
+        5612485233,
+        5612485942,
+        5612486582,
+        5612486627,
+        5612486705
+      ]
+    },
+    {
+      "key": "1098484010",
+      "oldFileId": 1098484010,
+      "filename": "canonical-v1-1098484010.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098484010.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098484010.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-bone.svg",
+      "sourceSha256": "c0a864f02f879ef6dd0d6ba74988293facdeb9f3787bba1274155b1e538ae382",
+      "colorVariant": null,
+      "pngSha256": "a61493d8da643f0422c0cb6b3ec22d081eb1c97faf661035b10fba82c754eae6",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        12.712,
+        25
+      ],
+      "expectedInkMm": [
+        12.738245,
+        25.053292
+      ],
+      "placementMm": [
+        44.444,
+        38.3
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-sweatpants"
+      ],
+      "variants": [
+        5605511983,
+        5605511984,
+        5605511985,
+        5605511986,
+        5605511987
+      ]
+    },
+    {
+      "key": "1098484110",
+      "oldFileId": 1098484110,
+      "filename": "canonical-v1-1098484110.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098484110.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098484110.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-bone.svg",
+      "sourceSha256": "7723e17377697ba2890ac638629adef09d27db671da2fab95c00f1528b85273f",
+      "colorVariant": null,
+      "pngSha256": "7257f3f6b2c20a41acec08d52ef503116d5757dcd3aca250d790d47cba4d3279",
+      "width": 2400,
+      "height": 2400,
+      "dpi": 600,
+      "headwear": false,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        17.187
+      ],
+      "expectedInkMm": [
+        62.672526,
+        17.223307
+      ],
+      "placementMm": [
+        19.4795,
+        42.2065
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-sweatpants"
+      ],
+      "variants": [
+        5605511970,
+        5605511971,
+        5605511972,
+        5605511974,
+        5605511975
+      ]
+    },
+    {
+      "key": "1099710331",
+      "oldFileId": 1099710331,
+      "filename": "canonical-v1-1099710331.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099710331.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099710331.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-light.svg",
+      "sourceSha256": "b58c7082c819f17726bc1a93f586bdab6143275afd9dcfbd10e16a7169ee1cd0",
+      "colorVariant": null,
+      "pngSha256": "69fda3eb5df02e24f56c24e5be7e3a5a5789ef22440af28d51d6d380c74bbd63",
+      "width": 4200,
+      "height": 4200,
+      "dpi": 300,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        12.895388,
+        25.061
+      ],
+      "expectedInkMm": [
+        12.981441,
+        25.199268
+      ],
+      "placementMm": [
+        260.844973,
+        102.7855
+      ],
+      "printScale": 1.00244,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-hoodie"
+      ],
+      "variants": [
+        5609658785,
+        5609658786,
+        5609658787,
+        5609658788,
+        5609658789,
+        5609658790,
+        5609659020,
+        5609659021,
+        5609659022,
+        5609659023,
+        5609659024,
+        5609659025
+      ]
+    },
+    {
+      "key": "1099710411",
+      "oldFileId": 1099710411,
+      "filename": "canonical-v1-1099710411.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099710411.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099710411.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-dark.svg",
+      "sourceSha256": "85b01fa30f48adaf6aa8b31e74476a1cde34f95658635aeb955ef2efc1464ff2",
+      "colorVariant": null,
+      "pngSha256": "a1d4276129db28011a35a294f6c2d2055975d482567c8504aad64b59ec6d74e8",
+      "width": 4200,
+      "height": 4200,
+      "dpi": 300,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        12.895388,
+        25.061
+      ],
+      "expectedInkMm": [
+        12.981441,
+        25.199268
+      ],
+      "placementMm": [
+        260.844973,
+        102.7855
+      ],
+      "printScale": 1.00244,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-hoodie"
+      ],
+      "variants": [
+        5609658791,
+        5609658792,
+        5609658793,
+        5609658794,
+        5609658795,
+        5609658796,
+        5609659026,
+        5609659027,
+        5609659028,
+        5609659029,
+        5609659030,
+        5609659031
+      ]
+    },
+    {
+      "key": "1099710570",
+      "oldFileId": 1099710570,
+      "filename": "canonical-v1-1099710570.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099710570.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099710570.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/clock/offshft-clock-light.svg",
+      "sourceSha256": "b58c7082c819f17726bc1a93f586bdab6143275afd9dcfbd10e16a7169ee1cd0",
+      "colorVariant": null,
+      "pngSha256": "dbb2a36c9d0b135393768d81ed6c0415c8153d442df4aa40f1953a00a2caffe2",
+      "width": 3600,
+      "height": 4800,
+      "dpi": 300,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        12.895388,
+        25.061
+      ],
+      "expectedInkMm": [
+        12.981441,
+        25.199268
+      ],
+      "placementMm": [
+        223.549306,
+        47.498167
+      ],
+      "printScale": 1.00244,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-hoodie"
+      ],
+      "variants": [
+        5609661111,
+        5609661112,
+        5609661113,
+        5609661114,
+        5609661115,
+        5609661116,
+        5609661117,
+        5609661118,
+        5609661119,
+        5609661120,
+        5609661121,
+        5609661122
+      ]
+    },
+    {
+      "key": "1099706920",
+      "oldFileId": 1099706920,
+      "filename": "canonical-v1-1099706920.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099706920.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099706920.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "8f249f2e8e0c4fc68f6edbf0813312a67519e51fcbe3c3d073977a52f2227a6d",
+      "width": 4200,
+      "height": 4200,
+      "dpi": 300,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        62.738,
+        16.281173
+      ],
+      "expectedInkMm": [
+        62.811958,
+        16.35993
+      ],
+      "placementMm": [
+        235.966,
+        107.175414
+      ],
+      "printScale": 1.00154850656918,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-hoodie"
+      ],
+      "variants": [
+        5609625977,
+        5609625978,
+        5609625979,
+        5609625980,
+        5609625981,
+        5609625982,
+        5609629745,
+        5609629746,
+        5609629747,
+        5609629748,
+        5609629749,
+        5609629750
+      ]
+    },
+    {
+      "key": "1099710281",
+      "oldFileId": 1099710281,
+      "filename": "canonical-v1-1099710281.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1099710281.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1099710281.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-dark.svg",
+      "sourceSha256": "e17000eb7943b9432b776e3cb0ec52885c38f3fcc239eb1d5cf22f8bdec11670",
+      "colorVariant": null,
+      "pngSha256": "f7ba007f18de986a4fe17f06f7b52580d2b53e21afa594a6e04bef502b54f765",
+      "width": 4200,
+      "height": 4200,
+      "dpi": 300,
+      "headwear": false,
+      "printed": true,
+      "physicalArtMm": [
+        62.738,
+        16.281173
+      ],
+      "expectedInkMm": [
+        62.811958,
+        16.35993
+      ],
+      "placementMm": [
+        235.966,
+        107.175414
+      ],
+      "printScale": 1.00154850656918,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-hoodie"
+      ],
+      "variants": [
+        5609625983,
+        5609625984,
+        5609625985,
+        5609625986,
+        5609625987,
+        5609625988,
+        5609629751,
+        5609629752,
+        5609629753,
+        5609629754,
+        5609629755,
+        5609629756
+      ]
+    },
+    {
+      "key": "1101366751",
+      "oldFileId": 1101366751,
+      "filename": "canonical-v1-1101366751.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101366751.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101366751.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/09-punched-out/v3/stacked-centred-dark.svg",
+      "sourceSha256": "11f4374403a31bed15556df872107dbd17024436fc36d184d91da4588da5ada6",
+      "colorVariant": null,
+      "pngSha256": "34928979f441495f8ee85abfbdd51e101868909307dbd728e0bc055900881f73",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.586,
+        17.999
+      ],
+      "expectedInkMm": [
+        63.630769,
+        18.065385
+      ],
+      "placementMm": [
+        43.137,
+        16.4005
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "punched-out-hat"
+      ],
+      "variants": [
+        5605511893,
+        5605511896,
+        5605511897
+      ]
+    },
+    {
+      "key": "1101366823",
+      "oldFileId": 1101366823,
+      "filename": "canonical-v1-1101366823.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101366823.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101366823.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/09-punched-out/v3/stacked-centred-dark.svg",
+      "sourceSha256": "11f4374403a31bed15556df872107dbd17024436fc36d184d91da4588da5ada6",
+      "colorVariant": null,
+      "pngSha256": "1d8bc565d84adb7a43f47447f270da6b66e0043a20bd4f9c0a0f8bb941e9d7e4",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.586,
+        17.999
+      ],
+      "expectedInkMm": [
+        63.630769,
+        18.065385
+      ],
+      "placementMm": [
+        48.217,
+        23.3855
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "punched-out-hat"
+      ],
+      "variants": [
+        5605511894
+      ]
+    },
+    {
+      "key": "1101366885",
+      "oldFileId": 1101366885,
+      "filename": "canonical-v1-1101366885.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101366885.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101366885.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/09-punched-out/v3/stacked-centred-light.svg",
+      "sourceSha256": "9195e03c2a96f60551f21e586ce782cd6b870fac151e475752611a568bf5adb8",
+      "colorVariant": null,
+      "pngSha256": "856cf6d73d397a9f1631755b1d9358b679f44eb8c2809322aabe61098eb93889",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.586,
+        17.999
+      ],
+      "expectedInkMm": [
+        63.630769,
+        18.065385
+      ],
+      "placementMm": [
+        43.137,
+        16.4005
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "punched-out-hat"
+      ],
+      "variants": [
+        5611143800,
+        5611144333
+      ]
+    },
+    {
+      "key": "1101366974",
+      "oldFileId": 1101366974,
+      "filename": "canonical-v1-1101366974.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1101366974.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1101366974.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/09-punched-out/v3/stacked-centred-light.svg",
+      "sourceSha256": "9195e03c2a96f60551f21e586ce782cd6b870fac151e475752611a568bf5adb8",
+      "colorVariant": null,
+      "pngSha256": "1e5958f0b2b8187caa2e9e9e1154b61bb6aa3d23b45ff677433b50b827c7252c",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        63.586,
+        17.999
+      ],
+      "expectedInkMm": [
+        63.630769,
+        18.065385
+      ],
+      "placementMm": [
+        48.217,
+        23.3855
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "punched-out-hat"
+      ],
+      "variants": [
+        5611143918,
+        5611143949
+      ]
+    },
+    {
+      "key": "1098750740",
+      "oldFileId": 1098750740,
+      "filename": "canonical-v1-1098750740.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098750740.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098750740.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/mark/final/the-o/symbol-dark-40mm.svg",
+      "sourceSha256": "60ca7be367cd0a58210679e62757ed518333c855bbcd41f5b2a93a3f85ef9602",
+      "colorVariant": null,
+      "pngSha256": "9fcdb3ca31727737daf6a3ea668e7a8ce332f48ff6c70bff2b3c6f66bd25bff1",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        20.794,
+        40
+      ],
+      "expectedInkMm": [
+        20.851964,
+        40.054381
+      ],
+      "placementMm": [
+        64.533,
+        5.4
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-hat"
+      ],
+      "variants": [
+        5605511864,
+        5605511867,
+        5605511868
+      ]
+    },
+    {
+      "key": "1098754819",
+      "oldFileId": 1098754819,
+      "filename": "canonical-v1-1098754819.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098754819.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098754819.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/mark/final/the-o/symbol-dark-40mm.svg",
+      "sourceSha256": "60ca7be367cd0a58210679e62757ed518333c855bbcd41f5b2a93a3f85ef9602",
+      "colorVariant": null,
+      "pngSha256": "5ca673ae0d07f77aa58c67c5992467cd5d1449bcd07626807c0ad9c8762f7819",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        20.794,
+        40
+      ],
+      "expectedInkMm": [
+        20.851964,
+        40.054381
+      ],
+      "placementMm": [
+        69.613,
+        12.385
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-hat"
+      ],
+      "variants": [
+        5605511865
+      ]
+    },
+    {
+      "key": "1100232252",
+      "oldFileId": 1100232252,
+      "filename": "canonical-v1-1100232252.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1100232252.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1100232252.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/mark/final/the-o/symbol-light-40mm.svg",
+      "sourceSha256": "e87b481506f00ee196862f7415c87e966efd53f439cab3bb6b9090616696a3a6",
+      "colorVariant": null,
+      "pngSha256": "d2eee61d466cfe7cc5dca65d35b90d28aca4583814e79799d09a56c56d13e1a6",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        20.794,
+        40
+      ],
+      "expectedInkMm": [
+        20.851964,
+        40.054381
+      ],
+      "placementMm": [
+        64.533,
+        5.4
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-hat"
+      ],
+      "variants": [
+        5611144700,
+        5611145307
+      ]
+    },
+    {
+      "key": "1100232316",
+      "oldFileId": 1100232316,
+      "filename": "canonical-v1-1100232316.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1100232316.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1100232316.svg",
+      "source": "store/canonical-artwork-refresh/masters/designs/mark/final/the-o/symbol-light-40mm.svg",
+      "sourceSha256": "e87b481506f00ee196862f7415c87e966efd53f439cab3bb6b9090616696a3a6",
+      "colorVariant": null,
+      "pngSha256": "672069675a36811c9921dc217495de28c2b7a9783c6db9c8ef68a63abd5f95cd",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        20.794,
+        40
+      ],
+      "expectedInkMm": [
+        20.851964,
+        40.054381
+      ],
+      "placementMm": [
+        69.613,
+        12.385
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "the-clock-hat"
+      ],
+      "variants": [
+        5611144774,
+        5611144817
+      ]
+    },
+    {
+      "key": "1098755095",
+      "oldFileId": 1098755095,
+      "filename": "canonical-v1-1098755095.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098755095.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098755095.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-dark.svg",
+      "sourceSha256": "e17000eb7943b9432b776e3cb0ec52885c38f3fcc239eb1d5cf22f8bdec11670",
+      "colorVariant": null,
+      "pngSha256": "c640348de2159641fe6b79adb35c4c741ef7723bd8c8ab052414cb49349419ac",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        48.8095,
+        17.272
+      ],
+      "printScale": 1,
+      "seamShiftMm": 5.2,
+      "handles": [
+        "off-shft-logo-hat"
+      ],
+      "variants": [
+        5605511853,
+        5605511856,
+        5605511857
+      ]
+    },
+    {
+      "key": "1098755196",
+      "oldFileId": 1098755196,
+      "filename": "canonical-v1-1098755196.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1098755196.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1098755196.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-dark.svg",
+      "sourceSha256": "e17000eb7943b9432b776e3cb0ec52885c38f3fcc239eb1d5cf22f8bdec11670",
+      "colorVariant": null,
+      "pngSha256": "52c53902b130a4a19b32cd3157fb01692553b2cbc44476e3bb781c45824487db",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        48.6895,
+        24.257
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-hat"
+      ],
+      "variants": [
+        5605511854
+      ]
+    },
+    {
+      "key": "1100232092",
+      "oldFileId": 1100232092,
+      "filename": "canonical-v1-1100232092.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1100232092.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1100232092.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "fc6aab31394136b63ac1580941018b0b1b0c7ea22d57bd33d04c54b61274d8bb",
+      "width": 3540,
+      "height": 1200,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        48.8095,
+        17.272
+      ],
+      "printScale": 1,
+      "seamShiftMm": 5.2,
+      "handles": [
+        "off-shft-logo-hat"
+      ],
+      "variants": [
+        5611143213,
+        5611143634
+      ]
+    },
+    {
+      "key": "1100232162",
+      "oldFileId": 1100232162,
+      "filename": "canonical-v1-1100232162.png",
+      "publishedPath": "store/printful-setup/canonical-v1/canonical-v1-1100232162.png",
+      "vectorPath": "store/printful-setup/canonical-v1/canonical-v1-1100232162.svg",
+      "source": "store/canonical-artwork-refresh/masters/brand/logo/offshft-logo-light.svg",
+      "sourceSha256": "d8f06326b620ee0dc1d262d58c5fe91d0ea3a0ed9de3e8d6193bbd81c4d3ed4d",
+      "colorVariant": null,
+      "pngSha256": "a567a8f2fcf2b901b34b9896c782b3fc9a6376154d55c8cd1368a92959a70b5e",
+      "width": 3780,
+      "height": 1530,
+      "dpi": 600,
+      "headwear": true,
+      "printed": false,
+      "physicalArtMm": [
+        62.641,
+        16.256
+      ],
+      "expectedInkMm": [
+        62.672526,
+        16.292318
+      ],
+      "placementMm": [
+        48.6895,
+        24.257
+      ],
+      "printScale": 1,
+      "seamShiftMm": 0,
+      "handles": [
+        "off-shft-logo-hat"
+      ],
+      "variants": [
+        5611143299,
+        5611143355
+      ]
+    }
+  ]
+}
