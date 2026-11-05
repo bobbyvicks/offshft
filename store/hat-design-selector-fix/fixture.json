@@ -1,0 +1,890 @@
+{
+  "products": {
+    "for-a-reason-hat": {
+      "variants": {
+        "67958236119362": [
+          252,
+          "Embroidered",
+          "Charcoal",
+          "One size",
+          [
+            "One size",
+            "Charcoal"
+          ]
+        ],
+        "67958236152130": [
+          1678,
+          "Embroidered",
+          "Ivory/Ivory",
+          "One size",
+          [
+            "One size",
+            "Ivory"
+          ]
+        ],
+        "67958236184898": [
+          252,
+          "Embroidered",
+          "Evergreen",
+          "One size",
+          [
+            "One size",
+            "Evergreen"
+          ]
+        ]
+      }
+    },
+    "off-shft-logo-hat": {
+      "variants": {
+        "67946082042178": [
+          252,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "Retro Trucker",
+            "Black"
+          ]
+        ],
+        "67946082074946": [
+          952,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "5-Panel",
+            "Black"
+          ]
+        ],
+        "67946082107714": [
+          206,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "Dad Hat",
+            "Black"
+          ]
+        ],
+        "67946082140482": [
+          807,
+          "Embroidered",
+          "Black/White",
+          "One size",
+          [
+            "Rope Cap",
+            "Black/White"
+          ]
+        ],
+        "67946634871106": [
+          252,
+          "Embroidered",
+          "Evergreen",
+          "One size",
+          [
+            "Retro Trucker",
+            "Evergreen"
+          ]
+        ],
+        "67985971085634": [
+          252,
+          "Embroidered",
+          "Khaki",
+          "One size",
+          [
+            "Retro Trucker",
+            "Khaki"
+          ]
+        ],
+        "67985971380546": [
+          952,
+          "Embroidered",
+          "White",
+          "One size",
+          [
+            "5-Panel",
+            "White"
+          ]
+        ],
+        "67985971642690": [
+          952,
+          "Embroidered",
+          "Dark Green/Natural",
+          "One size",
+          [
+            "5-Panel",
+            "Dark Green/Natural"
+          ]
+        ],
+        "67985972396354": [
+          206,
+          "Embroidered",
+          "Stone",
+          "One size",
+          [
+            "Dad Hat",
+            "Stone"
+          ]
+        ],
+        "67985972429122": [
+          206,
+          "Embroidered",
+          "Spruce",
+          "One size",
+          [
+            "Dad Hat",
+            "Spruce"
+          ]
+        ],
+        "67985972461890": [
+          807,
+          "Embroidered",
+          "Lt Gray/Navy",
+          "One size",
+          [
+            "Rope Cap",
+            "Lt Gray/Navy"
+          ]
+        ]
+      }
+    },
+    "punched-out-hat": {
+      "variants": {
+        "67946082304322": [
+          252,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "Retro Trucker",
+            "Black"
+          ]
+        ],
+        "67946082337090": [
+          952,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "5-Panel",
+            "Black"
+          ]
+        ],
+        "67946082369858": [
+          206,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "Dad Hat",
+            "Black"
+          ]
+        ],
+        "67946082402626": [
+          807,
+          "Embroidered",
+          "Black/White",
+          "One size",
+          [
+            "Rope Cap",
+            "Black/White"
+          ]
+        ],
+        "67946634903874": [
+          252,
+          "Embroidered",
+          "Evergreen",
+          "One size",
+          [
+            "Retro Trucker",
+            "Evergreen"
+          ]
+        ],
+        "67985972494658": [
+          252,
+          "Embroidered",
+          "Khaki",
+          "One size",
+          [
+            "Retro Trucker",
+            "Khaki"
+          ]
+        ],
+        "67985972560194": [
+          952,
+          "Embroidered",
+          "White",
+          "One size",
+          [
+            "5-Panel",
+            "White"
+          ]
+        ],
+        "67985972592962": [
+          952,
+          "Embroidered",
+          "Dark Green/Natural",
+          "One size",
+          [
+            "5-Panel",
+            "Dark Green/Natural"
+          ]
+        ],
+        "67985972625730": [
+          206,
+          "Embroidered",
+          "Stone",
+          "One size",
+          [
+            "Dad Hat",
+            "Stone"
+          ]
+        ],
+        "67985972658498": [
+          206,
+          "Embroidered",
+          "Spruce",
+          "One size",
+          [
+            "Dad Hat",
+            "Spruce"
+          ]
+        ],
+        "67985972691266": [
+          807,
+          "Embroidered",
+          "Lt Gray/Navy",
+          "One size",
+          [
+            "Rope Cap",
+            "Lt Gray/Navy"
+          ]
+        ]
+      }
+    },
+    "the-clock-hat": {
+      "variants": {
+        "67946082173250": [
+          252,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "Retro Trucker",
+            "Black"
+          ]
+        ],
+        "67946082206018": [
+          952,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "5-Panel",
+            "Black"
+          ]
+        ],
+        "67946082238786": [
+          206,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "Dad Hat",
+            "Black"
+          ]
+        ],
+        "67946082271554": [
+          807,
+          "Embroidered",
+          "Black/White",
+          "One size",
+          [
+            "Rope Cap",
+            "Black/White"
+          ]
+        ],
+        "67946634772802": [
+          252,
+          "Embroidered",
+          "Evergreen",
+          "One size",
+          [
+            "Retro Trucker",
+            "Evergreen"
+          ]
+        ],
+        "67985972789570": [
+          252,
+          "Embroidered",
+          "Khaki",
+          "One size",
+          [
+            "Retro Trucker",
+            "Khaki"
+          ]
+        ],
+        "67985972822338": [
+          952,
+          "Embroidered",
+          "White",
+          "One size",
+          [
+            "5-Panel",
+            "White"
+          ]
+        ],
+        "67985972855106": [
+          952,
+          "Embroidered",
+          "Dark Green/Natural",
+          "One size",
+          [
+            "5-Panel",
+            "Dark Green/Natural"
+          ]
+        ],
+        "67985972887874": [
+          206,
+          "Embroidered",
+          "Stone",
+          "One size",
+          [
+            "Dad Hat",
+            "Stone"
+          ]
+        ],
+        "67985972920642": [
+          206,
+          "Embroidered",
+          "Spruce",
+          "One size",
+          [
+            "Dad Hat",
+            "Spruce"
+          ]
+        ],
+        "67985972953410": [
+          807,
+          "Embroidered",
+          "Lt Gray/Navy",
+          "One size",
+          [
+            "Rope Cap",
+            "Lt Gray/Navy"
+          ]
+        ]
+      }
+    },
+    "ours-to-spend-trucker-hat": {
+      "variants": {
+        "67956660502850": [
+          252,
+          "Embroidered",
+          "Evergreen",
+          "One size",
+          [
+            "One size",
+            "Evergreen"
+          ]
+        ],
+        "67956660535618": [
+          252,
+          "Embroidered",
+          "Navy",
+          "One size",
+          [
+            "One size",
+            "Navy"
+          ]
+        ],
+        "67956660568386": [
+          252,
+          "Embroidered",
+          "Khaki",
+          "One size",
+          [
+            "One size",
+            "Khaki"
+          ]
+        ],
+        "67956660601154": [
+          252,
+          "Embroidered",
+          "Caramel",
+          "One size",
+          [
+            "One size",
+            "Caramel"
+          ]
+        ]
+      }
+    },
+    "banked-time-hat": {
+      "variants": {
+        "67959693640002": [
+          206,
+          "Embroidered",
+          "Spruce",
+          "One size",
+          [
+            "Dad Hat",
+            "Spruce"
+          ]
+        ],
+        "67959693672770": [
+          252,
+          "Embroidered",
+          "Charcoal/ Black",
+          "One size",
+          [
+            "Retro Trucker",
+            "Charcoal/ Black"
+          ]
+        ],
+        "67985973870914": [
+          206,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "Dad Hat",
+            "Black"
+          ]
+        ],
+        "67985973903682": [
+          252,
+          "Embroidered",
+          "Evergreen",
+          "One size",
+          [
+            "Retro Trucker",
+            "Evergreen"
+          ]
+        ]
+      }
+    },
+    "parked-trucker-hat": {
+      "variants": {
+        "67985992220994": [
+          252,
+          "Embroidered",
+          "Evergreen",
+          "One size",
+          [
+            "Evergreen"
+          ]
+        ],
+        "67986000642370": [
+          252,
+          "Embroidered",
+          "Black",
+          "One size",
+          [
+            "Black"
+          ]
+        ]
+      }
+    },
+    "off-shft-golf-club-performance-golf-shirt": {
+      "variants": {
+        "67989730230594": [
+          767,
+          "Embroidered",
+          "White",
+          "S",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "S",
+            "White"
+          ]
+        ],
+        "67989730263362": [
+          767,
+          "Embroidered",
+          "White",
+          "M",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "M",
+            "White"
+          ]
+        ],
+        "67989730296130": [
+          767,
+          "Embroidered",
+          "White",
+          "L",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "L",
+            "White"
+          ]
+        ],
+        "67989730328898": [
+          767,
+          "Embroidered",
+          "White",
+          "XL",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "XL",
+            "White"
+          ]
+        ],
+        "67989730361666": [
+          767,
+          "Embroidered",
+          "White",
+          "2XL",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "2XL",
+            "White"
+          ]
+        ],
+        "67989730394434": [
+          767,
+          "Embroidered",
+          "White",
+          "3XL",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "3XL",
+            "White"
+          ]
+        ],
+        "67989730427202": [
+          767,
+          "Embroidered",
+          "Collegiate Navy",
+          "S",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "S",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989730459970": [
+          767,
+          "Embroidered",
+          "Collegiate Navy",
+          "M",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "M",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989730492738": [
+          767,
+          "Embroidered",
+          "Collegiate Navy",
+          "L",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "L",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989730525506": [
+          767,
+          "Embroidered",
+          "Collegiate Navy",
+          "XL",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "XL",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989730558274": [
+          767,
+          "Embroidered",
+          "Collegiate Navy",
+          "2XL",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "2XL",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989730591042": [
+          767,
+          "Embroidered",
+          "Collegiate Navy",
+          "3XL",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "3XL",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989730623810": [
+          767,
+          "Embroidered",
+          "Grey Three",
+          "S",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "S",
+            "Grey Three"
+          ]
+        ],
+        "67989730656578": [
+          767,
+          "Embroidered",
+          "Grey Three",
+          "M",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "M",
+            "Grey Three"
+          ]
+        ],
+        "67989730689346": [
+          767,
+          "Embroidered",
+          "Grey Three",
+          "L",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "L",
+            "Grey Three"
+          ]
+        ],
+        "67989730722114": [
+          767,
+          "Embroidered",
+          "Grey Three",
+          "XL",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "XL",
+            "Grey Three"
+          ]
+        ],
+        "67989730754882": [
+          767,
+          "Embroidered",
+          "Grey Three",
+          "2XL",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "2XL",
+            "Grey Three"
+          ]
+        ],
+        "67989730787650": [
+          767,
+          "Embroidered",
+          "Grey Three",
+          "3XL",
+          [
+            "Performance \u00e2\u20ac\u201d Embroidered",
+            "3XL",
+            "Grey Three"
+          ]
+        ],
+        "67989730820418": [
+          767,
+          "Printed",
+          "White",
+          "S",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "S",
+            "White"
+          ]
+        ],
+        "67989730853186": [
+          767,
+          "Printed",
+          "White",
+          "M",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "M",
+            "White"
+          ]
+        ],
+        "67989730885954": [
+          767,
+          "Printed",
+          "White",
+          "L",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "L",
+            "White"
+          ]
+        ],
+        "67989730918722": [
+          767,
+          "Printed",
+          "White",
+          "XL",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "XL",
+            "White"
+          ]
+        ],
+        "67989730951490": [
+          767,
+          "Printed",
+          "White",
+          "2XL",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "2XL",
+            "White"
+          ]
+        ],
+        "67989730984258": [
+          767,
+          "Printed",
+          "White",
+          "3XL",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "3XL",
+            "White"
+          ]
+        ],
+        "67989731017026": [
+          767,
+          "Printed",
+          "Collegiate Navy",
+          "S",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "S",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989731049794": [
+          767,
+          "Printed",
+          "Collegiate Navy",
+          "M",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "M",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989731082562": [
+          767,
+          "Printed",
+          "Collegiate Navy",
+          "L",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "L",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989731115330": [
+          767,
+          "Printed",
+          "Collegiate Navy",
+          "XL",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "XL",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989731148098": [
+          767,
+          "Printed",
+          "Collegiate Navy",
+          "2XL",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "2XL",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989731180866": [
+          767,
+          "Printed",
+          "Collegiate Navy",
+          "3XL",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "3XL",
+            "Collegiate Navy"
+          ]
+        ],
+        "67989731213634": [
+          767,
+          "Printed",
+          "Grey Three",
+          "S",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "S",
+            "Grey Three"
+          ]
+        ],
+        "67989731246402": [
+          767,
+          "Printed",
+          "Grey Three",
+          "M",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "M",
+            "Grey Three"
+          ]
+        ],
+        "67989731279170": [
+          767,
+          "Printed",
+          "Grey Three",
+          "L",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "L",
+            "Grey Three"
+          ]
+        ],
+        "67989731311938": [
+          767,
+          "Printed",
+          "Grey Three",
+          "XL",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "XL",
+            "Grey Three"
+          ]
+        ],
+        "67989731344706": [
+          767,
+          "Printed",
+          "Grey Three",
+          "2XL",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "2XL",
+            "Grey Three"
+          ]
+        ],
+        "67989731377474": [
+          767,
+          "Printed",
+          "Grey Three",
+          "3XL",
+          [
+            "Performance \u00e2\u20ac\u201d Printed",
+            "3XL",
+            "Grey Three"
+          ]
+        ]
+      }
+    }
+  }
+}
