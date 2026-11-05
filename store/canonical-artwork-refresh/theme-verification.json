@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "canonicalPickerReferences": 27,
+  "activeArtworkEntries": 24,
+  "unusedOldArtworkRemoved": 25,
+  "correctedSizeDetails": 72,
+  "publicThemeAssetsVerified": 2,
+  "allOtherProductAndNavigationDataUnchanged": true,
+  "homepageChangeLimitedToHero": true,
+  "desktopAndPhoneHeroVerified": true,
+  "hatColoursVerified": 3
+}

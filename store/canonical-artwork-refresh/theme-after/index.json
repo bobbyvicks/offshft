@@ -1,0 +1,381 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "offshft_hero": {
+      "type": "section",
+      "name": "OFF SHFT — For the hours you earned",
+      "blocks": {
+        "canonical_hero": {
+          "type": "custom-liquid",
+          "name": "OFF SHFT canonical product photos",
+          "settings": {
+            "custom_liquid": "<style>.offshft-canonical-hero{position:relative;isolation:isolate;display:grid;grid-template-columns:43% 57%;min-height:600px;overflow:hidden;background:radial-gradient(ellipse at 13% 16%,#fff3dc 0,transparent 65%),linear-gradient(120deg,#e9deca,#ddccb0);color:#1f2733}\n.offshft-canonical-hero__copy{position:relative;z-index:5;align-self:center;padding:56px 0 56px clamp(24px,3.2vw,72px)}\n.offshft-canonical-hero h1{font-family:var(--font-body--family),Archivo,sans-serif;font-weight:800;font-size:clamp(42px,4.5vw,70px);line-height:.99;letter-spacing:.015em;text-transform:uppercase;margin:0 0 28px}\n.offshft-canonical-hero h1 span{display:block}\n.offshft-canonical-hero__copy p{font-family:var(--font-body--family),Archivo,sans-serif;font-size:16px;line-height:1.5;margin:0 0 28px}\n.offshft-canonical-hero__button{display:inline-flex;align-items:center;justify-content:center;min-height:58px;padding:16px 28px;background:#1f2733;color:#ece5d3;text-decoration:none;font-family:var(--font-body--family),Archivo,sans-serif;font-size:14px;font-weight:700}\n.offshft-canonical-hero__stage{position:relative;min-width:0;min-height:600px;align-self:stretch}\n.offshft-canonical-hero__stage::before{content:\"\";position:absolute;inset:auto 3% 0 -2%;height:13%;border-radius:50%;background:#80684c;opacity:.13;filter:blur(20px)}\n.offshft-canonical-hero__item{display:block;position:absolute;max-width:none;height:auto;object-fit:contain;filter:drop-shadow(8px 15px 9px #624c3021)}\n.offshft-canonical-hero__hoodie{z-index:1;width:74%;right:5%;top:1%;transform:rotate(4deg)}\n.offshft-canonical-hero__sweats{z-index:2;width:56%;left:-3%;bottom:8%;transform:rotate(-7deg)}\n.offshft-canonical-hero__hat{z-index:3;width:40%;right:4%;bottom:6%;transform:rotate(-6deg)}\n@media(min-width:1600px){.offshft-canonical-hero{min-height:740px}.offshft-canonical-hero__stage{min-height:740px}}\n@media(max-width:749px){.offshft-canonical-hero{display:flex;flex-direction:column;min-height:0}.offshft-canonical-hero__copy{align-self:stretch;padding:36px 24px 0}.offshft-canonical-hero h1{font-size:clamp(38px,10.3vw,54px);margin-bottom:20px}.offshft-canonical-hero__copy p{font-size:15px;margin-bottom:20px}.offshft-canonical-hero__button{min-height:50px;padding:12px 22px}.offshft-canonical-hero__stage{min-height:0;width:100%;height:auto;aspect-ratio:1.04;margin-top:8px}.offshft-canonical-hero__hoodie{width:73%;right:5%;top:1%}.offshft-canonical-hero__sweats{width:57%;left:1%;bottom:8%}.offshft-canonical-hero__hat{width:42%;right:4%;bottom:5%}}\n\n.offshft-canonical-hero{width:100%;max-width:100%}div:has(>.offshft-canonical-hero){width:100%;max-width:none}\n</style>\n<section class=\"offshft-canonical-hero\"><div class=\"offshft-canonical-hero__copy\"><h1><span>For the</span> <span>hours you</span> <span>earned.</span></h1><p>Hats, hoodies and sweats for your time off.</p><a class=\"offshft-canonical-hero__button\" href=\"/collections/all\">Shop the collection</a></div><div class=\"offshft-canonical-hero__stage\">{{ images['hoodie-1467-ivory-logo.png'] | image_url: width: 1000 | image_tag: class: 'offshft-canonical-hero__item offshft-canonical-hero__hoodie', widths: '400,700,1000', sizes: '(min-width:750px) 43vw, 75vw', loading: 'eager', alt: 'OFF SHFT lightweight hoodie in Ivory', fetchpriority: 'high' }}{{ images['the-clock-sweatpants-pepper-uniform.png'] | image_url: width: 1000 | image_tag: class: 'offshft-canonical-hero__item offshft-canonical-hero__sweats', widths: '400,700,1000', sizes: '(min-width:750px) 33vw, 58vw', loading: 'eager', alt: 'The Clock sweatpants in Pepper' }}{{ images['for-a-reason-evergreen.png'] | image_url: width: 1000 | image_tag: class: 'offshft-canonical-hero__item offshft-canonical-hero__hat', widths: '400,700,1000', sizes: '(min-width:750px) 24vw, 43vw', loading: 'eager', alt: 'For a Reason trucker hat in Evergreen' }}</div></section>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "canonical_hero"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 0,
+        "section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "#ece5d3",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "offshft_products": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "name": "t:names.header",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_list_text_YFtzcL": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<h2>For your time off.</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_MWeP9V": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "Shop all",
+                "open_in_new_tab": false,
+                "style_class": "button-unstyled",
+                "custom_button_background": "{{ settings.color_palette.foreground }}",
+                "custom_button_text": "{{ settings.color_palette.background }}",
+                "custom_button_border": "{{ settings.color_palette.background }}",
+                "link_text_color": "",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_YFtzcL",
+            "product_list_button_MWeP9V"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 8,
+            "background_color": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_677WP3": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_YXxMTj": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_JQzVV4": {
+              "type": "price",
+              "name": "t:names.product_price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "text_color": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_677WP3",
+            "product_title_YXxMTj",
+            "price_JQzVV4"
+          ]
+        }
+      },
+      "name": "The OFF SHFT collection",
+      "settings": {
+        "collection": "frontpage",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 8,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 20,
+        "rows_gap": 32,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "background_color": "#ece5d3",
+        "padding-block-start": 64,
+        "padding-block-end": 64
+      }
+    },
+    "section_idea": {
+      "type": "section",
+      "blocks": {
+        "icon_clock": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "image_upload": "shopify://shop_images/offshft-favicon.png",
+            "width": 64,
+            "link": "",
+            "open_in_new_tab": false,
+            "icon_color": ""
+          },
+          "blocks": {}
+        },
+        "text_idea_title": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Everybody has a shift.</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_idea_line": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The good part is what happens after it.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_about": {
+          "type": "button",
+          "settings": {
+            "label": "About OFF SHFT",
+            "link": "/pages/about",
+            "open_in_new_tab": false,
+            "style_class": "button-secondary",
+            "custom_button_background": "{{ settings.color_palette.foreground }}",
+            "custom_button_text": "{{ settings.color_palette.background }}",
+            "custom_button_border": "{{ settings.color_palette.background }}",
+            "link_text_color": "",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "icon_clock",
+        "text_idea_title",
+        "text_idea_line",
+        "button_about"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "#e4ddcb",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 64,
+        "padding-block-end": 64
+      }
+    }
+  },
+  "order": [
+    "offshft_hero",
+    "offshft_products",
+    "section_idea"
+  ]
+}

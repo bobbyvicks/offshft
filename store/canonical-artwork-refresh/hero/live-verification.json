@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "desktop": {
+    "heading": "For the hours you earned.",
+    "headingFont": "Archivo, sans-serif, Archivo, sans-serif",
+    "images": [
+      {
+        "alt": "OFF SHFT lightweight hoodie in Ivory",
+        "loaded": true,
+        "source": "https://offshft.myshopify.com/cdn/shop/files/hoodie-1467-ivory-logo.png?v=1793672430&width=700"
+      },
+      {
+        "alt": "The Clock sweatpants in Pepper",
+        "loaded": true,
+        "source": "https://offshft.myshopify.com/cdn/shop/files/the-clock-sweatpants-pepper-uniform.png?v=1793672369&width=700"
+      },
+      {
+        "alt": "For a Reason trucker hat in Evergreen",
+        "loaded": true,
+        "source": "https://offshft.myshopify.com/cdn/shop/files/for-a-reason-evergreen.png?v=1793671706&width=400"
+      }
+    ],
+    "scrollWidth": 1280,
+    "shopLink": "/collections/all",
+    "width": 1280
+  },
+  "mobile": {
+    "headingFont": "Archivo, sans-serif, Archivo, sans-serif",
+    "images": [
+      {
+        "alt": "OFF SHFT lightweight hoodie in Ivory",
+        "loaded": true,
+        "source": "https://offshft.myshopify.com/cdn/shop/files/hoodie-1467-ivory-logo.png?v=1793672430&width=400"
+      },
+      {
+        "alt": "The Clock sweatpants in Pepper",
+        "loaded": true,
+        "source": "https://offshft.myshopify.com/cdn/shop/files/the-clock-sweatpants-pepper-uniform.png?v=1793672369&width=400"
+      },
+      {
+        "alt": "For a Reason trucker hat in Evergreen",
+        "loaded": true,
+        "source": "https://offshft.myshopify.com/cdn/shop/files/for-a-reason-evergreen.png?v=1793671706&width=400"
+      }
+    ],
+    "scrollWidth": 380,
+    "width": 390
+  }
+}

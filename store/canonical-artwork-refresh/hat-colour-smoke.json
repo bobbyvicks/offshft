@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "colour": "Ivory",
+      "variantId": 67958236152130,
+      "image": "for-a-reason-ivory.png",
+      "status": "PASS"
+    },
+    {
+      "colour": "Evergreen",
+      "variantId": 67958236184898,
+      "image": "for-a-reason-evergreen.png",
+      "status": "PASS"
+    },
+    {
+      "colour": "Charcoal",
+      "variantId": 67958236119362,
+      "image": "for-a-reason-charcoal.png",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "productionCanvases": 65,
+  "canonicalSources": 18,
+  "pinnedMastersCompared": 16,
+  "approvedNewMasters": 2,
+  "variants": 823,
+  "products": 37,
+  "checks": [
+    "pinned Git source bytes",
+    "source SHA-256",
+    "unchanged embedded vector",
+    "full placement bounds",
+    "transparent corners",
+    "physical DPI and canvas dimensions",
+    "no embroidery scaling"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "dependencies": [
+    {
+      "path": "tools/kit/kit.cjs",
+      "sha256": "8710e07ffa53cdc77254fe94a1a147dc90b2d71e4e7aac1399725a8538e92eb5",
+      "matchesPinnedCanonical": true
+    },
+    {
+      "path": "tools/fonts/Unbounded-Bold.ttf",
+      "sha256": "3ea5cfaa1e6b5fdd9fe92896a6de89a41e15eed6f73e24276dcef50039f107be",
+      "matchesPinnedCanonical": true
+    }
+  ]
+}
